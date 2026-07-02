@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- WorldTracker_BarbarianCamps -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 12/31/2023 11:31:53 AM -->
+
+<Context Name="BarbarianCampListAddon">
+
+	<Grid ID="BarbarianCampListGrid" Offset="0,0" Size="296,25"  Texture="Controls_DropdownPanel" Color="143,122,82,200" Anchor="L,T" ConsumeMouseOver="1" Hidden="0">
+		<Box Offset="0,0" Size="parent-5,default" Color="143,122,82,200">
+			<Image Texture="Controls_GradientSmall" Size="parent,30" Color="0,0,0,255" Anchor="L,T"/>
+			<Container ID="BarbarianCamp_PanelContainer" Offset="0,0" Align="Center" Size="parent,1" >
+				<Button ID="BarbarianCamp_HeaderTitle" Anchor="C,C" Offset="0,5" ConsumeAllMouse="1" Size="250,25">
+					<Label ID="BarbarianCamp_PanelTitle" Anchor="C,C" Offset="0,7" Align="Center" Size="200,23" WrapWidth="Parent-40" Style="FontFlair16" Color2="143,122,82,255" Color0="106,93,69,230" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0" String="LOC_BARBARIAN_CAMP_LIST_HEADER" />
+				</Button>
+				<Stack ID="BarbarianCamp_MainStack" StackGrowth="Bottom" StackPadding="5" Offset="0,25">
+					<!--<Grid Size="296,40" Texture="Controls_DrawerUp" SliceCorner="5,4" SliceSize="3,2" SliceTextureSize="14,8">
+						<Label Style="PanelHeaderText" String="LOC_WORLDTRACKER_UNIT_LIST" Anchor="C,T" Offset="0,6" FontSize="16"/>
+					</Grid>-->
+
+					<ScrollPanel  ID="BarbarianCampListScroll"  Anchor="C,T" Vertical="1" Size="296,170" Offset="-10,0" AutoScrollBar="1" Hidden="0">
+						<Stack	ID="BarbarianCampStack" Anchor="C,T" StackGrowth="Bottom" StackPadding="3"/>
+						<Label ID="NoBarbarianCampsLabel" Style="PanelHeaderText" String="LOC_WORLDTRACKER_NO_BARBARIAN_CAMPS" Anchor="C,C" FontSize="20" Offset="0,-7" Hidden="1"/>
+						<ScrollBar  Style="Slider_Blue" Offset="0,0" Anchor="R,C"/>
+					</ScrollPanel>
+					<!--<Grid Size="296,40" Texture="Controls_DrawerUp" SliceCorner="5,4" SliceSize="3,2" SliceTextureSize="14,8">
+						<Grid Texture="Controls_Search2" SliceCorner="30,13" SliceTextureSize="41,26" Anchor="C,C" Size="parent-50,26" ToolTip="LOC_WORLDTRACKER_UNITS_SEARCH_TT">
+							<EditBox ID="BarbarianCampsSearchBox" Style="EditTextArea" Size="parent-30,22" Anchor="L,C" Offset="24,0" EditMode="0" FocusStop="0" KeepFocus="1"/>
+						</Grid>
+					</Grid>-->
+				</Stack>
+			</Container>
+		</Box>
+	</Grid>
+
+	<!--Controls_DropdownPanel-->
+	<!--Controls_GradientSmall-->
+	<!--Controls_DrawerUp-->
+
+	<Container ID="BarbarianCampListStack"  Size="auto,auto" Anchor="R,T">
+		<CheckBox ID="ToggleBarbarianCampListCheck" Anchor="R,T" Offset="0,66" Style="WorldTrackerCheckBox" TextOffset="-5" String="LOC_BARBARIAN_CAMP_LIST_HEADER" WrapWidth="180" Align="Right" Hidden="0" />
+	</Container>
+
+	<Instance Name="BarbarianCampListEntry">
+		<GridButton Anchor="L,T" ID="Button" Style="BarbarianCampPanelHeader" Size="parent-20,40" Texture="Controls_ButtonControl.dds" SliceCorner="10,10" SliceSize="1,1" SliceTextureSize="24,24" StateOffsetIncrement="0,24" TruncateWidth="150">
+			<Image ID="BarbarianCampTypeIcon" Anchor="L,C" Size="36,36" Offset="2,0" />
+			<!--<Image ID="BarbarianCampStatusIcon" Anchor="R,C" Size="38,38" Offset="2,0" Texture="Stats22"/>-->
+			<GridButton	ID="ToggleTreatWithTribePopup" Size="43,25" Style="ButtonControlTan" String="LOC_WORLDTRACKER_BARBARIAN_CAMP_TREAT_POPUP_TEXT_UNREVEALED_CLANMODE"  Anchor="R,C" Offset="2,0" Hidden="1"/>
+		</GridButton>
+	</Instance>
+
+
+
+</Context>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_MOTHERLAND_CALLS" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Icon_TMC_32"/>
+		<Row Name="ICON_ATLAS_MOTHERLAND_CALLS" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="Icon_TMC_38"/>
+		<Row Name="ICON_ATLAS_MOTHERLAND_CALLS_FOW" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="Icon_TMC_38"/>
+		<Row Name="ICON_ATLAS_MOTHERLAND_CALLS" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Icon_TMC_50"/>
+		<Row Name="ICON_ATLAS_MOTHERLAND_CALLS" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="Icon_TMC_64"/>
+		<Row Name="ICON_ATLAS_MOTHERLAND_CALLS" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="Icon_TMC_128"/>
+		<Row Name="ICON_ATLAS_MOTHERLAND_CALLS" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Icon_TMC_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_MOTHERLAND_CALLS" Atlas="ICON_ATLAS_MOTHERLAND_CALLS" Index="0"/>
+	</IconDefinitions>
+</GameData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Aztec_AI -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/30/2023 10:13:25 AM -->
+<GameData>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_AZTEC_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+	</RequirementSetRequirements>
+</GameData>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="B5A85CAE-D945-05A5-2419-66D7A21554A0" version="1">
+  <Properties>
+    <Name>Disables All Project Built Popup</Name>
+    <Teaser>Disables All Space Race Project Built Popup</Teaser>
+    <Description>Disables All Space Race Project Built Popup</Description>
+    <Authors>Memory</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+
+  <InGameActions>
+     <ReplaceUIScript id="ZHY_ReplaceUI">
+      <Properties>
+        <Context>InGame</Context>
+        <LoadOrder>9001</LoadOrder>
+        <LuaContext>ProjectBuiltPopup</LuaContext>
+        <LuaReplace>ProjectBuiltPopup_Disabled.lua</LuaReplace>
+      </Properties>
+    </ReplaceUIScript>
+    <ImportFiles id="ZHY_ImportFiles">
+      <File>ProjectBuiltPopup_Disabled.lua</File>
+    </ImportFiles>
+  </InGameActions>
+	
+  <Files>
+    <File>ProjectBuiltPopup_Disabled.lua</File>
+  </Files>
+</Mod>

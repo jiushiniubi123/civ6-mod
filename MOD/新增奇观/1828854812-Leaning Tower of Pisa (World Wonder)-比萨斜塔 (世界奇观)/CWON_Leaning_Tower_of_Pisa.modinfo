@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d1c3ef16-00ed-4d72-a468-1e584fdb85ad" version="1">
+  <Properties>
+    <Name>Leaning Tower of Pisa (World Wonder)</Name>
+    <Description>Adds the Leaning Tower of Pisa as a World Wonder.</Description>
+    <Created>1613096581</Created>
+    <Teaser>Adds the Leaning Tower of Pisa as a World Wonder.</Teaser>
+    <Authors>Deliverator</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateArt id="LT_Art">
+      <File>CWON_Leaning_Tower_of_Pisa.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="LT_Icons">
+      <File>Icons/Leaning_Tower_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateDatabase id="LT_DB">
+      <File>Gameplay/Leaning_Tower_Gameplay.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="LT_Text">
+      <File>Text/Leaning_Tower_Text.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>CWON_Leaning_Tower_of_Pisa.dep</File>
+    <File>Gameplay/Leaning_Tower_Gameplay.sql</File>
+    <File>Icons/Leaning_Tower_Icons.xml</File>
+    <File>Platforms/MacOS/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Black_Gloss</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Black_Metalness</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_leaning_tower_diff_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_leaning_tower_grnd_diff_512_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_leaning_tower_hb_diff_1024_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_leaning_tower_hb_grnd_diff_512_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_Construction_props_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_Movie_GreyBrick_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Flat_Normal_v20</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Flat_Normal_v21</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_leaning_tower_grnd_diff_512</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_leaning_tower_hb_grnd_diff_512</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_White_AO</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Construction_props_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Construction_props_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Construction_props_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Construction_props_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Brick_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Movie_GreyBrick_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Movie_GreyBrick_N1</File>
+    <File>Platforms/MacOS/BLPs/strategicview/strategicview_buildings.blp</File>
+    <File>Platforms/MacOS/BLPs/UITextures.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Black_Gloss</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Black_Metalness</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_leaning_tower_diff_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_leaning_tower_grnd_diff_512_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_leaning_tower_hb_diff_1024_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_leaning_tower_hb_grnd_diff_512_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_Construction_props_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_Movie_GreyBrick_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Flat_Normal_v20</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Flat_Normal_v21</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_leaning_tower_grnd_diff_512</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_leaning_tower_hb_grnd_diff_512</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_White_AO</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Construction_props_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Construction_props_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Construction_props_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Construction_props_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Brick_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Movie_GreyBrick_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Movie_GreyBrick_N1</File>
+    <File>Platforms/Windows/BLPs/strategicview/strategicview_buildings.blp</File>
+    <File>Platforms/Windows/BLPs/UITextures.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+    <File>Text/Leaning_Tower_Text.xml</File>
+  </Files>
+</Mod>

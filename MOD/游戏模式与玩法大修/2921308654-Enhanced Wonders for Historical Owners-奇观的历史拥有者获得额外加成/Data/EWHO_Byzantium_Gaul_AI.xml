@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Byzantium_Gaul_AI -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/30/2023 8:58:17 AM -->
+<GameData>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_BYZANTIUM_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+
+	</RequirementSetRequirements>
+</GameData>

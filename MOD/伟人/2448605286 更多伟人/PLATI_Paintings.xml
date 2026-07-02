@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_PLATIART_GREATWORKS" IconSize="256" IconsPerRow="6" IconsPerColumn="2" Filename="PLATI_Works256.dds"/>
+		<Row Name="ICON_ATLAS_PLATIART_GREATWORKS" IconSize="64" IconsPerRow="6" IconsPerColumn="2" Filename="PLATI_Works64.dds"/>
+		<Row Name="ICON_ATLAS_PLATIART_GREATWORKS" IconSize="45" IconsPerRow="6" IconsPerColumn="2" Filename="PLATI_Works45.dds"/>
+		<!-- -->
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_GREATWORK_PLATI_VIIKTOR_VASNETSOV_4" 	Atlas="ICON_ATLAS_PLATIART_GREATWORKS" Index="3"/>
+		<Row Name="ICON_GREATWORK_PLATI_VIIKTOR_VASNETSOV_5" 	Atlas="ICON_ATLAS_PLATIART_GREATWORKS" Index="4"/>
+		<Row Name="ICON_GREATWORK_PLATI_VIIKTOR_VASNETSOV_6" 	Atlas="ICON_ATLAS_PLATIART_GREATWORKS" Index="5"/>
+		<Row Name="ICON_GREATWORK_PLATI_HOBBES_1"               Atlas="ICON_ATLAS_GREATWORKS" Index="0"/>
+		<Row Name="ICON_GREATWORK_PLATI_HOBBES_2"               Atlas="ICON_ATLAS_GREATWORKS" Index="0"/>
+		<Row Name="ICON_GREATWORK_PLATI_HEIDEGGER_1"            Atlas="ICON_ATLAS_GREATWORKS" Index="0"/>
+		<Row Name="ICON_GREATWORK_PLATI_HEIDEGGER_2"            Atlas="ICON_ATLAS_GREATWORKS" Index="0"/>
+		<Row Name="ICON_GREATWORK_PLATI_LOVECRAFT_1"            Atlas="ICON_ATLAS_GREATWORKS" Index="0"/>
+		<Row Name="ICON_GREATWORK_PLATI_LOVECRAFT_2"            Atlas="ICON_ATLAS_GREATWORKS" Index="0"/>
+		<Row Name="ICON_GREATWORK_PLATI_RHOWARD_1"              Atlas="ICON_ATLAS_GREATWORKS" Index="0"/>
+		<Row Name="ICON_GREATWORK_PLATI_RHOWARD_2"              Atlas="ICON_ATLAS_GREATWORKS" Index="0"/>
+		<Row Name="ICON_GREATWORK_PLATI_NIETZSCHE_1"            Atlas="ICON_ATLAS_GREATWORKS" Index="0"/>
+		<Row Name="ICON_GREATWORK_PLATI_NIETZSCHE_2"            Atlas="ICON_ATLAS_GREATWORKS" Index="0"/>
+		<!-- -->
+	</IconDefinitions>
+</GameInfo>

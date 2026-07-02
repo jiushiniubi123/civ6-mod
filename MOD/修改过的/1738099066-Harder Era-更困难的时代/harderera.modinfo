@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="75da1003-cdc4-4786-a21c-a45c8d30ae9c" version="1">
+  <Properties>
+    <Name>Harder Era</Name>
+    <Description><![CDATA[Too easy to get Golden Age? Want more challenge? You want to try Dark Age but literally anything can put you in Normal Age? This mod is there to make your life (and your citizen's) harder!
+
+* All Historic Moments' Era Score rewards are decreased by 1.
+* For score rewards already at 1, some are kept and some do not give you score anymore. List below.
+* The Taj Mahal is now even greater, as it now rewards +2 extra Score instead of 1.
+
+Moments that still REWARD 1 Era Score:
+- First large size city (10, 15, 20, 25).
+- First Civic and Tech in new era.
+- First Governor with full promotion and first time recruiting all Governors.
+- Inquisition launched.
+- First unit with 4 promotions (No longer rewards for later units).
+- Killing unit higher formation unit.
+- City built near floodable river, volcano.
+- First time improving a tile improved by natural disaster.
+- Found Natural Wonder.
+
+Moments that NO LONGER REWARD Era Score:
+- Extract Artifacts (first Shipwreck still rewards 2/3 Score).
+- Build city near other civ's city.
+- City built on Desert/Snow/Tundra.
+- First form Armada/Army/Corp/Fleet (you still receive 1 Era Score for being first in the world).
+- Activate Goody Hut/Tribal Village.
+- Recruit Great Person (using Gold/Faith for more than half progress still reward 2).
+- Found Pantheon (still get 1 for being first in the world).
+- Levy Military (still get 1 for levying near enemy city).
+- Meet other major Civ (still get scores for meeting all other major civs).
+- Spy Max level (still get score for first one).
+- Construct Trading Post in other Civ cities (still get scores for constructing in all major civs).
+- First creating unit with strategic resource (still get scores for being first in the world).
+- Unit with 4 promotions (still get scores for first one).
+- Mitigate Coastal/River flood (I am not sure if this one is in the game, I never actually see them).
+- Earn Diplomatic Victory Point.]]></Description>
+    <Teaser>Make Era Score rewards lower.</Teaser>
+	<Authors>Luke Vo</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="HarderEra">
+      <Properties>
+        <LoadOrder>99998</LoadOrder>
+      </Properties>
+	  <File>harderera.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>harderera.sql</File>
+  </Files>
+</Mod>

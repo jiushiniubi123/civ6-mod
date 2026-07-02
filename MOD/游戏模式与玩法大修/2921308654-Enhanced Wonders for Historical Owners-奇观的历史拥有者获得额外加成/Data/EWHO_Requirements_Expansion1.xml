@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Requirements_Expansion1 -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/18/2023 11:26:41 AM -->
+<GameData>
+	<Requirements>
+		<!--STONEHENGE-->
+		<Row RequirementId="PLAYER_HAS_STONEHENGE_EWHO" RequirementType="REQUIREMENT_PLAYER_HAS_BUILDING"/>
+		<!--BUILDING_PETRA-->
+		<Row RequirementId="PLAYER_HAS_PETRA_EWHO" RequirementType="REQUIREMENT_PLAYER_HAS_BUILDING"/>
+		<!--BUILDING_KILWA_KISIWANI-->
+		<Row RequirementId="PLAYER_HAS_KILWA_KISIWANI_EWHO" RequirementType="REQUIREMENT_PLAYER_HAS_BUILDING"/>
+		<!--BUILDING_GREAT_ZIMBABWE-->
+		<Row RequirementId="PLAYER_HAS_GREAT_ZIMBABWE_EWHO" RequirementType="REQUIREMENT_PLAYER_HAS_BUILDING"/>
+		<!--BUILDING_FORBIDDEN_CITY-->
+		<Row RequirementId="PLAYER_HAS_FORBIDDEN_CITY_EWHO" RequirementType="REQUIREMENT_PLAYER_HAS_BUILDING"/>
+
+	</Requirements>
+
+	<RequirementArguments>
+		<!--STONEHENGE-->
+		<Row>
+			<RequirementId>PLAYER_HAS_STONEHENGE_EWHO</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_STONEHENGE</Value>
+		</Row>
+		<!--BUILDING_PETRA-->
+		<Row>
+			<RequirementId>PLAYER_HAS_PETRA_EWHO</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PETRA</Value>
+		</Row>
+		<!--BUILDING_PETRA-->
+		<Row>
+			<RequirementId>PLAYER_HAS_KILWA_KISIWANI_EWHO</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_KILWA_KISIWANI</Value>
+		</Row>
+		<!--BUILDING_GREAT_ZIMBABWE-->
+		<Row>
+			<RequirementId>PLAYER_HAS_GREAT_ZIMBABWE_EWHO</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GREAT_ZIMBABWE</Value>
+		</Row>
+		<!--BUILDING_FORBIDDEN_CITY-->
+		<Row>
+			<RequirementId>PLAYER_HAS_FORBIDDEN_CITY_EWHO</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_FORBIDDEN_CITY</Value>
+		</Row>
+	</RequirementArguments>
+
+	<RequirementSetRequirements>
+		<!--BUILDING_STONEHENGE-->
+		<Row RequirementSetId="REQSET_PLAYER_HAS_STONEHENGE_EWHO" RequirementId="PLAYER_HAS_STONEHENGE_EWHO"/>
+		<!--BUILDING_PETRA-->
+		<Row RequirementSetId="REQSET_PLAYER_HAS_PETRA_EWHO" RequirementId="PLAYER_HAS_PETRA_EWHO"/>
+		<!--BUILDING_KILWA_KISIWANI-->
+		<Row RequirementSetId="REQSET_PLAYER_HAS_KILWA_KISIWANI_EWHO" RequirementId="PLAYER_HAS_KILWA_KISIWANI_EWHO"/>
+		<!--BUILDING_GREAT_ZIMBABWE-->
+		<Row RequirementSetId="REQSET_PLAYER_HAS_GREAT_ZIMBABWE_EWHO" RequirementId="PLAYER_HAS_GREAT_ZIMBABWE_EWHO"/>
+		<!--BUILDING_FORBIDDEN_CITY-->
+		<Row RequirementSetId="REQSET_PLAYER_IS_CHINA_HAS_FORBIDDEN_CITY_EWHO" RequirementId="PLAYER_HAS_FORBIDDEN_CITY_EWHO"/>
+	</RequirementSetRequirements>
+
+</GameData>

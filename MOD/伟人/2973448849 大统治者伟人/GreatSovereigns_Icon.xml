@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GreatSovereigns -->
+<!-- Author: Plati -->
+<GameData>
+	<IconTextureAtlases>
+		<!------------------------------------------------------------------------------------------------->
+		<Row Name="ICON_ATLAS_GENERIC_GREAT_PERSON_INDIVIDUAL_GREAT_GreatSovereigns" IconSize="105"	IconsPerRow="1" IconsPerColumn="1" 	Filename="GreatSovereign_BaseIcon_105.dds"/>
+		<Row Name="ICON_ATLAS_GENERIC_GREAT_PERSON_INDIVIDUAL_GREAT_GreatSovereigns" IconSize="216"	IconsPerRow="1" IconsPerColumn="1" 	Filename="GreatSovereign_BaseIcon.dds"/>
+		<!------------------------------------------------------------------------------------------------->
+		<Row Name="ATLAS_ICON_GREAT_SOVEREIGN" IconSize="38" 	Filename="ICON_GREAT_SOVEREIGN_38.dds"/>
+		<Row Name="ATLAS_ICON_GREAT_SOVEREIGN" IconSize="50" 	Filename="ICON_GREAT_SOVEREIGN_50.dds"/>
+		<Row Name="ATLAS_ICON_GREAT_SOVEREIGN" IconSize="80" 	Filename="ICON_GREAT_SOVEREIGN_80.dds"/>
+		<Row Name="ATLAS_ICON_GREAT_SOVEREIGN" IconSize="256" 	Filename="ICON_GREAT_SOVEREIGN_256.dds"/>
+		<Row Name="ATLAS_ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT" IconSize="30" 	Filename="ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_30.dds"/>
+		<Row Name="ATLAS_ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT" IconSize="32" 	Filename="ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_32.dds"/>
+		<Row Name="ATLAS_ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT" IconSize="38" 	Filename="ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_38.dds"/>
+		<Row Name="ATLAS_ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT" IconSize="50" 	Filename="ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_50.dds"/>
+		<Row Name="ATLAS_ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT" IconSize="70" 	Filename="ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_70.dds"/>
+		<Row Name="ATLAS_ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT" IconSize="80" 	Filename="ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_80.dds"/>
+		<Row Name="ATLAS_ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT" IconSize="256" 	Filename="ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_256.dds"/>
+		<Row Name="ATLAS_ICON_GreatSovereigns_TEXT_ICON" 	IconSize="22"	IconsPerRow="1" 	IconsPerColumn="1" 	Filename="ICON_GREAT_SOVEREIGN_Z_22.dds" Baseline="6"/>
+		<Row Name="ATLAS_ICON_LkyInvestor_TEXT_ICON" 		IconSize="22"	IconsPerRow="1" 	IconsPerColumn="1" 	Filename="ICON_LKY_INVESTPR_Z_22.dds" Baseline="6"/>
+		<!-- A -->
+		<Row Name="ICON_ATLAS_GREAT_SOVEREIGN_UNIT_PORTRAITS" IconSize="38" 	Filename="ICON_GREAT_SOVEREIGN_PORTRAIT_38.dds"/>
+		<Row Name="ICON_ATLAS_GREAT_SOVEREIGN_UNIT_PORTRAITS" IconSize="50" 	Filename="ICON_GREAT_SOVEREIGN_PORTRAIT_50.dds"/>
+		<Row Name="ICON_ATLAS_GREAT_SOVEREIGN_UNIT_PORTRAITS" IconSize="70" 	Filename="ICON_GREAT_SOVEREIGN_PORTRAIT_70.dds"/>
+		<Row Name="ICON_ATLAS_GREAT_SOVEREIGN_UNIT_PORTRAITS" IconSize="95" 	Filename="ICON_GREAT_SOVEREIGN_PORTRAIT_95.dds"/>
+		<Row Name="ICON_ATLAS_GREAT_SOVEREIGN_UNIT_PORTRAITS" IconSize="200" 	Filename="ICON_GREAT_SOVEREIGN_PORTRAIT_200.dds"/>
+		<Row Name="ICON_ATLAS_GREAT_SOVEREIGN_UNIT_PORTRAITS" IconSize="256" 	Filename="ICON_GREAT_SOVEREIGN_PORTRAIT_256.dds"/>
+		<Row Name="ATLAS_ICON_GREAT_SOVEREIGN_ACTION" IconSize="38" 	Filename="ICON_GREAT_SOVEREIGN_ACTION_38.dds"/>
+		<!-- PANTHEON -->
+		<Row Name="ICON_ATLAS_BELIEFS_PLATI_SOVEREIGN" IconSize="32" 	IconsPerRow="2" 	IconsPerColumn="1" 	Filename="PLATI_NEW_PANTHEON_32.dds"/>
+		<Row Name="ICON_ATLAS_BELIEFS_PLATI_SOVEREIGN" IconSize="50" 	IconsPerRow="2" 	IconsPerColumn="1" 	Filename="PLATI_NEW_PANTHEON_50.dds"/>
+		<Row Name="ICON_ATLAS_BELIEFS_PLATI_SOVEREIGN" IconSize="64" 	IconsPerRow="2" 	IconsPerColumn="1" 	Filename="PLATI_NEW_PANTHEON_64.dds"/>
+		<Row Name="ICON_ATLAS_BELIEFS_PLATI_SOVEREIGN" IconSize="256" 	IconsPerRow="2" 	IconsPerColumn="1" 	Filename="PLATI_NEW_PANTHEON_256.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<!------------------------------------------------------------------------------------------------->
+		<Row Name="ICON_GENERIC_GREAT_PERSON_INDIVIDUAL_GreatSovereigns" 			Atlas="ICON_ATLAS_GENERIC_GREAT_PERSON_INDIVIDUAL_GREAT_GreatSovereigns" index="0"/>
+		<!------------------------------------------------------------------------------------------------->
+		<Row Name="ICON_UNITOPERATION_GreatSovereigns_ACTION" 			Atlas="ATLAS_ICON_GREAT_SOVEREIGN_ACTION" index="0"/>
+		<Row Name="ICON_UNIT_GREAT_GreatSovereigns" 					Atlas="ATLAS_ICON_GREAT_SOVEREIGN" index="0"/>
+		<Row Name="GreatSovereigns" 									Atlas="ATLAS_ICON_GreatSovereigns_TEXT_ICON" index="0"/>
+		<Row Name="LkyInvestor" 										Atlas="ATLAS_ICON_LkyInvestor_TEXT_ICON" index="0"/>
+		<Row Name="ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT" 	Atlas="ATLAS_ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT" index="0"/>
+		<!-- A -->
+		<Row Name="ICON_UNIT_GREAT_GreatSovereigns_PORTRAIT" 			Atlas="ICON_ATLAS_GREAT_SOVEREIGN_UNIT_PORTRAITS" index="0"/>
+		<!-- PANTHEON -->
+		<Row Name="ICON_PLATI_BELIEF_SOVEREIGN" Atlas="ICON_ATLAS_BELIEFS_PLATI_SOVEREIGN" Index="0"/>
+	</IconDefinitions>
+</GameData>

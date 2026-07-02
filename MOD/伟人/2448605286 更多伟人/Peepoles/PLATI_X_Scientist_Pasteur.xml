@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Classical Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_PASTEUR" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_PASTEUR" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_PASTEUR_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_INDUSTRIAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_PASTEUR_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_PASTEUR" ModifierId="GREATPERSON_BONUS_PASTEUR_S" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_PASTEUR" ModifierId="GREATPERSON_BONUS_PASTEUR_F" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PASTEUR_S</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_GROWTH</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PASTEUR_F</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PASTEUR_S</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PASTEUR_F</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_SANITATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PASTEUR_F</ModifierId>
+			<Name>GrantTechIfBoosted</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_BONUS_PASTEUR_S" Context="Summary" Text="LOC_GREATPERSON_PLATI_PASTEUR_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

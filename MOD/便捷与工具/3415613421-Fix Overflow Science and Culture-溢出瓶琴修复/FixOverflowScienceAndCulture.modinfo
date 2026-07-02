@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0dd7effb-7222-4c96-9558-44af1850766a" version="1">
+  <Properties>
+    <Name>LOC_FIX_OVERFLOW_SCIENCE_AND_CULTURE_NAME</Name>
+    <Description>LOC_FIX_OVERFLOW_SCIENCE_AND_CULTURE_DESCRIPTION</Description>
+    <Created>1738932883</Created>
+    <Teaser>LOC_FIX_OVERFLOW_SCIENCE_AND_CULTURE_TEASER</Teaser>
+    <Authors>PhantomJ_M</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="FixOverflowScienceAndCulture_Config">
+      <Properties>
+        <LoadOrder>11</LoadOrder>
+      </Properties>
+      <File>Config/FixOverflowScienceAndCulture_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="FixOverflowScienceAndCulture_Text">
+      <File>Text/FixOverflowScienceAndCulture_Text_en_US.sql</File>
+      <File>Text/FixOverflowScienceAndCulture_Text_zh_Hans_CN.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <ImportFiles id="ImportDll">
+      <File>Binaries/Win64/c6se/FixOverflowScienceAndCulture.dll</File>
+    </ImportFiles>
+    <UpdateText id="FixOverflowScienceAndCulture_Text">
+      <File>Text/FixOverflowScienceAndCulture_Text_en_US.sql</File>
+      <File>Text/FixOverflowScienceAndCulture_Text_zh_Hans_CN.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <LocalizedText>
+    <Text id="LOC_FIX_OVERFLOW_SCIENCE_AND_CULTURE_NAME">
+      <en_US>Fix Overflow Science and Culture</en_US>
+      <zh_Hans_CN>溢出瓶琴修复</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_FIX_OVERFLOW_SCIENCE_AND_CULTURE_TEASER">
+      <en_US>Fix Overflow Science and Culture</en_US>
+      <zh_Hans_CN>溢出瓶琴修复</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_FIX_OVERFLOW_SCIENCE_AND_CULTURE_DESCRIPTION">
+      <en_US>Fix Overflow Science and Culture</en_US>
+      <zh_Hans_CN>溢出瓶琴修复，只支持风云变幻。这个mod懂的都懂，不懂的很难在这里解释清楚。</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <Files>
+    <File>Binaries/Win64/AddrLib.bin</File>
+    <File>Binaries/Win64/c6se/FixOverflowScienceAndCulture.dll</File>
+    <File>Binaries/Win64/GameCore_XP2_Loader_FinalRelease.dll</File>
+    <File>Config/FixOverflowScienceAndCulture_Config.sql</File>
+    <File>Text/FixOverflowScienceAndCulture_Text_en_US.sql</File>
+    <File>Text/FixOverflowScienceAndCulture_Text_zh_Hans_CN.sql</File>
+  </Files>
+</Mod>

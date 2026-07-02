@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- ICON_POLICY_ECONOMIC =0, ICON_POLICY_MILITARY=1, ICON_POLICY_DIPLOMATIC=2, ICON_POLICY_WILDCARD=3-->
+	<IconDefinitions>
+		<!-- Holy Army 原有图标 -->
+		<Row Name="ICON_POLICY_HOLY_ARMY"  Atlas="ICON_ATLAS_POLICIES" Index="3"/>
+		<Row Name="ICON_POLICY_HOLY_NAVY"  Atlas="ICON_ATLAS_POLICIES" Index="1"/>
+		<Row Name="ICON_POLICY_HOLY_SETTLE"  Atlas="ICON_ATLAS_POLICIES" Index="0"/>
+		<Row Name="ICON_POLICY_HOLY_BUILD"   Atlas="ICON_ATLAS_POLICIES" Index="0"/>
+		<Row Name="ICON_POLICY_HOLY_AIRFORCE"  Atlas="ICON_ATLAS_POLICIES" Index="1"/>
+		<Row Name="ICON_POLICY_HOLY_SERVICE"  Atlas="ICON_ATLAS_POLICIES" Index="0"/>
+		<Row Name="ICON_POLICY_KIKI_SAFE_PASSAGE" Atlas="ICON_ATLAS_POLICIES" Index="2"/>
+	</IconDefinitions>
+</GameData>

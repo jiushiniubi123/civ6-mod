@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="cfba692b-a7f8-4d6e-aa4b-a25aa704867c" version="1">
+  <Properties>
+    <Name>LOC_TGD_TITLE</Name>
+    <Description>LOC_TGD_DESC</Description>
+    <Teaser>LOC_TGD_DESC</Teaser>
+    <Authors>Windfly</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="Data">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Data_Building.xml</File>
+    </UpdateDatabase>
+    <UpdateArt id="Art">
+      <File>Dujiangyan.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="Icon">
+      <Properties>
+        <LoadOrder>99</LoadOrder>
+      </Properties>
+      <File>Data_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Data_Local.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <LocalizedText>
+	<Text id="LOC_TGD_TITLE">
+		<en_US>Three Gorges Dam</en_US>
+		<zh_Hans_CN>三峡大坝</zh_Hans_CN>
+	</Text>
+	<Text id="LOC_TGD_DESC">
+		<en_US>This Mod adds Three Gorges Dam Wonder.</en_US>
+		<zh_Hans_CN>这个MOD添加了三峡大坝世界奇观。</zh_Hans_CN>
+	</Text>
+  </LocalizedText>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>Data_Building.xml</File>
+    <File>Data_Icon.xml</File>
+    <File>Data_Local.xml</File>
+    <File>Dujiangyan.dep</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/BLOB_DIS_DAM_HMedit</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/BLOB_DJY_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_02_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_TER_Mountain_Decal_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_TGD_BD_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_TGD_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_TGD_Red_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Iron_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Iron_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_Grass_Decal_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_Mountain_Decal_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_Mountain_Decal_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TGD_AO</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TGD_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TGD_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TGD_R</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/BLOB_DIS_DAM_HMedit</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/BLOB_DJY_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_02_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_TER_Mountain_Decal_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_TGD_BD_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_TGD_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_TGD_Red_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Iron_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Iron_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_Grass_Decal_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_Mountain_Decal_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_Mountain_Decal_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TGD_AO</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TGD_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TGD_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TGD_R</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+  </Files>
+</Mod>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Config -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/17/2023 10:39:51 PM -->
+<GameData>
+	<GameModeItems>
+		<Row GameModeType="GAMEMODE_EWHOHUMANONLY" 
+			 Name="LOC_GAMEMODE_EWHOHUMANONLY_NAME" 
+			 Description="LOC_GAMEMODE_EWHOHUMANONLY_DESC"
+			 Portrait="GAMEMODE_EWHOHUMANONLY_NEUTRAL"
+			 Background=""
+			 Icon="ICON_GAMEMODE_EWHOHUMANONLY"
+			 SortIndex="520" />		   
+		<!--Background="GAMEMODE_EWHOHUMANONLY_BACKGROUND"-->
+	</GameModeItems>
+
+	<Parameters>
+		<Row ParameterId="GameMode_EwhoHumanOnly" 
+			 Name="LOC_GAMEMODE_EWHOHUMANONLY_NAME" 
+			 Description="LOC_GAMEMODE_EWHOHUMANONLY_DESC"
+			 Domain="bool"
+			 DefaultValue="0"
+			 ConfigurationGroup="Game"
+			 ConfigurationId="GAMEMODE_EWHOHUMANONLY"
+			 NameArrayConfigurationId="GAMEMODES_ENABLED_NAMES"
+			 GroupId="GameModes"
+			 SortIndex="520"/>
+	</Parameters> 
+
+</GameData>

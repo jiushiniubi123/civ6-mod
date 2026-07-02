@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Plati -->
+<GameInfo>
+	<Types>
+		<Row Type="ABILITY_SAUGUSTINE_BONUS" 	Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GARIBALDI_BONUS" 	Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_MAJID_SEA_MOVEMENT" 	Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_COOK_SEA_SIGHT" 		Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_COOK_SEA_MOVEMENT" 	Kind="KIND_ABILITY"/>
+		<!-- Expansion -->
+		<Row Type="ABILITY_BAIBARS_UNIQUE" 				Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_KHALID_WALID_UNIQUE" 		Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_PLATI_CAPTURE_SHIPS" 		Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_PLATI_SARGON_SABBUM" 		Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_REX_GOD_OF_WAR" 				Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_RURIK_GAVE_YOU_GOOD_ADVICE" 	Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_FOG_OF_WAR" 					Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_NORMAN_LEGACY" 				Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_BAYINNAUNG" 					Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GAJAH_MADA_COMBAT" 			Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GAJAH_MADA_DISEMBARK" 		Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_JAN_ZIZKA" 					Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HUSSITE_LEGACY" 				Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_VITRUVIUS" 				Kind="KIND_ABILITY"/>
+		<!-- 2025 -->
+		<Row Type="ABILITY_MANNERHEIM" 				Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GENOESE_NAVAL_CONVERSION" 			Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_PLATI_CONSULATE_OF_SEA" 			Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_MANNERHEIM" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_MANNERHEIM" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_MANNERHEIM" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_MANNERHEIM" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_MANNERHEIM" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_MANNERHEIM" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_MANNERHEIM" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_MANNERHEIM" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_MANNERHEIM" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_MANNERHEIM" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_MANNERHEIM" Tag="CLASS_WARRIOR_MONK"/>
+		<!-- ----------------------------------------------------------------------->
+		<Row Type="ABILITY_SAUGUSTINE_BONUS" 		Tag="CLASS_RELIGIOUS_ALL"/>
+		<Row Type="ABILITY_GARIBALDI_BONUS" 		Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_MAJID_SEA_MOVEMENT" 		Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_MAJID_SEA_MOVEMENT" 		Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_MAJID_SEA_MOVEMENT" 		Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_MAJID_SEA_MOVEMENT" 		Tag="CLASS_NAVAL_CARRIER"/>
+		<Row Type="ABILITY_COOK_SEA_SIGHT" 			Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_COOK_SEA_SIGHT" 			Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_COOK_SEA_SIGHT"			Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_COOK_SEA_SIGHT" 			Tag="CLASS_NAVAL_CARRIER"/>
+		<Row Type="ABILITY_COOK_SEA_MOVEMENT" 		Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_COOK_SEA_MOVEMENT" 		Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_COOK_SEA_MOVEMENT" 		Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_COOK_SEA_MOVEMENT" 		Tag="CLASS_NAVAL_CARRIER"/>
+		<!-- Expansion ----------------------------------------------------------------------->
+		<Row Type="ABILITY_BAIBARS_UNIQUE" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_BAIBARS_UNIQUE" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_BAIBARS_UNIQUE" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_BAIBARS_UNIQUE" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_BAIBARS_UNIQUE" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_BAIBARS_UNIQUE" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_BAIBARS_UNIQUE" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_BAIBARS_UNIQUE" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_BAIBARS_UNIQUE" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_BAIBARS_UNIQUE" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_BAIBARS_UNIQUE" Tag="CLASS_WARRIOR_MONK"/>
+		<!--  --------------------------------------------------------------------------------->
+		<Row Type="ABILITY_KHALID_WALID_UNIQUE" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_KHALID_WALID_UNIQUE" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_KHALID_WALID_UNIQUE" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_KHALID_WALID_UNIQUE" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_KHALID_WALID_UNIQUE" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_KHALID_WALID_UNIQUE" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_KHALID_WALID_UNIQUE" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_KHALID_WALID_UNIQUE" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_KHALID_WALID_UNIQUE" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_KHALID_WALID_UNIQUE" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_KHALID_WALID_UNIQUE" Tag="CLASS_WARRIOR_MONK"/>
+		<!--  --------------------------------------------------------------------------------->
+		<Row Type="ABILITY_PLATI_CAPTURE_SHIPS" Tag="CLASS_NAVAL_MELEE"/>
+		<!--  --------------------------------------------------------------------------------->
+		<Row Type="ABILITY_PLATI_SARGON_SABBUM" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_PLATI_SARGON_SABBUM" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_PLATI_SARGON_SABBUM" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_PLATI_SARGON_SABBUM" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_PLATI_SARGON_SABBUM" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_PLATI_SARGON_SABBUM" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_PLATI_SARGON_SABBUM" Tag="CLASS_WARRIOR_MONK"/>
+		<!--  --------------------------------------------------------------------------------->
+		<Row Type="ABILITY_REX_GOD_OF_WAR" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_REX_GOD_OF_WAR" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_REX_GOD_OF_WAR" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_REX_GOD_OF_WAR" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_REX_GOD_OF_WAR" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_REX_GOD_OF_WAR" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_REX_GOD_OF_WAR" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_REX_GOD_OF_WAR" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_REX_GOD_OF_WAR" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_REX_GOD_OF_WAR" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_REX_GOD_OF_WAR" Tag="CLASS_WARRIOR_MONK"/>
+		<!--  --------------------------------------------------------------------------------->
+		<Row Type="ABILITY_RURIK_GAVE_YOU_GOOD_ADVICE" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_RURIK_GAVE_YOU_GOOD_ADVICE" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_RURIK_GAVE_YOU_GOOD_ADVICE" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_RURIK_GAVE_YOU_GOOD_ADVICE" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_RURIK_GAVE_YOU_GOOD_ADVICE" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_RURIK_GAVE_YOU_GOOD_ADVICE" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_RURIK_GAVE_YOU_GOOD_ADVICE" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_RURIK_GAVE_YOU_GOOD_ADVICE" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_RURIK_GAVE_YOU_GOOD_ADVICE" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_RURIK_GAVE_YOU_GOOD_ADVICE" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_RURIK_GAVE_YOU_GOOD_ADVICE" Tag="CLASS_WARRIOR_MONK"/>
+		<!--  --------------------------------------------------------------------------------->
+		<Row Type="ABILITY_FOG_OF_WAR" Tag="CLASS_AIR_FIGHTER"/>
+		<!-- ----------------------------------------------------------------------->
+		<Row Type="ABILITY_NORMAN_LEGACY" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_NORMAN_LEGACY" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_NORMAN_LEGACY" Tag="CLASS_RANGED_CAVALRY"/>
+		<!--  --------------------------------------------------------------------------------->
+		<Row Type="ABILITY_BAYINNAUNG" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_BAYINNAUNG" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_BAYINNAUNG" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_BAYINNAUNG" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_BAYINNAUNG" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_BAYINNAUNG" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_BAYINNAUNG" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_BAYINNAUNG" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_BAYINNAUNG" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_BAYINNAUNG" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_BAYINNAUNG" Tag="CLASS_WARRIOR_MONK"/>
+		<!--  --------------------------------------------------------------------------------->
+		<Row Type="ABILITY_GAJAH_MADA_COMBAT" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_GAJAH_MADA_COMBAT" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_GAJAH_MADA_COMBAT" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_GAJAH_MADA_COMBAT" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_GAJAH_MADA_COMBAT" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_GAJAH_MADA_COMBAT" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_GAJAH_MADA_COMBAT" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_GAJAH_MADA_COMBAT" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_GAJAH_MADA_COMBAT" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_GAJAH_MADA_COMBAT" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_GAJAH_MADA_COMBAT" Tag="CLASS_WARRIOR_MONK"/>
+		<Row Type="ABILITY_GAJAH_MADA_DISEMBARK" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_GAJAH_MADA_DISEMBARK" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_GAJAH_MADA_DISEMBARK" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_GAJAH_MADA_DISEMBARK" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_GAJAH_MADA_DISEMBARK" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_GAJAH_MADA_DISEMBARK" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_GAJAH_MADA_DISEMBARK" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_GAJAH_MADA_DISEMBARK" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_GAJAH_MADA_DISEMBARK" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_GAJAH_MADA_DISEMBARK" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_GAJAH_MADA_DISEMBARK" Tag="CLASS_WARRIOR_MONK"/>
+		<!--  --------------------------------------------------------------------------------->
+		<Row Type="ABILITY_JAN_ZIZKA" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_JAN_ZIZKA" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_JAN_ZIZKA" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_JAN_ZIZKA" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_JAN_ZIZKA" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_JAN_ZIZKA" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_JAN_ZIZKA" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_JAN_ZIZKA" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_JAN_ZIZKA" Tag="CLASS_WARRIOR_MONK"/>
+		<!--  --------------------------------------------------------------------------------->
+		<Row Type="ABILITY_HUSSITE_LEGACY" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_HUSSITE_LEGACY" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_HUSSITE_LEGACY" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_HUSSITE_LEGACY" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_HUSSITE_LEGACY" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_HUSSITE_LEGACY" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_HUSSITE_LEGACY" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_HUSSITE_LEGACY" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_HUSSITE_LEGACY" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_HUSSITE_LEGACY" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_HUSSITE_LEGACY" Tag="CLASS_WARRIOR_MONK"/>
+		<!--  --------------------------------------------------------------------------------->
+		<Row Type="ABILITY_VITRUVIUS" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_GENOESE_NAVAL_CONVERSION" 		Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_PLATI_CONSULATE_OF_SEA" 		Tag="CLASS_NAVAL_MELEE"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_MANNERHEIM" 	Name="LOC_AABILITY_MANNERHEIM_BONUS_NAME" 	Description="LOC_ABILITY_MANNERHEIM_BONUS_DESCRIPTION" 		Inactive="true"/>
+		<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<Row UnitAbilityType="ABILITY_SAUGUSTINE_BONUS" 	Name="LOC_AABILITY_SAUGUSTINE_BONUS_NAME" 	Description="LOC_ABILITY_SAUGUSTINE_BONUS_DESCRIPTION" 		Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_GARIBALDI_BONUS" 		Name="LOC_ABILITY_GARIBALDI_BONUS_NAME" 	Description="LOC_ABILITY_GARIBALDI_BONUS_DESCRIPTION" 		Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_MAJID_SEA_MOVEMENT" 	Name="LOC_ABILITY_MAJID_SEA_MOVEMENT_NAME" 	Description="LOC_ABILITY_MAJID_SEA_MOVEMENT_DESCRIPTION" 	Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_COOK_SEA_SIGHT" 		Name="LOC_ABILITY_COOK_SEA_MOVEMENT_NAME" 	Description="LOC_ABILITY_COOK_SEA_MOVEMENT_DESCRIPTION" 	Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_COOK_SEA_MOVEMENT" 	Name="LOC_ABILITY_COOK_SEA_SIGHT_NAME" 		Description="LOC_ABILITY_COOK_SEA_SIGHT_DESCRIPTION" 		Inactive="true"/>
+		<!-- Expansion ---------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<Row UnitAbilityType="ABILITY_BAIBARS_UNIQUE" 				Name="LOC_ABILITY_BAIBARS_NAME" 				Description="LOC_ABILITY_BAIBARS_DESCRIPTION" 				Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_KHALID_WALID_UNIQUE" 			Name="LOC_ABILITY_KHALID_WALID_NAME" 			Description="LOC_ABILITY_KHALID_WALID_DESCRIPTION" 			Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_PLATI_CAPTURE_SHIPS" 			Name="LOC_ABILITY_PLATI_CAPTURE_SHIPS_NAME" 	Description="LOC_ABILITY_PLATI_CAPTURE_SHIPS_DESCRIPTION" 			Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_PLATI_SARGON_SABBUM" 			Name="LOC_ABILITY_SARGON_NAME" 					Description="LOC_ABILITY_SARGON_DESCRIPTION" 			Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_REX_GOD_OF_WAR" 				Name="LOC_ABILITY_REX_NAME" 					Description="LOC_ABILITY_REX_DESCRIPTION" 			Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_RURIK_GAVE_YOU_GOOD_ADVICE" 	Name="LOC_ABILITY_RURIK_NAME" 					Description="LOC_ABILITY_RURIK_DESCRIPTION" 			Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_FOG_OF_WAR" 					Name="LOC_ABILITY_FOG_OF_WAR_NAME" 				Description="LOC_ABILITY_FOG_OF_WAR_DESCRIPTION" 			Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_NORMAN_LEGACY" 				Name="LOC_ABILITY_NORMAN_NAME" 					Description="LOC_ABILITY_NORMAN_DESCRIPTION" 				Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_BAYINNAUNG" 					Name="LOC_ABILITY_BAYINNAUNG_NAME" 				Description="LOC_ABILITY_BAYINNAUNG_DESCRIPTION" 				Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_GAJAH_MADA_COMBAT" 			Name="LOC_ABILITY_GAJAH_MADA_COMBAT_NAME" 		Description="LOC_ABILITY_GAJAH_MADA_COMBAT_DESCRIPTION" 				Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_GAJAH_MADA_DISEMBARK" 		Name="LOC_ABILITY_GAJAH_MADA_DISEMBARK_NAME" 	Description="LOC_ABILITY_GAJAH_MADA_DISEMBARK_DESCRIPTION" 				Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_JAN_ZIZKA" 					Name="LOC_ABILITY_JAN_ZIZKA_NAME" 				Description="LOC_ABILITY_JAN_ZIZKA_DESCRIPTION" 				Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_HUSSITE_LEGACY" 				Name="LOC_ABILITY_HUSSITE_LEGACY_NAME" 			Description="LOC_ABILITY_HUSSITE_LEGACY_DESCRIPTION" 				Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_VITRUVIUS" 					Name="LOC_ABILITY_VITRUVIUS_NAME" 			Description="LOC_ABILITY_VITRUVIUS_DESCRIPTION" 				Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_GENOESE_NAVAL_CONVERSION" 	Name="LOC_ABILITY_GENOESE_NAVAL_CONVERSION_BONUS_NAME" 		Description="LOC_ABILITY_GENOESE_NAVAL_CONVERSION_BONUS_DESCRIPTION" 	Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_PLATI_CONSULATE_OF_SEA" 		Name="LOC_ABILITY_CONSULATE_OF_SEA_BONUS_NAME" 		Description="LOC_ABILITY_CONSULATE_OF_SEA_BONUS_DESCRIPTION" 	Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_MANNERHEIM</UnitAbilityType>
+			<ModifierId>MANNERHEIM_BUFF</ModifierId>
+		</Row>
+		<!--  --------------------------------------------------------------------------------->
+		<Row>
+			<UnitAbilityType>ABILITY_SAUGUSTINE_BONUS</UnitAbilityType>
+			<ModifierId>SAUGUSTINE_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GARIBALDI_BONUS</UnitAbilityType>
+			<ModifierId>GARIBALDI_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_MAJID_SEA_MOVEMENT</UnitAbilityType>
+			<ModifierId>MAJID_BOOST</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_COOK_SEA_SIGHT</UnitAbilityType>
+			<ModifierId>COOK_SIGHT_BOOST</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_COOK_SEA_MOVEMENT</UnitAbilityType>
+			<ModifierId>COOK_MOVEMENT_BOOST</ModifierId>
+		</Row>
+		<!-- Expansion ---------------------------------------------------------------->
+		<Row>
+			<UnitAbilityType>ABILITY_BAIBARS_UNIQUE</UnitAbilityType>
+			<ModifierId>BAIBARS_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_KHALID_WALID_UNIQUE</UnitAbilityType>
+			<ModifierId>KHALID_WALID_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_PLATI_CAPTURE_SHIPS</UnitAbilityType>
+			<ModifierId>PLATI_PIRACY_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_PLATI_SARGON_SABBUM</UnitAbilityType>
+			<ModifierId>PLATI_SARGON_CONVERSION</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_REX_GOD_OF_WAR</UnitAbilityType>
+			<ModifierId>PLATI_REX_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_RURIK_GAVE_YOU_GOOD_ADVICE</UnitAbilityType>
+			<ModifierId>PLATI_RURIK_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_FOG_OF_WAR</UnitAbilityType>
+			<ModifierId>PLATI_CLAUSEWITZ_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_NORMAN_LEGACY</UnitAbilityType>
+			<ModifierId>PLATI_NORMAN_CAVALRY_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_BAYINNAUNG</UnitAbilityType>
+			<ModifierId>PLATI_BAYINNAUNG_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GAJAH_MADA_COMBAT</UnitAbilityType>
+			<ModifierId>PLATI_GAJAH_MADA_COMBAT_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GAJAH_MADA_DISEMBARK</UnitAbilityType>
+			<ModifierId>PLATI_GAJAH_MADA_DISEMBARK_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_JAN_ZIZKA</UnitAbilityType>
+			<ModifierId>PLATI_JAN_ZIZKA_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_HUSSITE_LEGACY</UnitAbilityType>
+			<ModifierId>PLATI_HUSSITE_LEGACY_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_VITRUVIUS</UnitAbilityType>
+			<ModifierId>PLATI_VITRUVIUS_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GENOESE_NAVAL_CONVERSION</UnitAbilityType>
+			<ModifierId>GENOESE_CHRISTIAN_ADMIRAL</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_PLATI_CONSULATE_OF_SEA</UnitAbilityType>
+			<ModifierId>PLATI_CONSULATE_OF_SEA_BUFF</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MANNERHEIM_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>MANNERHEIM_REQUIREMENT_SET</SubjectRequirementSetId>
+		</Row>
+		<!-- ---------------------------------------------------------------->
+		<Row>
+			<ModifierId>SAUGUSTINE_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GARIBALDI_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>GARDE_PLOT_IS_CAPITAL_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAJID_BOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_SEA_MOVEMENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>COOK_SIGHT_BOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_SIGHT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>COOK_MOVEMENT_BOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_SEA_MOVEMENT</ModifierType>
+		</Row>
+		<!-- Expansion ---------------------------------------------------------------->
+		<Row>
+			<ModifierId>BAIBARS_BUFF</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_HEAL_AFTER_ACTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>KHALID_WALID_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_OPPONENT_IS_OTHER_RELIGION</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_PIRACY_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_CAPTURE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_SARGON_CONVERSION</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_CAPTURE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_REX_BUFF</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_UNIT_ADJUST_COMBAT_FOR_UNUSED_MOVEMENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_RURIK_BUFF</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_CLAUSEWITZ_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>BOMBARDMENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_NORMAN_CAVALRY_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>UNIT_STRONG_WHEN_ATTACKING_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_BAYINNAUNG_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_POST_COMBAT_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_GAJAH_MADA_COMBAT_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<OwnerRequirementSetId>REQUIREMENTS_UNIT_IS_EMBARKED</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_GAJAH_MADA_DISEMBARK_BUFF</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_SHORES</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_JAN_ZIZKA_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>NAGAO_RANGED_DEFENSE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_HUSSITE_LEGACY_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>COMBAT_AGAINST_STRONGER_UNIT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_VITRUVIUS_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GENOESE_CHRISTIAN_ADMIRAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_CITY_ON_CAPTURE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_CONSULATE_OF_SEA_BUFF</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_UNIT_ADJUST_COMBAT_FOR_UNUSED_MOVEMENT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MANNERHEIM_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<!-- ---------------------------------------------------------------->
+		<Row>
+			<ModifierId>SAUGUSTINE_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GARIBALDI_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAJID_BOOST</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>COOK_SIGHT_BOOST</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>COOK_MOVEMENT_BOOST</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- Expansion ---------------------------------------------------------------->
+		<Row>
+			<ModifierId>KHALID_WALID_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_PIRACY_BUFF</ModifierId>
+			<Name>CanCapture</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_SARGON_CONVERSION</ModifierId>
+			<Name>CanCapture</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_REX_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_RURIK_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>80</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_CLAUSEWITZ_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>17</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_NORMAN_CAVALRY_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_BAYINNAUNG_BUFF</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_BAYINNAUNG_BUFF</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_GAJAH_MADA_COMBAT_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_GAJAH_MADA_DISEMBARK_BUFF</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_JAN_ZIZKA_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_HUSSITE_LEGACY_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_VITRUVIUS_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>GENOESE_CHRISTIAN_ADMIRAL</ModifierId>
+			<Name>Enable</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_CONSULATE_OF_SEA_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>MANNERHEIM_REQUIREMENT_SET</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>MANNERHEIM_REQUIREMENT_SET</RequirementSetId>
+			<RequirementId>UNIT_WEAK_WHEN_DEFENDING_REQUIREMENT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<ModifierStrings>
+		<Row ModifierId="SAUGUSTINE_BUFF" Context="Preview" Text="LOC_ABILITY_SAUGUSTINE_BUFF_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="MANNERHEIM_BUFF" Context="Preview" Text="LOC_GREATPERSON_PLATI_SARGON_ACTIVE"/>
+		<!-- Expansion ---------------------------------------------------------------->
+		<Row ModifierId="BAIBARS_BUFF" 				Context="Preview" Text="LOC_ABILITY_BAIBARS_BUFF_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="KHALID_WALID_BUFF" 		Context="Preview" Text="LOC_ABILITY_BAIBARS_BUFF_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="PLATI_PIRACY_BUFF" 		Context="Preview" Text="LOC_ABILITY_PIRACY_BUFF_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="PLATI_SARGON_CONVERSION" 	Context="Preview" Text="LOC_ABILITY_SARGON_BUFF_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="PLATI_REX_BUFF" 			Context="Preview" Text="LOC_ABILITY_REX_BUFF_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="PLATI_RURIK_BUFF" 			Context="Preview" Text="LOC_ABILITY_RURIK_BUFF_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="PLATI_CLAUSEWITZ_BUFF" 	Context="Preview" Text="LOC_ABILITY_CLAUSEWITZ_BUFF_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="PLATI_NORMAN_CAVALRY_BUFF" 	Context="Preview" Text="LOC_ABILITY_NORMAN_CAVALRY_BUFF_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="PLATI_BAYINNAUNG_BUFF" 		Context="Preview" Text="LOC_ABILITY_BAYINNAUNG_BUFF_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="PLATI_GAJAH_MADA_COMBAT_BUFF" 	Context="Preview" Text="LOC_ABILITY_GAJAH_MADA_COMBAT_BUFF_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="PLATI_JAN_ZIZKA_BUFF" 			Context="Preview" Text="LOC_ABILITY_JAN_ZIZKA_BUFF_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="PLATI_HUSSITE_LEGACY_BUFF" 	Context="Preview" Text="LOC_ABILITY_HUSSITE_LEGACY_BUFF_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="PLATI_VITRUVIUS_BUFF" 			Context="Preview" Text="LOC_ABILITY_VITRUVIUS_BUFF_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="GENOESE_CHRISTIAN_ADMIRAL" 	Context="Preview" 	Text="LOC_ABILITY_GENOESE_ADMIRAL_BONUS_DESCRIPTION"/>
+		<Row ModifierId="PLATI_CONSULATE_OF_SEA_BUFF" 	Context="Preview" 	Text="LOC_ABILITY_ARAGONESE_ADMIRAL_BONUS_DESCRIPTION"/>
+	</ModifierStrings>
+</GameInfo>

@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Buildings_Expansion1 -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/18/2023 11:25:07 AM -->
+<GameData>
+	<BuildingModifiers>
+		<!--Ancient-->
+		<!--阿耳忒弥斯神庙-->
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+			<ModifierId>TEMPLE_ARTEMIS_ADJUST_PASTURE_FAITH_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+			<ModifierId>TEMPLE_ARTEMIS_ADJUST_PASTURE_GOLD_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+			<ModifierId>TEMPLE_ARTEMIS_ADJUST_CAMP_FAITH_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+			<ModifierId>TEMPLE_ARTEMIS_ADJUST_CAMP_GOLD_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+			<ModifierId>TEMPLE_ARTEMIS_RANGED_UNITS_GRANT_BUFF_EWHO</ModifierId>
+		</Row>
+		
+		<!--Classical-->
+		<!--摩诃菩提寺-->
+		<Row>
+			<BuildingType>BUILDING_MAHABODHI_TEMPLE</BuildingType>
+			<ModifierId>MAHABODHI_TEMPLE_ADJUST_CITY_RELIGION_PRESSURE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MAHABODHI_TEMPLE</BuildingType>
+			<ModifierId>MAHABODHI_TEMPLE_ADJUST_CITY_RELIGION_IGNORE_PRESSURE_EWHO</ModifierId>
+		</Row>
+		
+		<!--Medieval-->
+		<!--高德院-->
+		<Row>
+			<BuildingType>BUILDING_KOTOKU_IN</BuildingType>
+			<ModifierId>KOTOKU_IN_ADJUST_FAITH_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KOTOKU_IN</BuildingType>
+			<ModifierId>KOTOKU_IN_GRANT_EXTRA_MONKS_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KOTOKU_IN</BuildingType>
+			<ModifierId>KOTOKU_IN_MONKS_GRANT_BUFF_EWHO</ModifierId>
+		</Row>
+		
+		<!--Renaissance-->
+		<!--圣瓦西里主教座堂-->
+		<Row>
+			<BuildingType>BUILDING_ST_BASILS_CATHEDRAL</BuildingType>
+			<ModifierId>ST_BASILS_CATHEDRAL_ADJUST_TUNDRA_CITY_FOOD_ATTACH_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ST_BASILS_CATHEDRAL</BuildingType>
+			<ModifierId>ST_BASILS_CATHEDRAL_ADJUST_TUNDRA_CITY_PRODUCTION_ATTACH_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ST_BASILS_CATHEDRAL</BuildingType>
+			<ModifierId>ST_BASILS_CATHEDRAL_ADJUST_TUNDRA_CITY_CULTURE_ATTACH_EWHO</ModifierId>
+		</Row>
+		
+		<!--泰姬陵-->
+		
+		<Row>
+			<BuildingType>BUILDING_TAJ_MAHAL</BuildingType>
+			<ModifierId>TAJ_MAHAL_ADJUST_CULTURE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TAJ_MAHAL</BuildingType>
+			<ModifierId>TAJ_MAHAL_ADJUST_SHAH_JAHAN_GUARANTEE_EWHO</ModifierId>
+		</Row>
+		
+		<!--西印度交易所-->
+		<Row>
+			<BuildingType>BUILDING_CASA_DE_CONTRATACION</BuildingType>
+			<ModifierId>CASA_DE_CONTRATACION_ATTACH_ADJUST_GOLD_TO_INCOMING_DOMESTIC_ROUTES_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CASA_DE_CONTRATACION</BuildingType>
+			<ModifierId>CASA_DE_CONTRATACION_ATTACH_ADJUST_FAITH_TO_INCOMING_DOMESTIC_ROUTES_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CASA_DE_CONTRATACION</BuildingType>
+			<ModifierId>CASA_DE_CONTRATACION_ATTACH_ADJUST_PRODUCTION_TO_INCOMING_DOMESTIC_ROUTES_EWHO</ModifierId>
+		</Row>
+
+		<!--Industrial-->
+		<!--自由女神像-->
+		<Row>
+			<BuildingType>BUILDING_STATUE_LIBERTY</BuildingType>
+			<ModifierId>STATUE_LIBERTY_ADJUST_ENTERTAINMENT_AMERICA_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STATUE_LIBERTY</BuildingType>
+			<ModifierId>STATUE_LIBERTY_ADJUST_ENTERTAINMENT_FRANCE_EWHO</ModifierId>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_STATUE_LIBERTY</BuildingType>
+			<ModifierId>STATUE_LIBERTY_ADJUST_JOINTWAR_EXPERIENCE_AMERICA_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STATUE_LIBERTY</BuildingType>
+			<ModifierId>STATUE_LIBERTY_ADJUST_JOINTWAR_EXPERIENCE_FRANCE_EWHO</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_STATUE_LIBERTY</BuildingType>
+			<ModifierId>STATUE_LIBERTY_ADJUST_JOINTWAR_PLUNDER_AMERICA_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STATUE_LIBERTY</BuildingType>
+			<ModifierId>STATUE_LIBERTY_ADJUST_JOINTWAR_PLUNDER_FRANCE_EWHO</ModifierId>
+		</Row>
+		
+		<!--Atomic-->
+		<Row>
+			<BuildingType>BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION</BuildingType>
+			<ModifierId>AMUNDSEN_SCOTT_RESEARCH_STATION_GRANT_RESEARCH_LAB_ATTACH_EWHO</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION</BuildingType>
+			<ModifierId>AMUNDSEN_SCOTT_RESEARCH_STATION_ADJUST_RESEARCH_LAB_ADJUST_SNOW_SCIENCE_ATTACH_EWHO</ModifierId>
+		</Row>
+
+
+	</BuildingModifiers>
+
+	<Modifiers>
+		<!--Ancient-->
+		<!--阿耳忒弥斯神庙-->
+		<Row>
+			<ModifierId>TEMPLE_ARTEMIS_ADJUST_PASTURE_FAITH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_GREECE_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_PASTURE_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TEMPLE_ARTEMIS_ADJUST_PASTURE_GOLD_EWHO</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_GREECE_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_PASTURE_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TEMPLE_ARTEMIS_ADJUST_CAMP_FAITH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_GREECE_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_CAMP_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TEMPLE_ARTEMIS_ADJUST_CAMP_GOLD_EWHO</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_GREECE_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_CAMP_EWHO</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>TEMPLE_ARTEMIS_RANGED_UNITS_GRANT_BUFF_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_GREECE_EWHO</OwnerRequirementSetId>
+		</Row>
+
+		<!--Classical-->
+		<!--摩诃菩提寺-->
+		<Row>
+			<ModifierId>MAHABODHI_TEMPLE_ADJUST_CITY_RELIGION_PRESSURE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_RELIGION_PRESSURE</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_INDIA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAHABODHI_TEMPLE_ADJUST_CITY_RELIGION_IGNORE_PRESSURE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_RELIGION_IGNORE_PRESSURE</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_INDIA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<!--Medieval-->
+		<!--高德院-->
+		<Row>
+			<ModifierId>KOTOKU_IN_ADJUST_FAITH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_JAPAN_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KOTOKU_IN_GRANT_EXTRA_MONKS_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_JAPAN_EWHO</OwnerRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>KOTOKU_IN_MONKS_GRANT_BUFF_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_JAPAN_EWHO</OwnerRequirementSetId>
+		</Row>
+		<!--Renaissance-->
+		<!--圣瓦西里主教座堂-->
+		<Row>
+			<ModifierId>ST_BASILS_CATHEDRAL_ADJUST_TUNDRA_CITY_FOOD_ATTACH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_RUSSIA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_TUNDRA_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ST_BASILS_CATHEDRAL_ADJUST_TUNDRA_CITY_FOOD_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>ST_BASILS_CATHEDRAL_ADJUST_TUNDRA_CITY_PRODUCTION_ATTACH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_RUSSIA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_TUNDRA_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ST_BASILS_CATHEDRAL_ADJUST_TUNDRA_CITY_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>ST_BASILS_CATHEDRAL_ADJUST_TUNDRA_CITY_CULTURE_ATTACH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_RUSSIA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_TUNDRA_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ST_BASILS_CATHEDRAL_ADJUST_TUNDRA_CITY_CULTURE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		
+		<!--泰姬陵-->
+		
+		<Row>
+			<ModifierId>TAJ_MAHAL_ADJUST_CULTURE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_INDIA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_ADJUST_SHAH_JAHAN_GUARANTEE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_GUARANTEE</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_INDIA_EWHO</OwnerRequirementSetId>
+		</Row>
+
+		<!--西印度交易所-->
+		<Row>
+			<ModifierId>CASA_DE_CONTRATACION_ATTACH_ADJUST_GOLD_TO_INCOMING_DOMESTIC_ROUTES_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_SPAIN_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_CITY_IS_NOT_OWNER_CAPITAL_CONTINENT_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CASA_DE_CONTRATACION_ADJUST_GOLD_TO_INCOMING_DOMESTIC_ROUTES_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_TO_OTHERS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>CASA_DE_CONTRATACION_ATTACH_ADJUST_FAITH_TO_INCOMING_DOMESTIC_ROUTES_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_SPAIN_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_CITY_IS_NOT_OWNER_CAPITAL_CONTINENT_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CASA_DE_CONTRATACION_ADJUST_FAITH_TO_INCOMING_DOMESTIC_ROUTES_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_TO_OTHERS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>CASA_DE_CONTRATACION_ATTACH_ADJUST_PRODUCTION_TO_INCOMING_DOMESTIC_ROUTES_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_SPAIN_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_CITY_IS_NOT_OWNER_CAPITAL_CONTINENT_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CASA_DE_CONTRATACION_ADJUST_PRODUCTION_TO_INCOMING_DOMESTIC_ROUTES_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_TO_OTHERS</ModifierType>
+		</Row>
+
+		<!--Industrial-->
+		<!--自由女神像-->
+		<Row>
+			<ModifierId>STATUE_LIBERTY_ADJUST_ENTERTAINMENT_AMERICA_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_ENTERTAINMENT</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_AMERICA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STATUE_LIBERTY_ADJUST_ENTERTAINMENT_FRANCE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_ENTERTAINMENT</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_FRANCE_EWHO</OwnerRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>STATUE_LIBERTY_ADJUST_JOINTWAR_EXPERIENCE_AMERICA_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_JOINTWAR_EXPERIENCE</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_AMERICA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STATUE_LIBERTY_ADJUST_JOINTWAR_EXPERIENCE_FRANCE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_JOINTWAR_EXPERIENCE</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_FRANCE_EWHO</OwnerRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>STATUE_LIBERTY_ADJUST_JOINTWAR_PLUNDER_AMERICA_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_JOINTWAR_PLUNDER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_AMERICA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STATUE_LIBERTY_ADJUST_JOINTWAR_PLUNDER_FRANCE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_JOINTWAR_PLUNDER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_FRANCE_EWHO</OwnerRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>AMUNDSEN_SCOTT_RESEARCH_STATION_GRANT_RESEARCH_LAB_ATTACH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_AMERICA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_CITY_HAS_UNIVERSITY_EWHO</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>AMUNDSEN_SCOTT_RESEARCH_STATION_GRANT_RESEARCH_LAB_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_BUILDING_IN_CITY_IGNORE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>AMUNDSEN_SCOTT_RESEARCH_STATION_ADJUST_RESEARCH_LAB_ADJUST_SNOW_SCIENCE_ATTACH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_AMERICA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_CITY_HAS_RESEARCH_LAB_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AMUNDSEN_SCOTT_RESEARCH_STATION_ADJUST_RESEARCH_LAB_ADJUST_SNOW_SCIENCE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_SNOW_EWHO</SubjectRequirementSetId>
+		</Row>
+
+		
+
+
+	</Modifiers>
+
+	<ModifierArguments>
+		<!--Ancient-->
+		<Row>
+			<ModifierId>TEMPLE_ARTEMIS_ADJUST_PASTURE_FAITH_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TEMPLE_ARTEMIS_ADJUST_PASTURE_FAITH_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TEMPLE_ARTEMIS_ADJUST_PASTURE_GOLD_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TEMPLE_ARTEMIS_ADJUST_PASTURE_GOLD_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TEMPLE_ARTEMIS_ADJUST_CAMP_FAITH_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TEMPLE_ARTEMIS_ADJUST_CAMP_FAITH_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TEMPLE_ARTEMIS_ADJUST_CAMP_GOLD_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TEMPLE_ARTEMIS_ADJUST_CAMP_GOLD_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TEMPLE_ARTEMIS_RANGED_UNITS_GRANT_BUFF_EWHO</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_TEMPLE_ARTEMIS_RANGED_STRENGTH_EWHO</Value>
+		</Row>
+		<!--Classical-->
+		<Row>
+			<ModifierId>MAHABODHI_TEMPLE_ADJUST_CITY_RELIGION_PRESSURE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAHABODHI_TEMPLE_ADJUST_CITY_RELIGION_IGNORE_PRESSURE_EWHO</ModifierId>
+			<Name>Enable</Name>
+			<Value>true</Value>
+		</Row>
+		<!--Medieval-->
+		<Row>
+			<ModifierId>KOTOKU_IN_ADJUST_FAITH_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_KOTOKU_IN</Value>
+		</Row>
+		<Row>
+			<ModifierId>KOTOKU_IN_ADJUST_FAITH_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>KOTOKU_IN_ADJUST_FAITH_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>KOTOKU_IN_GRANT_EXTRA_MONKS_EWHO</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_WARRIOR_MONK</Value>
+		</Row>
+		<Row>
+			<ModifierId>KOTOKU_IN_GRANT_EXTRA_MONKS_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>KOTOKU_IN_MONKS_GRANT_BUFF_EWHO</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_KOTOKU_IN_MONKS_STRENGTH_EWHO</Value>
+		</Row>
+
+		<!--Renaissance-->
+		<Row>
+			<ModifierId>ST_BASILS_CATHEDRAL_ADJUST_TUNDRA_CITY_FOOD_ATTACH_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>ST_BASILS_CATHEDRAL_ADJUST_TUNDRA_CITY_FOOD_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>ST_BASILS_CATHEDRAL_ADJUST_TUNDRA_CITY_FOOD_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>16</Value>
+		</Row>
+		<Row>
+			<ModifierId>ST_BASILS_CATHEDRAL_ADJUST_TUNDRA_CITY_FOOD_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>ST_BASILS_CATHEDRAL_ADJUST_TUNDRA_CITY_PRODUCTION_ATTACH_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>ST_BASILS_CATHEDRAL_ADJUST_TUNDRA_CITY_PRODUCTION_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>ST_BASILS_CATHEDRAL_ADJUST_TUNDRA_CITY_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>ST_BASILS_CATHEDRAL_ADJUST_TUNDRA_CITY_PRODUCTION_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>ST_BASILS_CATHEDRAL_ADJUST_TUNDRA_CITY_CULTURE_ATTACH_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>ST_BASILS_CATHEDRAL_ADJUST_TUNDRA_CITY_CULTURE_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>ST_BASILS_CATHEDRAL_ADJUST_TUNDRA_CITY_CULTURE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>ST_BASILS_CATHEDRAL_ADJUST_TUNDRA_CITY_CULTURE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>TAJ_MAHAL_ADJUST_CULTURE_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_TAJ_MAHAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_ADJUST_CULTURE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_ADJUST_CULTURE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TAJ_MAHAL_ADJUST_SHAH_JAHAN_GUARANTEE_EWHO</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ENGINEER_EWHO</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>CASA_DE_CONTRATACION_ATTACH_ADJUST_GOLD_TO_INCOMING_DOMESTIC_ROUTES_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>CASA_DE_CONTRATACION_ADJUST_GOLD_TO_INCOMING_DOMESTIC_ROUTES_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>CASA_DE_CONTRATACION_ADJUST_GOLD_TO_INCOMING_DOMESTIC_ROUTES_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>CASA_DE_CONTRATACION_ADJUST_GOLD_TO_INCOMING_DOMESTIC_ROUTES_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>CASA_DE_CONTRATACION_ADJUST_GOLD_TO_INCOMING_DOMESTIC_ROUTES_EWHO</ModifierId>
+			<Name>Domestic</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>CASA_DE_CONTRATACION_ATTACH_ADJUST_FAITH_TO_INCOMING_DOMESTIC_ROUTES_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>CASA_DE_CONTRATACION_ADJUST_FAITH_TO_INCOMING_DOMESTIC_ROUTES_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>CASA_DE_CONTRATACION_ADJUST_FAITH_TO_INCOMING_DOMESTIC_ROUTES_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>CASA_DE_CONTRATACION_ADJUST_FAITH_TO_INCOMING_DOMESTIC_ROUTES_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>CASA_DE_CONTRATACION_ADJUST_FAITH_TO_INCOMING_DOMESTIC_ROUTES_EWHO</ModifierId>
+			<Name>Domestic</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>CASA_DE_CONTRATACION_ATTACH_ADJUST_PRODUCTION_TO_INCOMING_DOMESTIC_ROUTES_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>CASA_DE_CONTRATACION_ADJUST_PRODUCTION_TO_INCOMING_DOMESTIC_ROUTES_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>CASA_DE_CONTRATACION_ADJUST_PRODUCTION_TO_INCOMING_DOMESTIC_ROUTES_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>CASA_DE_CONTRATACION_ADJUST_PRODUCTION_TO_INCOMING_DOMESTIC_ROUTES_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>CASA_DE_CONTRATACION_ADJUST_PRODUCTION_TO_INCOMING_DOMESTIC_ROUTES_EWHO</ModifierId>
+			<Name>Domestic</Name>
+			<Value>true</Value>
+		</Row>
+
+		<!--Industrial-->
+		<Row>
+			<ModifierId>STATUE_LIBERTY_ADJUST_ENTERTAINMENT_AMERICA_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>STATUE_LIBERTY_ADJUST_ENTERTAINMENT_FRANCE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>STATUE_LIBERTY_ADJUST_JOINTWAR_EXPERIENCE_AMERICA_EWHO</ModifierId>
+			<Name>Range</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>STATUE_LIBERTY_ADJUST_JOINTWAR_EXPERIENCE_FRANCE_EWHO</ModifierId>
+			<Name>Range</Name>
+			<Value>4</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>STATUE_LIBERTY_ADJUST_JOINTWAR_EXPERIENCE_AMERICA_EWHO</ModifierId>
+			<Name>Multiplier</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>STATUE_LIBERTY_ADJUST_JOINTWAR_PLUNDER_FRANCE_EWHO</ModifierId>
+			<Name>Multiplier</Name>
+			<Value>100</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>AMUNDSEN_SCOTT_RESEARCH_STATION_GRANT_RESEARCH_LAB_ATTACH_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>AMUNDSEN_SCOTT_RESEARCH_STATION_GRANT_RESEARCH_LAB_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>AMUNDSEN_SCOTT_RESEARCH_STATION_GRANT_RESEARCH_LAB_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_RESEARCH_LAB</Value>
+		</Row>
+		<Row>
+			<ModifierId>AMUNDSEN_SCOTT_RESEARCH_STATION_ADJUST_RESEARCH_LAB_ADJUST_SNOW_SCIENCE_ATTACH_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>AMUNDSEN_SCOTT_RESEARCH_STATION_ADJUST_RESEARCH_LAB_ADJUST_SNOW_SCIENCE_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>AMUNDSEN_SCOTT_RESEARCH_STATION_ADJUST_RESEARCH_LAB_ADJUST_SNOW_SCIENCE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>AMUNDSEN_SCOTT_RESEARCH_STATION_ADJUST_RESEARCH_LAB_ADJUST_SNOW_SCIENCE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+
+		
+
+
+	</ModifierArguments>
+
+	<RequirementSets>
+
+		<Row RequirementSetId="REQSET_CITY_HAS_UNIVERSITY_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_CITY_HAS_RESEARCH_LAB_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		
+		<Row RequirementSetId="REQSET_PLOT_HAS_SNOW_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	
+
+	</RequirementSets>
+	
+	<RequirementSetRequirements>
+
+		<Row RequirementSetId="REQSET_CITY_HAS_UNIVERSITY_EWHO" RequirementId="REQUIRES_CITY_HAS_UNIVERSITY_EWHO"/>
+		<Row RequirementSetId="REQSET_CITY_HAS_RESEARCH_LAB_EWHO" RequirementId="REQUIRES_CITY_HAS_RESEARCH_LAB_EWHO"/>
+
+		<Row RequirementSetId="REQSET_PLOT_HAS_SNOW_EWHO" RequirementId="REQUIRES_PLOT_HAS_SNOW_EWHO"/>
+
+		<Row RequirementSetId="REQSET_DISTRICT_IS_ENTERTAINMENT_COMPLEX_OR_WATER_PARK_EWHO" RequirementId="REQUIRES_DISTRICT_IS_WATER_PARK"/>
+
+
+	</RequirementSetRequirements>
+	
+</GameData>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="431fe3f7-f90c-4002-a5c7-0251e2d4310c" version="1">
+	<Properties>
+		<Name>LOC_MOVEMENT_FROM_TECH_NAME</Name>
+		<Teaser>LOC_MOVEMENT_FROM_TECH_TEASER</Teaser>
+		<Description>LOC_MOVEMENT_FROM_TECH_DESCRIPTION</Description>
+		<Authors>Apry</Authors>
+		<CompatibleVersions>1.2,2.0</CompatibleVersions>
+	</Properties>
+  <LocalizedText>
+    <Text id="LOC_MOVEMENT_FROM_TECH_NAME">
+      <en_US>Movements From Technologies</en_US>
+      <zh_Hans_CN>科技提供移动力</zh_Hans_CN>
+    </Text>
+  <Text id="LOC_MOVEMENT_FROM_TECH_TEASER">
+      <en_US>Specific technologies will offer extra movement for land combat units. </en_US>
+      <zh_Hans_CN>使得特定科技解锁后为陆地战斗单位提供移动力</zh_Hans_CN>
+    </Text>
+  <Text id="LOC_MOVEMENT_FROM_TECH_DESCRIPTION">
+      <en_US>Extra movement for land combat units can be offered from specific technologies including ANIMAL_HUSBANDRY, MACHINERY, INDUSTRIALIZATION, COMBUSTION, ADVANCED_POWER_CELLS.</en_US>
+      <zh_Hans_CN>使得特定科技解锁后为陆地战斗单位提供移动力，包括畜牧业、机械、工业化、内燃机和先进动力电池。</zh_Hans_CN>
+    </Text>
+
+  </LocalizedText>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="NewAction1">
+      <File>SQL1.sql</File>
+      <File>GameData01.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="NewAction2">
+      <File>TXT1.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>GameData01.xml</File>
+    <File>SQL1.sql</File>
+    <File>TXT1.xml</File>
+  </Files>
+</Mod>

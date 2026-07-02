@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Medieval Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_ELIZABETH_WILBRAHAM" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ELIZABETH_WILBRAHAM" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ELIZABETH_WILBRAHAM_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_MODERN" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_AERODROME" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_ELIZABETH_WILBRAHAM_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ELIZABETH_WILBRAHAM" ModifierId="GREATPERSON_ELIZABETH_WILBRAHAM_BONUS_AERO" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ELIZABETH_WILBRAHAM" ModifierId="GREATPERSON_ELIZABETH_WILBRAHAM_BONUS_AEROCULT" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_ELIZABETH_WILBRAHAM_BONUS_AERO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_DISTRICT_ADJACENCY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ELIZABETH_WILBRAHAM_BONUS_AEROCULT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_DISTRICT_ADJACENCY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_ELIZABETH_WILBRAHAM_BONUS_AERO</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AERODROME</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ELIZABETH_WILBRAHAM_BONUS_AERO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ELIZABETH_WILBRAHAM_BONUS_AERO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ELIZABETH_WILBRAHAM_BONUS_AERO</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_PLATI_AERO_ADJ_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ELIZABETH_WILBRAHAM_BONUS_AEROCULT</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AERODROME</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ELIZABETH_WILBRAHAM_BONUS_AEROCULT</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ELIZABETH_WILBRAHAM_BONUS_AEROCULT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ELIZABETH_WILBRAHAM_BONUS_AEROCULT</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_PLATI_AERO_ADJ_KULT</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_ELIZABETH_WILBRAHAM_BONUS_AERO" Context="Summary" Text="LOC_GREATPERSON_PLATI_ELIZABETH_WILBRAHAM_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

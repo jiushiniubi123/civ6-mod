@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Visionary of Peace -->
+<!-- Rousseau -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_RAILLORD" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_RAILLORD" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_RAILLORD_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" EraType="ERA_INDUSTRIAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_RAILLORD_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_RAILLORD" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_RAILLORD_FOOD" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_RAILLORD_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_DIPLOMATIC_VICTORY_POINTS</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_RAILLORD_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_RAILLORD_FOOD</ModifierId>
+			<Name>Tooltip</Name>
+			<Value>LOC_DVP_TOOLTIP_OTHER_SOURCES</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_RAILLORD_FOOD" Context="Summary" Text="LOC_GREATPERSON_PLATI_RAILLORD_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

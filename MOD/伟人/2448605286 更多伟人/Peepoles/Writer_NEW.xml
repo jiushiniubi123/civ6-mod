@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cros Eras -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_HEIDEGGER" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_LOVECRAFT" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_RHOWARD" 	Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_HEIDEGGER" 	Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_HEIDEGGER_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" EraType="ERA_MODERN" Gender="M" ActionCharges="0" />
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_LOVECRAFT" 	Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_LOVECRAFT_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" EraType="ERA_MODERN" Gender="M" ActionCharges="0" />
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_RHOWARD" 		Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_RHOWARD_NAME" 	GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" EraType="ERA_MODERN" Gender="M" ActionCharges="0" />
+	</GreatPersonIndividuals>
+</GameData>

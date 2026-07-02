@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1be1c56d-8e78-4f98-8479-e18dcd93a216" version="1">
+  <Properties>
+    <Name>LOC_MOD_FLAC_MENTALAI_NAME</Name>
+    <Description>LOC_MOD_FLAC_MENTALAI_DESCRIPTION</Description>
+    <Created>1581259480</Created>
+    <Teaser>LOC_MOD_FLAC_MENTALAI_TEASER</Teaser>
+    <Authors>Flactine</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+	<Text id="LOC_MOD_FLAC_MENTALAI_NAME">
+		<en_US>Mental AI Boost</en_US>
+		<zh_Hans_CN>终结级AI强化</zh_Hans_CN>
+	</Text>
+	<Text id="LOC_MOD_FLAC_MENTALAI_TEASER">
+		<en_US>AI will be greatly buff in all aspects (the degree of enhancement is proportional to the number of cities).</en_US>
+		<zh_Hans_CN>AI将会从各方面得到巨大的强化（强化程度与城市数量成正比）。</zh_Hans_CN>
+	</Text>
+	<Text id="LOC_MOD_FLAC_MENTALAI_DESCRIPTION">
+		<en_US>AI will be greatly buff in all aspects (the degree of enhancement is proportional to the number of cities).</en_US>
+		<zh_Hans_CN>AI将会从各方面得到巨大的强化（强化程度与城市数量成正比）。</zh_Hans_CN>
+	</Text>
+  </LocalizedText>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File>MA_General.sql</File>
+      <File>MA_Building.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="NewAction">
+      <File>MA_Lang.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>MA_Building.sql</File>
+    <File>MA_General.sql</File>
+    <File>MA_Lang.xml</File>
+    <File>设定.txt</File>
+  </Files>
+</Mod>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8890b968-2c54-4742-8fc9-214160bfcf10" version="4">
+  <Properties>
+    <Name>BuilderLagFix</Name>
+    <Description>A mod that fixes late-game builder lag. taken directly from Terra Mirabilis.</Description>
+    <Created>1585722080</Created>
+    <Teaser>A mod that fixes late-game builder lag</Teaser>
+    <Authors>Tremualin</Authors>
+    <SpecialThanks>Terra Mirabilis Crew</SpecialThanks>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <References>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="74c5c3d9-5408-4315-9e0a-b0c369f82bcd" title="Terra Mirabilis" />
+  </References>
+  <ActionCriteria>
+    <Criteria id="Vanilla">
+      <RuleSetInUse>RULESET_STANDARD</RuleSetInUse>
+    </Criteria>
+    <Criteria id="Expansion1">
+      <GameCoreInUse>Expansion1</GameCoreInUse>
+    </Criteria>
+    <Criteria id="Expansion2">
+      <GameCoreInUse>Expansion2</GameCoreInUse>
+    </Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <ReplaceUIScript id="BuilderLagFix_Vanilla">
+      <Properties>
+        <LuaContext>UnitPanel</LuaContext>
+        <LuaReplace>UnitPanel_Vanilla.lua</LuaReplace>
+        <LoadOrder>160520</LoadOrder>
+      </Properties>
+      <Criteria>Vanilla</Criteria>
+    </ReplaceUIScript>
+    <ReplaceUIScript id="BuilderLagFix_XP1">
+      <Properties>
+        <LuaContext>UnitPanel</LuaContext>
+        <LuaReplace>UnitPanel_XP1.lua</LuaReplace>
+        <LoadOrder>160520</LoadOrder>
+      </Properties>
+      <Criteria>Expansion1</Criteria>
+    </ReplaceUIScript>
+    <ReplaceUIScript id="BuilderLagFix_XP2">
+      <Properties>
+        <LuaContext>UnitPanel</LuaContext>
+        <LuaReplace>UnitPanel_XP2.lua</LuaReplace>
+        <LoadOrder>160520</LoadOrder>
+      </Properties>
+      <Criteria>Expansion2</Criteria>
+    </ReplaceUIScript>
+    <ImportFiles id="BuilderLagFix">
+      <File>BuilderLagFix.lua</File>
+    </ImportFiles>
+  </InGameActions>
+  <Files>
+    <File>BuilderLagFix.lua</File>
+    <File>UnitPanel_Vanilla.lua</File>
+    <File>UnitPanel_XP1.lua</File>
+    <File>UnitPanel_XP2.lua</File>
+  </Files>
+</Mod>

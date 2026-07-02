@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  <LocalizedText>
+	<Text id="LOC_SRP_TITLE">
+		<en_US>Strategy Resources to Production</en_US>
+		<zh_Hans_CN>战略资源转化为生产力</zh_Hans_CN>
+	</Text>
+	<Text id="LOC_SRP_DESC">
+		<en_US>This mod can let player turn Old Strategy Resource to Productions</en_US>
+		<zh_Hans_CN>这个MOD可以让玩家将储存的战略资源转化为城市生产力。</zh_Hans_CN>
+	</Text>
+  </LocalizedText>
+-->
+<Context Name="SRP_CityPanel">
+	<Stack StackGrowth="Right" 	 Padding="3" Anchor="C,T" >
+		<GridButton				ID="SRP_SellHorseCheck" Anchor="C,T"	Offset="105,-115"  Size="41,36"  Style="PurchaseTileButton" ToolTip="LOC_HUD_CITY_SELL_HORSE_TOOLTIP">
+			<Label			ID="SRP_HourseImage" Anchor="C,C"	Size ="32,32" Offset="0,0" Style="CityPanelNumLarge" String="[ICON_RESOURCE_HORSES]"/>
+		</GridButton>
+		<GridButton				ID="SRP_SellIronCheck" Anchor="C,T"	Offset="155,-115"  Size="41,36"  Style="PurchaseTileButton" ToolTip="LOC_HUD_CITY_SELL_IRON_TOOLTIP">
+			<Label			ID="SRP_IronImage" Anchor="C,C"	Size ="32,32" Offset="0,0" Style="CityPanelNumLarge" String="[ICON_RESOURCE_IRON]"/>
+		</GridButton>
+		<GridButton				ID="SRP_SellNiterCheck" Anchor="C,T"	Offset="205,-115"  Size="41,36"  Style="PurchaseTileButton" ToolTip="LOC_HUD_CITY_SELL_NITER_TOOLTIP">
+			<Label			ID="SRP_NiterImage" Anchor="C,C"	Size ="32,32" Offset="0,0" Style="CityPanelNumLarge" String="[ICON_RESOURCE_NITER]"/>
+		</GridButton>
+		<GridButton				ID="SRP_SellAluminumCheck" Anchor="C,T"	Offset="255,-115"  Size="41,36"  Style="PurchaseTileButton" ToolTip="LOC_HUD_CITY_SELL_ALUMINUM_TOOLTIP">
+			<Label			ID="SRP_AluminumImage" Anchor="C,C"	Size ="32,32" Offset="0,0" Style="CityPanelNumLarge" String="[ICON_RESOURCE_ALUMINUM]"/>
+		</GridButton>
+		<GridButton				ID="SRP_SellCoalCheck" Anchor="C,T"	Offset="305,-115"  Size="41,36"  Style="PurchaseTileButton" ToolTip="LOC_HUD_CITY_SELL_COAL_TOOLTIP">
+			<Label			ID="SRP_CoalImage" Anchor="C,C"	Size ="32,32" Offset="0,0" Style="CityPanelNumLarge" String="[ICON_RESOURCE_COAL]"/>
+		</GridButton>
+		<GridButton				ID="SRP_SellOilCheck" Anchor="C,T"	Offset="355,-115"  Size="41,36"  Style="PurchaseTileButton" ToolTip="LOC_HUD_CITY_SELL_OIL_TOOLTIP">
+			<Label			ID="SRP_OilImage" Anchor="C,C"	Size ="32,32" Offset="0,0" Style="CityPanelNumLarge" String="[ICON_RESOURCE_OIL]"/>
+		</GridButton>
+		<GridButton				ID="SRP_SellUraniumCheck" Anchor="C,T"	Offset="405,-115"  Size="41,36"  Style="PurchaseTileButton" ToolTip="LOC_HUD_CITY_SELL_URANIUM_TOOLTIP">
+			<Label			ID="SRP_UraniumImage" Anchor="C,C"	Size ="32,32" Offset="0,0" Style="CityPanelNumLarge" String="[ICON_RESOURCE_URANIUM]"/>
+		</GridButton>
+	</Stack>
+</Context>

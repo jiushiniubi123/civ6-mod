@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row>
+			<Type>BUILDING_PLATI_MONUMENT_ASKIA</Type>
+			<Kind>KIND_BUILDING</Kind>
+		</Row>
+		<Row>
+			<Type>BUILDING_HAKAM_CATHEDRAL</Type>
+			<Kind>KIND_BUILDING</Kind>
+		</Row>
+		<Row>
+			<Type>BUILDING_HAKAM_MOSQUE</Type>
+			<Kind>KIND_BUILDING</Kind>
+		</Row>
+		<Row>
+			<Type>BUILDING_HAKAM_SYNAGOGE</Type>
+			<Kind>KIND_BUILDING</Kind>
+		</Row>
+		<Row>
+			<Type>BUILDING_HAKAM_CATHEDRAL_DUMMY</Type>
+			<Kind>KIND_BUILDING</Kind>
+		</Row>
+		<Row>
+			<Type>BUILDING_HAKAM_MOSQUE_DUMMY</Type>
+			<Kind>KIND_BUILDING</Kind>
+		</Row>
+		<Row>
+			<Type>BUILDING_HAKAM_SYNAGOGE_DUMMY</Type>
+			<Kind>KIND_BUILDING</Kind>
+		</Row>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_HAKAM_CATHEDRAL" 	Name="LOC_BUILDING_HAKAM_CATHEDRAL_NAME" 	PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_FAITH" Cost="190" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_NO_PLAYER" />
+		<Row BuildingType="BUILDING_HAKAM_MOSQUE" 		Name="LOC_BUILDING_HAKAM_MOSQUE_NAME" 	Description="LOC_BUILDING_MOSQUE_DESCRIPTION" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_FAITH" Cost="190" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_NO_PLAYER" />
+		<Row BuildingType="BUILDING_HAKAM_SYNAGOGE" 	Name="LOC_BUILDING_HAKAM_SYNAGOGE_NAME" 	PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_FAITH" Cost="190" CitizenSlots="2" TraitType="TRAIT_CIVILIZATION_NO_PLAYER" />
+		<Row>
+			<BuildingType>BUILDING_HAKAM_CATHEDRAL_DUMMY</BuildingType>
+			<Name>dummy</Name>
+			<Cost>0</Cost>
+			<InternalOnly>1</InternalOnly>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HAKAM_MOSQUE_DUMMY</BuildingType>
+			<Name>dummy</Name>
+			<Cost>0</Cost>
+			<InternalOnly>1</InternalOnly>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HAKAM_SYNAGOGE_DUMMY</BuildingType>
+			<Name>dummy</Name>
+			<Cost>0</Cost>
+			<InternalOnly>1</InternalOnly>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PLATI_MONUMENT_ASKIA</BuildingType>
+			<Name>LOC_BUILDING_MONUMENT_NAME</Name>
+			<Description>LOC_BUILDING_MONUMENT_EXPANSION1_DESCRIPTION</Description>
+			<PrereqDistrict>DISTRICT_CITY_CENTER</PrereqDistrict>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<Cost>60</Cost>
+			<AdvisorType>ADVISOR_CULTURE</AdvisorType>
+			<TraitType>TRAIT_CIVILIZATION_NO_PLAYER</TraitType>
+		</Row>
+	</Buildings>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_HAKAM_CATHEDRAL" 	PrereqBuilding="BUILDING_GURDWARA"/>
+		<Row Building="BUILDING_HAKAM_CATHEDRAL" 	PrereqBuilding="BUILDING_MEETING_HOUSE"/>
+		<Row Building="BUILDING_HAKAM_CATHEDRAL" 	PrereqBuilding="BUILDING_MOSQUE"/>
+		<Row Building="BUILDING_HAKAM_CATHEDRAL" 	PrereqBuilding="BUILDING_PAGODA"/>
+		<Row Building="BUILDING_HAKAM_CATHEDRAL" 	PrereqBuilding="BUILDING_SYNAGOGUE"/>
+		<Row Building="BUILDING_HAKAM_CATHEDRAL" 	PrereqBuilding="BUILDING_WAT"/>
+		<Row Building="BUILDING_HAKAM_CATHEDRAL" 	PrereqBuilding="BUILDING_STUPA"/>
+		<Row Building="BUILDING_HAKAM_CATHEDRAL" 	PrereqBuilding="BUILDING_DAR_E_MEHR"/>
+		<Row Building="BUILDING_HAKAM_MOSQUE" 		PrereqBuilding="BUILDING_CATHEDRAL"/>
+		<Row Building="BUILDING_HAKAM_MOSQUE" 		PrereqBuilding="BUILDING_GURDWARA"/>
+		<Row Building="BUILDING_HAKAM_MOSQUE" 		PrereqBuilding="BUILDING_MEETING_HOUSE"/>
+		<Row Building="BUILDING_HAKAM_MOSQUE" 		PrereqBuilding="BUILDING_PAGODA"/>
+		<Row Building="BUILDING_HAKAM_MOSQUE" 		PrereqBuilding="BUILDING_SYNAGOGUE"/>
+		<Row Building="BUILDING_HAKAM_MOSQUE" 		PrereqBuilding="BUILDING_WAT"/>
+		<Row Building="BUILDING_HAKAM_MOSQUE" 		PrereqBuilding="BUILDING_STUPA"/>
+		<Row Building="BUILDING_HAKAM_MOSQUE" 		PrereqBuilding="BUILDING_DAR_E_MEHR"/>
+		<Row Building="BUILDING_HAKAM_SYNAGOGE" 	PrereqBuilding="BUILDING_CATHEDRAL"/>
+		<Row Building="BUILDING_HAKAM_SYNAGOGE" 	PrereqBuilding="BUILDING_GURDWARA"/>
+		<Row Building="BUILDING_HAKAM_SYNAGOGE" 	PrereqBuilding="BUILDING_MEETING_HOUSE"/>
+		<Row Building="BUILDING_HAKAM_SYNAGOGE" 	PrereqBuilding="BUILDING_MOSQUE"/>
+		<Row Building="BUILDING_HAKAM_SYNAGOGE" 	PrereqBuilding="BUILDING_PAGODA"/>
+		<Row Building="BUILDING_HAKAM_SYNAGOGE" 	PrereqBuilding="BUILDING_WAT"/>
+		<Row Building="BUILDING_HAKAM_SYNAGOGE" 	PrereqBuilding="BUILDING_STUPA"/>
+		<Row Building="BUILDING_HAKAM_SYNAGOGE" 	PrereqBuilding="BUILDING_DAR_E_MEHR"/>
+	</BuildingPrereqs>
+	<MutuallyExclusiveBuildings>
+		<Row Building="BUILDING_HAKAM_CATHEDRAL" 	MutuallyExclusiveBuilding="BUILDING_HAKAM_MOSQUE"/>
+		<Row Building="BUILDING_HAKAM_CATHEDRAL" 	MutuallyExclusiveBuilding="BUILDING_HAKAM_SYNAGOGE"/>
+		<Row Building="BUILDING_HAKAM_MOSQUE" 		MutuallyExclusiveBuilding="BUILDING_HAKAM_CATHEDRAL"/>
+		<Row Building="BUILDING_HAKAM_MOSQUE" 		MutuallyExclusiveBuilding="BUILDING_HAKAM_SYNAGOGE"/>
+		<Row Building="BUILDING_HAKAM_SYNAGOGE" 	MutuallyExclusiveBuilding="BUILDING_HAKAM_CATHEDRAL"/>
+		<Row Building="BUILDING_HAKAM_SYNAGOGE" 	MutuallyExclusiveBuilding="BUILDING_HAKAM_MOSQUE"/>
+	</MutuallyExclusiveBuildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_PLATI_MONUMENT_ASKIA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row BuildingType="BUILDING_HAKAM_CATHEDRAL" 	YieldType="YIELD_FAITH" YieldChange="3"/>
+		<Row BuildingType="BUILDING_HAKAM_MOSQUE" 		YieldType="YIELD_FAITH" YieldChange="3"/>
+		<Row BuildingType="BUILDING_HAKAM_SYNAGOGE" 	YieldType="YIELD_FAITH" YieldChange="5"/>
+	</Building_YieldChanges>
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_HAKAM_CATHEDRAL" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="1"/>
+	</Building_GreatWorks>
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_PLATI_MONUMENT_ASKIA" ModifierId="PLATI_SOVEREIGN_COWRIE"/>
+		<Row BuildingType="BUILDING_PLATI_MONUMENT_ASKIA" ModifierId="MONUMENT_LOYALTY"/>
+		<Row BuildingType="BUILDING_PLATI_MONUMENT_ASKIA" ModifierId="MONUMENT_CULTURE_AT_FULL_LOYALTY"/>
+		<Row>
+			<BuildingType>BUILDING_HAKAM_MOSQUE</BuildingType>
+			<ModifierId>MOSQUE_HAKAM_ADJUST_SPREAD_CHARGES</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>PLATI_SOVEREIGN_COWRIE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY</ModifierType>
+			<SubjectRequirementSetId>CITY_NOT_FOUNDED</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MOSQUE_HAKAM_ADJUST_SPREAD_CHARGES</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_RELIGIOUS_SPREADS</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>MOSQUE_RELIGIOUS_UNIT</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>PLATI_SOVEREIGN_COWRIE</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_COWRIE</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_SOVEREIGN_COWRIE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MOSQUE_HAKAM_ADJUST_SPREAD_CHARGES</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

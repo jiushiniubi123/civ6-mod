@@ -1,0 +1,779 @@
+<GameInfo>
+	<!-- Add the map script to the list of maps. -->
+	<Maps>
+		<Row File="GotLakes.lua" Name="LOC_GL_NAME" Description="LOC_GL_DESC" SortIndex="8"/>
+		
+		<!-- Add to the list of Red Death maps. -->
+		<Row Domain="Maps:CivRoyalScenarioMaps" File="GotLakes.lua" Name="LOC_GL_NAME" Description="LOC_GL_DESC" SortIndex="8"/>
+	</Maps>
+    
+	<!-- User-selectable parameters for this map. -->
+	<Parameters>
+			
+		<!-- Core Map options: -->
+		<!-- Map Size sort:       220 -->
+		<!-- Resources sort:      230 -->
+		<!-- Start Position sort: 240 -->
+		<!-- Use custom ParameterId to allow full control over sort order (avoid collision with base-game options). -->
+		
+        <!-- Landmass Shuffle -->
+		<Row ParameterId="GL_Continents" 
+		     Name="LOC_GL_CONTINENTS_NAME" Description="LOC_GL_CONTINENTS_DESCRIPTION"
+			 Domain="GLDomain_Continents" ConfigurationId="continents"
+			 DefaultValue="7"
+			 SortIndex="300" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map"  GroupId="MapOptions" Hash="0"  />
+
+		<Row ParameterId="GL_Islands"
+		     Name="LOC_GL_ISLANDS_NAME" Description="LOC_GL_ISLANDS_DESCRIPTION"
+			 Domain="GLDomain_Islands" ConfigurationId="islands" 
+			 DefaultValue="7"
+			 SortIndex="301" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0" />
+
+		<Row ParameterId="GL_Lakes"
+		     Name="LOC_GL_LAKES_NAME" Description="LOC_GL_LAKES_DESCRIPTION"
+			 Domain="GLDomain_Lakes" ConfigurationId="lakes"
+			 DefaultValue="7" 
+			 SortIndex="302" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"  />
+
+		<Row ParameterId="GL_Pangea"
+		     Name="LOC_GL_PANGEA_NAME" Description="LOC_GL_PANGEA_DESCRIPTION"
+			 Domain="GLDomain_Pangea" ConfigurationId="pangea"
+			 DefaultValue="7"
+			 SortIndex="303" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map"  GroupId="MapOptions" Hash="0"  />
+        
+        <!-- Customizations -->		 
+		<Row ParameterId="GL_Mountains" 
+			 Name="LOC_GL_MOUNTAINS_NAME" Description="LOC_GL_MOUNTAINS_DESCRIPTION"
+			 Domain="GLDomain_Mountains" ConfigurationId="mountains"
+			 DefaultValue="9" 
+			 SortIndex="310" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+
+		<Row ParameterId="GL_MtnClumps" 
+			 Name="LOC_GL_MTNCLUMPS_NAME" Description="LOC_GL_MTNCLUMPS_DESC" 
+			 Domain="GLDomain_MtnClumps" ConfigurationId="mtn_clumps" 
+			 DefaultValue="5" 
+			 SortIndex="311" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+
+		<Row ParameterId="GL_Rivers" 
+			 Name="LOC_GL_RIVERS_NAME" Description="LOC_GL_RIVERS_DESCRIPTION"
+			 Domain="GLDomain_Rivers" ConfigurationId="rivers"
+			 DefaultValue="6" 
+			 SortIndex="312" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+
+		<Row ParameterId="GL_Extras" 
+		     Name="LOC_GL_EXTRAS_NAME" Description="LOC_GL_EXTRAS_DESCRIPTION"
+			 Domain="GLDomain_Extras" ConfigurationId="extras"  
+			 DefaultValue="10" 
+			 SortIndex="313" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>	
+		
+		<!-- SP World Wrap: Random -->
+		<Row ParameterId="GL_WorldWrap" 
+			 Name="LOC_GL_WORLD_WRAP_NAME" Description="LOC_GL_WORLD_WRAP_DESCRIPTION" 
+			 Domain="GLDomain_SPWorldWrap" ConfigurationId="world_wrap"
+			 SupportsLANMultiplayer="0" SupportsInternetMultiplayer="0" SupportsHotSeat="0"
+			 DefaultValue="3"
+			 SortIndex="320" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+	
+		<!-- MP World Wrap: Globe (no random) -->
+		<Row ParameterId="GL_WorldWrap" 
+			 Name="LOC_GL_WORLD_WRAP_NAME" Description="LOC_GL_WORLD_WRAP_DESCRIPTION" 
+			 Domain="GLDomain_MPWorldWrap" ConfigurationId="world_wrap"
+			 SupportsSinglePlayer="0"
+			 DefaultValue="1"
+			 SortIndex="320" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+
+		<!-- SP Climate Wrap: Random -->
+		<Row ParameterId="GL_ClimateWrap" 
+			 Name="LOC_GL_CLIMATE_WRAP_NAME" Description="LOC_GL_CLIMATE_WRAP_DESC" 
+			 Domain="GLDomain_SPClimateWrap" ConfigurationId="climate_wrap"
+			 SupportsLANMultiplayer="0" SupportsInternetMultiplayer="0" SupportsHotSeat="0"
+			 DefaultValue="8"
+			 SortIndex="321" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+	
+		<!-- MP Climate Wrap: Same as World Wrap (no random) -->
+		<Row ParameterId="GL_ClimateWrap" 
+			 Name="LOC_GL_CLIMATE_WRAP_NAME" Description="LOC_GL_CLIMATE_WRAP_DESC" 
+			 Domain="GLDomain_MPClimateWrap" ConfigurationId="climate_wrap"
+			 SupportsSinglePlayer="0"
+			 DefaultValue="4"
+			 SortIndex="321" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>			 
+			 
+	    <Row ParameterId="GL_Climate" 
+		     Name="LOC_GL_CLIMATE_NAME" Description="LOC_GL_CLIMATE_DESCRIPTION"
+			 Domain="GLDomain_Climate" ConfigurationId="climate"  
+			 DefaultValue="7" 
+			 SortIndex="330" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+			 
+		<Row ParameterId="GL_Biome" 
+		     Name="LOC_GL_BIOME_NAME" Description="LOC_GL_BIOME_DESCRIPTION"
+			 Domain="GLDomain_Biome" ConfigurationId="biome"  
+			 DefaultValue="5" 
+			 SortIndex="331" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+			 
+		<Row ParameterId="GL_Sunlight" 
+		     Name="LOC_GL_SUNLIGHT_NAME" Description="LOC_GL_SUNLIGHT_DESCRIPTION"
+			 Domain="GLDomain_Sunlight" ConfigurationId="sunlight"  
+			 DefaultValue="4" 
+			 SortIndex="332" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+			 
+		<Row ParameterId="GL_IcyPoles" 
+		     Name="LOC_GL_ICYPOLES_NAME" Description="LOC_GL_ICYPOLES_DESCRIPTION"
+			 Domain="GLDomain_IcyPoles" ConfigurationId="icy_poles"  
+			 DefaultValue="3" 
+			 SortIndex="333" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+        
+        <!-- Adjustments -->
+		<Row ParameterId="GL_LandStarts" 
+			 Name="LOC_GL_LANDSTARTS_NAME" Description="LOC_GL_LANDSTARTS_DESC" 
+			 Domain="GLDomain_LandStarts" ConfigurationId="land_starts" 
+			 DefaultValue="4" 
+			 SortIndex="400" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+			 
+		<Row ParameterId="GL_WaterStarts" 
+			 Name="LOC_GL_WATERSTARTS_NAME" Description="LOC_GL_WATERSTARTS_DESC" 
+			 Domain="GLDomain_WaterStarts" ConfigurationId="water_starts" 
+			 DefaultValue="4" 
+			 SortIndex="401" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+		
+		<Row ParameterId="GL_MinorStarts" 
+			 Name="LOC_GL_MINORSTARTS_NAME" Description="LOC_GL_MINORSTARTS_DESC" 
+			 Domain="GLDomain_MinorStarts" ConfigurationId="minor_starts" 
+			 DefaultValue="2" 
+			 SortIndex="402" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+		
+		<Row ParameterId="GL_MtnLevel" 
+			 Name="LOC_GL_MTNLEVEL_NAME" Description="LOC_GL_MTNLEVEL_DESC" 
+			 Domain="GLDomain_MtnLevel" ConfigurationId="mtn_level" 
+			 DefaultValue="3" 
+			 SortIndex="410" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+
+		<Row ParameterId="GL_HillLevel" 
+			 Name="LOC_GL_HILLLEVEL_NAME" Description="LOC_GL_HILLLEVEL_DESC" 
+			 Domain="GLDomain_HillLevel" ConfigurationId="hill_level" 
+			 DefaultValue="6" 
+			 SortIndex="411" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+			 
+		<Row ParameterId="GL_VolcLevel" 
+			 Name="LOC_GL_VOLCLEVEL_NAME" Description="LOC_GL_VOLCLEVEL_DESC" 
+			 Domain="GLDomain_VolcLevel" ConfigurationId="volc_level" 
+			 DefaultValue="6" 
+			 SortIndex="412" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+             
+        <Row ParameterId="GL_GFissureLevel" 
+			 Name="LOC_GL_GFISSURELEVEL_NAME" Description="LOC_GL_GFISSURELEVEL_DESC" 
+			 Domain="GLDomain_GFissureLevel" ConfigurationId="geothermal_fissure_level" 
+			 DefaultValue="3" 
+			 SortIndex="413" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+
+		<Row ParameterId="GL_SeaLevel" 
+			 Name="LOC_MAP_SEA_LEVEL_NAME" Description="LOC_MAP_SEA_LEVEL_DESCRIPTION"
+			 Domain="GLDomain_SeaLevel" ConfigurationId="sea_level"
+			 DefaultValue="3"
+			 SortIndex="420" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+ 
+ 		<Row ParameterId="GL_LakeLevel"
+			 Name="LOC_GL_LAKELEVEL_NAME" Description="LOC_GL_LAKELEVEL_DESCRIPTION"
+ 			 Domain="GLDomain_LakeLevel" ConfigurationId="lake_level" 
+	 		 DefaultValue="3" 
+			 SortIndex="421" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+ 
+  		<Row ParameterId="GL_RiverLevel"
+			 Name="LOC_GL_RIVERLEVEL_NAME" Description="LOC_GL_RIVERLEVEL_DESCRIPTION"
+ 			 Domain="GLDomain_RiverLevel" ConfigurationId="river_level" 
+	 		 DefaultValue="3" 
+			 SortIndex="422" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+ 
+ 		<Row ParameterId="GL_Circumnavigation" 
+			 Name="LOC_GL_CIRCUMNAV_NAME" Description="LOC_GL_CIRCUMNAV_DESCRIPTION"
+			 Domain="GLDomain_Circumnav" ConfigurationId="circumnavigation"
+			 DefaultValue="5" 
+			 SortIndex="423" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+ 
+		<Row ParameterId="GL_CoastExp"
+			 Name="LOC_GL_COASTEXP_NAME" Description="LOC_GL_COASTEXP_DESCRIPTION"
+ 			 Domain="GLDomain_CoastExp" ConfigurationId="coastal_expansion" 
+	 		 DefaultValue="4" 
+			 SortIndex="424" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+
+		<Row ParameterId="GL_CoastLows"
+			 Name="LOC_GL_COASTLOWS_NAME" Description="LOC_GL_COASTLOWS_DESCRIPTION"
+ 			 Domain="GLDomain_CoastLows" ConfigurationId="coastal_lowlands" 
+	 		 DefaultValue="3" 
+			 SortIndex="425" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+ 
+		<Row ParameterId="GL_Temperature" 
+			 Name="LOC_MAP_TEMPERATURE_NAME" Description="LOC_GL_TEMPERATURE_DESCRIPTION"
+			 Domain="GLDomain_Temperature" ConfigurationId="temperature" 
+			 DefaultValue="3" 
+			 SortIndex="430" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+
+		<Row ParameterId="GL_DesertLevel" 
+			 Name="LOC_GL_DESERTLEVEL_NAME" Description="LOC_GL_DESERTLEVEL_DESCRIPTION"
+			 Domain="GLDomain_DesertLevel" ConfigurationId="desertlevel" 
+			 DefaultValue="3" 
+			 SortIndex="431" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+		
+		<Row ParameterId="GL_TundraLevel" 
+			 Name="LOC_GL_TUNDRALEVEL_NAME" Description="LOC_GL_TUNDRALEVEL_DESCRIPTION"
+			 Domain="GLDomain_TundraLevel" ConfigurationId="tundralevel" 
+			 DefaultValue="3" 
+			 SortIndex="432" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+		
+		<Row ParameterId="GL_Rainfall"
+			 Name="LOC_MAP_RAINFALL_NAME" Description="LOC_GL_RAINFALL_DESCRIPTION"
+ 			 Domain="GLDomain_Rainfall" ConfigurationId="rainfall" 
+	 		 DefaultValue="3" 
+			 SortIndex="440" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+		
+		<Row ParameterId="GL_KelpLevel"
+			 Name="LOC_GL_KELPLEVEL_NAME" Description="LOC_GL_KELPLEVEL_DESC"
+ 			 Domain="GLDomain_KelpLevel" ConfigurationId="kelp_level" 
+	 		 DefaultValue="6" 
+			 SortIndex="441" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+		
+		<Row ParameterId="GL_KelpForests"
+			 Name="LOC_GL_KELPFORESTS_NAME" Description="LOC_GL_KELPFORESTS_DESC"
+ 			 Domain="GLDomain_KelpForests" ConfigurationId="kelp_forests" 
+	 		 DefaultValue="2" 
+			 SortIndex="442" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>		 
+		
+		<Row ParameterId="GL_ClimateGran"
+			 Name="LOC_GL_CLIMGRAN_NAME" Description="LOC_GL_CLIMGRAN_DESCRIPTION"
+ 			 Domain="GLDomain_ClimGran" ConfigurationId="clim_gran" 
+	 		 DefaultValue="3" 
+			 SortIndex="450" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+			 
+		<Row ParameterId="GL_GrassPlains"
+			 Name="LOC_GL_GRASSPLAINS_NAME" Description="LOC_GL_GRASSPLAINS_DESCRIPTION"
+ 			 Domain="GLDomain_GrassPlains" ConfigurationId="grassplains" 
+	 		 DefaultValue="3" 
+			 SortIndex="460" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+			 
+		<Row ParameterId="GL_ForestJungle"
+			 Name="LOC_GL_FORESTJUNGLE_NAME" Description="LOC_GL_FORESTJUNGLE_DESCRIPTION"
+ 			 Domain="GLDomain_ForestJungle" ConfigurationId="forestjungle" 
+	 		 DefaultValue="3" 
+			 SortIndex="461" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+			 
+		<Row ParameterId="GL_Biodiversity" 
+		     Name="LOC_GL_BIODIV_NAME" Description="LOC_GL_BIODIV_DESCRIPTION"
+			 Domain="GLDomain_Biodiv" ConfigurationId="biodiversity"  
+			 DefaultValue="6" 
+			 SortIndex="470" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+		
+			 
+		<!-- Additional options -->
+		<Row ParameterId="GL_ConnectedLands" 
+			 Name="LOC_GL_CONNECTED_LANDS_NAME" Description="LOC_GL_CONNECTED_LANDS_DESCRIPTION"
+			 Domain="bool" ConfigurationId="connect_lands"
+			 DefaultValue="0" 
+			 SortIndex="1005" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+             
+		<Row ParameterId="GL_ConnectedSeas" 
+			 Name="LOC_GL_CONNECTED_SEAS_NAME" Description="LOC_GL_CONNECTED_SEAS_DESCRIPTION"
+			 Domain="bool" ConfigurationId="connect_seas"
+			 DefaultValue="0" 
+			 SortIndex="1006" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+			 
+		<Row ParameterId="GL_IsolatedCoasts" 
+			 Name="LOC_GL_ISOLATED_COASTS_NAME" Description="LOC_GL_ISOLATED_COASTS_DESC"
+			 Domain="bool" ConfigurationId="isolated_coasts"
+			 DefaultValue="0" 
+			 SortIndex="1010" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+		
+        <Row ParameterId="GL_NoAddLakes" 
+			 Name="LOC_GL_NO_ADD_LAKES_NAME" Description="LOC_GL_NO_ADD_LAKES_DESC"
+			 Domain="bool" ConfigurationId="no_add_lakes"
+			 DefaultValue="0" 
+			 SortIndex="1020" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+        
+		<Row ParameterId="GL_NoCoastalIce" 
+			 Name="LOC_GL_NO_COASTAL_ICE_NAME" Description="LOC_GL_NO_COASTAL_ICE_DESCRIPTION"
+			 Domain="bool" ConfigurationId="no_coastal_ice"
+			 DefaultValue="0" 
+			 SortIndex="1021" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+			 
+		<Row ParameterId="GL_NoCoastalMountains" 
+			 Name="LOC_GL_NO_COASTAL_MOUNTAINS_NAME" Description="LOC_GL_NO_COASTAL_MOUNTAINS_DESCRIPTION"
+			 Domain="bool" ConfigurationId="no_coastal_mountains"
+			 DefaultValue="0" 
+			 SortIndex="1022" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+
+		<Row ParameterId="GL_NoDesert" 
+			 Name="LOC_GL_NO_DESERT_NAME" Description="LOC_GL_NO_DESERT_DESCRIPTION"
+			 Domain="bool" ConfigurationId="no_desert"
+			 DefaultValue="0" 
+			 SortIndex="1030" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+
+		<Row ParameterId="GL_NoDesertForests" 
+			 Name="LOC_GL_NO_DESERT_FORESTS_NAME" Description="LOC_GL_NO_DESERT_FORESTS_DESCRIPTION"
+			 Domain="bool" ConfigurationId="no_desert_forests"
+			 DefaultValue="0" 
+			 SortIndex="1031" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+			 
+		<Row ParameterId="GL_NoDesertJungles" 
+			 Name="LOC_GL_NO_DESERT_JUNGLES_NAME" Description="LOC_GL_NO_DESERT_JUNGLES_DESCRIPTION"
+			 Domain="bool" ConfigurationId="no_desert_jungles"
+			 DefaultValue="0" 
+			 SortIndex="1032" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+
+		<Row ParameterId="GL_NoDesertOases" 
+			 Name="LOC_GL_NO_DESERT_OASES_NAME" Description="LOC_GL_NO_DESERT_OASES_DESCRIPTION"
+			 Domain="bool" ConfigurationId="no_desert_oases"
+			 DefaultValue="0" 
+			 SortIndex="1033" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+
+        <Row ParameterId="GL_NoFloodplains" 
+			 Name="LOC_GL_NO_FLOODPLAINS_NAME" Description="LOC_GL_NO_FLOODPLAINS_DESC"
+			 Domain="bool" ConfigurationId="no_floodplains"
+			 DefaultValue="0" 
+			 SortIndex="1034" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+
+        <Row ParameterId="GL_NoForests" 
+			 Name="LOC_GL_NO_FORESTS_NAME" Description="LOC_GL_NO_FORESTS_DESC"
+			 Domain="bool" ConfigurationId="no_forests"
+			 DefaultValue="0" 
+			 SortIndex="1035" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+
+        <Row ParameterId="GL_NoGeoFissures" 
+			 Name="LOC_GL_NO_GEOFISSURES_NAME" Description="LOC_GL_NO_GEOFISSURES_DESC"
+			 Domain="bool" ConfigurationId="no_geo_fissures"
+			 DefaultValue="0" 
+			 SortIndex="1036" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+
+
+		<Row ParameterId="GL_NoGrass" 
+			 Name="LOC_GL_NO_GRASS_NAME" Description="LOC_GL_NO_GRASS_DESCRIPTION"
+			 Domain="bool" ConfigurationId="no_grass"
+			 DefaultValue="0" 
+			 SortIndex="1040" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+
+		<Row ParameterId="GL_NoGrassJungles" 
+			 Name="LOC_GL_NO_GRASS_JUNGLES_NAME" Description="LOC_GL_NO_GRASS_JUNGLES_DESCRIPTION"
+			 Domain="bool" ConfigurationId="no_grass_jungles"
+			 DefaultValue="0" 
+			 SortIndex="1041" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+
+        <Row ParameterId="GL_NoHills" 
+			 Name="LOC_GL_NO_HILLS_NAME" Description="LOC_GL_NO_HILLS_DESC"
+			 Domain="bool" ConfigurationId="no_hills"
+			 DefaultValue="0" 
+			 SortIndex="1042" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+
+		<Row ParameterId="GL_NoIce" 
+			 Name="LOC_GL_NO_ICE_NAME" Description="LOC_GL_NO_ICE_DESCRIPTION"
+			 Domain="bool" ConfigurationId="no_ice"
+			 DefaultValue="0" 
+			 SortIndex="1043" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+        
+        <Row ParameterId="GL_NoJungles"
+			 Name="LOC_GL_NO_JUNGLES_NAME" Description="LOC_GL_NO_JUNGLES_DESC"
+			 Domain="bool" ConfigurationId="no_jungles"
+			 DefaultValue="0"
+			 SortIndex="1044" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+        
+        <Row ParameterId="GL_NoMarsh"
+			 Name="LOC_GL_NO_MARSH_NAME" Description="LOC_GL_NO_MARSH_DESC"
+			 Domain="bool" ConfigurationId="no_marsh"
+			 DefaultValue="0"
+			 SortIndex="1045" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+        
+        <Row ParameterId="GL_NoMountains" 
+			 Name="LOC_GL_NO_MOUNTAINS_NAME" Description="LOC_GL_NO_MOUNTAINS_DESC"
+			 Domain="bool" ConfigurationId="no_mountains"
+			 DefaultValue="0" 
+			 SortIndex="1046" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+
+		<Row ParameterId="GL_NoPlains" 
+			 Name="LOC_GL_NO_PLAINS_NAME" Description="LOC_GL_NO_PLAINS_DESCRIPTION"
+			 Domain="bool" ConfigurationId="no_plains"
+			 DefaultValue="0" 
+			 SortIndex="1050" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+	 
+		<Row ParameterId="GL_NoPlainsMarsh" 
+			 Name="LOC_GL_NO_PLAINS_MARSH_NAME" Description="LOC_GL_NO_PLAINS_MARSH_DESCRIPTION"
+			 Domain="bool" ConfigurationId="no_plains_marsh"
+			 DefaultValue="0" 
+			 SortIndex="1051" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+             
+		<Row ParameterId="GL_NoReefs" 
+			 Name="LOC_GL_NO_REEFS_NAME" Description="LOC_GL_NO_REEFS_DESCRIPTION"
+			 Domain="bool" ConfigurationId="no_reefs"
+			 DefaultValue="0" 
+			 SortIndex="1052" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+             
+        <Row ParameterId="GL_NoRivers" 
+			 Name="LOC_GL_NO_RIVERS_NAME" Description="LOC_GL_NO_RIVERS_DESC"
+			 Domain="bool" ConfigurationId="no_rivers"
+			 DefaultValue="0" 
+			 SortIndex="1053" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+
+		<Row ParameterId="GL_NoSnow" 
+			 Name="LOC_GL_NO_SNOW_NAME" Description="LOC_GL_NO_SNOW_DESCRIPTION"
+			 Domain="bool" ConfigurationId="no_snow"
+			 DefaultValue="0" 
+			 SortIndex="1060" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+
+		<Row ParameterId="GL_NoSnowForests" 
+			 Name="LOC_GL_NO_SNOW_FORESTS_NAME" Description="LOC_GL_NO_SNOW_FORESTS_DESCRIPTION"
+			 Domain="bool" ConfigurationId="no_snow_forests"
+			 DefaultValue="0" 
+			 SortIndex="1061" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+			 
+		<Row ParameterId="GL_NoSnowOases" 
+			 Name="LOC_GL_NO_SNOW_OASES_NAME" Description="LOC_GL_NO_SNOW_OASES_DESCRIPTION"
+			 Domain="bool" ConfigurationId="no_snow_oases"
+			 DefaultValue="0" 
+			 SortIndex="1062" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+			
+		<Row ParameterId="GL_NoTundra" 
+			 Name="LOC_GL_NO_TUNDRA_NAME" Description="LOC_GL_NO_TUNDRA_DESCRIPTION"
+			 Domain="bool" ConfigurationId="no_tundra"
+			 DefaultValue="0" 
+			 SortIndex="1063" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+			
+		<Row ParameterId="GL_NoTundraForests" 
+			 Name="LOC_GL_NO_TUNDRA_FORESTS_NAME" Description="LOC_GL_NO_TUNDRA_FORESTS_DESCRIPTION"
+			 Domain="bool" ConfigurationId="no_tundra_forests"
+			 DefaultValue="0" 
+			 SortIndex="1064" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+             
+        <Row ParameterId="GL_NoVolcanoes" 
+			 Name="LOC_GL_NO_VOLCANOES_NAME" Description="LOC_GL_NO_VOLCANOES_DESC"
+			 Domain="bool" ConfigurationId="no_volcanoes"
+			 DefaultValue="0" 
+			 SortIndex="1070" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+
+
+        <Row ParameterId="GL_ScrambledLux" 
+			 Name="LOC_GL_SCRAMBLED_LUX_NAME" Description="LOC_GL_SCRAMBLED_LUX_DESCRIPTION"
+			 Domain="bool" ConfigurationId="scrambled_luxuries"
+			 DefaultValue="0" 
+			 SortIndex="1080" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+			 
+		<Row ParameterId="GL_ThinMtnClumpEdges" 
+			 Name="LOC_GL_THIN_MTNCLUMP_EDGES_NAME" Description="LOC_GL_THIN_MTNCLUMP_EDGES_DESC"
+			 Domain="bool" ConfigurationId="thin_mtnclump_edges"
+			 DefaultValue="0" 
+			 SortIndex="1090" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+        
+ 		<Row ParameterId="GL_FreshLakes" 
+			 Name="LOC_GL_FRESH_LAKES_NAME" Description="LOC_GL_FRESH_LAKES_DESCRIPTION"
+			 Domain="bool" ConfigurationId="turn_seas_into_lakes"
+			 DefaultValue="0" 
+			 SortIndex="1100" Key1="Map" Key2="GotLakes.lua" ConfigurationGroup="Map" GroupId="MapOptions" Hash="0"/>
+		
+	</Parameters>
+	
+	<!-- Domain is the list of options in the dropdown -->
+	<DomainValues>
+        <!-- Landmass Shuffle -->
+		<Row Domain="GLDomain_Continents" Value="1" Name="LOC_GL_LAND_BAGELS_NAME"     Description="LOC_GL_LAND_BAGELS_DESC"     SortIndex="10"/>
+		<Row Domain="GLDomain_Continents" Value="2" Name="LOC_GL_LAND_CONTINENTS_NAME" Description="LOC_GL_LAND_CONTINENTS_DESC" SortIndex="11"/>
+		<Row Domain="GLDomain_Continents" Value="3" Name="LOC_GL_LAND_FRACTAL_NAME"    Description="LOC_GL_LAND_FRACTAL_DESC"    SortIndex="12"/>
+		<Row Domain="GLDomain_Continents" Value="4" Name="LOC_GL_LAND_NOODLES_NAME"    Description="LOC_GL_LAND_NOODLES_DESC"    SortIndex="13"/>
+		<Row Domain="GLDomain_Continents" Value="5" Name="LOC_GL_LAND_NUMCONTS_NAME"   Description="LOC_GL_LAND_NUMCONTS_DESC"   SortIndex="14"/>
+		<Row Domain="GLDomain_Continents" Value="6" Name="LOC_GL_LAND_SMALLCONTS_NAME" Description="LOC_GL_LAND_SMALLCONTS_DESC" SortIndex="15"/>
+		<Row Domain="GLDomain_Continents" Value="7" Name="LOC_GL_ALL_NAME"             Description="LOC_GL_LAND_ALL_DESC"  SortIndex="40"/>
+		<Row Domain="GLDomain_Continents" Value="8" Name="LOC_GL_NONE_NAME"            Description="LOC_GL_LAND_NONE_DESC" SortIndex="41"/>
+
+		<Row Domain="GLDomain_Islands" Value="1" Name="LOC_GL_LAND_ARCHIPELAGO_NAME" Description="LOC_GL_LAND_ARCHIPELAGO_DESC" SortIndex="10"/>
+		<Row Domain="GLDomain_Islands" Value="2" Name="LOC_GL_EXTRAS_CLUSTERS_NAME"  Description="LOC_GL_LAND_CLUSTERS_DESC"    SortIndex="11"/>
+		<Row Domain="GLDomain_Islands" Value="3" Name="LOC_GL_LAND_ISLEPLATES_NAME"  Description="LOC_GL_LAND_ISLEPLATES_DESC"  SortIndex="12"/>
+		<Row Domain="GLDomain_Islands" Value="4" Name="LOC_GL_LAND_LARGEISLES_NAME"  Description="LOC_GL_LAND_LARGEISLES_DESC"  SortIndex="13"/>
+		<Row Domain="GLDomain_Islands" Value="5" Name="LOC_GL_LAND_MCLUSTER_NAME"    Description="LOC_GL_LAND_MCLUSTER_DESC"    SortIndex="14"/>
+		<Row Domain="GLDomain_Islands" Value="6" Name="LOC_GL_EXTRAS_DONUTS_NAME"    Description="LOC_GL_LAND_MINIDONUTS_DESC"  SortIndex="15"/>
+		<Row Domain="GLDomain_Islands" Value="7" Name="LOC_GL_ALL_NAME"              Description="LOC_GL_LAND_ALL_DESC"  SortIndex="40"/>
+		<Row Domain="GLDomain_Islands" Value="8" Name="LOC_GL_NONE_NAME"             Description="LOC_GL_LAND_NONE_DESC" SortIndex="41"/>
+
+		<Row Domain="GLDomain_Lakes" Value="1" Name="LOC_GL_LAND_INLANDSEA_NAME"  Description="LOC_GL_LAND_INLANDSEA_DESC"  SortIndex="10"/>
+		<Row Domain="GLDomain_Lakes" Value="2" Name="LOC_GL_LAND_INVDONUT_NAME"   Description="LOC_GL_LAND_INVDONUT_DESC"   SortIndex="11"/>
+		<Row Domain="GLDomain_Lakes" Value="3" Name="LOC_GL_LAND_INVEXTRAS_NAME"  Description="LOC_GL_LAND_INVEXTRAS_DESC"  SortIndex="12"/>
+		<Row Domain="GLDomain_Lakes" Value="4" Name="LOC_GL_LAND_LAKES_NAME"      Description="LOC_GL_LAND_LAKES_DESC"      SortIndex="13"/>
+		<Row Domain="GLDomain_Lakes" Value="5" Name="LOC_GL_LAND_LARGELAKES_NAME" Description="LOC_GL_LAND_LARGELAKES_DESC" SortIndex="14"/>
+		<Row Domain="GLDomain_Lakes" Value="6" Name="LOC_GL_LAND_SEVENSEAS_NAME"  Description="LOC_GL_LAND_SEVENSEAS_DESC"  SortIndex="15"/>
+		<Row Domain="GLDomain_Lakes" Value="7" Name="LOC_GL_ALL_NAME"             Description="LOC_GL_LAND_ALL_DESC"  SortIndex="40"/>
+		<Row Domain="GLDomain_Lakes" Value="8" Name="LOC_GL_NONE_NAME"            Description="LOC_GL_LAND_NONE_DESC" SortIndex="41"/>
+
+		<Row Domain="GLDomain_Pangea" Value="1" Name="LOC_GL_LAND_DONUT_NAME"  Description="LOC_GL_LAND_DONUT_DESC"  SortIndex="10"/>
+		<Row Domain="GLDomain_Pangea" Value="2" Name="LOC_GL_LAND_HEX_NAME"    Description="LOC_GL_LAND_HEX_DESC"    SortIndex="11"/>
+		<Row Domain="GLDomain_Pangea" Value="3" Name="LOC_GL_LAND_MAZE_NAME"   Description="LOC_GL_LAND_MAZE_DESC"   SortIndex="12"/>
+		<Row Domain="GLDomain_Pangea" Value="4" Name="LOC_GL_LAND_OVAL_NAME"   Description="LOC_GL_LAND_OVAL_DESC"   SortIndex="13"/>
+		<Row Domain="GLDomain_Pangea" Value="5" Name="LOC_GL_LAND_PANGEA_NAME" Description="LOC_GL_LAND_PANGEA_DESC" SortIndex="14"/>
+		<Row Domain="GLDomain_Pangea" Value="6" Name="LOC_GL_LAND_SNAKE_NAME"  Description="LOC_GL_LAND_SNAKE_DESC"  SortIndex="15"/>
+		<Row Domain="GLDomain_Pangea" Value="7" Name="LOC_GL_ALL_NAME"         Description="LOC_GL_LAND_ALL_DESC"  SortIndex="40"/>
+		<Row Domain="GLDomain_Pangea" Value="8" Name="LOC_GL_NONE_NAME"        Description="LOC_GL_LAND_NONE_DESC" SortIndex="41"/>    
+    
+        <!-- Customizations -->
+		<Row Domain="GLDomain_Mountains" Value="1" Name="LOC_GL_MOUNTAINS_TECTONIC_NAME"  Description="LOC_GL_MOUNTAINS_TECTONIC_DESC"   SortIndex="10"/>
+		<Row Domain="GLDomain_Mountains" Value="2" Name="LOC_GL_MOUNTAINS_FRACTAL_NAME"   Description="LOC_GL_MOUNTAINS_FRACTAL_DESC"    SortIndex="11"/>
+		<Row Domain="GLDomain_Mountains" Value="3" Name="LOC_GL_MOUNTAINS_SCATTERED_NAME" Description="LOC_GL_MOUNTAINS_SCATTERED_DESC"  SortIndex="12"/>
+		<Row Domain="GLDomain_Mountains" Value="4" Name="LOC_GL_MOUNTAINS_CLUSTERED_NAME" Description="LOC_GL_MOUNTAINS_CLUSTERED_DESC"  SortIndex="13"/>
+		<Row Domain="GLDomain_Mountains" Value="5" Name="LOC_GL_MOUNTAINS_UNCANNY_NAME"   Description="LOC_GL_MOUNTAINS_UNCANNY_DESC"    SortIndex="14"/>
+		<Row Domain="GLDomain_Mountains" Value="6" Name="LOC_GL_MOUNTAINS_WINDING_NAME"   Description="LOC_GL_MOUNTAINS_WINDING_DESC"    SortIndex="15"/>
+		<Row Domain="GLDomain_Mountains" Value="7" Name="LOC_GL_EVERYTHING_NAME"   	      Description="LOC_GL_MOUNTAINS_EVERYTHING_DESC" SortIndex="16"/>
+		<Row Domain="GLDomain_Mountains" Value="8" Name="LOC_GL_RANDMOD_NAME"             Description="LOC_GL_MOUNTAINS_RANDMOD_DESC"	 SortIndex="17"/>
+		<Row Domain="GLDomain_Mountains" Value="9" Name="LOC_MAP_RAINFALL_RANDOM_NAME"    Description="LOC_GL_RANDOM_DESC"    			 SortIndex="18"/>
+
+		<Row Domain="GLDomain_MtnClumps" Value="1" Name="LOC_GL_MTNCLUMPS_FULL_NAME"  	Description="LOC_GL_MTNCLUMPS_FULL_DESC"   SortIndex="10"/>
+		<Row Domain="GLDomain_MtnClumps" Value="2" Name="LOC_GL_MTNCLUMPS_MAZE_NAME"    Description="LOC_GL_MTNCLUMPS_MAZE_DESC"   SortIndex="11"/>
+		<Row Domain="GLDomain_MtnClumps" Value="3" Name="LOC_GL_MTNCLUMPS_HOLLOW_NAME" 	Description="LOC_GL_MTNCLUMPS_HOLLOW_DESC" SortIndex="12"/>
+		<Row Domain="GLDomain_MtnClumps" Value="4" Name="LOC_GL_MTNCLUMPS_RANDMH_NAME"  Description="LOC_GL_MTNCLUMPS_RANDMH_DESC" SortIndex="13"/>
+		<Row Domain="GLDomain_MtnClumps" Value="5" Name="LOC_MAP_SEA_LEVEL_RANDOM_NAME" Description="LOC_GL_RANDOM_DESC"           SortIndex="14"/>
+
+		<Row Domain="GLDomain_Rivers" Value="1" Name="LOC_GL_RIVERS_SIMPLE_NAME"    Description="LOC_GL_RIVERS_SIMPLE_DESC"   	SortIndex="10"/>
+		<Row Domain="GLDomain_Rivers" Value="2" Name="LOC_GL_RIVERS_DETAILED_NAME"  Description="LOC_GL_RIVERS_DETAILED_DESC" 	SortIndex="11"/>
+		<Row Domain="GLDomain_Rivers" Value="3" Name="LOC_GL_RIVERS_BRANCHY_NAME"   Description="LOC_GL_RIVERS_BRANCHY_DESC"  	SortIndex="12"/>
+		<Row Domain="GLDomain_Rivers" Value="4" Name="LOC_GL_RIVERS_SNAKY_NAME"     Description="LOC_GL_RIVERS_SNAKY_DESC"    	SortIndex="13"/>
+		<Row Domain="GLDomain_Rivers" Value="5" Name="LOC_GL_EVERYTHING_NAME" 		Description="LOC_GL_RIVERS_EVERYTHING_DESC" SortIndex="14"/>
+		<Row Domain="GLDomain_Rivers" Value="6" Name="LOC_MAP_RAINFALL_RANDOM_NAME" Description="LOC_GL_RANDOM_DESC"   			SortIndex="15"/>
+		
+		<Row Domain="GLDomain_Extras" Value="1"  Name="LOC_GL_NONE_BASE_NAME"        Description="LOC_GL_EXTRAS_NONE_DESC"       SortIndex="10"/>
+		<Row Domain="GLDomain_Extras" Value="2"  Name="LOC_GL_EXTRAS_CHAINS_NAME"    Description="LOC_GL_EXTRAS_CHAINS_DESC"     SortIndex="11"/>
+		<Row Domain="GLDomain_Extras" Value="3"  Name="LOC_GL_EXTRAS_CLUSTERS_NAME"  Description="LOC_GL_EXTRAS_CLUSTERS_DESC"   SortIndex="12"/>
+		<Row Domain="GLDomain_Extras" Value="4"  Name="LOC_GL_EXTRAS_DONUTS_NAME"    Description="LOC_GL_EXTRAS_DONUTS_DESC"     SortIndex="13"/>
+		<Row Domain="GLDomain_Extras" Value="5"  Name="LOC_GL_EXTRAS_SPRINKLES_NAME" Description="LOC_GL_EXTRAS_SPRINKLES_DESC"  SortIndex="14"/>
+		<Row Domain="GLDomain_Extras" Value="6"  Name="LOC_GL_EXTRAS_TECTONIC_NAME"  Description="LOC_GL_EXTRAS_TECTONIC_DESC"   SortIndex="15"/>
+		<Row Domain="GLDomain_Extras" Value="7"  Name="LOC_GL_EXTRAS_TCHAINS_NAME"   Description="LOC_GL_EXTRAS_TCHAINS_DESC"    SortIndex="16"/>
+		<Row Domain="GLDomain_Extras" Value="8"  Name="LOC_GL_EVERYTHING_NAME" 		 Description="LOC_GL_EXTRAS_EVERYTHING_DESC" SortIndex="17"/>
+		<Row Domain="GLDomain_Extras" Value="9"  Name="LOC_GL_RANDMOD_NAME"          Description="LOC_GL_EXTRAS_RANDMOD_DESC"    SortIndex="18"/>
+		<Row Domain="GLDomain_Extras" Value="10" Name="LOC_MAP_RAINFALL_RANDOM_NAME" Description="LOC_GL_RANDOM_DESC"     		 SortIndex="19"/>
+		
+		<Row Domain="GLDomain_SPWorldWrap" Value="1" Name="LOC_GL_WORLD_WRAP_GLOBE_NAME"  Description="LOC_GL_WORLD_WRAP_GLOBE_DESC"  SortIndex="10"/>
+		<Row Domain="GLDomain_SPWorldWrap" Value="2" Name="LOC_GL_WORLD_WRAP_REGION_NAME" Description="LOC_GL_WORLD_WRAP_REGION_DESC" SortIndex="11"/>
+		<Row Domain="GLDomain_SPWorldWrap" Value="3" Name="LOC_MAP_RAINFALL_RANDOM_NAME"  Description="LOC_GL_RANDOM_DESC" 			  SortIndex="12"/>
+
+		<Row Domain="GLDomain_MPWorldWrap" Value="1" Name="LOC_GL_WORLD_WRAP_GLOBE_NAME"  Description="LOC_GL_WORLD_WRAP_GLOBE_DESC"  SortIndex="10"/>
+		<Row Domain="GLDomain_MPWorldWrap" Value="2" Name="LOC_GL_WORLD_WRAP_REGION_NAME" Description="LOC_GL_WORLD_WRAP_REGION_DESC" SortIndex="11"/>		
+		
+		<Row Domain="GLDomain_SPClimateWrap" Value="1" Name="LOC_GL_CLIMATE_WRAP_AZIMUTHAL_NAME" Description="LOC_GL_CLIMATE_WRAP_AZIMUTHAL_DESC"  SortIndex="10"/>
+		<Row Domain="GLDomain_SPClimateWrap" Value="2" Name="LOC_GL_WORLD_WRAP_GLOBE_NAME"       Description="LOC_GL_CLIMATE_WRAP_GLOBE_DESC"      SortIndex="11"/>
+		<Row Domain="GLDomain_SPClimateWrap" Value="3" Name="LOC_GL_WORLD_WRAP_REGION_NAME"      Description="LOC_GL_CLIMATE_WRAP_REGION_DESC"     SortIndex="12"/>
+		<Row Domain="GLDomain_SPClimateWrap" Value="4" Name="LOC_GL_CLIMATE_WRAP_WORLD_NAME"     Description="LOC_GL_CLIMATE_WRAP_WORLD_DESC"      SortIndex="13"/>
+		<Row Domain="GLDomain_SPClimateWrap" Value="5" Name="LOC_GL_CLIMATE_WRAP_RANDAG_NAME"    Description="LOC_GL_CLIMATE_WRAP_RANDAG_DESC"     SortIndex="14"/>
+		<Row Domain="GLDomain_SPClimateWrap" Value="6" Name="LOC_GL_CLIMATE_WRAP_RANDAR_NAME"    Description="LOC_GL_CLIMATE_WRAP_RANDAR_DESC"     SortIndex="15"/>
+		<Row Domain="GLDomain_SPClimateWrap" Value="7" Name="LOC_GL_CLIMATE_WRAP_RANDGR_NAME"    Description="LOC_GL_CLIMATE_WRAP_RANDGR_DESC"     SortIndex="16"/>
+		<Row Domain="GLDomain_SPClimateWrap" Value="8" Name="LOC_MAP_RAINFALL_RANDOM_NAME"       Description="LOC_GL_RANDOM_DESC" 			       SortIndex="17"/>
+
+		<Row Domain="GLDomain_MPClimateWrap" Value="1" Name="LOC_GL_CLIMATE_WRAP_AZIMUTHAL_NAME" Description="LOC_GL_CLIMATE_WRAP_AZIMUTHAL_DESC"  SortIndex="10"/>
+		<Row Domain="GLDomain_MPClimateWrap" Value="2" Name="LOC_GL_WORLD_WRAP_GLOBE_NAME"       Description="LOC_GL_CLIMATE_WRAP_GLOBE_DESC"  SortIndex="11"/>
+		<Row Domain="GLDomain_MPClimateWrap" Value="3" Name="LOC_GL_WORLD_WRAP_REGION_NAME"      Description="LOC_GL_CLIMATE_WRAP_REGION_DESC" SortIndex="12"/>		
+		<Row Domain="GLDomain_MPClimateWrap" Value="4" Name="LOC_GL_CLIMATE_WRAP_WORLD_NAME"     Description="LOC_GL_CLIMATE_WRAP_WORLD_DESC"  SortIndex="13"/>
+		
+		<Row Domain="GLDomain_Climate" Value="1" Name="LOC_GL_CLIMATE_VCOLD_NAME"    Description="LOC_GL_CLIMATE_VCOLD_DESC"    SortIndex="10"/>
+		<Row Domain="GLDomain_Climate" Value="2" Name="LOC_GL_CLIMATE_COLD_NAME"     Description="LOC_GL_CLIMATE_COLD_DESC"     SortIndex="11"/>
+		<Row Domain="GLDomain_Climate" Value="3" Name="LOC_GL_STD_BASE_NAME"         Description="LOC_GL_CLIMATE_STANDARD_DESC" SortIndex="12"/>
+		<Row Domain="GLDomain_Climate" Value="4" Name="LOC_GL_CLIMATE_HOT_NAME"      Description="LOC_GL_CLIMATE_HOT_DESC"      SortIndex="13"/>
+		<Row Domain="GLDomain_Climate" Value="5" Name="LOC_GL_CLIMATE_VHOT_NAME"     Description="LOC_GL_CLIMATE_VHOT_DESC"     SortIndex="14"/>
+		<Row Domain="GLDomain_Climate" Value="6" Name="LOC_GL_CLIMATE_RANDOMLH_NAME" Description="LOC_GL_CLIMATE_RANDOMLH_DESC" SortIndex="15"/>
+		<Row Domain="GLDomain_Climate" Value="7" Name="LOC_MAP_RAINFALL_RANDOM_NAME" Description="LOC_GL_CLIMATE_RANDOM_DESC"   SortIndex="16"/>
+
+		<Row Domain="GLDomain_Biome" Value="1" Name="LOC_GL_BIOME_ARBOREA_NAME"    Description="LOC_GL_BIOME_ARBOREA_DESC"     SortIndex="10"/>
+		<Row Domain="GLDomain_Biome" Value="2" Name="LOC_GL_BIOME_PRAIRIE_NAME"    Description="LOC_GL_BIOME_PRAIRIE_DESC"     SortIndex="11"/>
+		<Row Domain="GLDomain_Biome" Value="3" Name="LOC_GL_STD_BASE_NAME"         Description="LOC_GL_BIOME_STANDARD_DESC"    SortIndex="12"/>
+		<Row Domain="GLDomain_Biome" Value="4" Name="LOC_GL_BIOME_WETLAND_NAME"    Description="LOC_GL_BIOME_WETLAND_DESC"     SortIndex="13"/>
+		<Row Domain="GLDomain_Biome" Value="5" Name="LOC_MAP_RAINFALL_RANDOM_NAME" Description="LOC_GL_RANDOM_DESC"            SortIndex="14"/>
+
+		<Row Domain="GLDomain_Sunlight" Value="1" Name="LOC_GL_STD_BASE_NAME"         Description="LOC_GL_SUNLIGHT_STANDARD_DESC" SortIndex="10"/>
+		<Row Domain="GLDomain_Sunlight" Value="2" Name="LOC_GL_SUNLIGHT_TILTED_NAME"  Description="LOC_GL_SUNLIGHT_TILTED_DESC"   SortIndex="11"/>
+		<Row Domain="GLDomain_Sunlight" Value="3" Name="LOC_GL_SUNLIGHT_TWOSUNS_NAME" Description="LOC_GL_SUNLIGHT_TWOSUNS_DESC"  SortIndex="12"/>
+		<Row Domain="GLDomain_Sunlight" Value="4" Name="LOC_MAP_RAINFALL_RANDOM_NAME" Description="LOC_GL_RANDOM_DESC"            SortIndex="13"/>
+
+		<Row Domain="GLDomain_IcyPoles" Value="1" Name="LOC_GL_ICYPOLES_CROPPED_NAME" Description="LOC_GL_ICYPOLES_CROPPED_DESC"  SortIndex="10"/>
+		<Row Domain="GLDomain_IcyPoles" Value="2" Name="LOC_GL_STD_BASE_NAME"         Description="LOC_GL_ICYPOLES_STANDARD_DESC" SortIndex="11"/>
+		<Row Domain="GLDomain_IcyPoles" Value="3" Name="LOC_MAP_RAINFALL_RANDOM_NAME" Description="LOC_GL_RANDOM_DESC"            SortIndex="12"/>    
+    
+		<!-- Adjustments -->
+		<Row Domain="GLDomain_LandStarts" Value="1" Name="LOC_GL_LANDSTARTS_LARGEST_NAME"  Description="LOC_GL_LANDSTARTS_LARGEST_DESC"  SortIndex="10"/>
+		<Row Domain="GLDomain_LandStarts" Value="2" Name="LOC_GL_STD_BASE_NAME" 		   Description="LOC_GL_LANDSTARTS_STD_DESC"      SortIndex="11"/>
+		<Row Domain="GLDomain_LandStarts" Value="3" Name="LOC_GL_LANDSTARTS_SEPARATE_NAME" Description="LOC_GL_LANDSTARTS_SEPARATE_DESC" SortIndex="12"/>
+		<Row Domain="GLDomain_LandStarts" Value="4" Name="LOC_GL_LANDBASED_NAME" 		   Description="LOC_GL_LANDSTARTS_LANDMASS_DESC" SortIndex="13"/>
+		<Row Domain="GLDomain_LandStarts" Value="5" Name="LOC_GL_LANDSTARTS_RANDLH_NAME"   Description="LOC_GL_LANDSTARTS_RANDLH_DESC"   SortIndex="14"/>
+		<Row Domain="GLDomain_LandStarts" Value="6" Name="LOC_MAP_SEA_LEVEL_RANDOM_NAME"   Description="LOC_GL_RANDOM_DESC"              SortIndex="15"/>
+		
+		<Row Domain="GLDomain_WaterStarts" Value="1" Name="LOC_GL_LANDSTARTS_LARGEST_NAME"  Description="LOC_GL_WATERSTARTS_LARGEST_DESC"  SortIndex="10"/>
+		<Row Domain="GLDomain_WaterStarts" Value="2" Name="LOC_GL_STD_BASE_NAME"            Description="LOC_GL_WATERSTARTS_STD_DESC"      SortIndex="11"/>
+		<Row Domain="GLDomain_WaterStarts" Value="3" Name="LOC_GL_LANDSTARTS_SEPARATE_NAME" Description="LOC_GL_WATERSTARTS_SEPARATE_DESC" SortIndex="12"/>
+		<Row Domain="GLDomain_WaterStarts" Value="4" Name="LOC_GL_LANDBASED_NAME" 			Description="LOC_GL_WATERSTARTS_LANDMASS_DESC" SortIndex="13"/>
+		<Row Domain="GLDomain_WaterStarts" Value="5" Name="LOC_GL_WATERSTARTS_ONLAND_NAME"  Description="LOC_GL_WATERSTARTS_ONLAND_DESC"   SortIndex="14"/>
+		<Row Domain="GLDomain_WaterStarts" Value="6" Name="LOC_GL_LANDSTARTS_RANDLH_NAME"   Description="LOC_GL_LANDSTARTS_RANDLH_DESC"    SortIndex="15"/>
+		<Row Domain="GLDomain_WaterStarts" Value="7" Name="LOC_MAP_SEA_LEVEL_RANDOM_NAME"   Description="LOC_GL_RANDOM_DESC"               SortIndex="16"/>
+		
+		<Row Domain="GLDomain_MinorStarts" Value="1" Name="LOC_GL_LANDSTARTS_LARGEST_NAME"  Description="LOC_GL_MINORSTARTS_LARGEST_DESC" SortIndex="10"/>
+		<Row Domain="GLDomain_MinorStarts" Value="2" Name="LOC_GL_STD_BASE_NAME"            Description="LOC_GL_MINORSTARTS_STD_DESC"      SortIndex="11"/>
+		<Row Domain="GLDomain_MinorStarts" Value="3" Name="LOC_GL_LANDSTARTS_SEPARATE_NAME" Description="LOC_GL_MINORSTARTS_SEPARATE_DESC" SortIndex="12"/>
+		<Row Domain="GLDomain_MinorStarts" Value="4" Name="LOC_GL_MINORSTARTS_MAJOR_NAME"   Description="LOC_GL_MINORSTARTS_MAJOR_DESC"    SortIndex="13"/>
+		<Row Domain="GLDomain_MinorStarts" Value="5" Name="LOC_GL_MINORSTARTS_LAND_NAME"    Description="LOC_GL_MINORSTARTS_LAND_DESC"     SortIndex="14"/>
+		<Row Domain="GLDomain_MinorStarts" Value="6" Name="LOC_GL_LANDSTARTS_RANDLH_NAME"   Description="LOC_GL_LANDSTARTS_RANDLH_DESC"    SortIndex="15"/>
+		<Row Domain="GLDomain_MinorStarts" Value="7" Name="LOC_MAP_SEA_LEVEL_RANDOM_NAME"   Description="LOC_GL_RANDOM_DESC"               SortIndex="16"/>
+		
+		<Row Domain="GLDomain_MtnLevel" Value="1" Name="LOC_GL_VLOW_NAME"      		   Description="LOC_GL_MTNLEVEL_VLOW_DESC"     SortIndex="10"/>
+		<Row Domain="GLDomain_MtnLevel" Value="2" Name="LOC_MAP_SEA_LEVEL_LOW_NAME"    Description="LOC_GL_MTNLEVEL_LOW_DESC"      SortIndex="11"/>
+		<Row Domain="GLDomain_MtnLevel" Value="3" Name="LOC_GL_STD_BASE_NAME"          Description="LOC_GL_MTNLEVEL_STANDARD_DESC" SortIndex="12"/>
+		<Row Domain="GLDomain_MtnLevel" Value="4" Name="LOC_MAP_SEA_LEVEL_HIGH_NAME"   Description="LOC_GL_MTNLEVEL_HIGH_DESC"     SortIndex="13"/>
+		<Row Domain="GLDomain_MtnLevel" Value="5" Name="LOC_GL_VHIGH_NAME"      	   Description="LOC_GL_MTNLEVEL_VHIGH_DESC"    SortIndex="14"/>
+		<Row Domain="GLDomain_MtnLevel" Value="6" Name="LOC_GL_RANDOMLH_NAME"          Description="LOC_GL_RANDOMLH_DESC"          SortIndex="15"/>
+		<Row Domain="GLDomain_MtnLevel" Value="7" Name="LOC_MAP_SEA_LEVEL_RANDOM_NAME" Description="LOC_GL_RANDOM_DESC"            SortIndex="16"/>
+
+		<Row Domain="GLDomain_HillLevel" Value="1" Name="LOC_GL_VLOW_NAME"      		Description="LOC_GL_HILLLEVEL_VLOW_DESC"     SortIndex="10"/>
+		<Row Domain="GLDomain_HillLevel" Value="2" Name="LOC_MAP_SEA_LEVEL_LOW_NAME"    Description="LOC_GL_HILLLEVEL_LOW_DESC"      SortIndex="11"/>
+		<Row Domain="GLDomain_HillLevel" Value="3" Name="LOC_GL_STD_BASE_NAME"       	Description="LOC_GL_HILLLEVEL_STANDARD_DESC" SortIndex="12"/>
+		<Row Domain="GLDomain_HillLevel" Value="4" Name="LOC_MAP_SEA_LEVEL_HIGH_NAME"   Description="LOC_GL_HILLLEVEL_HIGH_DESC"     SortIndex="13"/>
+		<Row Domain="GLDomain_HillLevel" Value="5" Name="LOC_GL_VHIGH_NAME"      		Description="LOC_GL_HILLLEVEL_VHIGH_DESC"    SortIndex="14"/>
+		<Row Domain="GLDomain_HillLevel" Value="6" Name="LOC_GL_HILLLEVEL_MTS_NAME"     Description="LOC_GL_HILLLEVEL_MTS_DESC"      SortIndex="15"/>
+		<Row Domain="GLDomain_HillLevel" Value="7" Name="LOC_GL_RANDOMLH_NAME"          Description="LOC_GL_RANDOMLH_DESC"           SortIndex="16"/>
+		<Row Domain="GLDomain_HillLevel" Value="8" Name="LOC_MAP_SEA_LEVEL_RANDOM_NAME" Description="LOC_GL_RANDOM_DESC"             SortIndex="17"/>
+
+		<Row Domain="GLDomain_VolcLevel" Value="1" Name="LOC_GL_VLOW_NAME"      		  Description="LOC_GL_VOLCLEVEL_VLOW_DESC"     SortIndex="10"/>
+		<Row Domain="GLDomain_VolcLevel" Value="2" Name="LOC_GL_LOW_BASE_NAME"    		  Description="LOC_GL_VOLCLEVEL_LOW_DESC"      SortIndex="11"/>
+		<Row Domain="GLDomain_VolcLevel" Value="3" Name="LOC_MAP_SEA_LEVEL_STANDARD_NAME" Description="LOC_GL_VOLCLEVEL_STANDARD_DESC" SortIndex="12"/>
+		<Row Domain="GLDomain_VolcLevel" Value="4" Name="LOC_MAP_SEA_LEVEL_HIGH_NAME"     Description="LOC_GL_VOLCLEVEL_HIGH_DESC"     SortIndex="13"/>
+		<Row Domain="GLDomain_VolcLevel" Value="5" Name="LOC_GL_VHIGH_NAME"      		  Description="LOC_GL_VOLCLEVEL_VHIGH_DESC"    SortIndex="14"/>
+		<Row Domain="GLDomain_VolcLevel" Value="6" Name="LOC_GL_HILLLEVEL_MTS_NAME"       Description="LOC_GL_VOLCLEVEL_MTS_DESC"      SortIndex="15"/>
+		<Row Domain="GLDomain_VolcLevel" Value="7" Name="LOC_GL_VOLCLEVEL_HILLS_NAME"     Description="LOC_GL_VOLCLEVEL_HILLS_DESC"    SortIndex="16"/>
+		<Row Domain="GLDomain_VolcLevel" Value="8" Name="LOC_GL_RANDOMLH_NAME"            Description="LOC_GL_RANDOMLH_DESC"           SortIndex="17"/>
+		<Row Domain="GLDomain_VolcLevel" Value="9" Name="LOC_MAP_SEA_LEVEL_RANDOM_NAME"   Description="LOC_GL_RANDOM_DESC"             SortIndex="18"/>
+
+        <Row Domain="GLDomain_GFissureLevel" Value="1" Name="LOC_GL_VLOW_NAME"      		  Description="LOC_GL_GFISSURELEVEL_VLOW_DESC"     SortIndex="10"/>
+		<Row Domain="GLDomain_GFissureLevel" Value="2" Name="LOC_GL_LOW_BASE_NAME"    		  Description="LOC_GL_GFISSURELEVEL_LOW_DESC"      SortIndex="11"/>
+		<Row Domain="GLDomain_GFissureLevel" Value="3" Name="LOC_MAP_SEA_LEVEL_STANDARD_NAME" Description="LOC_GL_GFISSURELEVEL_STANDARD_DESC" SortIndex="12"/>
+		<Row Domain="GLDomain_GFissureLevel" Value="4" Name="LOC_MAP_SEA_LEVEL_HIGH_NAME"     Description="LOC_GL_GFISSURELEVEL_HIGH_DESC"     SortIndex="13"/>
+		<Row Domain="GLDomain_GFissureLevel" Value="5" Name="LOC_GL_VHIGH_NAME"      		  Description="LOC_GL_GFISSURELEVEL_VHIGH_DESC"    SortIndex="14"/>
+		<Row Domain="GLDomain_GFissureLevel" Value="6" Name="LOC_GL_RANDOMLH_NAME"            Description="LOC_GL_RANDOMLH_DESC"               SortIndex="15"/>
+		<Row Domain="GLDomain_GFissureLevel" Value="7" Name="LOC_MAP_SEA_LEVEL_RANDOM_NAME"   Description="LOC_GL_RANDOM_DESC"                 SortIndex="16"/>
+
+		<Row Domain="GLDomain_SeaLevel" Value="1" Name="LOC_GL_VLOW_NAME"              Description="LOC_GL_SEALEVEL_VLOW_DESC"              SortIndex="10"/>
+		<Row Domain="GLDomain_SeaLevel" Value="2" Name="LOC_MAP_SEA_LEVEL_LOW_NAME"    Description="LOC_MAP_SEA_LEVEL_LOW_DESCRIPTION"      SortIndex="11"/>
+		<Row Domain="GLDomain_SeaLevel" Value="3" Name="LOC_GL_STD_BASE_NAME"          Description="LOC_MAP_SEA_LEVEL_STANDARD_DESCRIPTION" SortIndex="12"/>
+		<Row Domain="GLDomain_SeaLevel" Value="4" Name="LOC_MAP_SEA_LEVEL_HIGH_NAME"   Description="LOC_MAP_SEA_LEVEL_HIGH_DESCRIPTION"     SortIndex="13"/>
+		<Row Domain="GLDomain_SeaLevel" Value="5" Name="LOC_GL_VHIGH_NAME"             Description="LOC_GL_SEALEVEL_VHIGH_DESC"             SortIndex="14"/>
+		<Row Domain="GLDomain_SeaLevel" Value="6" Name="LOC_GL_RANDOMLH_NAME"          Description="LOC_GL_RANDOMLH_DESC"                   SortIndex="15"/>
+		<Row Domain="GLDomain_SeaLevel" Value="7" Name="LOC_MAP_SEA_LEVEL_RANDOM_NAME" Description="LOC_GL_RANDOM_DESC"                     SortIndex="16"/>
+		
+		<Row Domain="GLDomain_LakeLevel" Value="1" Name="LOC_GL_VLOW_NAME"              Description="LOC_GL_LAKELEVEL_VLOW_DESC"     SortIndex="10"/>
+		<Row Domain="GLDomain_LakeLevel" Value="2" Name="LOC_MAP_SEA_LEVEL_LOW_NAME"    Description="LOC_GL_LAKELEVEL_LOW_DESC"      SortIndex="11"/>
+		<Row Domain="GLDomain_LakeLevel" Value="3" Name="LOC_GL_STD_BASE_NAME"          Description="LOC_GL_LAKELEVEL_STANDARD_DESC" SortIndex="12"/>
+		<Row Domain="GLDomain_LakeLevel" Value="4" Name="LOC_MAP_SEA_LEVEL_HIGH_NAME"   Description="LOC_GL_LAKELEVEL_HIGH_DESC"     SortIndex="13"/>
+		<Row Domain="GLDomain_LakeLevel" Value="5" Name="LOC_GL_VHIGH_NAME"             Description="LOC_GL_LAKELEVEL_VHIGH_DESC"    SortIndex="14"/>
+		<Row Domain="GLDomain_LakeLevel" Value="6" Name="LOC_GL_RANDOMLH_NAME"          Description="LOC_GL_RANDOMLH_DESC"           SortIndex="15"/>
+		<Row Domain="GLDomain_LakeLevel" Value="7" Name="LOC_MAP_SEA_LEVEL_RANDOM_NAME" Description="LOC_GL_RANDOM_DESC"             SortIndex="16"/>
+		
+		<Row Domain="GLDomain_RiverLevel" Value="1" Name="LOC_GL_VLOW_NAME"                Description="LOC_GL_RIVERLEVEL_VLOW_DESC"     SortIndex="10"/>
+		<Row Domain="GLDomain_RiverLevel" Value="2" Name="LOC_GL_LOW_BASE_NAME"            Description="LOC_GL_RIVERLEVEL_LOW_DESC"      SortIndex="11"/>
+		<Row Domain="GLDomain_RiverLevel" Value="3" Name="LOC_MAP_SEA_LEVEL_STANDARD_NAME" Description="LOC_GL_RIVERLEVEL_STANDARD_DESC" SortIndex="12"/>
+		<Row Domain="GLDomain_RiverLevel" Value="4" Name="LOC_MAP_SEA_LEVEL_HIGH_NAME"     Description="LOC_GL_RIVERLEVEL_HIGH_DESC"     SortIndex="13"/>
+		<Row Domain="GLDomain_RiverLevel" Value="5" Name="LOC_GL_VHIGH_NAME"               Description="LOC_GL_RIVERLEVEL_VHIGH_DESC"    SortIndex="14"/>
+		<Row Domain="GLDomain_RiverLevel" Value="6" Name="LOC_GL_RANDOMLH_NAME"            Description="LOC_GL_RANDOMLH_DESC"            SortIndex="15"/>
+		<Row Domain="GLDomain_RiverLevel" Value="7" Name="LOC_MAP_SEA_LEVEL_RANDOM_NAME"   Description="LOC_GL_RANDOM_DESC"              SortIndex="16"/>
+		
+		<Row Domain="GLDomain_Circumnav" Value="1" Name="LOC_GL_NONE_BASE_NAME"   	     Description="LOC_GL_CIRCUMNAV_NONE_DESC"     SortIndex="10"/>
+		<Row Domain="GLDomain_Circumnav" Value="2" Name="LOC_GL_CIRCUMNAV_EDGES_NAME"    Description="LOC_GL_CIRCUMNAV_EDGES_DESC" 	  SortIndex="11"/>
+		<Row Domain="GLDomain_Circumnav" Value="3" Name="LOC_GL_CIRCUMNAV_PATHS_NAME"    Description="LOC_GL_CIRCUMNAV_PATHS_DESC"    SortIndex="12"/>
+		<Row Domain="GLDomain_Circumnav" Value="4" Name="LOC_GL_CIRCUMNAV_BOTH_NAME"     Description="LOC_GL_CIRCUMNAV_BOTH_DESC" 	  SortIndex="13"/>		
+		<Row Domain="GLDomain_Circumnav" Value="5" Name="LOC_GL_LANDBASED_NAME"   	     Description="LOC_GL_CIRCUMNAV_LANDMASS_DESC" SortIndex="14"/>
+		<Row Domain="GLDomain_Circumnav" Value="6" Name="LOC_GL_CIRCUMNAV_RAND_EPB_NAME" Description="LOC_GL_CIRCUMNAV_RAND_EPB_DESC" SortIndex="15"/>
+		<Row Domain="GLDomain_Circumnav" Value="7" Name="LOC_MAP_RAINFALL_RANDOM_NAME"   Description="LOC_GL_RANDOM_DESC"			  SortIndex="16"/>		
+		
+		<Row Domain="GLDomain_CoastExp" Value="1" Name="LOC_GL_NONE_NAME"              Description="LOC_GL_COASTEXP_NONE_DESC"  SortIndex="10"/>
+		<Row Domain="GLDomain_CoastExp" Value="2" Name="LOC_GL_VLOW_NAME"              Description="LOC_GL_COASTEXP_VLOW_DESC"  SortIndex="11"/>
+		<Row Domain="GLDomain_CoastExp" Value="3" Name="LOC_MAP_SEA_LEVEL_LOW_NAME"    Description="LOC_GL_COASTEXP_LOW_DESC"   SortIndex="12"/>
+		<Row Domain="GLDomain_CoastExp" Value="4" Name="LOC_GL_STD_BASE_NAME"          Description="LOC_GL_COASTEXP_STD_DESC"   SortIndex="13"/>
+		<Row Domain="GLDomain_CoastExp" Value="5" Name="LOC_MAP_SEA_LEVEL_HIGH_NAME"   Description="LOC_GL_COASTEXP_HIGH_DESC"  SortIndex="14"/>
+		<Row Domain="GLDomain_CoastExp" Value="6" Name="LOC_GL_VHIGH_NAME"             Description="LOC_GL_COASTEXP_VHIGH_DESC" SortIndex="15"/>
+		<Row Domain="GLDomain_CoastExp" Value="7" Name="LOC_GL_EVERYWHERE_NAME"        Description="LOC_GL_COASTEXP_MAX_DESC"   SortIndex="16"/>
+		<Row Domain="GLDomain_CoastExp" Value="8" Name="LOC_GL_RANDOMLH_NAME"          Description="LOC_GL_RANDOMLH_DESC"       SortIndex="17"/>
+		<Row Domain="GLDomain_CoastExp" Value="9" Name="LOC_MAP_SEA_LEVEL_RANDOM_NAME" Description="LOC_GL_RANDOM_DESC"         SortIndex="18"/>
+		
+		<Row Domain="GLDomain_CoastLows" Value="1" Name="LOC_GL_NONE_NAME"              Description="LOC_GL_COASTLOWS_NONE_DESC"    SortIndex="10"/>
+		<Row Domain="GLDomain_CoastLows" Value="2" Name="LOC_GL_STD_BASE_NAME"          Description="LOC_GL_COASTLOWS_STD_DESC"     SortIndex="11"/>
+		<Row Domain="GLDomain_CoastLows" Value="3" Name="LOC_GL_COASTLOWS_INLAND_NAME"  Description="LOC_GL_COASTLOWS_INLAND_DESC"  SortIndex="12"/>
+		<Row Domain="GLDomain_CoastLows" Value="4" Name="LOC_GL_COASTLOWS_DELUGE_NAME"  Description="LOC_GL_COASTLOWS_DELUGE_DESC"  SortIndex="13"/>
+		<Row Domain="GLDomain_CoastLows" Value="5" Name="LOC_GL_COASTLOWS_CATA_NAME"    Description="LOC_GL_COASTLOWS_CATA_DESC"    SortIndex="14"/>
+		<Row Domain="GLDomain_CoastLows" Value="6" Name="LOC_GL_COASTLOWS_HFTH_NAME"    Description="LOC_GL_COASTLOWS_HFTH_DESC"    SortIndex="15"/>
+		<Row Domain="GLDomain_CoastLows" Value="7" Name="LOC_GL_EVERYWHERE_NAME"        Description="LOC_GL_COASTLOWS_MAX_DESC"     SortIndex="16"/>
+		<Row Domain="GLDomain_CoastLows" Value="8" Name="LOC_GL_RANDMOD_NAME"           Description="LOC_GL_COASTLOWS_RANDMOD_DESC" SortIndex="17"/>
+		<Row Domain="GLDomain_CoastLows" Value="9" Name="LOC_MAP_SEA_LEVEL_RANDOM_NAME" Description="LOC_GL_RANDOM_DESC"            SortIndex="18"/>
+        
+		<Row Domain="GLDomain_Temperature" Value="1" Name="LOC_GL_TEMPERATURE_VCOLD_NAME"   Description="LOC_GL_TEMPERATURE_VCOLD_DESC"  SortIndex="10"/>
+		<Row Domain="GLDomain_Temperature" Value="2" Name="LOC_MAP_TEMPERATURE_COLD_NAME"   Description="LOC_GL_TEMPERATURE_COOLER_DESC" SortIndex="11"/>
+		<Row Domain="GLDomain_Temperature" Value="3" Name="LOC_GL_STD_BASE_NAME"            Description="LOC_GL_TEMPERATURE_NORMAL_DESC" SortIndex="12"/>
+		<Row Domain="GLDomain_Temperature" Value="4" Name="LOC_MAP_TEMPERATURE_HOT_NAME"    Description="LOC_GL_TEMPERATURE_WARMER_DESC" SortIndex="13"/>
+		<Row Domain="GLDomain_Temperature" Value="5" Name="LOC_GL_TEMPERATURE_VHOT_NAME"    Description="LOC_GL_TEMPERATURE_VHOT_DESC"   SortIndex="14"/>
+		<Row Domain="GLDomain_Temperature" Value="6" Name="LOC_GL_RANDOMCOLDHOT_NAME"       Description="LOC_GL_RANDOMCOLDHOT_DESC"      SortIndex="15"/>
+		<Row Domain="GLDomain_Temperature" Value="7" Name="LOC_MAP_TEMPERATURE_RANDOM_NAME" Description="LOC_GL_RANDOM_DESC"             SortIndex="16"/>
+
+		<Row Domain="GLDomain_DesertLevel" Value="1" Name="LOC_GL_VLOW_NAME"              Description="LOC_GL_DESERTLEVEL_VLOW_DESC"     SortIndex="10"/>
+		<Row Domain="GLDomain_DesertLevel" Value="2" Name="LOC_MAP_SEA_LEVEL_LOW_NAME"    Description="LOC_GL_DESERTLEVEL_LOW_DESC"      SortIndex="11"/>
+		<Row Domain="GLDomain_DesertLevel" Value="3" Name="LOC_GL_STD_BASE_NAME"          Description="LOC_GL_DESERTLEVEL_STANDARD_DESC" SortIndex="12"/>
+		<Row Domain="GLDomain_DesertLevel" Value="4" Name="LOC_MAP_SEA_LEVEL_HIGH_NAME"   Description="LOC_GL_DESERTLEVEL_HIGH_DESC"     SortIndex="13"/>
+		<Row Domain="GLDomain_DesertLevel" Value="5" Name="LOC_GL_VHIGH_NAME"             Description="LOC_GL_DESERTLEVEL_VHIGH_DESC"    SortIndex="14"/>
+		<Row Domain="GLDomain_DesertLevel" Value="6" Name="LOC_GL_RANDOMLH_NAME"          Description="LOC_GL_RANDOMLH_DESC"             SortIndex="15"/>
+		<Row Domain="GLDomain_DesertLevel" Value="7" Name="LOC_MAP_SEA_LEVEL_RANDOM_NAME" Description="LOC_GL_RANDOM_DESC"               SortIndex="16"/>
+
+		<Row Domain="GLDomain_TundraLevel" Value="1" Name="LOC_GL_VLOW_NAME"              Description="LOC_GL_TUNDRALEVEL_VLOW_DESC"     SortIndex="10"/>
+		<Row Domain="GLDomain_TundraLevel" Value="2" Name="LOC_MAP_SEA_LEVEL_LOW_NAME"    Description="LOC_GL_TUNDRALEVEL_LOW_DESC"      SortIndex="11"/>
+		<Row Domain="GLDomain_TundraLevel" Value="3" Name="LOC_GL_STD_BASE_NAME"          Description="LOC_GL_TUNDRALEVEL_STANDARD_DESC" SortIndex="12"/>
+		<Row Domain="GLDomain_TundraLevel" Value="4" Name="LOC_MAP_SEA_LEVEL_HIGH_NAME"   Description="LOC_GL_TUNDRALEVEL_HIGH_DESC"     SortIndex="13"/>
+		<Row Domain="GLDomain_TundraLevel" Value="5" Name="LOC_GL_VHIGH_NAME"             Description="LOC_GL_TUNDRALEVEL_VHIGH_DESC"    SortIndex="14"/>
+		<Row Domain="GLDomain_TundraLevel" Value="6" Name="LOC_GL_RANDOMLH_NAME"          Description="LOC_GL_RANDOMLH_DESC"             SortIndex="15"/>
+		<Row Domain="GLDomain_TundraLevel" Value="7" Name="LOC_MAP_SEA_LEVEL_RANDOM_NAME" Description="LOC_GL_RANDOM_DESC"               SortIndex="16"/>
+		
+		<Row Domain="GLDomain_Rainfall" Value="1" Name="LOC_GL_RAINFALL_VARID_NAME"    Description="LOC_GL_RAINFALL_VARID_DESC"    SortIndex="10"/>
+		<Row Domain="GLDomain_Rainfall" Value="2" Name="LOC_MAP_RAINFALL_ARID_NAME"    Description="LOC_GL_RAINFALL_DRIER_DESC"    SortIndex="11"/>
+		<Row Domain="GLDomain_Rainfall" Value="3" Name="LOC_GL_STD_BASE_NAME"          Description="LOC_GL_RAINFALL_NORMAL_DESC"   SortIndex="12"/>
+		<Row Domain="GLDomain_Rainfall" Value="4" Name="LOC_MAP_RAINFALL_WET_NAME"     Description="LOC_GL_RAINFALL_WETTER_DESC"   SortIndex="13"/>
+		<Row Domain="GLDomain_Rainfall" Value="5" Name="LOC_GL_RAINFALL_VWET_NAME"     Description="LOC_GL_RAINFALL_VWET_DESC"     SortIndex="14"/>
+		<Row Domain="GLDomain_Rainfall" Value="6" Name="LOC_GL_RAINFALL_RANDOMAW_NAME" Description="LOC_GL_RAINFALL_RANDOMAW_DESC" SortIndex="15"/>
+		<Row Domain="GLDomain_Rainfall" Value="7" Name="LOC_MAP_RAINFALL_RANDOM_NAME"  Description="LOC_GL_RANDOM_DESC"            SortIndex="16"/>
+
+		<Row Domain="GLDomain_KelpLevel" Value="1" Name="LOC_GL_VLOW_NAME"      		  Description="LOC_GL_KELPLEVEL_VLOW_DESC"     SortIndex="10"/>
+		<Row Domain="GLDomain_KelpLevel" Value="2" Name="LOC_MAP_SEA_LEVEL_LOW_NAME"      Description="LOC_GL_KELPLEVEL_LOW_DESC"      SortIndex="11"/>
+		<Row Domain="GLDomain_KelpLevel" Value="3" Name="LOC_MAP_SEA_LEVEL_STANDARD_NAME" Description="LOC_GL_KELPLEVEL_STANDARD_DESC" SortIndex="12"/>
+		<Row Domain="GLDomain_KelpLevel" Value="4" Name="LOC_MAP_SEA_LEVEL_HIGH_NAME"     Description="LOC_GL_KELPLEVEL_HIGH_DESC"     SortIndex="13"/>
+		<Row Domain="GLDomain_KelpLevel" Value="5" Name="LOC_GL_VHIGH_NAME"      		  Description="LOC_GL_KELPLEVEL_VHIGH_DESC"    SortIndex="14"/>
+		<Row Domain="GLDomain_KelpLevel" Value="6" Name="LOC_GL_KELPLEVEL_RAIN_NAME"      Description="LOC_GL_KELPLEVEL_RAIN_DESC"     SortIndex="15"/>
+		<Row Domain="GLDomain_KelpLevel" Value="7" Name="LOC_GL_RANDOMLH_NAME"            Description="LOC_GL_RANDOMLH_DESC"           SortIndex="16"/>
+		<Row Domain="GLDomain_KelpLevel" Value="8" Name="LOC_MAP_SEA_LEVEL_RANDOM_NAME"   Description="LOC_GL_RANDOM_DESC"             SortIndex="17"/>
+
+		<Row Domain="GLDomain_KelpForests" Value="1" Name="LOC_GL_NONE_NAME"    		   Description="LOC_GL_KELPFORESTS_NONE_DESC"   SortIndex="10"/>
+		<Row Domain="GLDomain_KelpForests" Value="2" Name="LOC_GL_KELPFORESTS_STD_NAME"    Description="LOC_GL_KELPFORESTS_STD_DESC"    SortIndex="11"/>
+		<Row Domain="GLDomain_KelpForests" Value="3" Name="LOC_GL_KELPFORESTS_CREEP_NAME"  Description="LOC_GL_KELPFORESTS_CREEP_DESC"  SortIndex="12"/>
+		<Row Domain="GLDomain_KelpForests" Value="4" Name="LOC_GL_KELPFORESTS_RANDSC_NAME" Description="LOC_GL_KELPFORESTS_RANDSC_DESC" SortIndex="13"/>
+		<Row Domain="GLDomain_KelpForests" Value="5" Name="LOC_MAP_RAINFALL_RANDOM_NAME"   Description="LOC_GL_RANDOM_DESC"             SortIndex="14"/>
+		
+		<Row Domain="GLDomain_ClimGran" Value="1" Name="LOC_GL_CLIMGRAN_VCOARSE_NAME"  Description="LOC_GL_CLIMGRAN_VCOARSE_DESC"  SortIndex="10"/>
+		<Row Domain="GLDomain_ClimGran" Value="2" Name="LOC_GL_CLIMGRAN_COARSE_NAME"   Description="LOC_GL_CLIMGRAN_COARSE_DESC"   SortIndex="11"/>
+		<Row Domain="GLDomain_ClimGran" Value="3" Name="LOC_GL_STD_BASE_NAME"          Description="LOC_GL_CLIMGRAN_STANDARD_DESC" SortIndex="12"/>
+		<Row Domain="GLDomain_ClimGran" Value="4" Name="LOC_GL_CLIMGRAN_FINE_NAME"     Description="LOC_GL_CLIMGRAN_FINE_DESC"     SortIndex="13"/>
+		<Row Domain="GLDomain_ClimGran" Value="5" Name="LOC_GL_CLIMGRAN_VFINE_NAME"    Description="LOC_GL_CLIMGRAN_VFINE_DESC"    SortIndex="14"/>
+		<Row Domain="GLDomain_ClimGran" Value="6" Name="LOC_GL_CLIMGRAN_MIXEDCF_NAME"  Description="LOC_GL_CLIMGRAN_MIXEDCF_DESC"  SortIndex="15"/>
+		<Row Domain="GLDomain_ClimGran" Value="7" Name="LOC_GL_CLIMGRAN_MIXED_NAME"    Description="LOC_GL_CLIMGRAN_MIXED_DESC"    SortIndex="16"/>
+		<Row Domain="GLDomain_ClimGran" Value="8" Name="LOC_GL_CLIMGRAN_RANDOMCF_NAME" Description="LOC_GL_CLIMGRAN_RANDOMCF_DESC" SortIndex="17"/>
+		<Row Domain="GLDomain_ClimGran" Value="9" Name="LOC_MAP_RAINFALL_RANDOM_NAME"  Description="LOC_GL_RANDOM_DESC"            SortIndex="18"/>
+		
+		<Row Domain="GLDomain_GrassPlains" Value="1" Name="LOC_GL_GRASSPLAINS_VLOW_NAME"   Description="LOC_GL_GRASSPLAINS_VLOW_DESC"     SortIndex="10"/>
+		<Row Domain="GLDomain_GrassPlains" Value="2" Name="LOC_GL_GRASSPLAINS_LOW_NAME"    Description="LOC_GL_GRASSPLAINS_LOW_DESC"      SortIndex="11"/>
+		<Row Domain="GLDomain_GrassPlains" Value="3" Name="LOC_GL_STD_BASE_NAME"           Description="LOC_GL_GRASSPLAINS_STANDARD_DESC" SortIndex="12"/>
+		<Row Domain="GLDomain_GrassPlains" Value="4" Name="LOC_GL_GRASSPLAINS_HIGH_NAME"   Description="LOC_GL_GRASSPLAINS_HIGH_DESC"     SortIndex="13"/>
+		<Row Domain="GLDomain_GrassPlains" Value="5" Name="LOC_GL_GRASSPLAINS_VHIGH_NAME"  Description="LOC_GL_GRASSPLAINS_VHIGH_DESC"    SortIndex="14"/>
+		<Row Domain="GLDomain_GrassPlains" Value="6" Name="LOC_GL_GRASSPLAINS_RANDLH_NAME" Description="LOC_GL_GRASSPLAINS_RANDLH_DESC"   SortIndex="15"/>
+		<Row Domain="GLDomain_GrassPlains" Value="7" Name="LOC_MAP_RAINFALL_RANDOM_NAME"   Description="LOC_GL_RANDOM_DESC"               SortIndex="16"/>
+
+		<Row Domain="GLDomain_ForestJungle" Value="1" Name="LOC_GL_FORESTJUNGLE_VLOW_NAME"   Description="LOC_GL_FORESTJUNGLE_VLOW_DESC"     SortIndex="10"/>
+		<Row Domain="GLDomain_ForestJungle" Value="2" Name="LOC_GL_FORESTJUNGLE_LOW_NAME"    Description="LOC_GL_FORESTJUNGLE_LOW_DESC"      SortIndex="11"/>
+		<Row Domain="GLDomain_ForestJungle" Value="3" Name="LOC_GL_STD_BASE_NAME"            Description="LOC_GL_FORESTJUNGLE_STANDARD_DESC" SortIndex="12"/>
+		<Row Domain="GLDomain_ForestJungle" Value="4" Name="LOC_GL_FORESTJUNGLE_HIGH_NAME"   Description="LOC_GL_FORESTJUNGLE_HIGH_DESC"     SortIndex="13"/>
+		<Row Domain="GLDomain_ForestJungle" Value="5" Name="LOC_GL_FORESTJUNGLE_VHIGH_NAME"  Description="LOC_GL_FORESTJUNGLE_VHIGH_DESC"    SortIndex="14"/>
+		<Row Domain="GLDomain_ForestJungle" Value="6" Name="LOC_GL_FORESTJUNGLE_RANDLH_NAME" Description="LOC_GL_FORESTJUNGLE_RANDLH_DESC"   SortIndex="15"/>
+		<Row Domain="GLDomain_ForestJungle" Value="7" Name="LOC_MAP_RAINFALL_RANDOM_NAME"    Description="LOC_GL_RANDOM_DESC"                SortIndex="16"/>
+
+		<Row Domain="GLDomain_Biodiv" Value="1" Name="LOC_GL_VLOW_NAME"                Description="LOC_GL_BIODIV_VLOW_DESC"     SortIndex="10"/>
+		<Row Domain="GLDomain_Biodiv" Value="2" Name="LOC_GL_LOW_BASE_NAME"            Description="LOC_GL_BIODIV_LOW_DESC"      SortIndex="11"/>
+		<Row Domain="GLDomain_Biodiv" Value="3" Name="LOC_MAP_SEA_LEVEL_STANDARD_NAME" Description="LOC_GL_BIODIV_STANDARD_DESC" SortIndex="12"/>
+		<Row Domain="GLDomain_Biodiv" Value="4" Name="LOC_MAP_SEA_LEVEL_HIGH_NAME"     Description="LOC_GL_BIODIV_HIGH_DESC"     SortIndex="13"/>
+		<Row Domain="GLDomain_Biodiv" Value="5" Name="LOC_GL_VHIGH_NAME"               Description="LOC_GL_BIODIV_VHIGH_DESC"    SortIndex="14"/>
+		<Row Domain="GLDomain_Biodiv" Value="6" Name="LOC_GL_BIODIV_CLIMATE_NAME"      Description="LOC_GL_BIODIV_CLIMATE_DESC"  SortIndex="15"/>
+		<Row Domain="GLDomain_Biodiv" Value="7" Name="LOC_GL_RANDOMLH_NAME"            Description="LOC_GL_RANDOMLH_DESC"        SortIndex="16"/>
+		<Row Domain="GLDomain_Biodiv" Value="8" Name="LOC_MAP_SEA_LEVEL_RANDOM_NAME"   Description="LOC_GL_RANDOM_DESC"          SortIndex="17"/>		
+	</DomainValues>
+</GameInfo>

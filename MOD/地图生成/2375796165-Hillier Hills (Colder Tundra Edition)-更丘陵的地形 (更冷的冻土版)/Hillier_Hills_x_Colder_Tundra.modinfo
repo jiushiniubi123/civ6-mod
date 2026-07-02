@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="9735472b-05d1-4427-8fc2-b44ff2c39088" version="1">
+  <Properties>
+    <Name>Hillier Hills (Colder Tundra Edition)</Name>
+    <Description>Hillier hills and colder tundra!</Description>
+    <Teaser>Hillier hills and colder tundra!</Teaser>
+    <Authors>Leugi, Deliverator</Authors>
+	   <AffectsSavedGames>0</AffectsSavedGames>
+		<CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateArt id="Arts">
+	  <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>Hillier_Hills_x_Colder_Tundra.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/TerrainStyle.artdef</File>
+    <File>Hillier_Hills_x_Colder_Tundra.dep</File>
+    <File>Platforms/MacOS/BLPs/terrain/TerrainMaterialSet_Base.blp</File>
+    <File>Platforms/Windows/BLPs/terrain/TerrainMaterialSet_Base.blp</File>
+    <File>Platforms/MacOS/BLPs/terrain/TerrainElementSet_Base.blp</File>
+    <File>Platforms/Windows/BLPs/terrain/TerrainElementSet_Base.blp</File>
+  </Files>
+</Mod>

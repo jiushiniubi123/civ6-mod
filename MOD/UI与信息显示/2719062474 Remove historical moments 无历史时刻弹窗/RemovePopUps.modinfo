@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="df622189-3f62-48f3-8f19-60fce17b71dc" version="1">
+	<Properties>
+		<Name>LOC_SKL_NAME</Name>
+		<Description>LOC_SKL_DESCRIPTION</Description>
+		<CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"/>
+		<Created>1642152445</Created>
+		<Teaser>LOC_SKL_TEASER</Teaser>
+		<Authors>Skalozubio</Authors>
+		<Homepage>https://steamcommunity.com/id/skalozubio/</Homepage>
+		<AffectsSavedGames>0</AffectsSavedGames>
+		<CompatibleVersions>1.2,2.0</CompatibleVersions>
+	</Properties>
+	<LocalizedText>
+		<Text id="LOC_SKL_NAME">
+			<ru_RU>
+				Убрать всплывающие уведомления
+			</ru_RU>
+			<en_US>
+				Remove pop-ups
+			</en_US>
+			<pt_BR>
+				Remover notificações pop-up
+			</pt_BR>
+			<fr_FR>
+				Supprime les notifications contextuelles
+			</fr_FR>
+			<de_DE>
+				Entfernen Sie Popup-Benachrichtigungen
+			</de_DE>
+			<it_IT>
+				Rimuove le notifiche pop-up
+			</it_IT>
+			<ja_JP>
+				ポップアップ通知を削除する
+			</ja_JP>
+			<ko_KR>
+				팝업 알림 제거
+			</ko_KR>
+			<pl_PL>
+				Usuń wyskakujące powiadomienia
+			</pl_PL>
+			<zh_Hans_CN>
+				移除弹出通知
+			</zh_Hans_CN>
+			<es_ES>
+				Eliminar notificaciones emergentes
+			</es_ES>
+			<zh_Hant_HK>
+				移除彈出通知
+			</zh_Hant_HK>
+		</Text>
+		<Text id="LOC_SKL_DESCRIPTION">
+			<ru_RU>
+				Убирает все всплывающие уведомления об ускорении технологии или социального института, а так же всплывающее окно исторических моментов.
+			</ru_RU>
+			<en_US>
+				Removes all pop-up notifications about the boosts of technologies and civics, as well as the pop-up window of historical moments.
+			</en_US>
+			<pt_BR>
+				Remove todas as notificações pop-up sobre a aceleração da tecnologia ou instituição social, bem como a janela pop-up de momentos históricos.
+			</pt_BR>
+			<fr_FR>
+				Supprime toutes les notifications contextuelles sur l'accélération de la technologie ou de l'institution sociale, ainsi que la fenêtre contextuelle des moments historiques.
+			</fr_FR>
+			<de_DE>
+				Entfernt alle Popup-Benachrichtigungen über die Beschleunigung von Technologie oder sozialen Einrichtungen sowie das Popup-Fenster historischer Momente.
+			</de_DE>
+			<it_IT>
+				Rimuove tutte le notifiche pop-up sull'accelerazione della tecnologia o delle istituzioni sociali, nonché la finestra pop-up dei momenti storici.
+			</it_IT>
+			<ja_JP>
+				テクノロジーや社会制度の加速に関するすべてのポップアップ通知、および歴史的な瞬間のポップアップウィンドウを削除します。
+			</ja_JP>
+			<ko_KR>
+				기술이나 사회 제도의 가속화에 대한 모든 팝업 알림과 역사적 순간의 팝업 창을 제거합니다.
+			</ko_KR>
+			<pl_PL>
+				Usuwa wszystkie wyskakujące powiadomienia o przyspieszeniu technologii lub instytucji społecznej, a także wyskakujące okienko przedstawiające momenty historyczne.
+			</pl_PL>
+			<zh_Hans_CN>
+				移除所有科技或社会制度加速的弹窗通知，以及历史时刻的弹窗。
+			</zh_Hans_CN>
+			<es_ES>
+				Elimina todas las notificaciones emergentes sobre la aceleración de la tecnología o institución social, así como la ventana emergente de momentos históricos.
+			</es_ES>
+			<zh_Hant_HK>
+				移除所有科技或社會制度加速的彈窗通知，以及歷史時刻的彈窗。
+			</zh_Hant_HK>
+		</Text>
+		<Text id="LOC_SKL_TEASER">
+			<ru_RU>
+				Убирает лишние всплывающие уведомления
+			</ru_RU>
+			<en_US>
+				Remove pop-ups - tech/civic boosts and historic moments
+			</en_US>
+			<pt_BR>
+				Remove notificações pop-up desnecessárias
+			</pt_BR>
+			<fr_FR>
+				Supprime les notifications contextuelles inutiles
+			</fr_FR>
+			<de_DE>
+				Entfernt unnötige Popup-Benachrichtigungen
+			</de_DE>
+			<it_IT>
+				Rimuove le notifiche pop-up non necessarie
+			</it_IT>
+			<ja_JP>
+				不要なポップアップ通知を削除します
+			</ja_JP>
+			<ko_KR>
+				불필요한 팝업 알림 제거
+			</ko_KR>
+			<pl_PL>
+				Usuwa niepotrzebne wyskakujące powiadomienia
+			</pl_PL>
+			<zh_Hans_CN>
+				删除不必要的弹出通知
+			</zh_Hans_CN>
+			<es_ES>
+				Elimina notificaciones emergentes innecesarias
+			</es_ES>
+			<zh_Hant_HK>
+				刪除不必要的彈出通知
+			</zh_Hant_HK>
+		</Text>
+	</LocalizedText>
+	<InGameActions>
+		<ImportFiles id="TechCivicCompletedPopup_lua">
+			<Properties>
+				<LoadOrder>1500</LoadOrder>
+			</Properties>
+			<File>DLC/Expansion2/UI/Additions/HistoricMoments.lua</File>
+		</ImportFiles>
+	</InGameActions>
+	<Files>
+		<File>DLC/Expansion2/UI/Additions/HistoricMoments.lua</File>
+	</Files>
+</Mod>
+
+
+

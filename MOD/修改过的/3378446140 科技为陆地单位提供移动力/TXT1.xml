@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData2 -->
+<!-- Author: hnoyy -->
+<!-- DateCreated: 10/16/2024 10:50:14 PM -->
+<GameData>
+	<LocalizedText>
+
+		<Replace Tag="LOC_TECH_ANIMAL_HUSBANDRY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text> 可收获 [ICON_RESOURCE_CATTLE] 牛、[ICON_RESOURCE_SHEEP] 羊和 [ICON_RESOURCE_DEER] 鹿。骑兵单位+1 [ICON_Movement] 移动力。 </Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_MACHINERY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text> 陆地战斗单位+1 [ICON_Movement] 移动力。 </Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_INDUSTRIALIZATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text> 矿山改良设施+1 [ICON_Production] 生产力。陆地非骑兵战斗单位+1 [ICON_Movement] 移动力。 </Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_COMBUSTION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text> 水运单位+1 [ICON_Movement] 移动力。骑兵单位+1 [ICON_Movement] 移动力。 </Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_ADVANCED_POWER_CELLS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text> 陆地战斗单位+1 [ICON_Movement] 移动力。 </Text>
+		</Replace>		
+
+		<Replace Tag="LOC_TECH_ANIMAL_HUSBANDRY_DESCRIPTION" Language="en_US">
+			<Text> Allows harvesting of [ICON_RESOURCE_CATTLE] Cattle, [ICON_RESOURCE_SHEEP] Sheep, and [ICON_RESOURCE_DEER] Deer. +1 [ICON_Movement] Movement for cavalry units. </Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_MACHINERY_DESCRIPTION" Language="en_US">
+			<Text>  +1 [ICON_Movement] Movement for land combat units. </Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_INDUSTRIALIZATION_DESCRIPTION" Language="en_US">
+			<Text> +1 [ICON_Production] Production to the Mine improvement. +1 [ICON_Movement] Movement for land combat units, which is not cavalry. </Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_COMBUSTION_DESCRIPTION" Language="en_US">
+			<Text> +1 [ICON_Movement] Movement for embarked units. +1 [ICON_Movement] Movement for cavalry units. </Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_ADVANCED_POWER_CELLS_DESCRIPTION" Language="en_US">
+			<Text> +1 [ICON_Movement] Movement for land combat units. </Text>
+		</Replace>	
+
+	</LocalizedText>
+</GameData>

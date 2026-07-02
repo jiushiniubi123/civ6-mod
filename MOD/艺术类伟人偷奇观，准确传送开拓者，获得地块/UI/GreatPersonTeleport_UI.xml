@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+  <Grid ID="Archaeologist_Grid" Anchor="R,B" Size="Auto,41" AutoSizePadding="2,0" Texture="SelectionPanel_ActionGroupSlot" SliceCorner="5,19" SliceSize="1,1" SliceTextureSize="12,41" ConsumeMouse="1" Hidden="1">
+    <Stack ID="ArchaeologistActionStack" Anchor="C,B" StackGrowth="Right" StackPadding="2">
+      <Button ID="Archaeologist_Button" Anchor="L,B" Size="44,53" Texture="UnitPanel_ActionButton">
+        <Image ID="Archaeologist_Icon" Anchor="C,C" Offset="0,-2" Size="38,38" Icon="ICON_STEAL_WONDER"/>
+      </Button>
+      <Button ID="Teleport_Button" Anchor="L,B" Size="44,53" Texture="UnitPanel_ActionButton">
+        <Image ID="Teleport_Icon" Anchor="C,C" Offset="0,-2" Size="38,38" Icon="ICON_GREAT_PERSON_TELEPORT"/>
+      </Button>
+      <Button ID="CultureBomb_Button" Anchor="L,B" Size="44,53" Texture="UnitPanel_ActionButton">
+        <Image ID="CultureBomb_Icon" Anchor="C,C" Offset="0,-2" Size="38,38" Icon="ICON_GREAT_PERSON_CULTURE_BOMB"/>
+      </Button>
+      <Button ID="Summon_Button" Anchor="L,B" Size="44,53" Texture="UnitPanel_ActionButton">
+        <Image ID="Summon_Icon" Anchor="C,C" Offset="0,-2" Size="38,38" Icon="ICON_STEAL_WONDER"/>
+      </Button>
+    </Stack>
+  </Grid>
+</Context>

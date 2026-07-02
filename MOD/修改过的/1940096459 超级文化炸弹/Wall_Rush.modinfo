@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="53f366ca-35b7-424f-af97-5587ca4576dd" version="1">
+  <Properties>
+    <Name>Engineers can rush Walls</Name>
+    <Description>Lets Military Engineers spend their charges on Walls.</Description>
+    <Created>1576714743</Created>
+    <Teaser>Lets Military Engineers spend their charges on Walls.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>MC_WallRush_Gameplay.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>5</LoadOrder>
+      </Properties>
+      <File>MC_WallRush_Text.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>MC_WallRush_Gameplay.sql</File>
+    <File>MC_WallRush_Text.sql</File>
+  </Files>
+</Mod>

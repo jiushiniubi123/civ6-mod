@@ -1,0 +1,19 @@
+-- CityStateBonusViewer_Colors
+-- Author: yiboy
+-- DateCreated: 8/2/2024 12:32:39 PM
+--------------------------------------------------------------
+
+
+INSERT INTO Colors
+	(Type,								Color			)
+VALUES	
+	('COLOR_ML_CSBV_SCIENTIFIC',		'50,202,237,255'),
+	('COLOR_ML_CSBV_RELIGIOUS',			'255,246,235,255'),	
+	('COLOR_ML_CSBV_TRADE',				'255,206,108,255'),
+	('COLOR_ML_CSBV_CULTURAL',			'214,102,255,255'),
+	('COLOR_ML_CSBV_MILITARISTIC',		'255,92,92,255'),
+	('COLOR_ML_CSBV_INDUSTRIAL',		'255,149,77,255'),
+	('COLOR_ML_CSBV_CSE_AGRICULTURAL',	'159,226,100,255'),
+	('COLOR_ML_CSBV_CSE_CONSULAR',		'144,128,255,255'),
+	('COLOR_ML_CSBV_CSE_ENTERTAINMENT',	'255,100,170,255'),
+	('COLOR_ML_CSBV_CSE_MARITIME',		'88,220,195,255');

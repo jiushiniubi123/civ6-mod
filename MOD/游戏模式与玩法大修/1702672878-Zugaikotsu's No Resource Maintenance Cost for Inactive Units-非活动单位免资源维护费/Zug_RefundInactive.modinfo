@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="51a68e4a-a56a-4e85-8195-7ddce6f23025" version="3">
+  <Properties>
+    <Name>Zugaikotsu's No Resource Maintenance Cost for Inactive Units</Name>
+    <Description>This mod will refund resource maintenance costs for units that do not perform any actions in a turn, effectively negating any resource costs associated with that unit.</Description>
+    <CustomProperties></CustomProperties>
+    <Teaser>Refunds resource maintenance for units that have not consumed any movement points.</Teaser>
+    <Authors>Zugaikotsu</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <References>
+    <Mod id="57e9060c-74db-415e-b0ec-313e551eb6d5" title="Tactical Extension" />
+  </References>
+  <FrontEndActions />
+  <InGameActions>
+    <AddGameplayScripts id="Zug_RefundInactive">
+      <File priority="1">Lua/Zug_RefundInactive.lua</File>
+    </AddGameplayScripts>
+    <AddGameplayScripts id="Zug_RefundInactive_ModSettings">
+      <File priority="1">Lua/Zug_RefundInactive_ModSettings.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>Lua/Zug_RefundInactive.lua</File>
+    <File>Lua/Zug_RefundInactive_ModSettings.lua</File>
+  </Files>
+</Mod>

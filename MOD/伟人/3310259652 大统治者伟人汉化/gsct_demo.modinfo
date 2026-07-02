@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c0c9c0c9-afca-45a4-9674-f9156a1572c0" version="1">
+  <Properties>
+    <Name>LOC_GERAT_SOVEREIGNS_CHINESE_TRANSLATION</Name>
+    <Description>对Plati的Mod“Great Sovereigns”进行了汉化</Description>
+    <Teaser>顾名思义</Teaser>
+    <Authors>Bulan</Authors>
+    <SpecialThanks>我自己</SpecialThanks>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="b820e109-c326-7375-b44f-1635a8bedbe5" title="Great Sovereigns" />
+  </Dependencies> 
+  <LocalizedText>
+    <Text id="LOC_GERAT_SOVEREIGNS_CHINESE_TRANSLATION">
+      <en_US>Plati's Great Sovereigns Chinese Translation MOD</en_US>
+      <zh_Hans_CN>Plati的大统治者汉化</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <FrontEndActions>
+    <UpdateText id="gsctconfig">
+      <Properties>
+        <LoadOrder>1919</LoadOrder>
+      </Properties>
+      <File>gsct_config.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+     <UpdateText id="gsct1">
+      <Properties>
+        <LoadOrder>1919</LoadOrder>
+      </Properties>
+      <File>gsct.1.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+   <File>gsct.1.xml</File>
+   <File>gsct_config.sql</File>
+  </Files>
+</Mod>

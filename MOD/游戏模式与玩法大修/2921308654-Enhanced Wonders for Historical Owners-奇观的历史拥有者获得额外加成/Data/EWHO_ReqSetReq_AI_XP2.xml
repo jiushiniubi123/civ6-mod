@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_ReqSetReq_AI_XP2 -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/18/2023 12:22:21 PM -->
+<GameData>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_HAS_GREAT_BATH_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_INCA_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_MALI_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_OTTOMAN_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_HAS_PANAMA_CANAL_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_HUNGARY_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_CANADA_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+
+	</RequirementSetRequirements>
+</GameData>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- INDUSTRIAL Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_ZAYED" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_ZAYED" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_ZAYED_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" EraType="ERA_ATOMIC" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_GOVERNMENT"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_ZAYED" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_ZAYED_GOLD_COAL" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_ZAYED" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_ZAYED_GOLD_OIL" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_ZAYED" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_ZAYED_GOLD_URANIUM" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_ZAYED_GOLD_COAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_IMPROVED_COAL</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_ZAYED_GOLD_OIL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_IMPROVED_OIL</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_ZAYED_GOLD_URANIUM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_IMPROVED_URANIUM</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_ZAYED_GOLD_COAL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_ZAYED_GOLD_COAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_ZAYED_GOLD_OIL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_ZAYED_GOLD_OIL</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_ZAYED_GOLD_URANIUM</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_ZAYED_GOLD_URANIUM</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_ZAYED_GOLD_COAL" Context="Summary" Text="LOC_GREATPERSON_PLATI_SOVEREIGN_ZAYED_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

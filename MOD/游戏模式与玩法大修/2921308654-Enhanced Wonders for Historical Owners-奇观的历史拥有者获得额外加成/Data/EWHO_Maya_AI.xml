@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Maya_AI -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/30/2023 8:33:12 AM -->
+<GameData>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_MAYA_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+	</RequirementSetRequirements>
+</GameData>

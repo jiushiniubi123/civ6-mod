@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Policy Icons -->
+	<IconDefinitions>
+		<Row Name="ICON_POLICY_SOVEREIGNS"  			Atlas="ICON_ATLAS_POLICIES" Index="3"/>
+		<Row Name="ICON_POLICY_SOVEREIGNS_BUFFED"  		Atlas="ICON_ATLAS_POLICIES" Index="3"/>
+	</IconDefinitions>
+</GameData>

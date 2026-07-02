@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GreatSovereigns -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<!---->
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_FIRST" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<!---->
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_SECOND" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<!---->
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_THIRD" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<!---->
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_FOURTH" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<!---->
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_FIFTH" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<!---->
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_SIXTH" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<!---->
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_SEVENTH" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<!---->
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_EIGHTH" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<!---->
+		<!---->
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_NINTH" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<!---->
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_TENTH" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<!---->
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_THIRTEENTH" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<!---->
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_FOURTEENTH" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="ABILITY_PLATI_FOURTEENTH_COMBAT" Kind="KIND_ABILITY"/>
+		<!---->
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_FIFTEENTH" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_PLATI_FOURTEENTH_COMBAT" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_PLATI_FOURTEENTH_COMBAT" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_PLATI_FOURTEENTH_COMBAT" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_PLATI_FOURTEENTH_COMBAT" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_PLATI_FOURTEENTH_COMBAT" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_PLATI_FOURTEENTH_COMBAT" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_PLATI_FOURTEENTH_COMBAT" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_PLATI_FOURTEENTH_COMBAT" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_PLATI_FOURTEENTH_COMBAT" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_PLATI_FOURTEENTH_COMBAT" Tag="CLASS_LIGHT_CHARIOT"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_PLATI_FOURTEENTH_COMBAT"
+			 Name="LOC_ABILITY_PLATI_FOURTEENTH_COMBAT_NAME"
+			 Description="LOC_ABILITY_PLATI_FOURTEENTH_COMBAT_DESCRIPTION"
+			 Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row UnitAbilityType="ABILITY_PLATI_FOURTEENTH_COMBAT" ModifierId="ModifierId_ABILITY_PLATI_FOURTEENTH_COMBAT"/>
+	</UnitAbilityModifiers>
+	<GreatPersonIndividuals>
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_FIRST"
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_FIRST_NAME"
+			 GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns"
+			 EraType="ERA_CLASSICAL" Gender="M" ActionCharges="1"
+			 ActionRequiresCompletedDistrictType="DISTRICT_HOLY_SITE"
+			 ActionEffectTextOverride="LOC_GREATPERSON_PLATI_FIRST_ACTIVE"/>
+
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SECOND"
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_SECOND_NAME"
+			 GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns"
+			 EraType="ERA_CLASSICAL" Gender="M" ActionCharges="1"
+			 ActionRequiresCompletedDistrictType="DISTRICT_GOVERNMENT"
+			 ActionEffectTextOverride="LOC_GREATPERSON_PLATI_SECOND_ACTIVE"/>
+
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_THIRD"
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_THIRD_NAME"
+			 GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns"
+			 EraType="ERA_CLASSICAL" Gender="M" ActionCharges="1"
+			 ActionRequiresIncompleteWonder="true"
+			 ActionEffectTextOverride="LOC_GREATPERSON_PLATI_THIRD_ACTIVE"/>
+
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_FOURTH"
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_FOURTH_NAME"
+			 GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns"
+			 EraType="ERA_CLASSICAL" Gender="M" ActionCharges="1"
+			 ActionRequiresCompletedDistrictType="DISTRICT_GOVERNMENT"
+			 ActionEffectTextOverride="LOC_GREATPERSON_PLATI_FOURTH_ACTIVE"/>
+
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_FIFTH"
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_FIFTH_NAME"
+			 GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns"
+			 EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="1"
+			 ActionRequiresCompletedDistrictType="DISTRICT_GOVERNMENT"
+			 ActionEffectTextOverride="LOC_GREATPERSON_PLATI_FIFTH_ACTIVE"/>
+
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SIXTH"
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_SIXTH_NAME"
+			 GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns"
+			 EraType="ERA_INDUSTRIAL" Gender="M" ActionCharges="1"
+			 ActionRequiresCompletedDistrictType="DISTRICT_GOVERNMENT"
+			 ActionEffectTextOverride="LOC_GREATPERSON_PLATI_SIXTH_ACTIVE"/>
+
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SEVENTH"
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_SEVENTH_NAME"
+			 GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns"
+			 EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="1"
+			 ActionRequiresCompletedDistrictType="DISTRICT_GOVERNMENT"
+			 ActionEffectTextOverride="LOC_GREATPERSON_PLATI_SEVENTH_ACTIVE"/>
+
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_EIGHTH"
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_EIGHTH_NAME"
+			 GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns"
+			 EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="1"
+			 ActionRequiresCompletedDistrictType="DISTRICT_GOVERNMENT"
+			 ActionEffectTextOverride="LOC_GREATPERSON_PLATI_EIGHTH_ACTIVE"/>
+
+		<!---->
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_NINTH"
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_NINTH_NAME"
+			 GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns"
+			 EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1"
+			 ActionRequiresCompletedDistrictType="DISTRICT_GOVERNMENT"
+			 ActionEffectTextOverride="LOC_GREATPERSON_PLATI_NINTH_ACTIVE"/>
+
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_TENTH"
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_TENTH_NAME"
+			 GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns"
+			 EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1"
+			 ActionRequiresCompletedDistrictType="DISTRICT_GOVERNMENT"
+			 ActionEffectTextOverride="LOC_GREATPERSON_PLATI_TENTH_ACTIVE"/>
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_THIRTEENTH"
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_THIRTEENTH_NAME"
+			 GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns"
+			 EraType="ERA_INDUSTRIAL" Gender="M" ActionCharges="1"
+			 ActionRequiresCompletedDistrictType="DISTRICT_GOVERNMENT"
+			 ActionEffectTextOverride="LOC_GREATPERSON_PLATI_THIRTEENTH_ACTIVE"/>
+
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_FOURTEENTH"
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_FOURTEENTH_NAME"
+			 GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns"
+			 EraType="ERA_MODERN" Gender="M" ActionCharges="3"
+			 ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER"
+			 ActionEffectTextOverride="LOC_GREATPERSON_PLATI_FOURTEENTH_ACTIVE"/>
+
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_FIFTEENTH"
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_FIFTEENTH_NAME"
+			 GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns"
+			 EraType="ERA_MODERN" Gender="M" ActionCharges="1"
+			 ActionRequiresCompletedDistrictType="DISTRICT_GOVERNMENT"
+			 ActionEffectTextOverride="LOC_GREATPERSON_PLATI_FIFTEENTH_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_FIRST" ModifierId="GREATPERSON_PLATI_SOLOMON_PRODUCTION" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_FIRST" ModifierId="GREATPERSON_PLATI_SOLOMON_TEMPLES" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SECOND" ModifierId="GREAT_PLATI_MARCUS_AURELIUS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_THIRD" ModifierId="GREAT_PLATI_DARIUS_PERSIAN" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_WONDER_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_THIRD" ModifierId="GREAT_PLATI_DARIUS_TRADE" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_WONDER_IN_TILE"/>
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_FOURTH" ModifierId="GREAT_PLATI_ASHOKA" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_FOURTH" ModifierId="GREAT_PLATI_2ASHOKA" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_FIFTH" ModifierId="GREAT_PLATI_FREDERICH_II" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SIXTH" ModifierId="GREAT_PLATI_AHMAD_MANSUR" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SIXTH" ModifierId="GREAT_PLATI_MUHAMAD_ALI_PASHA" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SEVENTH" ModifierId="GREAT_PLATI_CHARLEMAGNE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_EIGHTH" ModifierId="GREAT_PLATI_HARUN" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<!---->
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_NINTH" ModifierId="GREAT_PLATI_ASKIA" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_NINTH" ModifierId="GREAT_PLATI_2ASKIA" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_TENTH" ModifierId="GREAT_PLATI_AKBAR" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<!------------------------------------------------->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_THIRTEENTH" ModifierId="GREAT_PLATI_MEIJI_NEIGHBOURHOOD_GOLD" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_THIRTEENTH" ModifierId="GREAT_PLATI_MEIJI_INDUSTRIAL_GOLD" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_THIRTEENTH" ModifierId="GREAT_PLATI_MEIJI_ADJACENCY_NEIGH_TO_IND" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_THIRTEENTH" ModifierId="GREAT_PLATI_MEIJI_ADJACENCY_IND_TO_NEIGH" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_FOURTEENTH" ModifierId="GREAT_PLATI_ATATURK" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_FIFTEENTH" ModifierId="GREAT_PLATI_HAILE_SELASSIE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row ModifierId="ModifierId_ABILITY_PLATI_FOURTEENTH_COMBAT" ModifierType="MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH"/>
+		<!---->
+		<Row ModifierId="GREATPERSON_PLATI_SOLOMON_PRODUCTION" 	ModifierType="MODIFIER_SINGLE_CITY_GRANT_BUILDING_IN_CITY_IGNORE" 	RunOnce="true" Permanent="true"/>
+		<Row ModifierId="GREATPERSON_PLATI_SOLOMON_TEMPLES" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE" 	RunOnce="false" Permanent="true" />
+		<!---->
+		<Row ModifierId="GREAT_PLATI_MARCUS_AURELIUS" ModifierType="MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_BY_ERA" RunOnce="true" Permanent="true"/>
+		<!---->
+		<Row ModifierId="GREAT_PLATI_DARIUS_PERSIAN" 	ModifierType="MODIFIER_SINGLE_CITY_GRANT_PRODUCTION_IN_CITY" 				RunOnce="true" 	Permanent="true"/>
+		<Row ModifierId="GREAT_PLATI_DARIUS_TRADE" 		ModifierType="MODIFIER_PLAYER_ADJUST_YIELD_CHANGE_PER_USED_INFLUENCE_TOKEN" RunOnce="false" Permanent="true"/>
+		<!---->
+		<Row ModifierId="GREAT_PLATI_ASHOKA" 			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT" RunOnce="false" Permanent="true"/>
+		<Row ModifierId="GREAT_PLATI_2ASHOKA" 			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT" RunOnce="false" Permanent="true"/>
+		<!---->
+		<Row ModifierId="GREAT_PLATI_FREDERICH_II" 		ModifierType="MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER" RunOnce="true" Permanent="true"/>
+		<!---->
+		<Row ModifierId="GREAT_PLATI_AHMAD_MANSUR" 				ModifierType="MODIFIER_PLAYER_ADJUST_UNIT_UPGRADE_DISCOUNT_PERCENT" RunOnce="true" Permanent="true"/>
+		<Row ModifierId="GREAT_PLATI_MUHAMAD_ALI_PASHA" 		ModifierType="MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY" RunOnce="true" Permanent="true"/>
+		<!---->
+		<Row ModifierId="GREAT_PLATI_CHARLEMAGNE" 		ModifierType="MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER" RunOnce="false" Permanent="true"/>
+		<!---->
+		<Row ModifierId="GREAT_PLATI_HARUN" 	ModifierType="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_PATH_TILE" RunOnce="false" Permanent="true" SubjectRequirementSetId="PLAYER_HAS_GOLDEN_AGE"/>
+		<!---->
+		<!---->
+		<Row ModifierId="GREAT_PLATI_ASKIA" 	ModifierType="MODIFIER_PLAYER_ADJUST_DISTRICT_PILLAGE" 				RunOnce="true" Permanent="true" />
+		<Row ModifierId="GREAT_PLATI_2ASKIA" 	ModifierType="MODIFIER_PLAYER_ADJUST_VALID_BUILDING" 				RunOnce="true" Permanent="true"	/>
+		<!---->
+		<Row ModifierId="GREAT_PLATI_AKBAR" 			ModifierType="MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER" RunOnce="true" Permanent="true"/>
+		<!------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<Row ModifierId="GREAT_PLATI_MEIJI_NEIGHBOURHOOD_GOLD" 				ModifierType="MODIFIER_PLAYER_DISTRICT_CREATE_YIELD" RunOnce="true" Permanent="true"/>
+		<Row ModifierId="GREAT_PLATI_MEIJI_INDUSTRIAL_GOLD" 				ModifierType="MODIFIER_PLAYER_DISTRICT_CREATE_YIELD" RunOnce="true" Permanent="true"/>
+		<Row ModifierId="GREAT_PLATI_MEIJI_ADJACENCY_NEIGH_TO_IND" 			ModifierType="MODIFIER_PLAYER_CITIES_DISTRICT_ADJACENCY" RunOnce="true" Permanent="true"/>
+		<Row ModifierId="GREAT_PLATI_MEIJI_ADJACENCY_IND_TO_NEIGH" 			ModifierType="MODIFIER_PLAYER_CITIES_DISTRICT_ADJACENCY" RunOnce="true" Permanent="true"/>
+		<!---->
+		<Row ModifierId="GREAT_PLATI_ATATURK" ModifierType="MODIFIER_SINGLE_CITY_GRANT_PRODUCTION_IN_CITY" RunOnce="true" Permanent="true"/>
+		<!---->
+		<Row ModifierId="GREAT_PLATI_HAILE_SELASSIE" ModifierType="MODIFIER_PLAYER_ADJUST_DIPLOMATIC_VICTORY_POINTS" RunOnce="true" Permanent="true"/>
+	</Modifiers>
+	<ModifierArguments>
+		<!---->
+		<Row ModifierId="GREATPERSON_PLATI_SOLOMON_PRODUCTION" Name="BuildingType" Value="BUILDING_TEMPLE" />
+		<Row ModifierId="GREATPERSON_PLATI_SOLOMON_TEMPLES" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="GREATPERSON_PLATI_SOLOMON_TEMPLES" Name="BuildingType" Value="BUILDING_TEMPLE" />
+		<Row ModifierId="GREATPERSON_PLATI_SOLOMON_TEMPLES" Name="Amount" Value="2" />
+		<!---->
+		<Row ModifierId="GREAT_PLATI_MARCUS_AURELIUS" Name="StartEraType" Value="ERA_MEDIEVAL" />
+		<Row ModifierId="GREAT_PLATI_MARCUS_AURELIUS" Name="EndEraType" Value="ERA_MEDIEVAL" />
+		<Row ModifierId="GREAT_PLATI_MARCUS_AURELIUS" Name="Amount" Value="99" />
+		<!---->
+		<Row ModifierId="GREAT_PLATI_DARIUS_PERSIAN" 	Name="KeepOverflow" Value="false" Type="ScaleByGameSpeed" />
+		<Row ModifierId="GREAT_PLATI_DARIUS_PERSIAN" 	Name="Amount" Value="100" />
+		<Row ModifierId="GREAT_PLATI_DARIUS_TRADE" 		Name="Amount" Value="1" />
+		<Row ModifierId="GREAT_PLATI_DARIUS_TRADE" 		Name="YieldType" Value="YIELD_CULTURE" />
+		<!---->
+		<Row ModifierId="GREAT_PLATI_ASHOKA" Name="YieldType" Value="YIELD_FAITH" />
+		<Row ModifierId="GREAT_PLATI_ASHOKA" Name="Amount" Value="1" />
+		<Row ModifierId="GREAT_PLATI_2ASHOKA" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="GREAT_PLATI_2ASHOKA" Name="Amount" Value="1" />
+		<!---->
+		<Row ModifierId="GREAT_PLATI_FREDERICH_II" 		Name="GovernmentSlotType" Value="SLOT_ECONOMIC" />
+		<!---->
+		<Row ModifierId="GREAT_PLATI_AHMAD_MANSUR" 				Name="Amount" Value="100" />
+		<Row ModifierId="GREAT_PLATI_MUHAMAD_ALI_PASHA" 		Name="Amount" Value="1" />
+		<!---->
+		<Row ModifierId="GREAT_PLATI_CHARLEMAGNE" 		Name="GovernmentSlotType" Value="SLOT_MILITARY" />
+		<!---->
+		<Row ModifierId="GREAT_PLATI_HARUN" Name="YieldType" Value="YIELD_SCIENCE" />
+		<Row ModifierId="GREAT_PLATI_HARUN" Name="Amount" Value="0.17" />
+		<!---->
+		<!---->
+		<Row ModifierId="GREAT_PLATI_ASKIA" 				Name="Amount" 			Value="2" 	Extra="-1"/>
+		<Row ModifierId="GREAT_PLATI_2ASKIA" 				Name="BuildingType" 				Value="BUILDING_PLATI_MONUMENT_ASKIA" />
+		<Row ModifierId="GREAT_PLATI_2ASKIA" 				Name="BuildingTypeToReplace" 		Value="BUILDING_MONUMENT" />
+		<!---->
+		<Row ModifierId="GREAT_PLATI_AKBAR" 			Name="GovernmentSlotType" Value="SLOT_WILDCARD" />
+		<!--------------------------------------------------------------------------------------------------------->
+		<Row ModifierId="GREAT_PLATI_MEIJI_NEIGHBOURHOOD_GOLD" Name="DistrictType" 				Value="DISTRICT_NEIGHBORHOOD" />
+		<Row ModifierId="GREAT_PLATI_MEIJI_NEIGHBOURHOOD_GOLD" Name="Amount" 					Value="300" />
+		<Row ModifierId="GREAT_PLATI_MEIJI_NEIGHBOURHOOD_GOLD" Name="YieldType" 				Value="YIELD_GOLD" />
+		<Row ModifierId="GREAT_PLATI_MEIJI_NEIGHBOURHOOD_GOLD" Name="MustReplaceImprovement" 	Value="true" />
+		<Row ModifierId="GREAT_PLATI_MEIJI_NEIGHBOURHOOD_GOLD" Name="ImprovementType" 			Value="IMPROVEMENT_FARM" />
+		<Row ModifierId="GREAT_PLATI_MEIJI_NEIGHBOURHOOD_GOLD" Name="YieldBasedOnAppeal" 		Value="false" />
+		<!---->
+		<Row ModifierId="GREAT_PLATI_MEIJI_INDUSTRIAL_GOLD" Name="DistrictType" 			Value="DISTRICT_INDUSTRIAL_ZONE" />
+		<Row ModifierId="GREAT_PLATI_MEIJI_INDUSTRIAL_GOLD" Name="Amount" 					Value="300" />
+		<Row ModifierId="GREAT_PLATI_MEIJI_INDUSTRIAL_GOLD" Name="YieldType" 				Value="YIELD_GOLD" />
+		<Row ModifierId="GREAT_PLATI_MEIJI_INDUSTRIAL_GOLD" Name="MustReplaceImprovement" 	Value="true" />
+		<Row ModifierId="GREAT_PLATI_MEIJI_INDUSTRIAL_GOLD" Name="ImprovementType" 			Value="IMPROVEMENT_FARM" />
+		<Row ModifierId="GREAT_PLATI_MEIJI_INDUSTRIAL_GOLD" Name="YieldBasedOnAppeal" 		Value="false" />
+		<!---->
+		<Row ModifierId="GREAT_PLATI_MEIJI_ADJACENCY_IND_TO_NEIGH" Name="DistrictType" 			Value="DISTRICT_INDUSTRIAL_ZONE" />
+		<Row ModifierId="GREAT_PLATI_MEIJI_ADJACENCY_IND_TO_NEIGH" Name="YieldType" 			Value="YIELD_FOOD" />
+		<Row ModifierId="GREAT_PLATI_MEIJI_ADJACENCY_IND_TO_NEIGH" Name="Amount" 				Value="2" />
+		<Row ModifierId="GREAT_PLATI_MEIJI_ADJACENCY_IND_TO_NEIGH" Name="Description" 			Value="LOC_PLATI_MEIJI_FOOD_ADJACENCY" />
+		<!---->
+		<Row ModifierId="GREAT_PLATI_MEIJI_ADJACENCY_NEIGH_TO_IND" Name="DistrictType" 			Value="DISTRICT_NEIGHBORHOOD" />
+		<Row ModifierId="GREAT_PLATI_MEIJI_ADJACENCY_NEIGH_TO_IND" Name="YieldType" 			Value="YIELD_FOOD" />
+		<Row ModifierId="GREAT_PLATI_MEIJI_ADJACENCY_NEIGH_TO_IND" Name="Amount" 				Value="2" />
+		<Row ModifierId="GREAT_PLATI_MEIJI_ADJACENCY_NEIGH_TO_IND" Name="Description" 			Value="LOC_PLATI_MEIJI_FOOD_ADJACENCY" />
+		<!--------------------------------------------------------------------------------------------------------->
+		<!--------------------------------------------------------------------------------------------------------->
+		<!--------------------------------------------------------------------------------------------------------->
+		<Row ModifierId="GREAT_PLATI_ATATURK" 	Name="KeepOverflow" Value="false" Type="ScaleByGameSpeed" />
+		<Row ModifierId="GREAT_PLATI_ATATURK" 	Name="Amount" Value="400" />
+		<!---->
+		<Row ModifierId="GREAT_PLATI_HAILE_SELASSIE" Name="Amount" Value="2" />
+		<Row ModifierId="GREAT_PLATI_HAILE_SELASSIE" Name="Tooltip" Value="LOC_DVP_TOOLTIP_OTHER_SOURCES" />
+	</ModifierArguments>
+	<ModifierStrings>
+		<!---->
+		<Row ModifierId="GREATPERSON_PLATI_SOLOMON_PRODUCTION" Context="Summary" Text="LOC_GREATPERSON_PLATI_FIRST_GREATPERSON_GPP"/>
+		<!---->
+		<Row ModifierId="GREAT_PLATI_MARCUS_AURELIUS" Context="Summary" Text="LOC_GREATPERSON_PLATI_SECOND_GREATPERSON_GPP"/>
+		<!---->
+		<Row ModifierId="GREAT_PLATI_DARIUS_PERSIAN" Context="Summary" Text="LOC_GREATPERSON_PLATI_THIRD_GREATPERSON_GPP"/>
+		<!---->
+		<Row ModifierId="GREAT_PLATI_ASHOKA" Context="Summary" Text="LOC_GREATPERSON_PLATI_FOURTH_GREATPERSON_GPP"/>
+		<!---->
+		<Row ModifierId="GREAT_PLATI_FREDERICH_II" Context="Summary" Text="LOC_GREATPERSON_PLATI_FIFTH_GREATPERSON_GPP"/>
+		<!---->
+		<Row ModifierId="GREAT_PLATI_AHMAD_MANSUR" Context="Summary" Text="LOC_GREATPERSON_PLATI_SIXTH_GREATPERSON_GPP"/>
+		<!---->
+		<Row ModifierId="GREAT_PLATI_CHARLEMAGNE" Context="Summary" Text="LOC_GREATPERSON_PLATI_SEVENTH_GREATPERSON_GPP"/>
+		<!---->
+		<Row ModifierId="GREAT_PLATI_HARUN" Context="Summary" Text="LOC_GREATPERSON_PLATI_EIGHTH_GREATPERSON_GPP"/>
+		<!---->
+		<!---->
+		<Row ModifierId="GREAT_PLATI_ASKIA" Context="Summary" Text="LOC_GREATPERSON_PLATI_NINTH_GREATPERSON_GPP"/>
+		<!---->
+		<Row ModifierId="GREAT_PLATI_AKBAR" Context="Summary" Text="LOC_GREATPERSON_PLATI_TENTH_GREATPERSON_GPP"/>
+		<!---->
+		<Row ModifierId="GREAT_PLATI_MEIJI_NEIGHBOURHOOD_GOLD" Context="Summary" Text="LOC_GREATPERSON_PLATI_THIRTEENTH_GREATPERSON_GPP"/>
+		<!---->
+		<Row ModifierId="GREAT_PLATI_ATATURK" Context="Summary" Text="LOC_GREATPERSON_PLATI_FOURTEENTH_GREATPERSON_GPP"/>
+		<!---->
+		<Row ModifierId="GREAT_PLATI_HAILE_SELASSIE" Context="Summary" Text="LOC_GREATPERSON_YIFAN_GREATPERSON_GPP"/>
+	</ModifierStrings>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>UNIT_IS_MERCHANT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_ALFRED_SPECIAL_REQUIREMENT_SET</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row RequirementSetId="RequirementSetId_GREAT_PLATI_NINTH" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_MERCHANT</RequirementId>
+			<RequirementType>REQUIREMENT_GREAT_PERSON_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_REQUIRES_ALFRED_SPECIAL_PLAZA</RequirementId>
+			<RequirementType>REQUIREMENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>UNIT_IS_MERCHANT</RequirementSetId>
+			<RequirementId>REQUIREMENT_UNIT_IS_MERCHANT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_ALFRED_SPECIAL_REQUIREMENT_SET</RequirementSetId>
+			<RequirementId>PLATI_REQUIRES_ALFRED_SPECIAL_PLAZA</RequirementId>
+		</Row>
+		<Row RequirementSetId="RequirementSetId_GREAT_PLATI_NINTH" RequirementId="REQUIRES_CITY_HAS_HOLY_SITE"/>
+		<Row RequirementSetId="RequirementSetId_GREAT_PLATI_NINTH" RequirementId="REQUIRES_CITY_HAS_THEATER_DISTRICT"/>
+	</RequirementSetRequirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_MERCHANT</RequirementId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MERCHANT</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_REQUIRES_ALFRED_SPECIAL_PLAZA</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_GOVERNMENT</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>

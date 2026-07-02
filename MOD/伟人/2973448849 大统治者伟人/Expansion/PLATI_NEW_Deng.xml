@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- INDUSTRIAL Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_DENG" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_DENG" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_DENG_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1"	ActionEffectTextOverride="LOC_GREATPERSON_PLATI_DENG_ACTIVE"	ActionEffectTileHighlighting="false"	AreaHighlightRadius="2"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_DENG" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_DENG_GOLD_BOOST" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_DENG" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_DENG_GOLD_BAUST" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_DENG_GOLD_BOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_RESET_MOVES</ModifierType>
+			<SubjectRequirementSetId>AOE_LAND_REQUIREMENTS</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_DENG_GOLD_BAUST</ModifierId>
+			<ModifierType>MODIFIER_WORLD_UNITS_ADJUST_DAMAGE</ModifierType>
+			<SubjectRequirementSetId>AOE_ENEMY_REQUIREMENTS</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_DENG_GOLD_BAUST</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_DENG_GOLD_BOOST" Context="Summary" Text="LOC_GREATPERSON_PLATI_DENG_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

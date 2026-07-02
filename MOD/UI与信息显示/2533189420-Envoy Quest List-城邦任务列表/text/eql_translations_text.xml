@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+        <Row Tag="LOC_EQL_TRAIN_UNIT" Language="zh_Hans_CN">
+            <Text>训练单位</Text>
+        </Row>
+        <Row Tag="LOC_EQL_BUILD_DISTRICT" Language="zh_Hans_CN">
+            <Text>建造区域</Text>
+        </Row>
+        <Row Tag="LOC_EQL_TRIGGER_EUREKA" Language="zh_Hans_CN">
+            <Text>触发尤里卡</Text>
+        </Row>
+        <Row Tag="LOC_EQL_TRIGGER_INSPIRATION" Language="zh_Hans_CN">
+            <Text>触发鼓舞</Text>
+        </Row>
+        <Row Tag="LOC_EQL_SEND_TRADE_ROUTE" Language="zh_Hans_CN">
+            <Text>派遣商路</Text>
+        </Row>
+        <Row Tag="LOC_EQL_RECRUIT_GREAT_PERSON" Language="zh_Hans_CN">
+            <Text>招募伟人</Text>
+        </Row>
+        <Row Tag="LOC_EQL_RELIGIOUS_CONVERSION" Language="zh_Hans_CN">
+            <Text>宗教转化</Text>
+        </Row>
+        <Row Tag="LOC_EQL_CLEAR_BARBARIAN_CAMP" Language="zh_Hans_CN">
+            <Text>清除蛮族营地</Text>
+        </Row>
+        <Row Tag="LOC_EQL_ENVOY_QUESTS" Language="zh_Hans_CN">
+            <Text>使者任务</Text>
+        </Row>
+    </LocalizedText>
+</GameData>

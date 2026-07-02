@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a6cc9f54-0e3e-47d6-8385-3515d34e2245" version="16">
+  <Properties>
+    <Name>Automated Builders + Archaeologists [COLOR_RED]Reloaded[ENDCOLOR]</Name>
+    <Description>Builders and Archaeologists have new action buttons that will put them in automation mode. Works with saved games. All improvements including uniques are supported, except Ski Resorts, Industries and the Great Wall.[NEWLINE][NEWLINE]Original Mod: Automated Builders + Archaeologists, by MadManCam.[NEWLINE][NEWLINE]Updated for Gathering Storm and the New Frontier Pass by Adriaman.</Description>
+    <Teaser>Builder + Archaeologist automation code for human players.</Teaser>
+    <Authors>Adriaman,MadManCam</Authors>
+    <SpecialThanks>Gedemon</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+	<AffectsSavedGames>0</AffectsSavedGames>
+	<SupportsSinglePlayer>1</SupportsSinglePlayer>
+	<SupportsMultiplayer>1</SupportsMultiplayer>
+	<SupportsHotSeat>1</SupportsHotSeat>
+	<SupportsPlayByCloud>1</SupportsPlayByCloud>
+	<Stability>Stable</Stability>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="AutoBuilders_DatabaseEdit">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Resourceful_Edit.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="AutoBuilders_Text">
+      <Properties>
+        <LoadOrder>8500</LoadOrder>
+      </Properties>
+      <File>Text/AutoBuilders_Text_de_DE.xml</File>
+      <File>Text/AutoBuilders_Text_es_ES.xml</File>
+      <File>Text/AutoBuilders_Text_fr_FR.xml</File>
+      <File>Text/AutoBuilders_Text_it_IT.xml</File>
+      <File>Text/AutoBuilders_Text_ja_JP.xml</File>
+      <File>Text/AutoBuilders_Text_ko_KR.xml</File>
+      <File>Text/AutoBuilders_Text_pl_PL.xml</File>
+      <File>Text/AutoBuilders_Text_pt_BR.xml</File>
+      <File>Text/AutoBuilders_Text_ru_RU.xml</File>
+      <File>Text/AutoBuilders_Text_zh_Hans_CN.xml</File>
+      <File>Text/AutoBuilders_Text_zh_Hant_HK.xml</File>
+      <File priority="2">Text/en_US/AutoBuilders_Text.xml</File>
+    </UpdateText>
+    <AddUserInterfaces id="AutoBuilders_Scripts">
+      <Properties>
+        <Context>InGame</Context>
+        <LoadOrder>9000</LoadOrder>
+      </Properties>
+      <File>Scripts/AutoBuilders.xml</File>
+      <File>Scripts/AutoArchaeology.xml</File>
+      <File>UI/AutoBuilders_Minibar.xml</File>
+      <File>UI/AutoBuilders_SettingsPanel.xml</File>
+    </AddUserInterfaces>
+    <ImportFiles id="AutoBuilders_Import">
+      <Properties>
+        <LoadOrder>9950</LoadOrder>
+      </Properties>
+      <File>Textures/Automate_green_38.dds</File>
+      <File>Textures/StopAutomate_red_38.dds</File>
+      <File>Textures/CNO_AutoBuilders_Logo_Small.dds</File>
+      <File>Textures/CNO_AutoBuilders_Logo_Tiny.dds</File>
+    </ImportFiles>
+    <AddGameplayScripts id="AutoBuilders_GameScripts">
+      <Properties>
+        <LoadOrder>10000</LoadOrder>
+      </Properties>
+      <File>Scripts/AutoBuilders_GameplayScript.lua</File>
+      <File>Scripts/AutoArchaeology_GameplayScript.lua</File>
+    </AddGameplayScripts>
+    <UpdateDatabase id="AutoBuilders_Database">
+      <Properties>
+        <Name>Automated Units Settings</Name>
+      </Properties>
+      <File priority="3">AutoBuilders_Schema.sql</File>
+      <File priority="2">AutoBuilders_Settings.sql</File>
+      <File priority="1">AutoBuilders_LocalSettings.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>AutoBuilders_LocalSettings.sql</File>
+    <File>AutoBuilders_Schema.sql</File>
+    <File>AutoBuilders_Settings.sql</File>
+    <File>Changelog.txt</File>
+    <!--
+    <File>dump/AutoBuilders.sql</File>
+    <File>dump/Old Code.lua</File>
+    <File>dump/UnitPanel.lua</File>
+    -->
+    <File>LICENSE</File>
+    <File>Resourceful_Edit.sql</File>
+    <File>Scripts/AutoArchaeology.lua</File>
+    <File>Scripts/AutoArchaeology.xml</File>
+    <File>Scripts/AutoArchaeology_GameplayScript.lua</File>
+    <File>Scripts/AutoBuilders.lua</File>
+    <File>Scripts/AutoBuilders.xml</File>
+    <File>Scripts/AutoBuilders_GameplayScript.lua</File>
+    <File>Textures/Automate_green_38.dds</File>
+    <File>Textures/CNO_AutoBuilders_Logo_Small.dds</File>
+    <File>Textures/CNO_AutoBuilders_Logo_Tiny.dds</File>
+    <File>Textures/StopAutomate_red_38.dds</File>
+    <File>Text/AutoBuilders_Text_de_DE.xml</File>
+    <File>Text/AutoBuilders_Text_es_ES.xml</File>
+    <File>Text/AutoBuilders_Text_fr_FR.xml</File>
+    <File>Text/AutoBuilders_Text_it_IT.xml</File>
+    <File>Text/AutoBuilders_Text_ja_JP.xml</File>
+    <File>Text/AutoBuilders_Text_ko_KR.xml</File>
+    <File>Text/AutoBuilders_Text_pl_PL.xml</File>
+    <File>Text/AutoBuilders_Text_pt_BR.xml</File>
+    <File>Text/AutoBuilders_Text_ru_RU.xml</File>
+    <File>Text/AutoBuilders_Text_zh_Hans_CN.xml</File>
+    <File>Text/AutoBuilders_Text_zh_Hant_HK.xml</File>
+    <File>Text/en_US/AutoBuilders_Text.xml</File>
+    <File>UI/AutoBuilders_Minibar.lua</File>
+    <File>UI/AutoBuilders_Minibar.xml</File>
+    <File>UI/AutoBuilders_SettingsPanel.lua</File>
+    <File>UI/AutoBuilders_SettingsPanel.xml</File>
+  </Files>
+</Mod>

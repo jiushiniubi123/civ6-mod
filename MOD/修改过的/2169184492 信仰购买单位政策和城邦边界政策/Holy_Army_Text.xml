@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- ==================== Holy Army 原有政策文本 ==================== -->
+
+		<!-- 政策名称 -->
+		<Row Tag="LOC_POLICY_HOLY_ARMY_NAME" Language="zh_Hans_CN">
+			<Text>宗教狂热（陆军）</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_HOLY_NAVY_NAME" Language="zh_Hans_CN">
+			<Text>宗教狂热（海军）</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_HOLY_AIRFORCE_NAME" Language="zh_Hans_CN">
+			<Text>宗教狂热（空军）</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_HOLY_SERVICE_NAME" Language="zh_Hans_CN">
+			<Text>宗教狂热（后勤）</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_KIKI_PASSPORTS_NAME" Language="zh_Hans_CN">
+			<Text>强制通行</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_KIKI_SAFE_PASSAGE_NAME" Language="zh_Hans_CN">
+			<Text>安全通行</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_HOLY_SETTLE_NAME" Language="zh_Hans_CN">
+			<Text>宗教狂热（平民）</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_HOLY_BUILD_NAME" Language="zh_Hans_CN">
+			<Text>宗教狂热（建造）</Text>
+		</Row>
+
+		<!-- 政策描述 -->
+		<Row Tag="LOC_POLICY_HOLY_ARMY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>使城市能够使用 [ICON_Faith]购买陆军单位。</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_HOLY_NAVY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>使城市能够使用 [ICON_Faith]购买海军单位。</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_HOLY_AIRFORCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>使城市能够使用 [ICON_Faith]购买空军单位。</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_HOLY_SERVICE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>使城市能够使用 [ICON_Faith]购买平民和支援单位。</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_KIKI_PASSPORTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>开放所有城邦的边境。</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_KIKI_SAFE_PASSAGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与所有主要文明和平相处时，陆地 [ICON_TradeRoute] 商人无法被掠夺。国际 [ICON_TradeRoute] 贸易路线提供的 [ICON_GOLD] 金币-1。</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_HOLY_SETTLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>使城市能够使用 [ICON_Faith] 购买开拓者、建造者和商人。</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_HOLY_BUILD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>使城市能够使用 [ICON_Faith] 购买建造者。</Text>
+		</Row>
+
+		<!-- 百科全书文本 -->
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_HOLY_ARMY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>使城市能够使用 [ICON_Faith]购买陆军单位。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_HOLY_NAVY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>使城市能够使用 [ICON_Faith]购买海军单位。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_HOLY_AIRFORCE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>使城市能够使用 [ICON_Faith]购买空军单位。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_HOLY_SERVICE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>使城市能够使用 [ICON_Faith]购买民用和支援单位。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_KIKI_PASSPORTS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>开放所有城邦的边境。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_KIKI_SAFE_PASSAGE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>与所有主要文明和平相处时，陆地商人单位无法被掠夺。国际贸易路线提供的金币-1。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_HOLY_SETTLE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>使城市能够使用 [ICON_Faith] 购买开拓者、建造者和商人。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_HOLY_BUILD_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>使城市能够使用 [ICON_Faith] 购买建造者。</Text>
+		</Row>
+
+		<!-- ==================== NewPolicyCards 新增政策文本 ==================== -->
+
+		<!-- 和平护航 -->
+		<Row Language="zh_Hans_CN" Tag="LOC_POLICY_PEACE_TRADE_PROTECTION_NAME" Text="和平护航"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_POLICY_PEACE_TRADE_PROTECTION_DESCRIPTION" Text="与其他所有文明保持和平期间，国际[ICON_TradeRoute]贸易路线产出[ICON_Gold]金币-1，但海上商路免受掠夺。"/>
+		<Row Language="en_US" Tag="LOC_POLICY_PEACE_TRADE_PROTECTION_NAME" Text="Peace Convoy"/>
+		<Row Language="en_US" Tag="LOC_POLICY_PEACE_TRADE_PROTECTION_DESCRIPTION" Text="While at peace with all civilizations, international [ICON_TradeRoute] Trade Routes provide [ICON_Gold] Gold -1 from your cities, but your Trade Routes cannot be plundered."/>
+
+		<!-- 本土防御 -->
+		<Row Language="zh_Hans_CN" Tag="LOC_POLICY_HOME_DEFENSE_NAME" Text="本土防御"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_POLICY_HOME_DEFENSE_DESCRIPTION" Text="在本国领土内作战时，所有单位+4 [ICON_Strength]战斗力。"/>
+		<Row Language="en_US" Tag="LOC_POLICY_HOME_DEFENSE_NAME" Text="Home Defense"/>
+		<Row Language="en_US" Tag="LOC_POLICY_HOME_DEFENSE_DESCRIPTION" Text="All units receive +4 [ICON_Strength] Combat Strength when fighting in your own territory."/>
+
+		<!-- 贸易孤岛 -->
+		<Row Language="zh_Hans_CN" Tag="LOC_POLICY_TRADE_ISOLATION_NAME" Text="贸易孤岛"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_POLICY_TRADE_ISOLATION_DESCRIPTION" Text="所有[ICON_TradeRoute]贸易路线收益-50%，但商路完全免疫掠夺（陆地与海上均免疫）。"/>
+		<Row Language="en_US" Tag="LOC_POLICY_TRADE_ISOLATION_NAME" Text="Trade Isolation"/>
+		<Row Language="en_US" Tag="LOC_POLICY_TRADE_ISOLATION_DESCRIPTION" Text="All [ICON_TradeRoute] Trade Route yields -50%, but Trade Routes cannot be plundered (immune on both land and sea)."/>
+
+		<!-- 本土防御 - 战斗预览文本（单位面板显示） -->
+		<Row Language="zh_Hans_CN" Tag="LOC_PROMOTION_HOME_DEFENSE_NAME" Text="[ICON_Strength]本土防御"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_PROMOTION_HOME_DEFENSE_DESCRIPTOR_PREVIEW_TEXT" Text="因在本土作战"/>
+		<Row Language="en_US" Tag="LOC_PROMOTION_HOME_DEFENSE_NAME" Text="[ICON_Strength]Home Defense"/>
+		<Row Language="en_US" Tag="LOC_PROMOTION_HOME_DEFENSE_DESCRIPTOR_PREVIEW_TEXT" Text="from fighting in own territory"/>
+	</LocalizedText>
+</GameData>

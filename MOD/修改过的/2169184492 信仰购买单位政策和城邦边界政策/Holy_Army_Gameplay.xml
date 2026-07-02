@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<!-- ==================== Types 定义 ==================== -->
+	<!-- 来源: Holy Army (8张) + NewPolicyCards (3张) -->
+	<Types>
+		<!-- Holy Army 原有政策 -->
+		<Row Type="POLICY_HOLY_ARMY" Kind="KIND_POLICY" />
+		<Row Type="POLICY_HOLY_NAVY" Kind="KIND_POLICY" />
+		<Row Type="POLICY_HOLY_AIRFORCE" Kind="KIND_POLICY" />
+		<Row Type="POLICY_HOLY_SERVICE" Kind="KIND_POLICY" />
+		<Row Type="POLICY_KIKI_PASSPORTS" Kind="KIND_POLICY" />
+		<Row Type="POLICY_HOLY_SETTLE" Kind="KIND_POLICY" />
+		<Row Type="POLICY_HOLY_BUILD" Kind="KIND_POLICY" />
+		<Row Type="POLICY_KIKI_SAFE_PASSAGE" Kind="KIND_POLICY" />
+		<!-- NewPolicyCards 新增政策 -->
+		<Row Type="POLICY_PEACE_TRADE_PROTECTION" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_HOME_DEFENSE" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_TRADE_ISOLATION" Kind="KIND_POLICY"/>
+	</Types>
+
+	<!-- ==================== 政策属性定义 ==================== -->
+	<Policies>
+		<!-- Holy Army 原有 -->
+		<Row PolicyType="POLICY_HOLY_ARMY" Name="LOC_POLICY_HOLY_ARMY_NAME" Description="LOC_POLICY_HOLY_ARMY_DESCRIPTION" PrereqCivic="CIVIC_REFORMED_CHURCH" GovernmentSlotType="SLOT_MILITARY" />
+		<Row PolicyType="POLICY_HOLY_NAVY" Name="LOC_POLICY_HOLY_NAVY_NAME" Description="LOC_POLICY_HOLY_NAVY_DESCRIPTION" PrereqCivic="CIVIC_MOBILIZATION" GovernmentSlotType="SLOT_MILITARY" />
+		<Row PolicyType="POLICY_HOLY_AIRFORCE" Name="LOC_POLICY_HOLY_AIRFORCE_NAME" Description="LOC_POLICY_HOLY_AIRFORCE_DESCRIPTION" PrereqCivic="CIVIC_RAPID_DEPLOYMENT" GovernmentSlotType="SLOT_MILITARY" />
+		<Row PolicyType="POLICY_HOLY_SERVICE" Name="LOC_POLICY_HOLY_SERVICE_NAME" Description="LOC_POLICY_HOLY_SERVICE_DESCRIPTION" PrereqCivic="CIVIC_IDEOLOGY" GovernmentSlotType="SLOT_ECONOMIC" />
+		<Row PolicyType="POLICY_KIKI_PASSPORTS" Name="LOC_POLICY_KIKI_PASSPORTS_NAME" Description="LOC_POLICY_KIKI_PASSPORTS_DESCRIPTION" PrereqCivic="CIVIC_EARLY_EMPIRE" GovernmentSlotType="SLOT_MILITARY" />
+		<Row PolicyType="POLICY_HOLY_SETTLE" Name="LOC_POLICY_HOLY_SETTLE_NAME" Description="LOC_POLICY_HOLY_SETTLE_DESCRIPTION" PrereqCivic="CIVIC_DRAMA_POETRY" GovernmentSlotType="SLOT_ECONOMIC" />
+		<Row PolicyType="POLICY_HOLY_BUILD" Name="LOC_POLICY_HOLY_BUILD_NAME" Description="LOC_POLICY_HOLY_BUILD_DESCRIPTION" PrereqCivic="CIVIC_CODE_OF_LAWS" GovernmentSlotType="SLOT_ECONOMIC" />
+		<Row PolicyType="POLICY_KIKI_SAFE_PASSAGE" Name="LOC_POLICY_KIKI_SAFE_PASSAGE_NAME" Description="LOC_POLICY_KIKI_SAFE_PASSAGE_DESCRIPTION" PrereqCivic="CIVIC_FOREIGN_TRADE" GovernmentSlotType="SLOT_DIPLOMATIC" />
+		<!-- NewPolicyCards 新增 -->
+		<Row PolicyType="POLICY_PEACE_TRADE_PROTECTION" Name="LOC_POLICY_PEACE_TRADE_PROTECTION_NAME" Description="LOC_POLICY_PEACE_TRADE_PROTECTION_DESCRIPTION" PrereqCivic="CIVIC_FOREIGN_TRADE" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+		<Row PolicyType="POLICY_HOME_DEFENSE" Name="LOC_POLICY_HOME_DEFENSE_NAME" Description="LOC_POLICY_HOME_DEFENSE_DESCRIPTION" PrereqCivic="CIVIC_CODE_OF_LAWS" GovernmentSlotType="SLOT_MILITARY"/>
+		<Row PolicyType="POLICY_TRADE_ISOLATION" Name="LOC_POLICY_TRADE_ISOLATION_NAME" Description="LOC_POLICY_TRADE_ISOLATION_DESCRIPTION" PrereqCivic="CIVIC_FOREIGN_TRADE" GovernmentSlotType="SLOT_MILITARY"/>
+	</Policies>
+
+	<!-- ==================== 政策淘汰关系 ==================== -->
+	<ObsoletePolicies>
+		<Row PolicyType="POLICY_HOLY_SETTLE" ObsoletePolicy="POLICY_HOLY_SERVICE" />
+		<Row PolicyType="POLICY_HOLY_BUILD"  ObsoletePolicy="POLICY_HOLY_SETTLE" />
+	</ObsoletePolicies>
+
+	<!-- ==================== 政策-修饰器绑定 ==================== -->
+
+	<!-- 宗教狂热（陆军） -->
+	<PolicyModifiers>
+		<Row PolicyType="POLICY_HOLY_ARMY" ModifierId="HOLY_ARMY_FAITH_PURCHASE_RECON"/>
+		<Row PolicyType="POLICY_HOLY_ARMY" ModifierId="HOLY_ARMY_FAITH_PURCHASE_MELEE"/>
+		<Row PolicyType="POLICY_HOLY_ARMY" ModifierId="HOLY_ARMY_FAITH_PURCHASE_RANGED"/>
+		<Row PolicyType="POLICY_HOLY_ARMY" ModifierId="HOLY_ARMY_FAITH_PURCHASE_SIEGE"/>
+		<Row PolicyType="POLICY_HOLY_ARMY" ModifierId="HOLY_ARMY_FAITH_PURCHASE_HEAVY_CAVALRY"/>
+		<Row PolicyType="POLICY_HOLY_ARMY" ModifierId="HOLY_ARMY_FAITH_PURCHASE_LIGHT_CAVALRY"/>
+		<Row PolicyType="POLICY_HOLY_ARMY" ModifierId="HOLY_ARMY_FAITH_PURCHASE_RANGED_CAVALRY"/>
+		<Row PolicyType="POLICY_HOLY_ARMY" ModifierId="HOLY_ARMY_FAITH_PURCHASE_ANTI_CAVALRY"/>
+		<Row PolicyType="POLICY_HOLY_ARMY" ModifierId="HOLY_ARMY_FAITH_PURCHASE_HEAVY_CHARIOT"/>
+		<Row PolicyType="POLICY_HOLY_ARMY" ModifierId="HOLY_ARMY_FAITH_PURCHASE_LIGHT_CHARIOT"/>
+	</PolicyModifiers>
+
+	<!-- 宗教狂热（海军） -->
+	<PolicyModifiers>
+		<Row PolicyType="POLICY_HOLY_NAVY" ModifierId="HOLY_NAVY_FAITH_PURCHASE_CLASS_NAVAL_MELEE"/>
+		<Row PolicyType="POLICY_HOLY_NAVY" ModifierId="HOLY_NAVY_FAITH_PURCHASE_CLASS_NAVAL_RANGED"/>
+		<Row PolicyType="POLICY_HOLY_NAVY" ModifierId="HOLY_NAVY_FAITH_PURCHASE_CLASS_NAVAL_RAIDER"/>
+		<Row PolicyType="POLICY_HOLY_NAVY" ModifierId="HOLY_NAVY_FAITH_PURCHASE_CLASS_NAVAL_CARRIER"/>
+	</PolicyModifiers>
+
+	<!-- 宗教狂热（空军） -->
+	<PolicyModifiers>
+		<Row PolicyType="POLICY_HOLY_AIRFORCE" ModifierId="HOLY_AIRFORCE_FAITH_PURCHASE_CLASS_AIRCRAFT"/>
+		<Row PolicyType="POLICY_HOLY_AIRFORCE" ModifierId="HOLY_AIRFORCE_FAITH_PURCHASE_CLASS_HELICOPTER"/>
+	</PolicyModifiers>
+
+	<!-- 宗教狂热（后勤）+ 强制通行 + 宗教狂热（平民/建造）+ 安全通行 -->
+	<PolicyModifiers>
+		<Row PolicyType="POLICY_HOLY_SERVICE" ModifierId="HOLY_SERVICE_FAITH_PURCHASE_CLASS_LANDCIVILIAN"/>
+		<Row PolicyType="POLICY_HOLY_SERVICE" ModifierId="HOLY_SERVICE_FAITH_PURCHASE_CLASS_SUPPORT"/>
+		<Row PolicyType="POLICY_KIKI_PASSPORTS" ModifierId="POLICY_KIKI_PASSPORTS_MODIFIER"/>
+		<Row PolicyType="POLICY_HOLY_SETTLE" ModifierId="HOLY_SETTLE_FAITH_PURCHASE"/>
+		<Row PolicyType="POLICY_HOLY_BUILD"  ModifierId="HOLY_BUILD_FAITH_PURCHASE"/>
+		<Row PolicyType="POLICY_KIKI_SAFE_PASSAGE" ModifierId="POLICY_KIKI_SAFE_PASSAGE_IMMUNITY_MODIFIER_1"/>
+		<Row PolicyType="POLICY_KIKI_SAFE_PASSAGE" ModifierId="POLICY_KIKI_SAFE_PASSAGE_IMMUNITY_MODIFIER_2"/>
+		<Row PolicyType="POLICY_KIKI_SAFE_PASSAGE" ModifierId="POLICY_KIKI_SAFE_PASSAGE_COST_MODIFIER"/>
+	</PolicyModifiers>
+
+	<!-- [NewPolicyCards] 和平护航 -->
+	<PolicyModifiers>
+		<Row PolicyType="POLICY_PEACE_TRADE_PROTECTION" ModifierId="PEACE_TRADE_GOLD_PENALTY"/>
+		<Row PolicyType="POLICY_PEACE_TRADE_PROTECTION" ModifierId="PEACE_TRADE_PLUNDER_IMMUNITY_ATTACH"/>
+		<Row PolicyType="POLICY_PEACE_TRADE_PROTECTION" ModifierId="PEACE_TRADE_PLUNDER_IMMUNITY_EFFECT"/>
+	</PolicyModifiers>
+
+	<!-- [NewPolicyCards] 本土防御 -->
+	<PolicyModifiers>
+		<Row PolicyType="POLICY_HOME_DEFENSE" ModifierId="HOME_DEFENSE_COMBAT_ATTACH"/>
+	</PolicyModifiers>
+
+	<!-- [NewPolicyCards] 贸易孤岛 -->
+	<PolicyModifiers>
+		<Row PolicyType="POLICY_TRADE_ISOLATION" ModifierId="TRADE_ISOLATION_ORIG_GOLD"/>
+		<Row PolicyType="POLICY_TRADE_ISOLATION" ModifierId="TRADE_ISOLATION_ORIG_FOOD"/>
+		<Row PolicyType="POLICY_TRADE_ISOLATION" ModifierId="TRADE_ISOLATION_ORIG_PRODUCTION"/>
+		<Row PolicyType="POLICY_TRADE_ISOLATION" ModifierId="TRADE_ISOLATION_ORIG_SCIENCE"/>
+		<Row PolicyType="POLICY_TRADE_ISOLATION" ModifierId="TRADE_ISOLATION_ORIG_CULTURE"/>
+		<Row PolicyType="POLICY_TRADE_ISOLATION" ModifierId="TRADE_ISOLATION_ORIG_FAITH"/>
+		<Row PolicyType="POLICY_TRADE_ISOLATION" ModifierId="TRADE_ISOLATION_DEST_GOLD"/>
+		<Row PolicyType="POLICY_TRADE_ISOLATION" ModifierId="TRADE_ISOLATION_DEST_FOOD"/>
+		<Row PolicyType="POLICY_TRADE_ISOLATION" ModifierId="TRADE_ISOLATION_DEST_PRODUCTION"/>
+		<Row PolicyType="POLICY_TRADE_ISOLATION" ModifierId="TRADE_ISOLATION_DEST_SCIENCE"/>
+		<Row PolicyType="POLICY_TRADE_ISOLATION" ModifierId="TRADE_ISOLATION_DEST_CULTURE"/>
+		<Row PolicyType="POLICY_TRADE_ISOLATION" ModifierId="TRADE_ISOLATION_DEST_FAITH"/>
+		<Row PolicyType="POLICY_TRADE_ISOLATION" ModifierId="TRADE_ISOLATION_PLUNDER_IMMUNITY_ATTACH_LAND"/>
+		<Row PolicyType="POLICY_TRADE_ISOLATION" ModifierId="TRADE_ISOLATION_PLUNDER_IMMUNITY_ATTACH_SEA"/>
+	</PolicyModifiers>
+
+	<!-- ==================== 修饰器定义 ==================== -->
+
+	<!-- 信仰购买类修饰器 -->
+	<Modifiers>
+		<Row ModifierId="HOLY_ARMY_FAITH_PURCHASE_RECON" ModifierType="MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE" />
+		<Row ModifierId="HOLY_ARMY_FAITH_PURCHASE_MELEE" ModifierType="MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE" />
+		<Row ModifierId="HOLY_ARMY_FAITH_PURCHASE_RANGED" ModifierType="MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE" />
+		<Row ModifierId="HOLY_ARMY_FAITH_PURCHASE_SIEGE" ModifierType="MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE" />
+		<Row ModifierId="HOLY_ARMY_FAITH_PURCHASE_HEAVY_CAVALRY" ModifierType="MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE" />
+		<Row ModifierId="HOLY_ARMY_FAITH_PURCHASE_LIGHT_CAVALRY" ModifierType="MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE" />
+		<Row ModifierId="HOLY_ARMY_FAITH_PURCHASE_RANGED_CAVALRY" ModifierType="MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE" />
+		<Row ModifierId="HOLY_ARMY_FAITH_PURCHASE_ANTI_CAVALRY" ModifierType="MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE" />
+		<Row ModifierId="HOLY_ARMY_FAITH_PURCHASE_HEAVY_CHARIOT" ModifierType="MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE" />
+		<Row ModifierId="HOLY_ARMY_FAITH_PURCHASE_LIGHT_CHARIOT" ModifierType="MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE" />
+		<Row ModifierId="HOLY_SETTLE_FAITH_PURCHASE" ModifierType="MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE" />
+		<Row ModifierId="HOLY_BUILD_FAITH_PURCHASE"  ModifierType="MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE" />
+	</Modifiers>
+
+	<Modifiers>
+		<Row ModifierId="HOLY_NAVY_FAITH_PURCHASE_CLASS_NAVAL_MELEE" ModifierType="MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE" />
+		<Row ModifierId="HOLY_NAVY_FAITH_PURCHASE_CLASS_NAVAL_RANGED" ModifierType="MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE" />
+		<Row ModifierId="HOLY_NAVY_FAITH_PURCHASE_CLASS_NAVAL_RAIDER" ModifierType="MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE" />
+		<Row ModifierId="HOLY_NAVY_FAITH_PURCHASE_CLASS_NAVAL_CARRIER" ModifierType="MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE" />
+	</Modifiers>
+
+	<Modifiers>
+		<Row ModifierId="HOLY_AIRFORCE_FAITH_PURCHASE_CLASS_AIRCRAFT" ModifierType="MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE" />
+		<Row ModifierId="HOLY_AIRFORCE_FAITH_PURCHASE_CLASS_HELICOPTER" ModifierType="MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE" />
+	</Modifiers>
+
+	<Modifiers>
+		<Row ModifierId="HOLY_SERVICE_FAITH_PURCHASE_CLASS_LANDCIVILIAN" ModifierType="MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE" />
+		<Row ModifierId="HOLY_SERVICE_FAITH_PURCHASE_CLASS_SUPPORT" ModifierType="MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE" />
+		<Row ModifierId="POLICY_KIKI_PASSPORTS_MODIFIER" ModifierType="MODIFIER_ADJUST_OPEN_BORDERS_FROM_INFLUENCE" SubjectRequirementSetId="PLAYER_IS_MINOR"/>
+		<Row ModifierId="POLICY_KIKI_SAFE_PASSAGE_IMMUNITY_MODIFIER_1" ModifierType="MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER" SubjectRequirementSetId="UNIT_IS_TRADER"/>
+		<Row ModifierId="POLICY_KIKI_SAFE_PASSAGE_IMMUNITY_MODIFIER_2" ModifierType="MODIFIER_PLAYER_UNIT_ADJUST_TRADE_ROUTE_PLUNDER_IMMUNITY" SubjectRequirementSetId="PLAYER_IS_AT_PEACE_WITH_ALL_MAJORS"/>
+		<Row ModifierId="POLICY_KIKI_SAFE_PASSAGE_COST_MODIFIER" ModifierType="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL"/>
+	</Modifiers>
+
+	<!-- [NewPolicyCards] 和平护航修饰器 -->
+	<Modifiers>
+		<Row ModifierId="PEACE_TRADE_GOLD_PENALTY" ModifierType="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL"/>
+		<Row ModifierId="PEACE_TRADE_PLUNDER_IMMUNITY_ATTACH" ModifierType="MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER" SubjectRequirementSetId="UNIT_IS_TRADER"/>
+		<Row ModifierId="PEACE_TRADE_PLUNDER_IMMUNITY_EFFECT" ModifierType="MODIFIER_PLAYER_UNIT_ADJUST_TRADE_ROUTE_PLUNDER_IMMUNITY" SubjectRequirementSetId="PLAYER_IS_AT_PEACE_WITH_ALL_MAJORS"/>
+	</Modifiers>
+
+	<!-- [NewPolicyCards] 本土防御修饰器 -->
+	<Modifiers>
+		<Row ModifierId="HOME_DEFENSE_COMBAT_ATTACH" ModifierType="MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER"/>
+		<Row ModifierId="HOME_DEFENSE_COMBAT_BONUS" ModifierType="MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH" SubjectRequirementSetId="HOME_DEFENSE_UNIT_IN_OWN_TERRITORY"/>
+	</Modifiers>
+
+	<!-- [NewPolicyCards] 贸易孤岛修饰器: 贸易收益-50% (Origin) -->
+	<Modifiers>
+		<Row ModifierId="TRADE_ISOLATION_ORIG_GOLD" ModifierType="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_MODIFIER"/>
+		<Row ModifierId="TRADE_ISOLATION_ORIG_FOOD" ModifierType="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_MODIFIER"/>
+		<Row ModifierId="TRADE_ISOLATION_ORIG_PRODUCTION" ModifierType="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_MODIFIER"/>
+		<Row ModifierId="TRADE_ISOLATION_ORIG_SCIENCE" ModifierType="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_MODIFIER"/>
+		<Row ModifierId="TRADE_ISOLATION_ORIG_CULTURE" ModifierType="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_MODIFIER"/>
+		<Row ModifierId="TRADE_ISOLATION_ORIG_FAITH" ModifierType="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_MODIFIER"/>
+	</Modifiers>
+
+	<!-- [NewPolicyCards] 贸易孤岛修饰器: 贸易收益-50% (Destination) -->
+	<Modifiers>
+		<Row ModifierId="TRADE_ISOLATION_DEST_GOLD" ModifierType="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_MODIFIER"/>
+		<Row ModifierId="TRADE_ISOLATION_DEST_FOOD" ModifierType="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_MODIFIER"/>
+		<Row ModifierId="TRADE_ISOLATION_DEST_PRODUCTION" ModifierType="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_MODIFIER"/>
+		<Row ModifierId="TRADE_ISOLATION_DEST_SCIENCE" ModifierType="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_MODIFIER"/>
+		<Row ModifierId="TRADE_ISOLATION_DEST_CULTURE" ModifierType="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_MODIFIER"/>
+		<Row ModifierId="TRADE_ISOLATION_DEST_FAITH" ModifierType="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_MODIFIER"/>
+	</Modifiers>
+
+	<!-- [NewPolicyCards] 贸易孤岛修饰器: 完全免疫掠夺（陆+海） -->
+	<Modifiers>
+		<Row ModifierId="TRADE_ISOLATION_PLUNDER_IMMUNITY_ATTACH_LAND" ModifierType="MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER" SubjectRequirementSetId="UNIT_IS_TRADER"/>
+		<Row ModifierId="TRADE_ISOLATION_PLUNDER_IMMUNITY_ATTACH_SEA" ModifierType="MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER" SubjectRequirementSetId="UNIT_IS_TRADER"/>
+		<Row ModifierId="TRADE_ISOLATION_PLUNDER_IMMUNITY_LAND" ModifierType="MODIFIER_PLAYER_UNIT_ADJUST_TRADE_ROUTE_PLUNDER_IMMUNITY"/>
+		<Row ModifierId="TRADE_ISOLATION_PLUNDER_IMMUNITY_SEA" ModifierType="MODIFIER_PLAYER_UNIT_ADJUST_TRADE_ROUTE_PLUNDER_IMMUNITY"/>
+	</Modifiers>
+
+	<!-- ==================== 修饰器参数 ==================== -->
+
+	<!-- 信仰购买参数 -->
+	<ModifierArguments>
+		<Row>
+			<ModifierId>HOLY_ARMY_FAITH_PURCHASE_RECON</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_RECON</Value>
+		</Row>
+		<Row>
+			<ModifierId>HOLY_ARMY_FAITH_PURCHASE_MELEE</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>HOLY_ARMY_FAITH_PURCHASE_RANGED</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>HOLY_ARMY_FAITH_PURCHASE_SIEGE</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_SIEGE</Value>
+		</Row>
+		<Row>
+			<ModifierId>HOLY_ARMY_FAITH_PURCHASE_HEAVY_CAVALRY</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_HEAVY_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>HOLY_ARMY_FAITH_PURCHASE_LIGHT_CAVALRY</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_LIGHT_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>HOLY_ARMY_FAITH_PURCHASE_RANGED_CAVALRY</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_RANGED_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>HOLY_ARMY_FAITH_PURCHASE_ANTI_CAVALRY</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_ANTI_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>HOLY_ARMY_FAITH_PURCHASE_HEAVY_CHARIOT</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_HEAVY_CHARIOT</Value>
+		</Row>
+		<Row>
+			<ModifierId>HOLY_ARMY_FAITH_PURCHASE_LIGHT_CHARIOT</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_LIGHT_CHARIOT</Value>
+		</Row>
+		<Row>
+			<ModifierId>HOLY_NAVY_FAITH_PURCHASE_CLASS_NAVAL_MELEE</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>HOLY_NAVY_FAITH_PURCHASE_CLASS_NAVAL_RANGED</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>HOLY_NAVY_FAITH_PURCHASE_CLASS_NAVAL_RAIDER</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_RAIDER</Value>
+		</Row>
+		<Row>
+			<ModifierId>HOLY_NAVY_FAITH_PURCHASE_CLASS_NAVAL_CARRIER</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_CARRIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>HOLY_AIRFORCE_FAITH_PURCHASE_CLASS_AIRCRAFT</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_AIRCRAFT</Value>
+		</Row>
+		<Row>
+			<ModifierId>HOLY_AIRFORCE_FAITH_PURCHASE_CLASS_HELICOPTER</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_HELICOPTER</Value>
+		</Row>
+		<Row>
+			<ModifierId>HOLY_SERVICE_FAITH_PURCHASE_CLASS_LANDCIVILIAN</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_LANDCIVILIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>HOLY_SERVICE_FAITH_PURCHASE_CLASS_SUPPORT</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_SUPPORT</Value>
+		</Row>
+		<Row>
+			<ModifierId>HOLY_SETTLE_FAITH_PURCHASE</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_LANDCIVILIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>HOLY_BUILD_FAITH_PURCHASE</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_BUILDER</Value>
+		</Row>
+		<Row>
+			<ModifierId>POLICY_KIKI_SAFE_PASSAGE_IMMUNITY_MODIFIER_1</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>POLICY_KIKI_SAFE_PASSAGE_IMMUNITY_MODIFIER_2</Value>
+		</Row>
+		<Row>
+			<ModifierId>POLICY_KIKI_SAFE_PASSAGE_IMMUNITY_MODIFIER_2</ModifierId>
+			<Name>DomainType</Name>
+			<Value>DOMAIN_LAND</Value>
+		</Row>
+		<Row>
+			<ModifierId>POLICY_KIKI_SAFE_PASSAGE_COST_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>POLICY_KIKI_SAFE_PASSAGE_COST_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!-- [NewPolicyCards] 和平护航参数 -->
+	<ModifierArguments>
+		<Row>
+			<ModifierId>PEACE_TRADE_GOLD_PENALTY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>PEACE_TRADE_GOLD_PENALTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>PEACE_TRADE_PLUNDER_IMMUNITY_ATTACH</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>PEACE_TRADE_PLUNDER_IMMUNITY_EFFECT</Value>
+		</Row>
+		<Row>
+			<ModifierId>PEACE_TRADE_PLUNDER_IMMUNITY_EFFECT</ModifierId>
+			<Name>DomainType</Name>
+			<Value>DOMAIN_SEA</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!-- [NewPolicyCards] 本土防御参数 -->
+	<ModifierArguments>
+		<Row>
+			<ModifierId>HOME_DEFENSE_COMBAT_ATTACH</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>HOME_DEFENSE_COMBAT_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>HOME_DEFENSE_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!-- [NewPolicyCards] 贸易孤岛参数: 贸易收益-50% Origin -->
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_ORIG_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_ORIG_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_ORIG_GOLD</ModifierId>
+			<Name>Origin</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_ORIG_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_ORIG_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_ORIG_FOOD</ModifierId>
+			<Name>Origin</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_ORIG_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_ORIG_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_ORIG_PRODUCTION</ModifierId>
+			<Name>Origin</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_ORIG_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_ORIG_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_ORIG_SCIENCE</ModifierId>
+			<Name>Origin</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_ORIG_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_ORIG_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_ORIG_CULTURE</ModifierId>
+			<Name>Origin</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_ORIG_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_ORIG_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_ORIG_FAITH</ModifierId>
+			<Name>Origin</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!-- [NewPolicyCards] 贸易孤岛参数: 贸易收益-50% Destination -->
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_DEST_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_DEST_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_DEST_GOLD</ModifierId>
+			<Name>Destination</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_DEST_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_DEST_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_DEST_FOOD</ModifierId>
+			<Name>Destination</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_DEST_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_DEST_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_DEST_PRODUCTION</ModifierId>
+			<Name>Destination</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_DEST_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_DEST_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_DEST_SCIENCE</ModifierId>
+			<Name>Destination</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_DEST_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_DEST_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_DEST_CULTURE</ModifierId>
+			<Name>Destination</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_DEST_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_DEST_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_DEST_FAITH</ModifierId>
+			<Name>Destination</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!-- [NewPolicyCards] 贸易孤岛参数: 完全免疫掠夺 -->
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_PLUNDER_IMMUNITY_ATTACH_LAND</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRADE_ISOLATION_PLUNDER_IMMUNITY_LAND</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_PLUNDER_IMMUNITY_ATTACH_SEA</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRADE_ISOLATION_PLUNDER_IMMUNITY_SEA</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_PLUNDER_IMMUNITY_LAND</ModifierId>
+			<Name>DomainType</Name>
+			<Value>DOMAIN_LAND</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ISOLATION_PLUNDER_IMMUNITY_SEA</ModifierId>
+			<Name>DomainType</Name>
+			<Value>DOMAIN_SEA</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!-- ==================== 条件集定义 ==================== -->
+
+	<!-- [NewPolicyCards] 本国领土内作战条件集 -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>HOME_DEFENSE_UNIT_IN_OWN_TERRITORY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>HOME_DEFENSE_UNIT_IN_OWN_TERRITORY</RequirementSetId>
+			<RequirementId>UNIT_IN_OWNER_TERRITORY_REQUIREMENT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<!-- ==================== 战斗预览文本 ==================== -->
+
+	<!-- [NewPolicyCards] 本土防御 - 单位面板显示因在本土作战+4战斗力 -->
+	<ModifierStrings>
+		<Row ModifierId="HOME_DEFENSE_COMBAT_BONUS" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_HOME_DEFENSE_NAME} {LOC_PROMOTION_HOME_DEFENSE_DESCRIPTOR_PREVIEW_TEXT}"/>
+	</ModifierStrings>
+
+</GameData>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RENAISSANCE Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_MAJID" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_MAJID" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_MAJID_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_JNR_EXPLORER" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" AreaHighlightRadius="2" ActionRequiresCompletedDistrictType="DISTRICT_HARBOR" />
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_MAJID" ModifierId="GREATPERSON_PLATI_MAJID_LEGACY" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_MAJID_LEGACY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_MAJID_LEGACY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_MAJID_SEA_MOVEMENT</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_PLATI_MAJID_LEGACY" Context="Summary" Text="LOC_GREATPERSON_PLATI_MAJID_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

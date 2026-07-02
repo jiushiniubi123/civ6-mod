@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Civilopedia -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/19/2023 10:11:04 AM -->
+<GameData>
+	<CivilopediaPageGroups>
+		<Row SectionID="WONDERS" PageGroupId="WondersEHO" Name="LOC_PEDIA_WONDERS_PAGEGROUP_WONDERSEHO_NAME" Tooltip="" VisibleIfEmpty="true" SortIndex="50"/>
+	</CivilopediaPageGroups>
+
+	<CivilopediaPageLayouts>
+		<Row PageLayoutId="EnhancedWondersForHistoricalOwners" ScriptTemplate="Simple"/>
+		<Row PageLayoutId="EWHOWonders" ScriptTemplate="Simple"/>
+	</CivilopediaPageLayouts>
+	
+	<CivilopediaPageLayoutChapters>
+		<Row PageLayoutId="EnhancedWondersForHistoricalOwners" ChapterId="BASICCONCEPT" SortIndex="10"/>
+		<Row PageLayoutId="EnhancedWondersForHistoricalOwners" ChapterId="ANCIENT" SortIndex="20"/>
+		<Row PageLayoutId="EnhancedWondersForHistoricalOwners" ChapterId="CLASSICAL" SortIndex="30"/>
+		<Row PageLayoutId="EnhancedWondersForHistoricalOwners" ChapterId="MEDIEVAL" SortIndex="40"/>
+		<Row PageLayoutId="EnhancedWondersForHistoricalOwners" ChapterId="RENAISSANCE" SortIndex="50"/>
+		<Row PageLayoutId="EnhancedWondersForHistoricalOwners" ChapterId="INDUSTRIAL" SortIndex="60"/>
+		<Row PageLayoutId="EnhancedWondersForHistoricalOwners" ChapterId="MODERN" SortIndex="70"/>
+		<Row PageLayoutId="EnhancedWondersForHistoricalOwners" ChapterId="ATOMIC" SortIndex="80"/>
+		<Row PageLayoutId="EnhancedWondersForHistoricalOwners" ChapterId="WONDERSINDLC" SortIndex="90"/>
+
+		<Row PageLayoutId="EWHOWonders" ChapterId="STANDARD" SortIndex="10"/>
+		<Row PageLayoutId="EWHOWonders" ChapterId="RISEANDFALL" SortIndex="20"/>
+		<Row PageLayoutId="EWHOWonders" ChapterId="GATHERINGSTORM" SortIndex="30"/>
+		<Row PageLayoutId="EWHOWonders" ChapterId="REQUIREDDLC" SortIndex="40"/>
+	</CivilopediaPageLayoutChapters>
+	
+	<CivilopediaPages>
+		<Row SectionId="WONDERS" 
+			 PageId="EWHOPAGE" 
+			 PageGroupId="WondersEHO" 
+			 PageLayoutId="EnhancedWondersForHistoricalOwners" 
+			 Name="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_CONTENT_TITLE" 
+			 Tooltip="" 
+			 SortIndex="1"/>
+
+		<Row SectionId="WONDERS"
+			 PageId="EWHOANCIENTPAGE"
+			 PageGroupId="WondersEHO"
+			 PageLayoutId="EWHOWonders"
+			 Name="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_CONTENT_TITLE"
+			 Tooltip=""
+			 SortIndex="2"/>
+
+		<Row SectionId="WONDERS"
+			 PageId="EWHOCLASSICALPAGE"
+			 PageGroupId="WondersEHO" 
+			 PageLayoutId="EWHOWonders"
+			 Name="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_CONTENT_TITLE"
+			 Tooltip=""
+			 SortIndex="3"/>
+		
+		<Row SectionId="WONDERS"
+			 PageId="EWHOMEDIEVALPAGE"
+			 PageGroupId="WondersEHO"
+			 PageLayoutId="EWHOWonders"
+			 Name="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_CONTENT_TITLE"
+			 Tooltip=""
+			 SortIndex="4"/>
+		
+		<Row SectionId="WONDERS"
+			 PageId="EWHORENAISSANCEPAGE"
+			 PageGroupId="WondersEHO"
+			 PageLayoutId="EWHOWonders"
+			 Name="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_CONTENT_TITLE"
+			 Tooltip=""
+			 SortIndex="5"/>
+
+		<Row SectionId="WONDERS"
+			 PageId="EWHOINDUSTRIALPAGE"
+			 PageGroupId="WondersEHO"
+			 PageLayoutId="EWHOWonders"
+			 Name="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_CONTENT_TITLE"
+			 Tooltip=""
+			 SortIndex="6"/>
+
+		<Row SectionId="WONDERS"
+			 PageId="EWHOMODERNPAGE"
+			 PageGroupId="WondersEHO"
+			 PageLayoutId="EWHOWonders"
+			 Name="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_CONTENT_TITLE"
+			 Tooltip=""
+			 SortIndex="7"/>
+
+		<Row SectionId="WONDERS"
+			 PageId="EWHOATOMICPAGE"
+			 PageGroupId="WondersEHO"
+			 PageLayoutId="EWHOWonders"
+			 Name="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_CONTENT_TITLE"
+			 Tooltip=""
+			 SortIndex="8"/>
+		
+	</CivilopediaPages>
+	
+	<CivilopediaPageSearchTerms>
+		<Row SectionId="WONDERS" PageId="EWHOPAGE" Term="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_SEARCH_TITLE"/>
+
+		<Row SectionId="WONDERS" PageId="EWHOANCIENTPAGE" Term="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_SEARCH_TITLE"/>
+		<Row SectionId="WONDERS" PageId="EWHOCLASSICALPAGE" Term="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_SEARCH_TITLE"/>
+		<Row SectionId="WONDERS" PageId="EWHOMEDIEVALPAGE" Term="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_SEARCH_TITLE"/>
+		<Row SectionId="WONDERS" PageId="EWHORENAISSANCEPAGE" Term="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_SEARCH_TITLE"/>
+		<Row SectionId="WONDERS" PageId="EWHOINDUSTRIALPAGE" Term="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_SEARCH_TITLE"/>
+		<Row SectionId="WONDERS" PageId="EWHOMODERNPAGE" Term="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_SEARCH_TITLE"/>
+		<Row SectionId="WONDERS" PageId="EWHOATOMICPAGE" Term="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_SEARCH_TITLE"/>
+	</CivilopediaPageSearchTerms>
+</GameData>

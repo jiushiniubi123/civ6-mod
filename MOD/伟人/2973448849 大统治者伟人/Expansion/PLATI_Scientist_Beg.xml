@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Classical Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_BEG" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_BEG" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_BEG_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_BEG_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_BEG" ModifierId="GREATPERSON_BONUS_BEG" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_BEG</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_CREATE_YIELD</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_BEG</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_BEG</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_BEG</ModifierId>
+			<Name>Amount</Name>
+			<Value>200</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_BEG</ModifierId>
+			<Name>Scale</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_BEG</ModifierId>
+			<Name>YieldBasedOnAppeal</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_BEG</ModifierId>
+			<Name>MustReplaceImprovement</Name>
+			<Value>0</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_BONUS_BEG" Context="Summary" Text="LOC_GREATPERSON_PLATI_BEG_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

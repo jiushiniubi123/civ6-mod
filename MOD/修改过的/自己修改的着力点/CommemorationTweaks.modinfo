@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2ecaddf9-d2ca-4760-9647-f5a5ea8faf0C" version="1">
+	<Properties>
+		<Name>自己修改的着力点</Name>
+		<Teaser>自己修改的着力点</Teaser>
+		<Description><!自己修改的着力点></Description>
+		<Authors>自己修改的着力点</Authors>
+        <CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+	<InGameActions>
+        <UpdateDatabase id="CommemorationTweaks_Gameplay">
+        	<Properties>
+                <LoadOrder>1024</LoadOrder>
+            </Properties>
+            <File>CommemorationTweaks_Gameplay.xml</File>
+        </UpdateDatabase>
+		<UpdateText id="CommemorationTweaks_Text">
+		<Properties>
+			<LoadOrder>1024</LoadOrder>
+		</Properties>
+		<File>CommemorationTweaks_Text.sql</File>
+		</UpdateText>
+	</InGameActions>
+    <Files>
+		<File>CommemorationTweaks_Gameplay.xml</File>
+		<File>CommemorationTweaks_Text.sql</File>
+	</Files>
+</Mod>

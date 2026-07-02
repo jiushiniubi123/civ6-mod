@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="POLICY_6T_ABSOLUTE" 			Kind="KIND_POLICY" />
+		<Row Type="POLICY_6T_REVOLUTIONARY" 	Kind="KIND_POLICY" />
+		<Row Type="POLICY_6T_COMMONWEALTH" 		Kind="KIND_POLICY" />
+	</Types>
+	<Policies>
+		<Row PolicyType="POLICY_6T_ABSOLUTE" 			Name="LOC_POLICY_6T_ABSOLUTE_NAME" 			Description="LOC_POLICY_6T_ABSOLUTE_DESCRIPTION" 		PrereqCivic="CIVIC_THE_ENLIGHTENMENT" 		GovernmentSlotType="SLOT_WILDCARD" />
+		<Row PolicyType="POLICY_6T_REVOLUTIONARY" 		Name="LOC_POLICY_6T_REVOLUTIONARY_NAME" 	Description="LOC_POLICY_6T_REVOLUTIONARY_DESCRIPTION" 	PrereqCivic="CIVIC_IDEOLOGY" 			GovernmentSlotType="SLOT_WILDCARD" />
+		<Row PolicyType="POLICY_6T_COMMONWEALTH" 		Name="LOC_POLICY_6T_COMMONWEALTH_NAME" 		Description="LOC_POLICY_6T_COMMONWEALTH_DESCRIPTION" 	PrereqCivic="CIVIC_THE_ENLIGHTENMENT" 	GovernmentSlotType="SLOT_WILDCARD" />
+	</Policies>
+	<Policy_GovernmentExclusives_XP2>
+		<Row PolicyType="POLICY_6T_ABSOLUTE" 		GovernmentType="GOVERNMENT_JNR_ABSOLUTISM"/>
+		<Row PolicyType="POLICY_6T_REVOLUTIONARY" 	GovernmentType="GOVERNMENT_JNR_REVOLUTIONARY"/>
+		<Row PolicyType="POLICY_6T_COMMONWEALTH" 	GovernmentType="GOVERNMENT_JNR_COMMONWEALTH"/>
+	</Policy_GovernmentExclusives_XP2>
+	<PolicyModifiers>
+		<Row PolicyType="POLICY_6T_ABSOLUTE" 			ModifierId="POLICY_SUN_KING_CASA"/>
+		<Row PolicyType="POLICY_6T_ABSOLUTE" 			ModifierId="POLICY_SUN_KING_ZIMBABWE"/>
+		<Row PolicyType="POLICY_6T_ABSOLUTE" 			ModifierId="POLICY_SUN_KING_FORBIDDEN"/>
+		<Row PolicyType="POLICY_6T_ABSOLUTE" 			ModifierId="POLICY_SUN_KING_VENETIAN"/>
+		<Row PolicyType="POLICY_6T_ABSOLUTE" 			ModifierId="POLICY_SUN_KING_POTALA"/>
+		<Row PolicyType="POLICY_6T_ABSOLUTE" 			ModifierId="POLICY_SUN_KING_BIGBEN"/>
+		<Row PolicyType="POLICY_6T_ABSOLUTE" 			ModifierId="POLICY_SUN_KING_RUHR"/>
+		<Row PolicyType="POLICY_6T_ABSOLUTE" 			ModifierId="POLICY_SUN_KING_ST_BASIL"/>
+		<Row PolicyType="POLICY_6T_ABSOLUTE" 			ModifierId="POLICY_SUN_KING_TAJ"/>
+		<Row PolicyType="POLICY_6T_ABSOLUTE" 			ModifierId="POLICY_SUN_KING_TORRE"/>
+		<Row PolicyType="POLICY_6T_ABSOLUTE" 			ModifierId="POLICY_SUN_KING_ORZSHAGHHR"/>
+		<Row PolicyType="POLICY_6T_ABSOLUTE" 			ModifierId="POLICY_SUN_KING_BOLSHOI"/>
+		<Row PolicyType="POLICY_6T_ABSOLUTE" 			ModifierId="POLICY_SUN_KING_HERMITAGE"/>
+		<Row PolicyType="POLICY_6T_ABSOLUTE" 			ModifierId="POLICY_SUN_KING_LIBERTY"/>
+		<!-- -->
+		<Row PolicyType="POLICY_6T_REVOLUTIONARY" 		ModifierId="POLICY_ELAN_CONQUERED_CITIES_WITHOUT_GOVERNORS"/>
+		<Row PolicyType="POLICY_6T_REVOLUTIONARY" 		ModifierId="POLICY_ELAN_DISLOYAL_CITIES"/>
+		<!-- -->
+		<Row PolicyType="POLICY_6T_COMMONWEALTH" 		ModifierId="POLICY_LIBERIUN_VETO_TIER_I"/>
+		<Row PolicyType="POLICY_6T_COMMONWEALTH" 		ModifierId="POLICY_LIBERIUN_VETO_TIER_II"/>
+		<Row PolicyType="POLICY_6T_COMMONWEALTH" 		ModifierId="POLICY_LIBERIUN_VETO_TIER_III"/>
+	</PolicyModifiers>
+	<Modifiers>
+		<Row ModifierId="POLICY_SUN_KING_CASA" 			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_CASA" />
+		<Row ModifierId="POLICY_SUN_KING_ZIMBABWE" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_ZIMBABWE" />
+		<Row ModifierId="POLICY_SUN_KING_FORBIDDEN" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_FORBIDDEN" />
+		<Row ModifierId="POLICY_SUN_KING_VENETIAN" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_VENETIAN" />
+		<Row ModifierId="POLICY_SUN_KING_POTALA" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_POTALA" />
+		<Row ModifierId="POLICY_SUN_KING_BIGBEN" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_BIGBEN" />
+		<Row ModifierId="POLICY_SUN_KING_RUHR" 			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_RUHR" />
+		<Row ModifierId="POLICY_SUN_KING_ST_BASIL" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_ST_BASIL" />
+		<Row ModifierId="POLICY_SUN_KING_TAJ" 			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_TAJ" />
+		<Row ModifierId="POLICY_SUN_KING_TORRE" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_TORRE" />
+		<Row ModifierId="POLICY_SUN_KING_ORZSHAGHHR" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_ORZSHAGHHR" />
+		<Row ModifierId="POLICY_SUN_KING_BOLSHOI" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_BOLSHOI" />
+		<Row ModifierId="POLICY_SUN_KING_HERMITAGE" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_HERMITAGE" />
+		<Row ModifierId="POLICY_SUN_KING_LIBERTY" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_LIBERTY" />
+		<!-- -->
+		<Row ModifierId="POLICY_ELAN_CONQUERED_CITIES_WITHOUT_GOVERNORS" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="CITY_NOT_FOUNDED" />
+		<Row ModifierId="POLICY_ELAN_DISLOYAL_CITIES" 						ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_SOV_CITY_DISLOYAL" />
+		<!-- -->
+		<Row ModifierId="POLICY_LIBERIUN_VETO_TIER_I" 	ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT"	SubjectRequirementSetId="PLATI_SOVEREIGNS_REQUIRES_ALLY_TIER_1" />
+		<Row ModifierId="POLICY_LIBERIUN_VETO_TIER_II" 	ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT"	SubjectRequirementSetId="PLATI_SOVEREIGNS_REQUIRES_ALLY_TIER_2" />
+		<Row ModifierId="POLICY_LIBERIUN_VETO_TIER_III" ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT"	SubjectRequirementSetId="PLATI_SOVEREIGNS_REQUIRES_ALLY_TIER_3" />
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="POLICY_SUN_KING_CASA" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SUN_KING_CASA" Name="Amount" Value="3" />
+		<Row ModifierId="POLICY_SUN_KING_ZIMBABWE" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SUN_KING_ZIMBABWE" Name="Amount" Value="3" />
+		<Row ModifierId="POLICY_SUN_KING_FORBIDDEN" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SUN_KING_FORBIDDEN" Name="Amount" Value="3" />
+		<Row ModifierId="POLICY_SUN_KING_VENETIAN" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SUN_KING_VENETIAN" Name="Amount" Value="3" />
+		<Row ModifierId="POLICY_SUN_KING_POTALA" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SUN_KING_POTALA" Name="Amount" Value="3" />
+		<Row ModifierId="POLICY_SUN_KING_BIGBEN" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SUN_KING_BIGBEN" Name="Amount" Value="3" />
+		<Row ModifierId="POLICY_SUN_KING_RUHR" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SUN_KING_RUHR" Name="Amount" Value="3" />
+		<Row ModifierId="POLICY_SUN_KING_ST_BASIL" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SUN_KING_ST_BASIL" Name="Amount" Value="3" />
+		<Row ModifierId="POLICY_SUN_KING_TAJ" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SUN_KING_TAJ" Name="Amount" Value="3" />
+		<Row ModifierId="POLICY_SUN_KING_TORRE" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SUN_KING_TORRE" Name="Amount" Value="3" />
+		<Row ModifierId="POLICY_SUN_KING_ORZSHAGHHR" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SUN_KING_ORZSHAGHHR" Name="Amount" Value="3" />
+		<Row ModifierId="POLICY_SUN_KING_BOLSHOI" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SUN_KING_BOLSHOI" Name="Amount" Value="3" />
+		<Row ModifierId="POLICY_SUN_KING_HERMITAGE" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SUN_KING_HERMITAGE" Name="Amount" Value="3" />
+		<Row ModifierId="POLICY_SUN_KING_LIBERTY" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SUN_KING_LIBERTY" Name="Amount" Value="3" />
+		<!-- -->
+		<Row ModifierId="POLICY_ELAN_CONQUERED_CITIES_WITHOUT_GOVERNORS" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_ELAN_CONQUERED_CITIES_WITHOUT_GOVERNORS" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_ELAN_DISLOYAL_CITIES" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_ELAN_DISLOYAL_CITIES" Name="Amount" Value="4" />
+		<!-- -->
+		<Row ModifierId="POLICY_LIBERIUN_VETO_TIER_I" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_LIBERIUN_VETO_TIER_I" Name="Amount" Value="20" />
+		<Row ModifierId="POLICY_LIBERIUN_VETO_TIER_II" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_LIBERIUN_VETO_TIER_II" Name="Amount" Value="20" />
+		<Row ModifierId="POLICY_LIBERIUN_VETO_TIER_III" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_LIBERIUN_VETO_TIER_III" Name="Amount" Value="20" />
+		<!-- -->
+	</ModifierArguments>
+	<RequirementSets>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_CASA</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_ZIMBABWE</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_FORBIDDEN</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_VENETIAN</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_POTALA</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_BIGBEN</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_RUHR</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_ST_BASIL</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_TAJ</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_TORRE</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_ORZSHAGHHR</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_BOLSHOI</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_HERMITAGE</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_LIBERTY</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row>
+			<RequirementSetId>PLATI_SOVEREIGNS_REQUIRES_ALLY_TIER_1</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_SOVEREIGNS_REQUIRES_ALLY_TIER_2</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_SOVEREIGNS_REQUIRES_ALLY_TIER_3</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_SOV_CITY_DISLOYAL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_CASA</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_CASA</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_CASA</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_ZIMBABWE</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_ZIMBABWE</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_ZIMBABWE</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_FORBIDDEN</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_FORBIDDEN</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_FORBIDDEN</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_VENETIAN</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_VENETIAN</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_VENETIAN</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_POTALA</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_POTALA</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_POTALA</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_BIGBEN</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_BIGBEN</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_BIGBEN</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_RUHR</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_RUHR</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_RUHR</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_ST_BASIL</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_ST_BASIL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_ST_BASIL</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_TAJ</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_TAJ</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_TAJ</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_TORRE</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_TORRE</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_TORRE</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_ORZSHAGHHR</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_ORZSHAGHHR</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_ORZSHAGHHR</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_BOLSHOI</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_BOLSHOI</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_BOLSHOI</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_HERMITAGE</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_HERMITAGE</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_HERMITAGE</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_LIBERTY</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_LIBERTY</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_ENLIGHTEN_CAPITAL_HAS_WONDER_LIBERTY</RequirementSetId><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row>
+			<RequirementSetId>PLATI_SOVEREIGNS_REQUIRES_ALLY_TIER_1</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_ALLY_LEVEL_1</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_SOVEREIGNS_REQUIRES_ALLY_TIER_2</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_ALLY_LEVEL_2</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_SOVEREIGNS_REQUIRES_ALLY_TIER_3</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_ALLY_LEVEL_3</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_SOV_CITY_DISLOYAL</RequirementSetId>
+			<RequirementId>REQUIRES_NOT_FULLY_LOYAL</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_CAPITAL</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_CASA</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_ZIMBABWE</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_FORBIDDEN</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_VENETIAN</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_POTALA</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_BIGBEN</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_RUHR</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_ST_BASIL</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_TAJ</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_TORRE</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_ORZSHAGHHR</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_BOLSHOI</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_HERMITAGE</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_LIBERTY</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row>
+			<RequirementId>REQUIRES_NOT_FULLY_LOYAL</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_FULL_LOYALTY</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_CAPITAL</RequirementId><Name>BuildingType</Name><Value>BUILDING_PALACE</Value></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_CASA</RequirementId><Name>BuildingType</Name><Value>BUILDING_CASA_DE_CONTRATACION</Value></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_ZIMBABWE</RequirementId><Name>BuildingType</Name><Value>BUILDING_GREAT_ZIMBABWE</Value></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_FORBIDDEN</RequirementId><Name>BuildingType</Name><Value>BUILDING_FORBIDDEN_CITY</Value></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_VENETIAN</RequirementId><Name>BuildingType</Name><Value>BUILDING_VENETIAN_ARSENAL</Value></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_POTALA</RequirementId><Name>BuildingType</Name><Value>BUILDING_POTALA_PALACE</Value></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_BIGBEN</RequirementId><Name>BuildingType</Name><Value>BUILDING_BIG_BEN</Value></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_RUHR</RequirementId><Name>BuildingType</Name><Value>BUILDING_RUHR_VALLEY</Value></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_ST_BASIL</RequirementId><Name>BuildingType</Name><Value>BUILDING_ST_BASILS_CATHEDRAL</Value></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_TAJ</RequirementId><Name>BuildingType</Name><Value>BUILDING_TAJ_MAHAL</Value></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_TORRE</RequirementId><Name>BuildingType</Name><Value>BUILDING_TORRE_DE_BELEM</Value></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_ORZSHAGHHR</RequirementId><Name>BuildingType</Name><Value>BUILDING_ORSZAGHAZ</Value></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_BOLSHOI</RequirementId><Name>BuildingType</Name><Value>BUILDING_BOLSHOI_THEATRE</Value></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_HERMITAGE</RequirementId><Name>BuildingType</Name><Value>BUILDING_HERMITAGE</Value></Row>
+		<Row><RequirementId>PLATI_CITY_ENLIGHTEN_WONDER_AND_IS_LIBERTY</RequirementId><Name>BuildingType</Name><Value>BUILDING_STATUE_LIBERTY</Value></Row>
+	</RequirementArguments>
+</GameData>
+

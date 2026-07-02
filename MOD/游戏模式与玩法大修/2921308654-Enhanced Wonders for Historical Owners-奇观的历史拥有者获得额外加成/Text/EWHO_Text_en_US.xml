@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Text_en_US -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/22/2023 10:16:09 AM -->
+<GameData>
+	<LocalizedText>
+		<!--Standard Text-->
+		<Replace Tag="LOC_ABILITY_BUILDER_EXTRA_MOVEMENT_PYRAMIDS_EWHO_NAME" Language="en_US">
+			<Text>Encouragement from the Pyramids</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BUILDER_EXTRA_MOVEMENT_PYRAMIDS_EWHO_DESCRIPTION" Language="en_US">
+			<Text>The Pyramids provide +1 [ICON_Movement] Movement. (Because Egypt is the owner of the Pyramids in history.)</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_GREAT_LIGHTHOUSE_SIGHT_EWHO_NAME" Language="en_US">
+			<Text>Guidance provided by the Great Lighthouse</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GREAT_LIGHTHOUSE_SIGHT_EWHO_DESCRIPTION" Language="en_US">
+			<Text>The Great Lighthouse provides +1 sight. (Because Egypt is the owner of the Great Lighthouse in history.)</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_COLOSSUS_STRENGTH_FRIENDLY_TERRITORY_EWHO_NAME" Language="en_US">
+			<Text>Encouragement from the Colossus</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COLOSSUS_STRENGTH_FRIENDLY_TERRITORY_EWHO_DESCRIPTION" Language="en_US">
+			<Text>
+				All units +3 [ICON_Strength] Combat Strength when fighting in or adjacent to their home territory, from the Colossus. (Because Greece is the owner of the Colossus in history.)
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COLOSSUS_STRENGTH_FRIENDLY_TERRITORY_EWHO_PREVIEW" Language="en_US">
+			<Text>+3 [ICON_Strength] Combat Strength from the Colossus.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_COLOSSEUM_STRENGTH_EWHO_NAME" Language="en_US">
+			<Text>Encouragement from the Colosseum</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COLOSSEUM_STRENGTH_EWHO_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength from the Colosseum. (Because Rome is the owner of the Colosseum in history.)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COLOSSEUM_STRENGTH_EWHO_PREVIEW" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength from the Colosseum.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_STATUE_OF_ZEUS_ADJACENT_STRENGTH_EWHO_NAME" Language="en_US">
+			<Text>The power of Zeus</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_STATUE_OF_ZEUS_ADJACENT_STRENGTH_EWHO_DESCRIPTION" Language="en_US">
+			<Text>
+				+5 [ICON_Strength] Combat Strength if there is at least one Anti Cavalry Unit adjacent, from the Statue of Zeus. (Because Greece is the owner of the Statue of Zeus in history.)
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_STATUE_OF_ZEUS_ADJACENT_STRENGTH_EWHO_PREVIEW" Language="en_US">
+			<Text>
+				+5 [ICON_Strength] Combat Strength from adjacent Anti Cavalry Unit, from the Statue of Zeus.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_STATUE_OF_ZEUS_EXTRA_MOVEMENT_EWHO_NAME" Language="en_US">
+			<Text>Blessing of Zeus</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_STATUE_OF_ZEUS_EXTRA_MOVEMENT_EWHO_DESCRIPTION" Language="en_US">
+			<Text>The Statue of Zeus provides +1 [ICON_Movement] Movement. (Because Greece is the owner of the Statue of Zeus in history.)</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PROJECT_STONEHENGE_ADJUST_QUARRY_YIELD_EWHO_NAME" Language="en_US">
+			<Text>Get Extra Bonuses from the Stonehenge</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_STONEHENGE_ADJUST_QUARRY_YIELD_EWHO_SHORT_NAME" Language="en_US">
+			<Text>Get Extra Bonuses from the Stonehenge</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_STONEHENGE_ADJUST_QUARRY_YIELD_EWHO_DESCRIPTION" Language="en_US">
+			<Text>Unlock Historical Owner bonuses upon completion: +1 [ICON_Faith] Faith and +1 [ICON_Production] Production for all Quarries.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_PETRA_ADJUST_DESERT_CITY_YIELD_EWHO_NAME" Language="en_US">
+			<Text>Get Extra Bonuses from the Petra</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PETRA_ADJUST_DESERT_CITY_YIELD_EWHO_SHORT_NAME" Language="en_US">
+			<Text>Get Extra Bonuses from the Petra</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PETRA_ADJUST_DESERT_CITY_YIELD_EWHO_DESCRIPTION" Language="en_US">
+			<Text>
+				Unlock Historical Owner bonuses upon completion: +20% [ICON_Food] Food, +20% [ICON_Gold] Gold, +10% [ICON_Production] Production for all cities built on the desert.
+			</Text>
+		</Replace>
+		
+		<!--==========================================================================================-->
+		<Replace Tag="LOC_ABILITY_ALHAMBRA_MELEE_PROVIDE_MOVEMENT_EWHO_NAME" Language="en_US">
+			<Text>Encouragement from the Alhambra</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ALHAMBRA_MELEE_PROVIDE_MOVEMENT_EWHO_DESCRIPTION" Language="en_US">
+			<Text>
+				Provides +2 [ICON_Movement] Movement for religious civilian units within 2 tiles, from the Alhambra. (Because Spain is the owner of the Alhambra in history.)
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ALHAMBRA_RELIGIOUS_CIVILIAN_EXTRA_MOVEMENT_EWHO_NAME" Language="en_US">
+			<Text>Encouragement from the Alhambra</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ALHAMBRA_RELIGIOUS_CIVILIAN_EXTRA_MOVEMENT_EWHO_DESCRIPTION" Language="en_US">
+			<Text>
+				+2 [ICON_Movement] Movement from melee units within 2 tiles, from the Alhambra. (Because Spain is the owner of the Alhambra in history.)
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ALHAMBRA_RELIGIOUS_CIVILIAN_PROVIDE_MOVEMENT_EWHO_NAME" Language="en_US">
+			<Text>Encouragement from the Alhambra</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ALHAMBRA_RELIGIOUS_CIVILIAN_PROVIDE_MOVEMENT_EWHO_DESCRIPTION" Language="en_US">
+			<Text>
+				Provides +2 [ICON_Movement] Movement for melee units within 2 tiles, from the Alhambra. (Because Spain is the owner of the Alhambra in history.)
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ALHAMBRA_MELEE_EXTRA_MOVEMENT_EWHO_NAME" Language="en_US">
+			<Text>Encouragement from the Alhambra</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ALHAMBRA_MELEE_EXTRA_MOVEMENT_EWHO_DESCRIPTION" Language="en_US">
+			<Text>
+				+2 [ICON_Movement] Movement from religious civilian units within 2 tiles, from the Alhambra. (Because Spain is the owner of the Alhambra in history.)
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CHICHEN_ITZA_OBSERVATORY_JUNGLE_SCIENCE_EWHO" Language="en_US">
+			<Text>
+				+{1_num} [ICON_Science] Science from the adjacent Rainforest {1_Num : plural 1?tile; other?tiles;}, from the Chichen Itza. (Because Maya is the owner of the Chichen Itza in history.)
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_HAGIA_SOPHIA_CAVALRY_STRENGTH_EWHO_NAME" Language="en_US">
+			<Text>The blessing of the Hagia Sophia</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HAGIA_SOPHIA_CAVALRY_STRENGTH_EWHO_DESCRIPTION" Language="en_US">
+			<Text>
+				+4 [ICON_Strength] Combat Strength vs. civilizations following another Religion, from the Hagia Sophia. (Because Byzantium is the owner of the Hagia Sophia in history.)
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HAGIA_SOPHIA_CAVALRY_STRENGTH_EWHO_PREVIEW" Language="en_US">
+			<Text>
+				+4 [ICON_Strength] Combat Strength vs. civilizations following another Religion, from the Hagia Sophia. (Because Byzantium is the owner of the Hagia Sophia in history.)
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HAGIA_SOPHIA_SIEGE_STRENGTH_EWHO_NAME" Language="en_US">
+			<Text>The blessing of the Hagia Sophia</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HAGIA_SOPHIA_SIEGE_STRENGTH_EWHO_DESCRIPTION" Language="en_US">
+			<Text>
+				+4 [ICON_Strength] Combat Strength vs. civilizations following another Religion, from the Hagia Sophia. (Because Ottoman is the owner of the Hagia Sophia in history.)
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HAGIA_SOPHIA_SIEGE_STRENGTH_EWHO_PREVIEW" Language="en_US">
+			<Text>
+				+4 [ICON_Strength] Combat Strength vs. civilizations following another Religion, from the Hagia Sophia. (Because Ottoman is the owner of the Hagia Sophia in history.)
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_HUEY_TEOCALLI_DISTRICT_HOLY_SITE_COAST_FAITH" Language="en_US">
+			<Text>+{1_num} [ICON_Faith] Faith from the adjacent Coast tile(s), from the Huey Teocalli. (Because Aztec is the owner of the Huey Teocalli in history.)</Text>
+		</Replace>
+		<!--==========================================================================================-->
+		<Replace Tag="LOC_PROJECT_GREAT_ZIMBABWE_ADJUST_CITY_GOLD_EWHO_NAME" Language="en_US">
+			<Text>Get Extra Bonuses from the Great Zimbabwe</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_GREAT_ZIMBABWE_ADJUST_CITY_GOLD_EWHO_SHORT_NAME" Language="en_US">
+			<Text>Get Extra Bonuses from the Great Zimbabwe</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_GREAT_ZIMBABWE_ADJUST_CITY_GOLD_EWHO_DESCRIPTION" Language="en_US">
+			<Text>Unlock Historical Owner bonuses upon completion: This city +20% [ICON_Gold] Gold.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO_NAME" Language="en_US">
+			<Text>Get Extra Bonuses from the Venetian Arsenal</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO_SHORT_NAME" Language="en_US">
+			<Text>Get Extra Bonuses from the Venetian Arsenal</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO_DESCRIPTION" Language="en_US">
+			<Text>
+				Unlock Historical Owner bonuses upon completion: This city +30% [ICON_Production] Production toward all naval units, excluding Carriers. All naval units +3 [ICON_Gold] Gold. Every embarked Trader unit provides +1 [ICON_GreatAdmiral] Great Admiral point per turn.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_VENETIAN_ARSENAL_NAVAL_UNITS_GOLD_EWHO_NAME" Language="en_US">
+			<Text>Encouragement from the Venetian Arsenal</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_VENETIAN_ARSENAL_NAVAL_UNITS_GOLD_EWHO_DESCRIPTION" Language="en_US">
+			<Text>+3 [ICON_Gold] Gold in the [ICON_Capital] Capital, from the Venetian Arsenal. (EWHO)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_VENETIAN_ARSENAL_TRADER_ADMIRAL_POINT_EWHO_NAME" Language="en_US">
+			<Text>Encouragement from the Venetian Arsenal</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_VENETIAN_ARSENAL_TRADER_ADMIRAL_POINT_EWHO_DESCRIPTION" Language="en_US">
+			<Text>When embarked, provides +1 [ICON_GreatAdmiral] Great Admiral point per turn, from the Venetian Arsenal. (EWHO)</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TERRAIN_CLASS_HILLS_EWHO_NAME" Language="en_US">
+			<Text>Hills (EWHO)</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_TERRACOTTA_ARMY_CCT_GREAT_WALL_BUFF_EWHO_NAME" Language="en_US">
+			<Text>Encouragement from the Terracotta Army</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TERRACOTTA_ARMY_CCT_GREAT_WALL_BUFF_EWHO_DESCRIPTION" Language="en_US">
+			<Text>If within 1 tile from the Great Wall improvement, +2 [ICON_Movement] Movement and +1 [ICON_Range] Range, from the Terracotta Army. (Because China is the owner of the Terracotta Army in history.)</Text>
+		</Replace>
+		
+		<!--Expansion1 Text-->
+		<Replace Tag="LOC_ABILITY_TEMPLE_ARTEMIS_RANGED_STRENGTH_EWHO_NAME" Language="en_US">
+			<Text>The blessing of Artemis</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TEMPLE_ARTEMIS_RANGED_STRENGTH_EWHO_DESCRIPTION" Language="en_US">
+			<Text>
+				+5 [ICON_Strength] Combat Strength when attacking if the Enemy is on Pastures, Camps or tiles adjacent to those Improvements, from the Temple of Artemis. (Because Greece is the owner of the Temple of Artemis in history.)
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TEMPLE_ARTEMIS_RANGED_STRENGTH_EWHO_PREVIEW" Language="en_US">
+			<Text>
+				+5 [ICON_Strength] Combat Strength from the Temple of Artemis.
+			</Text>
+		</Replace>
+
+		<!--==========================================================================================-->
+		<Replace Tag="LOC_ABILITY_KOTOKU_IN_MONKS_STRENGTH_EWHO_NAME" Language="en_US">
+			<Text>The blessing of Kotoku-in</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KOTOKU_IN_MONKS_STRENGTH_EWHO_DESCRIPTION" Language="en_US">
+			<Text>
+				+4 [ICON_Strength] Combat Strength vs. civilizations following another Religion, from the Kotoku-in. (Because Japan is the owner of the Kotoku-in in history.)
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KOTOKU_IN_MONKS_STRENGTH_EWHO_PREVIEW" Language="en_US">
+			<Text>
+				+4 [ICON_Strength] Combat Strength vs. civilizations following another Religion, from the Kotoku-in. (Because Japan is the owner of the Kotoku-in in history.)
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_KILWA_KISIWANI_ADJUST_DIPLOMATIC_FAVOR_EWHO_NAME" Language="en_US">
+			<Text>Get Extra Bonuses from the Kilwa Kisiwani</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KILWA_KISIWANI_ADJUST_DIPLOMATIC_FAVOR_EWHO_SHORT_NAME" Language="en_US">
+			<Text>Get Extra Bonuses from the Kilwa Kisiwani</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KILWA_KISIWANI_ADJUST_DIPLOMATIC_FAVOR_EWHO_DESCRIPTION" Language="en_US">
+			<Text>Unlock Historical Owner bonuses upon completion: +5 [ICON_Favor] Diplomatic Favor.</Text>
+		</Replace>
+		
+		<!--==========================================================================================-->
+		
+		<Replace Tag="LOC_UNIT_GREAT_ENGINEER_EWHO_NAME" Language="en_US">
+			<Text>{LOC_UNIT_GREAT_ENGINEER_NAME}(EWHO)</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GREAT_ENGINEER_EWHO_DESCRIPTION" Language="en_US">
+			<Text>{LOC_UNIT_GREAT_ENGINEER_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GREAT_ENGINEER_EWHO_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>{LOC_PEDIA_UNITS_PAGE_UNIT_GREAT_ENGINEER_CHAPTER_HISTORY_PARA_1}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_ENGINEER_EWHO_NAME" Language="en_US">
+			<Text>Great Engineer(EWHO)</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SHAH_JAHAN_EWHO_NAME" Language="en_US">
+			<Text>Shah Jahān(EWHO)</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_SHAH_JAHAN_EWHO_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>{LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_SHAH_JAHAN_CHAPTER_HISTORY_PARA_1}</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_SHAH_JAHAN_EWHO_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>{LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_SHAH_JAHAN_CHAPTER_HISTORY_PARA_2}</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_SHAH_JAHAN_EWHO_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>{LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_SHAH_JAHAN_CHAPTER_HISTORY_PARA_3}</Text>
+		</Replace>
+		<Replace Tag="LOC_SHAH_JAHAN_EWHO_ACTION_NAME" Language="en_US">
+			<Text>Grants [ICON_Production] Production</Text>
+		</Replace>
+		<Replace Tag="LOC_SHAH_JAHAN_EWHO_WONDER_PURCHASE" Language="en_US">
+			<Text>{LOC_GREATPERSON_WONDER_PURCHASE}</Text>
+		</Replace>
+
+		<!--Expansion2 Text-->
+		<Replace Tag="LOC_PROJECT_GREAT_BATH_ADJUST_FLOODPLAIN_YIELD_EWHO_NAME" Language="en_US">
+			<Text>Get Extra Bonuses from the Great Bath</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_GREAT_BATH_ADJUST_FLOODPLAIN_YIELD_EWHO_SHORT_NAME" Language="en_US">
+			<Text>Get Extra Bonuses from the Great Bath</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_GREAT_BATH_ADJUST_FLOODPLAIN_YIELD_EWHO_DESCRIPTION" Language="en_US">
+			<Text>
+				Unlock Historical Owner bonuses upon completion: +1 [ICON_Faith] Faith and +1 [ICON_Production] Production for all Floodplains tiles.
+			</Text>
+		</Replace>
+		<!--==========================================================================================-->
+		<Replace Tag="LOC_ABILITY_MEENAKSHI_TEMPLE_RELIGIOUS_CIVILIAN_PROVIDE_FAITH_EWHO_NAME" Language="en_US">
+			<Text>The blessing of Meenakshi Temple</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_MEENAKSHI_TEMPLE_RELIGIOUS_CIVILIAN_PROVIDE_FAITH_EWHO_DESCRIPTION" Language="en_US">
+			<Text>
+				Provides +1 [ICON_Faith] Faith to tiles within 1 tiles, from the Meenakshi Temple. (Because India is the owner of the Meenakshi Temple in history.)
+			</Text>
+		</Replace>
+
+		<!--==========================================================================================-->
+		<Replace Tag="LOC_PROJECT_PANAMA_CANAL_ADJUST_SEA_UNITS_MOVEMENT_EWHO_NAME" Language="en_US">
+			<Text>Get Extra Bonuses from the Panama Canal</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PANAMA_CANAL_ADJUST_SEA_UNITS_MOVEMENT_EWHO_SHORT_NAME" Language="en_US">
+			<Text>Get Extra Bonuses from the Panama Canal</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PANAMA_CANAL_ADJUST_SEA_UNITS_MOVEMENT_EWHO_DESCRIPTION" Language="en_US">
+			<Text>
+				Unlock Historical Owner bonuses upon completion: Naval units within 12 tiles of a canal district get +1 [ICON_Movement] Movement. If there are your naval units within 1 tile of a canal district, the city where the canal is located gets +20% [ICON_Gold] Gold.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_SEA_UNITS_EXTRA_MOVEMENT_PANAMA_CANAL_EWHO_NAME" Language="en_US">
+			<Text>Bonuses from the Panama Canal</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SEA_UNITS_EXTRA_MOVEMENT_PANAMA_CANAL_EWHO_DESCRIPTION" Language="en_US">
+			<Text>
+				Canals within 12 tiles provide +1 [ICON_Movement] movement. If there is a canal district within 1 tile, the city where the canal is located gets +20% Gold. (Panama Canal: EWHO)
+			</Text>
+		</Replace>
+
+		<!--Pedia Text-->
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGEGROUP_WONDERSEHO_NAME" Language="en_US">
+			<Text>Enhanced Wonders for Historical Owners</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_CONTENT_TITLE" Language="en_US">
+			<Text>Introduction</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_SEARCH_TITLE" Language="en_US">
+			<Text>Historical Owners</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_BASICCONCEPT_TITLE" Language="en_US">
+			<Text>Basic Concepts</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_BASICCONCEPT_PARA_1" Language="en_US">
+			<Text>
+				This page comes from the mod "Enhanced Wonders for Historical Owners". When this mod is on, players will get the following three effects:[NEWLINE][ICON_BUllet] The historical owner of a certain Wonder gains +50% [ICON_Production] production while building the Wonder.[NEWLINE][ICON_BUllet] Historical owners of Wonders receive unique bonuses from wonders (check the following pages for detailed information).[NEWLINE][ICON_BUllet] If there is no (Major Civ) Historical owner for certain Wonder in Civ6, players can unlock unique bonuses by completing a unique project.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_BASICCONCEPT_PARA_2" Language="en_US">
+			<Text>
+				In addition, to make game easier, players can turn on the "Enhanced Wonders for Historical Owners: Only Human Gain Buff" mode when creating a game. With this game mode on, only human players can receive bonuses from their historical-owned Wonders.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_BASICCONCEPT_PARA_3" Language="en_US">
+			<Text>
+				We've put a lot of effort into compatibility, so this mod supports all three game rules, runs with the base game, and automatically adds bonuses to all Wonders in DLCs. To ensure compatibility, all historical owner bonuses are independent of the original effect. Therefore, this mod is theoretically compatible with all Wonders Enhanced, Weakened, and Balanced modules, as well as two large modules (Harmony in Diversity &amp; Golden Ages).
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_BASICCONCEPT_PARA_4" Language="en_US">
+			<Text>
+				In order not to conflict with the descriptions of the Wonder effects of other mods, all the descriptions of the Wonder history owner bonuses are written separately in this column.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_BASICCONCEPT_PARA_5" Language="en_US">
+			<Text>
+				At the moment we have already produced historical owner bonuses for all 53 official Wonders. [COLOR:Civ6Yellow]I'm sorry to tell you that because the mod makers in the workshop are so powerful, the number of Wonders mods is far more than expected, so we have canceled the plan to make historical owner bonuses for the Workshop Wonders.[ENDCOLOR][NEWLINE]If you find this mod interesting, please don't forget to give us a thumbs up in Steam Workshop!
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_ANCIENT_TITLE" Language="en_US">
+			<Text>Wonders in Ancient Era</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_ANCIENT_PARA_1" Language="en_US">
+			<Text>
+				The game contains 7 Ancient Wonders. [NEWLINE] 5 of them are available under the standard rules. They are: [NEWLINE][ICON_BUllet] Stonehenge[NEWLINE][ICON_BUllet] Hanging Gardens[NEWLINE][ICON_BUllet] Etemenanki[NEWLINE][ICON_BUllet] Pyramids[NEWLINE][ICON_BUllet] Oracle
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_ANCIENT_PARA_2" Language="en_US">
+			<Text>
+				1 requires at least Rise and Fall rules:[NEWLINE][ICON_BUllet] Temple of Artemis
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_ANCIENT_PARA_3" Language="en_US">
+			<Text>
+				1 is only available under the Gathering Storm rules:[NEWLINE][ICON_BUllet] Great Bath
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_CLASSICAL_TITLE" Language="en_US">
+			<Text>Wonders in Classical Era</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_CLASSICAL_PARA_1" Language="en_US">
+			<Text>
+				The game contains 12 Classical Wonders. Eleven of these are available under the standard rules. Respectively:[NEWLINE][ICON_BUllet] Great Lighthouse[NEWLINE][ICON_BUllet] Apadana[NEWLINE][ICON_BUllet] Terracotta Army[NEWLINE][ICON_BUllet] Jebel Barkal[NEWLINE][ICON_BUllet] Great Library[NEWLINE][ICON_BUllet] Colossus[NEWLINE][ICON_BUllet] Colosseum[NEWLINE][ICON_BUllet] Mahabodhi Temple[NEWLINE][ICON_BUllet] Mausoleum at Halicarnassus[NEWLINE][ICON_BUllet] Petra[NEWLINE][ICON_BUllet] Statue of Zeus
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_CLASSICAL_PARA_2" Language="en_US">
+			<Text>
+				1 is only available under the Gathering Storm rules:[NEWLINE][ICON_BUllet] Machu Picchu
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_MEDIEVAL_TITLE" Language="en_US">
+			<Text>Wonders in Medieval Era</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_MEDIEVAL_PARA_1" Language="en_US">
+			<Text>
+				The game contains 10 Medieval Wonders. Six of these are available under the standard rules. Respectively:[NEWLINE][ICON_BUllet] Alhambra[NEWLINE][ICON_BUllet] Chichen Itza[NEWLINE][ICON_BUllet] Mont St. Michel[NEWLINE][ICON_BUllet] Hagia Sophia[NEWLINE][ICON_BUllet] Angkor Wat[NEWLINE][ICON_BUllet] Huey Teocalli
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_MEDIEVAL_PARA_2" Language="en_US">
+			<Text>
+				Two requires at least Rise and Fall rules:[NEWLINE][ICON_BUllet] Kotoku-in[NEWLINE][ICON_BUllet] Kilwa Kisiwani
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_MEDIEVAL_PARA_3" Language="en_US">
+			<Text>
+				Two is only available under the Gathering Storm rules:[NEWLINE][ICON_BUllet] Meenakshi Temple[NEWLINE][ICON_BUllet] University of Sankore
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_RENAISSANCE_TITLE" Language="en_US">
+			<Text>Wonders in Renaissance Era</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_RENAISSANCE_PARA_1" Language="en_US">
+			<Text>
+				The game contains 8 Classical Wonders. Five of these are available under the standard rules. Respectively:[NEWLINE][ICON_BUllet] Torre de Belém[NEWLINE][ICON_BUllet] Great Zimbabwe[NEWLINE][ICON_BUllet] Venetian Arsenal[NEWLINE][ICON_BUllet] Forbidden City[NEWLINE][ICON_BUllet] Potala Palace
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_RENAISSANCE_PARA_2" Language="en_US">
+			<Text>
+				Three requires at least Rise and Fall rules:[NEWLINE][ICON_BUllet] St. Basil's Cathedral[NEWLINE][ICON_BUllet] Taj Mahal[NEWLINE][ICON_BUllet] Casa de Contratación
+			</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_INDUSTRIAL_TITLE" Language="en_US">
+			<Text>Wonders in Industrial Era</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_INDUSTRIAL_PARA_1" Language="en_US">
+			<Text>
+				The game contains 8 Industrial Wonders. Five of these are available under the standard rules. Respectively:[NEWLINE][ICON_BUllet] Hermitage[NEWLINE][ICON_BUllet] Big Ben[NEWLINE][ICON_BUllet] Ruhr Valley[NEWLINE][ICON_BUllet] Bolshoi Theatre[NEWLINE][ICON_BUllet] Oxford University
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_INDUSTRIAL_PARA_2" Language="en_US">
+			<Text>
+				One requires at least Rise and Fall rules:[NEWLINE][ICON_BUllet] Statue of Liberty
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_INDUSTRIAL_PARA_3" Language="en_US">
+			<Text>
+				Two are only available under the Gathering Storm rules:[NEWLINE][ICON_BUllet] Panama Canal[NEWLINE][ICON_BUllet] Országház
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_MODERN_TITLE" Language="en_US">
+			<Text>Wonders in Modern Era</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_MODERN_PARA_1" Language="en_US">
+			<Text>
+				The game contains 4 Modern Wonders. Three of these are available under the standard rules. Respectively:[NEWLINE][ICON_BUllet] Eiffel Tower[NEWLINE][ICON_BUllet] Broadway[NEWLINE][ICON_BUllet] Cristo Redentor
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_MODERN_PARA_2" Language="en_US">
+			<Text>
+				One is only available under the Gathering Storm rules:[NEWLINE][ICON_BUllet] Golden Gate Bridge
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_ATOMIC_TITLE" Language="en_US">
+			<Text>Wonders in Atomic Era</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_ATOMIC_PARA_1" Language="en_US">
+			<Text>
+				The game contains 4 Atomic Wonders. Three of these are available under the standard rules. Respectively:[NEWLINE][ICON_BUllet] Estádio do Maracanã[NEWLINE][ICON_BUllet] Biosphère[NEWLINE][ICON_BUllet] Sydney Opera House
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_ATOMIC_PARA_2" Language="en_US">
+			<Text>
+				One requires at least Rise and Fall rules:[NEWLINE][ICON_BUllet] Amundsen-Scott Research Station
+			</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_WONDERSINDLC_TITLE" Language="en_US">
+			<Text>Wonders in DLCs</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_WONDERSINDLC_PARA_1" Language="en_US">
+			<Text>
+				We've listed all the DLC locations of wonders that aren't in the base game here for reference:[NEWLINE][NEWLINE][ICON_BUllet]Huey Teocalli: Aztec Pack[NEWLINE][NEWLINE][ICON_BUllet]Jebel Barkal: Nubia Amanitore Pack[NEWLINE][NEWLINE][ICON_BUllet]Apadana: Macedonia Persia Pack[NEWLINE][NEWLINE][ICON_BUllet]Mausoleum at Halicarnassus: Macedonia Persia Pack
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_WONDERSINDLC_PARA_2" Language="en_US">
+			<Text>
+				[ICON_BUllet]Angkor Wat: Indonesia Khmer Pack[NEWLINE][NEWLINE][ICON_BUllet]Temple of Artemis: Rise and Fall[NEWLINE][NEWLINE][ICON_BUllet]Kotoku-in: Rise and Fall[NEWLINE][NEWLINE][ICON_BUllet]Kilwa Kisiwani: Rise and Fall
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_WONDERSINDLC_PARA_3" Language="en_US">
+			<Text>
+				[ICON_BUllet]St. Basil's Cathedral: Rise and Fall[NEWLINE][NEWLINE][ICON_BUllet]Taj Mahal: Rise and Fall[NEWLINE][NEWLINE][ICON_BUllet]Casa de Contratación: Rise and Fall[NEWLINE][NEWLINE][ICON_BUllet]Statue of Liberty: Rise and Fall[NEWLINE][NEWLINE][ICON_BUllet]Amundsen-Scott Research Station: Rise and Fall
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_WONDERSINDLC_PARA_4" Language="en_US">
+			<Text>
+				[ICON_BUllet]Great Bath: Gathering Storm[NEWLINE][NEWLINE][ICON_BUllet]Machu Picchu: Gathering Storm[NEWLINE][NEWLINE][ICON_BUllet]Meenakshi Temple: Gathering Storm[NEWLINE][NEWLINE][ICON_BUllet]University of Sankore: Gathering Storm
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_WONDERSINDLC_PARA_5" Language="en_US">
+			<Text>
+				[ICON_BUllet]Panama Canal: Gathering Storm[NEWLINE][NEWLINE][ICON_BUllet]Országház: Gathering Storm[NEWLINE][NEWLINE][ICON_BUllet]Golden Gate Bridge: Gathering Storm
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_WONDERSINDLC_PARA_6" Language="en_US">
+			<Text>
+				[ICON_BUllet]Statue of Zeus: Byzantium Gaul Pack[NEWLINE][NEWLINE][ICON_BUllet]Biosphère: Byzantium Gaul Pack[NEWLINE][NEWLINE][ICON_BUllet]Etemenanki: Portugal Pack[NEWLINE][NEWLINE][ICON_BUllet]Torre de Belém: Portugal Pack
+			</Text>
+		</Replace>
+
+		<!--==========================================================================================================================-->
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_CONTENT_TITLE" Language="en_US">
+			<Text>Wonders in Ancient Era</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_SEARCH_TITLE" Language="en_US">
+			<Text>Wonders in Ancient Era</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_STANDARD_TITLE" Language="en_US">
+			<Text>Wonders: Standard Rules</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_STANDARD_PARA_1" Language="en_US">
+			<Text>
+				[ICON_BUllet] Stonehenge:[NEWLINE]No (Major Civ) Historical Owner. Unique Bonus: +1 [ICON_Faith] Faith and +1 [ICON_Production] Production for all Quarries.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_STANDARD_PARA_2" Language="en_US">
+			<Text>
+				[ICON_BUllet] Hanging Gardens:[NEWLINE]Historical Owner: Babylon or Assyria. History Owner bonuses: +1 [ICON_Food] food for all Plantations and Farms built on bonus resources.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_STANDARD_PARA_3" Language="en_US">
+			<Text>
+				[ICON_BUllet] Etemenanki:[NEWLINE]Historical Owner: Babylon. History Owner bonuses: Triggers the [ICON_TechBoosted] Eureka moment for two technologies in Ancient, Classical or Medieval era.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_STANDARD_PARA_4" Language="en_US">
+			<Text>
+				[ICON_BUllet] Pyramids:[NEWLINE]Historical Owner: Egypt. History Owner bonuses: All Builders +1 [ICON_Movement] Movement.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_STANDARD_PARA_5" Language="en_US">
+			<Text>
+				[ICON_BUllet] Oracle:[NEWLINE]Historical Owner: Greece. History Owner bonuses: +2 Influence Points per turn. Districts in this city provide extra +1 [ICON_GreatPerson] Great Person points of their type.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_RISEANDFALL_TITLE" Language="en_US">
+			<Text>
+				Wonders: Rise and Fall Rules
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_RISEANDFALL_PARA_1" Language="en_US">
+			<Text>
+				[ICON_BUllet] Temple of Artemis:[NEWLINE]Historical Owner: Greece. History Owner bonuses: Camps and Pastures in this city +1 [ICON_Faith] Faith +1 [ICON_Gold] Gold. Ranged Units +5 [ICON_Strength] Combat Strength when attacking if the Enemy is on Pastures, Camps or tiles adjacent to those Improvements.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_GATHERINGSTORM_TITLE" Language="en_US">
+			<Text>
+				Wonders: Gathering Storm Rules
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_GATHERINGSTORM_PARA_1" Language="en_US">
+			<Text>
+				[ICON_BUllet] Great Bath:[NEWLINE]No (Major Civ) Historical Owner. History Owner bonuses: All Floodplain tiles +1 [ICON_Faith] Faith +1 [ICON_Production] Production.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_REQUIREDDLC_TITLE" Language="en_US">
+			<Text>Wonders in DLCs</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_REQUIREDDLC_PARA_1" Language="en_US">
+			<Text>
+				[ICON_BUllet] Etemenanki: Portugal Pack[NEWLINE][ICON_BUllet] Temple of Artemis: Rise and Fall[NEWLINE][ICON_BUllet] Great Bath: Gathering Storm
+			</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_CONTENT_TITLE" Language="en_US">
+			<Text>Wonders in Classical Era</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_SEARCH_TITLE" Language="en_US">
+			<Text>Wonders in Classical Era</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_STANDARD_TITLE" Language="en_US">
+			<Text>Wonders: Standard Rules</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_STANDARD_PARA_1" Language="en_US">
+			<Text>
+				[ICON_BUllet] Great Lighthouse:[NEWLINE]Historical Owner: Greece. History Owner bonuses: +1 sight for all naval units.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_STANDARD_PARA_2" Language="en_US">
+			<Text>
+				[ICON_BUllet] Apadana:[NEWLINE]Historical Owner: Persia. History Owner bonuses: +2 [ICON_ENVOY] Envoys when you conquer a city with wonder in it.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_STANDARD_PARA_3" Language="en_US">
+			<Text>
+				[ICON_BUllet] Terracotta Army:[NEWLINE]Historical Owner: China. History Owner bonuses: Provides extra +4 [ICON_Gold] Gold. Grants one of the strongest melee units and one of the strongest heavy cavalry units of the time. If a Crouching Tiger unit is within 1 tile from the Great Wall improvement, +2 [ICON_Movement] Movement and +1 [ICON_Range] Range.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_STANDARD_PARA_4" Language="en_US">
+			<Text>
+				[ICON_BUllet] Jebel Barkal:[NEWLINE]Historical Owner: Nubia. History Owner bonuses: Mines over strategic resources provide +1 [ICON_Science] Science. Mines over bonus and luxury resources provide +2 [ICON_Culture] Culture.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_STANDARD_PARA_5" Language="en_US">
+			<Text>
+				[ICON_BUllet] Great Library:[NEWLINE]Historical Owner: Egypt. History Owner bonuses: +1 [ICON_Science] Science for trade routes originating from this city. Foreign [ICON_TradeRoute] Trade Routes to your cities (that have Campus) provide +1 [ICON_Science] Science to both cities (In particular, +2 [ICON_Science] Science for city that has the Great Library).
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_STANDARD_PARA_6" Language="en_US">
+			<Text>
+				[ICON_BUllet] Colossus:[NEWLINE]Historical Owner: Greece. History Owner bonuses: +1 [ICON_GreatGeneral] GreatGeneral Point. All units +3 [ICON_Strength] Combat Strength when fighting in or adjacent to their home territory. Tiles that have Copper provide extra +4 [ICON_Gold] Gold +2 [ICON_Production] Production.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_STANDARD_PARA_7" Language="en_US">
+			<Text>
+				[ICON_BUllet] Colosseum:[NEWLINE]Historical Owner: Rome. History Owner bonuses: Units within 12 tiles +5 [ICON_Strength] Combat Strength.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_STANDARD_PARA_8" Language="en_US">
+			<Text>
+				[ICON_BUllet] Mahabodhi Temple:[NEWLINE]Historical Owner: India. History Owner bonuses: All Forests in this city +1 [ICON_Faith] Faith +1 [ICON_Culture] Culture. (While Playing under Rf or GS Rules, religious pressure to adjacent cities is 100% stronger from this city, and this city ignores pressure and combat effects from Religions not founded by you.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_STANDARD_PARA_9" Language="en_US">
+			<Text>
+				[ICON_BUllet] Mausoleum at Halicarnassus:[NEWLINE]Historical Owner: Persia. History Owner bonuses: +1 [ICON_Science] Science +1 [ICON_Faith] Faith +1 [ICON_Culture] Culture for trade routes originating from this city. (While Playing under Rf or GS Rules, gain 1 [ICON_Governor] Governor promotion.)
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_STANDARD_PARA_10" Language="en_US">
+			<Text>
+				[ICON_BUllet] Petra:[NEWLINE]No (Major Civ) Historical Owner. History Owner bonuses: +20% [ICON_Food] Food, +20% [ICON_Gold] Gold, +10% [ICON_Production] Production for all cities built on the desert.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_STANDARD_PARA_11" Language="en_US">
+			<Text>
+				[ICON_BUllet] Statue of Zeus:[NEWLINE]Historical Owner: Greece. History Owner bonuses: All anti cavalry units +1 [ICON_Movement] Movement and +5 [ICON_Strength] Combat Strength if there is at least one anti cavalry unit adjacent.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_RISEANDFALL_TITLE" Language="en_US">
+			<Text>
+				Wonders: Rise and Fall Rules
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_RISEANDFALL_PARA_1" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_GATHERINGSTORM_TITLE" Language="en_US">
+			<Text>
+				Wonders: Gathering Storm Rules
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_GATHERINGSTORM_PARA_1" Language="en_US">
+			<Text>
+				[ICON_BUllet] Machu Picchu:[NEWLINE]Historical Owner: Inca. History Owner bonuses: [ICON_DISTRICT_COMMERCIAL_HUB] Commercial Hub, [ICON_DISTRICT_THEATER] Theater Square, and [ICON_DISTRICT_INDUSTRIAL_ZONE] Industrial Zone provide +1 yield (of their type) for the adjacent mountain tiles in all cities.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_REQUIREDDLC_TITLE" Language="en_US">
+			<Text>Wonders in DLCs</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_REQUIREDDLC_PARA_1" Language="en_US">
+			<Text>
+				[ICON_BUllet] Apadana: Macedonia Persia Pack[NEWLINE][ICON_BUllet] Mausoleum at Halicarnassus: Macedonia Persia Pack[NEWLINE][ICON_BUllet] Jebel Barkal: Nubia Amanitore Pack[NEWLINE][ICON_BUllet] Machu Picchu:Gathering Storm[NEWLINE][ICON_BUllet] Statue of Zeus: Byzantium Gaul Pack
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_CONTENT_TITLE" Language="en_US">
+			<Text>Wonders in Medieval Era</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_SEARCH_TITLE" Language="en_US">
+			<Text>Wonders in Medieval Era</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_STANDARD_TITLE" Language="en_US">
+			<Text>Wonders: Standard Rules</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_STANDARD_PARA_1" Language="en_US">
+			<Text>
+				[ICON_BUllet] Alhambra:[NEWLINE]Historical Owner: Spain. Especially, the Alhambra was built by the Moors historially, so Spain only +25% [ICON_Production] Production when building it in game. History Owner bonuses: Get extra +2 [ICON_Culture] culture. If the distance between any melee unit and any religious civilian unit is less than or equal to 2, they provide each other with +2 [ICON_Movement] Movement.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_STANDARD_PARA_2" Language="en_US">
+			<Text>
+				[ICON_BUllet] Chichen Itza:[NEWLINE]Historical Owner: Maya. History Owner bonuses: For capital city and cities within 6 tiles of the capital city, rainforest +1 [ICON_Culture] culture. Rainforest tiles provide standard adjacency for Observatory district. Farms adjacent to rainforest +1 [ICON_Culture] culture +1 [ICON_Production] production.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_STANDARD_PARA_3" Language="en_US">
+			<Text>
+				[ICON_BUllet] Mont St. Michel:[NEWLINE]Historical Owner: France. History Owner bonuses: Apostles are 20% cheaper to purchase. Palace gets 4 extra slots for Great Works.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_STANDARD_PARA_4" Language="en_US">
+			<Text>
+				[ICON_BUllet] Hagia Sophia:[NEWLINE]Historical Owner: Byzantium or Ottoman. Especially, the Hagia Sophia was built by Byzantium historially, so Ottoman only +25% [ICON_Production] Production when building it in game. History Owner bonuses: All cavalry units +4 [ICON_Strength] Combat Strength vs. civilizations following another Religion(Byzantium). Or, all siege units +4 [ICON_Strength] Combat Strength vs. civilizations following another Religion(Ottoman). Note that you can only play Ottoman under GS rules.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_STANDARD_PARA_5" Language="en_US">
+			<Text>
+				[ICON_BUllet] Angkor Wat:[NEWLINE]Historical Owner: Khmer. History Owner bonuses: The holy site and industial zone district in this city +100% adjacency. All cites that have 15 or more population +1 [ICON_Amenities] Amenity.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_STANDARD_PARA_6" Language="en_US">
+			<Text>
+				[ICON_BUllet] Huey Teocalli:[NEWLINE]Historical Owner: Aztec. History Owner bonuses: Lake and coast tiles provide standard adjacency for holy sites. If your city is anjacent to lake, +1 [ICON_Amenities] Amenity.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_RISEANDFALL_TITLE" Language="en_US">
+			<Text>
+				Wonders: Rise and Fall Rules
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_RISEANDFALL_PARA_1" Language="en_US">
+			<Text>
+				[ICON_BUllet] Kotoku-in:[NEWLINE]Historical Owner: Japan. History Owner bonuses: Get extra +3 [ICON_Faith] faith, grants 2 extra Warrior Monks. Warrior Monks +4 [ICON_Strength] Combat Strength vs. civilizations following another Religion.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_RISEANDFALL_PARA_2" Language="en_US">
+			<Text>
+				[ICON_BUllet] Kilwa Kisiwani:[NEWLINE]No (Major Civ) Historical Owner. History Owner bonuses: +5 [ICON_Favor] Diplomatic Favor.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_GATHERINGSTORM_TITLE" Language="en_US">
+			<Text>
+				Wonders: Gathering Storm Rules
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_GATHERINGSTORM_PARA_1" Language="en_US">
+			<Text>
+				[ICON_BUllet] Meenakshi Temple:[NEWLINE]Historical Owner: India. History Owner bonuses: Apostles are 20% cheaper to purchase. Religious civilians provide +1 [ICON_Faith] faith to tiles within 1 tiles.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_GATHERINGSTORM_PARA_2" Language="en_US">
+			<Text>
+				[ICON_BUllet] University of Sankore:[NEWLINE]Historical Owner: Mali. History Owner bonuses: All cities built on desert +8% [ICON_Science] Science, +16% [ICON_Faith] Faith.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_REQUIREDDLC_TITLE" Language="en_US">
+			<Text>Wonders in DLCs</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_REQUIREDDLC_PARA_1" Language="en_US">
+			<Text>
+				[ICON_BUllet] Huey Teocalli: Aztec Pack[NEWLINE][ICON_BUllet] Angkor Wat: Indonesia Khmer Pack[NEWLINE][ICON_BUllet] Kotoku-in: Rise and Fall[NEWLINE][ICON_BUllet] Kilwa Kisiwani: Rise and Fall[NEWLINE][ICON_BUllet] Meenakshi Temple: Gathering Storm[NEWLINE][ICON_BUllet] University of Sankore: Gathering Storm
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_CONTENT_TITLE" Language="en_US">
+			<Text>Wonders in Renaissance Era</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_SEARCH_TITLE" Language="en_US">
+			<Text>Wonders in Renaissance Era</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_STANDARD_TITLE" Language="en_US">
+			<Text>Wonders: Standard Rules</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_STANDARD_PARA_1" Language="en_US">
+			<Text>
+				[ICON_BUllet] Torre de Belém:[NEWLINE]Historical Owner: Portugal. History Owner bonuses: Increases [ICON_TradeRoute] Trade Route capacity by 1. Your [ICON_TradeRoute] Trade Routes originating from cities (that has Harbor[ICON_DISTRICT_HARBOR])+4 [ICON_Gold] Gold (In particular, +8 [ICON_Gold] Gold for city that has the Torre de Belém). (While Playing under Rf or GS Rules, +2 starting [ICON_Citizen] Population for cities settled on a different continent than your first city.)
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_STANDARD_PARA_2" Language="en_US">
+			<Text>
+				[ICON_BUllet] Great Zimbabwe:[NEWLINE]No (Major Civ) Historical Owner. History Owner bonuses: This city +20% [ICON_Gold] Gold.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_STANDARD_PARA_3" Language="en_US">
+			<Text>
+				[ICON_BUllet] Venetian Arsenal:[NEWLINE]No (Major Civ) Historical Owner. History Owner bonuses: This city +30% [ICON_Production] Production toward all naval units, excluding Carriers. All naval units +3 [ICON_Gold] Gold. Every embarked Trader unit provides +1 [ICON_GreatAdmiral] Great Admiral point per turn.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_STANDARD_PARA_4" Language="en_US">
+			<Text>
+				[ICON_BUllet] Forbidden City:[NEWLINE]Historical Owner: China. History Owner bonuses: The Great Wall improvements provide +2 defense strength for your cities (Stackable). Your cities that have 10 or more population +10% [ICON_Culture] Culture. [NEWLINE]Allows the "Lijia (Food)" project. Your cities with population under 10 +1000% [ICON_Production] (get extra +500% if you are playing Yongle) when working on the project, and you'll receive a random [ICON_TechBoosted] Eureka and [ICON_CivicBoosted] Inspiration upon completion. (Requires Rulers of China Pack)
+
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_STANDARD_PARA_5" Language="en_US">
+			<Text>
+				[ICON_BUllet] Potala Palace:[NEWLINE]Historical Owner: China. History Owner bonuses: The tiles that has hills in this city +2 [ICON_Faith] Faith. This city earns [ICON_Culture] Culture per turn equal to 40% of its [ICON_Faith] Faith per turn rate. If this city has [ICON_DISTRICT_HOLY_SITE] Holy Site, +2 Influence Points per turn.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_RISEANDFALL_TITLE" Language="en_US">
+			<Text>Wonders: Rise and Fall Rules</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_RISEANDFALL_PARA_1" Language="en_US">
+			<Text>
+				[ICON_BUllet] St. Basil's Cathedral:[NEWLINE]Historical Owner: Russia. History Owner bonuses: +16% [ICON_Food] Food, +8% [ICON_Production] Production, +8% [ICON_Culture] Culture for all cities built on the Tundra.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_RISEANDFALL_PARA_2" Language="en_US">
+			<Text>
+				[ICON_BUllet] Taj Mahal:[NEWLINE]Historical Owner: India. History Owner bonuses:Provides extra +4 [ICON_Culture] Culture. Next turn you will get a special [ICON_GreatEngineer] Great Engineer unit "Shah Jahān". He has the same ability as the one in Babylon Pack, but has 3 charges.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_RISEANDFALL_PARA_3" Language="en_US">
+			<Text>
+				[ICON_BUllet] Casa de Contratación:[NEWLINE]Historical Owner: Spain. History Owner bonuses: [ICON_TradeRoute] Trade Routes receive +3 [ICON_Gold] Gold, +2 [ICON_Faith] Faith, and +1 [ICON_Production] Production, if destination is your city and is on a different continent than your first city.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_GATHERINGSTORM_TITLE" Language="en_US">
+			<Text>
+				Wonders: Gathering Storm Rules
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_GATHERINGSTORM_PARA_1" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_REQUIREDDLC_TITLE" Language="en_US">
+			<Text>Wonders in DLCs</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_REQUIREDDLC_PARA_1" Language="en_US">
+			<Text>
+				[ICON_BUllet] Torre de Belém: Portugal Pack[NEWLINE][ICON_BUllet] St. Basil's Cathedral: Rise and Fall[NEWLINE][ICON_BUllet] Taj Mahal: Rise and Fall[NEWLINE][ICON_BUllet] Casa de Contratación: Rise and Fall
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_CONTENT_TITLE" Language="en_US">
+			<Text>Wonders in Industrial Era</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_SEARCH_TITLE" Language="en_US">
+			<Text>Wonders in Industrial Era</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_STANDARD_TITLE" Language="en_US">
+			<Text>
+				Wonders: Standard Rules
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_STANDARD_PARA_1" Language="en_US">
+			<Text>
+				[ICON_BUllet] Hermitage:[NEWLINE]Historical Owner: Russia. History Owner bonuses: Provides extra +2 [ICON_Culture] Culture, [ICON_GreatWork_Portrait] Portraits, [ICON_GreatWork_Landscape] Landscapes, [ICON_GreatWork_Religious] Religious, [ICON_GreatWork_Sculpture] Sculptures, and [ICON_GreatWork_Artifact] Artifacts provide extra +2 [ICON_Culture] Culture, Temple +1 slot for Great Works.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_STANDARD_PARA_2" Language="en_US">
+			<Text>
+				[ICON_BUllet] Big Ben:[NEWLINE]Historical Owner: England. History Owner bonuses: Each factory provides +1 [ICON_TradeRoute] trade route capacity. Royal Navy Dockyards provide +3 [ICON_Gold] gold for origining [ICON_TradeRoute] international trade routes.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_STANDARD_PARA_3" Language="en_US">
+			<Text>
+				[ICON_BUllet] Ruhr Valley:[NEWLINE]Historical Owner: Germany. History Owner bonuses: All cities +20% [ICON_Production] Production when constructing districts, increasing to 40% if the city has a industrial zone.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_STANDARD_PARA_4" Language="en_US">
+			<Text>
+				[ICON_BUllet] Bolshoi Theatre:[NEWLINE]Historical Owner: Russia. History Owner bonuses: Provides extra +2 [ICON_Culture] Culture, [ICON_GreatWork_Music] Music Masterpiece gets extra +2 [ICON_Culture] Culture, Temple +1 slot for Great Works.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_STANDARD_PARA_5" Language="en_US">
+			<Text>
+				[ICON_BUllet] Oxford University:[NEWLINE]Historical Owner: England. History Owner bonuses: [ICON_GreatWork_Writing] Writings get extra +2 [ICON_Science] Science. If a city has a [ICON_DISTRICT_CAMPUS] campus, the [ICON_DISTRICT_INDUSTRIAL_ZONE] industrial zone in this city +100% adjacent bonus.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_RISEANDFALL_TITLE" Language="en_US">
+			<Text>
+				Wonders: Rise and Fall Rules
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_RISEANDFALL_PARA_1" Language="en_US">
+			<Text>
+				[ICON_BUllet] Statue of Liberty:[NEWLINE]Historical Owner: France and America. History Owner bonuses: The city gets extra +1 [ICON_Amenities] Amenity. When at war with a common foe, you and your allies share pillage rewards and share combat experience gains if within 4 tiles.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_GATHERINGSTORM_TITLE" Language="en_US">
+			<Text>
+				Wonders: Gathering Storm Rules
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_GATHERINGSTORM_PARA_1" Language="en_US">
+			<Text>
+				[ICON_BUllet] Panama Canal:[NEWLINE]Historical Owner: America or no (Major Civ) Historical Owner. History Owner bonuses: Naval units within 12 tiles of a canal district get +1 [ICON_Movement] Movement. If there are your naval units within 1 tile of a canal district, the city where the canal is located gets +20% [ICON_Gold] Gold.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_GATHERINGSTORM_PARA_2" Language="en_US">
+			<Text>
+				[ICON_BUllet] Országház:[NEWLINE]Historical Owner: Hungary. History Owner bonuses: +1 [ICON_ENVOY] Envoy when you complete building a district along the river.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_REQUIREDDLC_TITLE" Language="en_US">
+			<Text>Wonders in DLCs</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_REQUIREDDLC_PARA_1" Language="en_US">
+			<Text>
+				[ICON_BUllet] Statue of Liberty: Rise and Fall[NEWLINE][ICON_BUllet] Panama Canal: Gathering Storm[NEWLINE][ICON_BUllet] Országház: Gathering Storm
+			</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_CONTENT_TITLE" Language="en_US">
+			<Text>Wonders in Modern Era</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_SEARCH_TITLE" Language="en_US">
+			<Text>Wonders in Modern Era</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_STANDARD_TITLE" Language="en_US">
+			<Text>
+				Wonders: Standard Rules
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_STANDARD_PARA_1" Language="en_US">
+			<Text>
+				[ICON_BUllet] Eiffel Tower:[NEWLINE]Historical Owner: France. History Owner bonuses: All tiles in this city that has Appeal >= +4 get extra +2 [ICON_Culture] Culture. [ICON_Tourism] Tourism from wonders of any era is +50%.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_STANDARD_PARA_2" Language="en_US">
+			<Text>
+				[ICON_BUllet] Broadway:[NEWLINE]Historical Owner: America. History Owner bonuses: Provides extra +4 [ICON_Culture] Culture, Film Studios +2 [ICON_Culture] Culture. (Under GS rules, Rock Bands are 20% cheaper to purchase)
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_STANDARD_PARA_3" Language="en_US">
+			<Text>
+				[ICON_BUllet] Cristo Redentor:[NEWLINE]Historical Owner: Brazil. History Owner bonuses: +2 [ICON_Gold] Gold +2 [ICON_Faith] Faith for all Seaside Resorts, increasing to +4 if adjacent to rainforest.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_RISEANDFALL_TITLE" Language="en_US">
+			<Text>
+				Wonders: Rise and Fall Rules
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_RISEANDFALL_PARA_1" Language="en_US">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_GATHERINGSTORM_TITLE" Language="en_US">
+			<Text>
+				Wonders: Gathering Storm Rules
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_GATHERINGSTORM_PARA_1" Language="en_US">
+			<Text>
+				[ICON_BUllet] Golden Gate Bridge:[NEWLINE]Historical Owner: America. History Owner bonuses: Grants [ICON_Tourism] Tourism in each of this city's Districts equal to its adjacency bonus (halved for [ICON_Gold] Gold and [ICON_Faith] Faith). Modern roads are obtained if there are no roads within 1 tile of coastal cities.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_REQUIREDDLC_TITLE" Language="en_US">
+			<Text>Wonders in DLCs</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_REQUIREDDLC_PARA_1" Language="en_US">
+			<Text>
+				[ICON_BUllet] Golden Gate Bridge: Gathering Storm
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_CONTENT_TITLE" Language="en_US">
+			<Text>Wonders in Atomic Era</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_SEARCH_TITLE" Language="en_US">
+			<Text>Wonders in Atomic Era</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_STANDARD_TITLE" Language="en_US">
+			<Text>
+				Wonders: Standard Rules
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_STANDARD_PARA_1" Language="en_US">
+			<Text>
+				[ICON_BUllet] Estádio do Maracanã:[NEWLINE]Historical Owner: Brazil. History Owner bonuses: Regional effects from your Street Carnival, and Copacabana districts reach 3 tiles farther. If your district is adjacent to a rainforest, it provides extra +1  [ICON_GreatPerson] Great Person point of its type.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_STANDARD_PARA_2" Language="en_US">
+			<Text>
+				[ICON_BUllet] Biosphère:[NEWLINE]Historical Owner: America and Canada. History Owner bonuses: Provides extra +8 [ICON_Gold] Gold, and the Neighborhoods offer +4 [ICON_Tourism] Tourism. All tiles of a city that is built on Tundra gain +1 Appeal (unique to Canada). +50% [ICON_Production] Production when constructing Neighborhoods (unique to America).
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_STANDARD_PARA_3" Language="en_US">
+			<Text>
+				[ICON_BUllet] Sydney Opera House:[NEWLINE]Historical Owner: Australia. History Owner bonuses: All tiles in cities that are built on coast gain +1 Appeal.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_RISEANDFALL_TITLE" Language="en_US">
+			<Text>
+				Wonders: Rise and Fall Rules
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_RISEANDFALL_PARA_1" Language="en_US">
+			<Text>
+				[ICON_BUllet] Amundsen-Scott Research Station:[NEWLINE]Historical Owner: America. History Owner bonuses: All cities with an Universitiy get Research Lab for free. Research Labs provides +3 [ICON_Science] Science for snow and snowy hills within the city.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_GATHERINGSTORM_TITLE" Language="en_US">
+			<Text>
+				Wonders: Gathering Storm Rules
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_GATHERINGSTORM_PARA_1" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_REQUIREDDLC_TITLE" Language="en_US">
+			<Text>Wonders in DLCs</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_REQUIREDDLC_PARA_1" Language="en_US">
+			<Text>[ICON_BUllet] Amundsen-Scott Research Station: Rise and Fall</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AWASE_RemoveIt_Text -->
+<!-- Author: Awase -->
+<!-- DateCreated: 1/20/2026 8:48:57 AM -->
+<GameData>
+	<LocalizedText>
+        <Replace Tag="LOC_AWASE_REMOVEIT_CONFIRM_DISTRICT_WONDER" Language="en_US">
+            <Text>Are you sure you want to destroy this District or Wonder?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_CONFIRM_DISTRICT_WONDER" Language="zh_Hans_CN">
+            <Text>确认摧毁此区域或奇观吗？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_CONFIRM_DISTRICT_WONDER" Language="zh_Hant_HK">
+            <Text>確認摧毀此區域或奇觀嗎？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_CONFIRM_DISTRICT_WONDER" Language="ja_JP">
+            <Text>この区域または遺産を破壊してもよろしいですか？</Text>
+        </Replace>
+
+        <Replace Tag="LOC_AWASE_REMOVEIT_NOT_COMPLETED_WONDER" Language="en_US">
+            <Text>This Wonder is not yet completed.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_NOT_COMPLETED_WONDER" Language="zh_Hans_CN">
+            <Text>此奇观尚未建成。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_NOT_COMPLETED_WONDER" Language="zh_Hant_HK">
+            <Text>此奇觀尚未建成。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_NOT_COMPLETED_WONDER" Language="ja_JP">
+            <Text>この遺産はまだ完成していません。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_AWASE_REMOVEIT_CONFIRM_CAPITAL_CITY" Language="en_US">
+            <Text>WARNING: You are destroying an original Capital City![NEWLINE]This will prevent all leaders from achieving a Domination Victory.[NEWLINE]All Wonders, Districts, Buildings, Population, and territory in the city will be lost. Completed Wonders cannot be rebuilt.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_CONFIRM_CAPITAL_CITY" Language="zh_Hans_CN">
+            <Text>警告：您正在摧毁原始首都城市！[NEWLINE]这会导致所有领袖均无法达成统治胜利。[NEWLINE]城市中所有奇观、区域、建筑、人口和领土都将消失。已完成的奇观将无法重建。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_CONFIRM_CAPITAL_CITY" Language="zh_Hant_HK">
+            <Text>警告：您正在摧毀原始首都城市！[NEWLINE]這會導致所有領袖均無法達成統治勝利。[NEWLINE]城市中所有奇觀、區域、建築、人口和領土都將消失。已完成的奇觀將無法重建。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_CONFIRM_CAPITAL_CITY" Language="ja_JP">
+            <Text>警告：元の首都を破壊しようとしています！[NEWLINE]これにより、すべての指導者が制覇による勝利を達成できなくなります。[NEWLINE]都市内のすべての遺産、区域、建造物、市民、領土が消滅します。完成した遺産は再建できません。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_AWASE_REMOVEIT_CONFIRM_NORMAL_CITY" Language="en_US">
+            <Text>You are destroying a city![NEWLINE]All Wonders, Districts, Buildings, Population, and territory in the city will be lost. Completed Wonders cannot be rebuilt.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_CONFIRM_NORMAL_CITY" Language="zh_Hans_CN">
+            <Text>您正在摧毁一座城市！[NEWLINE]城市中所有奇观、区域、建筑、人口和领土都将消失。已完成的奇观将无法重建。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_CONFIRM_NORMAL_CITY" Language="zh_Hant_HK">
+            <Text>您正在摧毀一座城市！[NEWLINE]城市中所有奇觀、區域、建築、人口和領土都將消失。已完成的奇觀將無法重建。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_CONFIRM_NORMAL_CITY" Language="ja_JP">
+            <Text>都市を破壊しようとしています！[NEWLINE]都市内のすべての遺産、区域、建造物、市民、領土が消滅します。完成した遺産は再建できません。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_AWASE_REMOVEIT_ERROR_NOT_OWNED" Language="en_US">
+            <Text>Tile does not belong to your empire.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_ERROR_NOT_OWNED" Language="zh_Hans_CN">
+            <Text>所在单元格不是帝国领土。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_ERROR_NOT_OWNED" Language="zh_Hant_HK">
+            <Text>所在單元格不是帝國領土。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_ERROR_NOT_OWNED" Language="ja_JP">
+            <Text>現在のタイルは自国領土ではありません。</Text>
+        </Replace>
+        
+        <Replace Tag="LOC_AWASE_REMOVEIT_NOT_ENOUGH_CHARGES" Language="en_US">
+            <Text>Builder requires 2 Build Charges.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_NOT_ENOUGH_CHARGES" Language="zh_Hans_CN">
+            <Text>建造者劳动力不足2点。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_NOT_ENOUGH_CHARGES" Language="zh_Hant_HK">
+            <Text>建造者勞動力不足2點。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_NOT_ENOUGH_CHARGES" Language="ja_JP">
+            <Text>労働力が2つ不足しています。</Text>
+        </Replace>
+        
+        <Replace Tag="LOC_AWASE_REMOVEIT_BUTTON_TOOLTIP" Language="en_US">
+            <Text>Spend 2 Build Charges to destroy the District, Wonder, or City Center.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_BUTTON_TOOLTIP" Language="zh_Hans_CN">
+            <Text>花费2点劳动力，摧毁区域、奇观或市中心。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_BUTTON_TOOLTIP" Language="zh_Hant_HK">
+            <Text>花費2點勞動力，摧毀區域、奇觀或市中心。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_BUTTON_TOOLTIP" Language="ja_JP">
+            <Text>労働力を2つ消費して、区域、遺産、または都心を破壊します。</Text>
+        </Replace>
+        
+        <Replace Tag="LOC_AWASE_REMOVEIT_ERROR_NO_TARGET" Language="en_US">
+            <Text>No District, Wonder, or City Center on this tile.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_ERROR_NO_TARGET" Language="zh_Hans_CN">
+            <Text>所在单元格没有区域、奇观或市中心。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_ERROR_NO_TARGET" Language="zh_Hant_HK">
+            <Text>所在單元格沒有區域、奇觀或市中心。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_ERROR_NO_TARGET" Language="ja_JP">
+            <Text>このタイルには区域、遺産、都心がありません。</Text>
+        </Replace>
+		
+        <Replace Tag="LOC_AWASE_REMOVEIT_GW_WARNING_TITLE" Language="en_US">
+            <Text>Warning: Contains Great Works</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_GW_WARNING_TITLE" Language="zh_Hans_CN">
+            <Text>警告：包含巨作</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_GW_WARNING_TITLE" Language="zh_Hant_HK">
+            <Text>警告：包含巨作</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_GW_WARNING_TITLE" Language="ja_JP">
+            <Text>警告：傑作が含まれています</Text>
+        </Replace>
+
+        <Replace Tag="LOC_AWASE_REMOVEIT_GW_WARNING_BODY" Language="en_US">
+            <Text>This District, Wonder, or City contains Great Works. Continuing the destruction will result in the loss of these Great Works.[NEWLINE]Please manually transfer the Great Works to another building.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_GW_WARNING_BODY" Language="zh_Hans_CN">
+            <Text>此区域、奇观或城市中有巨作，继续摧毁将导致巨作消失。[NEWLINE]请手动将巨作移至其他建筑。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_GW_WARNING_BODY" Language="zh_Hant_HK">
+            <Text>此區域、奇觀或城市中有巨作，繼續摧毀將導致巨作消失。[NEWLINE]請手動將巨作移至其他建築。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_GW_WARNING_BODY" Language="ja_JP">
+            <Text>この区域、遺産、または都市には傑作が含まれています。破壊を続けると傑作は消滅します。[NEWLINE]手動で傑作を他の建造物に移してください。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_AWASE_REMOVEIT_MOVEGW_CANCEL" Language="en_US">
+            <Text>Transfer Great Works</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_MOVEGW_CANCEL" Language="zh_Hans_CN">
+            <Text>转移巨作</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_MOVEGW_CANCEL" Language="zh_Hant_HK">
+            <Text>轉移巨作</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_MOVEGW_CANCEL" Language="ja_JP">
+            <Text>傑作を移動する</Text>
+        </Replace>
+
+        <Replace Tag="LOC_AWASE_REMOVEIT_IGNORE" Language="en_US">
+            <Text>Continue Destruction</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_IGNORE" Language="zh_Hans_CN">
+            <Text>继续摧毁</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_IGNORE" Language="zh_Hant_HK">
+            <Text>繼續摧毀</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_IGNORE" Language="ja_JP">
+            <Text>破壊を続ける</Text>
+        </Replace>
+
+        <Replace Tag="LOC_AWASE_REMOVEIT_CONFIRM_TITLE" Language="en_US">
+            <Text>Confirm Destruction</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_CONFIRM_TITLE" Language="zh_Hans_CN">
+            <Text>确认摧毁</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_CONFIRM_TITLE" Language="zh_Hant_HK">
+            <Text>確認摧毀</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_CONFIRM_TITLE" Language="ja_JP">
+            <Text>破壊の確認</Text>
+        </Replace>
+
+        <Replace Tag="LOC_AWASE_REMOVEIT_CANCEL" Language="en_US">
+            <Text>Cancel Destruction</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_CANCEL" Language="zh_Hans_CN">
+            <Text>中止摧毁</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_CANCEL" Language="zh_Hant_HK">
+            <Text>中止摧毀</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_CANCEL" Language="ja_JP">
+            <Text>破壊を中止</Text>
+        </Replace>
+
+        <Replace Tag="LOC_AWASE_REMOVEIT_DESTROY" Language="en_US">
+            <Text>Continue Destruction</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_DESTROY" Language="zh_Hans_CN">
+            <Text>继续摧毁</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_DESTROY" Language="zh_Hant_HK">
+            <Text>繼續摧毀</Text>
+        </Replace>
+        <Replace Tag="LOC_AWASE_REMOVEIT_DESTROY" Language="ja_JP">
+            <Text>破壊を続ける</Text>
+        </Replace>
+	</LocalizedText>
+</GameData>

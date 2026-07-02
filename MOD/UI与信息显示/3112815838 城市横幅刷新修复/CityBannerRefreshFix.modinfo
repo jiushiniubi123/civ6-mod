@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0008AEE5-E62D-D464-C129-9D437C3911BB" version="20231212">
+	<Properties>
+		<Name>LOC_PCF_NAME</Name>
+		<Description>LOC_PCF_DESCRIPTION</Description>
+		<Teaser>LOC_PCF_TEASER</Teaser>
+		<Authors>[COLOR:ResGoldLabelCS]号码菌[ENDCOLOR]</Authors>
+		<AffectsSavedGames>0</AffectsSavedGames>
+		<CompatibleVersions>1.2,2.0</CompatibleVersions>
+	</Properties>
+	
+	<LocalizedText>
+		<Text id="LOC_PCF_NAME">
+			<en_US>[ENDCOLOR][ENDCOLOR]City Banner [COLOR:ResGoldLabelCS]Refresh Fix[ENDCOLOR]</en_US>
+			<zh_Hans_CN>[ENDCOLOR][ENDCOLOR][COLOR:ResGoldLabelCS]城市横幅刷新修复[ENDCOLOR]</zh_Hans_CN>
+		</Text>
+		<Text id="LOC_PCF_DESCRIPTION">
+			<en_US>[icon_You]Fixed a bug in the display of City Banners for population growth and production when managing citizens, switching city tiles, or harvesting resources</en_US>
+			<zh_Hans_CN>[icon_You]修复了城市横幅人口增长与生产回合时间的错误显示，当管理工作市民、切换城市单元格、收获资源时</zh_Hans_CN>
+		</Text>
+		<Text id="LOC_PCF_TEASER">
+			<en_US>CityBanner Refresh Fix</en_US>
+			<zh_Hans_CN>城市横幅刷新修复</zh_Hans_CN>
+		</Text>
+	</LocalizedText>
+
+	<InGameActions>
+		<ImportFiles id="CityBannerManager_PCF">
+			<Properties>
+				<LoadOrder>3</LoadOrder>
+			</Properties>
+			<File>PCF/UI/CityBannerManager_PCF.lua</File>
+		</ImportFiles>
+	</InGameActions>
+	<Files>
+		<File>PCF/UI/CityBannerManager_PCF.lua</File>
+	</Files>
+</Mod>

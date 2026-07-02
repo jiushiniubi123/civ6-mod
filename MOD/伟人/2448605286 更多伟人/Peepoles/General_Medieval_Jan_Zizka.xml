@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Medieval Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_JAN_ZIZKA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_JAN_ZIZKA" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_JAN_ZIZKA_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="1" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualBirthModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_JAN_ZIZKA" ModifierId="JAN_ZIZKA_HEAL_PASSIVE_MODIFIER"/>
+	</GreatPersonIndividualBirthModifiers>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_JAN_ZIZKA" ModifierId="GREATPERSON_PLATI_JAN_ZIZKA_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_JAN_ZIZKA_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>JAN_ZIZKA_HEAL_PASSIVE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_MEDIEVAL_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_JAN_ZIZKA_ACTIVE</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_HUSSITE_LEGACY</Value>
+		</Row>
+		<Row>
+			<ModifierId>JAN_ZIZKA_HEAL_PASSIVE_MODIFIER</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_JAN_ZIZKA</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_PLATI_JAN_ZIZKA_ACTIVE" 	Context="Summary" 	Text="LOC_GREATPERSON_PLATI_JAN_ZIZKA_ACTIVE"/>
+		<Row ModifierId="JAN_ZIZKA_HEAL_PASSIVE_MODIFIER" 	Context="Summary" 		Text="LOC_ABILITY_JAN_ZIZKA_PASSIVE"/>
+	</ModifierStrings>
+</GameData>

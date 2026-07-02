@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RENAISSANCE Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_COMMERCIAL_HUB"	ActionRequiresOwnedTile="false"	ActionRequiresNonHostileTerritory="True"	ActionEffectTextOverride="LOC_GREATPERSON_PLATI_AFANASIY_ALTERNATIVE_ACTIVE" />
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualBirthModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY" ModifierId="GREAT_PERSON_ENTER_FOREIGN_LANDS" />
+	</GreatPersonIndividualBirthModifiers>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_CITY_CENTER" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_ENCAMPMENT" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_CAMPUS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_HOLY_SITE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_COMMERCE_HUB" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_ENTERTAINMENT_HUB" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_INDUSTRIAL_HUB" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_AQUEDUCT" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_NEIGHBORHOOD" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_GOVERNMENT" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_WATERENT" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_DIPLOMATIC" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_HARBOR" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_DAM" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_CITY_CENTER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_AQUEDUCT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLATI_REQ_CITY_HAS_DISTRICT_AQUEDUCT</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_CAMPUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLATI_REQ_CITY_HAS_DISTRICT_CAMPUS</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_COMMERCE_HUB</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLATI_REQ_CITY_HAS_DISTRICT_COMMERCE</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_DAM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLATI_REQ_CITY_HAS_DISTRICT_DAM</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_DIPLOMATIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLATI_REQ_CITY_HAS_DISTRICT_DIPLOMATIC</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_ENCAMPMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_ENCAMPMENT</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_ENTERTAINMENT_HUB</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLATI_REQ_CITY_HAS_DISTRICT_ENTERTAINMENT</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_GOVERNMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLATI_REQ_CITY_HAS_DISTRICT_GOVERNMENT</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_HARBOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLATI_REQ_CITY_HAS_DISTRICT_HARBOR</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_HOLY_SITE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLATI_REQ_CITY_HAS_DISTRICT_HOLY</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_INDUSTRIAL_HUB</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLATI_REQ_CITY_HAS_DISTRICT_INDUSTRIAL</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_NEIGHBORHOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLATI_REQ_CITY_HAS_DISTRICT_NEIGHBORHOOD</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_WATERENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLATI_REQ_CITY_HAS_DISTRICT_WATER_ENTERTAINMENT</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_CITY_CENTER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_CITY_CENTER</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_CAMPUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_CAMPUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_AQUEDUCT</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_AQUEDUCT</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_COMMERCE_HUB</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_COMMERCE_HUB</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_DAM</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_DAM</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_DIPLOMATIC</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_DIPLOMATIC</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_ENCAMPMENT</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_ENCAMPMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_ENTERTAINMENT_HUB</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_ENTERTAINMENT_HUB</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_GOVERNMENT</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_GOVERNMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_HARBOR</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_HARBOR</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_HOLY_SITE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_HOLY_SITE</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_INDUSTRIAL_HUB</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_INDUSTRIAL_HUB</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_NEIGHBORHOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_NEIGHBORHOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<!-- --------------------------------------------------------------------------------------------------------------------->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_WATERENT</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_WATERENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_GOLD_CITY_CENTER" Context="Summary" Text="LOC_GREATPERSON_PLATI_AFANASIY_ALTERNATIVE_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

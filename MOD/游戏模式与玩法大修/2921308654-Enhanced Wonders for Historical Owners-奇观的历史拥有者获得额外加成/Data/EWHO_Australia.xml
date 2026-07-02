@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Australia -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 10/18/2023 12:13:18 AM -->
+<GameData>
+	<BuildingModifiers>
+		<!--悉尼歌剧院-->
+		<Row>
+			<BuildingType>BUILDING_SYDNEY_OPERA_HOUSE</BuildingType>
+			<ModifierId>SYDNEY_OPERA_HOUSE_ADJUST_COASTAL_CITIES_APPEAL_EWHO</ModifierId>
+		</Row>
+
+	</BuildingModifiers>
+
+	<Modifiers>
+		<!--悉尼歌剧院-->
+		<Row>
+			<ModifierId>SYDNEY_OPERA_HOUSE_ADJUST_COASTAL_CITIES_APPEAL_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_APPEAL</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_AUSTRALIA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLOT_IS_COASTAL_LAND_REQUIREMENTS_EWHO</SubjectRequirementSetId>
+		</Row>
+
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>SYDNEY_OPERA_HOUSE_ADJUST_COASTAL_CITIES_APPEAL_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+	</ModifierArguments>
+
+
+	<TraitModifiers>
+		<!--悉尼歌剧院-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_LAND_DOWN_UNDER</TraitType>
+			<ModifierId>CIVILIZATION_AUSTRALIA_ADJUST_SYDNEY_OPERA_HOUSE_PRODUCTION_EWHO</ModifierId>
+		</Row>
+		
+	</TraitModifiers>
+
+	<Modifiers>
+		<!--悉尼歌剧院-->
+		<Row>
+			<ModifierId>CIVILIZATION_AUSTRALIA_ADJUST_SYDNEY_OPERA_HOUSE_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_AUSTRALIA_EWHO</OwnerRequirementSetId>
+		</Row>	
+
+	</Modifiers>
+
+	<ModifierArguments>
+		<!--悉尼歌剧院-->
+		<Row>
+			<ModifierId>CIVILIZATION_AUSTRALIA_ADJUST_SYDNEY_OPERA_HOUSE_PRODUCTION_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_SYDNEY_OPERA_HOUSE</Value>
+		</Row>
+		<Row>
+			<ModifierId>CIVILIZATION_AUSTRALIA_ADJUST_SYDNEY_OPERA_HOUSE_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>	
+
+	</ModifierArguments>
+
+
+
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_PLAYER_IS_AUSTRALIA_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_AUSTRALIA_EWHO" RequirementId="PLAYER_IS_AUSTRALIA_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_AUSTRALIA_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="PLAYER_IS_AUSTRALIA_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+
+	</Requirements>
+
+	<RequirementArguments>
+		<Row RequirementId="PLAYER_IS_AUSTRALIA_EWHO" Name="CivilizationType" Value="CIVILIZATION_AUSTRALIA"/>
+
+	</RequirementArguments>
+	
+</GameData>

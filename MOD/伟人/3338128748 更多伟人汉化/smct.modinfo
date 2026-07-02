@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6f5f2f38-68ea-4d1f-868c-e7e2b6108aee" version="1">
+  <Properties>
+    <Name>LOC_SUMUS_MAGNUS_CHINESE_TRANSLATION</Name>
+    <Description>对Plati的Mod“Sumus Magnus”进行了汉化</Description>
+    <Teaser>顾名思义</Teaser>
+    <Authors>Bulan</Authors>
+    <SpecialThanks>我自己</SpecialThanks>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="5a18be19-df93-4322-a3d5-35c5b5087b36" title="Sumus Magnus" />
+  </Dependencies>  
+  <LocalizedText>
+    <Text id="LOC_SUMUS_MAGNUS_CHINESE_TRANSLATION">
+      <en_US>Plati's Sumus Magnus Chinese Translation MOD</en_US>
+      <zh_Hans_CN>Plati的“流芳百世”汉化</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <FrontEndActions>
+    <UpdateText id="smctconfig">
+      <Properties>
+        <LoadOrder>11000</LoadOrder>
+      </Properties>
+      <File>smct_c.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+     <UpdateText id="smct1">
+      <Properties>
+        <LoadOrder>11000</LoadOrder>
+      </Properties>
+      <File>smct.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+   <File>smct.xml</File>
+   <File>smct_c.sql</File>
+  </Files>
+</Mod>

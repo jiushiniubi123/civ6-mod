@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_BUILDING_MOTHERLAND_CALLS_NAME">
+			<Text>The Motherland Calls</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MOTHERLAND_CALLS_DESCRIPTION">
+			<Text>Grant a free [ICON_GreatGeneral] Great General when built, +10 Loyalty to all owned cities.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_MOTHERLAND_CALLS_CHAPTER_HISTORY_PARA_1">
+			<Text>Built in 1967 as a monument to the power of the Soviet Union and as a memorial to those that gave their lives during the battle of Stalingrad, The Motherland Calls is the world's tallest non-religious statue, standing at 91 metres to the tip of the sword. Leading to the statue are 200 stairs, one to mark each day of the battle of Stalingrad. </Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MOTHERLAND_CALLS_QUOTE">
+			<Text>“One of the hallmarks of a great nation, is it ability to raise to its feet after a fall.”[NEWLINE]– Vasily Osipovich Klyuchevsky </Text>
+		</Row>
+	</BaseGameText>
+  <LocalizedText>
+	<Replace Tag="LOC_BUILDING_MOTHERLAND_CALLS_NAME" Language="zh_Hans_CN">
+      <Text>祖国母亲在召唤</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_MOTHERLAND_CALLS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>建成时获得一个 [ICON_GreatGeneral] 大将军，所有城市+10忠诚度。</Text>
+    </Replace>
+	<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_MOTHERLAND_CALLS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>为了纪念在斯大林格勒保卫战中牺牲的将士，苏联于1967年在伏尔加格勒（今伏尔加格勒）建成这座纪念碑——“祖国母亲在召唤”。它是世界上最高的非宗教雕像，总高91米，200级台阶引领其上，台阶数象征着斯大林格勒保卫战的持续天数。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_MOTHERLAND_CALLS_QUOTE" Language="zh_Hans_CN">
+		<Text>一个国家之所以伟大，在于它拥有在跌倒时重新站起来的能力。[NEWLINE]——瓦西里·奥西波维奇·克柳切夫斯基</Text>
+	</Replace>
+
+	  <Replace Tag="LOC_BUILDING_MOTHERLAND_CALLS_NAME" Language="ru_RU">
+		  <Text>Родина-Мать зовёт!</Text>
+	  </Replace>
+	  <Replace Tag="LOC_BUILDING_MOTHERLAND_CALLS_DESCRIPTION" Language="ru_RU">
+		  <Text>Дает [ICON_GreatGeneral] великого полководец бесплатно, +10 лояльности всему городу.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_MOTHERLAND_CALLS_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		  <Text>Built in 1967 as a monument to the power of the Soviet Union and as a memorial to those that gave their lives during the battle of Stalingrad, The Motherland Calls is the world's tallest non-religious statue, standing at 91 metres to the tip of the sword. Leading to the statue are 200 stairs, one to mark each day of the battle of Stalingrad. </Text>
+	  </Replace>
+	  <Replace Tag="LOC_BUILDING_MOTHERLAND_CALLS_QUOTE" Language="ru_RU">
+		  <Text>«One of the hallmarks of a great nation, is it ability to raise to its feet after a fall».[NEWLINE]– Ключевский, Василий Осипович</Text>
+	  </Replace>
+  </LocalizedText>
+</GameData>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+ <GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_ClearNotifications_NAME" Language="zh_Hans_CN">
+			<Text>清理通知</Text>
+		</Replace>
+		<Replace Tag="LOC_ClearNotifications_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>快速清理通知</Text>
+		</Replace>
+		<Replace Tag="LOC_ClearNotifications_NAME" Language="en_US">
+			<Text>ClearNotifications</Text>
+		</Replace>
+		<Replace Tag="LOC_ClearNotifications_DESCRIPTION" Language="en_US">
+			<Text>ClearNotifications quickly</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

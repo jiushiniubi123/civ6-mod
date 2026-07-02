@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ca34be44-6540-4b76-8f66-2947dc515dd4" version="1">
+  <Properties>
+    <Name>LOC_MOD_SettlerBuilderMilitaryCanTeleport_NAME</Name>
+    <Description>LOC_MOD_SettlerBuilderMilitaryCanTeleport_DESCRIPTION</Description>
+    <Created>1708353161</Created>
+    <Teaser>LOC_MOD_SettlerBuilderMilitaryCanTeleport_TEASER</Teaser>
+    <Authors>336tarot</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="SettlerBuilderMilitaryCanTeleport_Database">
+      <File>SettlerBuilderMilitaryCanTeleport.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>SettlerBuilderMilitaryCanTeleport.sql</File>
+  </Files>
+  <LocalizedText>
+    <Text id="LOC_MOD_SettlerBuilderMilitaryCanTeleport_NAME">
+      <zh_Hans_CN>可转移到另一座城市的开拓者、建造者、军事工程师</zh_Hans_CN>
+      <zh_Hant_HK>可轉移到另一座城市的開拓者、建造者、軍事工程師</zh_Hant_HK>
+      <en_US>Settlers, Builders, and Military Engineers Can Transfer</en_US>
+    </Text>
+    <Text id="LOC_MOD_SettlerBuilderMilitaryCanTeleport_TEASER">
+      <zh_Hans_CN>开拓者、建造者、军事工程师可转移到另一座城市。</zh_Hans_CN>
+      <zh_Hant_HK>開拓者、建造者、軍事工程師可轉移到另一座城市。</zh_Hant_HK>
+      <en_US>Settlers, Builders, and Military Engineers Can Transfer to Another City.</en_US>
+    </Text>
+    <Text id="LOC_MOD_SettlerBuilderMilitaryCanTeleport_DESCRIPTION">
+      <zh_Hans_CN>开拓者、建造者、军事工程师可转移到另一座城市。</zh_Hans_CN>
+      <zh_Hant_HK>開拓者、建造者、軍事工程師可轉移到另一座城市。</zh_Hant_HK>
+      <en_US>Settlers, Builders, and Military Engineers Can Transfer to Another City.</en_US>
+    </Text>
+  </LocalizedText>
+</Mod>

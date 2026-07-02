@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>	
+	<UnitOperations>
+		<Update>
+			<Where OperationType="UNITOPERATION_SPY_RECRUIT_PARTISANS"/>
+			<Set>
+				<BaseProbability>16</BaseProbability>
+			</Set>
+		</Update>
+		<Update>
+			<Where OperationType="UNITOPERATION_SPY_BREACH_DAM"/>
+			<Set>
+				<BaseProbability>17</BaseProbability>
+			</Set>
+		</Update>
+	</UnitOperations>
+
+	<RandomEvent_Damages>
+		<Update><Where RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" DamageType="POPULATION_LOSS"/><Set><Percentage>5</Percentage></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" DamageType="UNIT_KILLED_CIVILIAN"/><Set><Percentage>10</Percentage></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" DamageType="UNIT_DAMAGE_LAND"/><Set><MinHP>10</MinHP><MaxHP>25</MaxHP></Set></Update>
+		
+		<Update><Where RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" DamageType="POPULATION_LOSS"/><Set><Percentage>5</Percentage></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" DamageType="UNIT_KILLED_CIVILIAN"/><Set><Percentage>10</Percentage></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" DamageType="UNIT_DAMAGE_LAND"/><Set><MinHP>25</MinHP><MaxHP>40</MaxHP></Set></Update>
+		
+		<Update><Where RandomEventType="RANDOM_EVENT_KILIMANJARO_CATASTROPHIC" DamageType="POPULATION_LOSS"/><Set><Percentage>5</Percentage></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_KILIMANJARO_CATASTROPHIC" DamageType="UNIT_KILLED_CIVILIAN"/><Set><Percentage>10</Percentage></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_KILIMANJARO_CATASTROPHIC" DamageType="UNIT_DAMAGE_LAND"/><Set><MinHP>10</MinHP><MaxHP>25</MaxHP></Set></Update>
+		
+		<Update><Where RandomEventType="RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL" DamageType="POPULATION_LOSS"/><Set><Percentage>5</Percentage></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL" DamageType="UNIT_KILLED_CIVILIAN"/><Set><Percentage>10</Percentage></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL" DamageType="UNIT_DAMAGE_LAND"/><Set><MinHP>30</MinHP><MaxHP>50</MaxHP></Set></Update>
+		
+		<Update><Where RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" DamageType="POPULATION_LOSS"/><Set><Percentage>5</Percentage></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" DamageType="UNIT_KILLED_CIVILIAN"/><Set><Percentage>10</Percentage></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" DamageType="UNIT_DAMAGE_LAND"/><Set><MinHP>10</MinHP><MaxHP>25</MaxHP></Set></Update>
+		
+		<Update><Where RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" DamageType="POPULATION_LOSS"/><Set><Percentage>5</Percentage></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" DamageType="UNIT_KILLED_CIVILIAN"/><Set><Percentage>10</Percentage></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" DamageType="UNIT_DAMAGE_LAND"/><Set><MinHP>25</MinHP><MaxHP>40</MaxHP></Set></Update>
+		
+		<Update><Where RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" DamageType="POPULATION_LOSS"/><Set><Percentage>5</Percentage></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" DamageType="UNIT_KILLED_CIVILIAN"/><Set><Percentage>10</Percentage></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" DamageType="UNIT_DAMAGE_LAND"/><Set><MinHP>10</MinHP><MaxHP>25</MaxHP></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" DamageType="UNIT_DAMAGE_NAVAL"/><Set><MinHP>10</MinHP><MaxHP>25</MaxHP></Set></Update>
+		
+		<Update><Where RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" DamageType="POPULATION_LOSS"/><Set><Percentage>5</Percentage></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" DamageType="UNIT_KILLED_CIVILIAN"/><Set><Percentage>10</Percentage></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" DamageType="UNIT_DAMAGE_LAND"/><Set><MinHP>10</MinHP><MaxHP>25</MaxHP></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" DamageType="UNIT_DAMAGE_NAVAL"/><Set><MinHP>10</MinHP><MaxHP>25</MaxHP></Set></Update>
+		
+		<Update><Where RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" DamageType="POPULATION_LOSS"/><Set><Percentage>5</Percentage></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" DamageType="UNIT_KILLED_CIVILIAN"/><Set><Percentage>10</Percentage></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" DamageType="UNIT_DAMAGE_LAND"/><Set><MinHP>10</MinHP><MaxHP>25</MaxHP></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" DamageType="UNIT_DAMAGE_NAVAL"/><Set><MinHP>10</MinHP><MaxHP>25</MaxHP></Set></Update>
+		
+		<Update><Where RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" DamageType="UNIT_DAMAGE_NAVAL"/><Set><MinHP>10</MinHP><MaxHP>25</MaxHP></Set></Update>
+		
+		<Update><Where RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" DamageType="POPULATION_LOSS"/><Set><Percentage>5</Percentage></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" DamageType="UNIT_KILLED_CIVILIAN"/><Set><Percentage>10</Percentage></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" DamageType="UNIT_DAMAGE_LAND"/><Set><MinHP>10</MinHP><MaxHP>25</MaxHP></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" DamageType="UNIT_DAMAGE_NAVAL"/><Set><MinHP>25</MinHP><MaxHP>40</MaxHP></Set></Update>
+				
+		<Update><Where RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR" DamageType="UNIT_KILLED_CIVILIAN"/><Set><Percentage>0</Percentage></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR" DamageType="UNIT_DAMAGE_LAND"/><Set><MinHP>10</MinHP><MaxHP>20</MaxHP></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR" DamageType="UNIT_DAMAGE_NAVAL"/><Set><MinHP>10</MinHP><MaxHP>20</MaxHP></Set></Update>
+		
+		<Update><Where RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC" DamageType="POPULATION_LOSS"/><Set><Percentage>0</Percentage></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC" DamageType="UNIT_KILLED_CIVILIAN"/><Set><Percentage>0</Percentage></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC" DamageType="UNIT_DAMAGE_LAND"/><Set><MinHP>10</MinHP><MaxHP>20</MaxHP></Set></Update>
+		<Update><Where RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC" DamageType="UNIT_DAMAGE_NAVAL"/><Set><MinHP>10</MinHP><MaxHP>20</MaxHP></Set></Update>
+	</RandomEvent_Damages>
+	
+</GameData>

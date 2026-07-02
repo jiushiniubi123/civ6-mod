@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_ConfigText_zh_Hant_HK -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 2/28/2023 6:44:14 PM -->
+<GameData>
+	
+	<LocalizedText>
+
+		<Replace Tag="LOC_GAMEMODE_EWHOHUMANONLY_NAME" Language="zh_Hant_HK">
+			<Text>奇觀歷史擁有者專屬加成：僅限人類</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_EWHOHUMANONLY_DESC" Language="zh_Hant_HK">
+			<Text>開啟這個遊戲模式，只有人類玩家才能獲得奇觀歷史擁有者專屬加成。</Text>
+		</Replace>
+
+	</LocalizedText>
+	
+</GameData>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Data_Local -->
+<!-- Author: aall1 -->
+<!-- DateCreated: 4/20/2019 11:13:20 PM -->
+<GameData>
+	<EnglishText>
+		<Row Tag="LOC_HUD_WONDERPROGRESS_TOOLTIP_1">
+			<Text> is currently building this in </Text>
+		</Row>
+		<Row Tag="LOC_HUD_WONDERPROGRESS_TOOLTIP_2">
+			<Text>.</Text>
+		</Row>
+		<Row Tag="LOC_HUD_WONDERPROGRESS_TOOLTIP_3">
+			<Text> turns until completed.</Text>
+		</Row>
+		<Row Tag="LOC_HUD_WONDERPROGRESS_TOOLTIP_UNKNOWNCIV">
+			<Text>An Unknown Civilization</Text>
+		</Row>
+		<Row Tag="LOC_HUD_WONDERPROGRESS_TOOLTIP_UNKNOWNCITY">
+			<Text>an Unknown City</Text>
+		</Row>
+		<Row Tag="LOC_HUD_WONDERPROGRESS_TOOLTIP_BANNERTIP">
+			<Text>Other civilizations are currently building this Wonder:</Text>
+		</Row>
+	</EnglishText>
+	<LocalizedText>
+		<Replace Tag="LOC_HUD_WONDERPROGRESS_TOOLTIP_1" Language="zh_Hans_CN">
+			<Text>正在</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_WONDERPROGRESS_TOOLTIP_2" Language="zh_Hans_CN">
+			<Text>建造此奇观。</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_WONDERPROGRESS_TOOLTIP_3" Language="zh_Hans_CN">
+			<Text>回合后完成。</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_WONDERPROGRESS_TOOLTIP_UNKNOWNCIV" Language="zh_Hans_CN">
+			<Text>一个未知文明</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_WONDERPROGRESS_TOOLTIP_UNKNOWNCITY" Language="zh_Hans_CN">
+			<Text>一座未知城市</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_WONDERPROGRESS_TOOLTIP_BANNERTIP" Language="zh_Hans_CN">
+			<Text>其他文明正在建造这座奇观：</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

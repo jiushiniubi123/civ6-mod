@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Modifiers -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/29/2023 10:57:49 PM -->
+<GameData>
+	<Types>
+		<Row Type="MODIFIER_SINGLE_CITY_GRANT_UNIT_BY_CLASS_EWHO" Kind="KIND_MODIFIER"/>
+		<Row Type="MODIFIER_PLAYER_DISTRICTS_ATTACH_MODIFIER_EWHO" Kind="KIND_MODIFIER"/>
+		<Row Type="MODIFIER_PLAYER_ALLOW_PROJECT_EWHO" Kind="KIND_MODIFIER"/>
+		<Row Type="MODIFIER_PLAYER_PLOT_YIELDS_ATTACH_EWHO" Kind="KIND_MODIFIER"/>
+		<Row Type="MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO" Kind="KIND_MODIFIER"/>
+		<Row Type="MODIFIER_PLAYER_IMPROVEMENTS_ATTACH_MODIFIER_EWHO" Kind="KIND_MODIFIER"/>
+		<Row Type="MODIFIER_SINGLE_CITY_ADJUST_OUTER_DEFENSE_EWHO" Kind="KIND_MODIFIER"/>
+		<Row Type="MODIFIER_SINGLE_CITY_ADJUST_PROJECT_PRODUCTION_EWHO" Kind="KIND_MODIFIER"/>
+		<Row Type="MODIFIER_SINGLE_CITY_ADJUST_YIELD_MODIFIER_FROM_FAITH_EWHO" Kind="KIND_MODIFIER"/>
+		<Row Type="MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL_EWHO" Kind="KIND_MODIFIER"/>
+
+	</Types>
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_BY_CLASS_EWHO</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_GRANT_UNIT_BY_CLASS</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ATTACH_MODIFIER_EWHO</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_DISTRICTS</CollectionType>
+			<EffectType>EFFECT_ATTACH_MODIFIER</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_ALLOW_PROJECT_EWHO</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADD_PLAYER_PROJECT_AVAILABILITY</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_PLOT_YIELDS_ATTACH_EWHO</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_PLOT_YIELDS</CollectionType>
+			<EffectType>EFFECT_ATTACH_MODIFIER</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_UNIT_TAG_ERA_PRODUCTION</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_IMPROVEMENTS_ATTACH_MODIFIER_EWHO</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_IMPROVEMENTS</CollectionType>
+			<EffectType>EFFECT_ATTACH_MODIFIER</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_OUTER_DEFENSE_EWHO</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_CITY_OUTER_DEFENSE</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_PROJECT_PRODUCTION_EWHO</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_PROJECT_PRODUCTION</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_YIELD_MODIFIER_FROM_FAITH_EWHO</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_CITY_YIELD_MODIFIER_FROM_FAITH</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL_EWHO</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_ADJUST_CITY_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</EffectType>
+		</Row>
+		
+	</DynamicModifiers>
+
+</GameData>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c7b4f9a2-8e31-4f6d-9c2a-5e8b1f4a2d90" version="1">
+    <Properties>
+        <Name>Military Engineer Railroad Highlight</Name>
+        <Description>While a Military Engineer is selected, all railroad tiles you can see are highlighted on the map. The highlight updates when railroads are built, upgraded, or removed—no map search required.</Description>
+        <Teaser>Live railroad overlay when using Military Engineers.</Teaser>
+        <Authors>thefsm93</Authors>
+        <CompatibleVersions>2.0</CompatibleVersions>
+        <SupportsMultiplayer>1</SupportsMultiplayer>
+        <SupportsHotSeat>1</SupportsHotSeat>
+        <AffectsSavedGames>0</AffectsSavedGames>
+    </Properties>
+    <!-- Require Gathering Storm via game core criteria (avoids DLC "Mod" id lookup issues that show as Depends on LOC_EXPANSION2_TITLE). -->
+    <ActionCriteria>
+        <Criteria id="Expansion2">
+            <GameCoreInUse>Expansion2</GameCoreInUse>
+        </Criteria>
+    </ActionCriteria>
+    <FrontEndActions />
+    <InGameActions>
+        
+        <AddUserInterfaces id="MilitaryEngineerRailHighlight_UI" criteria="Expansion2">
+            <Properties>
+                <Context>InGame</Context>
+            </Properties>
+            <File>UI/EngineerRailroadHighlight.xml</File>
+        </AddUserInterfaces>
+    </InGameActions>
+    <Files>
+        <File>UI/EngineerRailroadHighlight.xml</File>
+        <File>UI/EngineerRailroadHighlight.lua</File>
+    </Files>
+</Mod>

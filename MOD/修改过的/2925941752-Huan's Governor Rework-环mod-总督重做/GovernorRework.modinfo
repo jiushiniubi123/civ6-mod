@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0f508b1b-1470-4710-83ae-37bdd04fa2eb" version="1">
+  <Properties>
+    <Name>LOC_H_GOVERNOR_REWORK_NAME</Name>
+    <Description>LOC_H_GOVERNOR_REWORK_DESCRIPTION</Description>
+    <Teaser>LOC_H_GOVERNOR_REWORK_TEASER</Teaser>
+    <Authors>环己烷</Authors>
+    <SpecialThanks></SpecialThanks>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="LOC_H_GOVERNOR_REWORK_NAME">
+      <en_US>Huan's Governor Rework</en_US>
+      <zh_Hans_CN>环mod-总督重做</zh_Hans_CN>
+    </Text>
+  <Text id="LOC_H_GOVERNOR_REWORK_DESCRIPTION">
+      <en_US>Huan's Governor Rework</en_US>
+      <zh_Hans_CN>环mod-总督重做</zh_Hans_CN>
+    </Text>
+  <Text id="LOC_H_GOVERNOR_REWORK_TEASER">
+      <en_US>Huan's Governor Rework</en_US>
+      <zh_Hans_CN>环mod-总督重做</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <ActionCriteria>
+    <Criteria id="Expansion2_NO_Huan_MOD">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse inverse="1">a8939399-32ec-4e22-8f5a-4616225924b0</ModInUse>
+    </Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <!-- Governor Rework -->
+    <AddUserInterfaces id="GovernorsRework_lua" criteria="Expansion2_NO_Huan_MOD">
+      <Properties>
+        <Context>InGame</Context>
+        <LoadOrder>12000</LoadOrder>
+      </Properties>
+      <File>Scripts/H_Governors_Interface.xml</File>
+    </AddUserInterfaces>
+    <ImportFiles id="H_Governors_Rework_import" criteria="Expansion2_NO_Huan_MOD">
+      <Properties><LoadOrder>12001</LoadOrder></Properties>
+      <File>Scripts/H_Governors_Interface.lua</File>
+      <File>Scripts/Utilities.lua</File>
+      <File>Scripts/H_Governors.lua</File>
+    </ImportFiles>
+    <AddGameplayScripts id="H_Governor_Rework_Gameplay" criteria="Expansion2_NO_Huan_MOD">
+      <Properties><LoadOrder>12002</LoadOrder></Properties>
+      <File>Scripts/Utilities.lua</File>
+      <File>Scripts/H_Governors.lua</File>
+    </AddGameplayScripts>
+    <UpdateDatabase id="H_Governors" criteria="Expansion2_NO_Huan_MOD">
+      <Properties><LoadOrder>12003</LoadOrder></Properties>
+      <File>Database/H_Governors.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="H_Governors_Reqs" criteria="Expansion2_NO_Huan_MOD">
+      <Properties><LoadOrder>13000</LoadOrder></Properties>
+      <File>Database/H_Governor_Reqs.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="H_MOD_Text_Basic" criteria="Expansion2_NO_Huan_MOD">
+      <Properties><LoadOrder>14001</LoadOrder></Properties>
+        <File>Texts/H_Text_Governors_en_US.xml</File>
+        <File>Texts/H_Text_Governors_zh_Hans.xml</File>
+    </UpdateText>
+    <UpdateIcons id="H_Governors_Icons" criteria="Expansion2_NO_Huan_MOD">
+      <Properties><LoadOrder>14001</LoadOrder></Properties>
+      <File>Icons/H_Icons_Governors.xml</File>
+    </UpdateIcons>
+  </InGameActions>
+    <Files>
+      <File>Scripts/H_Governors_Interface.xml</File>
+      <File>Scripts/H_Governors_Interface.lua</File>
+      <File>Scripts/Utilities.lua</File>
+      <File>Scripts/H_Governors.lua</File>
+      <File>Database/H_Governors.sql</File>
+      <File>Database/H_Governor_Reqs.sql</File>
+      <File>Texts/H_Text_Governors_en_US.xml</File>
+      <File>Texts/H_Text_Governors_zh_Hans.xml</File>
+      <File>Icons/H_Icons_Governors.xml</File>
+  </Files>
+</Mod>

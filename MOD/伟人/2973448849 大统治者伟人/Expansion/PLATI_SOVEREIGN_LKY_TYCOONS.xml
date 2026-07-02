@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GreatSovereigns -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_ELEVENTH" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ELEVENTH"
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ELEVENTH_NAME"
+			 GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns"
+			 EraType="ERA_ATOMIC" Gender="M" ActionCharges="1"
+			 ActionRequiresCompletedDistrictType="DISTRICT_GOVERNMENT"
+			 ActionEffectTextOverride="LOC_GREATPERSON_PLATI_LKY_CORPORATE_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ELEVENTH" ModifierId="GREAT_PLATI_LEE_KUAN_YEW" 			AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ELEVENTH" ModifierId="GREAT_PLATI_LEE_KUAN_YEW_INVESTOR" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row ModifierId="GREAT_PLATI_LEE_KUAN_YEW" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_GREAT_PERSON_CHARGES" RunOnce="false" Permanent="true" SubjectRequirementSetId="UNIT_IS_MERCHANT"/>
+		<Row>
+			<ModifierId>GREAT_PLATI_LEE_KUAN_YEW_INVESTOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="GREAT_PLATI_LEE_KUAN_YEW" Name="Amount" Value="1" />
+		<Row>
+			<ModifierId>GREAT_PLATI_LEE_KUAN_YEW_INVESTOR</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_LEU_INVESTOR</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PLATI_LEE_KUAN_YEW_INVESTOR</ModifierId>
+			<Name>Experience</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PLATI_LEE_KUAN_YEW_INVESTOR</ModifierId>
+			<Name>UniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREAT_PLATI_LEE_KUAN_YEW" Context="Summary" Text="LOC_GREATPERSON_PLATI_LKY_CORPORATE_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

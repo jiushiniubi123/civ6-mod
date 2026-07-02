@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Data_Icon -->
+<!-- Author: aall1 -->
+<!-- DateCreated: 4/12/2019 2:40:31 AM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_THREE_GORDES_DAM" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="TGD32"/>
+		<Row Name="ICON_ATLAS_THREE_GORDES_DAM" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="TGD38"/>
+		<Row Name="ICON_ATLAS_THREE_GORDES_DAM" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="TGD50"/>
+		<Row Name="ICON_ATLAS_THREE_GORDES_DAM" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="TGD64"/>
+		<Row Name="ICON_ATLAS_THREE_GORDES_DAM" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="TGD128"/>
+		<Row Name="ICON_ATLAS_THREE_GORDES_DAM" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="TGD256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_THREE_GORDES_DAM" Atlas="ICON_ATLAS_THREE_GORDES_DAM" Index="0"/>
+	</IconDefinitions>
+	
+</GameData>

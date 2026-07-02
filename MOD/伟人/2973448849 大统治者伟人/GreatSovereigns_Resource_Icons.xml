@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_RESOURCE_COWRIE" 			IconSize="22" IconsPerRow="8" IconsPerColumn="8" Filename="COWRIE_22.dds"/>
+		<Row Name="ICON_ATLAS_RESOURCE_COWRIE" 			IconSize="38" IconsPerRow="8" IconsPerColumn="8" Filename="COWRIE_38.dds"/>
+		<Row Name="ICON_ATLAS_RESOURCE_COWRIE" 			IconSize="50" IconsPerRow="8" IconsPerColumn="8" Filename="COWRIE_50.dds"/>
+		<Row Name="ICON_ATLAS_RESOURCE_COWRIE" 			IconSize="64" IconsPerRow="8" IconsPerColumn="8" Filename="COWRIE_64.dds"/>
+		<Row Name="ICON_ATLAS_RESOURCE_COWRIE" 			IconSize="256" IconsPerRow="8" IconsPerColumn="8" Filename="COWRIE_256.dds"/>
+		<Row Name="ICON_ATLAS_RESOURCE_COWRIE_BASELINE_6" 	Baseline="6" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="COWRIE_22.dds"/>
+		<!------------------------------------------------------------------------------------------------------------------------------------------>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="RESOURCE_COWRIE" 		Atlas="ICON_ATLAS_RESOURCE_COWRIE_BASELINE_6" Index="0"/>
+		<Row Name="ICON_RESOURCE_COWRIE" 	Atlas="ICON_ATLAS_RESOURCE_COWRIE" Index="0"/>
+		<!------------------------------------------------------------------------------------------------>
+	</IconDefinitions>
+</GameData>

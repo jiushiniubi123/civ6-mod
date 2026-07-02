@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Byzantium_Gaul -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/20/2023 6:16:34 PM -->
+<GameData>
+	<BuildingModifiers>
+		<!--宙斯像-->
+		<Row>
+			<BuildingType>BUILDING_STATUE_OF_ZEUS</BuildingType>
+			<ModifierId>STATUE_OF_ZEUS_GRANT_ADJACENT_BONUS_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STATUE_OF_ZEUS</BuildingType>
+			<ModifierId>STATUE_OF_ZEUS_GRANT_EXTRA_MOVEMENT_EWHO</ModifierId>
+		</Row>
+		<!--圣索菲亚大教堂-->
+		<Row>
+			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
+			<ModifierId>HAGIA_SOPHIA_CAVALRY_GRANT_BONUS_EWHO</ModifierId>
+		</Row>
+		<!--生物圈-->
+		<Row>
+			<BuildingType>BUILDING_BIOSPHERE</BuildingType>
+			<ModifierId>BIOSPHERE_ADJUST_GOLD_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BIOSPHERE</BuildingType>
+			<ModifierId>BIOSPHERE_ADJUST_NEIGHBORHOOD_TOURISM_CHANGE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BIOSPHERE</BuildingType>
+			<ModifierId>BIOSPHERE_ADJUST_NEIGHBORHOOD_PRODUCTION_EWHO</ModifierId>
+		</Row>
+
+	</BuildingModifiers>
+
+	<Modifiers>
+		<!--宙斯像-->
+		<Row>
+			<ModifierId>STATUE_OF_ZEUS_GRANT_ADJACENT_BONUS_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_GREECE_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STATUE_OF_ZEUS_GRANT_EXTRA_MOVEMENT_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_GREECE_EWHO</OwnerRequirementSetId>
+		</Row>
+		<!--圣索菲亚大教堂-->
+		<Row>
+			<ModifierId>HAGIA_SOPHIA_CAVALRY_GRANT_BONUS_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_BYZANTIUM_EWHO</OwnerRequirementSetId>
+		</Row>
+		
+		<!--生物圈-->
+		<Row>
+			<ModifierId>BIOSPHERE_ADJUST_GOLD_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_AMERICA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>BIOSPHERE_ADJUST_NEIGHBORHOOD_TOURISM_CHANGE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_TOURISM_CHANGE</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_AMERICA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_DISTRICT_IS_NEIGHBORHOOD_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>BIOSPHERE_ADJUST_NEIGHBORHOOD_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_AMERICA_EWHO</OwnerRequirementSetId>
+		</Row>	
+
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>STATUE_OF_ZEUS_GRANT_ADJACENT_BONUS_EWHO</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_STATUE_OF_ZEUS_ADJACENT_STRENGTH_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>STATUE_OF_ZEUS_GRANT_EXTRA_MOVEMENT_EWHO</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_STATUE_OF_ZEUS_EXTRA_MOVEMENT_EWHO</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>HAGIA_SOPHIA_CAVALRY_GRANT_BONUS_EWHO</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_HAGIA_SOPHIA_CAVALRY_STRENGTH_EWHO</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>BIOSPHERE_ADJUST_GOLD_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_BIOSPHERE</Value>
+		</Row>
+		<Row>
+			<ModifierId>BIOSPHERE_ADJUST_GOLD_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>BIOSPHERE_ADJUST_GOLD_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>BIOSPHERE_ADJUST_NEIGHBORHOOD_TOURISM_CHANGE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>BIOSPHERE_ADJUST_NEIGHBORHOOD_PRODUCTION_EWHO</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_NEIGHBORHOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>BIOSPHERE_ADJUST_NEIGHBORHOOD_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		
+	</ModifierArguments>
+
+
+	<TraitModifiers>
+		<!--宙斯像-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_PLATOS_REPUBLIC</TraitType>
+			<ModifierId>CIVILIZATION_GREECE_ADJUST_STATUE_OF_ZEUS_PRODUCTION_EWHO</ModifierId>
+		</Row>
+		<!--圣索菲亚大教堂-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_BYZANTIUM</TraitType>
+			<ModifierId>CIVILIZATION_BYZANTIUM_ADJUST_HAGIA_SOPHIA_PRODUCTION_EWHO</ModifierId>
+		</Row>
+		
+		<!--生物圈-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FOUNDING_FATHERS</TraitType>
+			<ModifierId>CIVILIZATION_AMERICA_ADJUST_BIOSPHERE_PRODUCTION_EWHO</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<Modifiers>
+		<!--宙斯像-->
+		<Row>
+			<ModifierId>CIVILIZATION_GREECE_ADJUST_STATUE_OF_ZEUS_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_GREECE_EWHO</OwnerRequirementSetId>
+		</Row>
+		<!--圣索菲亚大教堂-->
+		<Row>
+			<ModifierId>CIVILIZATION_BYZANTIUM_ADJUST_HAGIA_SOPHIA_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_BYZANTIUM_EWHO</OwnerRequirementSetId>
+		</Row>
+		<!--生物圈-->
+		<Row>
+			<ModifierId>CIVILIZATION_AMERICA_ADJUST_BIOSPHERE_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_AMERICA_EWHO</OwnerRequirementSetId>
+		</Row>
+		
+	</Modifiers>
+
+	<ModifierArguments>
+		<!--宙斯像-->
+		<Row>
+			<ModifierId>CIVILIZATION_GREECE_ADJUST_STATUE_OF_ZEUS_PRODUCTION_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_STATUE_OF_ZEUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>CIVILIZATION_GREECE_ADJUST_STATUE_OF_ZEUS_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!--圣索菲亚大教堂-->
+		<Row>
+			<ModifierId>CIVILIZATION_BYZANTIUM_ADJUST_HAGIA_SOPHIA_PRODUCTION_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_HAGIA_SOPHIA</Value>
+		</Row>
+		<Row>
+			<ModifierId>CIVILIZATION_BYZANTIUM_ADJUST_HAGIA_SOPHIA_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!--生物圈-->
+		<Row>
+			<ModifierId>CIVILIZATION_AMERICA_ADJUST_BIOSPHERE_PRODUCTION_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_BIOSPHERE</Value>
+		</Row>
+		<Row>
+			<ModifierId>CIVILIZATION_AMERICA_ADJUST_BIOSPHERE_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		
+		
+	</ModifierArguments>
+
+
+	
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_PLAYER_IS_BYZANTIUM_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_BYZANTIUM_EWHO" RequirementId="PLAYER_IS_BYZANTIUM_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_BYZANTIUM_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="PLAYER_IS_BYZANTIUM_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+
+	</Requirements>
+
+	<RequirementArguments>
+		<Row RequirementId="PLAYER_IS_BYZANTIUM_EWHO" Name="CivilizationType" Value="CIVILIZATION_BYZANTIUM"/>
+
+	</RequirementArguments>
+
+</GameData>

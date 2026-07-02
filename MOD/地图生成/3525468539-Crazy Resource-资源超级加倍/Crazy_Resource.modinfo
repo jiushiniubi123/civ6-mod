@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="F1B0C6B5-2279-6D07-0FED-14B3550FDAFF" version="1">
+  <Properties>
+    <Name>LOC_MOD_CRAZYRESOURCE_NAME</Name>
+    <Description>LOC_MOD_CRAZYRESOURCE_DESC</Description>
+    <Created>1745481858</Created>
+    <Teaser>LOC_MOD_CRAZYRESOURCE_DESC</Teaser>
+    <Authors>LOC_MOD_CRAZYRESOURCE_AUTHORS</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="LOC_MOD_CRAZYRESOURCE_NAME">
+      <en_US>[COLOR:ResCultureLabelCS]Crazy Resource[ENDCOLOR]</en_US>
+      <zh_Hans_CN>[COLOR:ResCultureLabelCS]资源超级加倍[ENDCOLOR] By [COLOR:DiplomaticLabelCS]千川白浪[ENDCOLOR]</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_MOD_CRAZYRESOURCE_DESC">
+      <en_US>[ICON_Bolt]Two new options have been added for resource generation. Allow more resources to be generated on the map.</en_US>
+      <zh_Hans_CN>[ICON_Bolt]为资源生成添加了两个新选项。允许在地图上生成更多的资源。</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_MOD_CRAZYRESOURCE_AUTHORS">
+      <en_US>Nwflower</en_US>
+      <zh_Hans_CN>[COLOR:DiplomaticLabelCS]千川白浪[ENDCOLOR]</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <References>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </References>
+  <FrontEndActions>
+    <UpdateDatabase id="CRAZYRESOURCE_UpdateDatabaseFE">
+        <Properties>
+            <LoadOrder>21000</LoadOrder>
+        </Properties>
+        <File>Crazy_Resource.sql</File>
+    </UpdateDatabase>
+  </FrontEndActions>
+  <InGameActions>
+    <ImportFiles id="CRAZYRESOURCE_IF">
+      <Properties>
+        <LoadOrder>25000</LoadOrder>
+      </Properties>
+      <File>Utility/ResourceGenerator.lua</File>
+    </ImportFiles>
+  </InGameActions>
+  <Files>
+    <File>Crazy_Resource.sql</File>
+    <File>Utility/ResourceGenerator.lua</File>
+  </Files>
+</Mod>

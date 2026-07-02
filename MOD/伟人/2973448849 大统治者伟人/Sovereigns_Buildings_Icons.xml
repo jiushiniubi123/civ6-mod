@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <IconDefinitions>
+        <Row Name="ICON_BUILDING_PLATI_MONUMENT_ASKIA" 	Atlas="ICON_ATLAS_BUILDINGS" Index="0"/>
+		<Row Name="ICON_BUILDING_HAKAM_CATHEDRAL"       Atlas="ICON_ATLAS_BUILDINGS" Index="40"/>
+		<Row Name="ICON_BUILDING_HAKAM_MOSQUE"          Atlas="ICON_ATLAS_BUILDINGS" Index="43"/>
+		<Row Name="ICON_BUILDING_HAKAM_SYNAGOGE"       	Atlas="ICON_ATLAS_BUILDINGS" Index="45"/>
+    </IconDefinitions>
+</GameData>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fa89c96b-9520-4bf6-ae91-a05f108a6686" version="1">
+  <Properties>
+    <Name>Mali Without Debuff Mod\马里无负面效果模组</Name>
+    <Description>Mali Without Debuff\马里无负面效果模组</Description>
+    <Teaser>Mali Without Debuff\马里无负面效果模组</Teaser>
+    <Authors>阿列克谢耶维奇</Authors>
+    <SpecialThanks></SpecialThanks>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="LOC_MALI_WITHOUT_DEBUFF_NAME">
+      <en_US>Mali Without Debuff And Enhanced Mod</en_US>
+      <zh_Hans_CN>马里无负面效果且增强模组</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <FrontEndActions>
+    <UpdateText id="MaliWithoutDebuff_Text">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>texts.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="MaliWithoutDebuff">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>mali.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="MaliWithoutDebuff_Text">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>texts.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>mali.sql</File>
+    <File>texts.sql</File>
+  </Files>
+</Mod>

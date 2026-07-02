@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6d4c4eb1-dade-4df4-b92b-506717357398" version="1">
+  <Properties>
+    <Name>Map Generation Fixing</Name>
+    <Description>
+      Fixing the goodyhuts generating bias, changed to uniform distribution, and make snow cells as invalid locations for the goodyhuts.
+      修复了部落村庄生成中的问题使其成为均匀分布，并不再放置部落村庄在雪地单元格上。
+
+      Fixing the features (forest, jungle, marsh) generating bias for XP2 (Gathering Storm).
+      为风云变幻规则集修复了地图生成中，树林、雨林、沼泽地貌的分布偏差（如南极冻土带树林密度过大）。
+
+      Files changed:
+      1. MapUtility.lua
+      2. FeatureGenerator.lua for XP2.
+    </Description>
+    <CustomProperties></CustomProperties>
+    <Created>1609051187</Created>
+    <Teaser>Fixing the random sampling bias problem during the map generation.</Teaser>
+    <Authors>DeepLogic</Authors>
+    <SpecialThanks>流浪de蒲公英</SpecialThanks>
+    <Homepage>https://space.bilibili.com/385456816</Homepage>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="Vanilla">
+      <RuleSetInUse>RULESET_STANDARD</RuleSetInUse>
+    </Criteria>
+    <Criteria id="Expansion1">
+      <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+    </Criteria>
+    <Criteria id="Expansion2">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <ImportFiles id="GoodyhutsFixing">
+      <Properties>
+        <LoadOrder>15001</LoadOrder>
+      </Properties>
+      <File>MapUtilities.lua</File>
+    </ImportFiles>
+    <!-- <ImportFiles id="FeatureGenFixing">
+      <File>base/FeatureGenerator.lua</File>
+    </ImportFiles> -->
+    <!-- <ImportFiles id="FeatureGenFixingXP1" criteria="Expansion1">
+      <File>FeatureGenerator_XP1.lua</File>
+    </ImportFiles> -->
+    <ImportFiles id="FeatureGenFixingXP2" criteria="Expansion2">
+      <Properties>
+        <LoadOrder>15001</LoadOrder>
+      </Properties>
+      <File>XP2/FeatureGenerator.lua</File>
+    </ImportFiles>
+  </InGameActions>
+  <Files>
+    <File>MapUtilities.lua</File>
+    <!-- <File>base/FeatureGenerator.lua</File> -->
+    <!-- <File>XP1/FeatureGenerator.lua</File> -->
+    <File>XP2/FeatureGenerator.lua</File>
+  </Files>
+</Mod>

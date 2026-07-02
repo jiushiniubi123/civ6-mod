@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="87f36551-e9ec-4299-b24c-c6aab9e7ebaf" version="1">
+  <Properties>
+    <Name>Simple Buff Rationalism Policies to 10 3</Name>
+    <Description>Grand Opera, Rationalism, Simultaneum: city [ICON_CITIZEN] population is 10(instead of 15) or higher, district has at least +3(instead of 4) adjacency bonus[NEWLINE][NEWLINE]Free Market: city [ICON_CITIZEN] population is 10(instead of 15) or higher[NEWLINE][NEWLINE][NEWLINE]Languages: en-US, ko-KR</Description>
+    <Created>1632119918</Created>
+    <Teaser>Ease the conditions of Grand Opera, Rationalism, Simultaneum, and Free Market</Teaser>
+    <Authors>keyxp</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="SB_Rationalism_Policies_To_10_3_ID">
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File>Ingame/Data.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="SB_Rationalism_Policies_To_10_3_IT">
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File>Ingame/Text_en_US.xml</File>
+      <File>Ingame/Text_zh_Hans_CN.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Ingame/Data.sql</File>
+    <File>Ingame/Text_en_US.xml</File>
+    <File>Ingame/Text_zh_Hans_CN.xml</File>
+  </Files>
+</Mod>

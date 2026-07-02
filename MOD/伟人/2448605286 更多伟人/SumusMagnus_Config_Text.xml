@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <BaseGameText>	
+	<Row tag="LOC_SUMUS_MAGNUS_PEACE_VISIONARIES_NAME" >
+		<Text>Sumus Magnus: Visionaries of Peace</Text>
+	</Row>
+	<Row tag="LOC_SUMUS_MAGNUS_PEACE_VISIONARIES_DESC" >
+		<Text>Adds five Great Writers who instead of [ICON_GREATWORK_WRITING] Great Works of Writing provide +1 Diplomatic Victory point each. This makes achieving Diplomatic Victory easier, but increases the cost of later-era Great Writers.</Text>
+	</Row>
+	<Row tag="LOC_SUMUS_MAGNUS_UNIQUE_IMPROV_NAME" >
+		<Text>Sumus Magnus: Civilization Uniques</Text>
+	</Row>
+	<Row tag="LOC_SUMUS_MAGNUS_UNIQUE_IMPROV_DESC" >
+		<Text>Adds several Great People who unlock civilization unique improvements and units.[NEWLINE][NEWLINE]The list is: Dutch Polder (Jan Adriaanszoon Leeghwater), French Chateau (Philibert de l'Orme) and Spanish Mission (Christopher Clavius) for improvements. For units its Swedish Carolean (Carolus Rex), Barbary Corsair (Hayreddin Barbarossa) and Polish Winged Hussar (Stanisław Żółkiewski).</Text>
+	</Row>
+	<Row tag="LOC_SUMUS_MAGNUS_REMOVE_UNIMPRESSIVES_NAME" >
+		<Text>Sumus Magnus: Remove Unimpressives</Text>
+	</Row>
+	<Row tag="LOC_SUMUS_MAGNUS_REMOVE_UNIMPRESSIVES_DESC" >
+		<Text>Removes couple of base-game Great People with unimpressive bonuses.[NEWLINE][NEWLINE]For merchants, these would be people who simply give some gold and minor bonus like an envoy. For generals and admirals - those who give underwhelming unit like warrior monk. For Engineers, these are ones who grant minor housing and amenities bonuses. The rest of the Great People are untouched.[NEWLINE][NEWLINE]Recommended if you are struggling to recruit late-era Generals, Merchants, Admirals and Engineers.</Text>
+	</Row>
+  </BaseGameText>
+</GameData>

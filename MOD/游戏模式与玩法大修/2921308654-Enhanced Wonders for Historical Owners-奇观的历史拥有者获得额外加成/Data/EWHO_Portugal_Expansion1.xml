@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Portual_Expansion1 -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 2/19/2023 11:35:36 PM -->
+<GameData>
+	<BuildingModifiers>
+		<!--贝伦塔-->
+		<Row>
+			<BuildingType>BUILDING_TORRE_DE_BELEM</BuildingType>
+			<ModifierId>TORRE_DE_BELEM_ADJUST_NEW_CITY_POPULATION_EWHO</ModifierId>
+		</Row>
+	</BuildingModifiers>
+
+	<Modifiers>
+		<!--贝伦塔-->
+		<Row>
+			<ModifierId>TORRE_DE_BELEM_ADJUST_NEW_CITY_POPULATION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_EXTRA_STARTING_POPULATION_OFF_HOME_CONTINENT</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_PORTUGAL_EWHO</OwnerRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TORRE_DE_BELEM_ADJUST_NEW_CITY_POPULATION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

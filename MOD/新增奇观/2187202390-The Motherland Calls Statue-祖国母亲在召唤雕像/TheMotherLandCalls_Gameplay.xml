@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+  <!-- Almost all gameplay types should first be added to the types table. -->
+  <!-- This serves as a central way to reference any type -->
+  <Types>
+    <Row Type="BUILDING_MOTHERLAND_CALLS" Kind="KIND_BUILDING" />
+  </Types>
+
+  <!-- Define the building here. For examples of additional properties and values, look at Buildings.xml in /Base/Assets/Gameplay/Data/-->
+  <Buildings>
+    <Row BuildingType="BUILDING_MOTHERLAND_CALLS" Name="LOC_BUILDING_MOTHERLAND_CALLS_NAME" Description="LOC_BUILDING_MOTHERLAND_CALLS_DESCRIPTION"  Cost="1600" AdvisorType="ADVISOR_GENERIC" PrereqCivic="CIVIC_CLASS_STRUGGLE" AdjacentDistrict="DISTRICT_CITY_CENTER" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Quote="LOC_BUILDING_MOTHERLAND_CALLS_QUOTE" />
+  </Buildings>
+	<Building_ValidTerrains>
+		<Row BuildingType="BUILDING_MOTHERLAND_CALLS" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_MOTHERLAND_CALLS" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_MOTHERLAND_CALLS" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_MOTHERLAND_CALLS" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_MOTHERLAND_CALLS" TerrainType="TERRAIN_DESERT"/>
+	</Building_ValidTerrains>
+  <Building_YieldChanges>
+    <Row BuildingType="BUILDING_MOTHERLAND_CALLS" YieldType="YIELD_CULTURE" YieldChange="10"/>
+  </Building_YieldChanges>
+  <Building_GreatPersonPoints>
+    <Row BuildingType="BUILDING_MOTHERLAND_CALLS" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+  </Building_GreatPersonPoints>
+
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_MOTHERLAND_CALLS" ModifierId="MOTHERLANDCALLS_IDENTITY"/>
+		<Row BuildingType="BUILDING_MOTHERLAND_CALLS" ModifierId="MOTHERLANDCALLS_GREAT_GENERAL"/>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MOTHERLANDCALLS_IDENTITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MOTHERLANDCALLS_GREAT_GENERAL</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_GREAT_PERSON_CLASS_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MOTHERLANDCALLS_IDENTITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>MOTHERLANDCALLS_GREAT_GENERAL</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>MOTHERLANDCALLS_GREAT_GENERAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_BOROBUDUR" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Icon_Borobudur_32.dds"/>
+		<Row Name="ICON_ATLAS_BOROBUDUR" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="Icon_Borobudur_38.dds"/>
+		<Row Name="ICON_ATLAS_BOROBUDUR" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Icon_Borobudur_50.dds"/>
+		<Row Name="ICON_ATLAS_BOROBUDUR" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="Icon_Borobudur_64.dds"/>
+		<Row Name="ICON_ATLAS_BOROBUDUR" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="Icon_Borobudur_128.dds"/>
+		<Row Name="ICON_ATLAS_BOROBUDUR" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Icon_Borobudur_256.dds"/>
+	</IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_BUILDING_BOROBUDUR" Atlas="ICON_ATLAS_BOROBUDUR" Index="0"/>
+    </IconDefinitions>
+</GameInfo>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Classical Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_CHATEAU" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_CHATEAU" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_CHATEAU_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_INDUSTRIAL_ZONE" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_CHATEAU_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_CHATEAU" ModifierId="GREATPERSON_BONUS_CHATEAU" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_CHATEAU" ModifierId="GREATPERSON_BONUS_PROD_CULT_ADJ" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_CHATEAU</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_VALID_IMPROVEMENT</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PROD_CULT_ADJ</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_CHATEAU</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_CHATEAU</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PROD_CULT_ADJ</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PROD_CULT_ADJ</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_BONUS_CHATEAU" Context="Summary" Text="LOC_GREATPERSON_PLATI_CHATEAU_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

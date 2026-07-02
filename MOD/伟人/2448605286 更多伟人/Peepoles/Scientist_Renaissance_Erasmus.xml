@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Classical Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_ERASMUS" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ERASMUS" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ERASMUS_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_ERASMUS_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ERASMUS" ModifierId="GREATPERSON_BONUS_ERASMUS" 					AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ERASMUS" ModifierId="GREATPERSON_1MEDIEVALRENAISSANCECIVICBOOST" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_ERASMUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_BUILDING_FAVOR</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_AT_PEACE_WITH_ALL_MAJORS</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_ERASMUS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_UNIVERSITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_ERASMUS</ModifierId>
+			<Name>Favor</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_BONUS_ERASMUS" Context="Summary" Text="LOC_GREATPERSON_PLATI_ERASMUS_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

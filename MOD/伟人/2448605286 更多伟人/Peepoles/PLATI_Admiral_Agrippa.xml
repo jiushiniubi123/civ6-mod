@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CLASSICAL Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_AGRIPPA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_AGRIPPA" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_AGRIPPA_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" EraType="ERA_CLASSICAL" Gender="M" ActionCharges="1" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" AreaHighlightRadius="2" ActionRequiresIncompleteWonder="true" />
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualBirthModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_AGRIPPA" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_AGRIPPA" ModifierId="GREATPERSON_MOVEMENT_AOE_CLASSICAL_SEA"/>
+	</GreatPersonIndividualBirthModifiers>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_AGRIPPA" ModifierId="GREATPERSON_PLATI_AGRIPPA_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_WONDER_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_AGRIPPA_BOOST</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_PRODUCTION_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_AGRIPPA_BOOST</ModifierId>
+			<Name>Amount</Name>
+			<Value>245</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_AGRIPPA_BOOST</ModifierId>
+			<Name>KeepOverflow</Name>
+			<Value>false</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_PLATI_AGRIPPA_BOOST" Context="Summary" Text="LOC_GREATPERSON_PLATI_AGRIPPA_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

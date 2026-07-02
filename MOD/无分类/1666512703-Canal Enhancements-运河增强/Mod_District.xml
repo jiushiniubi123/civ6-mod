@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- District -->
+<!-- Author: aall1 -->
+<!-- DateCreated: 2/25/2019 4:34:51 PM -->
+<GameData>
+	<Districts>
+		<Update>
+			<Where DistrictType="DISTRICT_CANAL"/>
+			<Set Cost="36"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_CANAL"/>
+			<Set CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_CANAL"/>
+			<Set CostProgressionParam1="40"/>
+		</Update>
+	</Districts>
+	<Adjacency_YieldChanges>
+		<Row ID="Mod_Canal_Gold" Description="LOC_DISTRICT_MOD_CANAL_GOLD" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CANAL"/>
+	</Adjacency_YieldChanges>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="Mod_Canal_Gold"/>
+		<Row DistrictType="DISTRICT_SUGUBA" YieldChangeId="Mod_Canal_Gold"/>
+	</District_Adjacencies>
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_CANAL" YieldType="YIELD_GOLD" YieldChangeAsOrigin="3" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_CANAL" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_CANAL" YieldType="YIELD_FOOD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+	</District_TradeRouteYields>
+	<District_BuildChargeProductions>
+		<Row DistrictType="DISTRICT_CANAL" UnitType="UNIT_BUILDER" PercentProductionPerCharge="20"/>
+	</District_BuildChargeProductions>
+	<DistrictModifiers>
+		<Row DistrictType="DISTRICT_CANAL" ModifierId="MOD_CANAL_MERCHANCE_PRODUCTION"/>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MOD_CANAL_MERCHANCE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MOD_CANAL_MERCHANCE_PRODUCTION</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_TRADER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MOD_CANAL_MERCHANCE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

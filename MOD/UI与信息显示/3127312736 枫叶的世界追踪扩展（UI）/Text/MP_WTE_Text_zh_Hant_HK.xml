@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MP_WTE_Text_zh_Hant_HK -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 12/31/2023 2:52:34 PM -->
+<GameData>
+	<LocalizedText>
+
+		<!--部落村庄相关-->
+		<Replace Tag="LOC_GOODY_HUT_LIST_HEADER" Language="zh_Hant_HK">
+			<Text>部落村庄列表</Text>
+		</Replace>
+
+		<Replace Tag="LOC_WORLDTRACKER_NO_GOODY_HUTS" Language="zh_Hant_HK">
+			<Text>没有部落村庄</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_GOODY_HUT_BUTTON_TEXT" Language="zh_Hant_HK">
+			<Text>{1_GoodyHutName}：{2_Continent}，单元格{3_PlotIndex}</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_GOODY_HUT_BUTTON_TEXT_UNREVEALED" Language="zh_Hant_HK">
+			<Text>{1_GoodyHutName}：尚未发现</Text>
+		</Replace>
+
+		<Replace Tag="LOC_WORLDTRACKER_GOODY_HUT_BUTTON_TOOLTIP" Language="zh_Hant_HK">
+			<Text>点击以跳转到部落村庄位置</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_GOODY_HUT_BUTTON_TOOLTIP_UNREVEALED" Language="zh_Hant_HK">
+			<Text>尚未发现</Text>
+		</Replace>
+
+		<Replace Tag="LOC_WORLDTRACKER_GOODY_HUTS_SEARCH_TT" Language="zh_Hant_HK">
+			<Text>搜索村庄</Text>
+		</Replace>
+
+
+		<!--自然奇观相关-->
+		<Replace Tag="LOC_NATURAL_WONDER_LIST_HEADER" Language="zh_Hant_HK">
+			<Text>自然奇观列表</Text>
+		</Replace>
+
+		<Replace Tag="LOC_WORLDTRACKER_NO_NATURAL_WONDERS" Language="zh_Hant_HK">
+			<Text>没有自然奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_NATURAL_WONDER_BUTTON_TEXT" Language="zh_Hant_HK">
+			<Text>{1_GoodyHutName}：{2_Continent}，单元格{3_PlotIndex}</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_NATURAL_WONDER_BUTTON_TEXT_WATER" Language="zh_Hant_HK">
+			<Text>{1_GoodyHutName}：单元格{2_PlotIndex}</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_NATURAL_WONDER_BUTTON_TEXT_TERRITORY" Language="zh_Hant_HK">
+			<Text>{1_GoodyHutName}：{2_Terrtory}，单元格{3_PlotIndex}</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_NATURAL_WONDER_BUTTON_TEXT_UNREVEALED" Language="zh_Hant_HK">
+			<Text>未发现的自然奇观</Text>
+		</Replace>
+
+		<Replace Tag="LOC_WORLDTRACKER_NATURAL_WONDER_BUTTON_TOOLTIP" Language="zh_Hant_HK">
+			<Text>点击以跳转到自然奇观位置</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_NATURAL_WONDER_BUTTON_TOOLTIP_UNREVEALED" Language="zh_Hant_HK">
+			<Text>尚未发现</Text>
+		</Replace>
+
+
+		<!--蛮族哨站相关-->
+		<Replace Tag="LOC_BARBARIAN_CAMP_LIST_HEADER" Language="zh_Hant_HK">
+			<Text>蛮族哨站列表</Text>
+		</Replace>
+
+		<Replace Tag="LOC_WORLDTRACKER_NO_BARBARIAN_CAMPS" Language="zh_Hant_HK">
+			<Text>没有蛮族哨站</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_BARBARIAN_CAMP_BUTTON_TEXT" Language="zh_Hant_HK">
+			<Text>{1_BarbarianCampName}：{2_Continent}，单元格{3_PlotIndex}</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_BARBARIAN_CAMP_BUTTON_TEXT_UNREVEALED" Language="zh_Hant_HK">
+			<Text>{1_BarbarianCampName}：尚未发现</Text>
+		</Replace>
+
+		<Replace Tag="LOC_WORLDTRACKER_BARBARIAN_CAMP_BUTTON_TOOLTIP" Language="zh_Hant_HK">
+			<Text>点击以跳转到蛮族哨站位置</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_BARBARIAN_CAMP_BUTTON_TOOLTIP_UNREVEALED" Language="zh_Hant_HK">
+			<Text>尚未发现</Text>
+		</Replace>
+
+		<!--氏族模式下-->
+		<Replace Tag="LOC_WORLDTRACKER_BARBARIAN_CAMP_BUTTON_TEXT_CLANMODE" Language="zh_Hant_HK">
+			<Text>{1_ClanName}氏族：{2_Continent}，单元格{3_PlotIndex}</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_BARBARIAN_CAMP_BUTTON_TEXT_CLANMODE_DETAILED" Language="zh_Hant_HK">
+			<Text>{1_ClanName}（{2_ClanType}）：{3_Continent}（{4_PlotIndex}）</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_BARBARIAN_CAMP_BUTTON_TEXT_UNREVEALED_CLANMODE" Language="zh_Hant_HK">
+			<Text>未发现的氏族</Text>
+		</Replace>
+
+		<Replace Tag="LOC_WORLDTRACKER_BARBARIAN_CAMP_TREAT_POPUP_TEXT_UNREVEALED_CLANMODE" Language="zh_Hant_HK">
+			<Text>交易</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_BARBARIAN_CAMP_TREAT_POPUP_TOOLTIP_UNREVEALED_CLANMODE" Language="zh_Hant_HK">
+			<Text>与{1_ClanName}氏族交易</Text>
+		</Replace>
+
+
+	</LocalizedText>
+</GameData>

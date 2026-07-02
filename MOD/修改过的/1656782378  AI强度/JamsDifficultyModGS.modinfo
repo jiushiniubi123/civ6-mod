@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d63a54b2-b7e4-4ab8-9acb-cf370c77d774" version="1">
+  <Properties>
+    <Name>Jam's Difficulty Mod</Name>
+    <Description>(Compatible with the Gathering Storm update and should work with vanilla and the expansions.)
+
+Makes big changes to the difficulty modes.
+
+AI players no longer get free units, settlers, builders, techs, or civics at the start of the game based on difficulty.  Instead, they get a boost to food, production, and gold scaling with difficulty level.  As each civ progresses through the eras, their boosts scale, allowing them to keep up a little better throughout the game.</Description>
+    <CompatibleVersions>2.0</CompatibleVersions>    
+    <Teaser>(Compatible with the Gathering Storm update and should work with vanilla and the expansions.)
+
+Makes big changes to the diffi</Teaser>
+    <Authors>Jamifa</Authors>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+	<Properties>
+		<LoadOrder>100</LoadOrder>
+	</Properties>
+	<File priority="1">SQL/DifficultyModRequirements.sql</File>
+      <File>SQL/DifficultyMod.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>SQL/DifficultyMod.sql</File>
+    <File>SQL/DifficultyModRequirements.sql</File>
+  </Files>
+</Mod>

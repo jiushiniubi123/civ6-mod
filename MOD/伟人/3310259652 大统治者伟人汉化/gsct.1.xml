@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+    <LocalizedText>
+<!--伟人类型名称  -->
+        <Replace Tag="LOC_UNIT_GREAT_GreatSovereigns_NAME"  Language="zh_Hans_CN">
+            <Text>大统治者</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_CLASS_GreatSovereigns_NAME"  Language="zh_Hans_CN">
+            <Text>大统治者</Text>
+        </Replace>
+<!-- 项目 -->
+        <Replace Tag="LOC_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_NAME"  Language="zh_Hans_CN">
+            <Text>任人唯贤</Text>
+        </Replace>
+        <Replace Tag="LOC_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>获得等同于城市 [ICON_Production] 生产力15%的 [ICON_GOLD] 金币。完成后获得大统治者点数</Text>
+        </Replace>
+<!-- 伟人及其能力 -->
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_FIRST_NAME"  Language="zh_Hans_CN">
+            <Text>所罗门王</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_FIRST_ACTIVE"  Language="zh_Hans_CN">
+            <Text>立即建造一所寺庙。所有寺庙+2 [ICON_Production] 生产力。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_SECOND_NAME" Language="zh_Hans_CN">
+            <Text>马可•奥里利乌斯</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_SECOND_ACTIVE"  Language="zh_Hans_CN">
+            <Text>为所有中世纪市政提供 [ICON_CivicBoosted] 鼓舞。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_THIRD_NAME"  Language="zh_Hans_CN">
+            <Text>托勒密一世</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_THIRD_ACTIVE"  Language="zh_Hans_CN">
+            <Text>建造奇观时提供100 [ICON_Production] 生产力。每个派往城邦的使者+1 [ICON_Culture] 文化值。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_FOURTH_NAME"  Language="zh_Hans_CN">
+            <Text>阿育王</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_FOURTH_ACTIVE"  Language="zh_Hans_CN">
+            <Text>城市从每个专业化 [ICON_DISTRICT] 区域得到+1 [ICON_FAITH] 信仰与+1 [ICON_FOOD] 食物。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_FIFTH_NAME"  Language="zh_Hans_CN">
+            <Text>腓特烈二世</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_FIFTH_ACTIVE" Language="zh_Hans_CN">
+            <Text>所有政体经济政策槽位+1。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_SIXTH_NAME" Language="zh_Hans_CN">
+            <Text>穆罕默德·阿里帕夏</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_SIXTH_ACTIVE" Language="zh_Hans_CN">
+            <Text>单位升级-100% [ICON_Gold] 金币。获得一项随机科技。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_SEVENTH_NAME" Language="zh_Hans_CN">
+            <Text>查理曼</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_SEVENTH_ACTIVE" Language="zh_Hans_CN">
+            <Text>所有政体军事政策槽位+1。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_SIXTEENTH_NAME" Language="zh_Hans_CN">
+            <Text>兰甘亨</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_SIXTEENTH_ACTIVE" Language="zh_Hans_CN">
+            <Text>宗主的每个城邦为全国+1% [ICON_FOOD] 食物和 [ICON_FAITH] 信仰值。每宗主一种城邦，该城市+1宜居度。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_TWELWTH_NAME" Language="zh_Hans_CN">
+            <Text>玛丽亚•特蕾莎</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_TWELWTH_ACTIVE" Language="zh_Hans_CN">
+            <Text>每个城邦提供的特色改良设施为剧院广场提供+2相邻加成，为娱乐中心+2 [ICON_PRODUCTION] 生产力。若处于 [ICON_GLORY_GOLDEN_AGE] 黄金时代，为奇观+4 [ICON_CULTURE] 文化值。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_FIFTEENTH_NAME" Language="zh_Hans_CN">
+            <Text>海尔•塞拉西一世</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_FIFTEENTH_ACTIVE" Language="zh_Hans_CN">
+            <Text>+2外交胜利点数。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_FOURTEENTH_NAME" Language="zh_Hans_CN">
+            <Text>凯末尔</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_FOURTEENTH_ACTIVE" Language="zh_Hans_CN">
+            <Text>提供400 [ICON_PRODUCTION] 生产力（不适用于奇观、项目）。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_THIRTEENTH_NAME" Language="zh_Hans_CN">
+            <Text>明治天皇</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_THIRTEENTH_ACTIVE" Language="zh_Hans_CN">
+            <Text>在农场上建成工业区或社区将获得金币。工业区和社区从每个相邻区域处获得+2食物。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ELEVENTH_NAME" Language="zh_Hans_CN">
+            <Text>李光耀</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_ELEVENTH_ACTIVE" Language="zh_Hans_CN">
+            <Text>[ICON_GreatMerchant] 大商人+1 [ICON_Charges] 使用次数。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_TENTH_NAME" Language="zh_Hans_CN">
+            <Text>阿克巴</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_TENTH_ACTIVE" Language="zh_Hans_CN">
+            <Text>所有政体通用政策槽位+1。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_NINTH_NAME" Language="zh_Hans_CN">
+            <Text>阿斯基亚大帝</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_NINTH_ACTIVE" Language="zh_Hans_CN">
+            <Text>征服有纪念碑的城市获得奢侈品 [ICON_RESOURCE_COWRIE] 货贝，提供+4 [ICON_Amenities] 宜居度。掠夺 [ICON_District] 区域的收益+100%。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_EIGHTH_NAME" Language="zh_Hans_CN">
+            <Text>哈伦•拉希德</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_EIGHTH_ACTIVE" Language="zh_Hans_CN">
+            <Text>文明处于 [ICON_GLORY_GOLDEN_AGE] 黄金时代时， [ICON_TradeRoute] 商路每经过6个单元格提供+1 [ICON_SCIENCE] 科技值。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_FIRST_NAME" Language="zh_Hans_CN">
+            <Text>路易十四</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_SOVEREIGN_FIRST_ACTIVE" Language="zh_Hans_CN">
+            <Text>所有市政广场内建筑获得3个 [ICON_GreatWork_Landscape] 艺术巨作槽位。此处放置的 [ICON_GreatWork_Sculpture] 雕塑所提供的 [ICON_CULTURE] 文化值+200%。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_ZAYED_NAME" Language="zh_Hans_CN">
+            <Text>扎耶德·本·苏尔坦·阿勒纳哈扬</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_SOVEREIGN_ZAYED_ACTIVE" Language="zh_Hans_CN">
+            <Text>对于所有城市，每有一种用于发电的战略资源，便+20% [ICON_GOLD] 金币。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_FRIDRIK_GREAT_NAME" Language="zh_Hans_CN">
+            <Text>拜里米苏拉</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_SOVEREIGN_FRIDRIK_GREAT_ACTIVE" Language="zh_Hans_CN">
+            <Text>该城市+1 [ICON_Ranged] 攻击次数。该城市每有港口、商业中心、外交区中一种，+5% [ICON_GOLD] 金币和 [ICON_FAITH] 信仰值。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_GEDIMINAS_NAME" Language="zh_Hans_CN">
+            <Text>维陶塔斯</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_SOVEREIGN_GEDIMINAS_ACTIVE" Language="zh_Hans_CN">
+            <Text>提供一个骑士，且为该城市每回合+5忠诚度。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_RBORGIA_NAME" Language="zh_Hans_CN">
+            <Text>哈克汗二世</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_RBORGIA_ACTIVE" Language="zh_Hans_CN">
+            <Text>建造奇观时提供180 [ICON_PRODUCTION] 生产力。如果处于 [ICON_GLORY_GOLDEN_AGE] 黄金时代，所有城市从每个非主流宗教处获得+1 [ICON_Amenities] 宜居度。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_BISMARK_NAME" Language="zh_Hans_CN">
+            <Text>奥托·冯·俾斯麦</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_BISMARK_ACTIVE" Language="zh_Hans_CN">
+            <Text>成为选定城邦的宗主国，并移除其他所有玩家的使者。政体中每张生效的外交政策卡每回合+1外交支持。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ARBE_NAME" Language="zh_Hans_CN">
+            <Text>洛伦佐·德·美第奇</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_ARBE_ACTIVE" Language="zh_Hans_CN">
+            <Text>所有文艺复兴时期的奇观获得两个 [ICON_GreatWork_Landscape] 巨作槽位。如文明处于 [ICON_GLORY_GOLDEN_AGE] 黄金时代，获得一位 [ICON_GreatArtist] 大艺术家。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_KOSEMI_NAME" Language="zh_Hans_CN">
+            <Text>普里特维·纳拉扬·沙阿</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_KOSEMI_ACTIVE" Language="zh_Hans_CN">
+            <Text>近战单位+5 [ICON_Strength] 战斗力。如果在 [ICON_CAPITAL] 外国领土上战斗，则额外+3 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_BEG_NAME" Language="zh_Hans_CN">
+            <Text>兀鲁伯</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_BEG_ACTIVE" Language="zh_Hans_CN">
+            <Text>每建成一个学院，提供200 [ICON_Science]科技值。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_AKBAR_NAME" Language="zh_Hans_CN">
+            <Text>儒略二世</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_AKBAR_ACTIVE" Language="zh_Hans_CN">
+            <Text>建造奇观时提供455 [ICON_Production] 生产力。</Text>
+        </Replace>
+<!-- 2024-8-26更新 -->
+<!-- 需开启mod：More Maritime -->
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ALFRED_THE_GREAT_NAME" Language="zh_Hans_CN">
+            <Text>阿尔弗雷德大帝</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_SOVEREIGN_ALFRED_ACTIVE" Language="zh_Hans_CN">
+            <Text>海军兵工厂从每个相邻区域获得+1 [ICON_Science] 科技值和 [ICON_Culture] 文化值，如该城有军营，则加成翻三倍。海军单位初始获得一次免费升级。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_ALFRED_THE_GREAT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>阿尔弗雷德大帝是威塞克斯国王（871 年至 899 年），他因对抗维京入侵者的创新军事战略而被誉为英国海军之父。在他统治期间，英国不断受到这些强大的海上劫掠者的威胁，他们以对英国海岸线的快速和毁灭性袭击而臭名昭著。阿尔弗雷德认识到保卫他的王国免受此类威胁至关重要，因此着手建立一支能够保护他的人民和领土的强大海军力量。通过建立一支舰队巡逻和保卫英吉利海峡，他为后来的英国海军奠定了基础。他的战略远见和对沿海防御的重视对于确保王国的安全至关重要。此外，可以说，阿尔弗雷德在海军防御方面的努力为后来英国海上力量的发展奠定了基础，最终演变成定义大英帝国的全球海军主导地位。</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_ALFRED_THE_GREAT_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+            <Text>阿尔弗雷德在海军工业方面取得的成就具有开创性和变革性，塑造了英国军事和航海史的进程。他明白，要有效对抗维京人的威胁，英国人需要一支更强大的海上力量。为此，阿尔弗雷德下令建造一支新舰队，设计比维京人使用的更大、更快。这些船只建造得更稳定，能够在北大西洋的波涛汹涌的海面上航行，为英国人在海战中提供了战术优势。此外，阿尔弗雷德实施了一套全面的沿海防御系统，其中包括一个战略位置的防御堡垒网络，以保护沿海和河流沿线的关键点。他还建立了一个预警系统，可以在维京舰队接近时向当地居民发出警报，以便迅速做出防御反应。阿尔弗雷德对海军实力和沿海防御工事的关注不仅在他统治期间保护了他的王国，而且还在他的人民中灌输了航海精神。这种对海上防御和战备的重视为后来发展强大而庞大的英国海军奠定了基础，而这支海军在随后的几个世纪中对英国成为全球海上霸主起到了至关重要的作用。通过这些富有远见的举措，阿尔弗雷德开创了一个先例，在他去世后很长一段时间内影响了英国的海军战略和能力，最终促使英国崛起为一个卓越的航海国家。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_DENG_NAME" Language="zh_Hans_CN">
+            <Text>斯坎德培</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_DENG_ACTIVE" Language="zh_Hans_CN">
+            <Text>立即击杀两个单元格内所有敌方单位。两个单元格内本方陆地战斗单位恢复所有 [ICON_Movement] 移动力。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_DENG_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>奥斯曼军队规模庞大、纪律严明，以惊人的速度征服土地，没有堡垒或军队能够阻止他们的前进。有些人认为，他们的崛起不仅仅是人类野心的结果，也是上帝对基督教世界罪恶的惩罚。很快，他们将建立一个横跨三大洲、持续数个世纪的帝国。但在此之前，欧洲边缘小公国的统治者斯坎德培将阻止奥斯曼帝国的前进25年。</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_DENG_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+            <Text>斯坎德培本名乔治·卡斯特里奥蒂，是奥斯曼帝国的猛烈进攻下最令人敬畏的领导人之一。他出生于阿尔巴尼亚贵族家庭，年轻时被奥斯曼人当作人质，接受他们的军事传统训练，并晋升为军队中值得信赖的指挥官。然而，1443 年，他放弃了对苏丹的效忠，返回祖国，占领了克鲁亚要塞，并将四分五裂的阿尔巴尼亚公国团结在他的旗帜下。斯坎德培宣称自己是基督教世界的捍卫者，团结了一群极度独立的人民抵抗奥斯曼帝国的统治，运用他无与伦比的战术天才，进行了一系列游击战和激战，甚至让最老练的奥斯曼帝国指挥官都感到沮丧。</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_DENG_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+            <Text>二十多年来，斯坎德培的公国一直是欧洲边缘的一座坚不可摧的堡垒。他能够智胜强大的军队，并且对地形有着深刻的了解，他取得了传奇般的胜利，激励了他的同时代人，并赢得了欧洲君主和教皇的钦佩。尽管资源有限，但他利用外交手段和声誉，从威尼斯、那不勒斯和教皇国获得了重要的联盟和资金，使他的军队能够抵御奥斯曼帝国的无情围攻。斯坎德培的抵抗为基督教世界赢得了宝贵的时间，延缓了奥斯曼帝国进入欧洲的步伐，并使他成为在逆境中反抗的象征。即使在 1468 年去世后，他的遗产仍然是阿尔巴尼亚人身份和欧洲统一的战斗口号。</Text>
+        </Replace>
+<!-- 需开启动荡时代模式 -->
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ISMAIL_NAME" Language="zh_Hans_CN">
+            <Text>伊斯玛仪一世</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_ISMAIL_ACTIVE" Language="zh_Hans_CN">
+            <Text>若处于 [ICON_GLORY_DARK_AGE] 黑暗时代，用骑兵单位攻占城市将使该城市信仰您的主流宗教；若处于 [ICON_GLORY_GOLDEN_AGE] 黄金时代，[ICON_GREATWORK_LANDSCAPE] 巨作提供的文化值翻倍。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_ISMAIL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>现代伊朗之父沙阿·伊斯玛仪一世是一位具有深厚突厥-阿塞拜疆传统根基的变革人物。伊斯玛仪一世于 1487 年出生于阿塞拜疆人口众多的阿尔达比勒地区，是萨法维苏菲教团的后裔，该教团在他的成长和宗教身份的形成中发挥了至关重要的作用。他的母亲是白羊土库曼人，这进一步将他与突厥文化圈联系起来。伊斯玛仪一世将十二伊玛目派什叶派伊斯兰教定为国教，将他的王国与以逊尼派为主的穆斯林世界区分开来，并形成了独特的民族认同。萨法维教团将神秘主义元素与激进主义相结合，为伊斯玛仪一世的崛起提供了强大的框架，宣扬了神圣的领导理念，以证明他的政治和宗教权威是正当的。</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_ISMAIL_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+            <Text>伊斯玛仪一世的军事才华体现在他快速而有战略性的战役中，最终建立了萨法维帝国。伊斯玛仪一世于 1501 年占领大不里士，自封为沙阿，随后迅速将领土扩大到希尔凡、呼罗珊和高加索部分地区等重要地区。他动员对他忠心耿耿的突厥部落联盟奇兹尔巴什的能力是他军事成功的关键。尽管面临着奥斯曼帝国等强大敌人，伊斯玛仪一世仍表现出非凡的战略远见，取得了关键胜利，巩固了他对波斯及其周边地区的控制，建立了一个统一的国家，后来演变成现代伊朗。</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_ISMAIL_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+            <Text>在伊斯玛仪一世统治下，伊朗进入了文化和艺术发展的黄金时代，他开创了一种赞助传统，这种传统在后来的萨法维统治者统治下得以蓬勃发展。尽管伊斯玛仪一世统治时期的特点是军事战役，但对艺术的支持为一个具有重大文化成就的时代奠定了基础。他的宫廷成为诗人、艺术家和建筑师的避风港，推广波斯语作为文化和行政语言。这种赞助导致了独特的萨法维艺术形式的发展，包括微型绘画、书法、地毯编织和建筑奇迹，培育了丰富的文化遗产，在伊朗身份和更广泛的伊斯兰世界留下了不可磨灭的印记。</Text>
+        </Replace>
+<!-- 政策卡 -->
+        <Replace Tag="LOC_POLICY_SOVEREIGNS_NAME" Language="zh_Hans_CN">
+            <Text>精英统治</Text>
+        </Replace>
+        <Replace Tag="LOC_POLICY_SOVEREIGNS_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>每回合+2 [ICON_GreatSovereigns] 大统治者点数。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_POLICY_DIPLO_SOVER_POINTS_NAME" Language="zh_Hans_CN">
+            <Text>国际贵族</Text>
+        </Replace>
+        <Replace Tag="LOC_POLICY_DIPLO_SOVER_POINTS_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>领事馆+2 [ICON_GreatSovereigns] 大统治者点数。外交办+2 [ICON_GreatSovereigns] 大统治者点数。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_POLICY_SOVEREIGNS_BUFFED_NAME" Language="zh_Hans_CN">
+            <Text>小红点</Text>
+        </Replace>
+        <Replace Tag="LOC_POLICY_SOVEREIGNS_BUFFED_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>每回合+2 [ICON_GreatSovereigns] 大统治者点数。[ICON_CAPITAL] 首都每有一种[ICON_District]区域，每回合+1 [ICON_GreatSovereigns] 大统治者点数。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_POLICY_PLUTOCRACY_SOV_CARD_NAME" Language="zh_Hans_CN">
+            <Text>至尊之国</Text>
+        </Replace>
+        <Replace Tag="LOC_POLICY_PLUTOCRACY_SOV_CARD_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>每有一种宗主的城邦，每回合+2 [ICON_GreatSovereigns] 大统治者点数。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_POLICY_THEOCRACY_SOV_CARD_NAME" Language="zh_Hans_CN">
+            <Text>归还凯撒</Text>
+        </Replace>
+        <Replace Tag="LOC_POLICY_THEOCRACY_SOV_CARD_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>所有祭祀建筑+2 [ICON_GreatSovereigns] 大统治者点数。</Text>
+        </Replace>
+<!-- 效果 -->
+        <Replace Tag="LOC_DISTRICT_THERESA" Language="zh_Hans_CN">
+            <Text>+2 [ICON_CULTURE] 文化值来自伟人（玛丽亚•特蕾莎）</Text>
+        </Replace>
+
+        <Replace Tag="LOC_DISTRICT_THERESA_W" Language="zh_Hans_CN">
+            <Text>+4 [ICON_CULTURE] 文化值来自伟人（玛丽亚•特蕾莎）</Text>
+        </Replace>
+
+        <Replace Tag="LOC_DISTRICT_THERESA_P" Language="zh_Hans_CN">
+            <Text>+2 [ICON_Production] 生产力来自伟人（玛丽亚•特蕾莎）</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PLATI_MEIJI_FOOD_ADJACENCY" Language="zh_Hans_CN">
+            <Text>+2 [ICON_FOOD] 食物来自伟人（明治天皇）</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PLATI_ALFRED_ADJACENCY_DISTRICT_MARITIME" Language="zh_Hans_CN">
+            <Text>+1 [ICON_Culture] 文化来自相邻区域</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PLATI_ALFRED_ADJACENCY_SCIENCE_DISTRICT_MARITIME" Language="zh_Hans_CN">
+            <Text>+1 [ICON_Science] 科技来自相邻区域</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PLATI_ALFRED_ADJACENCY_DISTRICT_MARITIME_ENCAMPMENT" Language="zh_Hans_CN">
+            <Text>+2 [ICON_Culture] 文化来自军营的额外加成</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PLATI_ALFRED_ADJACENCY_SCIENCE_DISTRICT_MARITIME_ENCAMPMENT" Language="zh_Hans_CN">
+            <Text>+2 [ICON_Science] 科技来自军营的额外加成</Text>
+        </Replace>
+
+        <Replace Tag="LOC_ABILITY_ALFRED_PROMOTION_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>初始拥有一次免费升级。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_ABILITY_GURKHAS_BONUS_NAME" Language="zh_Hans_CN">
+            <Text>活女神祝福</Text>
+        </Replace>
+
+        <Replace Tag="LOC_ABILITY_SEPOYS_BONUS_NAME" Language="zh_Hans_CN">
+            <Text>廓尔喀精兵</Text>
+        </Replace>
+
+        <Replace Tag="LOC_ABILITY_GURKHAS_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>+5 [ICON_Strength] 战斗力</Text>
+        </Replace>
+
+        <Replace Tag="LOC_ABILITY_SEPOYS_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>在 [ICON_CAPITAL] 外国领土上战斗+3 [ICON_Strength] 战斗力</Text>
+        </Replace>
+
+        <Replace Tag="LOC_ABILITY_GURKHAS_BUFF_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>+5 [ICON_Strength] 战斗力(活女神祝福)</Text>
+        </Replace>
+        
+        <Replace Tag="LOC_ABILITY_SEPOYS_BUFF_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>在 [ICON_CAPITAL] 外国领土上战斗+3 [ICON_Strength] 战斗力(廓尔喀精兵)</Text>
+        </Replace>
+<!-- 万神殿 -->
+        <Replace Tag="LOC_PLATI_BELIEF_SOVEREIGN_NAME" Language="zh_Hans_CN">
+            <Text>圣主明君</Text>
+        </Replace>
+        <Replace Tag="LOC_PLATI_BELIEF_SOVEREIGN_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>每回合+1 [ICON_GreatSovereigns] 大统治者点数。若处于 [ICON_GLORY_GOLDEN_AGE] 黄金时代，则额外+1 [ICON_GreatSovereigns] 大统治者点数。</Text>
+        </Replace>
+<!-- 文明百科 -->
+         <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_FIRST_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>所罗门王传统上被认为是大卫王的儿子，是以色列第三任国王，于公元前 10 世纪统治。他的统治常常以和平、繁荣以及艺术和科学的繁荣为特点。所罗门以其智慧而闻名，根据圣经记载，这是神圣的礼物。他在著名的两名妇女声称自己是同一个孩子的母亲的案件中的判决至今仍被视为明智和公正仲裁的象征。在所罗门统治下，以色列成为该地区重要的政治和经济大国，通过战略联盟和贸易扩大其影响力。所罗门政府的特点是有效的中央政府，由行省制度支持，以及国王在宗教和公民事务上的个人领导。</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_FIRST_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+            <Text>所罗门最显着的成就之一是在耶路撒冷建造了第一圣殿，该圣殿成为以色列人的礼拜中心和国家的精神中心。根据圣经传统，所罗门承担了这个项目，以履行上帝与以色列人之间的圣约，实现了他父亲大卫最初的愿景。这座寺庙是当时的建筑奇迹，采用最好的材料建造，包括黎巴嫩的雪松木和黄金。来自古代世界各地的熟练工人和工匠被雇用，反映了所罗门所建立的国际关系。圣殿的建成不仅巩固了耶路撒冷作为宗教首都的地位，而且象征着所罗门英明繁荣统治下的以色列王国的团结和宗教奉献。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_SECOND_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>马可·奥里利乌斯，公元 161 年至 180 年的罗马皇帝，被认为是古罗马最有能力和最受尊敬的统治者之一。马可·奥里利乌斯以其哲学思维和对斯多葛主义的坚持而闻名，他体现了哲人王的理想，这一概念被柏拉图视为领导力的顶峰。他的统治以对责任、正义和人民福祉的承诺为标志，尽管他面临着帝国边境持续的军事威胁和安东尼瘟疫等内部挑战。马可·奥里利乌斯在军事行动期间写下的《沉思录》反映了他的内省本性以及对美德、智慧和理性治理的奉献，描绘了一位试图将个人行为与哲学信仰结合起来的统治者。</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_SECOND_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+            <Text>马可·奥里利乌斯的影响力远远超出了他的一生，影响了欧洲中世纪文化和哲学思想。他的斯多葛主义原则，正如《沉思录》中所概括的那样，引起了基督教思想家的共鸣，他们钦佩他对美德、自律和世俗事物的短暂性的强调。中世纪学者经常将他视为道德正直和智慧的典范，类似于早期基督教哲学中受人尊敬的人物。文艺复兴时期古典文学的复兴给他的著作带来了新的兴趣，人文主义者在马可·奥里利乌斯身上发现了古代斯多葛哲学和基督教伦理教义之间的桥梁。他作为哲学家皇帝的遗产继续激发有关当权者的领导力、责任和道德责任的思想，塑造了中世纪和近代早期欧洲思想中关于治理和道德的话语。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_THIRD_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>托勒密一世·索特是亚历山大大帝手下最有能力的将军之一，在公元前 323 年亚历山大去世后，他成为继承他支离破碎的帝国的人中最有能力的领导者。亚历山大去世后，他的帝国被他的将军们瓜分，每个将军都夺取领土来建立自己的统治。托勒密认识到埃及的战略和经济潜力，将其据为己有，并很快表现出了卓越的领导才能。他稳定了该地区，建立了托勒密王朝，并巧妙地扩大了自己的影响力，使埃及成为地中海的主导力量。他对组织良好、繁荣的埃及的愿景使他与众不同，他的外交和军事技巧确保他在与其他继任者将军持续发生的冲突中保住了权力。</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_THIRD_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+            <Text>托勒密的遗产也通过他雄心勃勃的文化项目而永垂不朽，特别是亚历山大图书馆的建立和亚历山大灯塔的启用，这两者都成为古代世界知识、创新和繁荣的象征。尤其是亚历山大图书馆，吸引了来自地中海各地的学者，成为保存希腊和埃及传统知识财富的学习中心。在托勒密的统治下，埃及和希腊文化相互融合，标志着托勒密时代独特综合体的开始。这种融合体现在艺术、宗教和治理方面，希腊诸神与埃及神灵联系在一起，希腊传统与埃及习俗相协调，建立了一个国际化社会，对古代世界的文化景观产生了深远的影响。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_FOURTH_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>阿育王是古代印度最伟大的统治者之一。他近乎将整个印度（包括阿富汗和俾路支斯坦）纳入了同一版图，这是历史上首次（也是目前唯一一次）。然而，尽管其拥有强大的军事实力，但他对战争感到厌倦。随着时间推移，他对战争的愚蠢与无意义感到厌恶。    阿育王是一位受欢迎的年轻的将军和政治家。他在大约26岁时（公元273年）前继承了孔雀王朝的王位————他的父亲于同年去世。他以征服者的身份开启他的统治，寻求将统治扩展到印度次大陆甚至更远。在这方面，他显然是成功的，帝国由于他的征服不断壮大。    然而，在阿育王血腥征服羯陵伽国，造成10万人死亡，15万人受伤后，他的精神发生了巨大变化。他对自己导致的痛苦深感悔恨，于是放弃了武力征服，转而皈依佛教。他放弃了扩张，将精力放在提升人民的身心幸福上。    他修改了国内的许多严酷法律，并主张宽容所有信仰。他在全国各地修建了许多佛寺。在他的统治下，艺术也蓬勃发展起来。他还派出佛教传教士到远处，包括希腊、埃及等遥远地区传教。尽管阿育王热衷佛教，他仍要求王国内宗教宽容。他说，“众神宠爱的阿育王希望所有宗教无处不在，因为它们都希望人们能自我控制，保持心灵纯洁。    阿育王于公元前232年圆寂，而他亲手建造的帝国只延续了五十余年。如果不是人们发现了大量刻有他话语的柱子和巨石（它们被视作《阿育王法令》的一部分），他的名字现在已经消失在历史之中了。这些《阿育王法令》不仅包含许多关于阿育王的信息，反映出他作为统治者的的智慧与深思熟虑，对于早期佛教研究，它也提供了有关的教义、信仰方面的宝贵知识。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_FIFTH_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>腓特烈二世，也称为腓特烈大帝，是 1220 年至 1250 年间的神圣罗马帝国皇帝和西西里国王等头衔，被广泛认为是中世纪时期最杰出的统治者之一。他的统治时期取得了非凡的经济和外交成就，展示了他融合不同领域文化影响的智慧和能力。腓特烈实施了广泛的行政改革，提高了王国的治理和贸易效率，为繁荣的经济奠定了基础。他是一位外交大师，以高超的技巧驾驭着当时复杂的政治格局。他最著名的外交成就之一是 1229 年与穆斯林苏丹卡米尔直接谈判签订的《雅法条约》，该条约导致耶路撒冷在第六次十字军东征期间和平回归基督教控制。这是不费一兵一卒就实现的，证明了腓特烈的外交智慧以及他与不同文化和宗教进行建设性接触的能力。</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_FIFTH_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+            <Text>尼采钦佩腓特烈二世，因为他体现了超人的理想————一个超越传统道德和规范来创造自己的价值观和命运的人。腓特烈一生的特点是思想和行动的深刻独立性，违背了中世纪欧洲的宗教正统观念。他提倡知识探究，经常与穆斯林学者接触，学习他们在科学、哲学和医学方面的进步，而在当时，这种开放性是罕见的。尼采在腓特烈身上看到了一个不受当时传统基督教道德束缚的人物，而是开辟了一条个人和政治自由的道路。在尼采看来，这使腓特烈不仅是一位杰出的统治者，而且是文艺复兴精神的先驱和中世纪世界精神和知识束缚的挑战者。</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_FIFTH_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+            <Text>腓特烈二世历史上最离奇和有趣的方面之一是他好奇的科学和哲学实验。最著名的例子之一是他试图确定亚当和夏娃在伊甸园中使用的原始神圣语言。据说，为此，腓特烈将婴儿与人类语言隔离开来，看看他们是否会自然地开始说“上帝的语言”。不出所料，实验失败了，因为孩子们根本没有发展出语言，这凸显了社交互动对于语言习得的重要性。腓特烈对不寻常探究的爱好也延伸到了解剖学和自然世界观察实验，这些实验在他那个时代被认为是非常非常规的，甚至是令人震惊的。这些努力反映了腓特烈永不满足的好奇心和他突破知识界限的渴望，无论手段多么非正统。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_SIXTH_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>穆罕默德·阿里帕夏是 19 世纪初的奥斯曼帝国埃及总督，经常因其卓越的军事成就和建立强大的埃及帝国的野心而受到赞誉。阿里拥有阿尔巴尼亚血统，在拿破仑入侵埃及期间声名鹊起，并在驱逐马穆鲁克后夺取了政权。他迅速巩固了权力，开始了大规模的军事行动，建立了一支拥有欧洲式训练和现代化武器的强大军队。他将统治范围扩大到苏丹、阿拉伯西部和黎凡特部分地区，成功挑战了奥斯曼帝国本身。一些学者认为，如果没有英国和俄罗斯的干预（担心欧洲力量平衡被破坏），穆罕默德·阿里可能会成功地将奥斯曼帝国变成埃及统治的国家，甚至有可能削弱土耳其到他帝国内的一个省份。</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_SIXTH_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+            <Text>除了军事征服之外，穆罕默德·阿里还因其全面的现代化努力而被视为“现代埃及之父”，这些努力将埃及变成了一个在经济和行政上更加独立的国家。认识到强大的基础设施的重要性，他投资建设灌溉系统以促进农业，特别是成为主要出口产品的棉花生产。他还建造了工厂，创办了国营纺织工业，并创建了工程和医学学校来培养当地的专业人才。他的改革延伸到法律和教育体系，引入了西方式的制度。这些努力为埃及的经济现代化奠定了基础，并使其走向自给自足，为其成为现代国家奠定了基础。穆罕默德·阿里雄心勃勃的改革和对强大埃及的愿景为他赢得了埃及历史上变革性领导人的持久遗产。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_SEVENTH_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>神圣罗马帝国皇帝查理大帝创建了一个涵盖法国、德国、意大利和东欧大部分地区的王国。他的征服传说在历史上随处可见，他被认为是欧洲骑士社会的伟大领袖之一。查理曼在其一生中成功地在许多国家进行了竞选活动。有些战争是他亲自完成的，有些则留给他的儿子们完成。他的第一次战役是针对伦巴第的德西德里乌斯，德西德里乌斯在教皇哈德良一世继位后不久就向罗马进军。查理曼大帝向伦巴第进军，经过长时间的围困（772-774），他接受了德西德里乌斯的无条件投降。德西德里乌斯将在修道院中度过余生。查理曼统治时期持续时间最长、最具挑战性的征服是对萨克森尼亚的征服。这将是他一生中不断重游的剧院。在查理曼最初入侵萨克森之后，他不断被迫重新夺回先前征服的反抗他权威的土地。撒克逊人厌倦了战争，并因每次投降而失去更多的权利和自由，最终接受了查理曼的条款，包括放弃其民族宗教习俗并采用基督教信仰及其相关的法兰克习俗。查理曼既是一位高度虔诚的宗教人士，也是一位慈善家。他经常与埃及和印度等其他国家建立友好关系，以便以后可以汇款来帮助这些地区陷入困境的基督徒。尽管查理更像是一个征服者，而不是一个经济或社会改革者，但他经常捐款来救济王国里的穷人和病人。查理曼尽管自己写得不好，但对文学和教育有着极大的热爱。由于他的征服，查理曼接触了许多不同的文化和学习机构。查理曼大帝为现有的修道院学校和学习机构提供了大量资金，他的时代被称为加洛林文艺复兴，艺术和科学蓬勃发展。作为代表了那个时代骑士精神巅峰的九贤之一，查理曼无论在个人还是地位上都是荣誉的化身。查理曼大帝是一位征服者、慈善家、艺术爱好者和高度虔诚的基督徒，是第一个千年的重要人物之一，也是当今中欧的鼻祖。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_SIXTEENTH_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>1278年，一位名叫兰甘亨的王子继承了小而无足轻重的素可泰王国。二十年来，他巧妙地结合了军事天才和精明的外交手段，将国家的疆域和影响力扩展到东南亚大部分地区。在兰甘亨统治期间，他的王国统治范围向西扩展至缅甸，向东扩展至老挝，向南扩展至马来半岛。国王是一位精明的外交家，也是一位军阀。许多领土自愿加入他的联邦。兰甘亨并不寻求统治东南亚，而是促进与周边王国的贸易和外交联盟。我们对兰甘亨统治时期的了解大部分来自他于1292年统治末期创作的石碑。这是现存最早的泰语样本，将他描绘成一位明智而仁慈的领导者。如今，兰甘亨被视为一位伟大的领导人，也是第一个统治统一的暹罗的人。然而应该记住的是，我们对他的了解几乎全部来自他自己创作的石刻。如果他确实有任何重大缺陷，他会把它们刻在活石上让所有历史都看到吗？尽管如此，仍有大量独立证据表明他成功地创建了一个伟大的帝国，他的人民在他的统治期间繁荣昌盛。这是任何领导人都可以引以为傲的记录。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_TWELWTH_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>18世纪，神圣罗马帝国和强大的奥地利哈布斯堡王朝由坚持不懈的玛丽亚·特蕾莎领导，她反抗反对她统治的欧洲列强，勇敢地为王国的臣民服务。在哈布斯堡王朝近650年的统治中，玛丽亚·特蕾莎是第一位也是唯一一位领导帝国的女性，事实证明她是帝国历史上最成功的统治者之一。如今，玛丽亚·特蕾莎被视为一位睿智、深思熟虑的领导人，她的保守政策和谨慎的判断改善了奥地利人民以及哈布斯堡王朝领土内人民的福祉。尽管她在动荡时期继承王位，个人执政经验很少，但她还是成功保住了王位，并自信地统治了哈布斯堡王朝40年。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_FIFTEENTH_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>海尔·塞拉西被誉为“犹大部落的征服之狮”、“万王之王”和“上帝的选民”，在 20 世纪作为皇帝统治埃塞俄比亚近 40 年。海尔·塞拉西出生于1892年，原名拉斯·塔法里·马科宁，他一生致力于服务埃塞俄比亚的利益，并将埃塞俄比亚带入非洲政治的前沿。海尔·塞拉西因试图实现国家现代化而改革埃塞俄比亚古老的封建习俗而闻名，他孜孜不倦地努力使埃塞俄比亚在世界舞台上获得国际认可。他在全球政治中的影响力仅次于他作为拉斯塔法里教弥赛亚的角色，在拉斯塔法里教的追随者中，他被尊为将带领拉斯塔教徒返回祖国埃塞俄比亚的神。1935年，贝尼托·墨索里尼领导的意大利政权向埃塞俄比亚宣战，并于秋季入侵。这场冲突后来被称为第二次意大利-阿比西尼亚战争（第一次发生在1800年代末）。经过意大利和埃塞俄比亚军队之间的短暂战斗，包括塞拉西本人领导的几场战斗，意大利成功占领并最终吞并了这个非洲国家。随着意大利对埃塞俄比亚的成功战役，海尔·塞拉西被迫流亡，但在此之前他在国际联盟上为埃塞俄比亚辩护。尽管他发表了强烈反对意大利法西斯运动的演讲，但他的请求却被置若罔闻，塞拉西只能等待时机。接下来的五年里，他居住在英国，在那里他继续公开反对意大利的占领，并试图为收复祖国的运动争取国际社会的支持。1939 年，第二次世界大战爆发，在英国人的东非战役中，埃塞俄比亚终于从意大利政权的统治下解放出来。与埃塞俄比亚军队的精选部队一起，这支解放军被称为吉迪恩部队，在夺回埃塞俄比亚家园的斗争中发挥了重要作用。 1942 年，意大利投降并被迫承认埃塞俄比亚新的主权，海尔·塞拉西返回首都亚的斯亚贝巴。由于在国际联盟中缺乏团结，塞拉西成为联合国的主要支持者，增加了国际安全条款，并于 1948 年确保了埃塞俄比亚作为创始成员国的地位。在接下来的几年里，塞拉西继续追求现代化埃塞俄比亚通过改革同时也提高了该国的外交事务和国际认可度。20 世纪 60 年代，塞拉西领导了非洲统一组织，即现代非洲联盟的前身。为了在非洲大陆的独立国家之间建立团结，塞拉西相信统一的声音将增强非洲人民的力量。尽管塞拉西试图将该组织不仅仅是一个意识形态实体，但如果没有军事力量的支持，该组织几乎没有任何权威或实际权力。在与国际社会合作的同时，塞拉西还致力于改善国内人民的福利。尽管他打破贵族对土地所有权的控制的努力取得了有限的成功，但这一举措引发了一场运动，这场运动一直延续到他的统治时期。还进行了改革以提供更多的教育设施，同时经济计划确保了公正的税收制度。尽管这些国内计划产生了善意，但塞拉西通过修改宪法来增强自己的权威的努力导致了日益明显的异见运动。 20世纪60年代末，马克思主义意识形态在埃塞俄比亚扎根，1970年代初，随着人民遭受饥荒和干旱，塞拉西的支持率逐渐下降。导致通货膨胀飙升的经济危机将成为压垮他的最后一根稻草，塞拉西一直勉强维持自己的地位，直到1974年被一个名为德格的马克思主义军事组织罢黜并逮捕。海尔·塞拉西在软禁期间于 1975 年神秘死亡，关于确切死因的报道相互矛盾。尽管军方的官方说法称他因病死亡，但许多人仍然认为他是被绑架者暗杀的。直到大约25年后，即2000年11月，海尔·塞拉西终于得到了与其身份相符的正式葬礼。拉斯塔法里教运动是由牙买加活动家马库斯·加维提出的，他的哲学观点为当今众所周知的宗教奠定了基础。加维所说的“期待非洲黑王加冕，他将成为救赎主”被视为1930年海尔·塞拉西加冕礼应验的预言。尽管塞拉西本人是东正教徒，但他从未证实或否认过自己的立场作为拉斯塔法里教的弥赛亚，他于1966年访问了牙买加，受到了数以万计的拉斯塔法里教信徒的迎接。海尔·塞拉西如今被广泛视为一位雄辩的政治家和一位充满激情的领导人，他在统治期间面临着许多困难，但不断寻求改善人民的福祉和国家的稳定。塞拉西关于国际合作和外交的观点不仅对埃塞俄比亚和整个非洲的未来产生影响，而且对整个国际社会也产生影响。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_FOURTEENTH_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>穆斯塔法·凯末尔·阿塔图尔克是20世纪最伟大的政治人物之一，是土耳其共和国的创始人和首任总统，是一位富有远见的领导人，领导奥斯曼帝国转变为现代、世俗和独立的民族国家。阿塔图尔克在第一次世界大战加里波利战役中成为民族英雄，他的军事智慧在土耳其独立战争中得到进一步体现，成功击退盟军占领军。 1923 年土耳其共和国成立后，阿塔图尔克废除了奥斯曼苏丹国和哈里发国，实现了从伊斯兰帝国到世俗民族主义共和国的彻底转变。他的领导标志着与过去的彻底决裂，使土耳其更加接近西方理想，并为现代国家奠定了基础。</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_FOURTEENTH_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+            <Text>阿塔图尔克成功实施了全面的现代化和世俗化计划，即凯末尔主义，从而成功地完成了伊朗礼萨汗失败的目标。尽管礼萨汗在伊朗尝试了类似的改革，包括教育和着装规范的世俗化和现代化，但这些变化并没有持续下去，很大程度上是由于宗教和保守派派的强烈抵制。相比之下，土耳其阿塔图尔克的改革更有效地制度化和文化根深蒂固。他提出了彻底的变革，例如采用拉丁字母、用世俗法典取代伊斯兰法以及促进工业化和妇女权利。阿塔图尔克的愿景不仅是政治性的，而且是深刻的文化性的，旨在创造一个拥抱现代性、同时抛弃奥斯曼帝国过去遗迹的有凝聚力的民族身份。</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_FOURTEENTH_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+            <Text>阿塔图尔克对当代土耳其的影响是深远而持久的，他的遗产仍然塑造着国家的身份、治理和社会。凯末尔主义的原则，包括共和主义、民族主义、世俗主义、国家主义、民粹主义和改良主义，仍然是土耳其国家结构和意识形态的基础。阿塔图尔克被尊为现代土耳其之父，他的图像、文字和纪念碑在全国各地随处可见。他对世俗主义和现代化的承诺留下了持久的印记，影响了土耳其对西方的外交政策取向及其内部治理。尽管近几十年来，阿塔图尔克的遗产受到了挑战和争论，但他关于现代、世俗和独立土耳其的愿景仍然是国家身份和政治文化的一个强大且决定性的元素。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_THIRTEENTH_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>明治天皇在位时间为1867年至1912年，他在日本从封建社会转变为现代工业化和城市化国家的过程中发挥了关键作用。明治维新标志着日本摆脱了传统的孤立主义，向西方思想和技术开放。在明治政府的领导下，日本经历了快速的工业化，采用了现代制造工艺、基础设施发展和中央集权政府。皇帝的政策鼓励建立工业、修建铁路和军事现代化。明治政府的做法不同于苏联的约瑟夫·斯大林和中国的毛泽东等后来的工业化努力，因为它的特点是较少强制和更具合作性的做法。明治的改革旨在保留帝国制度，同时拥抱技术进步、促进教育和促进经济增长。与斯大林和毛泽东在各自的工业化运动中经常采用的强制手段相比，这种转变相对不那么暴力。然而，明治天皇的全面改革超出了工业化和城市化的范围，涵盖了日本社会的各个方面。他发起了一系列政治改革，于1889年废除封建制度，建立君主立宪制。明治宪法引入了两院制议会，即帝国议会，培育了代议制政治制度。此外，明治还实施了社会改革，包括解散武士阶级和引入择优公务员制度。天皇还优先考虑教育改革，促进全民识字和实现教育体系现代化，以使人民掌握日本快速现代化所需的技能。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_ELEVENTH_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text> 李光耀是一位新加坡大律师和政治家，于1959年至1990年间担任新加坡首任总理，并于1954年至1992年期间担任人民行动党秘书长。李光耀出生于英国殖民统治时期的新加坡。从莱佛士书院毕业后，他获得莱佛士学院（现新加坡国立大学）的奖学金。在日本占领期间，李逃脱了清洗的受害者，随后在日本宣传办公室担任行政服务官员，开始了自己的事业。第二次世界大战结束后，李在伦敦经济学院短暂就读，然后转学到剑桥菲茨威廉学院学习法律，并于1947年毕业。1950年，他从中殿寺获得律师资格。返回新加坡后，他开始执业作为倡导者和律师，同时为英国放弃殖民统治而运动。李光耀于1954年与他人共同创立了人民行动党，并在1955年大选中赢得了丹戎巴葛区的第一个席位。对于劳工阵线的首席部长大卫·马歇尔和林有福而言，他成为议会中事实上的反对党领袖。 1959年，李领导他的政党在选举中首次获胜，并被任命为该州首任总理。为了从英国手中获得完全的自治，李光耀在 1963 年全民公投中争取与其他前英国领土合并，成立马来西亚。种族冲突和意识形态差异后来导致新加坡被驱逐出马来西亚，并在不到两年的 1965 年获得独立合并后。李光耀在每次大选中都拥有压倒性的议会控制权，在他担任总理期间，他见证了新加坡转型为一个拥有高收入经济体的发达国家。 在此过程中，他打造了一支高效、反腐败的政府和公务员队伍。李避开民粹主义政策，转而支持长期社会和经济规划，通过精英政治和多种族主义作为治理原则来倡导公民民族主义，使英语成为融合移民社会并促进与世界贸易的通用语言，同时要求学校实行双语保护学生的母语和民族身份。作为亚洲价值观的倡导者和实用主义的支持者，李明博的总理任期尤其是在西方，被描述为半独裁的，并被描述为一种混合政权或引导式民主。批评者指责他限制新闻自由，对公众抗议施加严格限制，通过反工会立法和增选限制劳工运动参与工业或罢工行动，并对著名政治对手提起诽谤诉讼。然而，其他人则认为他的行为对于国家的早期发展是必要的，并且他是一位仁慈的独裁者。在李光耀执政的三十年里，新加坡从一个发展中国家发展成为亚洲乃至世界最发达的国家之一。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_TENTH_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>阿克巴，也称为阿克巴大帝，从 1556 年至1605年统治莫卧儿帝国，通常被认为是世界历史上最杰出的统治者之一。年仅十三岁即位的他继承了一个充满内部不稳定和外部威胁的年轻帝国。阿克巴的统治以显着的扩张为标志，将印度北部的大片领土纳入他的控制之下，其中包括今天的阿富汗、巴基斯坦和印度的部分地区。他的帝国成为世界上最富有的帝国之一，经济蓬勃发展，在资源和富裕方面可与当代欧洲国家相媲美。莫卧儿帝国巨大的财富促进了艺术、建筑和文化的繁荣，阿克巴首都法泰赫普尔西克里的宏伟建筑以及阿格拉和拉合尔的堡垒就体现了这一点。</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_TENTH_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+            <Text>阿克巴的统治之所以与众不同，是因为他富有远见的治理方法，将军事实力与宽容和包容的创新政策结合起来。阿克巴开创了“普遍宽容”政策，创建了一个独特的多元化帝国，不同信仰和种族的人们可以和谐相处。他废除了对非穆斯林的歧视性税收，任命印度教徒和其他非穆斯林担任高级职务，并促进宗教间对话。他的土地税收制度是在拉贾·托达·马尔等杰出顾问的帮助下制定的，确保了公平有效的税收结构，确保了国家和人民的繁荣。阿克巴的治理、军事天才和包容性政策为莫卧儿帝国的黄金时代奠定了基础，使他成为一位统治者，他的遗产因其独特的能力而受到赞誉，他将财富、力量和同情心融合在一起，统治了一个历史上最多元的帝国。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_NINTH_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>在阿斯基亚·穆罕默德·图尔的领导下，桑海帝国的权力和组织达到了前所未有的水平，因其军事实力和集权治理而赢得了“非洲普鲁士”的绰号。 1493年，阿斯基亚推翻逊尼派阿里之子即位，对桑海的行政管理进行了彻底改革，实施了结构化的省级治理和高效的税收制度。他还大幅扩大了帝国的领土，从今天的马里延伸到尼日尔和尼日利亚，巩固了对重要贸易路线的控制。阿斯基亚对伊斯兰教的忠诚进一步使他成为一位杰出的领导人。他对麦加进行了一次著名的朝圣，加强了与其他伊斯兰帝国的外交和宗教联系，从而提高了桑海在伊斯兰世界的威望。</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_NINTH_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+            <Text>在阿斯基亚的统治下，桑海作为一个占主导地位的贸易帝国蓬勃发展，控制着连接西非与地中海和中东的跨撒哈拉贸易网络。阿斯基亚促进了黄金、盐、可乐果和纺织品的贸易，使桑海成为非洲历史上最富有的帝国之一。贝壳在西非广泛用作货币，成为桑海经济中重要的交换媒介，实现了境内外的高效贸易。廷巴克图和加奥成为繁华的贸易中心，来自非洲内外的商人在这里交换商品和思想。阿斯基亚领导下蓬勃发展的商业巩固了桑海的经济，巩固了其作为西非财富和影响力强国的地位。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_EIGHTH_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>哈伦·拉希德（哈伦·拉希德的意思是“正统的亚伦”）是阿拔斯王朝的第五任哈里发，从公元786年到公元809年统治阿拉伯帝国。在他统治期间，哈里发国西至西班牙，北至安纳托利亚，东至印度，是世界上最大、最强大的政治实体。哈伦是一位能干的统治者，他的统治时期是他的臣民科学和文化进步和繁荣的时期。哈伦统治初期，哈里发国的首都是巴格达，这是一座由前任哈里发建立的新城市。这座城市是艺术、科学和宗教的中心，有许多美丽的建筑。哈伦在那里建立了“智慧之家”，这是一个图书馆和研究机构，收集和翻译了波斯、印度、希腊和罗马文献中的科学著作。在哈伦的领导下，巴格达蓬勃发展，成为世界上最大、最富有的城市。后来，哈伦将他的政府迁往具有战略意义的城市拉卡，但巴格达在接下来的几个世纪里仍然是一个伟大的艺术、科学和商业之城（这座城市于1258年被蒙古人征服和洗劫）。《一千零一夜》中对哈伦的描述有些奇妙，书中描述哈里发住在一座金碧辉煌的宫殿里。虽然有些夸张，但这个故事还是有一定道理的。在哈伦统治期间，帝国涌入了大量财富，其中很大一部分流入了哈里发的金库。根据古代历史学家的说法，哈伦的妻子坚持要求她餐桌上的所有餐具和盘子都要用金子制成，并装饰着珠宝。在政治上，哈伦试图与欧洲列强保持友好关系。他与查理曼大帝有直接的外交关系，在十字军东征前的几年里，欧洲人可以自由进入耶路撒冷和圣地。他还与中国的朝廷有外交关系。然而，他与拜占庭的关系不那么友好。在父亲的领导下，哈伦率领一支军队穿过土耳其，直抵拜占庭帝国首都君士坦丁堡的大门。在与艾琳皇后谈判后，哈伦同意放过这座城市，以换取每年70,000枚金币的进贡。当艾琳被废黜，拜占庭人在806年违背协议时，哈伦又率领一支军队北上，再次迫使拜占庭人投降。尽管有战争和内乱，但拉希德统治的大部分时间都是和平繁荣的。哈里发国经济和工业增长，贸易也蓬勃发展。哈伦热爱音乐和诗歌，他给宫廷里的艺术家送了丰厚的礼物。尽管拉希德不一定是一位伟大的领导者，但他确实在阿拉伯帝国权力和财富达到顶峰时出色地统治了它。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_FIRST_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>路易十四，又名路易大帝或太阳王，自 1643 年起担任法国国王，直至1715年去世。他的统治时间为72年110天，是历史上可查明的统治者中在位时间最长的一位。在路易的长期统治期间，法国成为欧洲主要强国，并定期宣称其军事实力。与西班牙的冲突贯穿了他的整个童年，而在他个人统治期间，法国参加了三次大陆大战，每次都是与强大的外国联盟进行的：法荷战争、九年战争和西班牙王位继承战争。此外，法国还参加了较短的战争，例如权力下放战争和重聚战争。战争决定了路易的外交政策，他的个性塑造了他的方法。在“商业、复仇和愤怒的混合”的驱使下，他感觉到战争是提升自己荣耀的理想方式。在和平时期，他专注于为下一场战争做准备。他教导他的外交官，他们的工作是为法国军队创造战术和战略优势。他在位期间取得了重大成就，这些成就对近代早期、工业革命时期乃至今天都产生了广泛影响，包括修建米迪运河、资助艺术家以及成立法国科学院。反波旁王朝的拿破仑不仅将他描述为“一位伟大的国王”，而且是“唯一一位名副其实的法国国王”。德国新教哲学家莱布尼茨称赞他是“有史以来最伟大的国王之一”。历史学家和哲学家伏尔泰写道：“一提到他的名字，人们就会对他说一声尊敬，并唤起一个永远值得纪念的时代的形象”。伏尔泰的历史著作《路易十四时代》将路易十四的统治时期称为理性和文化繁荣的四个伟大时代之一，也是有史以来最伟大的时代。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_ZAYED_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>谢赫·扎耶德·本·苏丹·阿勒纳哈扬是阿联酋的政治家、政界人士和慈善家，他从1971年起担任阿拉伯联合酋长国的第一任总统，直到2004年去世。他被誉为阿联酋的国父和成立阿联酋的主要推动者，将七个酋长国统一起来。他被认为是一位相对开明的统治者，允许私营媒体。然而，他们必须进行自我审查，避免批评扎耶德或统治家族。他们允许信仰自由，并在一定程度上允许外籍文化，但扎耶德作为穆斯林国家元首的角色并不总是让广大阿拉伯世界感到满意。谢赫·扎耶德决心将阿联酋统一为联邦。1968年2月18日，在迪拜和阿布扎比边境的沙漠高地举行了一次具有开创性的会议，谢赫扎耶德和迪拜的谢赫拉希德·本·赛义德·阿勒马克图姆握手，同意成立联邦并试图邀请其他特鲁西尔统治者加入，以便在英国撤军后建立一个可行的国家。1971年，在与其他六位特鲁西尔国家统治者进行了有时很艰难的谈判后，阿拉伯联合酋长国成立。扎耶德于1971年被任命为阿联酋总统，并于1976年、1981年、1986年和1991年四次连任。1974年，扎耶德通过《吉达条约》解决了与沙特阿拉伯悬而未决的边界争端，根据该条约，沙特阿拉伯获得了谢巴油田的产出和进入波斯湾下游的通道，作为对阿联酋的承认。扎耶德是世界上最富有的人之一。据《福布斯》估计，2004年他的财富约为200亿美元。这笔财富几乎全部来自阿布扎比和阿联酋的巨额石油财富，这两个国家拥有全球已探明石油储量的十分之一。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_FRIDRIK_GREAT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>拜里米苏拉作为出生于室利佛逝帝国的巨港王子，在失去权力后逃离苏门答腊，到马来半岛寻求庇护。公元1400年左右，他建立了马六甲，认识到马六甲海峡最窄处的战略潜力，马六甲海峡是连接印度洋和南海的重要海上咽喉。这个位置催生了一句著名的谚语：“谁能成为马六甲之主，谁就扼住了威尼斯的咽喉”，强调了马六甲在全球贸易中的关键作用，与欧洲列强在控制东西方香料和商品流动方面相媲美。</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_FRIDRIK_GREAT_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+            <Text>在拜里米苏拉的领导下，马六甲从一个小渔村发展成为亚洲最具活力的商业中心。他的政策鼓励贸易，建立了一个安全有序的港口城市，吸引了来自中国、印度、阿拉伯和其他地方的商人。拜里米苏拉通过进贡和认可与中国明朝结盟，不仅保护马六甲免受地区威胁，还巩固了其作为安全繁荣的商业中心的声誉。这种战略外交和远见的结合使马六甲成为文化、宗教和商品的大熔炉，为其在15世纪成为强大贸易帝国的黄金时代奠定了基础。</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_FRIDRIK_GREAT_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+            <Text>除了商业意义之外，马六甲还在该地区伊斯兰教的传播和伊斯兰学习的推广中发挥了关键作用。作为一个繁荣的港口城市，马六甲吸引了来自中东、印度和马来群岛的穆斯林商人，他们不仅带来了商品，还带来了他们的信仰和文化习俗。马六甲的统治精英，包括拜里米苏拉的继任者，都信奉伊斯兰教，伊斯兰教成为国教和不同人口的统一力量。伊斯兰学者和传教士发现马六甲是传播其教义的理想中心，为马来半岛和周围岛屿的伊斯兰化做出了贡献。伊斯兰学校的建立和学者的资助营造了一种有助于传播伊斯兰教法、神学和苏菲派传统的知识环境，使马六甲成为东南亚伊斯兰文化和学习的灯塔。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_GEDIMINAS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>维陶塔斯大帝于1392年至1430年担任立陶宛大公，被誉为立陶宛历史上最强大、最具影响力的领导人之一。维陶塔斯以其卓越的军事和政治才能而闻名，他将大公国扩展为一个庞大的帝国，从北部的波罗的海延伸到南部的黑海。他的统治标志着立陶宛权力的顶峰，因为他成功地吞并了现在属于白俄罗斯、乌克兰、波兰和俄罗斯部分的领土。维陶塔斯在外交和战争中表现出了非凡的战略技巧，与波兰结成了克雷沃联盟，并在格伦瓦尔德战役中取得了对条顿骑士团的重大胜利，从而巩固了立陶宛作为欧洲主要强国的地位。</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_GEDIMINAS_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+            <Text>除了军事成就外，维陶塔斯还因其明智有效的治理而受到尊敬，他的治理为他的王国带来了稳定和繁荣。他为集中权力和简化行政管理所做的努力为建立更具凝聚力的国家奠定了基础，促进了经济增长和文化发展。维陶塔斯的持久遗产体现在立陶宛国徽中，国徽上刻有骑士的图案，象征着大公的勇敢和正义的持久精神。这个徽章证明了维陶塔斯在塑造国家身份和历史方面所发挥的作用，强调了他作为一位有远见的统治者的地位，他不仅保卫了祖国，还扩大和丰富了祖国。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_RBORGIA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>安达卢斯的第二任倭马亚哈里发，伟大的阿卜杜勒·拉赫曼三世之子，公元915年11月出生于科尔多瓦大城，公元976年10月在科尔多瓦大城去世，他的伟大统治代表了哈里发国最辉煌的时期；在他的个人赞助下，摩尔人的艺术和科学在安达卢斯达到了黄金时代。哈卡姆二世试图改善人民的命运，尽管基督徒不断攻击。作为一个已经富裕的王国，哈卡姆赞助灌溉项目以提高农业产量，拓宽城镇街道，并下令建造更多市场。他组建了一个庞大的私人图书馆，供来自穆斯林和基督教国家的学者使用，据说藏书多达60万册（不止一位历史学家对此提出质疑，许多人认为这个数字只有40万册）。建筑项目包括科尔多瓦清真寺的扩建和皇家住所的完工。安达卢斯对今天的重要性在于它向我们展示了不同宗教信仰的人可以在人道主义价值观（共存）的基础上共同生活。当时，穆斯林、犹太人和基督徒与世界上任何其他地方相比都和平共处。非穆斯林只要尊重穆斯林就可以自由地信奉他们的宗教。穆斯林不得将他们视为二等公民或将他们视为二等公民。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_BISMARK_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>奥托，俾斯麦亲王，俾斯麦-申豪森伯爵，劳恩堡公爵（1815年4月1日-1898年7月30日），出生名为奥托·爱德华·利奥波德·冯·俾斯麦，是普鲁士人，后来成为德国政治家和外交官。俾斯麦成功策划了三场战争，并凭借精干的德国军队取得了决定性的胜利。他甚至成功让被他强迫参战的国家之一奥匈帝国成为德国主导的联盟的小成员！更不用说他在很大程度上创建了德意志帝国，将其统一在普鲁士主导的北德意志邦联和德国小国之下。他让欧洲保持了一代人的和平。凭借对联盟和条约的旋转式处理方式，他成功果断地遏制了欧洲主要大国之间爆发的任何战争，尽管法国在很大程度上正在复苏和强大。他甚至召开了两次会议，均在柏林举行，以解决欧洲分歧，第一次会议解决了1877-78年俄土战争引起的保加利亚危机，第二次会议解决了欧洲对非洲的主权要求。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_ARBE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>洛伦佐·德·美第奇，通常被称为“洛伦佐·美第奇”，是一位杰出的政治家，也是15世纪后期佛罗伦萨共和国的实际统治者。洛伦佐出生于1449年，父亲美第奇家族势力强大，1469年父亲去世后，他接管了佛罗伦萨，并利用自己的外交技巧和战略敏锐度，在意大利城邦的竞争中保持了佛罗伦萨的自治。洛伦佐以外交天才而闻名，他巧妙地与教皇国和那不勒斯王国等各种势力结盟，以防止佛罗伦萨与邻国发生冲突，并确保微妙的权力平衡。他的领导在动荡时期稳定了佛罗伦萨，包括帕齐阴谋，这是一场由敌对派系策划的暗杀企图，洛伦佐幸免于难，巩固了他作为一名坚韧而机智的领导人的声誉，即使在危机下也能团结佛罗伦萨。</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_ARBE_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+            <Text>洛伦佐的影响力不仅限于政治，还延伸至意大利文艺复兴时期的文化中心，他成为了意大利文艺复兴时期的传奇艺术赞助人。洛伦佐天生欣赏美和智慧，他资助艺术家、作家和哲学家，创造了一种培养非凡文化成就的环境。他为列奥纳多·达·芬奇、米开朗基罗、桑德罗·波提切利和诗人安杰洛·波利齐亚诺等杰出人物提供资金和智力支持。在他的赞助下，佛罗伦萨成为文艺复兴的中心，创作了突破艺术和人文主义思想界限的作品。洛伦佐还支持新柏拉图主义哲学，这种哲学在佛罗伦萨的柏拉图学院中蓬勃发展，该学院是洛伦佐为探索古典知识与基督教思想之间的关系而建立的团体。他对艺术和教育的投资不仅定义了那个时代的美学，还留下了创新遗产，塑造了几个世纪以来的西方艺术和思想。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_KOSEMI_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>普里特维·纳拉扬·沙阿 (1723-1775) 是廓尔喀王国的最后一位统治者，也是尼泊尔王国 (也称为廓尔喀王国) 的第一位君主。普里特维·纳拉扬·沙阿开启了尼泊尔的统一。由于北印度由伊斯兰莫卧儿统治者统治，沙阿宣布新统一的尼泊尔王国为“印度教徒的真正土地”。他还将北印度的其余地区称为莫卧儿国家。普里特维·纳拉扬·沙阿被认为是尼泊尔的国父。在普里特维·纳拉扬·沙阿的统一运动之前，尼泊尔共有54个邦。在东南特莱，有三个Sen邦：Makawanpur、Bijayapur和Chaudandi。在西部，从廓尔喀到甘达基省，共有 24 个邦。卡纳利省有 22 个邦，分别由卡利安、萨马尔、沙希和昌德王朝统治。除了廓尔喀和木斯塘，巴克塔普尔、坎蒂普尔和拉利特普尔组成了剩余的五个邦。公元1743年4月3日，当普里特维·纳拉扬·沙阿登上廓尔喀王位时，它还是一个小邦。他开始思考如何将廓尔喀变成一个大而强大的国家。他前往瓦拉纳西，亲自了解邻国以及南部的印度。当时，瓦拉纳西是印度的大型贸易中心之一，来自不同地方的人们聚集在这里。他会见了不同类型的人，对印度次大陆的政治和社会状况有了宝贵的了解。在瓦拉纳西，他的岳父、拉其普特酋长阿比曼·辛格为他购买了一些枪支和弹药。普里特维·纳拉扬·沙最终成功占领了几个小公国，并将它们并入王国。这一扩张对于确保尼泊尔王国的持续生存至关重要，因为东印度公司已经从孟加拉的基地向印度次大陆扩张。沙确信，东印度公司最终将征服尼泊尔南部的边境地区，并接近尼泊尔。他认为，如果尼泊尔仍然是由五十个公国组成的集合，那么在与东印度公司或任何其他外国势力发生战争时，尼泊尔很容易被击败和征服。扩张王国确保了尼泊尔将保持独立国家的地位，并能够与外国势力平等谈判。他的军事战略在尼泊尔的丘陵和山区被证明是有效的，使敌对军队缺乏补给，无法联合成一支可以在激战中压倒他的军队。</Text>
+        </Replace>
+
+         <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_BEG_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>乌鲁伯 (1394年3月22日-1449年10月27日)是帖木儿苏丹，也是天文学家和数学家。乌鲁伯因其在天文相关数学方面的工作而闻名，例如三角学和球面几何，以及他对艺术和智力活动的普遍兴趣。据认为他会说五种语言：阿拉伯语、波斯语、突厥语、蒙古语和少量中文。在他的统治期间（首先作为总督，然后直接统治），帖木儿帝国在他的关注和赞助下达到了帖木儿文艺复兴的文化顶峰。撒马尔罕被其父亲沙鲁克占领并赠予乌鲁伯。他在1424年至1429年间在撒马尔罕建造了伟大的乌鲁伯天文台。学者们认为它是当时伊斯兰世界最好的天文台之一，也是中亚最大的天文台。乌鲁伯后来被许多学者公认为15世纪最重要的观测天文学家。他还在撒马尔罕和布哈拉建造了乌鲁伯伊斯兰教学校 (1417-1420)，将这些城市变成了中亚的文化学习中心。他在天文台的墙壁上留下的铭文概括了他的信仰：“宗教兴衰，帝国化为尘土，但科学成果永垂不朽。”然而，乌鲁伯的科学专业知识与他的治理能力不相称。在他短暂的统治期间，他未能建立自己的权力和权威。结果，包括他的家人在内的其他统治者利用了他缺乏控制力，他随后被推翻和暗杀。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PLATI_AKBAR_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>教皇尤利乌斯二世本名为朱利亚诺·德拉·罗韦雷 (1443年12月5日-1513年2月21日)，从1503年开始直至1513年2月逝世，他一直担任天主教会领袖和教皇国统治者。他的绰号是“战士教皇”或“可怕教皇”，他选择这个教皇名字并不是为了纪念教皇尤利乌斯一世，而是为了模仿尤利乌斯·凯撒。尤利乌斯二世是最强大和最具影响力的教皇之一，也是文艺复兴盛期的核心人物，留下了重要的文化和政治遗产。由于他在意大利战争期间的政策，教皇国增强了权力和中央集权，教皇职位在整个16世纪的意大利和欧洲继续在外交和政治上发挥关键作用。1506年，尤利乌斯二世建立了梵蒂冈博物馆，并着手重建圣彼得大教堂。同年，他组织了著名的瑞士卫队保护自己，并在罗马涅指挥了一场针对当地领主的成功战役。尤利乌斯二世的兴趣也在于新世界，因为他批准了《托尔德西里亚斯条约》，在美洲建立了第一个主教区，并开始了拉丁美洲的天主教化。1508年，他委托建造了拉斐尔房间并绘制了米开朗基罗在西斯廷教堂的画作。马基雅维利在他的著作中将尤利乌斯二世描述为一位理想的王子。教皇尤利乌斯二世允许寻求赦罪的人向教会捐款，这些钱将用于建造圣彼得大教堂。他死后，鹿特丹的伊拉斯谟在《尤利乌斯被逐出天堂》中对他进行了激烈的讽刺，书中，被圣彼得拒绝进入天堂的醉酒教皇为他的世俗生活辩护并威胁要建立自己的天堂。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_SOVEREIGNS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>柏拉图等人主张精英政治是最明智的公共管理形式……他认为统治者应该是哲学家之王，他们的统治权来自他们的智慧和洞察力。简而言之，精英政治是一种制度，在这种制度下，最有才华和最有价值的人才能在政府官僚机构中获得晋升，而不是那些现任统治者（或国会议员）的亲密朋友，或来自某个部落、种姓或宗教的人。大多数文明都在某种形式的精英政治和某种不太明智的选择管理者的方法之间摇摆不定。这种模式不断重复，直到太阳爆炸，地球上所有生命都消失殆尽。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_DIPLO_SOVER_POINTS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>国际关系是一件棘手的事情。习惯于与外国人打交道的商人阶层经常扮演外交官和大使的角色。随着贵族王朝跨越国界，国际贵族的重要性也随之增加——有影响力的家族多年来建立的亲属关系（神圣罗马帝国噩梦般的地图上充斥着边境血腥和过于频繁的飞地就证明了这一点）。这些关系常常被用来在外交或军事上帮助国家。与此同时，从事“贵族外交”的国家经常陷入继承战争，甚至因个人联盟而失去独立。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_SOVEREIGNS_BUFFED_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>新加坡在世界地图上面积很小，因此常被称为“小红点”，时任印尼总统哈比比在1998年的评论中强调了这一点，象征着新加坡尽管地理位置微不足道，但在全球却具有非凡的影响力。在李光耀的领导下，新加坡通过以法治、出色的反腐措施和对任人唯贤的承诺，从一个苦苦挣扎的后殖民国家转变为全球经济强国。李光耀政府认识到该国在1965年意外独立后的脆弱性，建立了一个透明的法律框架，维护平等并确保严格执行法律。这种对法律诚信的承诺与对腐败的坚定立场相匹配，腐败行为调查局被授权调查和起诉社会各阶层的个人。任人唯贤是新加坡崛起的核心，其政策奖励人才和勤奋工作，确保政府任命和公共服务由能力而不是关系决定。这些原则促进了信任、稳定和效率，使新加坡成为该地区良好治理的灯塔和世界各国的典范。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PLUTOCRACY_SOV_CARD_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>威尼斯共和国，又名“最尊贵的共和国”，自公元7世纪末起一直繁荣昌盛，直至1797年灭亡。威尼斯共和国的长盛不衰和繁荣很大程度上归功于其独特的治理体系，该体系将贵族寡头政治与公共问责制相结合。威尼斯的象征性国家元首总督是终身选举产生的，但其权力由一个复杂的委员会网络精心平衡，包括大议会和十人委员会，以确保没有任何一个实体或个人可以垄断权力。这一制度培育了一种稳定的政治文化，培养了一批有能力和远见卓识的领导人。这些统治者在精英官僚机构的支持下，听取了熟练的外交官和行政人员的建议，带领威尼斯成为地中海地区的主要商业中心和文化精致的灯塔。威尼斯的治理模式不仅确保了内部和谐，还使其能够巧妙地应对外部威胁，维持了其一千多年的主权和影响力。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_THEOCRACY_SOV_CARD_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>“凯撒的物当归给凯撒”这句话出自《马太福音》22:21，耶稣在回答法利赛人提出的一个政治性问题时，问他们是否应该向罗马皇帝凯撒纳税。耶稣要了一枚硬币，并在硬币上突出凯撒的肖像，宣称：“凯撒的物当归给凯撒，上帝的物当归给上帝”，对世俗权威的合法性发表了深刻的论述。这一回应不仅肯定了统治者有权要求缴纳其统治范围内的税款，而且还为世俗统治和神圣统治的共存建立了一个框架。通过承认凯撒对世俗事务的权威，同时保留对上帝的终极忠诚，这一论述赋予了人类政府合法性，同时又不削弱精神义务的至高无上性。它强调，统治者作为世俗秩序的管理者，只要在其管辖范围内行事，就有权要求某些形式的效忠。从历史上看，这段经文证实了政治结构的存在和公民服从的必要性，为理解统治者的限度和责任奠定了基础。耶稣的回应巧妙地避免了彻底的反叛或盲目服从，强化了这样的原则：治理虽然合法，但不是绝对的，必须与更高的道德或精神责任相平衡。几个世纪以来，“凯撒的归凯撒”一直被用于关于统治者合法性、权威的道德限度和公民义务的适当范围的辩论中，为处理统治、统治者和被统治者之间的关系提供了一个永恒的框架，既尊重世俗权威，也尊重神圣主权。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_UNIT_GREAT_GreatSovereigns_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>伟大的君主由统治者组成，不一定是君主，他们掌握着重大的决策权，并在历史上留下了自己的影子。毋庸置疑，许多君主都做出了伟大的事迹——通常是可怕和恐怖的，但确实很伟大：引发战争、摧毁国家并导致数百万人死亡。那些被描绘成“伟大的”人恰好也是开启黄金时代、创造伟大奇迹、使国家和人民从默默无闻中崛起并获得令人羡慕的文明地位的人。繁荣时代、伟大的壮举或历史时刻往往要归功于一些人，比如美国或意大利的“国父”。然而，伟大的君主是凭借其精明的政治才能和恰当的统治改变了历史的个人。虽然一些统治者确实取得了很大成就，但那些输掉重大战争、失去国家或失去数百万本国人口的人并不真正被称为“伟大”。</Text>
+        </Replace>
+        
+<!-- 2024.11.2更新 -->
+        <Replace Tag="LOC_GREATPERSON_NAPOLEON_BONAPARTE_ACTIVE_PLATI_SOVEREIGN_TEXT" Language="zh_Hans_CN">
+            <Text>所有政体通用政策槽位+1。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_GREATPERSON_GUSTAVUS_ADOLPHUS_ACTIVE_PLATI_SOVEREIGN_TEXT" Language="zh_Hans_CN">
+            <Text>所有政体军事政策槽位+1。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_BUILDING_ALHAMBRA_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>建成时，获得一位大统治者，并解锁阿卡萨城堡改良设施。必须建造在靠近市政广场的丘陵上。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_RESOURCE_COWRIE_NAME" Language="zh_Hans_CN">
+            <Text>货贝</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_COWRIE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>贝壳是来自印度洋和太平洋的小而闪亮的贝壳，成为撒哈拉以南非洲贸易不可或缺的一部分，尤其是在 9 世纪至 16 世纪加纳、马里和桑海等强大的西非帝国崛起期间。贝壳由阿拉伯和柏柏尔商人穿越撒哈拉运输，被视为货币和财富的象征，促进了非洲社会和地中海世界之间的黄金、盐和其他商品的贸易。贝壳在非洲内陆的稀缺使它们成为一种奢侈品，而在中国、印度和中东地区等遥远的地方，贝壳长期以来一直象征着繁荣，并被用于艺术和装饰。贝壳的异国魅力以及统治者和商人的控制分配使其不仅是一种实用货币，而且是非洲宫廷中的地位象征，将其深深嵌入该地区的经济和文化表现形式中。</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_PLATI_MONUMENT_ASKIA_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+            <Text>在西非桑海帝国阿斯基亚大帝（穆罕默德一世阿斯基亚）统治期间（1493-1528 年），建立了几座令人印象深刻的建筑纪念碑，融合了伊斯兰和传统的苏丹-萨赫勒风格。阿斯基亚以信仰伊斯兰教而闻名，他促进了首都加奥及其他地区的宗教和知识生活。他那个时代最著名的建筑是阿斯基亚墓，这是一座位于加奥的金字塔状土制建筑，据信是他的陵墓，反映了伊斯兰教的影响和该地区建筑的独创性。他还资助清真寺和宗教学校的建设和翻修，特别是在廷巴克图和杰内，这些地方成为伊斯兰学习中心，吸引了来自非洲和中东各地的学者。这些纪念碑不仅巩固了帝国的宗教和文化特征，还展示了桑海帝国的财富及其复杂的城市发展。</Text>
+        </Replace>
+<!-- 6T Policies -->
+<Replace Tag="LOC_POLICY_DIPLO_SOVER_POINTS_6T_NAME" Language="zh_Hans_CN">
+	<Text>三级会议</Text>
+</Replace>
+<Replace Tag="LOC_POLICY_DIPLO_SOVER_POINTSS_6T_DESCRIPTION" Language="zh_Hans_CN">
+	<Text>拥有军营、商业中心和圣地的城市每回合+2 [ICON_GreatSovereigns] 伟治者点数。</Text>
+</Replace>
+<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_DIPLO_SOVER_POINTS_6T_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+	<Text>三级会议是法国自1302年腓力四世国王时期起设立的宏大立法机构。它是一个包含所有中世纪等级的分层结构：第一等级（教士）、第二等级（贵族）和第三等级（平民，他们有着高估自身重要性的有趣倾向）。该机构仅在国王裁量下召集，是政治平衡的杰作，确保权力牢牢掌握在它应属之地——精英阶层和全能上帝的圣使手中。数个世纪以来，它作为一股稳定力量运作，使王权得以征询臣民意见而不必愚蠢地放弃权威。它实际上是一种咨询，而非谈判。然而到了1789年，一些革命狂热分子决定将三级会议转变为激进民主的工具。第三等级，在其自命不凡的“平等”信仰（一个美妙的虚构，真的）驱动下，宣布自己为国民议会，并着手瓦解一个维系了法国数世纪之久的体系。结果如何？混乱、流血以及一群庸才的闹剧，最终以拿破仑——那个废除国王只为给自己加冕称帝的科西嘉暴发户——而告终。</Text>
+</Replace>
+<Replace Tag="LOC_ABILITY_TIMOCRACY_POINTS_NAME" Language="zh_Hans_CN">
+	<Text>荣誉政体</Text>
+</Replace>
+<Replace Tag="LOC_ABILITY_TIMOCRACY_POINTS_DESCRIPTION" Language="zh_Hans_CN">
+	<Text>击败敌方单位时获得+8 [ICON_GreatSovereigns] 伟治者点数。</Text>
+</Replace>
+<Replace Tag="LOC_POLICY_6T_OLIGARCHY_NAME" Language="zh_Hans_CN">
+	<Text>荣誉政体</Text>
+</Replace>
+<Replace Tag="LOC_POLICY_6T_OLIGARCHY_DESCRIPTION" Language="zh_Hans_CN">
+	<Text>击败敌方单位时获得+8 [ICON_GreatSovereigns] 伟治者点数。</Text>
+</Replace>
+<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_6T_OLIGARCHY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+	<Text>植根于古希腊伯罗奔尼撒半岛崎岖之地（约公元前8–4世纪）斯巴达城邦的军事化传统，荣誉政体（Timocracy）是崇尚荣誉的统治——或者更准确地说，是以牺牲任何类似于个人自由或知识进步的事物为代价，颂扬精英武士阶层。与雅典民主的喧嚣不同，斯巴达的政治结构建立在强制义务的基础之上，一个人的价值不由财富或智力衡量，而是由战场上的勇猛和对国家无条件的服从决定。统治阶级，即斯巴达公民（Spartiates），过着国家资助的苦行生活，接受臭名昭著的“阿哥格”（agoge）训练体系，这体系将男孩转变为训练有素的杀人机器，他们对舒适所知甚少，却深谙痛苦之道。这个被誉为军事卓越巅峰的体系，通过残酷镇压希洛人（Helots，即承担所有实际劳动的希腊奴隶）来运作，确保城邦始终保持为一个永久的军营，而非繁荣的文明。</Text>
+</Replace>
+<Replace Tag="LOC_POLICY_6T_AUTOCRACY_NAME" Language="zh_Hans_CN">
+	<Text>大理石之城</Text>
+</Replace>
+<Replace Tag="LOC_POLICY_6T_AUTOCRACY_DESCRIPTION" Language="zh_Hans_CN">
+	<Text>[ICON_Capital] 首都中建造的每一座古典及后古典时代奇观提供+1 [ICON_GreatSovereigns] 伟治者点数/回合。</Text>
+</Replace>
+<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_6T_AUTOCRACY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+	<Text>“我接受罗马时，它是一座砖城；我离开时，它已是一座大理石城”——当奥古斯都于公元前27年掌权时，罗马是一个庞大但结构朴实的城市，许多建筑由砖和木材建成。通过他宏大的建设工程，他改造了这座城市，委托建造了宏伟的神庙、广场和大理石包裹的纪念碑，如奥古斯都和平祭坛（Ara Pacis）和奥古斯都广场（Forum of Augustus）。虽然并非每座建筑都替换成了大理石，但他的统治极大地提升了罗马的建筑壮丽，并巩固了其作为帝国权力和艺术卓越中心的地位。</Text>
+</Replace>
+<Replace Tag="LOC_POLICY_6T_CLASSICAL_NAME" Language="zh_Hans_CN">
+	<Text>混合政体</Text>
+</Replace>
+<Replace Tag="LOC_POLICY_6T_CLASSICAL_DESCRIPTION" Language="zh_Hans_CN">
+	<Text>每座拥有至少3个特色区域的城市每回合+1 [ICON_GreatSovereigns] 伟治者点数。</Text>
+</Replace>
+<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_6T_CLASSICAL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+	<Text>亚里士多德的“混合政体”（Politeia）概念指的是一种融合了民主和寡头元素的混合平衡政体，旨在创造一个稳定公正的政治体系。他将混合政体视为理想的实用政府形式，权力分配于中产阶级，防止富人暴政（寡头政治）或穷人暴民统治（民主政治）的极端情况。在《政治学》中，亚里士多德认为一个运作良好的混合政体能确保法治、公民美德和参与度，公民以共同利益贡献者的身份参与治理，而不仅仅是统治者或被统治者。这种体系提倡中庸之道，避免了纯粹政体形式的腐败，同时促进政治稳定和公平。他的混合政体愿景可视为现代共和主义的前身，其制衡机制维持着一个既不被精英利益主导，也不受冲动群众统治左右的政府，而是由理性和追求集体福祉所治理。</Text>
+</Replace>
+<Replace Tag="LOC_POLICY_6T_ABSOLUTE_NAME" Language="zh_Hans_CN">
+	<Text>太阳王</Text>
+</Replace>
+<Replace Tag="LOC_POLICY_6T_ABSOLUTE_DESCRIPTION" Language="zh_Hans_CN">
+	<Text>[ICON_CAPITAL] 首都中建造的每一座文艺复兴及工业时代奇观提供+3 [ICON_GreatSovereigns] 伟治者点数/回合。</Text>
+</Replace>
+<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_6T_ABSOLUTE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+	<Text>路易十四不仅统治法国——他还上演了一场盛大的表演，自己担任主角，凡尔赛宫则是舞台。不满足于仅仅做一位君主，他决定成为人形之神——太阳王，整个法国都将围绕他旋转。还有什么比将曾经的狩猎小屋变成欧洲前所未见的、最奢华的宫殿更能使他的绝对统治永垂不朽呢？凡尔赛宫不仅是一个家；它是一份宣言，一次建筑上的大胆炫耀，以至于它重新定义了君主制的概念。镀金的大厅、无尽的走廊、镜厅（因为一个路易十四的倒影显然不够），以及设计得一丝不苟的花园（即使大自然也必须臣服于王权）——这是巴洛克式奢华的巅峰。</Text>
+</Replace>
+<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_6T_ABSOLUTE_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+	<Text>这座宫殿远非关乎美学；它是一场政治策略的大师课。通过迫使贵族在宫廷中生活，在富丽堂皇的大理石和枝形吊灯间为博取他的青睐而卑躬屈膝，路易十四有效地将潜在的对手变成了荣耀的廷臣，他们更关心能否获得下一次舞会的邀请函，而非策划叛乱。这种宏伟的权力展示成为了欧洲君主们的黄金标准，他们热切地模仿其风格，却巧妙地忽略了一个事实：维持如此奢华的宫廷需要一个深不见底的国库——足以让人在债务中溺毙。凡尔赛宫，尽管富丽堂皇，却既是一件杰作，也是一则警示——绝对君主制的终极象征。</Text>
+</Replace>
+<Replace Tag="LOC_POLICY_6T_REVOLUTIONARY_NAME" Language="zh_Hans_CN">
+	<Text>吉伦特主义</Text>
+</Replace>
+<Replace Tag="LOC_POLICY_6T_REVOLUTIONARY_DESCRIPTION" Language="zh_Hans_CN">
+	<Text>征服的城市每回合+1 [ICON_GreatSovereigns] 伟治者点数。不忠诚的城市每回合+4 [ICON_GreatSovereigns] 伟治者点数。</Text>
+</Replace>
+<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_6T_REVOLUTIONARY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+	<Text>吉伦特派认为，防止法国大革命吞噬自身的最佳方式，是将混乱输出到别处——最好是用刺刀输出。他们不是让革命狂热在国内发酵成无政府状态（最终也确实发生了），而是倡导一种旨在推翻欧洲腐朽旧君主制的侵略性外交政策。毕竟，为什么让反革命情绪在法国国内酝酿，而你却可以简单地进军邻国，“慷慨地”强加共和理想——无论他们是否想要呢？吉伦特派眼中的法国，并非一个仍在摸索如何治理自身的脆弱国家，而是一个普世革命的火炬手，有责任从马德里到维也纳点燃封建秩序。当然，在他们热忱中，他们忽略了一些小细节，比如法国摇摇欲坠的经济、新组建军队的混乱，以及像奥地利和普鲁士这样的外国列强，可能不太乐意被强行灌输革命教义这一小小的不便。在他们看来，战争不是一场绝望的赌博，而是意识形态的必要——既是团结国家的方式，也是证明法国宏伟的民主实验确属未来的途径。不幸的是，对吉伦特派来说，战争——正如它常做的那样——拒绝按计划进行，他们受控扩张的愿景迅速演变成一场地缘政治的漩涡，最终将吞噬他们、他们的革命，以及欧洲的相当一部分地区。</Text>
+</Replace>
+<Replace Tag="LOC_POLICY_6T_COMMONWEALTH_NAME" Language="zh_Hans_CN">
+	<Text>共主邦联</Text>
+</Replace>
+<Replace Tag="LOC_POLICY_6T_COMMONWEALTH_DESCRIPTION" Language="zh_Hans_CN">
+	<Text>每回合获得的 [ICON_GreatSovereigns] 伟治者点数+20%，乘以最高等级有效同盟的等级（最高+60%）。</Text>
+</Replace>
+<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_6T_COMMONWEALTH_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+	<Text>历史常常是讲述不太可能的伙伴关系的故事，没有什么安排能比奇特的共主邦联现象更能说明这一点了——那些两个截然不同的王国，除了一个君主外几乎毫无共同之处，却发现自己尴尬地捆绑在一起，如同一场双方都不太情愿的包办婚姻。两个著名的例子是波兰-立陶宛，以及英国与荷兰短暂的纠缠。前者，波兰-立陶宛联邦，可以说是历史上罕见的共享治理的成功故事——至少，在它衰落之前是如此。这个在选举君主制和贵族民主制方面的宏伟实验形成于1569年，当时波兰和立陶宛将他们长期存在的联合正式化为一个庞大的、半功能性的政治实体，其顽固拒绝中央集权的做法令外人困惑。相比之下，英国在17世纪末与荷兰的短暂联姻——由所谓的1688年光荣革命促成——则远非情投意合。奥兰治的威廉，一个有着过度膨胀的使命感并对海上力量有敏锐理解的荷兰人，应英国精英的邀请，有效地入侵了英国，这些精英对他们真正的国王詹姆斯二世的天主教倾向日益厌倦。与波兰和立陶宛之间较为相互同意的安排不同，威廉的即位有着敌意收购的所有冷淡。然而，尽管有诸多不满，英国容忍了这位外国闯入者，条件是他同意实行君主立宪制，并且不过多干涉英国事务——公平地说，当他不忙于发动大陆战争时，他大体上遵守了这些条款。在历史的宏大账簿上，波兰-立陶宛数世纪的共同统治、充满活力的文化和军事合作，似乎比英国勉强接受一位荷兰统治者要友好得多。但话说回来，共主邦联，就像历史本身一样，很少在公平或民众认可的原则上运作。</Text>
+</Replace>
+<Replace Tag="LOC_POLICY_6T_FASCIST_NAME" Language="zh_Hans_CN">
+	<Text>战斗精神</Text>
+</Replace>
+<Replace Tag="LOC_POLICY_6T_FASCIST_DESCRIPTION" Language="zh_Hans_CN">
+	<Text>战争期间每回合获得的 [ICON_GreatSovereigns] 伟治者点数+100%。</Text>
+</Replace>
+<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_6T_FASCIST_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+	<Text>这个词的字面意思是“斗争”，但在墨索里尼的意大利，它远非仅仅是冲突——它是神圣的信条，是一个将暴力浪漫化为净化之火、民族复兴工具以及政治合法性最可靠途径的政权的驱动力。你看，法西斯主义不仅仅接受斗争；它崇拜斗争。它深信战争——无论是外部还是国内，在战场上还是在街头——不仅是必要的，而且是可取的，是一个国家男子气概的终极证明（因为没有什么比一群黑衫党人以团结的名义敲碎头颅更能体现国家力量了）。这个想法，当然，并非源于深邃的政治哲学，而是拼凑自尼采的权力意志、一点索雷尔式的革命暴力，以及大量墨索里尼自己即兴发挥的虚张声势。“战斗精神”证明了一切都是正当的：镇压政治对手（因为民主及其所有的空谈和妥协是弱者的游戏）、帝国的扩张梦想（因为没有战争的意大利是没有目标的意大利），以及最终，法西斯主义本身的合法性。如果生活是一场战斗，那么只有最强者——碰巧是法西斯主义者——才配统治。讽刺的是，这种对斗争的颂扬最终导致了意大利在第二次世界大战中的灾难性失败，证明也许并非政治中的每一个问题都能用棍棒、枪支或一个阳台上喊叫的富有魅力的男人来解决。</Text>
+</Replace>
+<Replace Tag="LOC_POLICY_6T_COMMUNIST_NAME" Language="zh_Hans_CN">
+	<Text>选拔政治</Text>
+</Replace>
+<Replace Tag="LOC_POLICY_6T_COMMUNIST_DESCRIPTION" Language="zh_Hans_CN">
+	<Text>相邻加成至少+4的学院和工业区各提供+2 [ICON_GreatSovereigns] 伟治者点数/回合。若这些区域的相邻加成达到+10，则额外+3 [ICON_GreatSovereigns] 伟治者点数/回合。</Text>
+</Replace>
+<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_6T_COMMUNIST_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+	<Text>选拔政治（Selectocracy），如苏联和中国的社会主义实践所示，是一场宏大的政治戏剧，其中大众参与的幻觉掩盖了精英主导的“选拔”过程。理论上，这些体系拒绝资产阶级的选举民主，支持一种更“科学”的治理方法——一个掌握马克思列宁主义智慧的先锋党，代表无产阶级（他们，方便地，几乎没有发言权）选择意识形态上最合适的领导人。在苏联，这表现为共产党严格的等级制度，决策从政治局下达，通过党的各级机关，最终到达人民手中，人民被鼓励在代表大会上以雷鸣般的掌声热情地批准预先注定的选择。中国，在毛时代及之后，将这种做法提炼成一个由内部清洗、自我批评和精心策划的继位组成的无缝机器，确保只有那些最善于紧跟党的路线的人才能生存下来。选拔政治的美妙之处在于其悖论：一个表面上为赋权工人阶级而建立的体系，反而创造了一个官僚贵族阶层，权力像世袭头衔一样传递——只不过候选人需要的不是贵族血统，而是坚定不移的意识形态纯洁性、战略性的背后捅刀技巧，以及撰写冗长的、党批准的辩证法唯物主义论文的能力。当然，群众被期望敬畏这种开明的领导，并通过精心编排的、结果从无悬念的投票仪式来表达他们的“能动性”。</Text>
+</Replace>
+<Replace Tag="LOC_POLICY_6T_DEMOCRAT_NAME" Language="zh_Hans_CN">
+	<Text>包容性制度</Text>
+</Replace>
+<Replace Tag="LOC_POLICY_6T_DEMOCRAT_DESCRIPTION" Language="zh_Hans_CN">
+	<Text>拥有至少20 [ICON_Citizen] 人口的城市每回合+6 [ICON_GreatSovereigns] 伟治者点数。</Text>
+</Replace>
+<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_6T_DEMOCRAT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+	<Text>包容性制度的历史本质上是社会认识到，让一小撮人垄断所有权力和财富往往对其他所有人结局不妙的故事。这是一个古老的故事：精英建立榨取性制度以独占好东西，最终却面临革命、经济停滞，或两者兼有。想想中世纪的封建主义，少数贵族垄断土地和权力，而农民则劳作至早逝。或者更近的苏联，它承诺一个工人的天堂，却提供了一个关于为何集权与缺乏问责会导致惊人低效的壮观教训。于是，包容性制度应运而生——在这些体系中，权力分散，法律（理论上）适用于所有人，经济机会不再只属于那些生在正确家庭的人。当这些制度扎根时，它们创造了一个世界，在这个世界里，决定谁能出人头地的往往是能力，而非人脉。</Text>
+</Replace>
+<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_6T_DEMOCRAT_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+	<Text>然后还有治理这个重要问题——法治，一个近乎神奇的概念，它确保即使权贵也必须遵守规则，防止国家落入那种认为教育是给失败者准备的、自我致富才是公职目的的统治者手中。世界已经见证了这种光谱的两端：从战后德国谨慎守法、重建成为经济强国的领导，到那些将民主视为技术细节而非治理体系的领导者的惊人管理不善。最大的讽刺在于，虽然独裁者坚称他们带来“稳定”，但他们的政权通常以经济崩溃、暴力权力斗争，或两者兼有而告终。包容性制度，虽然混乱、官僚、缓慢，但最终提供了一些独裁政权很少能提供的东西：可持续的进步。因此，虽然民主和法治并不总能产生有远见的天才，但它们确实倾向于在那些最无能的暴君造成太大破坏之前将其过滤掉。</Text>
+</Replace>
+<!-- Abilities -->
+<Replace Tag="LOC_ABILITY_GURKHAS_BONUS_NAME" Language="zh_Hans_CN">
+	<Text>库玛丽女神</Text>
+</Replace>
+<Replace Tag="LOC_ABILITY_GURKHAS_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+	<Text>+5 [ICON_Strength] 战斗力。</Text>
+</Replace>
+<Replace Tag="LOC_ABILITY_SEPOYS_BONUS_NAME" Language="zh_Hans_CN">
+	<Text>廓尔喀军团</Text>
+</Replace>
+<Replace Tag="LOC_ABILITY_SEPOYS_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+	<Text>在 [ICON_CAPITAL] 异大陆上+3 [ICON_Strength] 战斗力。</Text>
+</Replace>
+<Replace Tag="LOC_ABILITY_GURKHAS_BUFF_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+	<Text>+5 [ICON_Strength] 战斗力（库玛丽女神）。</Text>
+</Replace>
+<Replace Tag="LOC_ABILITY_SEPOYS_BUFF_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+	<Text>在 [ICON_CAPITAL] 异大陆上+3 [ICON_Strength] 战斗力（廓尔喀军纪）。</Text>
+</Replace>
+<!-- RES -->
+<Replace Tag="LOC_RESOURCE_COWRIE_NAME" Language="zh_Hans_CN">
+	<Text>贝壳货币</Text>
+</Replace>
+<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_COWRIE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+	<Text>贝壳货币（Cowrie shells），来自印度洋和太平洋的小而闪亮的贝壳，成为撒哈拉以南非洲贸易不可或缺的一部分，尤其是在约9至16世纪强大的西非帝国如加纳、马里和桑海崛起期间。这些贝壳由阿拉伯和柏柏尔商人穿越撒哈拉运输而来，被珍视为货币和财富的象征，促进了非洲社会与地中海世界之间黄金、盐和其他商品的贸易。它们在非洲内陆的稀缺性使其成为奢侈品，而在遥远的中国、印度和中东部分地区，贝壳货币长期以来象征着繁荣，并被用于艺术和装饰品。贝壳的异域吸引力及其由统治者和商人控制的流通，使其不仅成为一种实用的货币，也成为非洲宫廷内部地位的象征，深深融入了该地区的经济和文化表达。</Text>
+</Replace>
+<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_PLATI_MONUMENT_ASKIA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+	<Text>在西非桑海帝国阿斯基亚大帝（穆罕默德一世·阿斯基亚）统治时期（1493–1528），建造了几座融合了伊斯兰和传统苏丹-萨赫勒风格的宏伟建筑。阿斯基亚以对伊斯兰教的虔诚著称，加强了其首都加奥及其他地区的宗教和知识生活。他那个时代最著名的建筑是阿斯基亚陵（Tomb of Askia），位于加奥的一座类似金字塔的土质结构，据信是他的陵墓，反映了伊斯兰影响和该地区的建筑智慧。他还资助建造和翻新清真寺和伊斯兰学校（Madrasas），特别是在廷巴克图和杰内，这些地方成为伊斯兰学术中心，吸引了来自非洲和中东各地的学者。这些纪念碑不仅巩固了帝国的宗教和文化认同，也展示了桑海帝国的财富及其复杂的城市发展。</Text>
+</Replace>
+    </LocalizedText>
+</GameData>

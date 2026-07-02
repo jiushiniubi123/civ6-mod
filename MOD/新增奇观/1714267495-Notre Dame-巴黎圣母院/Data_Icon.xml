@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Data_Icon -->
+<!-- Author: aall1 -->
+<!-- DateCreated: 4/16/2019 8:06:17 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_NOTRE_DAME" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ND32"/>
+		<Row Name="ICON_ATLAS_NOTRE_DAME" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="ND38"/>
+		<Row Name="ICON_ATLAS_NOTRE_DAME" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ND50"/>
+		<Row Name="ICON_ATLAS_NOTRE_DAME" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ND64"/>
+		<Row Name="ICON_ATLAS_NOTRE_DAME" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="ND128"/>
+		<Row Name="ICON_ATLAS_NOTRE_DAME" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ND256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_NOTRE_DAME" Atlas="ICON_ATLAS_NOTRE_DAME" Index="0"/>
+	</IconDefinitions>
+</GameData>

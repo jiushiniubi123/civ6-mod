@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Portual_AI -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 2/19/2023 11:37:18 PM -->
+<GameData>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_PORTUGAL_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+	</RequirementSetRequirements>
+</GameData>

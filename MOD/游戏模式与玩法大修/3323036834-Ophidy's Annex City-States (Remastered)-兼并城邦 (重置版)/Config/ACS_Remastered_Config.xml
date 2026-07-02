@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ACS_Remastered_Config -->
+<!-- Author: Ophidy -->
+<!-- DateCreated: 8/31/2024 7:59:55 PM -->
+<GameData>
+	<Parameters>
+		<Row Key1="Ruleset" Key2="RULESET_EXPANSION_2"
+			 ParameterId="ACSR_Threshold"
+			 Name="LOC_PARA_ACSR_THRESHOLD_NAME"
+			 Description="LOC_PARA_ACSR_THRESHOLD_DESC"
+			 Domain="ACSR_ThresholdRange"
+			 DefaultValue="7"
+			 ConfigurationGroup="Game"
+			 ConfigurationId="ACSR_THRESHOLD"
+			 GroupId="GameOptions"
+			 SortIndex="85"
+			 />
+		<Row Key1="Ruleset" Key2="RULESET_EXPANSION_2"
+			 ParameterId="ACSR_Growth"
+			 Name="LOC_PARA_ACSR_GROWTH_NAME"
+			 Description="LOC_PARA_ACSR_GROWTH_DESC"
+			 Domain="ACSR_GrowthRange"
+			 DefaultValue="2"
+			 ConfigurationGroup="Game"
+			 ConfigurationId="ACSR_GROWTH"
+			 GroupId="GameOptions"
+			 SortIndex="88"
+			 />
+		 <Row Key1="Ruleset" Key2="RULESET_EXPANSION_2"
+			 ParameterId="ACSR_CostMultiplier"
+			 Name="LOC_PARA_ACSR_MULTIPLIER_NAME"
+			 Description="LOC_PARA_ACSR_MULTIPLIER_DESC"
+			 Domain="ACSR_Multiplier"
+			 DefaultValue="1"
+			 ConfigurationGroup="Game"
+			 ConfigurationId="ACSR_COSTMULTIPLIER"
+			 GroupId="GameOptions"
+			 SortIndex="89"
+			 />
+	</Parameters>
+	<DomainRanges>
+		<Row Domain="ACSR_ThresholdRange" MinimumValue="6" MaximumValue="18"/>
+		<Row Domain="ACSR_GrowthRange" MinimumValue="0" MaximumValue="9"/>
+		<Row Domain="ACSR_Multiplier" MinimumValue="1" MaximumValue="10"/>
+	</DomainRanges>
+	<ParameterDependencies>
+		<Row ParameterId="ACSR_Threshold" ConfigurationGroup="Game" ConfigurationId="WORLD_BUILDER" Operator="NotEquals" ConfigurationValue="1" />
+		<Row ParameterId="ACSR_Growth" ConfigurationGroup="Game" ConfigurationId="WORLD_BUILDER" Operator="NotEquals" ConfigurationValue="1" />
+		<Row ParameterId="ACSR_Multiplier" ConfigurationGroup="Game" ConfigurationId="WORLD_BUILDER" Operator="NotEquals" ConfigurationValue="1" />
+	</ParameterDependencies>
+</GameData>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="43638af3-9b27-44f2-9baa-16a3319b4810" version="1">
+  <Properties>
+    <Name>LOC_ENHANCED_MAUI_ANANSI_MOD_NAME</Name>
+    <Description>LOC_ENHANCED_MAUI_ANANSI_MOD_DESCRIPTION</Description>
+    <Created>1659920046</Created>
+    <Teaser>LOC_ENHANCED_MAUI_ANANSI_MOD_TEASER</Teaser>
+    <Authors>Konomi</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="LOC_ENHANCED_MAUI_ANANSI_MOD_NAME">
+      <en_US>Enhanced Maui and Anansi</en_US>
+      <zh_Hans_CN>毛伊与阿南西加强</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_ENHANCED_MAUI_ANANSI_MOD_TEASER">
+      <en_US>Strengthened the heroes, Maui and Anansi.</en_US>
+      <zh_Hans_CN>加强了英雄毛伊和阿南西。</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_ENHANCED_MAUI_ANANSI_MOD_DESCRIPTION">
+      <en_US>Strengthened the heroes, Maui and Anansi.[NEWLINE][NEWLINE]Maui:[NEWLINE]One-click to create a random Bonus Resource on an empty plot. No more complex selection — just click and get a random bonus resource![NEWLINE][NEWLINE]Anansi:[NEWLINE]Any visible resources can be removed, including unlocked strategic resources, antiquity sites, shipwrecks, and ley line resources after joining Hermetic Order.[NEWLINE]Starting from the classical era, removing resources produced more science and culture.</en_US>
+      <zh_Hans_CN>加强了英雄毛伊和阿南西。[NEWLINE][NEWLINE]毛伊：[NEWLINE]一键在空白格位创建随机加成资源。不再需要复杂的改良类型选择，点击即可获得随机加成资源！[NEWLINE][NEWLINE]阿南西：[NEWLINE]可以移除任何可见的资源，包括已解锁的战略资源、历史古迹、海难遗址和加入黄金黎明结社后的地脉。[NEWLINE]从古典时代开始，移除资源产生更多科文。</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <ActionCriteria>
+    <Criteria id="Knm_EnhancedMauiAnansi">
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_HEROES</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <AddUserInterfaces id="Knm_EnhancedMauiAnansi">
+      <Properties>
+        <Context>InGame</Context>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <Criteria>Knm_EnhancedMauiAnansi</Criteria>
+      <File>UI/AnansiInspire.xml</File>
+      <File>UI/MauiMinibar.xml</File>
+    </AddUserInterfaces>
+    <UpdateDatabase id="Knm_EnhancedMauiAnansi">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <Criteria>Knm_EnhancedMauiAnansi</Criteria>
+      <File>Data/EnhancedHeroes.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Knm_EnhancedMauiAnansi">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <Criteria>Knm_EnhancedMauiAnansi</Criteria>
+      <File>Text/Text_EN_US.sql</File>
+      <File>Text/Text_zh_Hans_CN.sql</File>
+    </UpdateText>
+    <AddGameplayScripts id="Knm_EnhancedMauiAnansi">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <Criteria>Knm_EnhancedMauiAnansi</Criteria>
+      <File>Gameplay/EnhancedMauiAnansiGameplay.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>Data/EnhancedHeroes.sql</File>
+    <File>Gameplay/EnhancedMauiAnansiGameplay.lua</File>
+    <File>Text/Text_EN_US.sql</File>
+    <File>Text/Text_zh_Hans_CN.sql</File>
+    <File>UI/AnansiInspire.lua</File>
+    <File>UI/AnansiInspire.xml</File>
+    <File>UI/MauiMinibar.lua</File>
+    <File>UI/MauiMinibar.xml</File>
+  </Files>
+</Mod>

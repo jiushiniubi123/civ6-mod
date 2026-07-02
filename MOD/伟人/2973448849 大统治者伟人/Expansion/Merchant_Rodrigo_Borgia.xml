@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Renaissance Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_RBORGIA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_RBORGIA" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_RBORGIA_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_GOVERNMENT" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_RBORGIA_ACTIVE" />
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_RBORGIA" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_AL_HAKAM_CATHEDRAL" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_RBORGIA" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_AL_HAKAM_MOSQUE" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_RBORGIA" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_AL_HAKAM_SYNAGOGE" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AL_HAKAM_CATHEDRAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_VALID_BUILDING</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AL_HAKAM_MOSQUE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_VALID_BUILDING</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AL_HAKAM_SYNAGOGE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_VALID_BUILDING</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AL_HAKAM_CATHEDRAL</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_HAKAM_CATHEDRAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AL_HAKAM_CATHEDRAL</ModifierId>
+			<Name>BuildingTypeToReplace</Name>
+			<Value>BUILDING_HAKAM_CATHEDRAL_DUMMY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AL_HAKAM_MOSQUE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_HAKAM_MOSQUE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AL_HAKAM_MOSQUE</ModifierId>
+			<Name>BuildingTypeToReplace</Name>
+			<Value>BUILDING_HAKAM_MOSQUE_DUMMY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AL_HAKAM_SYNAGOGE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_HAKAM_SYNAGOGE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_AL_HAKAM_SYNAGOGE</ModifierId>
+			<Name>BuildingTypeToReplace</Name>
+			<Value>BUILDING_HAKAM_SYNAGOGE_DUMMY</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_AL_HAKAM_CATHEDRAL" Context="Summary" Text="LOC_GREATPERSON_PLATI_RBORGIA_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Medieval Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_SARGON" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SARGON" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_SARGON_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_ATOMIC" Gender="M" ActionCharges="1" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualBirthModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SARGON" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SARGON" ModifierId="GREATPERSON_MOVEMENT_AOE_ATOMIC_LAND"/>
+	</GreatPersonIndividualBirthModifiers>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SARGON" ModifierId="GREATPERSON_PLATI_SARGON_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_SARGON_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_SARGON_ACTIVE</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_MANNERHEIM</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_PLATI_SARGON_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_PLATI_SARGON_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

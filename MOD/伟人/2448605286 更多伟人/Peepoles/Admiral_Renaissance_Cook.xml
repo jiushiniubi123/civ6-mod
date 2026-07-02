@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RENAISSANCE Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_COOK" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_COOK" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_COOK_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" AreaHighlightRadius="2" ActionRequiresCompletedDistrictType="DISTRICT_HARBOR" />
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualBirthModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_COOK" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_COOK" ModifierId="GREATPERSON_MOVEMENT_AOE_RENAISSANCE_SEA"/>
+	</GreatPersonIndividualBirthModifiers>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_COOK" ModifierId="GREATPERSON_PLATI_COOK_SIGHT" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_COOK" ModifierId="GREATPERSON_PLATI_COOK_MOVEMENT" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_COOK_SIGHT</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY</ModifierType>
+			<SubjectRequirementSetId>CITY_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_COOK_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY</ModifierType>
+			<SubjectRequirementSetId>PLATI_AFONSO_GOLD_AND_FOREIGN</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_COOK_SIGHT</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_NUTMEG</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_COOK_SIGHT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_COOK_MOVEMENT</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_NUTMEG</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_COOK_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_PLATI_COOK_SIGHT" Context="Summary" Text="LOC_GREATPERSON_PLATI_COOK_ACTIVE"/>
+	</ModifierStrings>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLATI_AFONSO_GOLD_AND_FOREIGN</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLATI_AFONSO_GOLD_AND_FOREIGN</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_IS_NOT_OWNER_CAPITAL_CONTINENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_AFONSO_GOLD_AND_FOREIGN</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_GOLDEN_AGE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+</GameData>

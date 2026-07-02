@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c10ff162-0847-4906-846e-931533179691" version="1">
+  <Properties>
+    <Name>AE's Simple Ley Line Enhanced</Name>
+    <Description>"Ley Line" provides additional 1 food, 1 faith and 1 production. The "Ley Line" can be covered and removed. Mines and Quarries can be built on the "Ley Line".</Description>
+    <Created>1726321471</Created>
+    <Teaser>"Ley Line" provides additional 1 food, 1 faith and 1 production. The "Ley Line" can be covered and removed. Mines and Quarries c</Teaser>
+    <Authors>nother Eve</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="SocietiesModeOn">
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions />
+  <InGameActions>
+    <UpdateDatabase id="DB">
+      <Criteria>SocietiesModeOn</Criteria>
+      <File>LeyLine.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="T">
+      <Criteria>SocietiesModeOn</Criteria>
+      <File>texts.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>LeyLine.sql</File>
+    <File>texts.xml</File>
+  </Files>
+</Mod>

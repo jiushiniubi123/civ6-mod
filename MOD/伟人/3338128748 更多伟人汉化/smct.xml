@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+    <LocalizedText>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_CROESUS_NAME"  Language="zh_Hans_CN">
+            <Text>克罗索斯</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_CROESUS_ACTIVE"  Language="zh_Hans_CN">
+            <Text>当前国库 [ICON_Gold] 金币翻倍。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_APOLLODRO_NAME"  Language="zh_Hans_CN">
+            <Text>大马士革的阿波罗多洛斯</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_APOLLODRO_ACTIVE"  Language="zh_Hans_CN">
+            <Text>该城市每个 [ICON_District] 区域+1 [ICON_Production] 生产力，+1 [ICON_Culture] 文化值。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ARAGONESE_NAME"  Language="zh_Hans_CN">
+            <Text>劳里亚的罗杰</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_ARAGONESE_ADMIRAL_BONUS_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>每点未使用的 [ICON_Movement] 移动力+1 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_CONSULATE_OF_SEA_BONUS_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>每点未使用的 [ICON_Movement] 移动力+1 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_CONSULATE_OF_SEA_BONUS_NAME"  Language="zh_Hans_CN">
+            <Text>海上领事</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_ARAGONESE_ACTIVE"  Language="zh_Hans_CN">
+            <Text>海军单位每点未使用的 [ICON_Movement] 移动力+1 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_JAN_ZIZKA_NAME"  Language="zh_Hans_CN">
+            <Text>扬·杰式卡</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_JAN_ZIZKA_ACTIVE"  Language="zh_Hans_CN">
+            <Text>与基础 [ICON_Strength] 战斗力更高的单位作战时+4 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_JAN_ZIZKA_PASSIVE"  Language="zh_Hans_CN">
+            <Text>中世纪和文艺复兴时期的非远程单位防御远程攻击时+10 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_JAN_ZIZKA_NAME"  Language="zh_Hans_CN">
+            <Text>战车</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_JAN_ZIZKA_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>非远程单位防御远程攻击时+10 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_JAN_ZIZKA_BUFF_MODIFIER_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>非远程单位防御远程攻击时+10 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_HUSSITE_LEGACY_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>胡斯战争的经验</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_HUSSITE_LEGACY_BUFF_MODIFIER_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>与基础 [ICON_Strength] 战斗力更高的单位作战时+4 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_HUSSITE_LEGACY_BUFF_MODIFIER_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>与基础 [ICON_Strength] 战斗力更高的单位作战时+4 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_FRANKLIN_NAME"  Language="zh_Hans_CN">
+            <Text>尤利西斯·格兰特</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_FRANKLIN_ACTIVE"  Language="zh_Hans_CN">
+            <Text>+1外交胜利点数。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_SAKHAROV_NAME"  Language="zh_Hans_CN">
+            <Text>安德烈·萨哈罗夫</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_SAKHAROV_ACTIVE"  Language="zh_Hans_CN">
+            <Text>+2外交胜利点数。为一个随机的原子能时代或信息时代的科技触发 [ICON_TechBoosted] 尤里卡。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_FARADAY_NAME"  Language="zh_Hans_CN">
+            <Text>迈克尔·法拉第</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_FARADAY_ACTIVE"  Language="zh_Hans_CN">
+            <Text>该城市每回合+2 [ICON_Power] 电力。为一个随机的工业时代科技触发 [ICON_TechBoosted] 尤里卡。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_TUSI_NAME"  Language="zh_Hans_CN">
+            <Text>三浦按进</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_TUSI_ACTIVE"  Language="zh_Hans_CN">
+            <Text>所有政体外交政策槽位+1。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_UNGERN_NAME"  Language="zh_Hans_CN">
+            <Text>罗曼·冯·恩琴</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_UNGERN_ACTIVE"  Language="zh_Hans_CN">
+            <Text>创建五个怯薛。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_GAJAH_NAME"  Language="zh_Hans_CN">
+            <Text>加查·马达</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_GAJAH_PASSIVE"  Language="zh_Hans_CN">
+            <Text>中世纪和文艺复兴时期的陆地单位在船上时+10 [ICON_Strength] 战斗力，且上下船不消耗 [ICON_Movement] 移动力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_GAJAH_MADA_COMBAT_NAME"  Language="zh_Hans_CN">
+            <Text>基诺达拉</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_GAJAH_MADA_COMBAT_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>+10 [ICON_Strength] 战斗力，上下船不消耗 [ICON_Movement] 移动力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_GAJAH_MADA_COMBAT_BUFF_MODIFIER_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>+10 [ICON_Strength] 战斗力，上下船不消耗 [ICON_Movement] 移动力。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_GAJAH_ACTIVE"  Language="zh_Hans_CN">
+            <Text>该城市获得一份 [ICON_RESOURCE_PEPPER] 胡椒。如果该城市为征服所得，额外获得一份 [ICON_RESOURCE_NUTMEG] 肉豆蔻。各提供+4 [ICON_Amenities] 宜居度。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_FABERGE_NAME"  Language="zh_Hans_CN">
+            <Text>彼得·卡尔·法贝热</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_FABERGE_ACTIVE"  Language="zh_Hans_CN">
+            <Text>获得两份 [ICON_RESOURCE_EGG] 法贝热彩蛋，提供+5 [ICON_Amenities] 宜居度。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_REX_NAME"  Language="zh_Hans_CN">
+            <Text>卡尔十二世</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_REX_ACTIVE"  Language="zh_Hans_CN">
+            <Text>可训练卡洛琳步兵（需要“金属铸造”科技）。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_REX_NAME"  Language="zh_Hans_CN">
+            <Text>查理王</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_REX_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>每点未使用的移动力为单位+3 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_REX_PASSIVE"  Language="zh_Hans_CN">
+            <Text>对中世纪和文艺复兴时期的陆地单位，每点未使用的移动力为单位+3 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_REX_BUFF_MODIFIER_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>每点未使用的移动力为单位+3 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY_NAME"  Language="zh_Hans_CN">
+            <Text>阿发纳西·尼基丁</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_AFANASIY_ACTIVE"  Language="zh_Hans_CN">
+            <Text>[ICON_Capital] 首都获得一份该地块上的奢侈品资源。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_AFANASIY_ALTERNATIVE_ACTIVE"  Language="zh_Hans_CN">
+            <Text>该城市每有一种 [ICON_District] 区域获得100 [ICON_Gold] 金币。必须在国外激活。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_LAWRENCE_NAME"  Language="zh_Hans_CN">
+            <Text>阿拉伯的劳伦斯</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_LAWRENCE_ACTIVE"  Language="zh_Hans_CN">
+            <Text>解放城市后10回合内，所有城市+20% [ICON_Culture] 文化值。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_CECIL_NAME"  Language="zh_Hans_CN">
+            <Text>塞西尔·罗兹</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_CECIL_ACTIVE"  Language="zh_Hans_CN">
+            <Text>创建一个红衫军。有总督的异大陆城市+20% [ICON_Gold] 金币。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_URBAN_NAME"  Language="zh_Hans_CN">
+            <Text>乌尔班</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_URBAN_ACTIVE"  Language="zh_Hans_CN">
+            <Text>创建两个拥有一次升级的射石炮单位。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_AGRIPPA_NAME"  Language="zh_Hans_CN">
+            <Text>阿格里帕</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_AGRIPPA_ACTIVE"  Language="zh_Hans_CN">
+            <Text>建造奇观时提供245 [ICON_Production] 生产力。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_HENRY_NAME"  Language="zh_Hans_CN">
+            <Text>米希尔·德·鲁伊特</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_PLATI_HENRY_ACTIVE"  Language="zh_Hans_CN">
+            <Text>该城市每回合+1 [ICON_Ranged] 攻击次数。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_LIONHEART_NAME"  Language="zh_Hans_CN">
+            <Text>斯坦尼斯瓦夫·若乌凯夫斯基</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_LIONHEART_ACTIVE"  Language="zh_Hans_CN">
+            <Text>可训练翼骑兵（需要“重商主义”市政）。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_NORMAN_CAVALRY_PASSIVE"  Language="zh_Hans_CN">
+            <Text>攻击中世纪和文艺复兴时期的骑兵单位+7 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_NORMAN_CAVALRY_BUFF_MODIFIER_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>攻击时+7 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_NORMAN_NAME"  Language="zh_Hans_CN">
+            <Text>若乌凯夫斯基战术</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_NORMAN_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>攻击时+7 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_BANKER_NAME"  Language="zh_Hans_CN">
+            <Text>约翰·皮尔庞特·摩根</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_BANKER_ACTIVE"  Language="zh_Hans_CN">
+            <Text>每个银行+1 [ICON_FAVOR] 外交点数。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_NESTLE_NAME"  Language="zh_Hans_CN">
+            <Text>吉恩·诺伊豪斯二世</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_NESTLE_ACTIVE"  Language="zh_Hans_CN">
+            <Text>解锁特色建筑 [ICON_TEXTICON_CHOCOLATERIE] 巧克力工厂。该建筑产出+2文化值并提供一份 [ICON_RESOURCE_PRALINE] 果仁糖，该奢侈品提供+4 [ICON_Amenities] 宜居度。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ARISTOTLE_NAME"  Language="zh_Hans_CN">
+            <Text>亚里士多德</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_ARISTOTLE_ACTIVE"  Language="zh_Hans_CN">
+            <Text>所有政体通用政策槽位+1。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_AL_AHMAR_NAME"  Language="zh_Hans_CN">
+            <Text>格拉纳达的穆罕默德五世</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_AL_AHMAR_ACTIVE"  Language="zh_Hans_CN">
+            <Text>[ICON_Capital] 宫殿+3 [ICON_GreatWork_Landscape] 巨作槽位。每个放置于此的 [ICON_GreatWork_Religious] 宗教艺术巨作+4 [ICON_Faith] 信仰值。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_SAUGUSTINE_NAME"  Language="zh_Hans_CN">
+            <Text>伊本·西那</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_SAUGUSTINE_ACTIVE"  Language="zh_Hans_CN">
+            <Text>为一个随机的中世纪的科技触发 [ICON_TechBoosted] 尤里卡。宗教单位进行 [ICON_Religion] 神学战斗时+3 [ICON_Strength] 宗教战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_SAUGUSTINE_BUFF_MODIFIER_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>进行 [ICON_Religion] 神学战斗时+3 [ICON_Strength] 宗教战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_NIETZSCHE_NAME"  Language="zh_Hans_CN">
+            <Text>弗里德里希·尼采</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_JACOBKETTLER_NAME"  Language="zh_Hans_CN">
+            <Text>雅各布·凯特勒</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_JACOBKETTLER_ACTIVE"  Language="zh_Hans_CN">
+            <Text>该港口提供等同于其相邻加成的 [ICON_Production] 生产力。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_MARITIME_JACOBKETTLER_ACTIVE"  Language="zh_Hans_CN">
+            <Text>获得一个开拓者和护卫舰。滨水区提供等同于其 [ICON_FOOD] 食物相邻加成的 [ICON_GOLD] 金币。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ERASMUS_NAME"  Language="zh_Hans_CN">
+            <Text>伊拉斯谟</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_ERASMUS_ACTIVE"  Language="zh_Hans_CN">
+            <Text>当你不与任何文明交战时，每个大学+1 [ICON_FAVOR] 外交点数。为一个随机的中世纪或文艺复兴时期的市政触发 [ICON_CivicBoosted] 鼓舞。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ALI_MASHADDI_NAME"  Language="zh_Hans_CN">
+            <Text>菲迪亚斯</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_PHIDIAS_ACTIVE"  Language="zh_Hans_CN">
+            <Text>该城市所有古典时代奇观获得一个巨作槽位，可以放置 [ICON_GREATWORK_RELIC] 遗物、 [ICON_GREATWORK_ARTIFACT] 文物、 [ICON_GREATWORK_SCULPTURE] 雕塑巨作</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_VIIKTOR_VASNETSOV_NAME"  Language="zh_Hans_CN">
+            <Text>兰斯洛特·布朗</Text>
+        </Replace>
+        <Replace Tag="LOC_PLATI_PARK_BONUS_DESC"  Language="zh_Hans_CN">
+            <Text>每个相邻的市立公园为市中心+2 [ICON_Culture] 文化值。如果市中心与3个市立公园相邻，则额外+3 [ICON_Culture] 文化值。</Text>
+        </Replace>
+        <Replace Tag="LOC_ADJ_PLATI_PARK_1_CULTURE"  Language="zh_Hans_CN">
+            <Text>+2 [ICON_Culture] 文化值来自相邻的市立公园(兰斯洛特·布朗)。</Text>
+        </Replace>
+        <Replace Tag="LOC_ADJ_PLATI_PARK_1_CENTR"  Language="zh_Hans_CN">
+            <Text>+3 [ICON_Culture] 文化值来自三个相邻的市立公园(兰斯洛特·布朗)。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_PICASSO_NAME"  Language="zh_Hans_CN">
+            <Text>安德烈·勒诺特尔</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_ANDRE_ACTIVATE"  Language="zh_Hans_CN">
+            <Text>安德烈·勒诺特尔</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ISAMBARD_NAME"  Language="zh_Hans_CN">
+            <Text>伊桑巴德·金德姆·布鲁内尔</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_ISAMBARD_ACTIVE"  Language="zh_Hans_CN">
+            <Text>该城市每建造一种 [ICON_DISTRICT] 专业化区域，+1% [ICON_Production] 生产力。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_HOBBES_NAME"  Language="zh_Hans_CN">
+            <Text>希波的奥古斯丁</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_KRUPP_NAME"  Language="zh_Hans_CN">
+            <Text>阿尔弗雷德·克虏伯</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_KRUPP_ACTIVE"  Language="zh_Hans_CN">
+            <Text>建造攻城单位+25% [ICON_Production] 生产力。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_GARIBALDI_NAME"  Language="zh_Hans_CN">
+            <Text>朱塞佩·加里波第</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_GARIBALDI_ACTIVE"  Language="zh_Hans_CN">
+            <Text>近战单位在 [ICON_Capital] 首都所在大陆上战斗时+3 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_BAIBARS_NAME"  Language="zh_Hans_CN">
+            <Text>拜伯尔斯</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_BAIBARS_ACTIVE"  Language="zh_Hans_CN">
+            <Text>受伤时的 [ICON_Strength] 战斗力减益-20%。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_BAIBARS_BUFF_MODIFIER_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>回合结束后恢复生命值。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_BAIBARS_NAME"  Language="zh_Hans_CN">
+            <Text>马穆鲁克纪律</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_BAIBARS_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>回合结束后恢复生命值。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_BAIBARS_PASSIVE_BUFF"  Language="zh_Hans_CN">
+            <Text>两个单元格内的中世纪和文艺复兴时期的陆地单位回合结束后恢复生命值。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_SARGON_NAME"  Language="zh_Hans_CN">
+            <Text>卡尔·古斯塔夫·埃米尔·曼纳海姆</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_SARGON_ACTIVE"  Language="zh_Hans_CN">
+            <Text>所有陆地单位防守时+4 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_AABILITY_MANNERHEIM_BONUS_NAME"  Language="zh_Hans_CN">
+            <Text>曼纳海姆防线</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_MANNERHEIM_BONUS_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>防守时+4 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_IBNBATTUTA_NAME"  Language="zh_Hans_CN">
+            <Text>伊本·白图泰</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_IBNBATTUTA_ACTIVE"  Language="zh_Hans_CN">
+            <Text>[ICON_TradeRoute] 商路每经过4个单元格提供+1 [ICON_Faith] 信仰值。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_COLBERT_NAME"  Language="zh_Hans_CN">
+            <Text>涩泽荣一</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_COLBERT_ACTIVE"  Language="zh_Hans_CN">
+            <Text>本城市每种用于发电的资源为改良的奢侈品资源+1 [ICON_Amenities] 宜居度。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ELIZABETH_WILBRAHAM_NAME"  Language="zh_Hans_CN">
+            <Text>阿尔贝托·桑托斯·杜蒙</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_ELIZABETH_WILBRAHAM_ACTIVE"  Language="zh_Hans_CN">
+            <Text>航空港每与一个区域相邻，+2 [ICON_Production] 生产力，+2 [ICON_Culture] 文化值。</Text>
+        </Replace>
+        <Replace Tag="LOC_PLATI_AERO_ADJ_PRODUCTION"  Language="zh_Hans_CN">
+            <Text>+2 [ICON_Production] 生产力来自相邻区域（阿尔贝托·桑托斯·杜蒙）</Text>
+        </Replace>
+        <Replace Tag="LOC_PLATI_AERO_ADJ_KULT"  Language="zh_Hans_CN">
+            <Text>+2 [ICON_Culture] 文化值来自相邻区域（阿尔贝托·桑托斯·杜蒙）</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_PASTEUR_NAME"  Language="zh_Hans_CN">
+            <Text>路易·巴斯德</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_PASTEUR_ACTIVE"  Language="zh_Hans_CN">
+            <Text>所有城市+20%余粮。触发“卫生设备”的 [ICON_TechBoosted] 尤里卡。如果 [ICON_TechBoosted] 尤里卡已触发，则解锁科技。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_LEIZU_NAME"  Language="zh_Hans_CN">
+            <Text>胡果·格劳秀斯</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_LEIZU_ACTIVE"  Language="zh_Hans_CN">
+            <Text>+1外交胜利点数。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_MAHBUB_NAME"  Language="zh_Hans_CN">
+            <Text>罗伯特·舒曼</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_MAHBUB_ACTIVE"  Language="zh_Hans_CN">
+            <Text>+1外交胜利点数。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_SAINT_AUGUSTINE_NAME"  Language="zh_Hans_CN">
+            <Text>赫布卜·乌·哈格</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_SAINT_AUGUSTINE_ACTIVE"  Language="zh_Hans_CN">
+            <Text>+1外交胜利点数。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_LEIBNITZ_NAME"  Language="zh_Hans_CN">
+            <Text>伏尔泰</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_LEIBNITZ_ACTIVE"  Language="zh_Hans_CN">
+            <Text>+1外交胜利点数。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_RAILLORD_NAME"  Language="zh_Hans_CN">
+            <Text>让-雅克·罗素</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_RAILLORD_ACTIVE"  Language="zh_Hans_CN">
+            <Text>+1外交胜利点数。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_HEIDEGGER_NAME"  Language="zh_Hans_CN">
+            <Text>马丁·海德格尔</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_LOVECRAFT_NAME"  Language="zh_Hans_CN">
+            <Text>霍华德·菲利普·洛夫克拉夫特</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_RHOWARD_NAME"  Language="zh_Hans_CN">
+            <Text>罗伯特·欧文·霍华德</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_SFORZA_NAME"  Language="zh_Hans_CN">
+            <Text>卡泰丽娜·斯福尔扎</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_SFORZA_ACTIVE"  Language="zh_Hans_CN">
+            <Text>获得300 [ICON_Culture] 文化值。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_SUAREZ_NAME"  Language="zh_Hans_CN">
+            <Text>埃尔南·科尔特斯</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_SUAREZ_ACTIVE"  Language="zh_Hans_CN">
+            <Text>创建一个拥有一次升级的征服者单位。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_SARGON_PASSIVE"  Language="zh_Hans_CN">
+            <Text>中世纪和文艺复兴时期的陆地近战单位击败敌方单位有几率将其俘获。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_SARGON_NAME" Language="zh_Hans_CN">
+            <Text>科尔特斯的说服</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_SARGON_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>击败敌方单位有几率将其俘获。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_SARGON_BUFF_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>击败敌方单位有几率将其俘获。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_RURIK_NAME"  Language="zh_Hans_CN">
+            <Text>留里克大公</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_RURIK_ACTIVE"  Language="zh_Hans_CN">
+            <Text>获得一个开拓者和一个狂暴武士。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_RURIK_NAME"  Language="zh_Hans_CN">
+            <Text>诺夫哥罗德建国者</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_RURIK_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>获得的经验+80%。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_RURIK_BUFF_MODIFIER_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>获得的经验+80%。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_RURIK_PASSIVE"  Language="zh_Hans_CN">
+            <Text>中世纪和文艺复兴时期的陆地单位获得的经验+80%。</Text>
+        </Replace>
+        <Replace Tag="LOC_DISTRICT_DAHLBERG"  Language="zh_Hans_CN">
+            <Text>每个相邻的堡垒+1 [ICON_Production] 生产力。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_DAHLBERG_NAME"  Language="zh_Hans_CN">
+            <Text>塞巴斯蒂安·勒普雷斯特雷·德·沃邦</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_DAHLBERG_ACTIVE"  Language="zh_Hans_CN">
+            <Text>获得一个军事工程师。每个堡垒为工业区+1相邻加成。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_CURIE_NAME"  Language="zh_Hans_CN">
+            <Text>弗朗切斯科·巴尔托洛梅奥·拉斯特雷利</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_RASTRELLI_UC_ACTIVE"  Language="zh_Hans_CN">
+            <Text>该城市的展阁、公馆和市政广场内建筑+4 [ICON_Culture] 文化值。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ZEPPELIN_NAME"  Language="zh_Hans_CN">
+            <Text>维特鲁威</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_ZEPPELIN_ACTIVE"  Language="zh_Hans_CN">
+            <Text>触发“工程”和“军事工程学”的 [ICON_TechBoosted] 尤里卡。如果 [ICON_TechBoosted] 尤里卡已触发，则解锁科技。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_VITRUVIUS_PASSIVE"  Language="zh_Hans_CN">
+            <Text>古典时代或中世纪的攻城单位+5 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_VITRUVIUS_BUFF_MODIFIER_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>攻城单位+5 [ICON_Strength] 战斗力（维特鲁威）。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_VITRUVIUS_NAME"  Language="zh_Hans_CN">
+            <Text>维特鲁威工程</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_VITRUVIUS_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>攻城单位+5 [ICON_Strength] 战斗力（维特鲁威）。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_CAI_LUN_NAME"  Language="zh_Hans_CN">
+            <Text>蔡伦</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_CAI_LUN_ACTIVE"  Language="zh_Hans_CN">
+            <Text>解锁并建造特色建筑 [ICON_TEXTICON_PAPER_MAKER] 造纸坊。该建筑产出+1 [ICON_Science] 科技值，+2 [ICON_Gold] 金币。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_SHEN_KUO_NAME"  Language="zh_Hans_CN">
+            <Text>沈括</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_SHEN_KUO_ACTIVE"  Language="zh_Hans_CN">
+            <Text>该学院提供等同于其相邻加成的 [ICON_Production] 生产力。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_LODBROK_NAME"  Language="zh_Hans_CN">
+            <Text>拉格纳·洛德布罗克</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_PIRACY_BUFF_MODIFIER_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>可俘获敌方船只。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_PLATI_CAPTURE_SHIPS_NAME"  Language="zh_Hans_CN">
+            <Text>大海盗的劫掠</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_PLATI_CAPTURE_SHIPS_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>可俘获敌方船只。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_LODBROK_ACTIVE"  Language="zh_Hans_CN">
+            <Text>掠夺改良设施的收益翻倍。</Text>
+        </Replace>
+        <Replace Tag="LOC_PIRATE_PASSIVE_MEDIEVAL"  Language="zh_Hans_CN">
+            <Text>中世纪和文艺复兴时期的海军近战单位击败敌方海军单位后，可将其俘获。</Text>
+        </Replace>
+        <Replace Tag="LOC_PIRATE_PASSIVE_RENAISSANCE"  Language="zh_Hans_CN">
+            <Text>文艺复兴时期和工业时代的海军近战单位击败敌方海军单位后，可将其俘获。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_BARBAROSA_NAME"  Language="zh_Hans_CN">
+            <Text>巴巴罗萨·海雷丁</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_BARBAROSA_ACTIVE"  Language="zh_Hans_CN">
+            <Text>可训练巴巴里海盗（需要“中世纪集市”市政）。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_BAYINNAUNG_NAME"  Language="zh_Hans_CN">
+            <Text>于格·德·帕扬</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_BAYINNAUNG_ACTIVE"  Language="zh_Hans_CN">
+            <Text>解锁并建造特色建筑 [ICON_TEXTICON_TEMPALR_VAULT] 圣殿金库。该建筑产出的 [ICON_Gold] 金币等同于该城市 [ICON_Faith] 信仰值产出的10%。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_BAYINNAUNG_PASSIVE"  Language="zh_Hans_CN">
+            <Text>中世纪和文艺复兴时期的陆地单位击杀敌方单位获得 [ICON_Faith] 信仰值。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_BAYINNAUNG_NAME"  Language="zh_Hans_CN">
+            <Text>圣殿骑士团</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_BAYINNAUNG_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>击杀敌方单位获得 [ICON_Faith] 信仰值。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_BAYINNAUNG_BUFF_MODIFIER_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>击杀敌方单位获得 [ICON_Faith] 信仰值。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_SUNDIATA_NAME"  Language="zh_Hans_CN">
+            <Text>哈立德·本·瓦利德</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_SUNDIATA_ACTIVE"  Language="zh_Hans_CN">
+            <Text>获得200 [ICON_Faith] 信仰值。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_KHALID_PASSIVE_BUFF"  Language="zh_Hans_CN">
+            <Text>在两个单元格内，中世纪和文艺复兴时期的陆地单位与异教文明的单位交战时，+7 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_KHALID_BUFF"  Language="zh_Hans_CN">
+            <Text>在两个单元格内，中世纪和文艺复兴时期的陆地单位与异教文明的单位交战时，+7 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_KHALID_WALID_NAME"  Language="zh_Hans_CN">
+            <Text>安拉之剑</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_KHALID_WALID_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>与异教文明的单位交战时，+7 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_AVERROES_NAME"  Language="zh_Hans_CN">
+            <Text>伊本·路世德</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_AVERROES_ACTIVE"  Language="zh_Hans_CN">
+            <Text>处于 [ICON_GLORY_GOLDEN_AGE] 黄金时代时，每本 [ICON_GreatWork_Writing] 著作+1 [ICON_Science] 科技值，+2 [ICON_Faith] 信仰值。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_NIELS_JUEL_NAME"  Language="zh_Hans_CN">
+            <Text>安德烈亚·多里亚</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_NIELS_JUEL_ACTIVE"  Language="zh_Hans_CN">
+            <Text>用海军单位征服城市后，该城市自动信仰您的主流宗教。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_GENOESE_NAVAL_CONVERSION_BONUS_NAME"  Language="zh_Hans_CN">
+            <Text>热那亚海王</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_GENOESE_NAVAL_CONVERSION_BONUS_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>用海军单位征服城市后，该城市自动信仰您的主流宗教。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_GENOESE_ADMIRAL_BONUS_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>用海军单位征服城市后，该城市自动信仰您的主流宗教。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_HAMILTON_NAME"  Language="zh_Hans_CN">
+            <Text>亚历山大·汉密尔顿</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_HAMILTON_ACTIVE"  Language="zh_Hans_CN">
+            <Text>所有政体经济政策槽位+1。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_TOKUGAWA_NAME"  Language="zh_Hans_CN">
+            <Text>威廉·米切尔</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_TOKUGAWA_ACTIVE"  Language="zh_Hans_CN">
+            <Text>机场及其建筑建成时获得一个战斗机单位。这些免费单位攻击 [ICON_DISTRICT] 区域防御时无 [ICON_Ranged] 远程攻击力惩罚。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_CLAUSEWITZ_PASSIVE"  Language="zh_Hans_CN">
+            <Text>攻击 [ICON_DISTRICT] 区域防御时+17 [ICON_Ranged] 远程攻击力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_FOG_OF_WAR_NAME"  Language="zh_Hans_CN">
+            <Text>英雄与异端的遗产</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_FOG_OF_WAR_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>攻击 [ICON_DISTRICT] 区域防御时+17 [ICON_Ranged] 远程攻击力。</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_CLAUSEWITZ_BUFF_MODIFIER_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>攻击 [ICON_DISTRICT] 区域防御时+17 [ICON_Ranged] 远程攻击力。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_MAJID_NAME"  Language="zh_Hans_CN">
+            <Text>艾哈迈德·本·马吉德</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_MAJID_ACTIVE"  Language="zh_Hans_CN">
+            <Text>所有海军单位+2 [ICON_Movement] 移动力。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_MORGAN_NAME"  Language="zh_Hans_CN">
+            <Text>亨利·摩根</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_MORGAN_ACTIVE"  Language="zh_Hans_CN">
+            <Text>获得1 [ICON_GOVERNOR] 总督点。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_VITUS_NAME"  Language="zh_Hans_CN">
+            <Text>维图斯·约纳森·白令</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_VITUS_ACTIVE"  Language="zh_Hans_CN">
+            <Text>每个冻土单元格为港口提供+1 [ICON_GOLD] 金币相邻加成，每个雪地单元格为港口+3 [ICON_Culture] 文化值相邻加成。</Text>
+        </Replace>
+        <Replace Tag="LOC_VITUS_GREAT_PERSON_BONUS_GOLD"  Language="zh_Hans_CN">
+            <Text>每个冻土单元格+1 [ICON_GOLD] 金币。</Text>
+        </Replace>
+        <Replace Tag="LOC_VITUS_GREAT_PERSON_BONUS_PROD"  Language="zh_Hans_CN">
+            <Text>每个雪地单元格+3 [ICON_Culture] 文化值。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_COOK_NAME"  Language="zh_Hans_CN">
+            <Text>阿方索·德·阿尔布克尔克</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_COOK_ACTIVE"  Language="zh_Hans_CN">
+            <Text>该城市获得一份 [ICON_RESOURCE_NUTMEG] 肉豆蔻。如果文明处于 [ICON_GLORY_GOLDEN_AGE] 黄金时代，则获得两份。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_CHATEAU_NAME"  Language="zh_Hans_CN">
+            <Text>菲利贝尔·德洛姆</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_CHATEAU_ACTIVE"  Language="zh_Hans_CN">
+            <Text>选中的工业区提供等同于 [ICON_Production] 生产力相邻加成的 [ICON_Culture] 文化值。允许建造者修建城堡改良设施（需要“人文主义”市政）。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_MISSION_NAME"  Language="zh_Hans_CN">
+            <Text>克里斯托佛·克拉乌</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_MISSION_ACTIVE"  Language="zh_Hans_CN">
+            <Text>获得当前 [ICON_Faith] 信仰值产出50%的 [ICON_Science] 科技值。允许建造者修建传教团改良设施（需要“教育”科技）。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_POLDER_NAME"  Language="zh_Hans_CN">
+            <Text>扬·莱赫瓦特</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_POLDER_ACTIVE"  Language="zh_Hans_CN">
+            <Text>该城市免疫自然灾害。允许建造者修建圩田改良设施（需要“行会”市政）。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_VENETIAN_SMUGGLER_NAME"  Language="zh_Hans_CN">
+            <Text>马拉莫科的波诺</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATPERSON_PLATI_VENETIAN_SMUGGLER_ACTIVE"  Language="zh_Hans_CN">
+            <Text>获得一个 [ICON_GreatWork_Relic] 遗物。+1 [ICON_TradeRoute] 商路容量。必须在国外的港口单元格上激活。</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATWORK_PLATI_NIETZSCHE_1_NAME"  Language="zh_Hans_CN">
+            <Text>《查拉图斯特拉如是说》</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATWORK_PLATI_NIETZSCHE_1_QUOTE"  Language="zh_Hans_CN">
+            <Text>“你是一个奴隶吗？那么，你不能做朋友。你是一个暴君吗？那么，你不能有朋友。”</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATWORK_PLATI_NIETZSCHE_2_NAME"  Language="zh_Hans_CN">
+            <Text>《权力意志论》</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATWORK_PLATI_NIETZSCHE_2_QUOTE"  Language="zh_Hans_CN">
+            <Text>“什么是虚无主义？最高的价值失去了它的价值。”</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATWORK_PLATI_DESCARTES_1_NAME"  Language="zh_Hans_CN">
+            <Text>《第一哲学沉思集》</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATWORK_PLATI_DESCARTES_1_QUOTE"  Language="zh_Hans_CN">
+            <Text>“要谨慎的是，不要完全相信曾经欺骗过我们的事物。”</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATWORK_PLATI_DESCARTES_2_NAME"  Language="zh_Hans_CN">
+            <Text>《方法论》</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATWORK_PLATI_DESCARTES_2_QUOTE"  Language="zh_Hans_CN">
+            <Text>“我思故我在。”</Text>
+        </Replace>
+         <Replace Tag="LOC_GREATWORK_PLATI_HOBBES_1_NAME"  Language="zh_Hans_CN">
+            <Text>《忏悔录》</Text>
+        </Replace>
+         <Replace Tag="LOC_GREATWORK_PLATI_HOBBES_1_QUOTE"  Language="zh_Hans_CN">
+            <Text>“当你与自己的内心渐行渐远时，又如何能够亲近上帝呢？”</Text>
+        </Replace>
+         <Replace Tag="LOC_GREATWORK_PLATI_HOBBES_2_NAME"  Language="zh_Hans_CN">
+            <Text>《上帝之城》</Text>
+        </Replace>
+         <Replace Tag="LOC_GREATWORK_PLATI_HOBBES_2_QUOTE"  Language="zh_Hans_CN">
+            <Text>“两座城市由两种爱形成：地上的由人的爱形成，而被神蔑视；天上的由神的爱形成，而被人蔑视。”</Text>
+        </Replace>
+         <Replace Tag="LOC_GREATWORK_PLATI_CICERO_1_NAME"  Language="zh_Hans_CN">
+            <Text>《论演说家》</Text>
+        </Replace>
+         <Replace Tag="LOC_GREATWORK_PLATI_CICERO_1_QUOTE"  Language="zh_Hans_CN">
+            <Text>“没有什么比你犯的错误更引人注目、更深刻地留在记忆中了。”</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATWORK_PLATI_CICERO_2_NAME"  Language="zh_Hans_CN">
+            <Text>《论共和国》</Text>
+        </Replace>
+         <Replace Tag="LOC_GREATWORK_PLATI_CICERO_2_QUOTE"  Language="zh_Hans_CN">
+            <Text>“正义不追求奖赏和报酬；它为自己而存在，同时也是所有美德的根源和意义……最大的不公正就是从不公正中谋取利益。”</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATWORK_PLATI_HEIDEGGER_1_NAME"  Language="zh_Hans_CN">
+            <Text>《存在与时间》</Text>
+        </Replace>
+         <Replace Tag="LOC_GREATWORK_PLATI_HEIDEGGER_1_QUOTE"  Language="zh_Hans_CN">
+            <Text>“我们不说存在和时间为何物，而说何物是存在或时间。”</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATWORK_PLATI_HEIDEGGER_2_NAME"  Language="zh_Hans_CN">
+            <Text>《诗·语言·思》</Text>
+        </Replace>
+         <Replace Tag="LOC_GREATWORK_PLATI_HEIDEGGER_2_QUOTE"  Language="zh_Hans_CN">
+            <Text>“我住，你住。你我存在的方式，我们人类在地球上生存的方式，是“Buan”，居住。作为一个人意味着作为一个终有一死的人生活在地球上，这就是居住的意思。”</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATWORK_PLATI_LOVECRAFT_1_NAME"  Language="zh_Hans_CN">
+            <Text>《克苏鲁的呼唤》</Text>
+        </Replace>
+         <Replace Tag="LOC_GREATWORK_PLATI_LOVECRAFT_1_QUOTE"  Language="zh_Hans_CN">
+            <Text>“在拉莱耶城他的家里，死去的克苏鲁在等着做梦。”</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATWORK_PLATI_LOVECRAFT_2_NAME"  Language="zh_Hans_CN">
+            <Text>《印斯茅斯之影》</Text>
+        </Replace>
+         <Replace Tag="LOC_GREATWORK_PLATI_LOVECRAFT_2_QUOTE"  Language="zh_Hans_CN">
+            <Text>“疯狂从哪里结束，现实从哪里开始?”</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATWORK_PLATI_RHOWARD_1_NAME"  Language="zh_Hans_CN">
+            <Text>《野蛮人柯南》（系列）</Text>
+        </Replace>
+         <Replace Tag="LOC_GREATWORK_PLATI_RHOWARD_1_QUOTE"  Language="zh_Hans_CN">
+            <Text>“我活着，我燃烧着生命，我爱，我杀戮，我满足。”</Text>
+        </Replace>
+        <Replace Tag="LOC_GREATWORK_PLATI_RHOWARD_2_NAME"  Language="zh_Hans_CN">
+            <Text>《所罗门·凯恩》（系列）</Text>
+        </Replace>
+         <Replace Tag="LOC_GREATWORK_PLATI_RHOWARD_2_QUOTE"  Language="zh_Hans_CN">
+            <Text>“因为人类唯一的武器是勇气，这种勇气在地狱的大门面前是不会退缩的，即使是地狱的军团也无法抵挡这种勇气。”</Text>
+        </Replace>
+        <Replace Tag="LOC_RESOURCE_EGG_NAME"  Language="zh_Hans_CN">
+            <Text>法贝热彩蛋</Text>
+        </Replace>
+        <Replace Tag="LOC_RESOURCE_PEPPER_NAME"  Language="zh_Hans_CN">
+            <Text>胡椒</Text>
+        </Replace>
+        <Replace Tag="LOC_RESOURCE_NUTMEG_NAME"  Language="zh_Hans_CN">
+            <Text>肉豆蔻</Text>
+        </Replace>
+        <Replace Tag="LOC_RESOURCE_PRALINE_NAME"  Language="zh_Hans_CN">
+            <Text>果仁糖</Text>
+        </Replace>
+        <Replace Tag="LOC_BUILDING_PLATI_PAPER_MAKER_NAME"  Language="zh_Hans_CN">
+            <Text>造纸坊</Text>
+        </Replace>
+        <Replace Tag="LOC_BUILDING_PLATI_TEMPLAR_VAULT_NAME"  Language="zh_Hans_CN">
+            <Text>圣殿金库</Text>
+        </Replace>
+        <Replace Tag="LOC_BUILDING_PLATI_TEMPLAR_VAULT_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>获得等同于该城市 [ICON_Faith] 信仰值产出的10%的 [ICON_Gold] 金币</Text>
+        </Replace>
+        <Replace Tag="LOC_BUILDING_PLATI_CHOCOLATERIE_NAME"  Language="zh_Hans_CN">
+            <Text>巧克力工厂</Text>
+        </Replace>
+        <Replace Tag="LOC_BUILDING_PLATI_CHOCOLATERIE_DESCRIPTION"  Language="zh_Hans_CN">
+            <Text>提供一份 [ICON_RESOURCE_PRALINE] 果仁糖，该奢侈品提供+4 [ICON_Amenities] 宜居度</Text>
+        </Replace>
+   </LocalizedText>
+</GameData>

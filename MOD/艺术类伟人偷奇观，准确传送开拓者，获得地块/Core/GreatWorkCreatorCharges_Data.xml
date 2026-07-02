@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Types>
+    <Row Type="UNIT_WONDER_THEFT"          Kind="KIND_UNIT"/>
+    <Row Type="ABILITY_WONDER_THEFT"       Kind="KIND_ABILITY"/>
+  </Types>
+  <UnitAiInfos>
+    <Row UnitType="UNIT_WONDER_THEFT" AiType="UNITTYPE_CIVILIAN"/>
+  </UnitAiInfos>
+  <Tags>
+    <Row Tag="CLASS_WONDER_THEFT" Vocabulary="ABILITY_CLASS"/>
+  </Tags>
+  <TypeTags>
+    <Row Type="UNIT_WONDER_THEFT"    Tag="CLASS_WONDER_THEFT"/>
+    <Row Type="ABILITY_WONDER_THEFT" Tag="CLASS_WONDER_THEFT"/>
+  </TypeTags>
+  <Units>
+    <Row UnitType="UNIT_WONDER_THEFT" Cost="0" BaseMoves="5" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" CanCapture="False" Name="LOC_UNIT_WONDER_THEFT_NAME" Description="LOC_UNIT_WONDER_THEFT_DESCRIPTION" PurchaseYield="YIELD_GOLD" CanRetreatWhenCaptured="True" CanEarnExperience="False"  CanTrain="False"/>
+  </Units>
+  <Units_MODE>
+    <Row UnitType="UNIT_WONDER_THEFT" ActionCharges="1"/>
+  </Units_MODE>
+</GameData>

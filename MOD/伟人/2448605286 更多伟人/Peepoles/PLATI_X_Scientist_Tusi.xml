@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Classical Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_TUSI" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_TUSI" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_TUSI_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" EraType="ERA_RENAISSANCE" ActionRequiresCompletedDistrictType="DISTRICT_GOVERNMENT" Gender="M" ActionCharges="1" />
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_TUSI" ModifierId="GREATPERSON_BONUS_TUSI_ASTRONOMY" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"	/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_TUSI_ASTRONOMY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_TUSI_ASTRONOMY</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_DIPLOMATIC</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_BONUS_TUSI_ASTRONOMY" Context="Summary" Text="LOC_GREATPERSON_PLATI_TUSI_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

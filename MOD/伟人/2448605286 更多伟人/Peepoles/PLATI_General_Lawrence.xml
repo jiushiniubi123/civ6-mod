@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MODERN Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_LAWRENCE" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_LAWRENCE" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_LAWRENCE_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_MODERN" Gender="M" ActionCharges="1" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionRequiresOwnedTile="false" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualBirthModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_LAWRENCE" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_LAWRENCE" ModifierId="GREATPERSON_MOVEMENT_AOE_MODERN_LAND"/>
+	</GreatPersonIndividualBirthModifiers>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_LAWRENCE" ModifierId="GREATPERSON_PLATI_LAWRENCE_POLICY" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_LAWRENCE_POLICY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_YIELD_MODIFIER</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_LAWRENCE_POLICY</ModifierId>
+			<Name>DiplomaticYieldSource</Name>
+			<Value>LIBERATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_LAWRENCE_POLICY</ModifierId>
+			<Name>TurnsActive</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_LAWRENCE_POLICY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_LAWRENCE_POLICY</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_PLATI_LAWRENCE_POLICY" Context="Summary" Text="LOC_GREATPERSON_PLATI_LAWRENCE_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

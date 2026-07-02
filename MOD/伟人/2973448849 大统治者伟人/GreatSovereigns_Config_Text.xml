@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <BaseGameText>	
+	<Row tag="LOC_GAME_SOVEREIGN_RECLASSIFY_NAME" >
+		<Text>Great Sovereigns: Reclass Generals</Text>
+	</Row>
+	<Row tag="LOC_GAME_SOVEREIGN_RECLASSIFY_DESC" >
+		<Text>Napoleon Bonaparte and Gustavus Adolphus are now considered Great Sovereigns with different powerful bonuses, retaining their passive combat boost.</Text>
+	</Row>
+  </BaseGameText>
+</GameData>

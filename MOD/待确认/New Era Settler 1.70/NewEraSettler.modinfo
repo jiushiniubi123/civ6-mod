@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="001a4e25-f031-4be4-ab4b-3dd4f76e0d0a">
+  <Properties>
+    <Name>New Era Settler 1.70</Name>
+    <Teaser>Restricts Settlers to each new era or extreme cost.</Teaser>
+    <Description>This mod slows the expansion of civilizations in early game by limiting Settlers and early city capture. A new Settler is granted at no cost with each new era. Settlers become Builders upon capture, preventing enemy civilizations from expanding too quickly. If you choose not to wait, producing a Settler requires 10 population and costs 400 production while reducing 3 population once completed. AI is restricted to one starting Settler, unless set to Deity difficulty where they will receive another upon founding their Capitol.[NEWLINE][NEWLINE]Compatible with [COLOR_Green]Civilization VI[ENDCOLOR], [COLOR_Green]Rise &amp; Fall[ENDCOLOR], and [COLOR_Green]Gathering Storm[ENDCOLOR].</Description>
+    <Authors>Das Capitolin</Authors>
+	<AffectsSavedGames>1</AffectsSavedGames>
+    <SpecialThanks>Angryr, Gedemon, Magma Dragoon, PotatoMcWhiskey, thecrazyscotsman</SpecialThanks>
+    <CompatibleVersions>1.2, 2.0</CompatibleVersions>
+    <SubscriptionID>2806609794</SubscriptionID>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="NewEraSettlerUnits">
+      <File>NewEraSettlerUnits.sql</File>
+      <Properties>
+        <LoadOrder>101</LoadOrder>
+      </Properties>
+    </UpdateDatabase>
+	    <UpdateDatabase id="NewEraSettlerOps">
+      <File>NewEraSettlerOps.sql</File>
+      <Properties>
+        <LoadOrder>102</LoadOrder>
+      </Properties>
+    </UpdateDatabase>
+    <AddGameplayScripts id="NewEraSettlerScript">
+      <File>NewEraSettlerScript.lua</File>
+      <Properties>
+        <LoadOrder>103</LoadOrder>
+      </Properties>
+    </AddGameplayScripts>
+    <UpdateText id="NewEraSettlerText">
+      <File>NewEraSettlerText.sql</File>
+      <Properties>
+        <LoadOrder>104</LoadOrder>
+      </Properties>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>NewEraSettlerUnits.sql</File>
+	<File>NewEraSettlerOps.sql</File>
+    <File>NewEraSettlerScript.lua</File>
+    <File>NewEraSettlerText.sql</File>
+  </Files>
+</Mod>

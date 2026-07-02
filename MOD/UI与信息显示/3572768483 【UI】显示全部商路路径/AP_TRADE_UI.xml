@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Context FontStyle="Stroke">
+
+  <Instance Name="AP_TRADE_TOP">
+	<Button ID="AP_TRADE_TOP_BOTTON" Anchor="L,C" Size="51,51" Offset="0,2" Texture="LaunchBar_Hook_ScienceButton"  Style="ButtonNormalText" TextureOffset="4,9" StateOffsetIncrement="0,60"  ToolTip="LOC_APTR_BOTTON_ToolTip">
+	  <Label ID="AP_TRADE_TOP_ICON" Size="38,38" Anchor="C,C" Offset="-1,12" String="[ICON_ICON_UNITOPERATION_MAKE_TRADE_ROUTE]"/>
+
+	  <Grid Anchor="L,B" ID="AP_TRADE_TOP_OptionsPanel" Size="255,auto" Texture="Tracker_OptionsBacking" SliceCorner="55,61" SliceSize="1,1" SliceTextureSize="121,119" ConsumeAllMouse="1" MinSize="121,119" AutoSizePadding="0,15" AnchorSide="I,O" Offset="-9,-5" Hidden="1">
+			<Stack Size="parent,auto" Offset="-6,0">
+				<Container Size="parent,12"/>
+				<GridButton ID="AP_TRADE_TOP_ON" Anchor="C,T" Size="192,30" Style="ButtonControl" String="LOC_AP_TRADE_TOP_ON_NAME" />
+				<Stack Size="auto,auto" Anchor="C,T" StackPadding="1">
+					<CheckBox	ID="COLORFUL_ROUTE" Offset="0,4"	TextOffset="-5,0" String="LOC_APTR_COLORFUL_ROUTE_NAME" Style="WhiteSemiBold14" ButtonTexture="Controls_Checkbox.dds" ButtonSize="17,17" CheckTexture="Controls_Checkbox.dds" CheckSize="17,17" CheckTextureOffset="0,17" Anchor="R,T" ToolTip="LOC_APTR_COLORFUL_ROUTE_DESCRIPTION"/>
+					<Container Size="-1,11"/>
+					<CheckBox	ID="SHOW_DOMESTIC" Offset="0,4"	TextOffset="-5,0" String="LOC_APTR_SHOW_DOMESTIC_NAME" Style="WhiteSemiBold14" ButtonTexture="Controls_Checkbox.dds" ButtonSize="17,17" CheckTexture="Controls_Checkbox.dds" CheckSize="17,17" CheckTextureOffset="0,17" Anchor="R,T" ToolTip="LOC_APTR_SHOW_DOMESTIC_DESCRIPTION"/>
+					<CheckBox	ID="SHOW_OUTGOING" Offset="0,4"	TextOffset="-5,0" String="LOC_APTR_SHOW_OUTGOING_NAME" Style="WhiteSemiBold14" ButtonTexture="Controls_Checkbox.dds" ButtonSize="17,17" CheckTexture="Controls_Checkbox.dds" CheckSize="17,17" CheckTextureOffset="0,17" Anchor="R,T" ToolTip="LOC_APTR_SHOW_OUTGOING_DESCRIPTION"/>
+					<CheckBox	ID="SHOW_INCOMING" Offset="0,4"	TextOffset="-5,0" String="LOC_APTR_SHOW_INCOMING_NAME" Style="WhiteSemiBold14" ButtonTexture="Controls_Checkbox.dds" ButtonSize="17,17" CheckTexture="Controls_Checkbox.dds" CheckSize="17,17" CheckTextureOffset="0,17" Anchor="R,T" ToolTip="LOC_APTR_SHOW_INCOMING_DESCRIPTION"/>
+				</Stack>
+			</Stack>
+
+			<Image Texture="Controls_ButtonExtendSmall2" TextureOffset="0,60" Size="20,20" Anchor="L,T" Offset="26,-5"/>
+		</Grid>
+	</Button>
+  </Instance>
+
+</Context>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_RulersOfChina_AI -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 2/26/2023 11:57:07 AM -->
+<GameData>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_CHINA_YONGLE_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+	</RequirementSetRequirements>
+</GameData>

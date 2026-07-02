@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <BaseGameText>	
+	<Row tag="LOC_GAME_ALHAMBRA_REWORK_NAME" >
+		<Text>Great Sovereigns: Alhambra Rework</Text>
+	</Row>
+	<Row tag="LOC_GAME_ALHAMBRA_REWORK_DESC" >
+		<Text>Replaces Alhambra wonder unique ability and placement requirement. Alhambra now grants a free Great Sovereign and unlocks the Alcázar improvement. Now it requires to be built on a hill tile next to Government Plaza district, instead of Encampement.</Text>
+	</Row>
+  </BaseGameText>
+</GameData>

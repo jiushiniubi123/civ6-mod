@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6288896d-a40d-4b54-845c-697449b5e496" version="1">
+  <Properties>
+    <Name>LOC_AWASE_RemoveIt_TITLE</Name>
+    <Description>LOC_AWASE_RemoveIt_DESCRIPTION</Description>
+    <Created>1768981790</Created>
+    <Teaser>LOC_AWASE_RemoveIt_TEASER</Teaser>
+    <Authors>Awase</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="Database">
+      <File>AWASE_RemoveIt_Data.xml</File>
+    </UpdateDatabase>
+    <AddUserInterfaces id="UserInterfaces">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>AWASE_RemoveIt_UI.xml</File>
+    </AddUserInterfaces>
+    <AddGameplayScripts id="GameplayScripts">
+      <File>AWASE_RemoveIt_Gameplay.lua</File>
+    </AddGameplayScripts>
+    <UpdateText id="Text">
+      <File>AWASE_RemoveIt_Text.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <LocalizedText>
+    <File>PackageText.xml</File>
+  </LocalizedText>
+  <Files>
+    <File>AWASE_RemoveIt_Data.xml</File>
+    <File>AWASE_RemoveIt_Gameplay.lua</File>
+    <File>AWASE_RemoveIt_Text.xml</File>
+    <File>AWASE_RemoveIt_UI.lua</File>
+    <File>AWASE_RemoveIt_UI.xml</File>
+    <File>PackageText.xml</File>
+  </Files>
+</Mod>

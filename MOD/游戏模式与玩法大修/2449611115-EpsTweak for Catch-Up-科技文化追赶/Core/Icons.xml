@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	
+	<IconDefinitions>
+		<Row Name="ICON_NOTIFICATION_USER_DEFINED_5" Atlas="ICON_ATLAS_NOTIFICATIONS" Index="0"/>
+	</IconDefinitions>
+	
+</GameData>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ACS_mastered_Panel -->
+<!-- Author: Ophidy -->
+<!-- DateCreated: 8/29/2024 10:06:22 PM -->
+<Context xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\..\..\CivTech\Libs\ForgeUI\ForgeUI_Assets\Controls.xsd">
+	<Container ID="Vignette" Style="FullScreenVignetteConsumer" ConsumeAllMouse="0" ConsumeMouseButton="1" ConsumeMouseWheel="1" ConsumeMouseOver="1"/>
+
+	<Container ID ="MainContainer" Anchor="C,C"	Size="parent-10,768">
+
+
+		<Container Style="ModalScreenWide" Size="parent,parent">
+
+
+
+
+		<Label	ID="ModalScreenTitle" Anchor="C,T"	Offset="0,7"	String="LOC_ACSR_PANEL_TITLE" Style="FontFlair28" FontStyle="glow" Color="206,218,225,255" EffectColor="52,66,114,191" />
+
+		<Grid Style="DiplomacyInfoWindowGrid" Anchor="C,T" Size="parent,parent-70" Offset="0,70" Alpha="0.93">
+			<Tab ID="TabControl" Size="parent,parent">
+				<Container ID="TabContainer" Size="parent,parent">
+					<Grid ID="Annex" Size="parent,parent">
+						<Stack Offset="0,0" Anchor="C,T" Size="parent,parent">
+							<Container ID="Annex_Details" Size="parent,80">
+								<Stack Anchor="C,B" StackGrowth="Right" StackPadding="0" Offset="0,4">
+									<Grid ID="Annex_Threshold" Size="456,parent-30" Anchor="C,C" Color="81,69,48">
+										<Label ID="Label_Annex_Threshold" String="LOC_ACSR_ANNEX_THRESHOLD" Anchor="C,C" Style="FontFlair20" FontStyle="glow" Color="206,218,225,255" EffectColor="52,66,114,191" WrapWidth="400" Align="Center"/>
+									</Grid>
+									<Grid ID="Annex_Growth" Size="456,parent-30" Anchor="C,C" Color="81,69,48">
+										<Label ID="Label_Annex_Growth" String="LOC_ACSR_ANNEX_GROWTH" Anchor="C,C" Style="FontFlair20" FontStyle="glow" Color="206,218,225,255" EffectColor="52,66,114,191" WrapWidth="400" Align="Center"/>
+									</Grid>
+								</Stack>
+							</Container>
+
+							<Grid ID="Divider" Style="Divider4Grid" Size="parent-10,6"/>
+
+							<Grid ID="ACSR_Annex_InstGrid" Size="parent-20,500" >
+								<ScrollPanel ID="ACSR_Annex_InstScrollPanel" Size="parent,parent"	Vertical="0" AutoScrollBar="1">
+									<Stack ID="ACSR_Annex_InstStack" Anchor="L,T" Padding="2" StackGrowth="Right" StackPadding="14"/>
+									<ScrollBar Anchor="L,B"	Offset="0,0" Size="parent,8" Style="ScrollHorizontalBackingAlt" Alpha="0">
+										<Thumb Style="ScrollThumbHAlt" />
+									</ScrollBar>
+								</ScrollPanel>
+							</Grid>
+
+							<Grid ID="Divider" Style="Divider4Grid" Size="parent-10,6" Offset="0,0"/>
+
+							<Container ID="Annex_Tips" Size="parent,70" Offset="0,0">
+								<Grid ID="Annex_Explanation" Size="auto,parent-30" Anchor="C,C" Offset="0,0" Color="81,69,48">
+									<Label ID="Label_Annex_Explanation" String="LOC_ACSR_ANNEX_EXPLANATION" Anchor="C,C" Style="GreatPeopleText" FontStyle="Shadow" Align="Center"/>
+								</Grid>
+							</Container>
+						</Stack>
+					</Grid>
+
+
+
+					<Grid ID="Review" Size="parent,parent">
+						<Stack Offset="0,0" Anchor="C,T" Size="parent,parent">
+							<Container ID="Review_Details" Size="parent,80">
+								<Grid ID="Review_AnnexedAmount" Size="456,parent-30" Anchor="C,C" Offset="0,3" Color="81,69,48">
+									<Label ID="Label_Review_AnnexedAmount" String="LOC_ACSR_ANNEXED_AMOUNT_DEFAULT" Anchor="C,C" Style="FontFlair20" FontStyle="glow" Color="206,218,225,255" EffectColor="52,66,114,191" WrapWidth="400" Align="Center"/>
+								</Grid>
+							</Container>
+
+							<Grid ID="Divider" Style="Divider4Grid" Size="parent-10,6"/>
+
+							<Grid ID="ACSR_Review_InstGrid" Size="parent-20,500">
+								<ScrollPanel ID="ACSR_Review_InstScrollPanel" Size="parent,parent"	Vertical="0" AutoScrollBar="1">
+									<Stack ID="ACSR_Review_InstStack" Anchor="L,T" Padding="2" StackGrowth="Right" StackPadding="14"/>
+
+
+
+									<ScrollBar Anchor="L,B"	Offset="0,0" Size="parent,8" Style="ScrollHorizontalBackingAlt" Alpha="0">
+										<Thumb Style="ScrollThumbHAlt" />
+									</ScrollBar>
+								</ScrollPanel>
+							</Grid>
+
+							<Grid ID="Divider" Style="Divider4Grid" Size="parent-10,6"/>
+
+							<Container ID="Review_Tips" Size="parent,70">
+								<Grid ID="Review_Explanation" Size="auto,parent-30" Anchor="C,C" Offset="0,0" Color="81,69,48">
+									<Label ID="Label_Review_Explanation" String="LOC_ACSR_REVIEW_EXPLANATION" Anchor="C,C" Style="GreatPeopleText" FontStyle="Shadow" Align="Center"/>
+								</Grid>
+							</Container>
+						</Stack>
+					</Grid>
+				</Container>
+
+				<Image Anchor="C,T" Size="400,27" AutoSizePadding="-100,0" Texture="Controls_TabLedge2_Fill" StretchMode="Tile" Offset="0,-20">
+					<Grid Anchor="C,C" Size="600,61" Texture="Controls_TabLedge2"  SliceCorner="194,18" SliceSize="52,26" SliceTextureSize="438,61" Offset="0,0">
+						<Stack ID="TabButtons" Anchor="C,C" Offset="0,-4" StackGrowth="Right" StackPadding="20">
+							<GridButton ID="SelectTab_Annex" Style="TabButton" Size="200,32" Offset="0,0">
+								<Label Style="FontFlair14" String="LOC_ACSR_ANNEX_PANEL" Anchor="C,C" Offset="0,2" FontStyle="stroke" ColorSet="TopBarValueCS"/>
+							</GridButton>
+							<GridButton ID="SelectTab_Review" Style="TabButton" Size="200,32" Offset="0,0">
+								<Label Style="FontFlair14" String="LOC_ACSR_REVIEW_PANEL" Anchor="C,C" Offset="0,2" FontStyle="stroke" ColorSet="TopBarValueCS"/>
+							</GridButton>
+						</Stack>
+					</Grid>
+				</Image>
+			</Tab>
+
+			<!--End-->
+			<Image Texture="Controls_Deco2" Size="41,26" Anchor="C,B"/>
+		</Grid>
+		<Grid ID="YieldsContainer" Style="YieldContainerStyle"/>
+		</Container>
+	</Container>
+
+
+
+	<Instance Name="ACSR_Inst_Annex">
+		<Container ID="ACSR_InstContainer_Annex" Size="240,parent" Anchor="L,C">
+			<Grid Style="DecoGrid" Size="parent,parent" Color="81,69,48">
+				<Stack StackGrowth="Bottom" Size="parent,parent">
+					<Container Size="parent,60">
+						<Image	ID="ACSR_Inst_Annex_Icon"	Anchor="C,C" Offset="0,6" Size="56,56"	Texture="CivSymbols56">
+							<Image ID="ACSR_DiplomacyPip" Anchor="L,B"	Offset="-5,0"	Size="23,23" Texture="Diplomacy_RelationshipPips" />
+						</Image>
+					</Container>
+					<Container Size="parent,40">
+						<GridButton ID="ACSR_Inst_Annex_Lookat" Anchor="C,C" Size="auto,auto">
+							<Label ID="ACSR_Inst_Annex_Cityname" Anchor="C,C" String="$CityStateName$" Color="100,100,30,255" GradientColor="230,230,150,255" Style="FontFlair20" SmallCaps="24" SmallCapsType="EveryWord" WrapWidth="220" Align="Center" ToolTip="LOC_ACSR_CITYNAME_LOOKAT"/>
+						</GridButton>
+					</Container>
+					<Box  Anchor="C,T" Size="parent-10,3" Color="68,56,38" />
+					<Container Size="parent,46">
+						<Image ID="ACSR_EnvoyCircle" Anchor="C,C"	Offset="0,0" Size="40,40" Texture="Controls_CircleRim40">
+							<Label ID="ACSR_Inst_Annex_Envoys" Anchor="C,C"	Offset="-1,1" String="0" Style="FontFlairLua" Color="160,160,160,240" />
+						</Image>
+					</Container>
+					<Box  Anchor="C,T" Size="parent-10,1" Color="68,56,38" />
+					<Container Size="parent,280" Offset="0,10">
+						<Label ID="ACSR_Inst_Annex_SuzerainBonus" String="$SuzerainBonus$" Anchor="C,T" Style="GreatPeopleText" FontStyle="Shadow" WrapWidth="220" TruncateHeight="280"/>
+					</Container>
+					<Box  Anchor="C,T" Size="parent-10,3" Color="68,56,38" />
+					<Stack Anchor="C" Offset="0,6" StackGrowth="Right" StackPadding="30">
+						<GridButton ID="ACSR_Inst_Annex_Button_Gold" Anchor="C,C" Size="80,32" SliceCorner="12,12" SliceSize="1,1" SliceTextureSize="24,24" Texture="Controls_ButtonControl_Brown" TextColor="126,123,120" Style="FontNormal18" StateOffsetIncrement="0,24" String="999" />
+						<GridButton ID="ACSR_Inst_Annex_Button_Faith" Anchor="C,C" Size="80,32" SliceCorner="12,12" SliceSize="1,1" SliceTextureSize="24,24" Texture="Controls_ButtonControl_Brown" TextColor="126,123,120" Style="FontNormal18" StateOffsetIncrement="0,24" String="999" />
+						<!-- <GridButton ID="ACSR_Inst_Annex_Button_Favor" Anchor="C,C" Size="80,32" SliceCorner="12,12" SliceSize="1,1" SliceTextureSize="24,24" Texture="Controls_ButtonControl_Brown" TextColor="126,123,120" Style="FontNormal18" StateOffsetIncrement="0,24" String="999" /> -->
+					</Stack>
+				</Stack>
+				<Image Texture="Controls_Deco2" Size="41,26" Anchor="C,B" Offset="0,-6"/>
+			</Grid>
+		</Container>
+	</Instance>
+
+	<Instance Name="ACSR_Inst_Review">
+		<Container ID="ACSR_InstContainer_Review" Size="240,parent" Anchor="L,C">
+			<Grid Style="DecoGrid" Size="parent,parent" Color="81,69,48">
+				<Stack StackGrowth="Bottom" Size="parent,parent">
+					<Container Size="parent,60">
+						<Image	ID="ACSR_Inst_Review_Icon"	Anchor="C,C" Offset="0,6" Size="56,56"	Texture="CivSymbols48"/>
+					</Container>
+					<Container Size="parent,40">
+						<GridButton ID="ACSR_Inst_Review_Lookat" Anchor="C,C" >
+							<Label ID="ACSR_Inst_Review_Cityname" Anchor="C,C" Offset="0,0" String="$CityStateName$" Color="100,100,30,255" GradientColor="230,230,150,255"	Style="FontFlair20" SmallCaps="24" SmallCapsType="EveryWord" WrapWidth="220" Align="Center"  ToolTip="LOC_ACSR_CITYNAME_LOOKAT"/>
+						</GridButton>
+					</Container>
+					<Box  Anchor="C,T" Size="parent-10,3" Color="68,56,38" />
+					<Container Size="parent,327" Offset="0,10">
+						<Label ID="ACSR_Inst_Review_SuzerainBonus" String="$SuzerainBonus$" Anchor="C,T" Style="GreatPeopleText" FontStyle="Shadow" WrapWidth="220" TruncateHeight="280"/>
+					</Container>
+					<Box  Anchor="C,T" Size="parent-10,3" Color="68,56,38" />
+					<Stack ID="ACSR_ReviewStacks" Anchor="C" Offset="0,6" StackGrowth="Right" StackPadding="30">
+						<GridButton ID="ACSR_Inst_Release_Button" Anchor="C,C" Size="80,32" SliceCorner="12,12" SliceSize="1,1" SliceTextureSize="24,24" Texture="Controls_ButtonControl_Brown" TextColor="126,123,120" Style="FontNormal14" StateOffsetIncrement="0,24" String="LOC_ACSR_RELEASE_CITYSTATE" ToolTip="LOC_ACSR_RELEASE_CITYSTATE_TOOLTIP"/>
+
+						<GridButton ID="ACSR_Inst_Assimilate_Button" Anchor="C,C" Size="80,32" SliceCorner="12,12" SliceSize="1,1" SliceTextureSize="24,24" Texture="Controls_ButtonControl_Brown" TextColor="126,123,120" Style="FontNormal14" StateOffsetIncrement="0,24" String="LOC_ACSR_ASSIMILATE_CITYSTATE" ToolTip="LOC_ACSR_ASSIMILATE_CITYSTATE_TOOLTIP"/>
+					</Stack>
+				</Stack>
+				<Label ID="ACSR_Assimilated_tip" Hidden="1" Anchor="C,B" Offset="0,30" String="LOC_ACSR_CITY_IS_ASSIMILATED" Color="100,100,30,255" GradientColor="230,230,150,255"	Style="FontFlair16" SmallCaps="24" SmallCapsType="EveryWord" WrapWidth="220" Align="Center"/>
+				<Image Texture="Controls_Deco2" Size="41,26" Anchor="C,B" Offset="0,-6"/>
+			</Grid>
+		</Container>
+	</Instance>
+
+</Context>

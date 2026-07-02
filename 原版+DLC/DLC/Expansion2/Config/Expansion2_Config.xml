@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<GameCores>
+		<Row GameCore="Expansion2" PackageId="4873eb62-8ccc-4574-b784-dda455e74e68" DllPrefix="GameCore_XP2"/>
+	</GameCores>
+	<Rulesets>
+		<Row RulesetType="RULESET_EXPANSION_2" Name="LOC_EXPANSION2_NAME" Description="LOC_EXPANSION2_DESCRIPTION" VictoryDomain="Expansion2_Victories" GameCore="Expansion2" SortIndex="-20"/>
+	</Rulesets>
+	<RulesetDomainOverrides>
+		<Row Ruleset="RULESET_EXPANSION_2" ParameterId="Map" Domain="Maps:Expansion2Maps"/>
+	</RulesetDomainOverrides>
+	<Parameters>
+		<!-- Standard Game Options -->
+		<Row Key1="Ruleset" Key2="RULESET_EXPANSION_2" ParameterId="NoGoodyHuts" Name="LOC_GAME_NO_GOODY_HUTS" Description="" Domain="bool" DefaultValue="0" ConfigurationGroup="Game" ConfigurationId="GAME_NO_GOODY_HUTS" GroupId="AdvancedOptions" SortIndex="2010"/>
+		<Row Key1="Ruleset" Key2="RULESET_EXPANSION_2" ParameterId="NoBarbarians" Name="LOC_GAME_NO_BARBARIANS" Description="" Domain="bool" DefaultValue="0" ConfigurationGroup="Game" ConfigurationId="GAME_NO_BARBARIANS" GroupId="AdvancedOptions" SortIndex="2010"/>
+		<Row Key1="Ruleset" Key2="RULESET_EXPANSION_2" ParameterId="AlliesShareVisibility" Name="LOC_GAME_ALLIES_SHARE_VISIBILITY" Description="LOC_GAME_ALLIES_SHARE_VISIBILITY_DESCRIPTION" Domain="bool" DefaultValue="1" ConfigurationGroup="Game" ConfigurationId="GAME_ALLIES_SHARE_VISIBILITY" GroupId="AdvancedOptions" SortIndex="2010"/>
+		<!-- Realism -->
+		<Row Key1="Ruleset" Key2="RULESET_EXPANSION_2" ParameterId="Realism" Name="LOC_GAME_REALISM" Description="LOC_GAME_REALISM_DESCRIPTION" Domain="RealismRange" DefaultValue="2" ConfigurationGroup="Game" ConfigurationId="GAME_REALISM" Hash="0" GroupId="BasicGameOptions" SortIndex="80"/>
+
+		<!-- Exclude Natural Wonders -->
+		<Row Key1="Ruleset" Key2="RULESET_EXPANSION_2" ParameterId="NaturalWonders" Name="LOC_EXCLUDE_NATURAL_WONDER_NAME" Description="LOC_EXCLUDE_NATURAL_WONDER_DESC" Domain="Expansion2NaturalWonders" Hash="0" Array="1" ConfigurationGroup="Game" ConfigurationId="EXCLUDE_NATURAL_WONDERS" GroupId="MapOptions" UxHint="InvertSelection"  SortIndex="230"/>
+
+		<!-- City-State Picker -->
+		<Row Key1="Ruleset" Key2="RULESET_EXPANSION_2" ParameterId="CityStates" Name="LOC_EXCLUDE_CITY_STATES_NAME" Description="LOC_EXCLUDE_CITY_STATES_DESC" Domain="Expansion2CityStates" Hash="0" Array="1" ConfigurationGroup="Game" ConfigurationId="EXCLUDE_CITY_STATES" GroupId="MapOptions" UxHint="InvertSelection"  SortIndex="230"/>
+
+    <!-- Leader Picker -->
+    <Row Key1="Ruleset" Key2="RULESET_EXPANSION_2" ParameterId="LeaderPool1" Name="LOC_LEADER_POOL_1_NAME" Description="LOC_LEADER_POOL_1_DESC" Domain="Players:Expansion2_Players" Hash="0" Array="1" ConfigurationGroup="Game" ConfigurationId="LEADER_POOL_1" GroupId="MapOptions" UxHint="InvertSelection"  SortIndex="221"/>
+    <Row Key1="Ruleset" Key2="RULESET_EXPANSION_2" ParameterId="LeaderPool2" Name="LOC_LEADER_POOL_2_NAME" Description="LOC_LEADER_POOL_2_DESC" Domain="Players:Expansion2_Players" Hash="0" Array="1" ConfigurationGroup="Game" ConfigurationId="LEADER_POOL_2" GroupId="MapOptions" UxHint="InvertSelection"  SortIndex="222"/>
+	</Parameters>
+	<ParameterDependencies>
+
+		<!-- Disable certain options if this is for world builder. -->
+		<Row ParameterId="Realism" ConfigurationGroup="Game" ConfigurationId="WORLD_BUILDER" Operator="NotEquals" ConfigurationValue="1" />
+
+	</ParameterDependencies>
+	<ConfigurationUpdates>
+		<Row SourceGroup="Game" SourceId="RULESET" SourceValue="RULESET_EXPANSION_2" TargetGroup="Game" TargetId="GAME_START_ERA" TargetValue="ERA_ANCIENT" Hash="1"/>
+		<Row SourceGroup="Game" SourceId="RULESET" SourceValue="RULESET_EXPANSION_2" TargetGroup="Game" TargetId="GAME_TURN_LIMIT" TargetValue="TURNLIMIT_GAMESPEED" Hash="1"/>
+	</ConfigurationUpdates>
+	<DomainRanges>
+		<Row Domain="RealismRange" MinimumValue="0" MaximumValue="4"/>
+	</DomainRanges>
+	<Logos>
+		<Row LogoTexture="Shell_LogoEXP2.dds" LogoMovie="Expansion2FrontEndBackground.bk2" Priority="20" />
+	</Logos>
+	<Credits>
+		<Row Package="RULESET_EXPANSION_2" DisplayName="LOC_EXPANSION2_NAME" Credits="LOC_EXPANSION2_CREDITS"/>
+	</Credits>
+	<Victories>
+		<Row Domain="Expansion2_Victories" VictoryType="VICTORY_CONQUEST" Name="LOC_VICTORY_DOMINATION_NAME" Description="LOC_VICTORY_DOMINATION_TT"/>
+		<Row Domain="Expansion2_Victories" VictoryType="VICTORY_CULTURE" Name="LOC_VICTORY_CULTURE_NAME" Description="LOC_VICTORY_CULTURE_TT"/>
+		<Row Domain="Expansion2_Victories" VictoryType="VICTORY_RELIGIOUS" Name="LOC_VICTORY_RELIGIOUS_NAME" Description="LOC_VICTORY_RELIGIOUS_TT"/>
+		<Row Domain="Expansion2_Victories" VictoryType="VICTORY_SCORE" Name="LOC_VICTORY_SCORE_NAME" Description="LOC_VICTORY_SCORE_TT"/>
+		<Row Domain="Expansion2_Victories" VictoryType="VICTORY_TECHNOLOGY" Name="LOC_VICTORY_SCIENCE_NAME" Description="LOC_VICTORY_SCIENCE_TT_XP2"/>
+		<Row Domain="Expansion2_Victories" VictoryType="VICTORY_DIPLOMATIC" Name="LOC_VICTORY_DIPLOMATIC_NAME" Description="LOC_VICTORY_DIPLOMATIC_TT"/>
+	</Victories>
+	<!-- Expansion 1 Hot Keys -->
+	<InputCategories>
+		<InsertOrIgnore CategoryId="UI_XP1" Name="LOC_OPTIONS_HOTKEY_CATEGORY_UI_XP1" Visible="1" SortIndex="0"/>
+	</InputCategories>
+	<InputActions>
+		<InsertOrIgnore ActionId="LensLoyalty" Name="LOC_OPTIONS_HOTKEY_LENSES_LOYALTY" Description="LOC_OPTIONS_HOTKEY_LENSES_LOYALTY_HELP" CategoryId="LENSES" ContextId="World"/>
+		<InsertOrIgnore ActionId="ToggleGovernors" Name="LOC_OPTIONS_HOTKEY_UI_GOVERNORS" Description="LOC_OPTIONS_HOTKEY_UI_GOVERNORS_HELP" CategoryId="UI_XP1" ContextId="World"/>
+		<InsertOrIgnore ActionId="ToggleTimeline" Name="LOC_OPTIONS_HOTKEY_UI_TIMELINE" Description="LOC_OPTIONS_HOTKEY_UI_TIMELINE_HELP" CategoryId="UI_XP1" ContextId="World"/>
+		<InsertOrIgnore ActionId="ToggleEraProgress" Name="LOC_OPTIONS_HOTKEY_UI_ERA_PROGRESS" Description="LOC_OPTIONS_HOTKEY_UI_ERA_PROGRESS_HELP" CategoryId="UI_XP1" ContextId="World"/>
+	</InputActions>
+	<InputActionDefaultGestures>
+		<InsertOrIgnore ActionId="LensLoyalty" Index="0" GestureType="KBMouse" GestureData="LOC_OPTIONS_KEY_8"/>
+		<InsertOrIgnore ActionId="ToggleGovernors" Index="0" GestureType="KBMouse" GestureData="LOC_OPTIONS_KEY_F10"/>
+		<InsertOrIgnore ActionId="ToggleTimeline" Index="0" GestureType="KBMouse" GestureData="LOC_OPTIONS_KEY_F11"/>
+		<InsertOrIgnore ActionId="ToggleEraProgress" Index="0" GestureType="KBMouse" GestureData="LOC_OPTIONS_KEY_NP_DIVIDE"/>
+	</InputActionDefaultGestures>
+	<!-- Expansion 2 Hot Keys -->
+	<InputCategories>
+		<InsertOrIgnore CategoryId="UI_XP2" Name="LOC_OPTIONS_HOTKEY_CATEGORY_UI_XP2" Visible="1" SortIndex="0"/>
+	</InputCategories>
+	<InputActions>
+		<InsertOrIgnore ActionId="ToggleWorldClimate" Name="LOC_OPTIONS_HOTKEY_UI_WORLDCLIMATE" Description="LOC_OPTIONS_HOTKEY_UI_WORLDCLIMATE_HELP" CategoryId="UI_XP2" ContextId="World"/>
+		<InsertOrIgnore ActionId="LensPower" Name="LOC_OPTIONS_HOTKEY_LENSES_POWER" Description="LOC_OPTIONS_HOTKEY_LENSES_POWER_HELP" CategoryId="LENSES" ContextId="World"/>
+	</InputActions>
+	<InputActionDefaultGestures>
+		<InsertOrIgnore ActionId="ToggleWorldClimate" Index="0" GestureType="KBMouse" GestureData="LOC_OPTIONS_KEY_PAGEDOWN"/>
+		<InsertOrIgnore ActionId="LensPower" Index="0" GestureType="KBMouse" GestureData="LOC_OPTIONS_KEY_0"/>
+	</InputActionDefaultGestures>
+	<DataPointAggregateUpdates>
+		<Row AggregateDataPoint="Favor" Scope="MajorPlayers" Operation="First" DataPoint="Favor" Query="ObjectDataSet_LastValue"/>
+		<Row AggregateDataPoint="ScienceVP" Scope="MajorPlayers" Operation="First" DataPoint="ScienceVP" Query="ObjectDataSet_LastValue"/>
+		<Row AggregateDataPoint="DiploVP" Scope="MajorPlayers" Operation="First" DataPoint="DiploVP" Query="ObjectDataSet_LastValue"/>
+		<Row AggregateDataPoint="CO2" Scope="MajorPlayers" Operation="First" DataPoint="CO2" Query="ObjectDataSet_LastValue"/>
+	</DataPointAggregateUpdates>
+	<Statistics>
+		<Row DataPoint="Favor" Name="LOC_HOF_STAT_DIPLOMATIC_FAVOR" CATEGORY="CATEGORY_PROSPERITY"/>
+		<Row DataPoint="ScienceVP" Name="LOC_HOF_STAT_SCIENCE_VP" CATEGORY="CATEGORY_PROSPERITY"/>
+		<Row DataPoint="DiploVP" Name="LOC_HOF_STAT_DIPLOMATIC_VP" CATEGORY="CATEGORY_PROSPERITY"/>
+		<Row DataPoint="CO2" Name="LOC_HOF_STAT_CO2" CATEGORY="CATEGORY_PROSPERITY"/>
+	</Statistics>
+	<Reports>
+		<Row Report="Players" Scope="Game" Name="LOC_GAMESUMMARY_PLAYERS" InitialColumnName="LOC_SLOTLABEL_PLAYER" Query="GameObjectsByType" ExtraData="Player"/>
+	</Reports>
+	<ReportColumns>
+		<Row Report="Players" Name="LOC_HOF_REPORTS_DIPLOMATIC_FAVOR" DataPoint="Favor" EmptyValue="0" DefaultValue="0" SortOrder="10"/>
+		<Row Report="Players" Name="LOC_HOF_REPORTS_SCIENCE_VP" DataPoint="ScienceVP" EmptyValue="0" DefaultValue="0" SortOrder="20"/>
+		<Row Report="Players" Name="LOC_HOF_REPORTS_DIPLOMATIC_VP" DataPoint="DiploVP" EmptyValue="0" DefaultValue="0" SortOrder="30"/>
+		<Row Report="Players" Name="LOC_HOF_REPORTS_CO2" DataPoint="CO2" EmptyValue="0" DefaultValue="0" SortOrder="40"/>
+	</ReportColumns>
+	<Graphs>
+		<Row Graph="PlayerFavor" Scope="Game" Name="LOC_HOF_GRAPH_DIPLOMATIC_FAVOR" Query="GameDataSetsByType" Dataset="Favor" XUnit="GameTurn" ExtraData="Player"/>
+		<Row Graph="PlayerScienceVP" Scope="Game" Name="LOC_HOF_GRAPH_SCIENCE_VP" Query="GameDeltaDataSetsByType" Dataset="ScienceVP" XUnit="GameTurn" ExtraData="Player"/>
+		<Row Graph="PlayerDiploVP" Scope="Game" Name="LOC_HOF_GRAPH_DIPLOMATIC_VP" Query="GameDeltaDataSetsByType" Dataset="DiploVP" XUnit="GameTurn" ExtraData="Player"/>
+		<Row Graph="PlayerCO2" Scope="Game" Name="LOC_HOF_GRAPH_CO2" Query="GameDataSetsByType" Dataset="CO2" XUnit="GameTurn" ExtraData="Player"/>
+	</Graphs>
+	
+	<!-- Natural Wonders -->
+	<NaturalWonders>
+		<!-- Base Game Wonders (excluding DLC) -->
+		<Row Domain="Expansion2NaturalWonders" FeatureType="FEATURE_BARRIER_REEF" Name="LOC_FEATURE_BARRIER_REEF_NAME" Description="LOC_FEATURE_BARRIER_REEF_DESCRIPTION" Icon="ICON_FEATURE_BARRIER_REEF"/>
+		<Row Domain="Expansion2NaturalWonders" FeatureType="FEATURE_CLIFFS_DOVER" Name="LOC_FEATURE_CLIFFS_DOVER_NAME" Description="LOC_FEATURE_CLIFFS_DOVER_XP2_DESCRIPTION" Icon="ICON_FEATURE_CLIFFS_DOVER" />
+		<Row Domain="Expansion2NaturalWonders" FeatureType="FEATURE_CRATER_LAKE" Name="LOC_FEATURE_CRATER_LAKE_NAME" Description="LOC_FEATURE_CRATER_LAKE_DESCRIPTION" Icon="ICON_FEATURE_CRATER_LAKE" />
+		<Row Domain="Expansion2NaturalWonders" FeatureType="FEATURE_DEAD_SEA" Name="LOC_FEATURE_DEAD_SEA_NAME" Description="LOC_FEATURE_DEAD_SEA_DESCRIPTION" Icon="ICON_FEATURE_DEAD_SEA" />
+		<Row Domain="Expansion2NaturalWonders" FeatureType="FEATURE_EVEREST" Name="LOC_FEATURE_EVEREST_NAME" Description="LOC_FEATURE_EVEREST_DESCRIPTION" Icon="ICON_FEATURE_EVEREST"/>
+		<Row Domain="Expansion2NaturalWonders" FeatureType="FEATURE_GALAPAGOS" Name="LOC_FEATURE_GALAPAGOS_NAME" Description="LOC_FEATURE_GALAPAGOS_DESCRIPTION" Icon="ICON_FEATURE_GALAPAGOS"/>
+		<Row Domain="Expansion2NaturalWonders" FeatureType="FEATURE_KILIMANJARO" Name="LOC_FEATURE_KILIMANJARO_NAME" Description="LOC_FEATURE_KILIMANJARO_XP2_DESCRIPTION" Icon="ICON_FEATURE_KILIMANJARO"/>
+		<Row Domain="Expansion2NaturalWonders" FeatureType="FEATURE_PANTANAL" Name="LOC_FEATURE_PANTANAL_NAME" Description="LOC_FEATURE_PANTANAL_DESCRIPTION" Icon="ICON_FEATURE_PANTANAL" />
+		<Row Domain="Expansion2NaturalWonders" FeatureType="FEATURE_PIOPIOTAHI" Name="LOC_FEATURE_PIOPIOTAHI_NAME" Description="LOC_FEATURE_PIOPIOTAHI_DESCRIPTION" Icon="ICON_FEATURE_PIOPIOTAHI" />
+		<Row Domain="Expansion2NaturalWonders" FeatureType="FEATURE_TORRES_DEL_PAINE" Name="LOC_FEATURE_TORRES_DEL_PAINE_NAME" Description="LOC_FEATURE_TORRES_DEL_PAINE_DESCRIPTION" Icon="ICON_FEATURE_TORRES_DEL_PAINE"/>
+		<Row Domain="Expansion2NaturalWonders" FeatureType="FEATURE_TSINGY" Name="LOC_FEATURE_TSINGY_NAME" Description="LOC_FEATURE_TSINGY_DESCRIPTION" Icon="ICON_FEATURE_TSINGY" />
+		<Row Domain="Expansion2NaturalWonders" FeatureType="FEATURE_YOSEMITE" Name="LOC_FEATURE_YOSEMITE_NAME" Description="LOC_FEATURE_YOSEMITE_XP2_DESCRIPTION" Icon="ICON_FEATURE_YOSEMITE"/>
+		
+		<!-- Expansion 2 Wonders -->
+		<Row Domain="Expansion2NaturalWonders" FeatureType="FEATURE_CHOCOLATEHILLS" Name="LOC_FEATURE_CHOCOLATEHILLS_NAME" Description="LOC_FEATURE_CHOCOLATEHILLS_DESCRIPTION" Icon="ICON_FEATURE_CHOCOLATEHILLS" />
+		<Row Domain="Expansion2NaturalWonders" FeatureType="FEATURE_DEVILSTOWER" Name="LOC_FEATURE_DEVILSTOWER_NAME" Description="LOC_FEATURE_DEVILSTOWER_DESCRIPTION" Icon="ICON_FEATURE_DEVILSTOWER" />
+		<Row Domain="Expansion2NaturalWonders" FeatureType="FEATURE_GOBUSTAN" Name="LOC_FEATURE_GOBUSTAN_NAME" Description="LOC_FEATURE_GOBUSTAN_DESCRIPTION" Icon="ICON_FEATURE_GOBUSTAN" />
+		<Row Domain="Expansion2NaturalWonders" FeatureType="FEATURE_IKKIL" Name="LOC_FEATURE_IKKIL_NAME" Description="LOC_FEATURE_IKKIL_DESCRIPTION" Icon="ICON_FEATURE_IKKIL" />
+		<Row Domain="Expansion2NaturalWonders" FeatureType="FEATURE_PAMUKKALE" Name="LOC_FEATURE_PAMUKKALE_NAME" Description="LOC_FEATURE_PAMUKKALE_DESCRIPTION" Icon="ICON_FEATURE_PAMUKKALE" />
+		<Row Domain="Expansion2NaturalWonders" FeatureType="FEATURE_VESUVIUS" Name="LOC_FEATURE_VESUVIUS_NAME" Description="LOC_FEATURE_VESUVIUS_DESCRIPTION" Icon="ICON_FEATURE_VESUVIUS" />
+		<Row Domain="Expansion2NaturalWonders" FeatureType="FEATURE_WHITEDESERT" Name="LOC_FEATURE_WHITEDESERT_NAME" Description="LOC_FEATURE_WHITEDESERT_DESCRIPTION" Icon="ICON_FEATURE_WHITEDESERT" />
+	</NaturalWonders>
+
+  <!-- City-States -->
+  <CityStates>
+    <!-- Base City-States for XP2 -->
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_BRUSSELS" CityStateCategory="INDUSTRIAL" Name="LOC_CIVILIZATION_BRUSSELS_NAME" Icon="ICON_CIVILIZATION_BRUSSELS" Bonus="LOC_CIVILIZATION_BRUSSELS_BONUS"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_BUENOS_AIRES" CityStateCategory="INDUSTRIAL" Name="LOC_CIVILIZATION_BUENOS_AIRES_NAME" Icon="ICON_CIVILIZATION_BUENOS_AIRES" Bonus="LOC_CIVILIZATION_BUENOS_AIRES_BONUS"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_GENEVA" CityStateCategory="SCIENTIFIC" Name="LOC_CIVILIZATION_GENEVA_NAME" Icon="ICON_CIVILIZATION_GENEVA" Bonus="LOC_CIVILIZATION_GENEVA_BONUS"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_HATTUSA" CityStateCategory="SCIENTIFIC" Name="LOC_CIVILIZATION_HATTUSA_NAME" Icon="ICON_CIVILIZATION_HATTUSA" Bonus="LOC_CIVILIZATION_HATTUSA_BONUS" Bonus_XP2="LOC_CIVILIZATION_HATTUSA_BONUS_XP2"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_HONG_KONG" CityStateCategory="INDUSTRIAL" Name="LOC_CIVILIZATION_HONG_KONG_NAME" Icon="ICON_CIVILIZATION_HONG_KONG" Bonus="LOC_CIVILIZATION_HONG_KONG_BONUS"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_JAKARTA" CityStateCategory="TRADE" Name="LOC_CIVILIZATION_BANDAR_BRUNEI_NAME" Icon="ICON_CIVILIZATION_JAKARTA" Bonus="LOC_CIVILIZATION_JAKARTA_BONUS"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_JERUSALEM" CityStateCategory="RELIGIOUS" Name="LOC_CIVILIZATION_JERUSALEM_NAME" Icon="ICON_CIVILIZATION_JERUSALEM" Bonus="LOC_CIVILIZATION_JERUSALEM_BONUS" Bonus_XP1="LOC_CIVILIZATION_JERUSALEM_BONUS_XP1"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_KABUL" CityStateCategory="MILITARISTIC" Name="LOC_CIVILIZATION_KABUL_NAME" Icon="ICON_CIVILIZATION_KABUL" Bonus="LOC_CIVILIZATION_KABUL_BONUS"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_KANDY" CityStateCategory="RELIGIOUS" Name="LOC_CIVILIZATION_KANDY_NAME" Icon="ICON_CIVILIZATION_KANDY" Bonus="LOC_CIVILIZATION_KANDY_BONUS"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_KUMASI" CityStateCategory="CULTURAL" Name="LOC_CIVILIZATION_KUMASI_NAME" Icon="ICON_CIVILIZATION_KUMASI" Bonus="LOC_CIVILIZATION_KUMASI_BONUS"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_LA_VENTA" CityStateCategory="RELIGIOUS" Name="LOC_CIVILIZATION_LA_VENTA_NAME" Icon="ICON_CIVILIZATION_LA_VENTA" Bonus="LOC_CIVILIZATION_LA_VENTA_BONUS" Bonus_XP2="LOC_CIVILIZATION_LA_VENTA_BONUS_XP2"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_LISBON" CityStateCategory="TRADE" Name="LOC_CIVILIZATION_LISBON_NAME" Icon="ICON_CIVILIZATION_LISBON" Bonus="LOC_CIVILIZATION_LISBON_BONUS"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_MOHENJO_DARO" CityStateCategory="CULTURAL" Name="LOC_CIVILIZATION_MOHENJO_DARO_NAME" Icon="ICON_CIVILIZATION_MOHENJO_DARO" Bonus="LOC_CIVILIZATION_MOHENJO_DARO_BONUS"/>s
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_NAN_MADOL" CityStateCategory="CULTURAL" Name="LOC_CIVILIZATION_NAN_MADOL_NAME" Icon="ICON_CIVILIZATION_NAN_MADOL" Bonus="LOC_CIVILIZATION_NAN_MADOL_BONUS"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_PRESLAV" CityStateCategory="MILITARISTIC" Name="LOC_CIVILIZATION_PRESLAV_NAME" Icon="ICON_CIVILIZATION_PRESLAV" Bonus="LOC_CIVILIZATION_PRESLAV_BONUS" Bonus_XP1="LOC_CIVILIZATION_PRESLAV_BONUS_XP1"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_VALLETTA" CityStateCategory="MILITARISTIC" Name="LOC_CIVILIZATION_VALLETTA_NAME" Icon="ICON_CIVILIZATION_VALLETTA" Bonus="LOC_CIVILIZATION_VALLETTA_BONUS"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_VILNIUS" CityStateCategory="CULTURAL" Name="LOC_CIVILIZATION_VILNIUS_NAME" Icon="ICON_CIVILIZATION_VILNIUS" Bonus="LOC_CIVILIZATION_VILNIUS_BONUS" Bonus_XP1="LOC_CIVILIZATION_VILNIUS_BONUS_XP1"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_YEREVAN" CityStateCategory="RELIGIOUS" Name="LOC_CIVILIZATION_YEREVAN_NAME" Icon="ICON_CIVILIZATION_YEREVAN" Bonus="LOC_CIVILIZATION_YEREVAN_BONUS"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_ZANZIBAR" CityStateCategory="TRADE" Name="LOC_CIVILIZATION_ZANZIBAR_NAME" Icon="ICON_CIVILIZATION_ZANZIBAR" Bonus="LOC_CIVILIZATION_ZANZIBAR_BONUS"/>
+
+    <!-- XP2 City-States -->
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_AKKAD" CityStateCategory="MILITARISTIC" Name="LOC_CIVILIZATION_AKKAD_FRONTEND_NAME" Icon="ICON_CIVILIZATION_AKKAD" Bonus="LOC_CIVILIZATION_AKKAD_BONUS"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_BOLOGNA" CityStateCategory="SCIENTIFIC" Name="LOC_CIVILIZATION_BOLOGNA_FRONTEND_NAME" Icon="ICON_CIVILIZATION_BOLOGNA" Bonus="LOC_CIVILIZATION_BOLOGNA_BONUS"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_CAHOKIA" CityStateCategory="TRADE" Name="LOC_CIVILIZATION_CAHOKIA_FRONTEND_NAME" Icon="ICON_CIVILIZATION_CAHOKIA" Bonus="LOC_CIVILIZATION_CAHOKIA_BONUS"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_CARDIFF" CityStateCategory="INDUSTRIAL" Name="LOC_CIVILIZATION_CARDIFF_FRONTEND_NAME" Icon="ICON_CIVILIZATION_CARDIFF" Bonus="LOC_CIVILIZATION_CARDIFF_BONUS"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_FEZ" CityStateCategory="SCIENTIFIC" Name="LOC_CIVILIZATION_FEZ_FRONTEND_NAME" Icon="ICON_CIVILIZATION_FEZ" Bonus="LOC_CIVILIZATION_FEZ_BONUS"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_MEXICO_CITY" CityStateCategory="INDUSTRIAL" Name="LOC_CIVILIZATION_MEXICO_CITY_FRONTEND_NAME" Icon="ICON_CIVILIZATION_MEXICO_CITY" Bonus="LOC_CIVILIZATION_MEXICO_CITY_BONUS"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_NAZCA" CityStateCategory="RELIGIOUS" Name="LOC_CIVILIZATION_NAZCA_FRONTEND_NAME" Icon="ICON_CIVILIZATION_NAZCA" Bonus="LOC_CIVILIZATION_NAZCA_BONUS"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_NGAZARGAMU" CityStateCategory="MILITARISTIC" Name="LOC_CIVILIZATION_NGAZARGAMU_FRONTEND_NAME" Icon="ICON_CIVILIZATION_NGAZARGAMU" Bonus="LOC_CIVILIZATION_NGAZARGAMU_BONUS"/>
+    <Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_RAPA_NUI" CityStateCategory="CULTURAL" Name="LOC_CIVILIZATION_RAPA_NUI_FRONTEND_NAME" Icon="ICON_CIVILIZATION_RAPA_NUI" Bonus="LOC_CIVILIZATION_RAPA_NUI_BONUS"/>
+  </CityStates>
+	
+</GameInfo>

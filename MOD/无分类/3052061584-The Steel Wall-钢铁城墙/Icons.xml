@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_BUILDING_STEELWALL" IconSize="32" Filename="IMG_BUILDING_STEELWALL_32"/>
+        <Row Name="ATLAS_BUILDING_STEELWALL" IconSize="38" Filename="IMG_BUILDING_STEELWALL_38"/>
+        <Row Name="ATLAS_BUILDING_STEELWALL" IconSize="50" Filename="IMG_BUILDING_STEELWALL_50"/>
+        <Row Name="ATLAS_BUILDING_STEELWALL" IconSize="80" Filename="IMG_BUILDING_STEELWALL_80"/>
+        <Row Name="ATLAS_BUILDING_STEELWALL" IconSize="128" Filename="IMG_BUILDING_STEELWALL_128"/>
+        <Row Name="ATLAS_BUILDING_STEELWALL" IconSize="256" Filename="IMG_BUILDING_STEELWALL_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_BUILDING_STEELWALL"		Atlas="ATLAS_BUILDING_STEELWALL" Index="0"/>
+    </IconDefinitions>
+</GameData>

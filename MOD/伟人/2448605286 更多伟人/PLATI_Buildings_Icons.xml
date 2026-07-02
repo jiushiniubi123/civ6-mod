@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <IconTextureAtlases>
+        <Row Name="ICON_ATLAS_BUILDING_PLATI_PAPER_MAKER" 	IconSize="32" IconsPerRow="1" IconsPerColumn="1"  Filename="PLATI_PAPER_MAKER_32.dds"/>
+        <Row Name="ICON_ATLAS_BUILDING_PLATI_PAPER_MAKER" 	IconSize="38" IconsPerRow="1" IconsPerColumn="1"  Filename="PLATI_PAPER_MAKER_38.dds"/>
+        <Row Name="ICON_ATLAS_BUILDING_PLATI_PAPER_MAKER" 	IconSize="50" IconsPerRow="1" IconsPerColumn="1"  Filename="PLATI_PAPER_MAKER_50.dds"/>
+        <Row Name="ICON_ATLAS_BUILDING_PLATI_PAPER_MAKER" 	IconSize="80" IconsPerRow="1" IconsPerColumn="1"  Filename="PLATI_PAPER_MAKER_80.dds"/>
+        <Row Name="ICON_ATLAS_BUILDING_PLATI_PAPER_MAKER" 	IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="PLATI_PAPER_MAKER_128.dds"/>
+        <Row Name="ICON_ATLAS_BUILDING_PLATI_PAPER_MAKER" 	IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="PLATI_PAPER_MAKER_256.dds"/>
+		<Row Name="ICON_ATLAS_TEXTICON_PAPER_MAKER" 		IconSize="22" IconsPerRow="1" IconsPerColumn="1"  Filename="PLATI_PAPER_MAKER_22.dds"	Baseline="6"/>
+        <!-------------------------------------------------------------------------------------->
+		<Row Name="ICON_ATLAS_BUILDING_PLATI_TEMPLAR_VAULT" 	IconSize="32" IconsPerRow="1" IconsPerColumn="1"  Filename="PLATI_TEMPLAR_VAULT_32.dds"/>
+        <Row Name="ICON_ATLAS_BUILDING_PLATI_TEMPLAR_VAULT" 	IconSize="38" IconsPerRow="1" IconsPerColumn="1"  Filename="PLATI_TEMPLAR_VAULT_38.dds"/>
+        <Row Name="ICON_ATLAS_BUILDING_PLATI_TEMPLAR_VAULT" 	IconSize="50" IconsPerRow="1" IconsPerColumn="1"  Filename="PLATI_TEMPLAR_VAULT_50.dds"/>
+        <Row Name="ICON_ATLAS_BUILDING_PLATI_TEMPLAR_VAULT" 	IconSize="80" IconsPerRow="1" IconsPerColumn="1"  Filename="PLATI_TEMPLAR_VAULT_80.dds"/>
+        <Row Name="ICON_ATLAS_BUILDING_PLATI_TEMPLAR_VAULT" 	IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="PLATI_TEMPLAR_VAULT_128.dds"/>
+        <Row Name="ICON_ATLAS_BUILDING_PLATI_TEMPLAR_VAULT" 	IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="PLATI_TEMPLAR_VAULT_256.dds"/>
+		<Row Name="ICON_ATLAS_TEXTICON_TEMPLAR_VAULT" 		IconSize="22" IconsPerRow="1" IconsPerColumn="1"  Filename="PLATI_TEMPLAR_VAULT_22.dds"	Baseline="6"/>
+		<!-------------------------------------------------------------------------------------->
+		<Row Name="ICON_ATLAS_BUILDING_PLATI_CHOCOLATERIE" 	IconSize="32" IconsPerRow="1" IconsPerColumn="1"  	Filename="PLATI_CHOCOLOATERIE_32.dds"/>
+        <Row Name="ICON_ATLAS_BUILDING_PLATI_CHOCOLATERIE" 	IconSize="38" IconsPerRow="1" IconsPerColumn="1"  	Filename="PLATI_CHOCOLOATERIE_38.dds"/>
+        <Row Name="ICON_ATLAS_BUILDING_PLATI_CHOCOLATERIE" 	IconSize="50" IconsPerRow="1" IconsPerColumn="1"  	Filename="PLATI_CHOCOLOATERIE_50.dds"/>
+        <Row Name="ICON_ATLAS_BUILDING_PLATI_CHOCOLATERIE" 	IconSize="80" IconsPerRow="1" IconsPerColumn="1"  	Filename="PLATI_CHOCOLOATERIE_80.dds"/>
+        <Row Name="ICON_ATLAS_BUILDING_PLATI_CHOCOLATERIE" 	IconSize="128" IconsPerRow="1" IconsPerColumn="1" 	Filename="PLATI_CHOCOLOATERIE_128.dds"/>
+        <Row Name="ICON_ATLAS_BUILDING_PLATI_CHOCOLATERIE" 	IconSize="256" IconsPerRow="1" IconsPerColumn="1" 	Filename="PLATI_CHOCOLOATERIE_256.dds"/>
+		<Row Name="ICON_ATLAS_TEXTICON_CHOCOLATERIE" 			IconSize="22" IconsPerRow="1" IconsPerColumn="1"  	Filename="PLATI_CHOCOLOATERIE_22.dds"	Baseline="6"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_BUILDING_PLATI_PAPER_MAKER" Atlas="ICON_ATLAS_BUILDING_PLATI_PAPER_MAKER" Index="0"/>
+		<Row Name="TEXTICON_PAPER_MAKER" Atlas="ICON_ATLAS_TEXTICON_PAPER_MAKER" Index="0"/>
+		<!-------------------------------------------------------------------------------------->
+		<Row Name="ICON_BUILDING_PLATI_TEMPLAR_VAULT" Atlas="ICON_ATLAS_BUILDING_PLATI_TEMPLAR_VAULT" Index="0"/>
+		<Row Name="TEXTICON_TEMPALR_VAULT" Atlas="ICON_ATLAS_TEXTICON_TEMPLAR_VAULT" Index="0"/>
+		<!-------------------------------------------------------------------------------------->
+		<Row Name="ICON_BUILDING_PLATI_CHOCOLATERIE" Atlas="ICON_ATLAS_BUILDING_PLATI_CHOCOLATERIE" Index="0"/>
+		<Row Name="TEXTICON_CHOCOLATERIE" Atlas="ICON_ATLAS_TEXTICON_CHOCOLATERIE" Index="0"/>
+    </IconDefinitions>
+</GameData>

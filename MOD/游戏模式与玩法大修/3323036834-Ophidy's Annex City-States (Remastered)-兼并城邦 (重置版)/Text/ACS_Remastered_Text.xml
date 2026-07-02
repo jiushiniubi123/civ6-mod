@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_PARA_ACSR_THRESHOLD_NAME" Language="en_US">
+			<Text>Annexation Threshold</Text>
+		</Row>
+		<Row Tag="LOC_PARA_ACSR_THRESHOLD_DESC" Language="en_US">
+			<Text>The minimum number of [ICON_Envoy] Envoys required to annex a City-State.</Text>
+		</Row>
+		<Row Tag="LOC_PARA_ACSR_GROWTH_NAME" Language="en_US">
+			<Text>Annexation Increment</Text>
+		</Row>
+		<Row Tag="LOC_PARA_ACSR_GROWTH_DESC" Language="en_US">
+			<Text>The additional number of [ICON_Envoy] Envoys to annex a new City-State.</Text>
+		</Row>
+		<Row Tag="LOC_PARA_ACSR_MULTIPLIER_NAME" Language="en_US">
+			<Text>Annexation Cost Multiplier</Text>
+		</Row>
+		<Row Tag="LOC_PARA_ACSR_MULTIPLIER_DESC" Language="en_US">
+			<Text>The multiplier of cost to annex a City-state</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_PANEL_TITLE" Language="en_US">
+			<Text>Annex City-States</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_BUTTON_TOOLTIP" Language="en_US">
+			<Text>Annex City-States[NEWLINE][NEWLINE]Annex a tributary City-State for a permanent bonus.</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ANNEX_PANEL" Language="en_US">
+			<Text>Annexable City-States</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_REVIEW_PANEL" Language="en_US">
+			<Text>Annexed City-States</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ANNEX_THRESHOLD" Language="en_US">
+			<Text>Annexation Threshold: {1_Amount}</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ANNEX_GROWTH" Language="en_US">
+			<Text>Annexation Increment: {1_Amount}</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ANNEX_BUTTON_STRING" Language="en_US">
+			<Text>{1_Cost}</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ANNEX_BUTTON_TOOLTIP" Language="en_US">
+			<Text>Spend {1_Cost} to annex that City-State. The City-State will be destroyed and you will permanently gain all its bonuses, including basic bonuses from sending [ICON_Envoy] Envoys and suzerain bonus.[NEWLINE]A [ICON_Settler] Settler will appear in your [ICON_Capital] Capital.</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ANNEX_EXPLANATION" Language="en_US">
+			<Text>Tips: Stronger City-States cost less to annex. Cost factors: levy cost, [ICON_Citizen] Population (more = cheaper), number of districts (more = cheaper), distance to your [ICON_Capital] Capital, your current number of cities (more = more expensive), game speed, total [ICON_Envoy] Envoys received and [ICON_Envoy] Envoys beyond threshold.</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ANNEXED_AMOUNT" Language="en_US">
+			<Text>{1_Amount: number #} {1_Amount : plural 1?City-State; other?City-States;} annexed</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ANNEXED_AMOUNT_DEFAULT" Language="en_US">
+			<Text>No City-state annexed</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_REVIEW_EXPLANATION" Language="en_US">
+			<Text>Tips: Annexed City-States are permanently destroyed. Their bonuses are attached to your empire forever. A Settler is granted in your Capital for each annexed City-State.</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ENVOYS_RECEIVED_HEADER" Language="en_US">
+			<Text>{1_Amount: number #} [ICON_ENVOY] {1_Amount : plural 1?Envoy; other?Envoys;} already sent</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ENVOYS_RECEIVED_HEADER_DEFAULT" Language="en_US">
+			<Text>No [ICON_ENVOY] Envoy sent</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_CITYNAME_LOOKAT" Language="en_US">
+			<Text>Click to focus on that City-State</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_NOT_SUZERAIN" Language="en_US">
+			<Text>[COLOR:Red]Disabled: Not Suzerain[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_NOT_BREAKTHRESHOLD" Language="en_US">
+			<Text>[COLOR:Red]Disabled: No Enough [ICON_ENVOY] Envoys[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_NOT_ENOUGHGOLD" Language="en_US">
+			<Text>[COLOR:Red]Disabled: No Enough [ICON_GOLD] Gold[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_NOT_ENOUGHFAITH" Language="en_US">
+			<Text>[COLOR:Red]Disabled: No Enough [ICON_FAITH] Faith[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_NOT_ENOUGHFAVOR" Language="en_US">
+			<Text>[COLOR:Red]Disabled: No Enough [ICON_FAVOR] Favor[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_RAFFLES_ACTION" Language="en_US">
+			<Text>Annex located City-State for free. The City-State is destroyed and you permanently gain its bonuses. A Settler appears in your Capital.</Text>
+		</Row>
+
+		<Row Tag="LOC_PARA_ACSR_THRESHOLD_NAME" Language="zh_Hans_CN">
+			<Text>兼并阈值</Text>
+		</Row>
+		<Row Tag="LOC_PARA_ACSR_THRESHOLD_DESC" Language="zh_Hans_CN">
+			<Text>兼并一个城邦至少需要派遣的 [ICON_Envoy] 使者数。</Text>
+		</Row>
+		<Row Tag="LOC_PARA_ACSR_GROWTH_NAME" Language="zh_Hans_CN">
+			<Text>兼并增量</Text>
+		</Row>
+		<Row Tag="LOC_PARA_ACSR_GROWTH_DESC" Language="zh_Hans_CN">
+			<Text>每兼并一个城邦，下一次兼并阈值的增量。</Text>
+		</Row>
+		<Row Tag="LOC_PARA_ACSR_MULTIPLIER_NAME" Language="zh_Hans_CN">
+			<Text>兼并成本乘数</Text>
+		</Row>
+		<Row Tag="LOC_PARA_ACSR_MULTIPLIER_DESC" Language="zh_Hans_CN">
+			<Text>兼并一个城邦所需花费的乘数</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_PANEL_TITLE" Language="zh_Hans_CN">
+			<Text>兼并城邦</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_BUTTON_TOOLTIP" Language="zh_Hans_CN">
+			<Text>兼并城邦[NEWLINE][NEWLINE]兼并你下辖的城邦，从中获取永久增益。</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ANNEX_PANEL" Language="zh_Hans_CN">
+			<Text>可兼并城邦</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_REVIEW_PANEL" Language="zh_Hans_CN">
+			<Text>已兼并城邦</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ANNEX_THRESHOLD" Language="zh_Hans_CN">
+			<Text>兼并城邦使者数阈值：{1_Amount}</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ANNEX_GROWTH" Language="zh_Hans_CN">
+			<Text>兼并城邦使者数增量：{1_Amount}</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ANNEX_BUTTON_STRING" Language="zh_Hans_CN">
+			<Text>{1_Cost}</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ANNEX_BUTTON_TOOLTIP" Language="zh_Hans_CN">
+			<Text>花费{1_Cost}兼并该城邦，该城邦将被毁灭，您将永久获得其所有加成，包括各级基础城邦加成和宗主国特色加成。[NEWLINE]您的 [ICON_Capital] 首都将获得一名 [ICON_Settler] 开拓者。</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_CITY_IS_ASSIMILATED" Language="zh_Hans_CN">
+			<Text>已兼并</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ANNEX_EXPLANATION" Language="zh_Hans_CN">
+			<Text>Tips：城邦越强大，兼并花费越低。花费受以下因素影响：征兵花费、[ICON_Citizen] 人口（越多越便宜）、区域数量（越多越便宜）、与您 [ICON_Capital] 首都的距离、您当前拥有的城市数量（越多越贵）、游戏速度、总 [ICON_Envoy] 使者数以及超额 [ICON_Envoy] 使者数。</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ANNEXED_AMOUNT" Language="zh_Hans_CN">
+			<Text>已兼并{1_Amount}个城邦</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ANNEXED_AMOUNT_DEFAULT" Language="zh_Hans_CN">
+			<Text>未兼并城邦</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_REVIEW_EXPLANATION" Language="zh_Hans_CN">
+			<Text>Tips：已兼并的城邦被永久毁灭，其加成永久附加至您的帝国。每兼并一个城邦，您的首都将获得一名开拓者。</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ENVOYS_RECEIVED_HEADER" Language="zh_Hans_CN">
+			<Text>已派遣{1_Amount}名 [ICON_ENVOY] 使者</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ENVOYS_RECEIVED_HEADER_DEFAULT" Language="zh_Hans_CN">
+			<Text>未派遣 [ICON_ENVOY] 使者</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_CITYNAME_LOOKAT" Language="zh_Hans_CN">
+			<Text>点击聚焦至该城邦</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_NOT_SUZERAIN" Language="zh_Hans_CN">
+			<Text>[COLOR:Red]禁用：非宗主国[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_NOT_BREAKTHRESHOLD" Language="zh_Hans_CN">
+			<Text>[COLOR:Red]禁用：未达到 [ICON_ENVOY] 使者数阈值[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_NOT_ENOUGHGOLD" Language="zh_Hans_CN">
+			<Text>[COLOR:Red]禁用：[ICON_GOLD] 金币不足[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_NOT_ENOUGHFAITH" Language="zh_Hans_CN">
+			<Text>[COLOR:Red]禁用：[ICON_FAITH] 信仰值不足[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_NOT_ENOUGHFAVOR" Language="zh_Hans_CN">
+			<Text>[COLOR:Red]禁用：[ICON_FAVOR] 外交支持不足[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_RAFFLES_ACTION" Language="zh_Hans_CN">
+			<Text>免费兼并所处城邦。该城邦将被毁灭，您永久获得其加成，首都获得一名开拓者。</Text>
+		</Row>
+
+		<Row Tag="LOC_PARA_ACSR_THRESHOLD_NAME" Language="zh_Hant_HK">
+			<Text>兼併閾值</Text>
+		</Row>
+		<Row Tag="LOC_PARA_ACSR_THRESHOLD_DESC" Language="zh_Hant_HK">
+			<Text>兼併一個城邦至少需要派遣的 [ICON_Envoy] 使者數。</Text>
+		</Row>
+		<Row Tag="LOC_PARA_ACSR_GROWTH_NAME" Language="zh_Hant_HK">
+			<Text>兼併增量</Text>
+		</Row>
+		<Row Tag="LOC_PARA_ACSR_GROWTH_DESC" Language="zh_Hant_HK">
+			<Text>每兼併一個城邦，下一次兼併閾值的增量。</Text>
+		</Row>
+		<Row Tag="LOC_PARA_ACSR_MULTIPLIER_NAME" Language="zh_Hant_HK">
+			<Text>兼併成本乘數</Text>
+		</Row>
+		<Row Tag="LOC_PARA_ACSR_MULTIPLIER_DESC" Language="zh_Hant_HK">
+			<Text>兼併一個城邦所需花費的乘數</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_PANEL_TITLE" Language="zh_Hant_HK">
+			<Text>兼併城邦</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_BUTTON_TOOLTIP" Language="zh_Hant_HK">
+			<Text>兼併城邦[NEWLINE][NEWLINE]兼併你下轄的城邦，從中獲取永久增益。</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ANNEX_PANEL" Language="zh_Hant_HK">
+			<Text>可兼併城邦</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_REVIEW_PANEL" Language="zh_Hant_HK">
+			<Text>已兼併城邦</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ANNEX_THRESHOLD" Language="zh_Hant_HK">
+			<Text>兼併城邦使者數閾值：{1_Amount}</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ANNEX_GROWTH" Language="zh_Hant_HK">
+			<Text>兼併城邦使者數增量：{1_Amount}</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ANNEX_BUTTON_STRING" Language="zh_Hant_HK">
+			<Text>{1_Cost}</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ANNEX_BUTTON_TOOLTIP" Language="zh_Hant_HK">
+			<Text>花費{1_Cost}兼併該城邦，該城邦將被毀滅，您將永久獲得其所有加成，包括各級基礎城邦加成和宗主國特色加成。[NEWLINE]您的 [ICON_Capital] 首都將獲得一名 [ICON_Settler] 開拓者。</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ANNEX_EXPLANATION" Language="zh_Hant_HK">
+			<Text>Tips：城邦越強大，兼併花費越低。花費受以下因素影響：徵兵花費、[ICON_Citizen] 人口（越多越便宜）、區域數量（越多越便宜）、與您 [ICON_Capital] 首都的距離、您當前擁有的城市數量（越多越貴）、遊戲速度、總 [ICON_Envoy] 使者數以及超額 [ICON_Envoy] 使者數。</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ANNEXED_AMOUNT" Language="zh_Hant_HK">
+			<Text>已兼併{1_Amount}個城邦</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ANNEXED_AMOUNT_DEFAULT" Language="zh_Hant_HK">
+			<Text>未兼併城邦</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_REVIEW_EXPLANATION" Language="zh_Hant_HK">
+			<Text>Tips：已兼併的城邦被永久毀滅，其加成永久附加至您的帝國。每兼併一個城邦，您的首都將獲得一名開拓者。</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ENVOYS_RECEIVED_HEADER" Language="zh_Hant_HK">
+			<Text>已派遣{1_Amount}名 [ICON_ENVOY] 使者</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_ENVOYS_RECEIVED_HEADER_DEFAULT" Language="zh_Hant_HK">
+			<Text>未派遣 [ICON_ENVOY] 使者</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_CITYNAME_LOOKAT" Language="zh_Hant_HK">
+			<Text>點擊聚焦至該城邦</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_NOT_SUZERAIN" Language="zh_Hant_HK">
+			<Text>[COLOR:Red]禁用：非宗主國[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_NOT_BREAKTHRESHOLD" Language="zh_Hant_HK">
+			<Text>[COLOR:Red]禁用：未達到 [ICON_ENVOY] 使者數閾值[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_NOT_ENOUGHGOLD" Language="zh_Hant_HK">
+			<Text>[COLOR:Red]禁用：[ICON_GOLD] 金幣不足[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_NOT_ENOUGHFAITH" Language="zh_Hant_HK">
+			<Text>[COLOR:Red]禁用：[ICON_FAITH] 信仰值不足[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_NOT_ENOUGHFAVOR" Language="zh_Hant_HK">
+			<Text>[COLOR:Red]禁用：[ICON_FAVOR] 外交支持不足[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_ACSR_RAFFLES_ACTION" Language="zh_Hant_HK">
+			<Text>免費兼併所處城邦。該城邦將被毀滅，您永久獲得其加成，首都獲得一名開拓者。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

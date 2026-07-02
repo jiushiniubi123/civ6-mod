@@ -1,0 +1,621 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="5a18be19-df93-4322-a3d5-35c5b5087b36" version="1">
+  <Properties>
+    <Name>[COLOR:ResGoldLabelCS]Sumus Magnus[ENDCOLOR] - Great People Expansion</Name>
+    <Description>Adds new great people with unique and stylish portraits.</Description>
+    <Teaser>Adds new Great People with unique and stylish portraits.</Teaser>
+    <Authors>Plati</Authors>
+    <AffectsSavedGames>1</AffectsSavedGames>
+	<CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+	<Criteria id="SUMUS_MAGNUS_VISIONARIES_OF_PEACE_ON">
+		<ConfigurationValueMatches>
+			<Group>Game</Group>
+			<ConfigurationId>SumusMagnusVisionariesOfPeace</ConfigurationId>
+			<Value>1</Value>
+		</ConfigurationValueMatches>
+	</Criteria>
+	<Criteria id="SUMUS_MAGNUS_UNIQUES_ON">
+		<ConfigurationValueMatches>
+			<Group>Game</Group>
+			<ConfigurationId>SumusMagnusUniqueImprovements</ConfigurationId>
+			<Value>1</Value>
+		</ConfigurationValueMatches>
+	</Criteria>
+	<Criteria id="SUMUS_MAGNUS_REMOVE_UNIMPRESSIVES">
+		<ConfigurationValueMatches>
+			<Group>Game</Group>
+			<ConfigurationId>SumusMagnusRemoveUnimpressives</ConfigurationId>
+			<Value>1</Value>
+		</ConfigurationValueMatches>
+	</Criteria>
+	<Criteria id="PLATI_MARITIME_MOD_OFF">
+	  <ModInUse inverse="1">58ecce8a-d3df-430a-b135-280908153662</ModInUse>	<!-- More Maritime: Seaside Sectors -->
+	</Criteria>
+	<Criteria id="PLATI_MARITIME_MOD_ON">
+	  <ModInUse inverse="0">58ecce8a-d3df-430a-b135-280908153662</ModInUse>	<!-- More Maritime: Seaside Sectors -->
+	</Criteria>
+	<Criteria id="PLATI_UC_PROD_MOD_OFF">
+	  <ModInUse inverse="1">39c78c55-8c39-4f0d-b4c8-0097f6bcd87a</ModInUse>	<!-- District Expansion: Industry -->
+	</Criteria>
+	<Criteria id="PLATI_UC_PROD_MOD_ON">
+	  <ModInUse inverse="0">39c78c55-8c39-4f0d-b4c8-0097f6bcd87a</ModInUse>	<!-- District Expansion: Industry -->
+	</Criteria>
+	<Criteria id="PLATI_GREAT_EXPLORERS_MOD_OFF">
+	  <ModInUse inverse="1">25b096b6-3f4f-432a-be25-5680ae03b193</ModInUse>	<!-- Great Explorers -->
+	</Criteria>
+	<Criteria id="PLATI_GREAT_EXPLORERS_MOD_ON">
+	  <ModInUse inverse="0">25b096b6-3f4f-432a-be25-5680ae03b193</ModInUse>	<!-- Great Explorers -->
+	</Criteria>
+	<Criteria id="PLATI_ANCIENT_PARAGONS_MOD_OFF">
+	  <ModInUse inverse="1">8b1e0073-88e9-43e8-b899-fa9baccc2086</ModInUse>	<!-- Ancient Paragons -->
+	</Criteria>
+	<Criteria id="PLATI_ANCIENT_PARAGONS_MOD_ON">
+	  <ModInUse inverse="0">8b1e0073-88e9-43e8-b899-fa9baccc2086</ModInUse>	<!-- Ancient Paragons -->
+	</Criteria>
+	<Criteria id="PLATI_CITY_STATES_MOD_OFF">
+	  <ModInUse inverse="1">2eda3f21-eac5-2e5b-bf31-a14a3f2fdaaf</ModInUse>	<!-- Plati's City States -->
+	</Criteria>
+	<Criteria id="PLATI_CITY_STATES_MOD_ON">
+	  <ModInUse inverse="0">2eda3f21-eac5-2e5b-bf31-a14a3f2fdaaf</ModInUse>	<!-- Plati's City States -->
+	</Criteria>
+	<Criteria id="PLATI_6T_MARITIME_MOD_OFF">
+	  <ModInUse inverse="1">c82bb934-e4c5-4669-a11c-610934cc2f0c</ModInUse>	<!-- 6T: Naval -->
+	  <ModInUse inverse="1">58ecce8a-d3df-430a-b135-280908153662</ModInUse>	<!-- More Maritime: Seaside Sectors -->
+	</Criteria>
+	<Criteria id="PLATI_6T_MARITIME_MOD_ON">
+	  <ModInUse inverse="0">c82bb934-e4c5-4669-a11c-610934cc2f0c</ModInUse>	<!-- 6T: Naval -->
+	  <ModInUse inverse="0">58ecce8a-d3df-430a-b135-280908153662</ModInUse>	<!-- More Maritime: Seaside Sectors -->
+	</Criteria>
+	<Criteria id="PLATI_GREAT_PIRATES_MOD_ON">
+	  <ModInUse inverse="0">5a18be19-df93-4322-a2d2-22c5b5087b36</ModInUse>	<!-- Plati's Great Pirates -->
+	</Criteria>
+	<Criteria id="PLATI_GREAT_PIRATES_MOD_OFF">
+	  <ModInUse inverse="1">5a18be19-df93-4322-a2d2-22c5b5087b36</ModInUse>	<!-- Plati's Great Pirates -->
+	</Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+	<UpdateDatabase id="Plati_SMSMGNS_Config">
+		<File>SumusMagnus_Config.xml</File>
+	</UpdateDatabase>
+	<UpdateText id="Plati_SMSMGNS_Config_Text">
+		<File>SumusMagnus_Config_Text.xml</File>
+	</UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+	<UpdateText id="NewAction">
+		<File>PLATI_Localisation.xml</File>
+	</UpdateText>
+	<UpdateIcons id="PLATIR_Icons">
+      <File>PLATI_GREATPEOPLE_Icons.xml</File>
+	  <File>PLATI_Paintings.xml</File>
+	  <File>PLATI_Resource_Icons.xml</File>
+	  <File>PLATI_Buildings_Icons.xml</File>
+    </UpdateIcons>
+	<ImportFiles id="PLATIR_Import">
+		<!-- -->
+		<File>Textures/EGG_22.dds</File>
+		<File>Textures/EGG_38.dds</File>
+		<File>Textures/EGG_50.dds</File>
+		<File>Textures/EGG_64.dds</File>
+		<File>Textures/EGG_256.dds</File>
+		<File>Textures/NUTMEG_22.dds</File>
+		<File>Textures/NUTMEG_38.dds</File>
+		<File>Textures/NUTMEG_50.dds</File>
+		<File>Textures/NUTMEG_64.dds</File>
+		<File>Textures/NUTMEG_256.dds</File>
+		<File>Textures/PEPPER_22.dds</File>
+		<File>Textures/PEPPER_38.dds</File>
+		<File>Textures/PEPPER_50.dds</File>
+		<File>Textures/PEPPER_64.dds</File>
+		<File>Textures/PEPPER_256.dds</File>
+		<File>Textures/PRALINE_22.dds</File>
+		<File>Textures/PRALINE_38.dds</File>
+		<File>Textures/PRALINE_50.dds</File>
+		<File>Textures/PRALINE_64.dds</File>
+		<File>Textures/PRALINE_256.dds</File>
+		<!-- -->
+		<File>Icons/TESTIKONS.dds</File>
+		<File>Icons/PLATI_GENERAL_REX.dds</File>
+		<File>Icons/PLATI_MERCHANT_AFANASIY.dds</File>
+		<File>Icons/PLATI_GENERAL_LAWRENCE.dds</File>
+		<File>Icons/PLATI_MERCHANT_CECIL.dds</File>
+		<File>Icons/PLATI_ADMIRAL_AGRIPPA.dds</File>
+		<File>Icons/PLATI_MERCHANT_NESTLE.dds</File>
+		<File>Icons/PLATI_MERCHANT_RAILLORD.dds</File>
+		<File>Icons/PLATI_MERCHANT_BANKER.dds</File>
+		<File>Icons/PLATI_ADMIRAL_HENRY.dds</File>
+		<File>Icons/PLATI_GENERAL_LIONHEART.dds</File>
+		<File>Icons/PLATI_MERCHANT_CROESUS.dds</File>
+		<File>Icons/PLATI_ENGINEER_ORBAN.dds</File>
+		<File>Icons/PLATI_SCIENTIST_ARISTOTLE.dds</File>
+		<File>Icons/PLATI_ENGINEER_ALAHMAR.dds</File>
+		<File>Icons/PLATI_SCIENTIST_SAINT_AUGUSTINE.dds</File>
+		<File>Icons/PLATI_WRITER_NIETZSCHE.dds</File>
+		<File>Icons/PLATI_WRITER_DESCARTES.dds</File>
+		<File>Icons/PLATI_MERCHANT_JACOB_KETTLER.dds</File>
+		<File>Icons/PLATI_SCIENTIST_ERASMUS.dds</File>
+		<File>Icons/PLATI_ARTIST_ALI_MASHHADI.dds</File>
+		<File>Icons/PLATI_ARTISTIT_VIKTOR_VASNETSOV.dds</File>
+		<File>Icons/PLATI_ARTIST_PICASSO.dds</File>
+		<File>Icons/PLATI_ENGINEER_ISAMBARD.dds</File>
+		<File>Icons/PLATI_WRITER_HOBBES.dds</File>
+		<File>Icons/PLATI_ENGINEER_KRUPP.dds</File>
+		<File>Icons/PLATI_GENERAL_GARIBALDI.dds</File>
+		<File>Icons/PLATI_GENERAL_BAIBARS.dds</File>
+		<File>Icons/PLATI_GENERAL_SARGON.dds</File>
+		<File>Icons/PLATI_MERCHANT_IBN_BATTUTA.dds</File>
+		<File>Icons/PLATI_MERCHANT_COLBERT.dds</File>
+		<File>Icons/PLATI_ENGINEER_ELIZABETH.dds</File>
+		<File>Icons/PLATI_WRITER_CICERO.dds</File>
+		<File>Icons/PLATI_WRITER_HEIDEGGER.dds</File>
+		<File>Icons/PLATI_WRITER_LOVECRAFT.dds</File>
+		<File>Icons/PLATI_WRITER_ROBERT_HOWARD.dds</File>
+		<File>Icons/PLATI_GENERAL_SFORZA.dds</File>
+		<File>Icons/PLATI_INES_SUAREZ.dds</File>
+		<File>Icons/PLATI_GENERAL_RURIK.dds</File>
+		<File>Icons/PLATI_ENGINEER_VAUBAN.dds</File>
+		<File>Icons/PLATI_ENGINEER_ERIK_DAHLBERG.dds</File>
+		<File>Icons/PLATI_SCIENTIST_CURIE.dds</File>
+		<File>Icons/PLATI_SCIENTIST_ZEPPELIN.dds</File>
+		<File>Icons/PLATI_SCIENTIST_KAI_LUN.dds</File>
+		<File>Icons/PLATI_SCIENTIST_SHEN_KUO.dds</File>
+		<File>Icons/PLATI_ADMIRAL_LODBROK.dds</File>
+		<File>Icons/PLATI_ADMIRAL_BARBAROSA.dds</File>
+		<File>Icons/PLATI_GENERAL_BAYINNAUNG.dds</File>
+		<File>Icons/PLATI_GENERAL_SUNDIATA.dds</File>
+		<File>Icons/PLATI_SCIENTIST_AVERROES.dds</File>
+		<File>Icons/PLATI_ADMIRAL_NIELS_JUEL.dds</File>
+		<File>Icons/PLATI_MERCHANT_HAMILTON.dds</File>
+		<File>Icons/PLATI_GENERAL_TOKUGAWA.dds</File>
+		<File>Icons/PLATI_ADMIRAL_MAJID.dds</File>
+		<File>Icons/PLATI_ADMIRAL_MORGAN.dds</File>
+		<File>Icons/PLATI_ADMIRAL_VITUS_BERING.dds</File>
+		<File>Icons/PLATI_ADMIRAL_COOK.dds</File>
+		<File>Icons/PLATI_A_IMPROV_DUTCH.dds</File>
+		<File>Icons/PLATI_A_IMPROV_FRENCH.dds</File>
+		<File>Icons/PLATI_A_IMPROV_SPANISH.dds</File>
+		<!-- -->
+		<File>Icons/PLATI_X_FABERGE.dds</File>
+		<File>Icons/PLATI_X_UNGERN.dds</File>
+		<File>Icons/PLATI_X_GAJAH.dds</File>
+		<File>Icons/PLATI_X_LEIZU.dds</File>
+		<File>Icons/PLATI_X_TUSI.dds</File>
+		<File>Icons/PLATI_SCIENTIST_LEIBNIZ.dds</File>
+		<File>Icons/PLATI_X_PASTEUR.dds</File>
+		<File>Icons/PLATI_X_FARADAY.dds</File>
+		<File>Icons/PLATI_X_SAKHAROV.dds</File>
+		<File>Icons/PLATI_X_FRANKLIN.dds</File>
+		<File>Icons/PLATI_JAN_ZIZKA.dds</File>
+		<File>Icons/PLATI_Z_APOLODORUS.dds</File>
+		<!-- BUILDINGS -->
+		<File>Textures/PLATI_PAPER_MAKER_256.dds</File>
+		<File>Textures/PLATI_PAPER_MAKER_128.dds</File>
+		<File>Textures/PLATI_PAPER_MAKER_80.dds</File>
+		<File>Textures/PLATI_PAPER_MAKER_50.dds</File>
+		<File>Textures/PLATI_PAPER_MAKER_38.dds</File>
+		<File>Textures/PLATI_PAPER_MAKER_32.dds</File>
+		<File>Textures/PLATI_PAPER_MAKER_22.dds</File>
+		<File>Textures/PLATI_TEMPLAR_VAULT_256.dds</File>
+		<File>Textures/PLATI_TEMPLAR_VAULT_128.dds</File>
+		<File>Textures/PLATI_TEMPLAR_VAULT_80.dds</File>
+		<File>Textures/PLATI_TEMPLAR_VAULT_50.dds</File>
+		<File>Textures/PLATI_TEMPLAR_VAULT_38.dds</File>
+		<File>Textures/PLATI_TEMPLAR_VAULT_32.dds</File>
+		<File>Textures/PLATI_TEMPLAR_VAULT_22.dds</File>
+		<File>Textures/PLATI_CHOCOLOATERIE_256.dds</File>
+		<File>Textures/PLATI_CHOCOLOATERIE_128.dds</File>
+		<File>Textures/PLATI_CHOCOLOATERIE_80.dds</File>
+		<File>Textures/PLATI_CHOCOLOATERIE_50.dds</File>
+		<File>Textures/PLATI_CHOCOLOATERIE_38.dds</File>
+		<File>Textures/PLATI_CHOCOLOATERIE_32.dds</File>
+		<File>Textures/PLATI_CHOCOLOATERIE_22.dds</File>
+		<!-- 2025 -->
+		<File>Icons/PLATI_A_VENETIAN.dds</File>
+		<File>Icons/PLATI_A_ADMIRAL_ARAGON.dds</File>
+    </ImportFiles>
+	<UpdateDatabase id="NewAction">
+	  <Properties>
+			<LoadOrder>240</LoadOrder>
+	  </Properties>
+	  <!-- -->
+	  <File>PLATI_Resources.xml</File>
+	  <File>PLATI_GreatWorks.xml</File>
+	  <File>PLATI_Abilities.xml</File>
+	  <!-- -->
+      <File>Peepoles/ClassicalEra_People.xml</File>
+	  <File>Peepoles/PLATI_General_Lawrence.xml</File>
+	  <File>Peepoles/PLATI_Merchant_Cecil.xml</File>
+	  <File>Peepoles/PLATI_Engineer_Urban.xml</File>
+	  <File>Peepoles/PLATI_Admiral_Agrippa.xml</File>
+	  <File>Peepoles/PLATI_Merchant_Nestle.xml</File>
+	  <File>Peepoles/PLATI_Merchant_Banker.xml</File>
+	  <File>Peepoles/Engineer_Medieval_Al_Ahrami.xml</File>
+	  <File>Peepoles/Scientist_Medieval_Saint_Augustine.xml</File>
+	  <File>Peepoles/Writer_Nietzsche.xml</File>
+	  <File>Peepoles/Writer_Hobbes.xml</File>
+	  <File>Peepoles/Scientist_Renaissance_Erasmus.xml</File>
+	  <File>Peepoles/Painters_All.xml</File>
+	  <File>Peepoles/Engineer_Industrial_Krupp.xml</File>
+	  <File>Peepoles/General_Industrial_Garibaldi.xml</File>
+	  <File>Peepoles/General_Medieval_Baibars.xml</File>
+	  <File>Peepoles/Engineer_Renaissance_Elizabeth_Wilbraham.xml</File>
+	  <File>Peepoles/Writer_NEW.xml</File>
+	  <File>Peepoles/General_Renaissance_Sforza.xml</File>
+	  <File>Peepoles/General_Renaissance_Suarez.xml</File>
+	  <File>Peepoles/General_Medieval_Rurik.xml</File>
+	  <File>Peepoles/Engineer_Renaissance_Erik_Dahlberg.xml</File>
+	  <File>Peepoles/Scientist_Medieval_Shen_Kuo.xml</File>
+	  <File>Peepoles/Admiral_Medieval_Lodbrok.xml</File>
+	  <File>Peepoles/General_Medieval_Bayinnaung.xml</File>
+	  <File>Peepoles/General_Medieval_Sundiata_Keita.xml</File>
+	  <File>Peepoles/Scientist_Medieval_Averroes.xml</File>
+	  <File>Peepoles/Admiral_Renaissance_Niels_Juel.xml</File>
+	  <File>Peepoles/Merchant_Hamilton.xml</File>
+	  <File>Peepoles/General_Medieval_Tokugawa.xml</File>
+	  <File>Peepoles/Admiral_Renaissance_Cook.xml</File>
+	  <File>Peepoles/Scientist_Classic_Cai_Lun.xml</File>
+	  <!-- -->
+	  <File>Peepoles/PLATI_X_General_Ungern.xml</File>
+	  <File>Peepoles/PLATI_X_Merchant_Faberge.xml</File>
+	  <File>Peepoles/PLATI_X_General_Gajah.xml</File>
+	  <File>Peepoles/PLATI_X_Scientist_Pasteur.xml</File>
+	  <File>Peepoles/PLATI_X_Scientist_Faraday.xml</File>
+	  <File>Peepoles/PLATI_X_Scientist_Sakharov.xml</File>
+	  <File>Peepoles/PLATI_X_Scientist_Franklin.xml</File>
+	  <File>Peepoles/General_Medieval_Jan_Zizka.xml</File>
+	  <File>Peepoles/Merchant_Colbert.xml</File>
+	  <!-- EXPANSION 2 -->
+	  <File>PLATI_Buildings.xml</File>
+	  <!-- 2025 -->
+	  <File>Peepoles/PLATI_X_Scientist_Tusi.xml</File>
+	  <File>Peepoles/General_Classical_Sargon.xml</File>
+	  <File>Peepoles/A_Merchant_Venetian.xml</File>
+	  <File>Peepoles/PLATI_Admiral_Henry.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="PLATI_SUMUS_PEOPLE_VISIONARIES" criteria="SUMUS_MAGNUS_VISIONARIES_OF_PEACE_ON">
+		<Properties>
+			<LoadOrder>999</LoadOrder>
+		</Properties>
+		<File>Peepoles/Z_Visionaries_of_peace.xml</File>
+		<File>Peepoles/PLATI_X_Scientist_Leibnitz.xml</File>
+		<File>Peepoles/PLATI_X_Scientist_Leizu.xml</File>
+		<File>Peepoles/PLATI_Merchant_Raillord.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_SUMUS_UNIQUES_PEPLE" criteria="SUMUS_MAGNUS_UNIQUES_ON">
+		<Properties>
+			<LoadOrder>999</LoadOrder>
+		</Properties>
+		<File>Peepoles/A_Improvement_Chateau.xml</File>
+		<File>Peepoles/A_Improvement_Mission.xml</File>
+		<File>Peepoles/A_Improvement_Polder.xml</File>
+		<File>Peepoles/PLATI_General_Rex.xml</File>
+		<File>Peepoles/Admiral_Renaissance_Barbarossa.xml</File>
+		<File>Peepoles/PLATI_General_Lionheart.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_SUMUS_REMOVE_BORENG" criteria="SUMUS_MAGNUS_REMOVE_UNIMPRESSIVES">
+		<Properties>
+			<LoadOrder>999</LoadOrder>
+		</Properties>
+		<File>SumusMagnus_RemoveData.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_AA" criteria="PLATI_MARITIME_MOD_OFF">
+		<Properties>
+			<LoadOrder>242</LoadOrder>
+		</Properties>
+		<File>Peepoles/Engineer_Industrial_Isambard.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_UC" criteria="PLATI_MARITIME_MOD_ON">
+		<Properties>
+			<LoadOrder>243</LoadOrder>
+		</Properties>
+		<File>Peepoles/Engineer_Industrial_Isambard_More_Maritime.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_AJKA" criteria="PLATI_6T_MARITIME_MOD_OFF">
+		<Properties>
+			<LoadOrder>246</LoadOrder>
+		</Properties>
+		<File>Peepoles/Merchant_Jacob_Kettler.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_UJKC" criteria="PLATI_6T_MARITIME_MOD_ON">
+		<Properties>
+			<LoadOrder>246</LoadOrder>
+		</Properties>
+		<File>Peepoles/X_MARITIME_Merchant_Jacob_Kettler.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_JNR_OF" criteria="PLATI_UC_PROD_MOD_OFF">
+		<Properties>
+			<LoadOrder>242</LoadOrder>
+		</Properties>
+		<File>Peepoles/Scientist_Modern_Curie.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_JNR_ON" criteria="PLATI_UC_PROD_MOD_ON">
+		<Properties>
+			<LoadOrder>243</LoadOrder>
+		</Properties>
+		<File>Peepoles/X_URBAN_COMPLEXITY_Rastrelli.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_EXPLORERS_OFF" criteria="PLATI_GREAT_EXPLORERS_MOD_OFF">
+		<Properties>
+			<LoadOrder>243</LoadOrder>
+		</Properties>
+		<File>Peepoles/Merchant_Ibn_Battuta.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_EXPLORERS_ON" criteria="PLATI_GREAT_EXPLORERS_MOD_ON">
+		<Properties>
+			<LoadOrder>243</LoadOrder>
+		</Properties>
+		<File>Peepoles/Admiral_Renaissance_Vitus.xml</File>
+		<File>Peepoles/Admiral_Renaissance_Majid.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_PARAGOFFS" criteria="PLATI_ANCIENT_PARAGONS_MOD_OFF">
+		<Properties>
+			<LoadOrder>242</LoadOrder>
+		</Properties>
+		<File>Peepoles/Scientist_Industrial_Zeppelin.xml</File>
+		<File>Peepoles/Z_Engineer_Apollo.xml</File>
+		<File>Peepoles/Z_Artist_Phidias.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_PARAGONS" criteria="PLATI_ANCIENT_PARAGONS_MOD_ON">
+		<Properties>
+			<LoadOrder>243</LoadOrder>
+		</Properties>
+		<File>Peepoles/Scientist_Industrial_Zeppelin_ANC_PAR.xml</File>
+		<File>Peepoles/Z_Engineer_Apollo_AP.xml</File>
+		<File>Peepoles/Z_Artist_Phidias_AP.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_CITI_STATES_EXPON" criteria="PLATI_CITY_STATES_MOD_ON">
+		<Properties>
+			<LoadOrder>243</LoadOrder>
+		</Properties>
+		<File>Peepoles/A_CITI_STATE_AFANASIY.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_CITI_STATES_EXPOFF" criteria="PLATI_CITY_STATES_MOD_OFF">
+		<Properties>
+			<LoadOrder>243</LoadOrder>
+		</Properties>
+		<File>Peepoles/PLATI_Merchant_Afanasiy.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_PIRATOS_OF" criteria="PLATI_GREAT_PIRATES_MOD_OFF">
+		<Properties>
+			<LoadOrder>246</LoadOrder>
+		</Properties>
+		<File>Peepoles/Admiral_Renaissance_Morgan.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_PIRATOS_ON" criteria="PLATI_GREAT_PIRATES_MOD_ON">
+		<Properties>
+			<LoadOrder>246</LoadOrder>
+		</Properties>
+		<File>Peepoles/Admiral_Renaissance_Morgan_Great_Pirates.xml</File>
+	</UpdateDatabase>
+	<UpdateArt id="SRMGM_ART">
+      <File>PLATI_GREATPEEPEL.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <!-- -->
+	<File>Textures/EGG_22.dds</File>
+	<File>Textures/EGG_38.dds</File>
+	<File>Textures/EGG_50.dds</File>
+	<File>Textures/EGG_64.dds</File>
+	<File>Textures/EGG_256.dds</File>
+	<File>Textures/NUTMEG_22.dds</File>
+	<File>Textures/NUTMEG_38.dds</File>
+	<File>Textures/NUTMEG_50.dds</File>
+	<File>Textures/NUTMEG_64.dds</File>
+	<File>Textures/NUTMEG_256.dds</File>
+	<File>Textures/PEPPER_22.dds</File>
+	<File>Textures/PEPPER_38.dds</File>
+	<File>Textures/PEPPER_50.dds</File>
+	<File>Textures/PEPPER_64.dds</File>
+	<File>Textures/PEPPER_256.dds</File>
+	<!-- -->
+	<File>PLATI_Resources.xml</File>
+	<File>PLATI_Resource_Icons.xml</File>
+	<!-- -->
+	<File>Paintings/PLATI_Works256.dds</File>
+	<File>Paintings/PLATI_Works64.dds</File>
+	<File>Paintings/PLATI_Works45.dds</File>
+	<!-- -->
+    <File>Icons/TESTIKONS.dds</File>
+	<File>Icons/PLATI_MERCHANT_CROESUS.dds</File>
+	<File>Icons/PLATI_ENGINEER_ORBAN.dds</File>
+	<File>Icons/PLATI_GENERAL_REX.dds</File>
+	<File>Icons/PLATI_MERCHANT_AFANASIY.dds</File>
+	<File>Icons/PLATI_GENERAL_LAWRENCE.dds</File>
+	<File>Icons/PLATI_MERCHANT_CECIL.dds</File>
+	<File>Icons/PLATI_ADMIRAL_AGRIPPA.dds</File>
+	<File>Icons/PLATI_MERCHANT_NESTLE.dds</File>
+	<File>Icons/PLATI_MERCHANT_RAILLORD.dds</File>
+	<File>Icons/PLATI_MERCHANT_BANKER.dds</File>
+	<File>Icons/PLATI_ADMIRAL_HENRY.dds</File>
+	<File>Icons/PLATI_GENERAL_LIONHEART.dds</File>
+	<File>Icons/PLATI_SCIENTIST_ARISTOTLE.dds</File>
+	<File>Icons/PLATI_ENGINEER_ALAHMAR.dds</File>
+	<File>Icons/PLATI_SCIENTIST_SAINT_AUGUSTINE.dds</File>
+	<File>Icons/PLATI_WRITER_NIETZSCHE.dds</File>
+	<File>Icons/PLATI_WRITER_DESCARTES.dds</File>
+	<File>Icons/PLATI_MERCHANT_JACOB_KETTLER.dds</File>
+	<File>Icons/PLATI_SCIENTIST_ERASMUS.dds</File>
+	<File>Icons/PLATI_ARTIST_ALI_MASHHADI.dds</File>
+	<File>Icons/PLATI_ARTISTIT_VIKTOR_VASNETSOV.dds</File>
+	<File>Icons/PLATI_ARTIST_PICASSO.dds</File>
+	<File>Icons/PLATI_ENGINEER_ISAMBARD.dds</File>
+	<File>Icons/PLATI_WRITER_HOBBES.dds</File>
+	<File>Icons/PLATI_ENGINEER_KRUPP.dds</File>
+	<File>Icons/PLATI_GENERAL_GARIBALDI.dds</File>
+	<File>Icons/PLATI_GENERAL_BAIBARS.dds</File>
+	<File>Icons/PLATI_GENERAL_SARGON.dds</File>
+	<File>Icons/PLATI_MERCHANT_IBN_BATTUTA.dds</File>
+	<File>Icons/PLATI_MERCHANT_COLBERT.dds</File>
+	<File>Icons/PLATI_ENGINEER_ELIZABETH.dds</File>
+	<File>Icons/PLATI_WRITER_CICERO.dds</File>
+	<File>Icons/PLATI_WRITER_HEIDEGGER.dds</File>
+	<File>Icons/PLATI_WRITER_LOVECRAFT.dds</File>
+	<File>Icons/PLATI_WRITER_ROBERT_HOWARD.dds</File>
+	<File>Icons/PLATI_GENERAL_SFORZA.dds</File>
+	<File>Icons/PLATI_INES_SUAREZ.dds</File>
+	<File>Icons/PLATI_GENERAL_RURIK.dds</File>
+	<File>Icons/PLATI_ENGINEER_VAUBAN.dds</File>
+	<File>Icons/PLATI_ENGINEER_ERIK_DAHLBERG.dds</File>
+	<File>Icons/PLATI_SCIENTIST_CURIE.dds</File>
+	<File>Icons/PLATI_SCIENTIST_ZEPPELIN.dds</File>
+	<File>Icons/PLATI_SCIENTIST_KAI_LUN.dds</File>
+	<File>Icons/PLATI_SCIENTIST_SHEN_KUO.dds</File>
+	<File>Icons/PLATI_ADMIRAL_LODBROK.dds</File>
+	<File>Icons/PLATI_ADMIRAL_BARBAROSA.dds</File>
+	<File>Icons/PLATI_GENERAL_BAYINNAUNG.dds</File>
+	<File>Icons/PLATI_GENERAL_SUNDIATA.dds</File>
+	<File>Icons/PLATI_SCIENTIST_AVERROES.dds</File>
+	<File>Icons/PLATI_ADMIRAL_NIELS_JUEL.dds</File>
+	<File>Icons/PLATI_MERCHANT_HAMILTON.dds</File>
+	<File>Icons/PLATI_GENERAL_TOKUGAWA.dds</File>
+	<File>Icons/PLATI_ADMIRAL_MAJID.dds</File>
+	<File>Icons/PLATI_ADMIRAL_MORGAN.dds</File>
+	<File>Icons/PLATI_ADMIRAL_VITUS_BERING.dds</File>
+	<File>Icons/PLATI_ADMIRAL_COOK.dds</File>
+	<!-- -->
+	<File>Icons/PLATI_X_FABERGE.dds</File>
+	<File>Icons/PLATI_X_UNGERN.dds</File>
+	<File>Icons/PLATI_X_GAJAH.dds</File>
+	<File>Icons/PLATI_X_LEIZU.dds</File>
+	<File>Icons/PLATI_X_TUSI.dds</File>
+	<File>Icons/PLATI_SCIENTIST_LEIBNIZ.dds</File>
+	<File>Icons/PLATI_X_PASTEUR.dds</File>
+	<File>Icons/PLATI_X_FARADAY.dds</File>
+	<File>Icons/PLATI_X_SAKHAROV.dds</File>
+	<File>Icons/PLATI_X_FRANKLIN.dds</File>
+	<File>Icons/PLATI_JAN_ZIZKA.dds</File>
+	<!-- -->
+	<File>PLATI_Localisation.xml</File>
+	<File>PLATI_Abilities.xml</File>
+	<File>PLATI_GreatWorks.xml</File>
+	<File>PLATI_Paintings.xml</File>
+	<!-- -->
+	<File>Peepoles/ClassicalEra_People.xml</File>
+	<File>Peepoles/PLATI_General_Rex.xml</File>
+	<File>Peepoles/PLATI_Merchant_Afanasiy.xml</File>
+	<File>Peepoles/PLATI_General_Lawrence.xml</File>
+	<File>Peepoles/PLATI_Merchant_Cecil.xml</File>
+	<File>Peepoles/PLATI_Engineer_Urban.xml</File>
+	<File>Peepoles/PLATI_Admiral_Agrippa.xml</File>
+	<File>Peepoles/PLATI_Merchant_Nestle.xml</File>
+	<File>Peepoles/PLATI_Merchant_Raillord.xml</File>
+	<File>Peepoles/PLATI_Merchant_Banker.xml</File>
+	<File>Peepoles/PLATI_Admiral_Henry.xml</File>
+	<File>Peepoles/PLATI_General_Lionheart.xml</File>
+	<File>Peepoles/Engineer_Medieval_Al_Ahrami.xml</File>
+	<File>Peepoles/Scientist_Medieval_Saint_Augustine.xml</File>
+	<File>Peepoles/Writer_Nietzsche.xml</File>
+	<File>Peepoles/Writer_Hobbes.xml</File>
+	<File>Peepoles/Merchant_Jacob_Kettler.xml</File>
+	<File>Peepoles/Scientist_Renaissance_Erasmus.xml</File>
+	<File>Peepoles/Painters_All.xml</File>
+	<File>Peepoles/Engineer_Industrial_Isambard.xml</File>
+	<File>Peepoles/Engineer_Industrial_Isambard_More_Maritime.xml</File>
+	<File>Peepoles/Engineer_Industrial_Krupp.xml</File>
+	<File>Peepoles/General_Industrial_Garibaldi.xml</File>
+	<File>Peepoles/General_Medieval_Baibars.xml</File>
+	<File>Peepoles/General_Classical_Sargon.xml</File>
+	<File>Peepoles/Merchant_Ibn_Battuta.xml</File>
+	<File>Peepoles/Merchant_Colbert.xml</File>
+	<File>Peepoles/Engineer_Renaissance_Elizabeth_Wilbraham.xml</File>
+	<File>Peepoles/Writer_NEW.xml</File>
+	<File>Peepoles/General_Renaissance_Sforza.xml</File>
+	<File>Peepoles/General_Renaissance_Suarez.xml</File>
+	<File>Peepoles/General_Medieval_Rurik.xml</File>
+	<File>Peepoles/Engineer_Renaissance_Erik_Dahlberg.xml</File>
+	<File>Peepoles/Scientist_Modern_Curie.xml</File>
+	<File>Peepoles/Scientist_Industrial_Zeppelin.xml</File>
+	<File>Peepoles/Scientist_Industrial_Zeppelin_ANC_PAR.xml</File>
+	<File>Peepoles/Scientist_Classic_Cai_Lun.xml</File>
+	<File>Peepoles/Scientist_Medieval_Shen_Kuo.xml</File>
+	<File>Peepoles/Admiral_Medieval_Lodbrok.xml</File>
+	<File>Peepoles/Admiral_Renaissance_Barbarossa.xml</File>
+	<File>Peepoles/General_Medieval_Bayinnaung.xml</File>
+	<File>Peepoles/General_Medieval_Sundiata_Keita.xml</File>
+	<File>Peepoles/Scientist_Medieval_Averroes.xml</File>
+	<File>Peepoles/Admiral_Renaissance_Niels_Juel.xml</File>
+	<File>Peepoles/Merchant_Hamilton.xml</File>
+	<File>Peepoles/General_Medieval_Tokugawa.xml</File>
+	<File>Peepoles/Admiral_Renaissance_Majid.xml</File>
+	<File>Peepoles/Admiral_Renaissance_Morgan.xml</File>
+	<File>Peepoles/Admiral_Renaissance_Vitus.xml</File>
+	<File>Peepoles/Admiral_Renaissance_Cook.xml</File>
+	<!-- -->
+	<File>Peepoles/PLATI_X_General_Ungern.xml</File>
+	<File>Peepoles/PLATI_X_Merchant_Faberge.xml</File>
+	<File>Peepoles/PLATI_X_General_Gajah.xml</File>
+	<File>Peepoles/PLATI_X_Scientist_Leizu.xml</File>
+	<File>Peepoles/PLATI_X_Scientist_Tusi.xml</File>
+	<File>Peepoles/PLATI_X_Scientist_Leibnitz.xml</File>
+	<File>Peepoles/PLATI_X_Scientist_Pasteur.xml</File>
+	<File>Peepoles/PLATI_X_Scientist_Faraday.xml</File>
+	<File>Peepoles/PLATI_X_Scientist_Sakharov.xml</File>
+	<File>Peepoles/PLATI_X_Scientist_Franklin.xml</File>
+	<File>Peepoles/General_Medieval_Jan_Zizka.xml</File>
+    <!-- Core -->
+	<File>ArtDefs/PLATI_GREATPEOPLE_MODEL.artdef</File>
+	<File>PLATI_GREATPEEPEL.dep</File>
+    <File>PLATI_GREATPEOPLE_Icons.xml</File>
+	<File>XLPs/Icons.xlp</File>
+	<File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+	<File>XLPs/UITextures.xlp</File>
+	<!-- MOD SUPPORT -->
+	<File>Peepoles/X_MARITIME_Merchant_Jacob_Kettler.xml</File>
+	<File>Peepoles/X_URBAN_COMPLEXITY_Rastrelli.xml</File>
+	<!-- Expansion 2 -->
+	<File>Peepoles/Z_Engineer_Apollo.xml</File>
+	<File>Peepoles/Z_Engineer_Apollo_AP.xml</File>
+	<File>Peepoles/Z_Artist_Phidias.xml</File>
+	<File>Peepoles/Z_Artist_Phidias_AP.xml</File>
+	<File>Icons/PLATI_Z_APOLODORUS.dds</File>
+	<File>SumusMagnus_Config.xml</File>
+	<File>SumusMagnus_Config_Text.xml</File>
+	<File>PLATI_Buildings_Icons.xml</File>
+	<File>PLATI_Buildings.xml</File>
+	<File>Textures/PLATI_PAPER_MAKER_256.dds</File>
+	<File>Textures/PLATI_PAPER_MAKER_128.dds</File>
+	<File>Textures/PLATI_PAPER_MAKER_80.dds</File>
+	<File>Textures/PLATI_PAPER_MAKER_50.dds</File>
+	<File>Textures/PLATI_PAPER_MAKER_38.dds</File>
+	<File>Textures/PLATI_PAPER_MAKER_32.dds</File>
+	<File>Textures/PLATI_PAPER_MAKER_22.dds</File>
+	<File>Textures/PLATI_TEMPLAR_VAULT_256.dds</File>
+	<File>Textures/PLATI_TEMPLAR_VAULT_128.dds</File>
+	<File>Textures/PLATI_TEMPLAR_VAULT_80.dds</File>
+	<File>Textures/PLATI_TEMPLAR_VAULT_50.dds</File>
+	<File>Textures/PLATI_TEMPLAR_VAULT_38.dds</File>
+	<File>Textures/PLATI_TEMPLAR_VAULT_32.dds</File>
+	<File>Textures/PLATI_TEMPLAR_VAULT_22.dds</File>
+	<File>Textures/PRALINE_22.dds</File>
+	<File>Textures/PRALINE_38.dds</File>
+	<File>Textures/PRALINE_50.dds</File>
+	<File>Textures/PRALINE_64.dds</File>
+	<File>Textures/PRALINE_256.dds</File>
+	<File>Textures/PLATI_CHOCOLOATERIE_256.dds</File>
+	<File>Textures/PLATI_CHOCOLOATERIE_128.dds</File>
+	<File>Textures/PLATI_CHOCOLOATERIE_80.dds</File>
+	<File>Textures/PLATI_CHOCOLOATERIE_50.dds</File>
+	<File>Textures/PLATI_CHOCOLOATERIE_38.dds</File>
+	<File>Textures/PLATI_CHOCOLOATERIE_32.dds</File>
+	<File>Textures/PLATI_CHOCOLOATERIE_22.dds</File>
+	<!-- Visionaries -->
+	<File>Peepoles/Z_Visionaries_of_peace.xml</File>
+	<!-- Uniques -->
+	<File>Peepoles/A_Improvement_Chateau.xml</File>
+	<File>Peepoles/A_Improvement_Mission.xml</File>
+	<File>Peepoles/A_Improvement_Polder.xml</File>
+	<File>Icons/PLATI_A_IMPROV_DUTCH.dds</File>
+	<File>Icons/PLATI_A_IMPROV_FRENCH.dds</File>
+	<File>Icons/PLATI_A_IMPROV_SPANISH.dds</File>
+	<!-- 2025 -->
+	<File>Peepoles/A_CITI_STATE_AFANASIY.xml</File>
+	<File>Peepoles/A_Merchant_Venetian.xml</File>
+	<File>Icons/PLATI_A_VENETIAN.dds</File>
+	<File>SumusMagnus_RemoveData.xml</File>
+	<File>Icons/PLATI_A_ADMIRAL_ARAGON.dds</File>
+	<File>Peepoles/Admiral_Renaissance_Morgan_Great_Pirates.xml</File>
+  </Files>
+</Mod>

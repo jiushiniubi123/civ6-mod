@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Medieval Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_AL_AHMAR" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_AL_AHMAR" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_AL_AHMAR_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_AL_AHMAR_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_AL_AHMAR" ModifierId="GREATPERSON_ALAHMAR_BONUS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_AL_AHMAR" ModifierId="GREATPERSON_ALAHMAR_FAITH_ART" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_ALAHMAR_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ALAHMAR_FAITH_ART</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_ALAHMAR_BONUS</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_ART</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ALAHMAR_BONUS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PALACE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ALAHMAR_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ALAHMAR_FAITH_ART</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_RELIGIOUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ALAHMAR_FAITH_ART</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PALACE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ALAHMAR_FAITH_ART</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ALAHMAR_FAITH_ART</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>4</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_ALAHMAR_BONUS" Context="Summary" Text="LOC_GREATPERSON_PLATI_AL_AHMAR_ACTIVE"/>
+	</ModifierStrings>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLATI_AL_AHMAR_ACTIVE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLATI_AL_AHMAR_ACTIVE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PALACE_PLATI_AL_AHMAR</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PALACE_PLATI_AL_AHMAR</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PALACE</Value>
+		</Row>
+	</RequirementArguments>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PALACE_PLATI_AL_AHMAR</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+			<Inverse>false</Inverse>
+		</Row>
+	</Requirements>
+</GameData>

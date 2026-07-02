@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Requirements_Expansion2 -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/18/2023 12:19:40 PM -->
+<GameData>
+	<Requirements>
+		<!--GREAT_BATH-->
+		<Row RequirementId="PLAYER_HAS_GREAT_BATH_EWHO" RequirementType="REQUIREMENT_PLAYER_HAS_BUILDING"/>
+		<!--Inca-->
+		<Row RequirementId="PLAYER_IS_INCA_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+		<!--Mali-->
+		<Row RequirementId="PLAYER_IS_MALI_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+		<!--Ottoman-->
+		<Row RequirementId="PLAYER_IS_OTTOMAN_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+
+		<Row RequirementId="REQUIRES_PLOT_ADJACENT_TO_OWNER_EWHO" RequirementType="REQUIREMENT_PLOT_ADJACENT_TO_OWNER"/>
+		
+		<!--PANAMA_CANAL-->
+		<Row RequirementId="PLAYER_HAS_PANAMA_CANAL_EWHO" RequirementType="REQUIREMENT_PLAYER_HAS_BUILDING"/>
+		<!--Hungary-->
+		<Row RequirementId="PLAYER_IS_HUNGARY_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+		
+
+		<!--<Row RequirementId="REQUIRES_UNIT_WITHIN_12_TILES_FROM_CANAL_OR_PANAMA_CANAL_IS_MET_EWHO" RequirementType="REQUIREMENT_REQUIREMENTSET_IS_MET"/>-->
+
+		<Row RequirementId="REQUIRES_UNIT_WITHIN_12_TILES_FROM_CANAL_EWHO"			RequirementType="REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES"/>
+		<Row RequirementId="REQUIRES_UNIT_WITHIN_12_TILES_FROM_PANAMA_CANAL_EWHO"	RequirementType="REQUIREMENT_PLOT_ADJACENT_BUILDING_TYPE_MATCHES"/>
+
+		<Row RequirementId="REQUIRES_DISTRICT_IS_CANAL_EWHO"			RequirementType="REQUIREMENT_DISTRICT_TYPE_MATCHES"/>
+		<Row RequirementId="REQUIRES_DISTRICT_IS_WHTHIN_1_TILES_EWHO"	RequirementType="REQUIREMENT_PLOT_ADJACENT_TO_OWNER"/>
+
+	</Requirements>
+
+	<RequirementArguments>
+		<!--GREAT_BATH-->
+		<Row>
+			<RequirementId>PLAYER_HAS_GREAT_BATH_EWHO</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GREAT_BATH</Value>
+		</Row>
+		<!--Inca-->
+		<Row RequirementId="PLAYER_IS_INCA_EWHO" Name="CivilizationType" Value="CIVILIZATION_INCA"/>
+		<!--Mali-->
+		<Row RequirementId="PLAYER_IS_MALI_EWHO" Name="CivilizationType" Value="CIVILIZATION_MALI"/>
+		<!--Ottoman-->
+		<Row RequirementId="PLAYER_IS_OTTOMAN_EWHO" Name="CivilizationType" Value="CIVILIZATION_OTTOMAN"/>
+		<!--PANAMA_CANAL-->
+		<Row>
+			<RequirementId>PLAYER_HAS_PANAMA_CANAL_EWHO</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PANAMA_CANAL</Value>
+		</Row>
+		<!--PANAMA_CANAL-->
+		<!--<Row RequirementId="REQUIRES_UNIT_WITHIN_12_TILES_FROM_CANAL_OR_PANAMA_CANAL_IS_MET_EWHO" Name="RequirementSetId" Value="REQSET_UNIT_WITHIN_12_TILES_FROM_CANAL_OR_PANAMA_CANAL_IS_MET_EWHO"/>-->
+
+		<!--Hungary-->
+		<Row RequirementId="PLAYER_IS_HUNGARY_EWHO" Name="CivilizationType" Value="CIVILIZATION_HUNGARY"/>
+
+		<Row>
+			<RequirementId>REQUIRES_UNIT_WITHIN_12_TILES_FROM_CANAL_EWHO</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CANAL</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_WITHIN_12_TILES_FROM_CANAL_EWHO</RequirementId>
+			<Name>MinRange</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_WITHIN_12_TILES_FROM_CANAL_EWHO</RequirementId>
+			<Name>MaxRange</Name>
+			<Value>12</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_WITHIN_12_TILES_FROM_PANAMA_CANAL_EWHO</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PANAMA_CANAL</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_WITHIN_12_TILES_FROM_PANAMA_CANAL_EWHO</RequirementId>
+			<Name>MinRange</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_WITHIN_12_TILES_FROM_PANAMA_CANAL_EWHO</RequirementId>
+			<Name>MaxRange</Name>
+			<Value>12</Value>
+		</Row>
+
+		<Row RequirementId="REQUIRES_DISTRICT_IS_CANAL_EWHO" Name="DistrictType" Value="DISTRICT_CANAL"/>
+		<Row>
+			<RequirementId>REQUIRES_DISTRICT_IS_WHTHIN_1_TILES_EWHO</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_DISTRICT_IS_WHTHIN_1_TILES_EWHO</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>1</Value>
+		</Row>
+		
+	</RequirementArguments>
+</GameData>

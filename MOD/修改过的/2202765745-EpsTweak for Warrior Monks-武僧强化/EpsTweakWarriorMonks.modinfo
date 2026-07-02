@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a4ad219c-ec34-46a6-bad8-7d00b7e63df7" version="1">
+  <Properties>
+    <Name>EpsTweak for Warrior Monks</Name>
+    <Description>[COLOR_FLOAT_GOLD]Warrior Monks[ENDCOLOR] are more expensive, but gain extra combat strength as you unlock certain Civics.[NEWLINE][NEWLINE]</Description>
+    <Created>1619114736</Created>
+    <Teaser>Improves Warrior Monks.</Teaser>
+    <Authors>Eps</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateText id="Text">
+      <File>Core/GameText.xml</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="InGameDatabase">
+      <File>Core/GameDefines.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="InGameText">
+      <File>Core/GameText.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Core/GameDefines.xml</File>
+    <File>Core/GameText.xml</File>
+  </Files>
+</Mod>

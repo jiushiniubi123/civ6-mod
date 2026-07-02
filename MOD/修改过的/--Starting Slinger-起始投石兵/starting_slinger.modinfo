@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a91fc6d5-73b0-41a0-922d-ea3b62f624bb" version="1.0">
+  <Properties>
+    <Name>Starting Slinger</Name>
+    <Description><![CDATA[Provide every major Civ an additional Slinger at the start of the game (Ancient Era only). Can work independently but this mod is designed for my other mod Military from Population so you can have a defend unit against barbarians.]]></Description>
+    <Authors>Luke Vo</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+    <Teaser>Every Major Civ starts with an additional Slinger unit.</Teaser>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="StartingSlinger_Gameplay">
+      <Properties>
+        <LoadOrder>125</LoadOrder>
+      </Properties>
+      <File>starting_slinger.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>starting_slinger.sql</File>
+  </Files>
+</Mod>

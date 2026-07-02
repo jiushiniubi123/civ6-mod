@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Medieval Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_RURIK" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_RURIK" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_RURIK_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="1" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionRequiresOwnedTile="false" ActionRequiresNoMilitaryUnit="true" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualBirthModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_RURIK" ModifierId="PLATI_RURIK_UNIQUE_PASSIVE"/>
+	</GreatPersonIndividualBirthModifiers>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_RURIK" ModifierId="GREATPERSON_PLATI_RURIK_SETTLER" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_RURIK" ModifierId="GREATPERSON_PLATI_RURIK_HUSCARL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_RURIK_HUSCARL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_RURIK_SETTLER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_RURIK_UNIQUE_PASSIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_MEDIEVAL_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_RURIK_HUSCARL</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_NORWEGIAN_BERSERKER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_RURIK_HUSCARL</ModifierId>
+			<Name>Experience</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_RURIK_HUSCARL</ModifierId>
+			<Name>UniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_RURIK_SETTLER</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SETTLER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_RURIK_SETTLER</ModifierId>
+			<Name>Experience</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_RURIK_SETTLER</ModifierId>
+			<Name>UniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_RURIK_UNIQUE_PASSIVE</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_RURIK_GAVE_YOU_GOOD_ADVICE</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_PLATI_RURIK_HUSCARL" Context="Summary" Text="LOC_GREATPERSON_PLATI_RURIK_ACTIVE"/>
+		<Row ModifierId="PLATI_RURIK_UNIQUE_PASSIVE" Context="Summary" 		Text="LOC_GREATPERSON_PLATI_RURIK_PASSIVE"/>
+	</ModifierStrings>
+</GameData>

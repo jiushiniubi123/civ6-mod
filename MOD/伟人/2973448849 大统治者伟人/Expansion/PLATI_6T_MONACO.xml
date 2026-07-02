@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Classical Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_MONACO" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_MONACO" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_MONACO_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" EraType="ERA_INFORMATION" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_GOVERNMENT" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_MONACO_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_MONACO" ModifierId="GREATPERSON_BONUS_MONACO_TOURISM_PER_LUXURIES" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_MONACO" ModifierId="GREATPERSON_BONUS_MONACO_TOURISM_FROM_WATERFRONT_TIER_I" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_MONACO" ModifierId="GREATPERSON_BONUS_MONACO_TOURISM_FROM_WATERFRONT_TIER_II" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_MONACO" ModifierId="GREATPERSON_BONUS_MONACO_TOURISM_FROM_WATERENTERTAIN_TIER_I" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_MONACO" ModifierId="GREATPERSON_BONUS_MONACO_TOURISM_FROM_WATERENTERTAIN_TIER_II" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_MONACO" ModifierId="GREATPERSON_BONUS_MONACO_TOURISM_FROM_WATERENTERTAIN_TIER_III" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_MONACO_TOURISM_PER_LUXURIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_TOURISM_PER_EXCESS_LUXURIES</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_MONACO_TOURISM_FROM_WATERFRONT_TIER_I</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TOURISM</ModifierType>
+			<SubjectRequirementSetId>REQ_PLATI_MONACO_WATERFRONT_TIER_I</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_MONACO_TOURISM_FROM_WATERFRONT_TIER_II</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TOURISM</ModifierType>
+			<SubjectRequirementSetId>REQ_PLATI_MONACO_WATERFRONT_TIER_II</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_MONACO_TOURISM_FROM_WATERENTERTAIN_TIER_I</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TOURISM</ModifierType>
+			<SubjectRequirementSetId>REQ_PLATI_MONACO_WATERENTERTAIN_TIER_I</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_MONACO_TOURISM_FROM_WATERENTERTAIN_TIER_II</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TOURISM</ModifierType>
+			<SubjectRequirementSetId>REQ_PLATI_MONACO_WATERENTERTAIN_TIER_II</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_MONACO_TOURISM_FROM_WATERENTERTAIN_TIER_III</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TOURISM</ModifierType>
+			<SubjectRequirementSetId>REQ_PLATI_MONACO_WATERENTERTAIN_TIER_III</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_MONACO_TOURISM_PER_LUXURIES</ModifierId>
+			<Name>Amount</Name>
+			<Value>200</Value>
+		</Row>
+		<Row><ModifierId>GREATPERSON_BONUS_MONACO_TOURISM_FROM_WATERFRONT_TIER_I</ModifierId><Name>ImprovementType</Name><Value>IMPROVEMENT_BEACH_RESORT</Value></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_MONACO_TOURISM_FROM_WATERFRONT_TIER_I</ModifierId><Name>ScalingFactor</Name><Value>160</Value></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_MONACO_TOURISM_FROM_WATERFRONT_TIER_II</ModifierId><Name>ImprovementType</Name><Value>IMPROVEMENT_BEACH_RESORT</Value></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_MONACO_TOURISM_FROM_WATERFRONT_TIER_II</ModifierId><Name>ScalingFactor</Name><Value>160</Value></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_MONACO_TOURISM_FROM_WATERENTERTAIN_TIER_I</ModifierId><Name>ImprovementType</Name><Value>IMPROVEMENT_BEACH_RESORT</Value></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_MONACO_TOURISM_FROM_WATERENTERTAIN_TIER_I</ModifierId><Name>ScalingFactor</Name><Value>160</Value></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_MONACO_TOURISM_FROM_WATERENTERTAIN_TIER_II</ModifierId><Name>ImprovementType</Name><Value>IMPROVEMENT_BEACH_RESORT</Value></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_MONACO_TOURISM_FROM_WATERENTERTAIN_TIER_II</ModifierId><Name>ScalingFactor</Name><Value>160</Value></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_MONACO_TOURISM_FROM_WATERENTERTAIN_TIER_III</ModifierId><Name>ImprovementType</Name><Value>IMPROVEMENT_BEACH_RESORT</Value></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_MONACO_TOURISM_FROM_WATERENTERTAIN_TIER_III</ModifierId><Name>ScalingFactor</Name><Value>160</Value></Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_BONUS_MONACO_TOURISM_PER_LUXURIES" Context="Summary" Text="LOC_GREATPERSON_PLATI_MONACO_ACTIVE"/>
+	</ModifierStrings>
+	<RequirementSets>
+		<Row><RequirementSetId>REQ_PLATI_MONACO_WATERFRONT_TIER_I</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>REQ_PLATI_MONACO_WATERFRONT_TIER_II</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>REQ_PLATI_MONACO_WATERENTERTAIN_TIER_I</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType></Row>
+		<Row><RequirementSetId>REQ_PLATI_MONACO_WATERENTERTAIN_TIER_II</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType></Row>
+		<Row><RequirementSetId>REQ_PLATI_MONACO_WATERENTERTAIN_TIER_III</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType></Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>REQ_PLATI_MONACO_WATERFRONT_TIER_I</RequirementSetId><RequirementId>REQUIRES_PLATI_MONACO_BUILDING_BREAKWATER</RequirementId></Row>
+		<Row><RequirementSetId>REQ_PLATI_MONACO_WATERFRONT_TIER_II</RequirementSetId><RequirementId>REQUIRES_PLATI_MONACO_BUILDING_BOARDWALK</RequirementId></Row>
+		<Row><RequirementSetId>REQ_PLATI_MONACO_WATERENTERTAIN_TIER_I</RequirementSetId><RequirementId>REQUIRES_PLATI_MONACO_BUILDING_MARINA</RequirementId></Row>
+		<Row><RequirementSetId>REQ_PLATI_MONACO_WATERENTERTAIN_TIER_I</RequirementSetId><RequirementId>REQUIRES_PLATI_MONACO_BUILDING_FERRIS_WHEEL</RequirementId></Row>
+		<Row><RequirementSetId>REQ_PLATI_MONACO_WATERENTERTAIN_TIER_II</RequirementSetId><RequirementId>REQUIRES_PLATI_MONACO_BUILDING_CASINO</RequirementId></Row>
+		<Row><RequirementSetId>REQ_PLATI_MONACO_WATERENTERTAIN_TIER_II</RequirementSetId><RequirementId>REQUIRES_PLATI_MONACO_BUILDING_AQUARIUM</RequirementId></Row>
+		<Row><RequirementSetId>REQ_PLATI_MONACO_WATERENTERTAIN_TIER_III</RequirementSetId><RequirementId>REQUIRES_PLATI_MONACO_BUILDING_CRUISE_TERMINAL</RequirementId></Row>
+		<Row><RequirementSetId>REQ_PLATI_MONACO_WATERENTERTAIN_TIER_III</RequirementSetId><RequirementId>REQUIRES_PLATI_MONACO_BUILDING_AQUATICS_CENTER</RequirementId></Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row><RequirementId>REQUIRES_PLATI_MONACO_BUILDING_BREAKWATER</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>REQUIRES_PLATI_MONACO_BUILDING_BOARDWALK</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>REQUIRES_PLATI_MONACO_BUILDING_MARINA</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>REQUIRES_PLATI_MONACO_BUILDING_FERRIS_WHEEL</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>REQUIRES_PLATI_MONACO_BUILDING_CASINO</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>REQUIRES_PLATI_MONACO_BUILDING_AQUARIUM</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>REQUIRES_PLATI_MONACO_BUILDING_CRUISE_TERMINAL</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>REQUIRES_PLATI_MONACO_BUILDING_AQUATICS_CENTER</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row><RequirementId>REQUIRES_PLATI_MONACO_BUILDING_BREAKWATER</RequirementId><Name>BuildingType</Name>
+		<Value>BUILDING_WTR_BREAKWATER</Value></Row>
+		<Row><RequirementId>REQUIRES_PLATI_MONACO_BUILDING_BOARDWALK</RequirementId><Name>BuildingType</Name>
+		<Value>BUILDING_WTR_BOARDWALK</Value></Row>
+		<Row><RequirementId>REQUIRES_PLATI_MONACO_BUILDING_MARINA</RequirementId><Name>BuildingType</Name>
+		<Value>BUILDING_JNR_MARINA</Value></Row>
+		<Row><RequirementId>REQUIRES_PLATI_MONACO_BUILDING_FERRIS_WHEEL</RequirementId><Name>BuildingType</Name>
+		<Value>BUILDING_FERRIS_WHEEL</Value></Row>
+		<Row><RequirementId>REQUIRES_PLATI_MONACO_BUILDING_CASINO</RequirementId><Name>BuildingType</Name>
+		<Value>BUILDING_JNR_CASINO</Value></Row>
+		<Row><RequirementId>REQUIRES_PLATI_MONACO_BUILDING_AQUARIUM</RequirementId><Name>BuildingType</Name>
+		<Value>BUILDING_AQUARIUM</Value></Row>
+		<Row><RequirementId>REQUIRES_PLATI_MONACO_BUILDING_CRUISE_TERMINAL</RequirementId><Name>BuildingType</Name>
+		<Value>BUILDING_JNR_CRUISE_TERMINAL</Value></Row>
+		<Row><RequirementId>REQUIRES_PLATI_MONACO_BUILDING_AQUATICS_CENTER</RequirementId><Name>BuildingType</Name>
+		<Value>BUILDING_AQUATICS_CENTER</Value></Row>
+	</RequirementArguments>
+</GameData>

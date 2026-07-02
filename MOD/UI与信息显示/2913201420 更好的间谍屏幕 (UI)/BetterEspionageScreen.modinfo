@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="07D5DFAB-44CE-8F63-8344-93E427E9376E" version="1">
+  <Properties>
+    <Name>Better Espionage Screen (UI)</Name>
+    <Teaser>Improves the espionage screen. Adds filters, side screens, etc.</Teaser>
+    <Description>Improves the espionage screen. Adds filters, side screens, etc.[NEWLINE]Version 2.1 enhanced by Infixo.</Description>
+    <Authors>astog, Infixo</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <!-- LoadOrder: CQUI uses up to 200, original BES doesn't use load order -->
+    <ImportFiles id="BES_ImportFiles">
+      <Properties><LoadOrder>300</LoadOrder></Properties>
+      <Items>
+        <File>UI/espionagechooser.lua</File>
+        <File>UI/espionagechooser.xml</File>
+        <File>UI/espionageoverview.lua</File>
+        <File>UI/espionageoverview.xml</File>
+      </Items>
+    </ImportFiles>
+    <LocalizedText id="BES_Text">
+      <Properties><LoadOrder>300</LoadOrder></Properties>
+      <Items>
+		<File>Text/bes_text.xml</File>
+		<File>Text/bes_text_de.xml</File>
+		<File>Text/bes_text_es.xml</File>
+		<File>Text/bes_text_fr.xml</File>
+		<File>Text/bes_text_it.xml</File>
+		<File>Text/bes_text_ja.xml</File>
+		<File>Text/bes_text_pl.xml</File>
+		<File>Text/bes_text_pt.xml</File>
+		<File>Text/bes_text_ru.xml</File>
+		<File>Text/bes_text_ko.xml</File>
+		<File>Text/bes_text_zh_cn.xml</File>
+		<File>Text/bes_text_zh_hk.xml</File>
+      </Items>
+    </LocalizedText>
+	<!-- new font icons -->
+	<ImportFiles id="BES_Imports">
+	  <File>Icons/bes_promo_barbs.dds</File>
+	  <File>Icons/bes_promo_counter.dds</File>
+	  <File>Icons/bes_promo_dam.dds</File>
+	  <File>Icons/bes_promo_disguise.dds</File>
+	  <File>Icons/bes_promo_driver.dds</File>
+	  <File>Icons/bes_promo_gold.dds</File>
+	  <File>Icons/bes_promo_governor.dds</File>
+	  <File>Icons/bes_promo_heist.dds</File>
+	  <File>Icons/bes_promo_industry.dds</File>
+	  <File>Icons/bes_promo_loyalty.dds</File>
+	  <File>Icons/bes_promo_rocket.dds</File>
+	  <File>Icons/bes_promo_scandal.dds</File>
+	  <File>Icons/bes_promo_spy_down.dds</File>
+	  <File>Icons/bes_promo_spy_up.dds</File>
+	  <File>Icons/bes_promo_surveillence.dds</File>
+	  <File>Icons/bes_promo_tech.dds</File>
+	</ImportFiles>
+	<UpdateIcons id="BES_Icons">
+	  <Properties><LoadOrder>300</LoadOrder></Properties>
+	  <File>Icons/FontIconsBES.xml</File>
+	</UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>UI/espionagechooser.lua</File>
+    <File>UI/espionagechooser.xml</File>
+    <File>UI/espionageoverview.lua</File>
+    <File>UI/espionageoverview.xml</File>
+	<!-- new font icons -->
+	<File>Icons/FontIconsBES.xml</File>
+	<File>Icons/bes_promo_barbs.dds</File>
+	<File>Icons/bes_promo_counter.dds</File>
+	<File>Icons/bes_promo_dam.dds</File>
+	<File>Icons/bes_promo_disguise.dds</File>
+	<File>Icons/bes_promo_driver.dds</File>
+	<File>Icons/bes_promo_gold.dds</File>
+	<File>Icons/bes_promo_governor.dds</File>
+	<File>Icons/bes_promo_heist.dds</File>
+	<File>Icons/bes_promo_industry.dds</File>
+	<File>Icons/bes_promo_loyalty.dds</File>
+	<File>Icons/bes_promo_rocket.dds</File>
+	<File>Icons/bes_promo_scandal.dds</File>
+	<File>Icons/bes_promo_spy_down.dds</File>
+	<File>Icons/bes_promo_spy_up.dds</File>
+	<File>Icons/bes_promo_surveillence.dds</File>
+	<File>Icons/bes_promo_tech.dds</File>
+	<!-- text -->
+    <File>Text/bes_text.xml</File>
+    <File>Text/bes_text_de.xml</File>
+    <File>Text/bes_text_es.xml</File>
+    <File>Text/bes_text_fr.xml</File>
+    <File>Text/bes_text_it.xml</File>
+    <File>Text/bes_text_ja.xml</File>
+    <File>Text/bes_text_pl.xml</File>
+    <File>Text/bes_text_pt.xml</File>
+    <File>Text/bes_text_ru.xml</File>
+    <File>Text/bes_text_ko.xml</File>
+    <File>Text/bes_text_zh_cn.xml</File>
+    <File>Text/bes_text_zh_hk.xml</File>
+  </Files>
+</Mod>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="POLICY_DIPLO_SOVER_POINTS" 		Kind="KIND_POLICY" />
+		<Row Type="POLICY_PLUTOCRACY_SOV_CARD" 		Kind="KIND_POLICY" />
+		<Row Type="POLICY_THEOCRACY_SOV_CARD" 		Kind="KIND_POLICY" />
+	</Types>
+	<Policies>
+		<Row PolicyType="POLICY_DIPLO_SOVER_POINTS" Name="LOC_POLICY_DIPLO_SOVER_POINTS_NAME" 		Description="LOC_POLICY_DIPLO_SOVER_POINTS_DESCRIPTION" 		PrereqCivic="CIVIC_DIVINE_RIGHT" 		GovernmentSlotType="SLOT_WILDCARD" />
+		<Row PolicyType="POLICY_PLUTOCRACY_SOV_CARD" Name="LOC_POLICY_PLUTOCRACY_SOV_CARD_NAME" 	Description="LOC_POLICY_PLUTOCRACY_SOV_CARD_DESCRIPTION" 		PrereqCivic="CIVIC_EXPLORATION" 		GovernmentSlotType="SLOT_WILDCARD" />
+		<Row PolicyType="POLICY_THEOCRACY_SOV_CARD" Name="LOC_POLICY_THEOCRACY_SOV_CARD_NAME" 		Description="LOC_POLICY_THEOCRACY_SOV_CARD_DESCRIPTION" 		PrereqCivic="CIVIC_REFORMED_CHURCH" 		GovernmentSlotType="SLOT_WILDCARD" />
+	</Policies>
+	<Policy_GovernmentExclusives_XP2>
+		<Row PolicyType="POLICY_DIPLO_SOVER_POINTS" 	GovernmentType="GOVERNMENT_MONARCHY"/>
+		<Row PolicyType="POLICY_PLUTOCRACY_SOV_CARD" 	GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC"/>
+		<Row PolicyType="POLICY_THEOCRACY_SOV_CARD" 	GovernmentType="GOVERNMENT_THEOCRACY"/>
+	</Policy_GovernmentExclusives_XP2>
+	<PolicyModifiers>
+		<Row PolicyType="POLICY_DIPLO_SOVER_POINTS" ModifierId="POLICY_DIPLO_SOVER_POINTS_B_MODIFIER"/>
+		<Row PolicyType="POLICY_DIPLO_SOVER_POINTS" ModifierId="POLICY_DIPLO_SOVER_POINTS_A_MODIFIER"/>
+		<!-- -->
+		<Row PolicyType="POLICY_PLUTOCRACY_SOV_CARD" ModifierId="PLUTOCRACY_BONUS_ONE"/>
+		<Row PolicyType="POLICY_PLUTOCRACY_SOV_CARD" ModifierId="PLUTOCRACY_BONUS_TWO"/>
+		<Row PolicyType="POLICY_PLUTOCRACY_SOV_CARD" ModifierId="PLUTOCRACY_BONUS_THR"/>
+		<Row PolicyType="POLICY_PLUTOCRACY_SOV_CARD" ModifierId="PLUTOCRACY_BONUS_FHR"/>
+		<Row PolicyType="POLICY_PLUTOCRACY_SOV_CARD" ModifierId="PLUTOCRACY_BONUS_FIV"/>
+		<Row PolicyType="POLICY_PLUTOCRACY_SOV_CARD" ModifierId="PLUTOCRACY_BONUS_SIX"/>
+		<!-- -->
+		<Row PolicyType="POLICY_THEOCRACY_SOV_CARD" 		ModifierId="POLICY_RENDER_UNTO_CAESAR"/>
+	</PolicyModifiers>
+	<Modifiers>
+		<Row ModifierId="POLICY_DIPLO_SOVER_POINTS_B_MODIFIER" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT" SubjectRequirementSetId="BUILDING_IS_CONSULATE" />
+		<Row ModifierId="POLICY_DIPLO_SOVER_POINTS_A_MODIFIER" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT" SubjectRequirementSetId="BUILDING_IS_CHANCERY" />
+		<!-- -->
+		<Row ModifierId="PLUTOCRACY_BONUS_ONE" 			ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS" SubjectRequirementSetId="CULTURAL_SUZERAIN_1_REQUIREMENTS"	/>
+		<Row ModifierId="PLUTOCRACY_BONUS_TWO" 			ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS" SubjectRequirementSetId="INDUSTRIAL_SUZERAIN_1_REQUIREMENTS"	/>
+		<Row ModifierId="PLUTOCRACY_BONUS_THR" 			ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS" SubjectRequirementSetId="MILITARISTIC_SUZERAIN_1_REQUIREMENTS"	/>
+		<Row ModifierId="PLUTOCRACY_BONUS_FHR" 			ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS" SubjectRequirementSetId="RELIGIOUS_SUZERAIN_1_REQUIREMENTS"	/>
+		<Row ModifierId="PLUTOCRACY_BONUS_FIV" 			ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS" SubjectRequirementSetId="SCIENTIFIC_SUZERAIN_1_REQUIREMENTS"	/>
+		<Row ModifierId="PLUTOCRACY_BONUS_SIX" 			ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS" SubjectRequirementSetId="TRADE_SUZERAIN_1_REQUIREMENTS"	/>
+		<!-- -->
+		<Row ModifierId="POLICY_RENDER_UNTO_CAESAR" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="REQUIREMENTS_CITY_HAS_TIER3RELIGIOUS" />
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="POLICY_DIPLO_SOVER_POINTS_B_MODIFIER" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_DIPLO_SOVER_POINTS_B_MODIFIER" Name="Amount" Value="2" />
+		<!--Diplomatic Quarter-->
+		<Row ModifierId="POLICY_DIPLO_SOVER_POINTS_A_MODIFIER" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_DIPLO_SOVER_POINTS_A_MODIFIER" Name="Amount" Value="2" />
+		<!-- -->
+		<Row ModifierId="PLUTOCRACY_BONUS_ONE" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="PLUTOCRACY_BONUS_ONE" Name="Amount" Value="2" />
+		<Row ModifierId="PLUTOCRACY_BONUS_TWO" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="PLUTOCRACY_BONUS_TWO" Name="Amount" Value="2" />
+		<Row ModifierId="PLUTOCRACY_BONUS_THR" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="PLUTOCRACY_BONUS_THR" Name="Amount" Value="2" />
+		<Row ModifierId="PLUTOCRACY_BONUS_FHR" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="PLUTOCRACY_BONUS_FHR" Name="Amount" Value="2" />
+		<Row ModifierId="PLUTOCRACY_BONUS_FIV" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="PLUTOCRACY_BONUS_FIV" Name="Amount" Value="2" />
+		<Row ModifierId="PLUTOCRACY_BONUS_SIX" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="PLUTOCRACY_BONUS_SIX" Name="Amount" Value="2" />
+		<!-- -->
+		<Row ModifierId="POLICY_RENDER_UNTO_CAESAR" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_RENDER_UNTO_CAESAR" Name="Amount" Value="2" />
+	</ModifierArguments>
+</GameData>
+

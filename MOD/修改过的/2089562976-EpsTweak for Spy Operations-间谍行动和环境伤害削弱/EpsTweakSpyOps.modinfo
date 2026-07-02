@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6ce02217-aa9c-4f68-842d-d7732d0ca1cb" version="1">
+  <Properties>
+    <Name>EpsTweak for Spy Operations</Name>
+    <Description>Decreases the base success chance of the [COLOR_FLOAT_GOLD]Breach Dam[ENDCOLOR] spy operation to 9%.[NEWLINE]Decreases the base success chance of the [COLOR_FLOAT_GOLD]Recruit Partisans[ENDCOLOR] spy operation to 16%.[NEWLINE][NEWLINE]</Description>
+    <Created>1588970302</Created>
+    <Teaser>Decreases the base success chance of the Breach Dam and Recruit Partisans spy operations.</Teaser>
+    <Authors>Eps</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions />
+  <InGameActions>
+    <UpdateDatabase id="InGameDatabase">
+      <File>Core/GameDefines.xml</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>Core/GameDefines.xml</File>
+  </Files>
+</Mod>

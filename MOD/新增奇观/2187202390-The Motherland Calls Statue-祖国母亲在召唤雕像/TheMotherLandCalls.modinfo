@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ce086704-334c-43cd-b26a-478365503137" version="1">
+  <Properties>
+    <Name>The Motherland Calls Statue</Name>
+    <Description>This mod add a new Wonder named "The Motherland Calls".</Description>
+    <Created>1596537617</Created>
+    <Teaser>This mod add a new Wonder</Teaser>
+    <Authors>Windfly</Authors>
+    <SpecialThanks>ahnenerbe-prim in Pinshape</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>501</LoadOrder>
+      </Properties>
+      <File>TheMotherLandCalls_Gameplay.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>501</LoadOrder>
+      </Properties>
+      <File>TheMotherLandCalls_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>501</LoadOrder>
+      </Properties>
+      <File>TheMotherLandCalls_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="Art">
+      <File>TheMotherLandCalls.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Tex_SmoothStone_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Tex_SmoothStone_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+    <File>TheMotherLandCalls.dep</File>
+    <File>TheMotherLandCalls_Gameplay.xml</File>
+    <File>TheMotherLandCalls_Icons.xml</File>
+    <File>TheMotherLandCalls_Text.xml</File>
+  </Files>
+</Mod>

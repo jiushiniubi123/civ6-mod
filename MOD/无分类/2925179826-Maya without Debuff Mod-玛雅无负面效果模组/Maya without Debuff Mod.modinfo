@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="37eaf996-72f9-49b5-ab7f-29a3241d4f92" version="1">
+  <Properties>
+    <Name>Maya Without Debuff Mod\玛雅无负面效果模组</Name>
+    <Description>Maya Without Debuff\玛雅无负面效果模组</Description>
+    <Teaser>Maya Without Debuff\玛雅无负面效果模组</Teaser>
+    <Authors>阿列克谢耶维奇</Authors>
+    <SpecialThanks></SpecialThanks>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="LOC_MALI_WITHOUT_DEBUFF_NAME">
+      <en_US>Maya Without Debuff Mod</en_US>
+      <zh_Hans_CN>玛雅无负面效果模组</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <FrontEndActions>
+    <UpdateText id="MaliWithoutDebuff_Text">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>texts.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="MaliWithoutDebuff">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>maya.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="MaliWithoutDebuff_Text">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>texts.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>maya.sql</File>
+    <File>texts.sql</File>
+  </Files>
+</Mod>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Requirements_AI -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/17/2023 7:25:04 PM -->
+<GameData>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_EGYPT_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_HAS_STONEHENGE_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_MAJOR_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_GREECE_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_CHINA_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_ROME_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_INDIA_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_HAS_PETRA_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_SPAIN_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_JAPAN_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_FRANCE_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_HAS_GREAT_ZIMBABWE_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_RUSSIA_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_AMERICA_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_NOT_AMERICA_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_ENGLAND_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_GERMANY_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_BRAZIL_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		
+
+	</RequirementSetRequirements>
+</GameData>

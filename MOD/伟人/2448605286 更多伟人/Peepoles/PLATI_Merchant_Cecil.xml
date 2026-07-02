@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- INDUSTRIAL Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_CECIL" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_CECIL" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_CECIL_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" EraType="ERA_INDUSTRIAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_CECIL_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_CECIL" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_CECIL_GOLD_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_CECIL" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_CECIL_TILE_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_CECIL_GOLD_BOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>GOVERNOR_CITY_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_CECIL_TILE_BOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_CECIL_GOLD_BOOST</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_CECIL_GOLD_BOOST</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_CECIL_TILE_BOOST</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_ENGLISH_REDCOAT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_CECIL_TILE_BOOST</ModifierId>
+			<Name>Experience</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_CECIL_TILE_BOOST</ModifierId>
+			<Name>UniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_CECIL_GOLD_BOOST" Context="Summary" Text="LOC_GREATPERSON_PLATI_CECIL_ACTIVE"/>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_CECIL_TILE_BOOST" Context="Summary" Text="LOC_GREATPERSON_PLATI_CECIL_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

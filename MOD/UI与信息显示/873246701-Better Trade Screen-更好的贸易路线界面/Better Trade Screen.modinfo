@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8d4fa23a-ef43-440c-8422-2bec11f8f5d7"  version="4.2">
+  <Properties>
+    <Name>Better Trade Screen</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Adds sort options, filters and generally improves the trade screen.</Teaser>
+    <Description>Adds sort options, filters and generally improves the trade screen.</Description>
+    <Authors>astog</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+
+  <InGameActions>
+    <UpdateDatabase id="BTS_SETTINGS_DB">
+      <Properties>
+        <LoadOrder>8</LoadOrder>
+      </Properties>
+      <Items>
+        <File>Settings/BTS_SettingsSchema.sql</File>
+        <!-- <File>Settings/BTS_Settings.sql</File> -->
+      </Items>
+    </UpdateDatabase>
+
+    <UpdateDatabase id="BTS_SETTINGS">
+      <Properties>
+        <LoadOrder>9</LoadOrder>
+      </Properties>
+      <Items>
+        <!-- <File>Settings/BTS_SettingsSchema.sql</File> -->
+        <File>Settings/BTS_Settings.sql</File>
+      </Items>
+    </UpdateDatabase>
+
+    <AddUserInterfaces id="BTS_SETTINGS_PANEL">
+      <Properties>
+        <Context>InGame</Context>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <Items>
+        <File>Settings/BTS_SettingsPanel.xml</File>
+        <!-- Settings/BTS_SettingsPanel.lua implied -->
+      </Items>
+    </AddUserInterfaces>
+
+    <ImportFiles id="BTS_IMPORT_FILES">
+      <Properties>
+        <LoadOrder>11</LoadOrder>
+      </Properties>
+      <Items>
+        <File>UI/TradeOverview.xml</File>
+        <File>UI/TradeOverview.lua</File>
+        <File>UI/TradeSupport.lua</File>
+        <File>UI/Choosers/TradeRouteChooser.xml</File>
+        <File>UI/Choosers/TradeRouteChooser.lua</File>
+        <File>UI/Choosers/TradeOriginChooser.xml</File>
+        <File>UI/Choosers/TradeOriginChooser.lua</File>
+      </Items>
+    </ImportFiles>
+
+    <LocalizedText id="BTS_TEXT">
+      <Properties>
+        <LoadOrder>12</LoadOrder>
+      </Properties>
+      <Items>
+        <File>Text/BTS_Text_DE.xml</File>
+        <File>Text/BTS_Text_EN.xml</File>
+        <File>Text/BTS_Text_ES.xml</File>
+        <File>Text/BTS_Text_FR.xml</File>
+        <File>Text/BTS_Text_Hans_CN.xml</File>
+        <File>Text/BTS_Text_IT.xml</File>
+        <File>Text/BTS_Text_KR.xml</File>
+        <File>Text/BTS_Text_PL.xml</File>
+        <File>Text/BTS_Text_RU.xml</File>
+        <File>Text/BTS_Text_BR.xml</File>
+      </Items>
+    </LocalizedText>
+  </InGameActions>
+
+  <Files>
+    <File>UI/TradeOverview.xml</File>
+    <File>UI/TradeOverview.lua</File>
+    <File>UI/TradeSupport.lua</File>
+    <File>UI/Choosers/TradeRouteChooser.xml</File>
+    <File>UI/Choosers/TradeRouteChooser.lua</File>
+    <File>UI/Choosers/TradeOriginChooser.xml</File>
+    <File>UI/Choosers/TradeOriginChooser.lua</File>
+    <File>Settings/BTS_SettingsPanel.xml</File>
+    <File>Settings/BTS_SettingsPanel.lua</File>
+    <File>Settings/BTS_SettingsSchema.sql</File>
+    <File>Settings/BTS_Settings.sql</File>
+    <File>Text/BTS_Text_DE.xml</File>
+    <File>Text/BTS_Text_EN.xml</File>
+    <File>Text/BTS_Text_ES.xml</File>
+    <File>Text/BTS_Text_FR.xml</File>
+    <File>Text/BTS_Text_Hans_CN.xml</File>
+    <File>Text/BTS_Text_IT.xml</File>
+    <File>Text/BTS_Text_KR.xml</File>
+    <File>Text/BTS_Text_PL.xml</File>
+    <File>Text/BTS_Text_RU.xml</File>
+    <File>Text/BTS_Text_BR.xml</File>
+  </Files>
+</Mod>

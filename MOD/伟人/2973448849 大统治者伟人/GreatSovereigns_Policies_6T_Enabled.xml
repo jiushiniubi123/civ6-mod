@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="POLICY_DIPLO_SOVER_POINTS_6T" 		Kind="KIND_POLICY" />
+		<Row Type="POLICY_PLUTOCRACY_SOV_CARD" 		Kind="KIND_POLICY" />
+		<Row Type="POLICY_THEOCRACY_SOV_CARD" 		Kind="KIND_POLICY" />
+		<Row Type="POLICY_6T_OLIGARCHY" 		Kind="KIND_POLICY" />
+		<Row Type="POLICY_6T_AUTOCRACY" 		Kind="KIND_POLICY" />
+		<Row Type="POLICY_6T_CLASSICAL" 		Kind="KIND_POLICY" />
+		<Row Type="POLICY_6T_FASCIST" 		Kind="KIND_POLICY" />
+		<Row Type="POLICY_6T_COMMUNIST" 		Kind="KIND_POLICY" />
+		<Row Type="POLICY_6T_DEMOCRAT" 		Kind="KIND_POLICY" />
+	</Types>
+	<Policies>
+		<Row PolicyType="POLICY_DIPLO_SOVER_POINTS_6T" Name="LOC_POLICY_DIPLO_SOVER_POINTS_6T_NAME" 	Description="LOC_POLICY_DIPLO_SOVER_POINTSS_6T_DESCRIPTION" 		PrereqCivic="CIVIC_6T_ESTATES" 		GovernmentSlotType="SLOT_WILDCARD" />
+		<Row PolicyType="POLICY_PLUTOCRACY_SOV_CARD" Name="LOC_POLICY_PLUTOCRACY_SOV_CARD_NAME" 	Description="LOC_POLICY_PLUTOCRACY_SOV_CARD_DESCRIPTION" 		PrereqCivic="CIVIC_6T_MERCHANT_LEAGUES" 		GovernmentSlotType="SLOT_WILDCARD" />
+		<Row PolicyType="POLICY_THEOCRACY_SOV_CARD" Name="LOC_POLICY_THEOCRACY_SOV_CARD_NAME" 		Description="LOC_POLICY_THEOCRACY_SOV_CARD_DESCRIPTION" 		PrereqCivic="CIVIC_DIVINE_RIGHT" 		GovernmentSlotType="SLOT_WILDCARD" />
+		<Row PolicyType="POLICY_6T_OLIGARCHY" 		Name="LOC_POLICY_6T_OLIGARCHY_NAME" 					Description="LOC_POLICY_6T_OLIGARCHY_DESCRIPTION" 		PrereqCivic="CIVIC_MILITARY_TRAINING" 		GovernmentSlotType="SLOT_WILDCARD" />
+		<Row PolicyType="POLICY_6T_AUTOCRACY" 		Name="LOC_POLICY_6T_AUTOCRACY_NAME" 					Description="LOC_POLICY_6T_AUTOCRACY_DESCRIPTION" 		PrereqCivic="CIVIC_EARLY_EMPIRE" 		GovernmentSlotType="SLOT_WILDCARD" />
+		<Row PolicyType="POLICY_6T_CLASSICAL" 		Name="LOC_POLICY_6T_CLASSICAL_NAME" 					Description="LOC_POLICY_6T_CLASSICAL_DESCRIPTION" 		PrereqCivic="CIVIC_POLITICAL_PHILOSOPHY" 		GovernmentSlotType="SLOT_WILDCARD" />
+		<Row PolicyType="POLICY_6T_FASCIST" 		Name="LOC_POLICY_6T_FASCIST_NAME" 						Description="LOC_POLICY_6T_FASCIST_DESCRIPTION" 		PrereqCivic="CIVIC_TOTALITARIANISM" 		GovernmentSlotType="SLOT_WILDCARD" />
+		<Row PolicyType="POLICY_6T_COMMUNIST" 		Name="LOC_POLICY_6T_COMMUNIST_NAME" 					Description="LOC_POLICY_6T_COMMUNIST_DESCRIPTION" 		PrereqCivic="CIVIC_CLASS_STRUGGLE" 		GovernmentSlotType="SLOT_WILDCARD" />
+		<Row PolicyType="POLICY_6T_DEMOCRAT" 		Name="LOC_POLICY_6T_DEMOCRAT_NAME" 						Description="LOC_POLICY_6T_DEMOCRAT_DESCRIPTION" 		PrereqCivic="CIVIC_SUFFRAGE" 		GovernmentSlotType="SLOT_WILDCARD" />
+	</Policies>
+	<Policy_GovernmentExclusives_XP2>
+		<Row PolicyType="POLICY_DIPLO_SOVER_POINTS_6T" 	GovernmentType="GOVERNMENT_MONARCHY"/>
+		<Row PolicyType="POLICY_PLUTOCRACY_SOV_CARD" 	GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC"/>
+		<Row PolicyType="POLICY_THEOCRACY_SOV_CARD" 	GovernmentType="GOVERNMENT_THEOCRACY"/>
+		<Row PolicyType="POLICY_6T_OLIGARCHY" 			GovernmentType="GOVERNMENT_OLIGARCHY"/>
+		<Row PolicyType="POLICY_6T_AUTOCRACY" 			GovernmentType="GOVERNMENT_AUTOCRACY"/>
+		<Row PolicyType="POLICY_6T_CLASSICAL" 			GovernmentType="GOVERNMENT_CLASSICAL_REPUBLIC"/>
+		<Row PolicyType="POLICY_6T_FASCIST" 			GovernmentType="GOVERNMENT_FASCISM"/>
+		<Row PolicyType="POLICY_6T_COMMUNIST" 			GovernmentType="GOVERNMENT_COMMUNISM"/>
+		<Row PolicyType="POLICY_6T_DEMOCRAT" 			GovernmentType="GOVERNMENT_DEMOCRACY"/>
+	</Policy_GovernmentExclusives_XP2>
+	<PolicyModifiers>
+		<Row PolicyType="POLICY_DIPLO_SOVER_POINTS_6T" ModifierId="POLICY_DIPLO_SOVER_POINTS_B_MODIFIER"/>
+		<Row PolicyType="POLICY_DIPLO_SOVER_POINTS_6T" ModifierId="POLICY_DIPLO_SOVER_POINTS_A_MODIFIER"/>
+		<!-- -->
+		<Row PolicyType="POLICY_PLUTOCRACY_SOV_CARD" ModifierId="PLUTOCRACY_BONUS_ONE"/>
+		<Row PolicyType="POLICY_PLUTOCRACY_SOV_CARD" ModifierId="PLUTOCRACY_BONUS_TWO"/>
+		<Row PolicyType="POLICY_PLUTOCRACY_SOV_CARD" ModifierId="PLUTOCRACY_BONUS_THR"/>
+		<Row PolicyType="POLICY_PLUTOCRACY_SOV_CARD" ModifierId="PLUTOCRACY_BONUS_FHR"/>
+		<Row PolicyType="POLICY_PLUTOCRACY_SOV_CARD" ModifierId="PLUTOCRACY_BONUS_FIV"/>
+		<Row PolicyType="POLICY_PLUTOCRACY_SOV_CARD" ModifierId="PLUTOCRACY_BONUS_SIX"/>
+		<!-- -->
+		<Row PolicyType="POLICY_THEOCRACY_SOV_CARD" 		ModifierId="POLICY_RENDER_UNTO_CAESAR"/>
+		<!-- -->
+		<Row PolicyType="POLICY_6T_OLIGARCHY" 		ModifierId="POLICY_TIMOCRATIC_ETHOS"/>
+		<!-- -->
+		<Row PolicyType="POLICY_6T_AUTOCRACY" 		ModifierId="POLICY_AUTOCRATIC_ETHOS_ONE"/>
+		<Row PolicyType="POLICY_6T_AUTOCRACY" 		ModifierId="POLICY_AUTOCRATIC_ETHOS_TWO"/>
+		<Row PolicyType="POLICY_6T_AUTOCRACY" 		ModifierId="POLICY_AUTOCRATIC_ETHOS_THR"/>
+		<Row PolicyType="POLICY_6T_AUTOCRACY" 		ModifierId="POLICY_AUTOCRATIC_ETHOS_FHR"/>
+		<Row PolicyType="POLICY_6T_AUTOCRACY" 		ModifierId="POLICY_AUTOCRATIC_ETHOS_FIV"/>
+		<Row PolicyType="POLICY_6T_AUTOCRACY" 		ModifierId="POLICY_AUTOCRATIC_ETHOS_SIX"/>
+		<Row PolicyType="POLICY_6T_AUTOCRACY" 		ModifierId="POLICY_AUTOCRATIC_ETHOS_SEV"/>
+		<Row PolicyType="POLICY_6T_AUTOCRACY" 		ModifierId="POLICY_AUTOCRATIC_ETHOS_EIG"/>
+		<Row PolicyType="POLICY_6T_AUTOCRACY" 		ModifierId="POLICY_AUTOCRATIC_ETHOS_NIN"/>
+		<Row PolicyType="POLICY_6T_AUTOCRACY" 		ModifierId="POLICY_AUTOCRATIC_ETHOS_TEN"/>
+		<Row PolicyType="POLICY_6T_AUTOCRACY" 		ModifierId="POLICY_AUTOCRATIC_ETHOS_ELV"/>
+		<Row PolicyType="POLICY_6T_AUTOCRACY" 		ModifierId="POLICY_AUTOCRATIC_ETHOS_TWL"/>
+		<Row PolicyType="POLICY_6T_AUTOCRACY" 		ModifierId="POLICY_AUTOCRATIC_ETHOS_THT"/>
+		<Row PolicyType="POLICY_6T_AUTOCRACY" 		ModifierId="POLICY_AUTOCRATIC_ETHOS_FVT"/>
+		<Row PolicyType="POLICY_6T_AUTOCRACY" 		ModifierId="POLICY_AUTOCRATIC_ETHOS_SXT"/>
+		<!-- -->
+		<Row PolicyType="POLICY_6T_CLASSICAL" 		ModifierId="POLICY_REPUBLICAN_ETHOS"/>
+		<!-- -->
+		<Row PolicyType="POLICY_6T_FASCIST" 		ModifierId="POLICY_FASCIST_LOTTA_ETHOS"/>
+		<!-- -->
+		<Row PolicyType="POLICY_6T_COMMUNIST" 		ModifierId="POLICY_COMMUNIST_SELECTOCRACY_ETHOS_CAMPUS_LOW"/>
+		<Row PolicyType="POLICY_6T_COMMUNIST" 		ModifierId="POLICY_COMMUNIST_SELECTOCRACY_ETHOS_INDUST_LOW"/>
+		<Row PolicyType="POLICY_6T_COMMUNIST" 		ModifierId="POLICY_COMMUNIST_SELECTOCRACY_ETHOS_CAMPUS_HIGH"/>
+		<Row PolicyType="POLICY_6T_COMMUNIST" 		ModifierId="POLICY_COMMUNIST_SELECTOCRACY_ETHOS_INDUST_HIGH"/>
+		<!-- -->
+		<Row PolicyType="POLICY_6T_DEMOCRAT" 		ModifierId="POLICY_DEMOCRAT_RULE_OF_LAW_ETHOS"/>
+	</PolicyModifiers>
+	<Modifiers>
+		<Row ModifierId="POLICY_DIPLO_SOVER_POINTS_B_MODIFIER" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT" SubjectRequirementSetId="BUILDING_IS_CONSULATE" />
+		<Row ModifierId="POLICY_DIPLO_SOVER_POINTS_A_MODIFIER" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT" SubjectRequirementSetId="BUILDING_IS_CHANCERY" />
+		<!-- -->
+		<Row ModifierId="PLUTOCRACY_BONUS_ONE" 			ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS" SubjectRequirementSetId="CULTURAL_SUZERAIN_1_REQUIREMENTS"	/>
+		<Row ModifierId="PLUTOCRACY_BONUS_TWO" 			ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS" SubjectRequirementSetId="INDUSTRIAL_SUZERAIN_1_REQUIREMENTS"	/>
+		<Row ModifierId="PLUTOCRACY_BONUS_THR" 			ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS" SubjectRequirementSetId="MILITARISTIC_SUZERAIN_1_REQUIREMENTS"	/>
+		<Row ModifierId="PLUTOCRACY_BONUS_FHR" 			ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS" SubjectRequirementSetId="RELIGIOUS_SUZERAIN_1_REQUIREMENTS"	/>
+		<Row ModifierId="PLUTOCRACY_BONUS_FIV" 			ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS" SubjectRequirementSetId="SCIENTIFIC_SUZERAIN_1_REQUIREMENTS"	/>
+		<Row ModifierId="PLUTOCRACY_BONUS_SIX" 			ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS" SubjectRequirementSetId="TRADE_SUZERAIN_1_REQUIREMENTS"	/>
+		<!-- -->
+		<Row ModifierId="POLICY_RENDER_UNTO_CAESAR" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="REQUIREMENTS_CITY_HAS_TIER3RELIGIOUS" />
+		<!-- -->
+		<Row ModifierId="POLICY_TIMOCRATIC_ETHOS" 		ModifierType="MODIFIER_PLAYER_UNITS_GRANT_ABILITY" />
+		<!-- -->
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_ONE" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_CAPITAL_HAS_WONDER_COLOSSEUM" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_TWO" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_CAPITAL_HAS_WONDER_JEBEL" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_THR" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_CAPITAL_HAS_WONDER_HANGING" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_FHR" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_CAPITAL_HAS_WONDER_COLOSSUS" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_FIV" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_CAPITAL_HAS_WONDER_PETRA" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_SIX" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_CAPITAL_HAS_WONDER_LIGHTHOUSE" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_SEV" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_CAPITAL_HAS_WONDER_SANKORE" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_EIG" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_CAPITAL_HAS_WONDER_HAGIA" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_NIN" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_CAPITAL_HAS_WONDER_MAUSOLEUM" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_TEN" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_CAPITAL_HAS_WONDER_APADANA" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_ELV" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_CAPITAL_HAS_WONDER_ZEUS" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_TWL" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_CAPITAL_HAS_WONDER_MAHABODI" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_THT" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_CAPITAL_HAS_WONDER_CHICHEN" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_FVT" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_CAPITAL_HAS_WONDER_LIBRARY" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_SXT" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_CAPITAL_HAS_WONDER_TERRACOTA" />
+		<!-- -->
+		<Row ModifierId="POLICY_REPUBLICAN_ETHOS" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="CITY_HAS_3_SPECIALTY_DISTRICTS_REQUIREMENTS" />
+		<!-- -->
+		<Row ModifierId="POLICY_FASCIST_LOTTA_ETHOS" 				ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_SOVEREIGN_IS_AT_WAR" />
+		<!-- -->
+		<Row ModifierId="POLICY_COMMUNIST_SELECTOCRACY_ETHOS_CAMPUS_LOW" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_SOV_DISTRICT_LOW_ADJ_CAMPUS" />
+		<Row ModifierId="POLICY_COMMUNIST_SELECTOCRACY_ETHOS_INDUST_LOW" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_SOV_DISTRICT_LOW_ADJ_INDUSTRIAL" />
+		<Row ModifierId="POLICY_COMMUNIST_SELECTOCRACY_ETHOS_CAMPUS_HIGH" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_SOV_DISTRICT_HIGH_ADJ_CAMPUS" />
+		<Row ModifierId="POLICY_COMMUNIST_SELECTOCRACY_ETHOS_INDUST_HIGH" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_SOV_DISTRICT_HIGH_ADJ_INDUSTRIAL" />
+		<!-- -->
+		<Row ModifierId="POLICY_DEMOCRAT_RULE_OF_LAW_ETHOS" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="STADIUM_20_POPULATION_REQUIREMENTS" />
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="POLICY_DIPLO_SOVER_POINTS_B_MODIFIER" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_DIPLO_SOVER_POINTS_B_MODIFIER" Name="Amount" Value="2" />
+		<!--Diplomatic Quarter-->
+		<Row ModifierId="POLICY_DIPLO_SOVER_POINTS_A_MODIFIER" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_DIPLO_SOVER_POINTS_A_MODIFIER" Name="Amount" Value="2" />
+		<!-- -->
+		<Row ModifierId="PLUTOCRACY_BONUS_ONE" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="PLUTOCRACY_BONUS_ONE" Name="Amount" Value="2" />
+		<Row ModifierId="PLUTOCRACY_BONUS_TWO" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="PLUTOCRACY_BONUS_TWO" Name="Amount" Value="2" />
+		<Row ModifierId="PLUTOCRACY_BONUS_THR" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="PLUTOCRACY_BONUS_THR" Name="Amount" Value="2" />
+		<Row ModifierId="PLUTOCRACY_BONUS_FHR" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="PLUTOCRACY_BONUS_FHR" Name="Amount" Value="2" />
+		<Row ModifierId="PLUTOCRACY_BONUS_FIV" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="PLUTOCRACY_BONUS_FIV" Name="Amount" Value="2" />
+		<Row ModifierId="PLUTOCRACY_BONUS_SIX" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="PLUTOCRACY_BONUS_SIX" Name="Amount" Value="2" />
+		<!-- -->
+		<Row ModifierId="POLICY_RENDER_UNTO_CAESAR" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_RENDER_UNTO_CAESAR" Name="Amount" Value="2" />
+		<!-- -->
+		<Row ModifierId="POLICY_TIMOCRATIC_ETHOS" Name="AbilityType" Value="ABILITY_TIMOCRACY_POINTS" />
+		<!-- -->
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_ONE" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_ONE" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_EIG" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_EIG" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_ELV" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_ELV" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_FHR" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_FHR" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_FIV" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_FIV" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_NIN" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_NIN" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_TWO" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_TWO" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_SIX" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_SIX" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_TEN" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_TEN" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_THR" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_THR" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_THT" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_THT" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_TWL" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_TWL" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_SEV" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_SEV" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_FVT" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_FVT" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_SXT" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_AUTOCRATIC_ETHOS_SXT" Name="Amount" Value="1" />
+		<!-- -->
+		<Row ModifierId="POLICY_REPUBLICAN_ETHOS" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_REPUBLICAN_ETHOS" Name="Amount" Value="1" />
+		<!-- -->
+		<Row ModifierId="POLICY_FASCIST_LOTTA_ETHOS" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_FASCIST_LOTTA_ETHOS" Name="Amount" Value="1" />
+		<!-- -->
+		<Row ModifierId="POLICY_COMMUNIST_SELECTOCRACY_ETHOS_CAMPUS_LOW" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_COMMUNIST_SELECTOCRACY_ETHOS_CAMPUS_LOW" Name="Amount" Value="2" />
+		<Row ModifierId="POLICY_COMMUNIST_SELECTOCRACY_ETHOS_INDUST_LOW" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_COMMUNIST_SELECTOCRACY_ETHOS_INDUST_LOW" Name="Amount" Value="2" />
+		<Row ModifierId="POLICY_COMMUNIST_SELECTOCRACY_ETHOS_CAMPUS_HIGH" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_COMMUNIST_SELECTOCRACY_ETHOS_CAMPUS_HIGH" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_COMMUNIST_SELECTOCRACY_ETHOS_INDUST_HIGH" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_COMMUNIST_SELECTOCRACY_ETHOS_INDUST_HIGH" Name="Amount" Value="1" />
+		<!-- -->
+		<Row ModifierId="POLICY_DEMOCRAT_RULE_OF_LAW_ETHOS" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_DEMOCRAT_RULE_OF_LAW_ETHOS" Name="Amount" Value="6" />
+	</ModifierArguments>
+	<RequirementSets>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_COLOSSEUM</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_JEBEL</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_HANGING</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_COLOSSUS</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_PETRA</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_LIGHTHOUSE</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_SANKORE</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_HAGIA</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_MAUSOLEUM</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_APADANA</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_ZEUS</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_MAHABODI</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_CHICHEN</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_LIBRARY</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_TERRACOTA</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row>
+			<RequirementSetId>PLATI_SOVEREIGN_IS_AT_WAR</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_SOV_DISTRICT_LOW_ADJ_CAMPUS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_SOV_DISTRICT_LOW_ADJ_INDUSTRIAL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_SOV_DISTRICT_HIGH_ADJ_CAMPUS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_SOV_DISTRICT_HIGH_ADJ_INDUSTRIAL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_COLOSSEUM</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_COLOSSEUM</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_COLOSSEUM</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_JEBEL</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_JEBEL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_JEBEL</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_HANGING</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_HANGING</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_HANGING</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_COLOSSUS</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_COLOSSUS</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_COLOSSUS</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_PETRA</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_PETRA</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_PETRA</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_LIGHTHOUSE</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_LIGHTHOUSE</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_LIGHTHOUSE</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_SANKORE</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_SANKORE</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_SANKORE</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_HAGIA</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_HAGIA</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_HAGIA</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_MAUSOLEUM</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_MAUSOLEUM</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_MAUSOLEUM</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_APADANA</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_APADANA</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_APADANA</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_ZEUS</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_ZEUS</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_ZEUS</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_MAHABODI</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_MAHABODI</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_MAHABODI</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_CHICHEN</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_CHICHEN</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_CHICHEN</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_LIBRARY</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_LIBRARY</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_LIBRARY</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_TERRACOTA</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_TERRACOTA</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_CAPITAL_HAS_WONDER_TERRACOTA</RequirementSetId><RequirementId>PLATI_CITY_WONDER_AND_IS_CAPITAL</RequirementId></Row>
+		<Row>
+			<RequirementSetId>PLATI_SOVEREIGN_IS_AT_WAR</RequirementSetId>
+			<RequirementId>PLATI_SOVEREIGN_POLICY_IS_AT_WAR_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_SOV_DISTRICT_LOW_ADJ_CAMPUS</RequirementSetId>
+			<RequirementId>REQUIRES_PLATI_SOV_DISTRICT_LOW_ADJ_CAMPUS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_SOV_DISTRICT_LOW_ADJ_INDUSTRIAL</RequirementSetId>
+			<RequirementId>REQUIRES_PLATI_SOV_DISTRICT_LOW_ADJ_INDUSTRIAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_SOV_DISTRICT_HIGH_ADJ_CAMPUS</RequirementSetId>
+			<RequirementId>REQUIRES_PLATI_SOV_DISTRICT_HIGH_ADJ_CAMPUS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_SOV_DISTRICT_HIGH_ADJ_INDUSTRIAL</RequirementSetId>
+			<RequirementId>REQUIRES_PLATI_SOV_DISTRICT_HIGH_ADJ_INDUSTRIAL</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_CAPITAL</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_COLOSSEUM</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_JEBEL</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_HANGING</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_COLOSSUS</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_PETRA</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_LIGHTHOUSE</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_SANKORE</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_HAGIA</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_MAUSOLEUM</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_APADANA</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_ZEUS</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_MAHABODI</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_CHICHEN</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_LIBRARY</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_TERRACOTA</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row>
+			<RequirementId>PLATI_SOVEREIGN_POLICY_IS_AT_WAR_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_IS_AT_PEACE_WITH_ALL_MAJORS</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLATI_SOV_DISTRICT_LOW_ADJ_CAMPUS</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLATI_SOV_DISTRICT_LOW_ADJ_INDUSTRIAL</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLATI_SOV_DISTRICT_HIGH_ADJ_CAMPUS</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLATI_SOV_DISTRICT_HIGH_ADJ_INDUSTRIAL</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_CAPITAL</RequirementId><Name>BuildingType</Name><Value>BUILDING_PALACE</Value></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_COLOSSEUM</RequirementId><Name>BuildingType</Name><Value>BUILDING_COLOSSEUM</Value></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_JEBEL</RequirementId><Name>BuildingType</Name><Value>BUILDING_JEBEL_BARKAL</Value></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_HANGING</RequirementId><Name>BuildingType</Name><Value>BUILDING_HANGING_GARDENS</Value></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_COLOSSUS</RequirementId><Name>BuildingType</Name><Value>BUILDING_COLOSSUS</Value></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_PETRA</RequirementId><Name>BuildingType</Name><Value>BUILDING_PETRA</Value></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_LIGHTHOUSE</RequirementId><Name>BuildingType</Name><Value>BUILDING_GREAT_LIGHTHOUSE</Value></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_SANKORE</RequirementId><Name>BuildingType</Name><Value>BUILDING_UNIVERSITY_SANKORE</Value></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_HAGIA</RequirementId><Name>BuildingType</Name><Value>BUILDING_HAGIA_SOPHIA</Value></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_MAUSOLEUM</RequirementId><Name>BuildingType</Name><Value>BUILDING_HALICARNASSUS_MAUSOLEUM</Value></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_APADANA</RequirementId><Name>BuildingType</Name><Value>BUILDING_APADANA</Value></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_ZEUS</RequirementId><Name>BuildingType</Name><Value>BUILDING_STATUE_OF_ZEUS</Value></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_MAHABODI</RequirementId><Name>BuildingType</Name><Value>BUILDING_MAHABODHI_TEMPLE</Value></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_CHICHEN</RequirementId><Name>BuildingType</Name><Value>BUILDING_CHICHEN_ITZA</Value></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_LIBRARY</RequirementId><Name>BuildingType</Name><Value>BUILDING_GREAT_LIBRARY</Value></Row>
+		<Row><RequirementId>PLATI_CITY_WONDER_AND_IS_TERRACOTA</RequirementId><Name>BuildingType</Name><Value>BUILDING_TERRACOTTA_ARMY</Value></Row>
+		<Row>
+			<RequirementId>REQUIRES_PLATI_SOV_DISTRICT_LOW_ADJ_CAMPUS</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLATI_SOV_DISTRICT_LOW_ADJ_CAMPUS</RequirementId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLATI_SOV_DISTRICT_LOW_ADJ_CAMPUS</RequirementId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLATI_SOV_DISTRICT_LOW_ADJ_INDUSTRIAL</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLATI_SOV_DISTRICT_LOW_ADJ_INDUSTRIAL</RequirementId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLATI_SOV_DISTRICT_LOW_ADJ_INDUSTRIAL</RequirementId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLATI_SOV_DISTRICT_HIGH_ADJ_CAMPUS</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLATI_SOV_DISTRICT_HIGH_ADJ_CAMPUS</RequirementId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLATI_SOV_DISTRICT_HIGH_ADJ_CAMPUS</RequirementId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLATI_SOV_DISTRICT_HIGH_ADJ_INDUSTRIAL</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLATI_SOV_DISTRICT_HIGH_ADJ_INDUSTRIAL</RequirementId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLATI_SOV_DISTRICT_HIGH_ADJ_INDUSTRIAL</RequirementId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>
+

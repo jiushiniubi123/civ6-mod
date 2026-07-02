@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Plati -->
+<GameInfo>
+	<Types>
+		<Row Type="ABILITY_GURKHAS_BONUS"				Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SEPOYS_BONUS" 				Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ALFRED_PROMOTION_BONUS" 		Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ISMAIL_CONVERSION" 			Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_TIMOCRACY_POINTS" 			Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_GURKHAS_BONUS" 			Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_GURKHAS_BONUS" 			Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_SEPOYS_BONUS" 			Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_SEPOYS_BONUS" 			Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_ALFRED_PROMOTION_BONUS" 	Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_ALFRED_PROMOTION_BONUS" 	Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_ALFRED_PROMOTION_BONUS" 	Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_ISMAIL_CONVERSION" 		Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_ISMAIL_CONVERSION" 		Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_ISMAIL_CONVERSION" 		Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_TIMOCRACY_POINTS" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_TIMOCRACY_POINTS" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_TIMOCRACY_POINTS" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_TIMOCRACY_POINTS" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_TIMOCRACY_POINTS" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_TIMOCRACY_POINTS" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_TIMOCRACY_POINTS" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_TIMOCRACY_POINTS" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_TIMOCRACY_POINTS" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_TIMOCRACY_POINTS" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_TIMOCRACY_POINTS" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_TIMOCRACY_POINTS" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_TIMOCRACY_POINTS" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_TIMOCRACY_POINTS" Tag="CLASS_AIRCRAFT"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_GURKHAS_BONUS" 			Name="LOC_ABILITY_GURKHAS_BONUS_NAME" 		Description="LOC_ABILITY_GURKHAS_BONUS_DESCRIPTION" 	Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_SEPOYS_BONUS" 			Name="LOC_ABILITY_SEPOYS_BONUS_NAME" 		Description="LOC_ABILITY_SEPOYS_BONUS_DESCRIPTION" 		Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_ALFRED_PROMOTION_BONUS" 	Name="LOC_ABILITY_ALFRED_PROMOTION_NAME" 	Description="LOC_ABILITY_ALFRED_PROMOTION_DESCRIPTION" 	Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_ISMAIL_CONVERSION" 		Name="LOC_ABILITY_ISMAIL_BONUS_NAME" 		Description="LOC_ABILITY_ISMAIL_BONUS_DESCRIPTION" 		Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_TIMOCRACY_POINTS" 		Name="LOC_ABILITY_TIMOCRACY_POINTS_NAME" 	Description="LOC_ABILITY_TIMOCRACY_POINTS_DESCRIPTION" 		Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_GURKHAS_BONUS</UnitAbilityType>
+			<ModifierId>GURKHAS_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SEPOYS_BONUS</UnitAbilityType>
+			<ModifierId>SEPOYS_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ALFRED_PROMOTION_BONUS</UnitAbilityType>
+			<ModifierId>FATHER_OF_ENGLISH_NAVY</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ISMAIL_CONVERSION</UnitAbilityType>
+			<ModifierId>FATHER_OF_MODERN_IRAN</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_TIMOCRACY_POINTS</UnitAbilityType>
+			<ModifierId>SOVEREIGN_POINTS_FROM_KILLS</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GURKHAS_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SEPOYS_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>REDCOAT_PLOT_IS_FOREIGN_CONTINENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>FATHER_OF_ENGLISH_NAVY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GRANT_EXPERIENCE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>FATHER_OF_MODERN_IRAN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_CITY_ON_CAPTURE</ModifierType>
+			<SubjectRequirementSetId>PLAYER_NO_GOLDEN_AGE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SOVEREIGN_POINTS_FROM_KILLS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GREAT_PEOPLE_POINTS_PER_KILL</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GURKHAS_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>SEPOYS_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>FATHER_OF_ENGLISH_NAVY</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>FATHER_OF_MODERN_IRAN</ModifierId>
+			<Name>Enable</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>SOVEREIGN_POINTS_FROM_KILLS</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>SOVEREIGN_POINTS_FROM_KILLS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GreatSovereigns</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GURKHAS_BUFF" 					Context="Preview" 	Text="LOC_ABILITY_GURKHAS_BUFF_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="SEPOYS_BUFF"					Context="Preview" 	Text="LOC_ABILITY_SEPOYS_BUFF_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="FATHER_OF_ENGLISH_NAVY" 		Context="Preview" 	Text="LOC_ABILITY_ALFRED_PROMOTION_DESCRIPTION"/>
+		<Row ModifierId="FATHER_OF_MODERN_IRAN" 		Context="Preview" 	Text="LOC_ABILITY_ISMAIL_BONUS_DESCRIPTION"/>
+		<Row ModifierId="SOVEREIGN_POINTS_FROM_KILLS" 	Context="Preview" 	Text="LOC_ABILITY_TIMOCRACY_POINTS_DESCRIPTION"/>
+	</ModifierStrings>
+</GameInfo>

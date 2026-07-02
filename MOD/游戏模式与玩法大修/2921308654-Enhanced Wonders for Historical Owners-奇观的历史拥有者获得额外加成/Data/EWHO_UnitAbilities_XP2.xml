@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_UnitAbilities_XP2 -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 9/26/2023 10:41:09 PM -->
+<GameData>
+	<Types>
+		<Row Type="ABILITY_SEA_UNITS_EXTRA_MOVEMENT_PANAMA_CANAL_EWHO" Kind="KIND_ABILITY"/>
+
+	</Types>
+
+	<TypeTags>
+		<Row Type="ABILITY_SEA_UNITS_EXTRA_MOVEMENT_PANAMA_CANAL_EWHO" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_SEA_UNITS_EXTRA_MOVEMENT_PANAMA_CANAL_EWHO" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_SEA_UNITS_EXTRA_MOVEMENT_PANAMA_CANAL_EWHO" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_SEA_UNITS_EXTRA_MOVEMENT_PANAMA_CANAL_EWHO" Tag="CLASS_NAVAL_CARRIER"/>
+
+	</TypeTags>
+	
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_SEA_UNITS_EXTRA_MOVEMENT_PANAMA_CANAL_EWHO"
+			 Name="LOC_ABILITY_SEA_UNITS_EXTRA_MOVEMENT_PANAMA_CANAL_EWHO_NAME"
+			 Description="LOC_ABILITY_SEA_UNITS_EXTRA_MOVEMENT_PANAMA_CANAL_EWHO_DESCRIPTION"
+			 Inactive="true"/>
+
+	</UnitAbilities>
+
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_SEA_UNITS_EXTRA_MOVEMENT_PANAMA_CANAL_EWHO</UnitAbilityType>
+			<ModifierId>PANAMA_CANAL_SEA_UNITS_EXTRA_MOVEMENT_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SEA_UNITS_EXTRA_MOVEMENT_PANAMA_CANAL_EWHO</UnitAbilityType>
+			<ModifierId>PANAMA_CANAL_SEA_UNITS_ADJUST_CANAL_CITY_GOLD_ATTACH_EWHO</ModifierId>
+		</Row>
+
+	</UnitAbilityModifiers>
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>PANAMA_CANAL_SEA_UNITS_EXTRA_MOVEMENT_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+			<SubjectRequirementSetId>REQSET_UNIT_WITHIN_12_TILES_FROM_CANAL_OR_PANAMA_CANAL_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PANAMA_CANAL_SEA_UNITS_ADJUST_CANAL_CITY_GOLD_ATTACH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ATTACH_MODIFIER_EWHO</ModifierType>
+			<SubjectRequirementSetId>REQSET_DISTRICT_IS_CANAL_WHTHIN_1_TILES_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PANAMA_CANAL_SEA_UNITS_ADJUST_CANAL_CITY_GOLD_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>PANAMA_CANAL_SEA_UNITS_EXTRA_MOVEMENT_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>PANAMA_CANAL_SEA_UNITS_ADJUST_CANAL_CITY_GOLD_ATTACH_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>PANAMA_CANAL_SEA_UNITS_ADJUST_CANAL_CITY_GOLD_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>PANAMA_CANAL_SEA_UNITS_ADJUST_CANAL_CITY_GOLD_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>PANAMA_CANAL_SEA_UNITS_ADJUST_CANAL_CITY_GOLD_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_UNIT_WITHIN_12_TILES_FROM_CANAL_OR_PANAMA_CANAL_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_CANAL_WHTHIN_1_TILES_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+	</RequirementSets>
+	
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_UNIT_WITHIN_12_TILES_FROM_CANAL_OR_PANAMA_CANAL_EWHO" RequirementId="REQUIRES_UNIT_WITHIN_12_TILES_FROM_CANAL_EWHO"/>
+		<Row RequirementSetId="REQSET_UNIT_WITHIN_12_TILES_FROM_CANAL_OR_PANAMA_CANAL_EWHO" RequirementId="REQUIRES_UNIT_WITHIN_12_TILES_FROM_PANAMA_CANAL_EWHO"/>
+
+		<Row RequirementSetId="REQSET_DISTRICT_IS_CANAL_WHTHIN_1_TILES_EWHO" RequirementId="REQUIRES_DISTRICT_IS_CANAL_EWHO"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_CANAL_WHTHIN_1_TILES_EWHO" RequirementId="REQUIRES_DISTRICT_IS_WHTHIN_1_TILES_EWHO"/>
+
+	</RequirementSetRequirements>
+	
+</GameData>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameInfo>
+	<Types>
+		<Row Type="BUILDING_CMONUMENT" Kind="KIND_BUILDING" />
+	</Types>
+	<Buildings>
+		<!--IsWonder="1"-->
+		<Row BuildingType="BUILDING_CMONUMENT" Name="LOC_BUILDING_CMONUMENT_NAME" Description="LOC_BUILDING_CMONUMENT_DESCRIPTION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="5000" AdvisorType="ADVISOR_GENERIC" MaxPlayerInstances="1" MaxWorldInstances="1" />
+	</Buildings>
+    <Building_YieldChanges>
+        <Row BuildingType="BUILDING_CMONUMENT" YieldType="YIELD_PRODUCTION" YieldChange="10000"/>
+        <Row BuildingType="BUILDING_CMONUMENT" YieldType="YIELD_GOLD" YieldChange="10000"/>
+    </Building_YieldChanges>
+
+	<!--CREATE TABLE "Improvements" ( "ImprovementType" TEXT NOT NULL, "Name" TEXT NOT NULL, "BarbarianCamp" BOOLEAN NOT NULL CHECK (BarbarianCamp IN (0,1)) DEFAULT 0, "PrereqTech" TEXT, "PrereqCivic" TEXT, "Buildable" BOOLEAN NOT NULL CHECK (Buildable IN (0,1)) DEFAULT 0, 
+	"Description" TEXT, 
+	"RemoveOnEntry" BOOLEAN NOT NULL CHECK (RemoveOnEntry IN (0,1)) DEFAULT 0, 
+	"DispersalGold" INTEGER NOT NULL DEFAULT 0, 
+	"PlunderType" TEXT NOT NULL, 
+	"PlunderAmount" INTEGER NOT NULL DEFAULT 0, 
+	"Goody" BOOLEAN NOT NULL CHECK (Goody IN (0,1)) DEFAULT 0, 
+	"TilesPerGoody" INTEGER, 
+	"GoodyRange" INTEGER, 
+	"Icon" TEXT NOT NULL, 
+	"TraitType" TEXT, 
+	"Housing" INTEGER NOT NULL DEFAULT 0, 
+	"TilesRequired" INTEGER NOT NULL DEFAULT 1, 
+	"SameAdjacentValid" BOOLEAN NOT NULL CHECK (SameAdjacentValid IN (0,1)) DEFAULT 1, 
+	"RequiresRiver" INTEGER NOT NULL DEFAULT 0, 
+	"EnforceTerrain" BOOLEAN NOT NULL CHECK (EnforceTerrain IN (0,1)) DEFAULT 0, 
+	"BuildInLine" BOOLEAN NOT NULL CHECK (BuildInLine IN (0,1)) DEFAULT 0, 
+	"CanBuildOutsideTerritory" BOOLEAN NOT NULL CHECK (CanBuildOutsideTerritory IN (0,1)) DEFAULT 0, 
+	"BuildOnFrontier" BOOLEAN NOT NULL CHECK (BuildOnFrontier IN (0,1)) DEFAULT 0, 
+	"AirSlots" INTEGER NOT NULL DEFAULT 0, 
+	"DefenseModifier" INTEGER NOT NULL DEFAULT 0, 
+	"GrantFortification" INTEGER NOT NULL DEFAULT 0, 
+	"MinimumAppeal" INTEGER, "Coast" BOOLEAN NOT NULL CHECK (Coast IN (0,1)) DEFAULT 0, 
+	"YieldFromAppeal" TEXT, "WeaponSlots" INTEGER NOT NULL DEFAULT 0, "ReligiousUnitHealRate" INTEGER NOT NULL DEFAULT 0, "Appeal" INTEGER NOT NULL DEFAULT 0, "OnePerCity" BOOLEAN NOT NULL CHECK (OnePerCity IN (0,1)) DEFAULT 0, 
+	"YieldFromAppealPercent" INTEGER NOT NULL DEFAULT 100, "ValidAdjacentTerrainAmount" INTEGER NOT NULL DEFAULT 0, "Domain" TEXT NOT NULL DEFAULT "DOMAIN_LAND", "AdjacentSeaResource" BOOLEAN NOT NULL CHECK (AdjacentSeaResource IN (0,1)) DEFAULT 0, 
+	"RequiresAdjacentBonusOrLuxury" BOOLEAN NOT NULL CHECK (RequiresAdjacentBonusOrLuxury IN (0,1)) DEFAULT 0, "MovementChange" INTEGER NOT NULL DEFAULT 0, 
+	
+	PRIMARY KEY(ImprovementType), FOREIGN KEY (PrereqTech) REFERENCES Technologies(TechnologyType) ON DELETE SET DEFAULT ON UPDATE SET DEFAULT, 
+	FOREIGN KEY (PrereqCivic) REFERENCES Civics(CivicType) ON DELETE SET DEFAULT ON UPDATE SET DEFAULT, 
+	FOREIGN KEY (TraitType) REFERENCES Traits(TraitType) ON DELETE SET DEFAULT ON UPDATE SET DEFAULT, 
+	FOREIGN KEY (YieldFromAppeal) REFERENCES Yields(YieldType) ON DELETE SET DEFAULT ON UPDATE SET DEFAULT, 
+	FOREIGN KEY (ImprovementType) REFERENCES Types(Type) ON DELETE CASCADE ON UPDATE CASCADE)-->
+	<Improvements>
+		<!--<Update>
+			<Set TraitType="null"/>
+			<Where ImprovementType="IMPROVEMENT_STEPWELL"/>
+		</Update>-->
+		
+		<!--<Row ImprovementType="IMPROVEMENT_ZIGGURAT" Name="LOC_IMPROVEMENT_ZIGGURAT_NAME" Description="LOC_IMPROVEMENT_ZIGGURAT_DESCRIPTION" Icon="ICON_IMPROVEMENT_ZIGGURAT" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25" Buildable="true" TraitType="null"/>-->
+
+
+	</Improvements>
+</GameInfo>

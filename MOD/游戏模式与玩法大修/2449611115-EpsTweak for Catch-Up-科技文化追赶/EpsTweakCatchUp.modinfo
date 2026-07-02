@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e9a17da7-ca6c-48c9-b41f-04bd03ef44f6" version="3">
+  <Properties>
+    <Name>EpsTweak for Catch-Up</Name>
+    <Description>Grants Peter I's leader ability to all players, which provides extra [ICON_SCIENCE] Science and [ICON_CULTURE]  Culture when sending a [ICON_TradeRoute] Trade Route to more advanced civilisations. The bonus increases for every 3 Techs/Civics that you are behind that civ.[NEWLINE][NEWLINE]Peter I's ability is changed, and now reads "+1 [ICON_SCIENCE] Science and [ICON_CULTURE] Culture from international [ICON_TradeRoute] Trade Routes. Receive a random tech boost after another player recruits a [ICON_GreatEngineer] Great Engineer, and a civic boost when another player recruits a [ICON_GreatArtist] Great Artist or [ICON_GreatMusician] Musician."[NEWLINE][NEWLINE]When 2/3's of players have researched the same tech or civic, the remaining 1/3 of players receives a boost for that tech/civic.</Description>
+    <Created>1641335785</Created>
+    <Teaser>Trade routes to more advanced civs provide science and culture. Also changes Peter I's ability.</Teaser>
+    <Authors>Eps</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateText id="Text">
+      <File>Core/GameText.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="ConfigDatabase">
+      <File>Core/GameConfig.xml</File>
+    </UpdateDatabase>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="InGameDatabase">
+      <File>Core/GameDefines.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="InGameText">
+      <File>Core/GameText.xml</File>
+    </UpdateText>
+    <AddGameplayScripts id="InGameScripts">
+      <File>Scripts/CatchUp.lua</File>
+    </AddGameplayScripts>
+    <UpdateIcons id="InGameIcons">
+      <File>Core/Icons.xml</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>Core/GameConfig.xml</File>
+    <File>Core/GameDefines.xml</File>
+    <File>Core/GameText.xml</File>
+    <File>Core/Icons.xml</File>
+    <File>Scripts/CatchUp.lua</File>
+  </Files>
+</Mod>

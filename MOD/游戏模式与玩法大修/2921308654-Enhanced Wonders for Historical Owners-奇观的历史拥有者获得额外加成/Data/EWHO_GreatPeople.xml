@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_GreatPeople -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 2/20/2023 12:48:45 AM -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_CLASS_ENGINEER_EWHO" Kind="KIND_GREAT_PERSON_CLASS"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_SHAH_JAHAN_EWHO" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	
+	<GreatPersonClasses>
+		<Row GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER_EWHO" 
+			 Name="LOC_GREAT_PERSON_CLASS_ENGINEER_EWHO_NAME" 
+			 UnitType="UNIT_GREAT_ENGINEER_EWHO" 
+			 DistrictType="DISTRICT_CITY_CENTER" 
+			 AvailableInTimeline="false" 
+			 GenerateDuplicateIndividuals="false" 
+			 PseudoYieldType="PSEUDOYIELD_GPP_ENGINEER"
+			 IconString="[ICON_GreatEngineer]" 
+			 ActionIcon="ICON_UNITOPERATION_ENGINEER_ACTION"/>
+	</GreatPersonClasses>
+	
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SHAH_JAHAN_EWHO" 
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_SHAH_JAHAN_EWHO_NAME" 
+			 GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER_EWHO" 
+			 EraType="ERA_RENAISSANCE"
+			 Gender="M"
+			 ActionRequiresOwnedTile="true" 
+			 ActionNameTextOverride="LOC_SHAH_JAHAN_EWHO_ACTION_NAME" 
+			 ActionCharges="3" 
+			 ActionRequiresIncompleteWonder="true"/>
+
+		<!--LOC_GREAT_PERSON_INDIVIDUAL_SHAH_JAHAN_NAME-->
+		
+	</GreatPersonIndividuals>
+	
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SHAH_JAHAN_EWHO"
+			 ModifierId="SHAH_JAHAN_EWHO_WONDER_PURCHASE"
+			 AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_CITY"/>
+
+	</GreatPersonIndividualActionModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>SHAH_JAHAN_EWHO_WONDER_PURCHASE</ModifierId>
+			<ModifierType>MODIFIER_CITY_PURCHASE_PRODUCTION</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+
+	</Modifiers>
+
+	<ModifierArguments>
+
+
+	</ModifierArguments>
+	
+	<ModifierStrings>
+		<Row ModifierId="SHAH_JAHAN_EWHO_WONDER_PURCHASE" Context="Summary" Text="LOC_SHAH_JAHAN_EWHO_WONDER_PURCHASE"/>
+		
+	</ModifierStrings>
+
+</GameData>

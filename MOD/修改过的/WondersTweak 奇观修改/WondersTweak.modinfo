@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a1b2c3d4-e5f6-7890-abcd-ef1234567890" version="1">
+  <Properties>
+    <Name>奇观修改 - 7奇观平衡调整</Name>
+    <Teaser>对7个世界奇观进行平衡性调整：空中花园、巨石阵、大本钟、罗马斗兽场、马丘比丘、基尔瓦基斯瓦尼、博尔戈尔山。</Teaser>
+    <Description>对7个世界奇观进行平衡性调整，区分删除/修改/新增操作，完整汉化。[NEWLINE][NEWLINE]修改奇观：[NEWLINE]空中花园 — +3住房、+2宜居度[NEWLINE]巨石阵 — +4信仰[NEWLINE]大本钟 — 删除银行前置+金币翻倍，改为所在城市金币+20%[NEWLINE]罗马斗兽场 — 不要求紧邻娱乐中心区[NEWLINE]马丘比丘 — 建筑条件改为临近市中心的丘陵[NEWLINE]基尔瓦基斯瓦尼 — 城邦类型加成统一为10%[NEWLINE]博尔戈尔山 — 建筑条件由沙漠丘陵改为所有丘陵[NEWLINE][NEWLINE]需要迭起兴衰与风云变幻DLC。</Description>
+    <Authors>TRAE</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="WondersTweak_Data">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>WondersTweak_Data.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="WondersTweak_Text">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>WondersTweak_Text.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>WondersTweak_Data.sql</File>
+    <File>WondersTweak_Text.sql</File>
+  </Files>
+</Mod>

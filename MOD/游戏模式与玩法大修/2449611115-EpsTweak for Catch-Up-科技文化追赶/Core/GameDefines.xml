@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Traits>
+		<Update><Where TraitType="TRAIT_LEADER_GRAND_EMBASSY"/><Set><Description>LOC_TRAIT_LEADER_GRAND_EMBASSY_EPSTWEAK</Description></Set></Update>
+	</Traits>
+	
+	<TraitModifiers>
+		<Delete TraitType="TRAIT_LEADER_GRAND_EMBASSY" ModifierId="TRAIT_ADJUST_PROGRESS_DIFF_TRADE_BONUS"/>
+
+		<Row TraitType="TRAIT_LEADER_GRAND_EMBASSY" ModifierId="EPSTWEAK_CATCHUP_RUSSIA_SCIENCE"/>
+		<Row TraitType="TRAIT_LEADER_GRAND_EMBASSY" ModifierId="EPSTWEAK_CATCHUP_RUSSIA_CULTURE"/>
+	</TraitModifiers>
+
+
+	<GameModifiers>
+		<Row><ModifierId>EPSTWEAK_CATCHUP_ALL_PLAYERS</ModifierId></Row>
+	</GameModifiers>
+	
+	
+	<Modifiers>
+		<Row><ModifierId>EPSTWEAK_CATCHUP_ALL_PLAYERS</ModifierId><ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType></Row>
+		
+		<Row><ModifierId>EPSTWEAK_CATCHUP_RUSSIA_SCIENCE</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType></Row>
+		<Row><ModifierId>EPSTWEAK_CATCHUP_RUSSIA_CULTURE</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType></Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row><ModifierId>EPSTWEAK_CATCHUP_ALL_PLAYERS</ModifierId><Name>ModifierId</Name><Value>TRAIT_ADJUST_PROGRESS_DIFF_TRADE_BONUS</Value></Row>
+		
+		<Row><ModifierId>EPSTWEAK_CATCHUP_RUSSIA_SCIENCE</ModifierId><Name>YieldType</Name><Value>YIELD_SCIENCE</Value></Row>
+		<Row><ModifierId>EPSTWEAK_CATCHUP_RUSSIA_SCIENCE</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSTWEAK_CATCHUP_RUSSIA_CULTURE</ModifierId><Name>YieldType</Name><Value>YIELD_CULTURE</Value></Row>
+		<Row><ModifierId>EPSTWEAK_CATCHUP_RUSSIA_CULTURE</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+	</ModifierArguments>
+	
+</GameData>

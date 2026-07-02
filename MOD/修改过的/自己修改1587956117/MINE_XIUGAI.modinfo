@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="72279ce7-bed0-4779-8e0e-72617ad3a8b3" version="1">
+  <Properties>
+    <Name>Historic Speed: Higher Unit Costs</Name>
+    <Description>自己修改的.</Description>
+    <Teaser>自己修改的.</Teaser>
+    <Authors>我</Authors>
+	<CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <Properties>
+        <LoadOrder>10000006</LoadOrder>
+      </Properties>
+      <File>MINE_GameCostEscalation.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>MINE_GameCostEscalation.sql</File>
+  </Files>
+</Mod>
+

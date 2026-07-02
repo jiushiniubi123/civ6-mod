@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A -->
+<!-- Author: Plati -->
+<!-- A -->
+<GameData>
+	<Types>
+		<Row Type="RESOURCE_EGG" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_PEPPER" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_NUTMEG" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_PRALINE" Kind="KIND_RESOURCE"/>
+	</Types>
+	<Resources>
+		<Row ResourceType="RESOURCE_EGG" Name="LOC_RESOURCE_EGG_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="5" Frequency="0"/>
+		<Row ResourceType="RESOURCE_PEPPER" Name="LOC_RESOURCE_PEPPER_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="0"/>
+		<Row ResourceType="RESOURCE_NUTMEG" Name="LOC_RESOURCE_NUTMEG_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="0"/>
+		<Row ResourceType="RESOURCE_PRALINE" Name="LOC_RESOURCE_PRALINE_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="0"/>
+	</Resources>
+</GameData>

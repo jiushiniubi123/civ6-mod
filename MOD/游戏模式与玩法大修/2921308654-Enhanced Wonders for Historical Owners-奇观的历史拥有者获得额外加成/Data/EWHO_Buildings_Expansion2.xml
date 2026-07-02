@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Buildings_Expansion2 -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/18/2023 11:13:26 AM -->
+<GameData>
+	
+	<BuildingModifiers>
+		<!--Classical-->
+		<Row>
+			<BuildingType>BUILDING_MACHU_PICCHU</BuildingType>
+			<ModifierId>MACHU_PICCHU_COMMERCIAL_HUB_ADJUST_MOUNTAIN_GOLD_ATTACH_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MACHU_PICCHU</BuildingType>
+			<ModifierId>MACHU_PICCHU_THEATER_ADJUST_MOUNTAIN_CULTURE_ATTACH_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MACHU_PICCHU</BuildingType>
+			<ModifierId>MACHU_PICCHU_INDUSTRIAL_ZONE_ADJUST_MOUNTAIN_PRODUCTION_ATTACH_EWHO</ModifierId>
+		</Row>
+		<!--Medieval-->
+		<Row>
+			<BuildingType>BUILDING_MEENAKSHI_TEMPLE</BuildingType>
+			<ModifierId>MEENAKSHI_TEMPLE_APOSTLE_DISCOUNT_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEENAKSHI_TEMPLE</BuildingType>
+			<ModifierId>MEENAKSHI_TEMPLE_RELIGIOUS_CIVILIAN_GARNT_PROVIDE_FAITH_EWHO</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY_SANKORE</BuildingType>
+			<ModifierId>UNIVERSITY_SANKORE_ADJUST_DESERT_CITY_SCIENCE_ATTACH_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY_SANKORE</BuildingType>
+			<ModifierId>UNIVERSITY_SANKORE_ADJUST_DESERT_CITY_FAITH_ATTACH_EWHO</ModifierId>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
+			<ModifierId>HAGIA_SOPHIA_SIEGE_GRANT_BONUS_EWHO</ModifierId>
+		</Row>
+
+		<!--Industrial-->
+		<Row>
+			<BuildingType>BUILDING_PANAMA_CANAL</BuildingType>
+			<ModifierId>PANAMA_CANAL_SEA_UNITS_EXTRA_MOVEMENT_US_EWHO</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_ORSZAGHAZ</BuildingType>
+			<ModifierId>ORSZAGHAZ_RIVER_DISTRICTS_EXTRA_INFLUENCE_TOKEN_ATTACH_EWHO</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_BROADWAY</BuildingType>
+			<ModifierId>BROADWAY_ROCK_BAND_DISCOUNT_EWHO</ModifierId>
+		</Row>
+
+		<!--Modern-->
+		<Row>
+			<BuildingType>BUILDING_GOLDEN_GATE_BRIDGE</BuildingType>
+			<ModifierId>GOLDEN_GATE_BRIDGE_CITY_DISTRICTS_SCIENCE_ADJACENCY_AS_TOURISM_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GOLDEN_GATE_BRIDGE</BuildingType>
+			<ModifierId>GOLDEN_GATE_BRIDGE_CITY_DISTRICTS_PRODUCTION_ADJACENCY_AS_TOURISM_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GOLDEN_GATE_BRIDGE</BuildingType>
+			<ModifierId>GOLDEN_GATE_BRIDGE_CITY_DISTRICTS_CULTURE_ADJACENCY_AS_TOURISM_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GOLDEN_GATE_BRIDGE</BuildingType>
+			<ModifierId>GOLDEN_GATE_BRIDGE_CITY_DISTRICTS_GOLD_ADJACENCY_AS_TOURISM_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GOLDEN_GATE_BRIDGE</BuildingType>
+			<ModifierId>GOLDEN_GATE_BRIDGE_CITY_DISTRICTS_FAITH_ADJACENCY_AS_TOURISM_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GOLDEN_GATE_BRIDGE</BuildingType>
+			<ModifierId>GOLDEN_GATE_BRIDGE_SEA_CITY_GRANT_ROUTES_ATTACH_EWHO</ModifierId>
+		</Row>
+
+		
+	</BuildingModifiers>
+
+	<Modifiers>
+		<!--Classical-->
+		<Row>
+			<ModifierId>MACHU_PICCHU_COMMERCIAL_HUB_ADJUST_MOUNTAIN_GOLD_ATTACH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ATTACH_MODIFIER_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_INCA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_DISTRICT_IS_COMMERCIAL_HUB_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MACHU_PICCHU_COMMERCIAL_HUB_ADJUST_MOUNTAIN_GOLD_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>REQSET_PLOT_IS_MOUNTAIN_ADJACENT_TO_OWNER_EWHO</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>MACHU_PICCHU_THEATER_ADJUST_MOUNTAIN_CULTURE_ATTACH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ATTACH_MODIFIER_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_INCA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_DISTRICT_IS_THEATER_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MACHU_PICCHU_THEATER_ADJUST_MOUNTAIN_CULTURE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>REQSET_PLOT_IS_MOUNTAIN_ADJACENT_TO_OWNER_EWHO</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>MACHU_PICCHU_INDUSTRIAL_ZONE_ADJUST_MOUNTAIN_PRODUCTION_ATTACH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ATTACH_MODIFIER_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_INCA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_DISTRICT_IS_INDUSTRIAL_ZONE_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MACHU_PICCHU_INDUSTRIAL_ZONE_ADJUST_MOUNTAIN_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>REQSET_PLOT_IS_MOUNTAIN_ADJACENT_TO_OWNER_EWHO</SubjectRequirementSetId>
+		</Row>
+		<!--Medieval-->
+		<Row>
+			<ModifierId>MEENAKSHI_TEMPLE_APOSTLE_DISCOUNT_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_INDIA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MEENAKSHI_TEMPLE_RELIGIOUS_CIVILIAN_GARNT_PROVIDE_FAITH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_INDIA_EWHO</OwnerRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>UNIVERSITY_SANKORE_ADJUST_DESERT_CITY_SCIENCE_ATTACH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_MALI_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_DESERT_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>UNIVERSITY_SANKORE_ADJUST_DESERT_CITY_SCIENCE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>UNIVERSITY_SANKORE_ADJUST_DESERT_CITY_FAITH_ATTACH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_MALI_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_DESERT_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>UNIVERSITY_SANKORE_ADJUST_DESERT_CITY_FAITH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>HAGIA_SOPHIA_SIEGE_GRANT_BONUS_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_OTTOMAN_EWHO</OwnerRequirementSetId>
+		</Row>
+
+		<!--Industrial-->
+		<Row>
+			<ModifierId>PANAMA_CANAL_SEA_UNITS_EXTRA_MOVEMENT_US_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_AMERICA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQUIREMENTS_UNIT_SEA_DOMAIN</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>ORSZAGHAZ_RIVER_DISTRICTS_EXTRA_INFLUENCE_TOKEN_ATTACH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ATTACH_MODIFIER_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_HUNGARY_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLOT_ADJACENT_TO_RIVER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ORSZAGHAZ_RIVER_DISTRICTS_EXTRA_INFLUENCE_TOKEN_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_INFLUENCE_TOKEN</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+		</Row>
+
+		<Row>
+			<ModifierId>BROADWAY_ROCK_BAND_DISCOUNT_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_AMERICA_EWHO</OwnerRequirementSetId>
+		</Row>
+		
+		<!--Modern-->
+		<Row>
+			<ModifierId>GOLDEN_GATE_BRIDGE_CITY_DISTRICTS_SCIENCE_ADJACENCY_AS_TOURISM_EWHO</ModifierId>
+			<ModifierType>MODIFIER_CITY_DISTRICTS_ADJUST_TOURISM_ADJACENCY_YIELD_MOFIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_AMERICA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GATE_BRIDGE_CITY_DISTRICTS_PRODUCTION_ADJACENCY_AS_TOURISM_EWHO</ModifierId>
+			<ModifierType>MODIFIER_CITY_DISTRICTS_ADJUST_TOURISM_ADJACENCY_YIELD_MOFIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_AMERICA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GATE_BRIDGE_CITY_DISTRICTS_CULTURE_ADJACENCY_AS_TOURISM_EWHO</ModifierId>
+			<ModifierType>MODIFIER_CITY_DISTRICTS_ADJUST_TOURISM_ADJACENCY_YIELD_MOFIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_AMERICA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GATE_BRIDGE_CITY_DISTRICTS_GOLD_ADJACENCY_AS_TOURISM_EWHO</ModifierId>
+			<ModifierType>MODIFIER_CITY_DISTRICTS_ADJUST_TOURISM_ADJACENCY_YIELD_MOFIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_AMERICA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GATE_BRIDGE_CITY_DISTRICTS_FAITH_ADJACENCY_AS_TOURISM_EWHO</ModifierId>
+			<ModifierType>MODIFIER_CITY_DISTRICTS_ADJUST_TOURISM_ADJACENCY_YIELD_MOFIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_AMERICA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GATE_BRIDGE_SEA_CITY_GRANT_ROUTES_ATTACH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_AMERICA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLOT_IS_COASTAL_LAND_REQUIREMENTS_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GATE_BRIDGE_SEA_CITY_GRANT_ROUTES_EWHO</ModifierId>
+			<ModifierType>MODIFIER_GRANT_ROUTE_IN_RADIUS</ModifierType>
+		</Row>
+
+		
+		
+
+	</Modifiers>
+
+	<ModifierArguments>
+		<!--Classical-->
+		<Row>
+			<ModifierId>MACHU_PICCHU_COMMERCIAL_HUB_ADJUST_MOUNTAIN_GOLD_ATTACH_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MACHU_PICCHU_COMMERCIAL_HUB_ADJUST_MOUNTAIN_GOLD_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHU_PICCHU_COMMERCIAL_HUB_ADJUST_MOUNTAIN_GOLD_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHU_PICCHU_COMMERCIAL_HUB_ADJUST_MOUNTAIN_GOLD_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MACHU_PICCHU_THEATER_ADJUST_MOUNTAIN_CULTURE_ATTACH_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MACHU_PICCHU_THEATER_ADJUST_MOUNTAIN_CULTURE_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHU_PICCHU_THEATER_ADJUST_MOUNTAIN_CULTURE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHU_PICCHU_THEATER_ADJUST_MOUNTAIN_CULTURE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MACHU_PICCHU_INDUSTRIAL_ZONE_ADJUST_MOUNTAIN_PRODUCTION_ATTACH_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MACHU_PICCHU_INDUSTRIAL_ZONE_ADJUST_MOUNTAIN_PRODUCTION_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHU_PICCHU_INDUSTRIAL_ZONE_ADJUST_MOUNTAIN_PRODUCTION_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHU_PICCHU_INDUSTRIAL_ZONE_ADJUST_MOUNTAIN_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--Medieval-->
+		<Row>
+			<ModifierId>MEENAKSHI_TEMPLE_APOSTLE_DISCOUNT_EWHO</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_APOSTLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MEENAKSHI_TEMPLE_APOSTLE_DISCOUNT_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MEENAKSHI_TEMPLE_RELIGIOUS_CIVILIAN_GARNT_PROVIDE_FAITH_EWHO</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_MEENAKSHI_TEMPLE_RELIGIOUS_CIVILIAN_PROVIDE_FAITH_EWHO</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>UNIVERSITY_SANKORE_ADJUST_DESERT_CITY_SCIENCE_ATTACH_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>UNIVERSITY_SANKORE_ADJUST_DESERT_CITY_SCIENCE_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>UNIVERSITY_SANKORE_ADJUST_DESERT_CITY_SCIENCE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>UNIVERSITY_SANKORE_ADJUST_DESERT_CITY_SCIENCE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>UNIVERSITY_SANKORE_ADJUST_DESERT_CITY_FAITH_ATTACH_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>UNIVERSITY_SANKORE_ADJUST_DESERT_CITY_FAITH_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>UNIVERSITY_SANKORE_ADJUST_DESERT_CITY_FAITH_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>16</Value>
+		</Row>
+		<Row>
+			<ModifierId>UNIVERSITY_SANKORE_ADJUST_DESERT_CITY_FAITH_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>HAGIA_SOPHIA_SIEGE_GRANT_BONUS_EWHO</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_HAGIA_SOPHIA_SIEGE_STRENGTH_EWHO</Value>
+		</Row>
+
+		<!--Industrial-->
+		<Row>
+			<ModifierId>PANAMA_CANAL_SEA_UNITS_EXTRA_MOVEMENT_US_EWHO</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_SEA_UNITS_EXTRA_MOVEMENT_PANAMA_CANAL_EWHO</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>ORSZAGHAZ_RIVER_DISTRICTS_EXTRA_INFLUENCE_TOKEN_ATTACH_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>ORSZAGHAZ_RIVER_DISTRICTS_EXTRA_INFLUENCE_TOKEN_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORSZAGHAZ_RIVER_DISTRICTS_EXTRA_INFLUENCE_TOKEN_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>BROADWAY_ROCK_BAND_DISCOUNT_EWHO</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_ROCK_BAND</Value>
+		</Row>
+		<Row>
+			<ModifierId>BROADWAY_ROCK_BAND_DISCOUNT_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		
+		<!--Modern-->
+		<Row>
+			<ModifierId>GOLDEN_GATE_BRIDGE_CITY_DISTRICTS_SCIENCE_ADJACENCY_AS_TOURISM_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GATE_BRIDGE_CITY_DISTRICTS_SCIENCE_ADJACENCY_AS_TOURISM_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GATE_BRIDGE_CITY_DISTRICTS_PRODUCTION_ADJACENCY_AS_TOURISM_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GATE_BRIDGE_CITY_DISTRICTS_PRODUCTION_ADJACENCY_AS_TOURISM_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GATE_BRIDGE_CITY_DISTRICTS_CULTURE_ADJACENCY_AS_TOURISM_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GATE_BRIDGE_CITY_DISTRICTS_CULTURE_ADJACENCY_AS_TOURISM_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GATE_BRIDGE_CITY_DISTRICTS_GOLD_ADJACENCY_AS_TOURISM_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GATE_BRIDGE_CITY_DISTRICTS_GOLD_ADJACENCY_AS_TOURISM_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GATE_BRIDGE_CITY_DISTRICTS_FAITH_ADJACENCY_AS_TOURISM_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GATE_BRIDGE_CITY_DISTRICTS_FAITH_ADJACENCY_AS_TOURISM_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GATE_BRIDGE_SEA_CITY_GRANT_ROUTES_ATTACH_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_GATE_BRIDGE_SEA_CITY_GRANT_ROUTES_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GATE_BRIDGE_SEA_CITY_GRANT_ROUTES_EWHO</ModifierId>
+			<Name>RouteType</Name>
+			<Value>ROUTE_MODERN_ROAD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GATE_BRIDGE_SEA_CITY_GRANT_ROUTES_EWHO</ModifierId>
+			<Name>Radius</Name>
+			<Value>1</Value>
+		</Row>
+		
+
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_PLAYER_IS_INCA_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_MALI_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_OTTOMAN_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_HUNGARY_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		
+		<Row RequirementSetId="REQSET_PLOT_IS_MOUNTAIN_ADJACENT_TO_OWNER_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_INCA_EWHO" RequirementId="PLAYER_IS_INCA_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_INCA_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+		
+		<Row RequirementSetId="REQSET_PLAYER_IS_MALI_EWHO" RequirementId="PLAYER_IS_MALI_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_MALI_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+		
+		<Row RequirementSetId="REQSET_PLAYER_IS_OTTOMAN_EWHO" RequirementId="PLAYER_IS_OTTOMAN_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_OTTOMAN_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+
+		<Row RequirementSetId="REQSET_PLAYER_IS_HUNGARY_EWHO" RequirementId="PLAYER_IS_HUNGARY_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_HUNGARY_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+
+		<Row RequirementSetId="REQSET_PLOT_IS_MOUNTAIN_ADJACENT_TO_OWNER_EWHO" RequirementId="REQUIRES_PLOT_ADJACENT_TO_OWNER_EWHO"/>
+		<Row RequirementSetId="REQSET_PLOT_IS_MOUNTAIN_ADJACENT_TO_OWNER_EWHO" RequirementId="PLOT_IS_MOUNTAIN"/>
+		
+	</RequirementSetRequirements>
+</GameData>

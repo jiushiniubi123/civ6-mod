@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- JAPANESE -->
+    <Replace Tag="LOC_CQUI_NAME" Language="ja_JP">
+      <Text>CQUI</Text>
+    </Replace>
+
+    <!-- MESSAGES -->
+    <Replace Tag="LOC_CQUI_CIVIC_MESSAGE_S" Language="ja_JP">
+      <Text></Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_TECH_MESSAGE_S" Language="ja_JP">
+      <Text></Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_HALF_MESSAGE_E" Language="ja_JP">
+      <Text>の研究がブーストの最大値直前まで到達しました。</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_FINISH_MESSAGE_E" Language="ja_JP">
+      <Text>の研究が完了しました。</Text>
+    </Replace>
+
+    <!-- CITY PANEL -->
+    <Replace Tag="LOC_CQUI_CITY_ENTERTAINMENT" Language="ja_JP">
+      <Text>娯楽</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_CITY_FROM_POPULATION" Language="ja_JP">
+      <Text>(人口から)</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_CITY_RELIGIOUS_MINORITIES" Language="ja_JP">
+      <Text>少数宗教</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_CITY_PILLAGED" Language="ja_JP">
+      <Text>[COLOR:StatBadCS](略奪)[ENDCOLOR]</Text>
+    </Replace>
+
+    <!-- CITY VIEW -->
+    <Replace Tag="LOC_HUD_CITY_NEXT_PLOT" Language="ja_JP">
+      <Text>次の国境拡張でこのタイルを取得する。</Text>
+    </Replace>
+
+    <!-- POPUPS -->
+    <Replace Tag="LOC_CQUI_GREAT_PERSON_PROGRESS" Language="ja_JP">
+      <Text>進捗:</Text>
+    </Replace>
+
+    <!-- ActionPanel -->
+    <Replace Tag="LOC_CQUI_ACTION_PANEL_ENCAMPMENT_RANGED_ATTACK" Language="ja_JP">
+      <Text>兵営の遠隔攻撃</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_ACTION_PANEL_ENCAMPMENT_RANGED_ATTACK_TOOLTIP" Language="ja_JP">
+      <Text>兵営から遠隔攻撃が可能</Text>
+    </Replace>
+
+    <!-- Policyreminderpopup -->
+    <Replace Tag="LOC_POLICY_REMINDER_TITLE" Language="ja_JP">
+      <Text>政策の通知</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_REMINDER_TEXT" Language="ja_JP">
+      <Text>新たな政策が解禁されました。</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_REMINDER_ACTION_BUTTON" Language="ja_JP">
+      <Text>政策の変更</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_REMINDER_ACTION_BUTTON_TOOLTIP" Language="ja_JP">
+      <Text>このターンは政策を変更できます。</Text>
+    </Replace>
+
+    <!-- Diplomacy View -->
+    <Replace Tag="LOC_CQUI_DIPLOMACY_VIEW_TOTAL_SCORE_PER_TURN_TEXT" Language="ja_JP">
+      <Text>合計</Text>
+    </Replace>
+
+	<!-- #11 Spy Info -->
+    <Replace Tag="LOC_CUI_SI_SPY_AVAILABLE" Language="ja_JP">
+        <Text>[ICON_Unit]スパイ待機中: {1_num}</Text>
+    </Replace>
+    <Replace Tag="LOC_CUI_SI_SPY_CAPACITY" Language="ja_JP">
+        <Text>[ICON_Unit]スパイ保有枠: {1_num}</Text>
+    </Replace>
+	
+	<!-- Diplomacy Deal View -->
+	<Replace Tag="LOC_IDS_DEAL_TERMS" Language="ja_JP">
+		<Text>取引条項</Text>
+	</Replace>
+	<Replace Tag="LOC_IDS_DEAL_TRADE" Language="ja_JP">
+		<Text>[COLOR_Red]取引[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="LOC_IDS_DEAL_SUZERAIN" Language="ja_JP">
+		<Text>[COLOR_Civ6Blue]輸入[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="LOC_IDS_DEAL_UNTRADEABLE" Language="ja_JP">
+		<Text>取引不可</Text>
+	</Replace>
+	<Replace Tag="LOC_IDS_DEAL_DUPLICATE" Language="ja_JP">
+		<Text>両国所持</Text>
+	</Replace>
+    <Replace Tag="LOC_CUI_DP_GOLD_EDIT_TOOLTIP" Language="ja_JP">
+        <Text>左クリックで追加 / 右クリックで撤回</Text>
+    </Replace>
+    <Replace Tag="LOC_CUI_DP_THEY_HAVE_ITEM_TOOLTIP" Language="ja_JP">
+        <Text>相手が所有している</Text>
+    </Replace>
+    <Replace Tag="LOC_CUI_DP_WE_HAVE_ITEM_TOOLTIP" Language="ja_JP">
+        <Text>自分が所有している</Text>
+    </Replace>
+    <Replace Tag="LOC_CUI_DP_WE_HAVE_ONLY_ONE_TOOLTIP" Language="ja_JP">
+        <Text>1つしか所有していない</Text>
+    </Replace>
+	
+	<!-- Extended variables for world ranking from 20 to 30 players -->
+	<Replace Tag="LOC_WORLD_RANKINGS_21_PLACE" Language="ja_JP">
+		<Text>21位</Text>
+	</Replace>
+	<Replace Tag="LOC_WORLD_RANKINGS_22_PLACE" Language="ja_JP">
+		<Text>22位</Text>
+	</Replace>
+	<Replace Tag="LOC_WORLD_RANKINGS_23_PLACE" Language="ja_JP">
+		<Text>23位</Text>
+	</Replace>
+	<Replace Tag="LOC_WORLD_RANKINGS_24_PLACE" Language="ja_JP">
+		<Text>24位</Text>
+	</Replace>
+	<Replace Tag="LOC_WORLD_RANKINGS_25_PLACE" Language="ja_JP">
+		<Text>25位</Text>
+	</Replace>
+	<Replace Tag="LOC_WORLD_RANKINGS_26_PLACE" Language="ja_JP">
+		<Text>26位</Text>
+	</Replace>
+	<Replace Tag="LOC_WORLD_RANKINGS_27_PLACE" Language="ja_JP">
+		<Text>27位</Text>
+	</Replace>
+	<Replace Tag="LOC_WORLD_RANKINGS_28_PLACE" Language="ja_JP">
+		<Text>28位</Text>
+	</Replace>
+	<Replace Tag="LOC_WORLD_RANKINGS_29_PLACE" Language="ja_JP">
+		<Text>29位</Text>
+	</Replace>
+	<Replace Tag="LOC_WORLD_RANKINGS_30_PLACE" Language="ja_JP">
+		<Text>30位</Text>
+	</Replace>
+	
+  </LocalizedText>
+</GameData>

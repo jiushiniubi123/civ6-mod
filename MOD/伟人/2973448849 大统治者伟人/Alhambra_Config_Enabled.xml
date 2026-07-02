@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Modifiers>
+		<Row>
+			<ModifierId>PLATI_GRANT_GREAT_SOVEREIGN</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_GREAT_PERSON_CLASS_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_UNLOCK_ALCAZAR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_VALID_IMPROVEMENT</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>PLATI_GRANT_GREAT_SOVEREIGN</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GreatSovereigns</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_GRANT_GREAT_SOVEREIGN</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_UNLOCK_ALCAZAR</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_ALCAZAR</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

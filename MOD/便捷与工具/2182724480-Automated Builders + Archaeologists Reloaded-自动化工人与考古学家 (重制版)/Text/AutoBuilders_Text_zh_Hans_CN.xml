@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AutoBuilders_Text_zh_Hans_CN -->
+<!-- Author: MadManCam -->
+<!-- DateCreated: 5/27/2018 5:38:23 AM -->
+<GameData>
+	<LocalizedText>
+
+		<!-- Simplified Chinese -->
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_MINIBAR_TITLE" Language="zh_Hans_CN">
+			<Text>自动化单位</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_AUTOMATE_TOOLTIP" Language="zh_Hans_CN">
+			<Text>自动化操作</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STOP_AUTOMATE_TOOLTIP" Language="zh_Hans_CN">
+			<Text>停止自动化</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_AUTOMATE_ALL_TOOLTIP" Language="zh_Hans_CN">
+			<Text>所有建造者全部自动化</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STOP_AUTOMATE_ALL_TOOLTIP" Language="zh_Hans_CN">
+			<Text>所有建造者停止自动化</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_IMPROVE_STRATEGIC" Language="zh_Hans_CN">
+			<Text>正在改良战略资源：</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_IMPROVE_LUXURY" Language="zh_Hans_CN">
+			<Text>正在改良奢侈资源：</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_IMPROVE_BONUS" Language="zh_Hans_CN">
+			<Text>正在改良加成资源：</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_REMOVE_FEATURE" Language="zh_Hans_CN">
+			<Text>正在移除地貌：</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_HARVEST_RESOURCE" Language="zh_Hans_CN">
+			<Text>正在收割资源：</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_REPAIR" Language="zh_Hans_CN">
+			<Text>正在修复改良：</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_REPAIR_ROAD" Language="zh_Hans_CN">
+			<Text>正在修复道路。</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_BUILD_IMPROVEMENT" Language="zh_Hans_CN">
+			<Text>正在建造改良：</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_BUILD_UNIQUE_IMPROVEMENT" Language="zh_Hans_CN">
+			<Text>正在建造独特改良：</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_SLEEP" Language="zh_Hans_CN">
+			<Text>待机中。</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_WITH" Language="zh_Hans_CN">
+			<Text>和</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_FOR" Language="zh_Hans_CN">
+			<Text>为</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_EXCAVATE" Language="zh_Hans_CN">
+			<Text>正在发掘遗物。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_IMPROVE_STRATEGIC_NAME" Language="zh_Hans_CN">
+			<Text>改良战略资源：</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_IMPROVE_LUXURY_NAME" Language="zh_Hans_CN">
+			<Text>改良奢侈资源：</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_IMPROVE_BONUS_NAME" Language="zh_Hans_CN">
+			<Text>改良加成资源：</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_REMOVE_FEATURE_NAME" Language="zh_Hans_CN">
+			<Text>移除地貌：</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_HARVEST_RESOURCE_NAME" Language="zh_Hans_CN">
+			<Text>收割资源：</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_REPAIR_NAME" Language="zh_Hans_CN">
+			<Text>修复改良：</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_REPAIR_ROAD_NAME" Language="zh_Hans_CN">
+			<Text>修复道路：</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_BUILD_IMPROVEMENT_NAME" Language="zh_Hans_CN">
+			<Text>建造改良：</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_BUILD_UNIQUE_IMPROVEMENT_NAME" Language="zh_Hans_CN">
+			<Text>建造独特改良：</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_EXCAVATE_NAME" Language="zh_Hans_CN">
+			<Text>发掘遗物：</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CNO_AUTOBUILDER_NAME" Language="zh_Hans_CN">
+			<Text>自动化单位</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_AUTHOR_NAME" Language="zh_Hans_CN">
+			<Text>By MadManCam</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_MINIBAR_SUBTITLE" Language="zh_Hans_CN">
+			<Text>控制面板</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_MINIBAR_TOGGLE_SETTINGS" Language="zh_Hans_CN">
+			<Text>设置</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_MINIBAR_TOGGLE_SETTINGS_TOOLTIP" Language="zh_Hans_CN">
+			<Text>打开自动化单位 Mod 设置</Text>
+		</Replace>
+
+		<!-- Settings Menu Text -->
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL" Language="zh_Hans_CN">
+			<Text>通用选项</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES" Language="zh_Hans_CN">
+			<Text>选择优先级</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PLOT_PRIORITIES" Language="zh_Hans_CN">
+			<Text>地块优先级</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_GENERAL_HIDDEN" Language="zh_Hans_CN">
+			<Text>隐藏选项</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_REMOVE_FEATURES" Language="zh_Hans_CN">
+			<Text>建造者移除地貌：</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_REMOVE_FEATURES_TOOLTIP" Language="zh_Hans_CN">
+			<Text>如果未勾选，建造者永不移除地貌（除非是在改良战略、奢侈资源时）。</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_HARVEST_RESOURCES" Language="zh_Hans_CN">
+			<Text>建造者收割资源：</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_HARVEST_RESOURCES_TOOLTIP" Language="zh_Hans_CN">
+			<Text>如果未勾选，建造者永不收割资源。</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_FARMS_OUT_OF_RANGE" Language="zh_Hans_CN">
+			<Text>建造者在城市4格内建造农场：</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_FARMS_OUT_OF_RANGE_TOOLTIP" Language="zh_Hans_CN">
+			<Text>如果勾选，建造者会在城市4格内建造农场（如果在城市3格内有相邻的农场能获得加成的话）。</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_ARCH_EXPLORE" Language="zh_Hans_CN">
+			<Text>考古学家进入战争迷雾发掘遗物：</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_ARCH_EXPLORE_TOOLTIP" Language="zh_Hans_CN">
+			<Text>如果未勾选，考古学家只会进入你已经完全探索的地区，不会进入完全的战争迷雾。</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_ARCH_ENTER_BORDERS" Language="zh_Hans_CN">
+			<Text>考古学家进入其他玩家国境：</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_ARCH_ENTER_BORDERS_TOOLTIP" Language="zh_Hans_CN">
+			<Text>如果勾选，考古学家会进入其他玩家的国境尝试发掘遗物。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_RESTORE_DEFAULTS" Language="zh_Hans_CN">
+			<Text>还原默认</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_RESTORE_DEFAULTS_TOOLTIP" Language="zh_Hans_CN">
+			<Text>以默认设置覆盖所有设置。</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_RESTORE_PRIORITIES" Language="zh_Hans_CN">
+			<Text>还原优先级</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_RESTORE_PRIORITIES_TOOLTIP" Language="zh_Hans_CN">
+			<Text>只将选择优先级还原成默认值。</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_REMINDER" Language="zh_Hans_CN">
+			<Text>记住：自动单位设置仅在游戏运行中生效，读档即重置！[NEWLINE]若你想更改默认设置，你可查看并修改下列文件：[NEWLINE][MOD INSTALL DIRECTORY]/2182724480/AutoBuilders_Settings.sql</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_ADVANCED" Language="zh_Hans_CN">
+			<Text>高级</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_MAX_UNIQUES_PERCITY" Language="zh_Hans_CN">
+			<Text>每城市最大独特改良：</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_MAX_UNIQUES_PERCITY_TOOLTIP" Language="zh_Hans_CN">
+			<Text>对每一种独特改良来说，建造者只会在每个城市周围建造最多这么多。</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_MAX_UNIQUES_EVER" Language="zh_Hans_CN">
+			<Text>全国最大独特改良：</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_MAX_UNIQUES_EVER_TOOLTIP" Language="zh_Hans_CN">
+			<Text>对每一种独特改良来说，建造者只会在你的国家中建造最多这么多。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_DISTANCE" Language="zh_Hans_CN">
+			<Text>距离调整器</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_SCORING" Language="zh_Hans_CN">
+			<Text>基础行动分数</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_PRIORITIES" Language="zh_Hans_CN">
+			<Text>地块优先级分数</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_MAX_UNIQUES" Language="zh_Hans_CN">
+			<Text>独特改良限制</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_MAX_UNIQUES_PER_CITY" Language="zh_Hans_CN">
+			<Text>（每城市最大）</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_MAX_UNIQUES_EVER" Language="zh_Hans_CN">
+			<Text>（总计最大）</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_IMPROVEMENT_SCORING" Language="zh_Hans_CN">
+			<Text>改良优先级</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_UNIQUES_IMPROVEMENT_SCORING" Language="zh_Hans_CN">
+			<Text>改良优先级（独特）</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_DISTANCE_TOOLTIP" Language="zh_Hans_CN">
+			<Text>根据与单位距离，而在地块上调整优先级得分。</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_SCORING_TOOLTIP" Language="zh_Hans_CN">
+			<Text>基于能在地块上采取的行动而给予的基本优先级得分。</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_PRIORITIES_TOOLTIP" Language="zh_Hans_CN">
+			<Text>单位会选择能执行的优先级最高的行动。</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_MAX_UNIQUES_TOOLTIP" Language="zh_Hans_CN">
+			<Text>为独特改良设置最大建造数量（覆盖此改良的默认值）。</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_IMPROVEMENT_SCORING_TOOLTIP" Language="zh_Hans_CN">
+			<Text>在同一格可建造的改良中，优先级最高的改良会被建造。</Text>
+		</Replace>
+
+	</LocalizedText>
+</GameData>

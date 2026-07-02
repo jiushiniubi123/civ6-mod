@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mod_Local -->
+<!-- Author: aall1 -->
+<!-- DateCreated: 2/25/2019 4:48:27 PM -->
+<GameData>
+	<EnglishText>
+		<Row Tag="LOC_DISTRICT_MOD_CANAL_GOLD">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Canal district.</Text>
+		</Row>
+	</EnglishText>
+	<LocalizedText>
+		<Replace Tag="LOC_DISTRICT_MOD_CANAL_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Gold] 金币来自相邻运河区域。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

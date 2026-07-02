@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+  <LocalizedText>
+    <!-- The name of the building. -->
+    <Row Tag="LOC_BUILDING_CMONUMENT_NAME" Language="en_US">
+      <Text>Cheats Monument</Text>
+    </Row>
+
+    <!-- The description of the building, used in various places. -->
+    <Row Tag="LOC_BUILDING_CMONUMENT_DESCRIPTION" Language="en_US">
+      <Text>Adds many other civilization traits for the owner civilization!</Text>
+    </Row>
+
+    <!-- Pedia text (historical context) about the new building. -->
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_CMONUMENT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+      <Text>A long long time ago in a place not so far, a great building was created that gives it's owner civilization many traits of other civilizations...</Text>
+    </Row>
+  </LocalizedText>
+</GameData>

@@ -1,0 +1,3 @@
+UPDATE GlobalParameters
+SET VALUE=3
+WHERE NAME='CITY_MIN_RANGE';

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Persia_Expansion1 -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/20/2023 11:48:07 AM -->
+<GameData>
+	<BuildingModifiers>
+		<!--摩索拉斯王陵墓-->
+		<Row>
+			<BuildingType>BUILDING_HALICARNASSUS_MAUSOLEUM</BuildingType>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_GIVE_GOVERNOR_POINTS</ModifierId>
+		</Row>
+
+	</BuildingModifiers>
+
+	<Modifiers>
+		<!--摩索拉斯王陵墓-->
+		<Row>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_GIVE_GOVERNOR_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GOVERNOR_POINTS</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_PERSIA_EWHO</OwnerRequirementSetId>
+		</Row>
+
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_GIVE_GOVERNOR_POINTS</ModifierId>
+			<Name>Delta</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	
+</GameData>

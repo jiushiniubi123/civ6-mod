@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GreatSovereigns -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_SIXTEENTH" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SIXTEENTH"
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_SIXTEENTH_NAME"
+			 GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns"
+			 EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="1"
+			 ActionRequiresCompletedDistrictType="DISTRICT_GOVERNMENT"
+			 ActionEffectTextOverride="LOC_GREATPERSON_PLATI_SIXTEENTH_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SIXTEENTH" ModifierId="GREAT_PLATI_RAMKH_AMENITY_SCIENTIFIC" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SIXTEENTH" ModifierId="GREAT_PLATI_RAMKH_AMENITY_MILITARISTIC" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SIXTEENTH" ModifierId="GREAT_PLATI_RAMKH_AMENITY_RELIGIOUS" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SIXTEENTH" ModifierId="GREAT_PLATI_RAMKH_AMENITY_TRADE" 			AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SIXTEENTH" ModifierId="GREAT_PLATI_RAMKH_AMENITY_CULTURAL" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SIXTEENTH" ModifierId="GREAT_PLATI_RAMKH_AMENITY_INDUSTRIAL" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row ModifierId="GREAT_PLATI_RAMKH_AMENITY_CULTURAL" 		ModifierType="MODIFIER_PLAYER_CITIES_ADD_POPULATION" RunOnce="true" Permanent="true"	SubjectRequirementSetId="CULTURAL_SUZERAIN_1_REQUIREMENTS" />
+		<Row ModifierId="GREAT_PLATI_RAMKH_AMENITY_INDUSTRIAL" 		ModifierType="MODIFIER_PLAYER_CITIES_ADD_POPULATION" RunOnce="true" Permanent="true"	SubjectRequirementSetId="INDUSTRIAL_SUZERAIN_1_REQUIREMENTS" />
+		<Row ModifierId="GREAT_PLATI_RAMKH_AMENITY_MILITARISTIC" 	ModifierType="MODIFIER_PLAYER_CITIES_ADD_POPULATION" RunOnce="true" Permanent="true"	SubjectRequirementSetId="MILITARISTIC_SUZERAIN_1_REQUIREMENTS" />
+		<Row ModifierId="GREAT_PLATI_RAMKH_AMENITY_RELIGIOUS" 		ModifierType="MODIFIER_PLAYER_CITIES_ADD_POPULATION" RunOnce="true" Permanent="true"	SubjectRequirementSetId="RELIGIOUS_SUZERAIN_1_REQUIREMENTS" />
+		<Row ModifierId="GREAT_PLATI_RAMKH_AMENITY_SCIENTIFIC" 		ModifierType="MODIFIER_PLAYER_CITIES_ADD_POPULATION" RunOnce="true" Permanent="true"	SubjectRequirementSetId="SCIENTIFIC_SUZERAIN_1_REQUIREMENTS" />
+		<Row ModifierId="GREAT_PLATI_RAMKH_AMENITY_TRADE" 			ModifierType="MODIFIER_PLAYER_CITIES_ADD_POPULATION" RunOnce="true" Permanent="true"	SubjectRequirementSetId="TRADE_SUZERAIN_1_REQUIREMENTS" />
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="GREAT_PLATI_RAMKH_AMENITY_CULTURAL" 		Name="Amount" Value="1" />
+		<Row ModifierId="GREAT_PLATI_RAMKH_AMENITY_INDUSTRIAL" 		Name="Amount" Value="1" />
+		<Row ModifierId="GREAT_PLATI_RAMKH_AMENITY_MILITARISTIC" 	Name="Amount" Value="1" />
+		<Row ModifierId="GREAT_PLATI_RAMKH_AMENITY_RELIGIOUS" 		Name="Amount" Value="1" />
+		<Row ModifierId="GREAT_PLATI_RAMKH_AMENITY_SCIENTIFIC" 		Name="Amount" Value="1" />
+		<Row ModifierId="GREAT_PLATI_RAMKH_AMENITY_TRADE" 			Name="Amount" Value="1" />
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREAT_PLATI_RAMKH_AMENITY_SCIENTIFIC" Context="Summary" Text="LOC_GREATPERSON_PLATI_SIXTEENTH_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

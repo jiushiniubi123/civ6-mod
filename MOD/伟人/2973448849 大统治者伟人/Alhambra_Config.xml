@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Parameters>
+		<Row ParameterId="PlatiAlhambraRework" Name="LOC_GAME_ALHAMBRA_REWORK_NAME" Description="LOC_GAME_ALHAMBRA_REWORK_DESC" Domain="bool" DefaultValue="0" ConfigurationGroup="Game" ConfigurationId="PlatiAlhambraRework" GroupId="AdvancedOptions" Visible="1" SortIndex="2001"/>
+	</Parameters>
+</GameInfo>

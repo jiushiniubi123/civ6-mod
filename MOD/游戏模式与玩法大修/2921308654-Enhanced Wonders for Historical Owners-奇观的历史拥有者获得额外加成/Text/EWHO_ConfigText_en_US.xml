@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_ConfigText_en_US -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/22/2023 10:15:45 AM -->
+<GameData>
+	
+	<LocalizedText>
+
+		<Replace Tag="LOC_GAMEMODE_EWHOHUMANONLY_NAME" Language="en_US">
+			<Text>EWHO: Only Human Gain Buff</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_EWHOHUMANONLY_DESC" Language="en_US">
+			<Text>"EWHO" means "Enhanced Wonders for Historical Owners". With this game mode on, only human players can receive bonuses from their historically-owned Wonders.[NEWLINE][NEWLINE]Check the in-game pedia for more information about bonuses that can be earned by human players.</Text>
+		</Replace>
+
+	</LocalizedText>
+	
+</GameData>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f24e3091-5bc5-4f28-bf57-3780e4d53af7" version="1">
+  <Properties>
+    <Name>LOC_RESCUE_PRODUCTION_F24E3091_NAME</Name>
+    <Description>LOC_RESCUE_PRODUCTION_F24E3091_DESCRIPTION</Description>
+    <Created>1677308543</Created>
+    <Teaser>LOC_RESCUE_PRODUCTION_F24E3091_TEASER</Teaser>
+    <Authors>C1sen</Authors>
+    <SpecialThanks>LOC_RESCUE_PRODUCTION_F24E3091_SPECIALTHANKS</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="LOC_RESCUE_PRODUCTION_F24E3091_NAME">
+      <en_US>Purchase Returns Production</en_US>
+      <zh_Hans_CN>购买返还生产力</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_RESCUE_PRODUCTION_F24E3091_TEASER">
+      <en_US>Return used Production when purchasing.</en_US>
+      <zh_Hans_CN>购买时返还已花费的生产力。</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_RESCUE_PRODUCTION_F24E3091_DESCRIPTION">
+      <en_US>In the original Gameplay, when purchasing Districts or Buildings, those Production that has been spent will be wasted.[NEWLINE]This mod returns certain percetage of Gold or Faith based on spent Production when purchasing Districts or Buildings.[NEWLINE]This mod does not reduce price, you still have to prepare enough Gold or Faith when purchasing!</en_US>
+      <zh_Hans_CN>在原版游戏中购买区域或建筑时，在此区域或建筑上已花费的生产力将被浪费。[NEWLINE]该模组在购买区域或建筑时，按照已花费的生产力返还一定比例的金币或信仰值。[NEWLINE]该模组不会降低区域或建筑的购买价格，你仍需要足够的金币或信仰值才能购买！</zh_Hans_CN>
+     </Text>
+    <Text id="LOC_RESCUE_PRODUCTION_F24E3091_SPECIALTHANKS">
+      <en_US>Nea_baraja[NEWLINE]Konomi[NEWLINE]UzukiShimamura[NEWLINE]www139154[NEWLINE]Hemmelfort</en_US>
+      <zh_Hans_CN>nea_baraja[NEWLINE]榊野木乃实[NEWLINE]UzukiShimamura卯月[NEWLINE]www139154[NEWLINE]Hemmelfort</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <InGameActions>
+    <AddUserInterfaces id="RescueProductionUI">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>RescueProduction_UI.xml</File>
+    </AddUserInterfaces>
+    <AddGameplayScripts id="RescueProductionGameplay">
+      <File>RescueProduction_Gameplay.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>RescueProduction_Gameplay.lua</File>
+    <File>RescueProduction_UI.lua</File>
+    <File>RescueProduction_UI.xml</File>
+  </Files>
+</Mod>

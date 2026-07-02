@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_HAKAM_CATHEDRAL" 	PrereqBuilding="BUILDING_JNR_CANDI"/>
+		<Row Building="BUILDING_HAKAM_CATHEDRAL" 	PrereqBuilding="BUILDING_JNR_DAOGUAN"/>
+		<Row Building="BUILDING_HAKAM_CATHEDRAL" 	PrereqBuilding="BUILDING_JNR_JINJA"/>
+		<Row Building="BUILDING_HAKAM_CATHEDRAL" 	PrereqBuilding="BUILDING_JNR_KHALWAT"/>
+		<Row Building="BUILDING_HAKAM_CATHEDRAL" 	PrereqBuilding="BUILDING_JNR_MANDIR"/>
+		<Row Building="BUILDING_HAKAM_CATHEDRAL" 	PrereqBuilding="BUILDING_JNR_MBARI"/>
+		<Row Building="BUILDING_HAKAM_CATHEDRAL" 	PrereqBuilding="BUILDING_JNR_PERIPTEROS"/>
+		<Row Building="BUILDING_HAKAM_CATHEDRAL" 	PrereqBuilding="BUILDING_JNR_SOBOR"/>
+		<Row Building="BUILDING_HAKAM_CATHEDRAL" 	PrereqBuilding="BUILDING_JNR_TZACUALLI"/>
+		<Row Building="BUILDING_HAKAM_MOSQUE" 	PrereqBuilding="BUILDING_JNR_CANDI"/>
+		<Row Building="BUILDING_HAKAM_MOSQUE" 	PrereqBuilding="BUILDING_JNR_DAOGUAN"/>
+		<Row Building="BUILDING_HAKAM_MOSQUE" 	PrereqBuilding="BUILDING_JNR_JINJA"/>
+		<Row Building="BUILDING_HAKAM_MOSQUE" 	PrereqBuilding="BUILDING_JNR_KHALWAT"/>
+		<Row Building="BUILDING_HAKAM_MOSQUE" 	PrereqBuilding="BUILDING_JNR_MANDIR"/>
+		<Row Building="BUILDING_HAKAM_MOSQUE" 	PrereqBuilding="BUILDING_JNR_MBARI"/>
+		<Row Building="BUILDING_HAKAM_MOSQUE" 	PrereqBuilding="BUILDING_JNR_PERIPTEROS"/>
+		<Row Building="BUILDING_HAKAM_MOSQUE" 	PrereqBuilding="BUILDING_JNR_SOBOR"/>
+		<Row Building="BUILDING_HAKAM_MOSQUE" 	PrereqBuilding="BUILDING_JNR_TZACUALLI"/>
+		<Row Building="BUILDING_HAKAM_SYNAGOGE" 	PrereqBuilding="BUILDING_JNR_CANDI"/>
+		<Row Building="BUILDING_HAKAM_SYNAGOGE" 	PrereqBuilding="BUILDING_JNR_DAOGUAN"/>
+		<Row Building="BUILDING_HAKAM_SYNAGOGE" 	PrereqBuilding="BUILDING_JNR_JINJA"/>
+		<Row Building="BUILDING_HAKAM_SYNAGOGE" 	PrereqBuilding="BUILDING_JNR_KHALWAT"/>
+		<Row Building="BUILDING_HAKAM_SYNAGOGE" 	PrereqBuilding="BUILDING_JNR_MANDIR"/>
+		<Row Building="BUILDING_HAKAM_SYNAGOGE" 	PrereqBuilding="BUILDING_JNR_MBARI"/>
+		<Row Building="BUILDING_HAKAM_SYNAGOGE" 	PrereqBuilding="BUILDING_JNR_PERIPTEROS"/>
+		<Row Building="BUILDING_HAKAM_SYNAGOGE" 	PrereqBuilding="BUILDING_JNR_SOBOR"/>
+		<Row Building="BUILDING_HAKAM_SYNAGOGE" 	PrereqBuilding="BUILDING_JNR_TZACUALLI"/>
+	</BuildingPrereqs>
+</GameData>

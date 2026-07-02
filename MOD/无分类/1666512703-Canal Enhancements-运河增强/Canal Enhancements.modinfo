@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="01ebffa9-f893-4ec3-9a36-30f0c2f5f388" version="1">
+  <Properties>
+    <Name>Canal Enhancements</Name>
+    <Description>This Mod enhances the canal district in the game.</Description>
+    <Teaser>This Mod enhances the canal district in the game.</Teaser>
+    <Authors>Windfly</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="DistrictData">
+      <Properties>
+        <LoadOrder>50</LoadOrder>
+      </Properties>
+      <File>Mod_District.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>50</LoadOrder>
+      </Properties>
+      <File>Mod_Local.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Mod_District.xml</File>
+    <File>Mod_Local.xml</File>
+  </Files>
+</Mod>

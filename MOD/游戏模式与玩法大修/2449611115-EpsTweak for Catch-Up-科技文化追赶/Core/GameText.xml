@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="EPSTWEAK_CATCHUP_MESSAGE_NAME" Language="en_US"><Text>Catch-Up</Text></Row>
+		<Row Tag="EPSTWEAK_CATCHUP_MESSAGE_TEXT" Language="en_US"><Text>你获得了 {1_name} 提升因为 其他{2_count} 玩家完成了研究.</Text></Row>
+		
+		<Row Tag="LOC_TRAIT_LEADER_GRAND_EMBASSY_EPSTWEAK" Language="en_US"><Text>国际贸易路线+1 [ICON_SCIENCE] 科学和 [ICON_CULTURE] 文化。</Text></Row>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="02a30b76-7b13-4937-b72f-5a949bb56b13" version="3">
+  <Properties>
+    <Name>City Roads</Name>
+    <Description>Improvements by builders create roads.</Description>
+    <Authors>AOM</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <AddGameplayScripts id="NewAction">
+      <File>AOM_CityRoads.lua</File>
+    </AddGameplayScripts>
+    <AddGameplayScripts id="Modified_CityRoads" criteria="Expansion2">
+      <Properties>
+          <LoadOrder>15905</LoadOrder>
+      </Properties>
+      <File>ThirdParty/CityRoads/Modified_CityRoads.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>AOM_CityRoads.lua</File>
+    <File>ThirdParty/CityRoads/Modified_CityRoads.lua</File>
+  </Files>
+</Mod>

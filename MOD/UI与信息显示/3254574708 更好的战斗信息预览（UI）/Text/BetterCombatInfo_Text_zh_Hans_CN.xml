@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BetterCombatInfo_Text_zh_Hans_CN -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 5/21/2024 12:09:46 AM -->
+<GameData>
+	<LocalizedText>
+
+		<!--Strength-->
+		<Replace Tag="LOC_HUD_UNIT_PANEL_OUTCOME_STRENGTH_DIFFERENCE_POSITIVE" Language="zh_Hans_CN">
+			<Text>[COLOR_FLOAT_CULTURE]+{1_Num}[ENDCOLOR][ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNIT_PANEL_OUTCOME_STRENGTH_DIFFERENCE_NEGATIVE" Language="zh_Hans_CN">
+			<Text>[COLOR_Civ6Red]{1_Num}[ENDCOLOR][ICON_Strength]</Text>
+		</Replace>
+		
+		<!--Results-->
+		<Replace Tag="LOC_HUD_UNIT_PANEL_OUTCOME_POSSIBLE_RESULT" Language="zh_Hans_CN">
+			<Text>您的{1_UnitName}可能造成[COLOR_GREEN]{2_MinNum}~{3_MaxNum}[ENDCOLOR]伤害。</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNIT_PANEL_OUTCOME_POSSIBLE_RESULT_REVERSE" Language="zh_Hans_CN">
+			<Text>您的{1_UnitName}可能受到[COLOR_FLOAT_MILITARY]{2_MinNum}~{3_MaxNum}[ENDCOLOR]伤害。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_HUD_UNIT_PANEL_OUTCOME_JUDGEMENT_ATTACKER_LIVE" Language="zh_Hans_CN">
+			<Text>战斗后您的{1_UnitName}不会死亡。</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNIT_PANEL_OUTCOME_JUDGEMENT_ATTACKER_POSSIBLE_DIE" Language="zh_Hans_CN">
+			<Text>战斗后您的{1_UnitName}[COLOR_Civ6Red]有可能死亡[ENDCOLOR]！</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNIT_PANEL_OUTCOME_JUDGEMENT_ATTACKER_DIE" Language="zh_Hans_CN">
+			<Text>战斗后您的{1_UnitName}[COLOR_Civ6Red]必然死亡[ENDCOLOR]！</Text>
+		</Replace>
+
+		<Replace Tag="LOC_HUD_UNIT_PANEL_OUTCOME_JUDGEMENT_DEFENDER_LIVE" Language="zh_Hans_CN">
+			<Text>战斗后敌方的{1_UnitName}不会死亡。</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNIT_PANEL_OUTCOME_JUDGEMENT_DEFENDER_POSSIBLE_DIE" Language="zh_Hans_CN">
+			<Text>战斗后敌方的{1_UnitName}[COLOR_FLOAT_CULTURE]有可能死亡[ENDCOLOR]！</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNIT_PANEL_OUTCOME_JUDGEMENT_DEFENDER_DIE" Language="zh_Hans_CN">
+			<Text>战斗后敌方的{1_UnitName}[COLOR_FLOAT_CULTURE]必然死亡[ENDCOLOR]！</Text>
+		</Replace>
+
+		<!--Unit Health-->
+		<Replace Tag="LOC_HUD_UNIT_PANEL_OUTCOME_SELF_UNIT_HEALTH" Language="zh_Hans_CN">
+			<Text>{1_Health}/{2_MaxDamage}[ICON_DAMAGED]</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNIT_PANEL_OUTCOME_TARGET_UNIT_HEALTH" Language="zh_Hans_CN">
+			<Text>{1_Health}/{2_MaxDamage}[ICON_DAMAGED]</Text>
+		</Replace>
+		
+		
+	</LocalizedText>
+</GameData>

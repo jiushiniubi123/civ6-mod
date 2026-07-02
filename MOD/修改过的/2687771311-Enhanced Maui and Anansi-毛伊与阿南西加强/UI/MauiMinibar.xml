@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MauiCreateResource -->
+<!-- Author: Konomi (modified) -->
+<!-- DateCreated: 11/13/2021 20:05:00 -->
+<Context>
+  <Grid ID="MauiCreateButtonGrid" Anchor="R,B" Size="auto,41" AutoSizePadding="6,0" Texture="SelectionPanel_ActionGroupSlot" SliceCorner="5,19" SliceSize="1,1" SliceTextureSize="12,41" ConsumeMouse="1" Alpha="1">
+	<Button ID="MauiCreateButton" Anchor="C,B" Size="44,53" Texture="UnitPanel_ActionButton" ToolTip="LOC_KNM_MAUI_CREATE_TIP">
+	  <Image ID="MauiCreateButtonIcon"		Anchor="C,C" Offset="0,-2" Size="38,38"  Icon="ICON_UNITCOMMAND_CREATE_RANDOM_RESOURCE"/>
+	</Button>
+  </Grid>
+</Context>

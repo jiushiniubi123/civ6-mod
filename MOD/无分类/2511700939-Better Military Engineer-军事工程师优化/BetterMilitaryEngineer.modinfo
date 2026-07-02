@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c37cc3a6-bf82-4a34-b358-34d77cbeddfd" version="1">
+  <Properties>
+    <Name>LOC_BETTER_MILITARY_ENGINEER_NAME</Name>
+    <Description>LOC_BETTER_MILITARY_ENGINEER_DESCRIPTION</Description>
+    <Teaser>Better Military Engineer</Teaser>
+    <Authors>DeepLogic, Xiaoxiaoyu</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="Expansion2">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+  </ActionCriteria>
+  <LocalizedText>
+    <Text id="LOC_BETTER_MILITARY_ENGINEER_NAME">
+      <en_US>Better Military Engineer</en_US>
+      <zh_Hans_CN>军事工程师优化</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_BETTER_MILITARY_ENGINEER_DESCRIPTION">
+      <en_US>+1 charge and +1 movement for Military Engineer, ignore terrian movement penalty. Can build routes with resources instead of charge.</en_US>
+      <zh_Hans_CN>军事工程师+1速度，+1使用次数，无视地形惩罚，使用资源而不是次数修建道路。</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <InGameActions>
+    <UpdateDatabase id="BetterMilitaryEngineerDatabase" criteria="Expansion2">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>upd_database.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="BetterMilitaryEngineerText" criteria="Expansion2">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>upd_text.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>upd_database.sql</File>
+    <File>upd_text.sql</File>
+  </Files>
+</Mod>

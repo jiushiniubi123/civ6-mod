@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- RUSSIAN -->
+
+    <!-- Missing Citizen management Lens -->
+    <Replace Tag="LOC_HUD_CITIZEN_MANAGEMENT_LENS" Language="ru_RU">
+      <Text>Строитель</Text>
+    </Replace>
+
+    <Replace Tag="LOC_HUD_CITIZEN_MANAGEMENT_LENS_TOOLTIP" Language="ru_RU">
+      <Text>Выделяет клетки которые может обработать строитель</Text>
+    </Replace>
+
+    <!-- Builder Lens -->
+    <Replace Tag="LOC_HUD_BUILDER_LENS" Language="ru_RU">
+      <Text>Строитель</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_TOOLTIP" Language="ru_RU">
+      <Text>Выделяет на каких клетках строитель может работать</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_PN" Language="ru_RU">
+      <Text>Нечего строить</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_PD" Language="ru_RU">
+      <Text>Опасно</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_P1B" Language="ru_RU">
+      <Text>Бонусные ресурсы</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_P1L" Language="ru_RU">
+      <Text>Редкие ресурсы</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_P1S" Language="ru_RU">
+      <Text>Стратегические ресурсы</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_P2" Language="ru_RU">
+      <Text>Ресурс / Разграблено / Уникальная способность</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_P3" Language="ru_RU">
+      <Text>Работает / усилено чудесами</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_P4" Language="ru_RU">
+      <Text>Холм</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_P5" Language="ru_RU">
+      <Text>Удаляемая особенность</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_P7" Language="ru_RU">
+      <Text>Универсальная Клетка</Text>
+    </Replace>
+
+    <!-- Archaeologist Lens -->
+    <Replace Tag="LOC_HUD_ARCHAEOLOGIST_LENS" Language="ru_RU">
+      <Text>Археолог</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_ARCHAEOLOGIST_LENS_TOOLTIP" Language="ru_RU">
+      <Text>Выделяет места раскопок.</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_ARCHAEOLOGIST_LENS_ARTIFACT" Language="ru_RU">
+      <Text>Артефакт</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_ARCHAEOLOGIST_LENS_SHIPWRECK" Language="ru_RU">
+      <Text>Кораблекрушение</Text>
+    </Replace>
+
+    <!-- City Overlap Lens -->
+    <Replace Tag="LOC_HUD_CITYOVERLAP_LENS" Language="ru_RU">
+      <Text>Радиус города</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_CITYOVERLAP_LENS_TOOLTIP" Language="ru_RU">
+      <Text>Показывает как много городов перекрывают клетку (в пределах 6 клеток)</Text>
+    </Replace>
+    <Replace Tag="LOC_PANEL_CITYOVERLAP_OPTION1" Language="ru_RU">
+      <Text>Выделяет внешние границы</Text>
+    </Replace>
+    <Replace Tag="LOC_PANEL_CITYOVERLAP_NMOUSE" Language="ru_RU">
+      <Text>Без мыши</Text>
+    </Replace>
+    <Replace Tag="LOC_PANEL_CITYOVERLAP_RANGE" Language="ru_RU">
+      <Text>Диапазон от мыши</Text>
+    </Replace>
+    <Replace Tag="LOC_TOOLTIP_CITYOVERLAP_RANGE" Language="ru_RU">
+      <Text>Показывает клетки и выделяет города в пределах диапазона (см. ниже) от клетки под курсором мыши.</Text>
+    </Replace>
+    <Replace Tag="LOC_PANEL_CITYOVERLAP_RADIUS" Language="ru_RU">
+      <Text>Радиус от мыши</Text>
+    </Replace>
+
+    <!-- City Overlap Lens (6) -->
+    <Replace Tag="LOC_HUD_CITYOVERLAP6_LENS" Language="ru_RU">
+      <Text>Общие клетки 6</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_CITYOVERLAP6_LENS_TOOLTIP" Language="ru_RU">
+      <Text>Показывает, как много городов (в диапазоне 6 клеток) c общими клетками</Text>
+    </Replace>
+
+    <!-- City Overlap Lens (9) -->
+    <Replace Tag="LOC_HUD_CITYOVERLAP9_LENS" Language="ru_RU">
+      <Text>Общие клетки 9</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_CITYOVERLAP9_LENS_TOOLTIP" Language="ru_RU">
+      <Text>Показывает, как много городов (в диапазоне 9 клеток) c общими клетками</Text>
+    </Replace>
+
+    <!-- Barbarian Lens -->
+    <Replace Tag="LOC_HUD_BARBARIAN_LENS" Language="ru_RU">
+      <Text>Варвары</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BARBARIAN_LENS_TOOLTIP" Language="ru_RU">
+      <Text>Выделяет лагеря варваров на карте</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BARBARIAN_LENS_ENCAMPMENT" Language="ru_RU">
+      <Text>Лагерь Варваров</Text>
+    </Replace>
+
+    <!-- Resources Lens -->
+    <Replace Tag="LOC_HUD_RESOURCE_LENS" Language="ru_RU">
+      <Text>Ресурсы</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_RESOURCE_LENS_TOOLTIP" Language="ru_RU">
+      <Text>Выделяет ресурсы на карте</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_RESOURCE_LENS_LUXCONNECTED" Language="ru_RU">
+      <Text>Редкий</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_RESOURCE_LENS_LUXNCONNECTED" Language="ru_RU">
+      <Text>Необработанный редкий</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_RESOURCE_LENS_STRATCONNECTED" Language="ru_RU">
+      <Text>Стратегический</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_RESOURCE_LENS_STRATNCONNECTED" Language="ru_RU">
+      <Text>Необработанный стратегический</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_RESOURCE_LENS_BONUSCONNECTED" Language="ru_RU">
+      <Text>Бонусный</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_RESOURCE_LENS_BONUSNCONNECTED" Language="ru_RU">
+      <Text>Необработанный бонусный</Text>
+    </Replace>
+
+    <!-- Wonder Lens -->
+    <Replace Tag="LOC_HUD_WONDER_LENS" Language="ru_RU">
+      <Text>Чудеса</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_WONDER_LENS_TOOLTIP" Language="ru_RU">
+      <Text>Выделяет чудеса природы и чудеса света, построенные игроками</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_WONDER_LENS_NATURAL" Language="ru_RU">
+      <Text>Чудо природы</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_WONDER_LENS_PLAYER" Language="ru_RU">
+      <Text>Чудо света</Text>
+    </Replace>
+
+    <!-- Adjacency Yield Lens -->
+    <Replace Tag="LOC_HUD_ADJYIELD_LENS" Language="ru_RU">
+      <Text>Бонусы соседства</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_ADJYIELD_LENS_TOOLTIP" Language="ru_RU">
+      <Text>Показывает бонусы соседства для районов</Text>
+    </Replace>
+
+    <!-- Scout Lens -->
+    <Replace Tag="LOC_HUD_SCOUT_LENS" Language="ru_RU">
+      <Text>Разведка</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_SCOUT_LENS_TOOLTIP" Language="ru_RU">
+      <Text>Выделяет племенные поселения на карте</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_SCOUT_LENS_GHUT" Language="ru_RU">
+      <Text>Племенное поселение</Text>
+    </Replace>
+
+    <!-- Naturalist Lens -->
+    <Replace Tag="LOC_HUD_NATURALIST_LENS" Language="ru_RU">
+      <Text>Натуралист</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_NATURALIST_LENS_TOOLTIP" Language="ru_RU">
+      <Text>Можно построить Нац.парк</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_NATURALIST_LENS_PARK" Language="ru_RU">
+      <Text>Подходит для нац.парка</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_NATURALIST_LENS_OK" Language="ru_RU">
+      <Text>Нужно исправить соседние клетки</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_NATURALIST_LENS_FIXABLE" Language="ru_RU">
+      <Text>Нужно исправить клетку</Text>
+    </Replace>
+
+    <Replace Tag="LOC_HUD_CITY_PLOT_LENS" Language="ru_RU">
+      <Text>Обрабатываемые клетки</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_CITY_PLOT_LENS_TOOLTIP" Language="ru_RU">
+      <Text>Выделяет обрабатываемые жителями и закрепленные клетки</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_CITY_PLOT_LENS_WORKING" Language="ru_RU">
+      <Text>Обрабатываемая клетка</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_CITY_PLOT_LENS_LOCKED" Language="ru_RU">
+      <Text>Закрепленная клетка</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_CITY_PLOT_LENS_CULTURE" Language="ru_RU">
+      <Text>Следующая клетка для культурного захвата</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_CITY_PLOT_LENS_OTHER" Language="ru_RU">
+      <Text>Прочие клетки</Text>
+    </Replace>
+
+    <Replace Tag="LOC_HUD_ROUTES_LENS" Language="ru_RU">
+      <Text>Маршруты</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_ROUTES_LENS_RAIL" Language="ru_RU">
+      <Text>Железные дороги</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_ROUTES_LENS_ROAD" Language="ru_RU">
+      <Text>Дороги</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_ROUTES_LENS_TOOLTIP" Language="ru_RU">
+      <Text>Выделите дороги и железные дороги</Text>
+    </Replace>
+
+  </LocalizedText>
+</GameData>

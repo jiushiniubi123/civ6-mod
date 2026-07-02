@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GreatEntertainers -->
+<!-- Author: Plati -->
+<GameData>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="NAT_WONDER_CL_NATIONALEPIC" 				GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" PointsPerTurn="2"/>
+	</Building_GreatPersonPoints>
+</GameData>

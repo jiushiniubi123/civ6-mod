@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Byzantium_Gaul_XP2 -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 10/17/2023 11:29:17 AM -->
+<GameData>
+	<BuildingModifiers>
+		
+		<!--生物圈-->
+		<Row>
+			<BuildingType>BUILDING_BIOSPHERE</BuildingType>
+			<ModifierId>BIOSPHERE_ADJUST_GOLD_CANADA_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BIOSPHERE</BuildingType>
+			<ModifierId>BIOSPHERE_ADJUST_NEIGHBORHOOD_TOURISM_CHANGE_CANADA_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BIOSPHERE</BuildingType>
+			<ModifierId>BIOSPHERE_ADJUST_TUNDRA_CITIES_APPEAL_EWHO</ModifierId>
+		</Row>
+		
+	</BuildingModifiers>
+
+	<Modifiers>
+		
+
+		<!--生物圈-->
+		<Row>
+			<ModifierId>BIOSPHERE_ADJUST_GOLD_CANADA_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_CANADA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>BIOSPHERE_ADJUST_NEIGHBORHOOD_TOURISM_CHANGE_CANADA_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_TOURISM_CHANGE</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_CANADA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_DISTRICT_IS_NEIGHBORHOOD_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>BIOSPHERE_ADJUST_TUNDRA_CITIES_APPEAL_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_APPEAL</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_CANADA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_TUNDRA_EWHO</SubjectRequirementSetId>
+		</Row>
+
+		
+	</Modifiers>
+
+	<ModifierArguments>
+		
+		<Row>
+			<ModifierId>BIOSPHERE_ADJUST_GOLD_CANADA_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_BIOSPHERE</Value>
+		</Row>
+		<Row>
+			<ModifierId>BIOSPHERE_ADJUST_GOLD_CANADA_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>BIOSPHERE_ADJUST_GOLD_CANADA_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>BIOSPHERE_ADJUST_NEIGHBORHOOD_TOURISM_CHANGE_CANADA_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>BIOSPHERE_ADJUST_TUNDRA_CITIES_APPEAL_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+	</ModifierArguments>
+
+
+	<TraitModifiers>
+		<!--生物圈-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FACES_OF_PEACE</TraitType>
+			<ModifierId>CIVILIZATION_CANADA_ADJUST_BIOSPHERE_PRODUCTION_EWHO</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<Modifiers>
+	
+		<!--生物圈-->
+		<Row>
+			<ModifierId>CIVILIZATION_CANADA_ADJUST_BIOSPHERE_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_CANADA_EWHO</OwnerRequirementSetId>
+		</Row>
+
+	</Modifiers>
+
+	<ModifierArguments>
+		
+		<!--生物圈-->
+		<Row>
+			<ModifierId>CIVILIZATION_CANADA_ADJUST_BIOSPHERE_PRODUCTION_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_BIOSPHERE</Value>
+		</Row>
+		<Row>
+			<ModifierId>CIVILIZATION_CANADA_ADJUST_BIOSPHERE_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+
+
+	</ModifierArguments>
+
+</GameData>

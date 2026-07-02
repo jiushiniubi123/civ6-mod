@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Classical Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_ZEPPELIN" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ZEPPELIN" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ZEPPELIN_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_INDUSTRIAL_ZONE" AreaHighlightRadius="2" />
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualBirthModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ZEPPELIN" ModifierId="PLATI_VITRUVIUS_PASSIVE_MODIFIER"/>
+	</GreatPersonIndividualBirthModifiers>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ZEPPELIN" ModifierId="GREATPERSON_BONUS_ZEP_FLIGHT" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ZEPPELIN" ModifierId="GREATPERSON_BONUS_ZEP_ENGINE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_ZEP_FLIGHT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_ZEP_ENGINE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_VITRUVIUS_PASSIVE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_CLASSICAL_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_ZEP_FLIGHT</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_MILITARY_ENGINEERING</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_ZEP_FLIGHT</ModifierId>
+			<Name>GrantTechIfBoosted</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_ZEP_ENGINE</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_ENGINEERING</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_ZEP_ENGINE</ModifierId>
+			<Name>GrantTechIfBoosted</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_VITRUVIUS_PASSIVE_MODIFIER</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_VITRUVIUS</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_BONUS_ZEP_FLIGHT" Context="Summary" Text="LOC_GREATPERSON_PLATI_ZEPPELIN_ACTIVE"/>
+		<Row ModifierId="PLATI_VITRUVIUS_PASSIVE_MODIFIER" Context="Summary" Text="LOC_GREATPERSON_PLATI_VITRUVIUS_PASSIVE"/>
+	</ModifierStrings>
+</GameData>

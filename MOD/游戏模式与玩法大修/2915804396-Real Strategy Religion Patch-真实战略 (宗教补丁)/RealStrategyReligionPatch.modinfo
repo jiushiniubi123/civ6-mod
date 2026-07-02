@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="B5D09494-22B1-3E40-B989-6EBF6A389A1C" version="1">
+	<Properties>
+		<Name>Real Strategy Religion Patch</Name>
+		<Authors>¬Talos</Authors>
+
+		<Teaser>Other civilizations are more likely to found a religion.</Teaser>
+		<Description>
+			One notable discrepancy with Real Strategy is how often religions go unclaimed. Most civilizations are unlikely to build a Holy Site past the Ancient Era. Even then, they would rather work towards earning a Scientist or Merchant instead of recruiting a Great Prophet.[NEWLINE][NEWLINE]This appears to be intended, but without competition, it trivializes attempts at Religious Victory. The investment required to acquire a religion also becomes relatively minimal, even though they can be useful for other strategies. In order to remedy this, the following changes have been implemented:[NEWLINE][NEWLINE]  - Non-player civilizations will continue to place value on Holy Sites as they enter the Classical Era.[NEWLINE]  - Increased the default weight for Great Prophet Points across the board.[NEWLINE]  - When pursuing a Cultural Victory, the computer is also slightly more likely to invest in faith and religion.
+		</Description>
+
+		<CompatibleVersions>2.0</CompatibleVersions>
+		<AffectsSavedGames>0</AffectsSavedGames>
+	</Properties>
+
+	<Dependencies>
+		<Mod id="99D9DDFE-85FB-2D92-1893-92A015B5899A" title="Real Strategy"/>
+	</Dependencies>
+
+	<InGameActions>
+		<UpdateDatabase>
+			<Properties>
+				<LoadOrder>32767</LoadOrder>
+			</Properties>
+			<File>Data.sql</File>
+		</UpdateDatabase>
+	</InGameActions>
+
+	<Files>
+		<File>Data.sql</File>
+	</Files>
+</Mod>

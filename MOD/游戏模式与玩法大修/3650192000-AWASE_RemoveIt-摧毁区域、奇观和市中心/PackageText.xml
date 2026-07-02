@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PackageText -->
+<!-- Author: Awase -->
+<!-- DateCreated: 1/20/2026 9:51:25 AM -->
+<GameData>
+    <LocalizedText>
+		<Row Tag="LOC_AWASE_RemoveIt_TITLE" Language="en_US">
+			<Text>Destroy Districts &amp; Wonders &amp; City Centers</Text>
+		</Row>
+		<Row Tag="LOC_AWASE_RemoveIt_TITLE" Language="zh_Hans_CN">
+			<Text>摧毁区域、奇观和市中心</Text>
+		</Row>
+		<Row Tag="LOC_AWASE_RemoveIt_TITLE" Language="zh_Hant_HK">
+			<Text>摧毀區域、奇觀和市中心</Text>
+		</Row>
+		<Row Tag="LOC_AWASE_RemoveIt_TITLE" Language="ja_JP">
+			<Text>区域・遺産・都心の破壊</Text>
+		</Row>
+		
+		<Row Tag="LOC_AWASE_RemoveIt_TEASER" Language="en_US">
+			<Text>Builders can destroy Districts, Wonders, and City Centers.</Text>
+		</Row>
+		<Row Tag="LOC_AWASE_RemoveIt_TEASER" Language="zh_Hans_CN">
+			<Text>建造者可摧毁区域、奇观和市中心。</Text>
+		</Row>
+		<Row Tag="LOC_AWASE_RemoveIt_TEASER" Language="zh_Hant_HK">
+			<Text>建造者可摧毀區域、奇觀和市中心。</Text>
+		</Row>
+		<Row Tag="LOC_AWASE_RemoveIt_TEASER" Language="ja_JP">
+			<Text>労働者が区域、遺産、都心を破壊できるようになります。</Text>
+		</Row>
+
+		<Row Tag="LOC_AWASE_RemoveIt_DESCRIPTION" Language="en_US">
+			<Text>Builders can spend 2 Build Charges to destroy player-owned Districts, Wonders, and City Centers.[NEWLINE][NEWLINE]Can destroy Districts and Wonders currently under construction.</Text>
+		</Row>
+		<Row Tag="LOC_AWASE_RemoveIt_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造者可花费2点劳动力摧毁玩家拥有的区域、奇观和市中心。[NEWLINE][NEWLINE]可摧毁正在建造的区域和奇观。</Text>
+		</Row>
+		<Row Tag="LOC_AWASE_RemoveIt_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>建造者可花費2點勞動力摧毀玩家擁有的區域、奇觀和市中心。[NEWLINE][NEWLINE]可摧毀正在建造的區域和奇觀。</Text>
+		</Row>
+		<Row Tag="LOC_AWASE_RemoveIt_DESCRIPTION" Language="ja_JP">
+			<Text>労働者は労働力を2つ消費して、自国の区域、遺産、都心を破壊できます。[NEWLINE][NEWLINE]建設中の区域や遺産も破壊可能です。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

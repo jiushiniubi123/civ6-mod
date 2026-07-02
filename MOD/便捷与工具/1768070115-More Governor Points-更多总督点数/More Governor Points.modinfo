@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="11f8f46d-2019-4633-915f-332b86d72e33" version="1">
+  <Properties>
+    <Name>More Governor Points</Name>
+    <Description>Increases the number of civics that award governor points.</Description>
+    <Teaser>Increases the number of civics that award governor points.</Teaser>
+    <Authors>dreadanddespair</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <Properties>
+        <LoadOrder>13001</LoadOrder>
+      </Properties>
+      <File>MoreGovernorPoints.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>MoreGovernorPoints.sql</File>
+  </Files>
+</Mod>

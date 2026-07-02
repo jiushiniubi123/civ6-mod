@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Data_Local -->
+<!-- Author: aall1 -->
+<!-- DateCreated: 4/12/2019 1:46:28 AM -->
+<GameData>
+	<EnglishText>
+		<Row Tag="LOC_BUILDING_THREE_GORDES_DAM_NAME">
+			<Text>Three Gorges Dam</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_THREE_GORDES_DAM_DESCRIPTION">
+			<Text>The Floodplains tiles along the river containing the Three Gorges Dam are now immune to Flood damage (though [ICON_FOOD] Food and [ICON_PRODUCTION] Production bonuses from flooding drop by 50%). Provides All cities +3 [ICON_Power] Power from renewable water sources, Provides additional +2 [ICON_Power] Power to all cities within 12 tiles, Provides another additional +2 [ICON_Power] Power to all cities within 6 tiles.[NEWLINE][NEWLINE]Must be built near river and mountain.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_THREE_GORDES_DAM_QUOTE">
+			<Text>“Walls of stone,[NEWLINE]holding back clouds and rain.[NEWLINE]A smooth lake rises,[NEWLINE]in the three narrow gorges.”[NEWLINE] - Mao Zedong</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THREE_GORDES_DAM_CHAPTER_HISTORY_PARA_1">
+			<Text>The Three Gorges Dam is a hydroelectric gravity dam that spans the Yangtze River by the town of Sandouping, in Yiling District, Yichang, Hubei province, China. The Three Gorges Dam has been the world's largest power station in terms of installed capacity (22,500 MW) since 2012. In 2014, the dam generated 98.8 terawatt-hours (TWh) and had the world record, but was surpassed by the Itaipú Dam, which set the new world record in 2016, producing 103.1 TWh.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THREE_GORDES_DAM_CHAPTER_HISTORY_PARA_2">
+			<Text>Except for the locks, the dam project was completed and fully functional as of July 4, 2012, when the last of the main water turbines in the underground plant began production. The ship lift was complete in December 2015. Each main water turbine has a capacity of 700 MW. The dam body was completed in 2006. Coupling the dam's 32 main turbines with two smaller generators (50 MW each) to power the plant itself, the total electric generating capacity of the dam is 22,500 MW.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THREE_GORDES_DAM_CHAPTER_HISTORY_PARA_3">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THREE_GORDES_DAM_CHAPTER_HISTORY_PARA_4">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THREE_GORDES_DAM_CHAPTER_HISTORY_PARA_5">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THREE_GORDES_DAM_CHAPTER_HISTORY_PARA_6">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THREE_GORDES_DAM_CHAPTER_HISTORY_PARA_7">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THREE_GORDES_DAM_CHAPTER_HISTORY_PARA_8">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THREE_GORDES_DAM_CHAPTER_HISTORY_PARA_9">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THREE_GORDES_DAM_CHAPTER_HISTORY_PARA_10">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THREE_GORDES_DAM_CHAPTER_HISTORY_PARA_11">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THREE_GORDES_DAM_CHAPTER_HISTORY_PARA_12">
+			<Text></Text>
+		</Row>
+	</EnglishText>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_THREE_GORDES_DAM_NAME" Language="zh_Hans_CN">
+			<Text>三峡大坝</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_THREE_GORDES_DAM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建有三峡大坝的河畔泛滥平原单元格免受洪水侵袭（但来自洪水的 [ICON_FOOD] 食物和 [ICON_PRODUCTION] 生产力加成减半）。向本文明所有城市提供+3点 [ICON_Power] 电力,向三峡大坝周围12格城市额外提供+2点 [ICON_Power] 电力，向三峡大坝周围6格城市再额外提供+2点 [ICON_Power] 电力。[NEWLINE][NEWLINE]必须建在临近河流和山脉的单元格中。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_THREE_GORDES_DAM_QUOTE" Language="zh_Hans_CN">
+			<Text>一桥飞架南北，天堑变通途。[NEWLINE]更立西江石壁，截断巫山云雨，高峡出平湖。[NEWLINE]神女应无恙，当惊世界殊。[NEWLINE]　　——毛泽东</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THREE_GORDES_DAM_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>　　长江三峡水利枢纽工程，常简称三峡工程或三峡大坝，是中国长江上游段建设的大型水利工程项目。分布在重庆市到湖北省宜昌市的长江干流上，大坝位于三峡西陵峡内的宜昌市夷陵区三斗坪，并和其下游不远的葛洲坝水电站形成梯级调度电站。它是世界上规模最大的水电站，是中国以及世界上有史以来建设的最大的水坝。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THREE_GORDES_DAM_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>　　三峡水电站大坝高185米，正常蓄水位175米，水库长2335米，静态投资1352.66亿人民币，安装32台单机容量为70万千瓦的水电机组。三峡水电站的机组布置在大坝的后侧，共安装32台70万千瓦水轮发电机组，其中左岸14台、右岸12台、右岸地下6台，另外还有2台5万千瓦的电源机组，总装机容量2,250万千瓦，年发电量约1,000亿千瓦·时。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THREE_GORDES_DAM_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>　　三峡工程是当今世界最大的水利枢纽工程。它的许多工程设计指标都突破了世界水利工程的纪录，主要有：</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THREE_GORDES_DAM_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>　　三峡水库总库容393亿立方米，防洪库容221.5亿立方米，水库调洪可消减洪峰流量达每秒2.7-3.3万立方米，能有效控制长江上游洪水，保护长江中下游荆江地区1500万人口、2300万亩土地，是世界上防洪效益最为显著的水利工程。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THREE_GORDES_DAM_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>　　三峡大坝坝轴线全长2309.47米，泄流坝段长483米，水电站机组70万千瓦×26台，双线5级船闸+升船机，无论单项、总体都是世界上建筑规模最大的水利工程。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THREE_GORDES_DAM_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>　　三峡工程主体建筑物土石方挖填量约1.34亿立方米，混凝土浇筑量2794万立方米，钢筋制安46.30万吨，金结制安25.65万吨，是世界上工程量最大的水利工程。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THREE_GORDES_DAM_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>　　三峡工程2000年混凝土浇筑量为548.17万立方米，月浇筑量最高达55万立方米，创造了混凝土浇筑的世界记录，是世界上施工难度最大的水利工程。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THREE_GORDES_DAM_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
+			<Text>　　三峡工程截流流量9010立方米/秒，施工导流最大洪峰流量79000立方米/秒，是施工期流量最大的水利工程。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THREE_GORDES_DAM_CHAPTER_HISTORY_PARA_9" Language="zh_Hans_CN">
+			<Text>　　三峡工程泄洪闸最大泄洪能力10.25万立方米/秒，是世界上泄洪能力最大的泄洪闸。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THREE_GORDES_DAM_CHAPTER_HISTORY_PARA_10" Language="zh_Hans_CN">
+			<Text>　　三峡工程的双线五级、总水头113米的船闸，是世界上级数最多、总水头最高的内河船闸。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THREE_GORDES_DAM_CHAPTER_HISTORY_PARA_11" Language="zh_Hans_CN">
+			<Text>　　三峡工程升船机的有效尺寸为120×18×3.5米，最大升程113米，船箱带水重量达11800吨，过船吨位3000吨，是世界上规模最大、难度最高的升船机。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THREE_GORDES_DAM_CHAPTER_HISTORY_PARA_12" Language="zh_Hans_CN">
+			<Text>　　三峡电站安装32台70万千瓦水轮发电机组和2台5万千瓦水轮发电机组，总装机容量2250万千瓦，年发电量超过1000亿千瓦时，是世界上装机容量最大的水电站。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

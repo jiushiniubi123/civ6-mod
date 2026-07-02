@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Medieval Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_LIONHEART" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_LIONHEART" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_LIONHEART_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionRequiresOwnedTile="false" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualBirthModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_LIONHEART" ModifierId="PLATI_NORMAN_CAVALRY_PASSIVE"/>
+	</GreatPersonIndividualBirthModifiers>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_LIONHEART" ModifierId="GREATPERSON_PLATI_LIONHEART_POLICY" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_LIONHEART_POLICY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_VALID_UNIT_BUILD</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_NORMAN_CAVALRY_PASSIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_MEDIEVAL_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_LIONHEART_POLICY</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_POLISH_HUSSAR</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_NORMAN_CAVALRY_PASSIVE</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_NORMAN_LEGACY</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_PLATI_LIONHEART_POLICY" 	Context="Summary" Text="LOC_GREATPERSON_PLATI_LIONHEART_ACTIVE"/>
+		<Row ModifierId="PLATI_NORMAN_CAVALRY_PASSIVE" 			Context="Summary" Text="LOC_GREATPERSON_PLATI_NORMAN_CAVALRY_PASSIVE"/>
+	</ModifierStrings>
+</GameData>

@@ -1,0 +1,15 @@
+<GameInfo>
+	<Parameters>
+		<Replace ParameterId="FreeCS_InheritCityName" Name="LOC_INHERIT_CITY_NAME" Description="LOC_INHERIT_CITY_NAME_DESCRIPTION" Domain="bool" DefaultValue="0" ConfigurationGroup="Game" ConfigurationId="FreeCS_InheritCityName" GroupId="GameOptions" SortIndex="2025"/>
+		<Replace ParameterId="FreeCS_InheritCityPlots" Name="LOC_INHERIT_CITY_PLOTS" Description="LOC_INHERIT_CITY_PLOTS_DESCRIPTION" Domain="bool" DefaultValue="0" ConfigurationGroup="Game" ConfigurationId="FreeCS_InheritCityPlots" GroupId="GameOptions" SortIndex="2025"/>
+		<Replace ParameterId="FreeCS_ConversionProbability" Name="LOC_FREE_CS_CONVERSION_PROBABILITY" Description="LOC_FREE_CS_CONVERSION_PROBABILITY_DESCRIPTION" Domain="FreeCS_ConversionProbability" DefaultValue="12" ConfigurationGroup="Game" ConfigurationId="FreeCS_ConversionProbability" GroupId="GameOptions" SortIndex="2024"/>
+	</Parameters>
+	<DomainRanges>
+		<Replace Domain="FreeCS_ConversionProbability" 	MinimumValue="1" MaximumValue="100"/>
+	</DomainRanges>
+	<ParameterDependencies>
+		<Replace ParameterId="FreeCS_InheritCityName" 	ConfigurationGroup="Game" ConfigurationId="RULESET" Operator="Exists" ConfigurationValue="RULESET_EXPANSION_1,RULESET_EXPANSION_2"/>
+		<Replace ParameterId="FreeCS_InheritCityPlots" 	ConfigurationGroup="Game" ConfigurationId="RULESET" Operator="Exists" ConfigurationValue="RULESET_EXPANSION_1,RULESET_EXPANSION_2"/>
+		<Replace ParameterId="FreeCS_ConversionProbability" 	ConfigurationGroup="Game" ConfigurationId="RULESET" Operator="Exists" ConfigurationValue="RULESET_EXPANSION_1,RULESET_EXPANSION_2"/>
+	</ParameterDependencies>
+</GameInfo>

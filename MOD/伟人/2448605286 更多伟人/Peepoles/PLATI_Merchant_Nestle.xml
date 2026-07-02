@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Renaissance Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_NESTLE" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_NESTLE" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_NESTLE_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" EraType="ERA_INDUSTRIAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_NESTLE_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_NESTLE" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_CHOCOLATERIE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_CHOCOLATERIE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_VALID_BUILDING</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_CHOCOLATERIE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PLATI_CHOCOLATERIE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_CHOCOLATERIE</ModifierId>
+			<Name>BuildingTypeToReplace</Name>
+			<Value>BUILDING_PLATI_CHOCOLATERIE_DUMMY</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_CHOCOLATERIE" Context="Summary" Text="LOC_GREATPERSON_PLATI_NESTLE_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

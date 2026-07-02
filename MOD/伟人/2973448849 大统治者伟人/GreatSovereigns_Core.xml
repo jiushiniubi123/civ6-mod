@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GreatSovereigns -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_CLASS_GreatSovereigns" 					Kind="KIND_GREAT_PERSON_CLASS"/>
+		<Row Type="UNIT_GREAT_GreatSovereigns" 							Kind="KIND_UNIT"/>
+		<Row Type="PSEUDOYIELD_GPP_GreatSovereigns" 					Kind="KIND_PSEUDOYIELD"/>
+		<Row Type="PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT" 		Kind="KIND_PROJECT"/>
+	</Types>
+	<Projects>
+		<!---->
+		<Row ProjectType="PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT"
+		Name="LOC_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_NAME" ShortName="LOC_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_NAME"
+		Description="LOC_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_DESCRIPTION"
+		PrereqDistrict="DISTRICT_GOVERNMENT" Cost="70" AdvisorType="ADVISOR_GENERIC" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1500"/>
+	</Projects>
+	<Project_GreatPersonPoints>
+		<!---->
+		<Row ProjectType="PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT" GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" Points="10" PointProgressionModel="COST_PROGRESSION_GAME_PROGRESS" PointProgressionParam1="800"/>
+	</Project_GreatPersonPoints>
+	<Project_YieldConversions>
+		<!---->
+		<Row ProjectType="PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT" YieldType="YIELD_GOLD" PercentOfProductionRate="15"/>
+	</Project_YieldConversions>
+	<PseudoYields>
+
+		<Row PseudoYieldType="PSEUDOYIELD_GPP_GreatSovereigns" DefaultValue="7"/>
+	</PseudoYields>
+	<GreatPersonClasses>
+		<Row GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" Name="LOC_GREAT_PERSON_CLASS_GreatSovereigns_NAME" UnitType="UNIT_GREAT_GreatSovereigns" DistrictType="DISTRICT_GOVERNMENT" PseudoYieldType="PSEUDOYIELD_GPP_GreatSovereigns" IconString="[ICON_GreatSovereigns]" ActionIcon="ICON_UNITOPERATION_GreatSovereigns_ACTION"/>
+	</GreatPersonClasses>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_GREAT_GreatSovereigns" AiType="UNITTYPE_CIVILIAN"/>
+	</UnitAiInfos>
+	<TypeTags>
+		<Row Type="UNIT_GREAT_GreatSovereigns" Tag="CLASS_LANDCIVILIAN"/>
+	</TypeTags>
+	<Units>
+		<Row UnitType="UNIT_GREAT_GreatSovereigns" BaseMoves="4" Cost="1" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_GREAT_GreatSovereigns_NAME" Description="LOC_UNIT_GREAT_GreatSovereigns_DESCRIPTION" CanCapture="False" CanRetreatWhenCaptured="True" CanTrain="False"/>
+	</Units>
+	<District_GreatPersonPoints>
+		<!-- Districts -->
+		<Row DistrictType="DISTRICT_GOVERNMENT" 		GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" PointsPerTurn="1"/>
+	</District_GreatPersonPoints>
+	<Building_GreatPersonPoints>
+		<!-- Buildings -->
+		<Row BuildingType="BUILDING_GOV_TALL" 			GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_GOV_WIDE" 			GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_GOV_CONQUEST" 		GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_GOV_CITYSTATES" 	GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_GOV_SPIES" 			GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_GOV_FAITH" 			GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_GOV_MILITARY" 		GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" PointsPerTurn="3"/>
+		<Row BuildingType="BUILDING_GOV_CULTURE" 		GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" PointsPerTurn="3"/>
+		<Row BuildingType="BUILDING_GOV_SCIENCE" 		GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" PointsPerTurn="3"/>
+		<!-- Wonders -->
+		<Row BuildingType="BUILDING_ALHAMBRA" 							GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_STATUE_OF_ZEUS" 					GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_TAJ_MAHAL" 							GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_HAGIA_SOPHIA" 						GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_ANGKOR_WAT" 						GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_COLOSSEUM" 							GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_PYRAMIDS" 							GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+</GameData>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Projects_Expansion1 -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/18/2023 11:25:51 AM -->
+<GameData>
+	<Types>
+		<!--BUILDING_KILWA_KISIWANI-->
+		<Row Type="PROJECT_KILWA_KISIWANI_ADJUST_DIPLOMATIC_FAVOR_EWHO" Kind="KIND_PROJECT"/>
+	</Types>
+
+	<Projects>
+		<!--BUILDING_KILWA_KISIWANI-->
+		<Row ProjectType="PROJECT_KILWA_KISIWANI_ADJUST_DIPLOMATIC_FAVOR_EWHO"
+			 Name="LOC_PROJECT_KILWA_KISIWANI_ADJUST_DIPLOMATIC_FAVOR_EWHO_NAME"
+			 ShortName="LOC_PROJECT_KILWA_KISIWANI_ADJUST_DIPLOMATIC_FAVOR_EWHO_SHORT_NAME"
+			 Description="LOC_PROJECT_KILWA_KISIWANI_ADJUST_DIPLOMATIC_FAVOR_EWHO_DESCRIPTION"
+			 MaxPlayerInstances="1"
+			 RequiredBuilding="BUILDING_KILWA_KISIWANI"
+			 Cost="142"
+			 AdvisorType="ADVISOR_GENERIC"
+			 UnlocksFromEffect="true"/>
+	</Projects>
+
+	<Project_YieldConversions>
+
+		<!--BUILDING_KILWA_KISIWANI-->
+		<Row ProjectType="PROJECT_KILWA_KISIWANI_ADJUST_DIPLOMATIC_FAVOR_EWHO" YieldType="YIELD_SCIENCE" PercentOfProductionRate="15"/>
+		<Row ProjectType="PROJECT_KILWA_KISIWANI_ADJUST_DIPLOMATIC_FAVOR_EWHO" YieldType="YIELD_CULTURE" PercentOfProductionRate="15"/>
+	</Project_YieldConversions>
+
+	<ProjectCompletionModifiers>
+
+		<!--BUILDING_KILWA_KISIWANI-->
+		<Row ProjectType="PROJECT_KILWA_KISIWANI_ADJUST_DIPLOMATIC_FAVOR_EWHO" ModifierId="KILWA_KISIWANI_ADJUST_DIPLOMATIC_FAVOR_EWHO"/>
+	</ProjectCompletionModifiers>
+
+	<Modifiers>
+
+		<!--BUILDING_KILWA_KISIWANI-->
+		<Row>
+			<ModifierId>KILWA_KISIWANI_ADJUST_DIPLOMATIC_FAVOR_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_EXTRA_FAVOR_PER_TURN</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_KILWA_KISIWANI_EWHO</OwnerRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		
+		<Row>
+			<ModifierId>KILWA_KISIWANI_ADJUST_DIPLOMATIC_FAVOR_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+
+		<!--BUILDING_KILWA_KISIWANI-->
+		<Row RequirementSetId="REQSET_PLAYER_HAS_KILWA_KISIWANI_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<RequirementSetRequirements>
+
+		<!--BUILDING_KILWA_KISIWANI-->
+		<Row RequirementSetId="REQSET_PLAYER_HAS_KILWA_KISIWANI_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+	</RequirementSetRequirements>
+
+	<!--=============================================================================================================-->
+
+	<BuildingModifiers>
+
+		<!--BUILDING_KILWA_KISIWANI-->
+		<Row>
+			<BuildingType>BUILDING_KILWA_KISIWANI</BuildingType>
+			<ModifierId>KILWA_KISIWANI_ALLOW_PROJECT_EWHO</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+
+		<!--BUILDING_KILWA_KISIWANI-->
+		<Row>
+			<ModifierId>KILWA_KISIWANI_ALLOW_PROJECT_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ALLOW_PROJECT_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_MAJOR_EWHO</OwnerRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+
+		<!--BUILDING_KILWA_KISIWANI-->
+		<Row>
+			<ModifierId>KILWA_KISIWANI_ALLOW_PROJECT_EWHO</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_KILWA_KISIWANI_ADJUST_DIPLOMATIC_FAVOR_EWHO</Value>
+		</Row>
+	</ModifierArguments>
+
+</GameData>

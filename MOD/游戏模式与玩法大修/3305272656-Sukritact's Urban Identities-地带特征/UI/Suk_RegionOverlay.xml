@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+	<Container ID="RegionBanners"/>
+	<CheckBox ID="ToggleButton" Offset="10,4"	TextOffset="-5,0" String="LOC_HUD_TOGGLE_SUK_REGIONS" ToolTip="LOC_HUD_TOGGLE_SUK_REGIONS_TOOLTIP" Style="WhiteSemiBold14" ButtonTexture="Controls_Checkbox.dds" ButtonSize="17,17" CheckTexture="Controls_Checkbox.dds" CheckSize="17,17" CheckTextureOffset="0,17" Anchor="R,T"/>
+	<!-- Region Minibanner -->
+	<Instance	Name="RegionBanner">
+	  <ZoomAnchor ID="Anchor" ZoomOffsetNear="0,0,0" ZoomOffsetFar="0,0,-20">
+		<AlphaAnim ID="AlphaAnim" Anchor="C,C" Size="auto,auto" AlphaStart="0.6" AlphaEnd="1" Speed="7" Function="Root" Cycle="Once">
+			<Container ID="RegionBannerContainer" Anchor="C,C" Size="auto,auto">
+				<Button ID="RegionBannerButton" Anchor="C,C" Size="auto,auto">
+					<Grid Anchor="L,C" Size="auto,24" Texture="Banner_UnitBacking" SliceCorner="13,1" SliceSize="4,22" ConsumeMouseButton="0" ConsumeMouseOver="0">
+						<Stack Anchor="R,C" StackGrowth="Right">
+							<Box Size="20,28" Color="255,255,225,0"/>
+							<Label ID="Label" Anchor="R,C" Style="FontNormal14" String="Kelp Forest"/>
+							<Box Size="12,28" Color="255,255,225,0"/>
+						</Stack>
+					</Grid>
+					<Image ID="RegionIcon_Base" Anchor="L,C" Size="28,28" Texture="Suk_RegionBanner_Icon" Offset="-10,0">
+						<Image ID="RegionIcon_Frame" Anchor="C,C" Size="28,28" Texture="Suk_RegionBanner_IconFrame">
+					</Image>
+				</Button>
+			</Container>
+		</AlphaAnim>
+	  </ZoomAnchor>
+	</Instance>
+</Context>

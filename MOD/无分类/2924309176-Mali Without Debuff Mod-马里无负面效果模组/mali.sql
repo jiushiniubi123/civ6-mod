@@ -1,0 +1,1 @@
+delete from TraitModifiers where ModifierId = 'TRAIT_LESS_BUILDING_PRODUCTION';

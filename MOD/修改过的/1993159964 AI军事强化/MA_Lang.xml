@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MA_Lang -->
+<!-- Author: Flactine -->
+<!-- DateCreated: 2/9/2020 10:40:43 PM -->
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_BUILDING_FLAC_MENTAL_NAME">
+			<Text>{LOC_TECH_ADVANCED_AI_NAME}{LOC_HUD_CIVICS_ENABLES}</Text>
+		</Row>
+	</BaseGameText>
+</GameData>

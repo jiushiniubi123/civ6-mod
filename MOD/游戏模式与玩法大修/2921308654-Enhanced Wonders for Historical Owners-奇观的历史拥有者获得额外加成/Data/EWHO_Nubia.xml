@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Nubia -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/19/2023 9:05:41 AM -->
+<GameData>
+	<BuildingModifiers>
+		<!--博尔戈尔山-->
+		<Row>
+			<BuildingType>BUILDING_JEBEL_BARKAL</BuildingType>
+			<ModifierId>JEBEL_BARKAL_ADJUST_STRATEGIC_MINE_SCIENCE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JEBEL_BARKAL</BuildingType>
+			<ModifierId>JEBEL_BARKAL_ADJUST_BONUS_MINE_CULTURE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JEBEL_BARKAL</BuildingType>
+			<ModifierId>JEBEL_BARKAL_ADJUST_LUXURY_MINE_CULTURE_EWHO</ModifierId>
+		</Row>
+
+	</BuildingModifiers>
+
+	<Modifiers>
+		<!--博尔戈尔山-->
+		<Row>
+			<ModifierId>JEBEL_BARKAL_ADJUST_STRATEGIC_MINE_SCIENCE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_NUBIA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>JEBEL_BARKAL_ADJUST_BONUS_MINE_CULTURE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_NUBIA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLOT_HAS_BONUS_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>JEBEL_BARKAL_ADJUST_LUXURY_MINE_CULTURE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_NUBIA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLOT_HAS_LUXURY_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>JEBEL_BARKAL_ADJUST_STRATEGIC_MINE_SCIENCE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>JEBEL_BARKAL_ADJUST_STRATEGIC_MINE_SCIENCE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>JEBEL_BARKAL_ADJUST_BONUS_MINE_CULTURE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>JEBEL_BARKAL_ADJUST_BONUS_MINE_CULTURE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>JEBEL_BARKAL_ADJUST_LUXURY_MINE_CULTURE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>JEBEL_BARKAL_ADJUST_LUXURY_MINE_CULTURE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_PLAYER_IS_NUBIA_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_NUBIA_EWHO" RequirementId="PLAYER_IS_NUBIA_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_NUBIA_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<!--Nubia-->
+		<Row RequirementId="PLAYER_IS_NUBIA_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+
+	</Requirements>
+
+	<RequirementArguments>
+		<!--Nubia-->
+		<Row RequirementId="PLAYER_IS_NUBIA_EWHO" Name="CivilizationType" Value="CIVILIZATION_NUBIA"/>
+
+	</RequirementArguments>
+
+	<TraitModifiers>
+		<!--博尔戈尔山-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_TA_SETI</TraitType>
+			<ModifierId>CIVILIZATION_NUBIA_ADJUST_JEBEL_BARKAL_PRODUCTION_EWHO</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<Modifiers>
+		<!--博尔戈尔山-->
+		<Row>
+			<ModifierId>CIVILIZATION_NUBIA_ADJUST_JEBEL_BARKAL_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_NUBIA_EWHO</OwnerRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<!--博尔戈尔山-->
+		<Row>
+			<ModifierId>CIVILIZATION_NUBIA_ADJUST_JEBEL_BARKAL_PRODUCTION_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_JEBEL_BARKAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>CIVILIZATION_NUBIA_ADJUST_JEBEL_BARKAL_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="06ffc1b1-e362-4854-881d-8228dbf1f3cd" version="1">
+  <Properties>
+    <Name>Sukritact's Barbarians--</Name>
+    <Description>Nerfs Barbarians by preventing them from spawning Horse Archers and HECKING QUADQUIREMES before you even have your economy up and running.[NEWLINE][NEWLINE]Changes:[NEWLINE][ICON_BULLET] Barbarians can only spawn Cavalry if within 3 tiles of Horses (was 5)[NEWLINE][ICON_BULLET] Coastal Barbarian unit spawn interval increased to 15 turns (was 10)[NEWLINE][ICON_BULLET] Barbarians no longer begin the game with Shipbuilding (so can't build Quadquiremes)[NEWLINE][ICON_BULLET] Barbarian Horse Archers now require the Barbarians to have access to Archery before spawning[NEWLINE][ICON_BULLET] Barbarian Naval Units now recieve a -10 combat malus from "Primitive Ships" until they unlock Celestial Navigation (this malus is similar to how much weaker Barbarian cavalry are from normal cavalry)</Description>
+    <Created>1686470176</Created>
+    <Teaser>Nerfs Barbarians</Teaser>
+    <Authors>Sukritact</Authors>
+    <SpecialThanks>Stylianos (for inspiring this mod)</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <File>Core/Suk_Barbarian_Gameplay.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="UpdateText">
+      <File>Core/Suk_Barbarian_Localisation.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Core/Suk_Barbarian_Gameplay.sql</File>
+    <File>Core/Suk_Barbarian_Localisation.sql</File>
+  </Files>
+</Mod>

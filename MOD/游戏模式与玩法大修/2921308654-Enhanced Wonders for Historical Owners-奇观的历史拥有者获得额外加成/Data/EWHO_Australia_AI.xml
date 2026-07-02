@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Australia_AI -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 10/18/2023 12:18:39 AM -->
+<GameData>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_AUSTRALIA_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+	</RequirementSetRequirements>
+</GameData>

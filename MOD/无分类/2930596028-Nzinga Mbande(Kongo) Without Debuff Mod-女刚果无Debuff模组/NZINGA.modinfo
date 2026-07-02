@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="59a748d4-8d9f-4f12-b74c-1199a12ecf40" version="1">
+  <Properties>
+    <Name>Nzinga Mbande(Kongo) Without Debuff Mod\女刚果无Debuff模组</Name>
+    <Description>Nzinga Mbande(Kongo) Without Debuff Mod\女刚果无Debuff模组</Description>
+    <Teaser>Nzinga Mbande(Kongo) Without Debuff Mod\女刚果无Debuff模组</Teaser>
+    <Authors>阿列克谢耶维奇</Authors>
+    <SpecialThanks></SpecialThanks>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="LOC_MALI_WITHOUT_DEBUFF_NAME">
+      <en_US>Nzinga Mbande(Kongo) Without Debuff Mod</en_US>
+      <zh_Hans_CN>女刚果无Debuff模组</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <FrontEndActions>
+    <UpdateText id="MaliWithoutDebuff_Text">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>texts.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="MaliWithoutDebuff">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>kongo.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="MaliWithoutDebuff_Text">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>texts.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>kongo.sql</File>
+    <File>texts.sql</File>
+  </Files>
+</Mod>

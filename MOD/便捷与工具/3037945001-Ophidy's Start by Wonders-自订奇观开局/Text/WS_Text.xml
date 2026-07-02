@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- WS_Text -->
+<!-- Author: Lazire -->
+<!-- DateCreated: 9/19/2023 1:05:58 AM -->
+<GameData>
+	<EnglishText>
+		<Row Tag="LOC_START_NATURAL_WONDERS_NAME">
+			<Text>Select Start Wonders</Text>
+		</Row>
+		<Row Tag="LOC_START_NATURAL_WONDERS_DESCRIPTION">
+			<Text>Select several start wonders and if 'Start by Wonders' game mode is activated, randomly assign players next to them after entering the game.</Text>
+		</Row>
+	</EnglishText>
+
+	<LocalizedText>
+		<Replace Tag="LOC_START_NATURAL_WONDERS_NAME" Language="zh_Hans_CN">
+			<Text>选择开局奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_START_NATURAL_WONDERS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>选择若干个开局奇观，若开启了“自订奇观开局”模式，则在进入游戏后将玩家随机分配在奇观旁。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

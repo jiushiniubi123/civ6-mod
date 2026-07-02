@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="63d57b44-e0f8-41ec-8702-12256b9678b6" version="1">
+  <Properties>
+    <Name>Remove Summoning Sickness</Name>
+    <Description>Units no longer need to wait a turn to act after being purchased.</Description>
+    <Created>1676050609</Created>
+    <Teaser>Cures unit delay.</Teaser>
+    <Authors>Sailor Cat</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="db">
+      <Properties>
+        <LoadOrder>99999</LoadOrder>
+      </Properties>
+      <File>Ingame.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>Ingame.sql</File>
+  </Files>
+</Mod>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e5e3ff8a-d6d1-44f1-b10d-bad56cf522a3" version="2">
+  <Properties>
+    <Name>Repeat Future</Name>
+    <Description>It automatically repeats future technologies and future social systems.
+There is no need to click multiple times.</Description>
+    <Created>1625490780</Created>
+    <Teaser>Repeat Future Tech and Future Civic automatically.</Teaser>
+    <Authors>yamada</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <AddUserInterfaces id="CMR_RepeatFuture_UI">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>UI/RepeatFutureUI.xml</File>
+    </AddUserInterfaces>
+  </InGameActions>
+  <Files>
+    <File>UI/RepeatFutureUI.lua</File>
+    <File>UI/RepeatFutureUI.xml</File>
+  </Files>
+</Mod>

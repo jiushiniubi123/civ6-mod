@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- HD_DAP.modinfo -->
+<!-- [AUDIT] GUID: a3f7c8d1-5e2b-4f9a-8c1d-6b0e4f2a7d3e -->
+<!-- [AUDIT] Dependencies: Expansion2 (Gathering Storm) required for Policies_XP1 table -->
+<!-- [AUDIT] CompatibleVersions: 1.2,2.0 per Civ6 modding standard -->
+<!-- [AUDIT] 6 policies: 4 Dark Age + 2 Golden Age, all generic wildcard, no prerequisites -->
+<Mod id="a3f7c8d1-5e2b-4f9a-8c1d-6b0e4f2a7d3e" version="1">
+    <Properties>
+        <Name>LOC_HD_DAP_MOD_NAME</Name>
+        <Description>LOC_HD_DAP_MOD_DESCRIPTION</Description>
+        <Teaser>LOC_HD_DAP_MOD_TEASER</Teaser>
+        <Authors>HD</Authors>
+        <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_HD_DAP_MOD_NAME">
+            <en_US>HD Era Score Policies</en_US>
+            <zh_Hans_CN>HD 时代分政策</zh_Hans_CN>
+        </Text>
+        <Text id="LOC_HD_DAP_MOD_TEASER">
+            <en_US>Adds 6 era score policies (4 Dark Age + 2 Golden Age) as generic Wildcard policies. Available from game start with no prerequisites.</en_US>
+            <zh_Hans_CN>添加 6 张时代分政策卡（4 黑暗 + 2 黄金），作为通用万用政策卡。游戏开始即可使用，无前置条件。</zh_Hans_CN>
+        </Text>
+        <Text id="LOC_HD_DAP_MOD_DESCRIPTION">
+            <en_US>Adds 6 era score-themed Wildcard policies available from game start with no prerequisites.
+
+Dark Age Policies (deduct Era Score):
+- Chattel Slavery: Capture enemy civilization units (non-barbarian) as Builders. -1 Era Score per unit killed.
+- Child Soldiers: +100% combat experience. -1 Era Score per promotion.
+- Great Migration: New cities get +1 population. -2 Era Score per city founded.
+- Labour Camps: +0.4 Production per citizen in governed cities. -1 Era Score per production completed.
+
+Golden Age Policies (gain Era Score):
+- Royal Tombs: +1 Era Score when a Wonder is constructed.
+- Flourishing Talents (英杰辈出): +1 Era Score when a Great Person is recruited through normal means (not Gold/Faith purchase).</en_US>
+            <zh_Hans_CN>添加 6 张时代分主题的万用政策卡，游戏开始即可使用，无前置条件。
+
+黑暗时代政策（扣除时代分）：
+- 奴隶制：击败敌方文明单位（非蛮族）可俘虏为建造者。击杀单位-1时代分。
+- 童兵：+100%战斗经验。晋升时-1时代分。
+- 大迁徙：新城+1人口。建城-2时代分。
+- 劳改营：有总督城市每公民+0.4生产力。完成生产-1时代分。
+
+黄金时代政策（获得时代分）：
+- 皇家陵墓：建造奇观时+1时代分。
+- 英杰辈出：通过正常方式招募伟人时+1时代分（不包含金币/信仰购买）。</zh_Hans_CN>
+        </Text>
+    </LocalizedText>
+    <ActionCriteria>
+        <Criteria id="EXPANSION2">
+            <GameCoreInUse>Expansion2</GameCoreInUse>
+        </Criteria>
+    </ActionCriteria>
+    <InGameActions>
+        <UpdateDatabase id="HD_DAP_Data">
+            <Criteria>EXPANSION2</Criteria>
+            <File>Core/HD_DAP_Data.sql</File>
+        </UpdateDatabase>
+        <UpdateText id="HD_DAP_Text">
+            <Criteria>EXPANSION2</Criteria>
+            <File>Text/HD_DAP_Text.xml</File>
+        </UpdateText>
+        <AddGameplayScripts id="HD_DAP_Lua">
+            <Criteria>EXPANSION2</Criteria>
+            <File>Lua/HD_DAP_Functions.lua</File>
+        </AddGameplayScripts>
+    </InGameActions>
+    <Files>
+        <File>Core/HD_DAP_Data.sql</File>
+        <File>Text/HD_DAP_Text.xml</File>
+        <File>Lua/HD_DAP_Functions.lua</File>
+    </Files>
+</Mod>

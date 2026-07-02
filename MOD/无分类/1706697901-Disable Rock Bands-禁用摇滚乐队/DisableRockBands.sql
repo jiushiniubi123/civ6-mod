@@ -1,0 +1,1 @@
+DELETE FROM Units WHERE UnitType='UNIT_ROCK_BAND';

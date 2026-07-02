@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CityStateBonusViewer_Panel -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 8/1/2024 6:27:39 PM -->
+<Context xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\..\..\CivTech\Libs\ForgeUI\ForgeUI_Assets\Controls.xsd" Style="FontNormal20">
+	<!-- Left Panel -->
+	<SlideAnim ID="PantheonChooserSlideAnim" Size="auto,parent" Anchor="L,T" Begin="-595,0" End="0,0" Cycle="Once" Speed="5">
+		<Container ID="PantheonChooser" Size="auto,parent-54" Offset="-3,54">
+			<!-- Body container-->
+			<Container Size="595,parent" ConsumeAllMouse="1">
+
+				<!-- Top Panel -->
+				<Image Size="parent,180" Offset="0,4" ConsumeAllMouse="1" Texture="Religion_BG" StretchMode="Tile">
+					<Grid ID="TopGrid" Anchor="C,C" Size="parent-36,parent-2" Texture="Religion_Panel" SliceCorner="24,30" SliceSize="0,0" SliceTextureSize="53,97" Color="255,255,255,178">
+						<!--<Image ID="ReligionOrPatheonImage" Texture="Religion_Generic" Anchor="C,C" />-->
+						
+						<!--控制面板-->
+						<Grid Anchor="C,C" Offset="-5,0" Size="parent-40,170" Texture="GreatWorks_Header" SliceCorner="18,18" SliceSize="18,18" SliceTextureSize="60,54">
+							<!--滑块，切换全局和局内-->
+							<Container ID="CityStateBonus_ViewMode_Container" Size="parent, 50" Anchor="C,T" Offset="0, 10">
+								<Stack Anchor="L,C" Size="parent,30" StackGrowth="Right" Offset="30,-10" >
+									<Label ID="CityStateBonus_ViewMode_Prefix_Label" Style="FontFlair16" String="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_VIEWMODE_PREFIX" Anchor="L,C" FontStyle="stroke" ColorSet="ResCultureLabelCS" />
+									<Label ID="CityStateBonus_ViewMode_Mode_Label" Style="FontFlair16" String="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_VIEWMODE_ALL" Anchor="C,C" FontStyle="stroke" ColorSet="ResGoldLabelCS" />
+								</Stack>
+								<Slider ID="CityStateBonus_ViewMode_Slider" Style="SliderControl" Size="100,18" Anchor="L,C" Offset="30,10"/>
+
+							</Container>
+
+							<!--滑块，切换排序-->
+							<Container ID="CityStateBonus_SortMode_Container" Size="parent, 50" Anchor="C,T" Offset="0, 60">
+								<Stack Anchor="L,C" Size="parent,30" StackGrowth="Right" Offset="30,-10" >
+									<Label ID="CityStateBonus_SortMode_Prefix_Label" Style="FontFlair16" String="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_SORTMODE_PREFIX" Anchor="L,C" FontStyle="stroke" ColorSet="ResCultureLabelCS" />
+									<Label ID="CityStateBonus_SortMode_Mode_Label" Style="FontFlair16" String="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_SORTMODE_BY_NAME" Anchor="C,C" FontStyle="stroke" ColorSet="ResGoldLabelCS" />
+								</Stack>
+								<Slider ID="CityStateBonus_SortMode_Slider" Style="SliderControl" Size="100,18" Anchor="L,C" Offset="30,10"/>
+
+							</Container>
+
+							<!--下拉框，筛选-->
+							<Container ID="CityStateBonus_Filter_Container" Size="parent, 50" Anchor="C,T" Offset="0, 110">
+								<Label Anchor="L,C" Style="FontFlair16" String="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_FILTER_TITLE" Offset="30,-10" FontStyle="stroke" ColorSet="ResCultureLabelCS"/>
+								<PullDown ID="CityStateBonus_Filter_PullDown" Style="PullDownBlue" ScrollThreshold="400" Anchor="L,C" Size="250,24" Offset="30,13" SpaceForScroll="0" />
+
+							</Container>
+						</Grid>
+
+
+						<Grid Anchor="L,C" AnchorSide="O,I" Offset="-5,0" Size="14,parent-4" Texture="Religion_BraceFlip" SliceCorner="0,24" SliceSize="14,120" SliceTextureSize="14,166"/>
+						<Image Texture="Religion_BraceDeco" Anchor="L,C" Offset="-16,0" FlipX="1"/>
+						<Grid Anchor="R,C" AnchorSide="O,I" Offset="-5,0" Size="14,parent-4" Texture="Religion_Brace" SliceCorner="0,24" SliceSize="14,120" SliceTextureSize="14,166"/>
+						<Image Texture="Religion_BraceDeco" Anchor="R,C" Offset="-16,0"/>
+					</Grid>
+				</Image>
+
+				<!-- Bottom Panel -->
+				<Grid ID="BottomGrid" Size="parent,parent-185" Offset="0,184" Texture="Controls_ContainerBlue" SliceStart="0,0" SliceCorner="3,3" SliceSize="9,9" SliceTextureSize="16,16">
+					<Grid ID="ChooseBelief" Anchor="C,T" Offset="0,0" Size="parent-5,parent" Texture="Religion_OverviewFrame" SliceCorner="15,15" SliceTextureSize="34,33">
+						<ScrollPanel Anchor="C,T" Offset="-5,10" Size="auto,parent-20" AutoSizePadding="2,0" Style="ScrollPanelWithRightBar">
+							<Stack ID="BeliftStack" Anchor="C,T" StackGrowth="Down"/>
+						</ScrollPanel>
+					</Grid>
+				</Grid>
+				<!--parent,parent-275-->
+
+				<!-- Confirmation Panel -->
+				<Grid ID="ConfirmGrid" Size="parent,90" Anchor="C,B" Texture="Controls_DrawerUp" SliceCorner="5,4" SliceSize="3,2" SliceTextureSize="14,8" Hidden="1">
+					<Stack Anchor="C,C">
+						<!-- Confirm Button -->
+						<GridButton ID="ConfirmTraitButton" Size="350,41" Offset="0,4" Anchor="C,B">
+							<GridData Texture="Controls_Confirm" StateOffsetIncrement="0,41" SliceCorner="40,21" SliceSize="1,1" SliceTextureSize="80,41"/>
+							<Label Anchor="C,C" Offset="0,0" String="{LOC_UI_RELIGION_FOUND_PANTHEON:upper}" Style="FontFlair14" FontStyle="Shadows" TextOffset="0,2" SmallCaps="18" SmallCapsType="EveryWord"/>
+						</GridButton>
+
+						<!-- Cancel Button -->
+						<GridButton ID="CancelButton" Size="350,24" Offset="0,4" Anchor="C,B" String="{LOC_UI_RELIGION_RESELECT_PANTHEON:upper}" Style="FontFlair14" FontStyle="Shadows" EffectColor="0,0,0,255" TextOffset="0,2" SmallCaps="20" SmallCapsType="EveryWord"/>
+					</Stack>
+				</Grid>
+			</Container>
+
+			<!-- Header container-->
+			<Grid Size="608,60" Offset="3,-25" Style="HeaderBannerLeft" ConsumeAllMouse="1">
+				<Label ID="Header_OriginText" Size="200, 50" Offset="0,7" Anchor="C,T" Style="FontFlair20" Color0="0,59,77,255" SmallCaps="20" SmallCapsType="FirstOnly" String="{LOC_MAPLE_CITY_STATE_BONUS_VIEWER_PANEL_TITLE:upper}" TruncateWidth="380" TruncatedTooltip="1"/>
+				<Button ID="Header_CloseButton" Size="32,32" Offset="10,-2" Anchor="R,T" Texture="Controls_CloseButtonAlt"/>
+			</Grid>
+
+		</Container>
+	</SlideAnim>
+
+	<!-- Instances -->
+	<Instance Name="BeliefSlot">
+		<GridButton	ID="BeliefButton" Texture="Religion_BeliefButton" Size="550,auto" States="5" SliceCorner="96,36" SliceTextureSize="192,72" StateOffsetIncrement="0,72" AutoSizePadding="0,6" MinSize="192,72">
+			<!--<Image ID="BeliefIcon" Size="64,64" Offset="6,0" Anchor="L,C" Texture="BeliefsPantheon64" />-->
+			<Button			ID="BeliefIconButton"		Offset="6,0" Anchor="L,C"									Size="44,44"								Texture="CircleBacking44" NoStateChange="1">
+				<Image											Anchor="C,C"									Size="44,44"								Texture="Circle44_Darker"  Color="0,0,0,50" />
+				<Image											Anchor="C,C"									Size="44,44"								Texture="Circle44_Lighter" Color="255,255,255,100" />
+				<Image		ID="BeliefIcon"					Anchor="C,C"									Size="44,44"	/>
+				<!--<Image		ID="DiplomacyPip"	Anchor="L,B"	Offset="-8,-8"	Size="23,23"								Texture="Diplomacy_RelationshipPips" />-->
+			</Button>
+			<Stack StackGrowth="Down" Anchor="L,C" Offset="55,2" Padding="3">
+				<Label ID="BeliefLabel" Style="FontNormal16" String="BeliefLabel" />
+				<Label ID="BeliefDescription" WrapWidth="485" Style="FontNormal14" String="BeliefDescription" LeadingOffset="-1"/>
+			</Stack>
+		</GridButton>
+	</Instance>
+</Context>

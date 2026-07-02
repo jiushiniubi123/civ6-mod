@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Projects -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/17/2023 7:11:54 PM -->
+<GameData>
+	<Types>
+		<!--BUILDING_STONEHENGE-->
+		<Row Type="PROJECT_STONEHENGE_ADJUST_QUARRY_YIELD_EWHO" Kind="KIND_PROJECT"/>
+		<!--BUILDING_PETRA-->
+		<Row Type="PROJECT_PETRA_ADJUST_DESERT_CITY_YIELD_EWHO" Kind="KIND_PROJECT"/>
+		<!--BUILDING_GREAT_ZIMBABWE-->
+		<Row Type="PROJECT_GREAT_ZIMBABWE_ADJUST_CITY_GOLD_EWHO" Kind="KIND_PROJECT"/>
+		<!--BUILDING_VENETIAN_ARSENAL-->
+		<Row Type="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" Kind="KIND_PROJECT"/>
+		
+	</Types>
+
+	<Projects>
+		<!--Ancient-->
+		<!--BUILDING_STONEHENGE-->
+		<Row ProjectType="PROJECT_STONEHENGE_ADJUST_QUARRY_YIELD_EWHO" 
+			 Name="LOC_PROJECT_STONEHENGE_ADJUST_QUARRY_YIELD_EWHO_NAME" 
+			 ShortName="LOC_PROJECT_STONEHENGE_ADJUST_QUARRY_YIELD_EWHO_SHORT_NAME" 
+			 Description="LOC_PROJECT_STONEHENGE_ADJUST_QUARRY_YIELD_EWHO_DESCRIPTION"
+			 MaxPlayerInstances="1"
+			 RequiredBuilding="BUILDING_STONEHENGE"
+			 Cost="36" 
+			 AdvisorType="ADVISOR_GENERIC"
+			 UnlocksFromEffect="true"/>
+		
+		<!--Classical-->
+		<!--BUILDING_PETRA-->
+		<Row ProjectType="PROJECT_PETRA_ADJUST_DESERT_CITY_YIELD_EWHO"
+			 Name="LOC_PROJECT_PETRA_ADJUST_DESERT_CITY_YIELD_EWHO_NAME"
+			 ShortName="LOC_PROJECT_PETRA_ADJUST_DESERT_CITY_YIELD_EWHO_SHORT_NAME"
+			 Description="LOC_PROJECT_PETRA_ADJUST_DESERT_CITY_YIELD_EWHO_DESCRIPTION"
+			 MaxPlayerInstances="1"
+			 RequiredBuilding="BUILDING_PETRA"
+			 Cost="80"
+			 AdvisorType="ADVISOR_GENERIC"
+			 UnlocksFromEffect="true"/>
+
+		<!--Renaissance-->
+		<!--BUILDING_GREAT_ZIMBABWE-->
+		<Row ProjectType="PROJECT_GREAT_ZIMBABWE_ADJUST_CITY_GOLD_EWHO"
+			 Name="LOC_PROJECT_GREAT_ZIMBABWE_ADJUST_CITY_GOLD_EWHO_NAME"
+			 ShortName="LOC_PROJECT_GREAT_ZIMBABWE_ADJUST_CITY_GOLD_EWHO_SHORT_NAME"
+			 Description="LOC_PROJECT_GREAT_ZIMBABWE_ADJUST_CITY_GOLD_EWHO_DESCRIPTION"
+			 MaxPlayerInstances="1"
+			 RequiredBuilding="BUILDING_GREAT_ZIMBABWE"
+			 Cost="138"
+			 AdvisorType="ADVISOR_GENERIC"
+			 UnlocksFromEffect="true"/>
+
+		<!--BUILDING_VENETIAN_ARSENAL-->
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO"
+			 Name="LOC_PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO_NAME"
+			 ShortName="LOC_PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO_SHORT_NAME"
+			 Description="LOC_PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO_DESCRIPTION"
+			 MaxPlayerInstances="1"
+			 RequiredBuilding="BUILDING_VENETIAN_ARSENAL"
+			 Cost="138"
+			 AdvisorType="ADVISOR_GENERIC"
+			 UnlocksFromEffect="true"/>
+	</Projects>
+
+	<Project_YieldConversions>
+		<!--BUILDING_STONEHENGE-->
+		<Row ProjectType="PROJECT_STONEHENGE_ADJUST_QUARRY_YIELD_EWHO" YieldType="YIELD_FAITH" PercentOfProductionRate="15"/>
+		<!--BUILDING_PETRA-->
+		<Row ProjectType="PROJECT_PETRA_ADJUST_DESERT_CITY_YIELD_EWHO" YieldType="YIELD_FOOD" PercentOfProductionRate="15"/>
+		<!--BUILDING_GREAT_ZIMBABWE-->
+		<Row ProjectType="PROJECT_GREAT_ZIMBABWE_ADJUST_CITY_GOLD_EWHO" YieldType="YIELD_GOLD" PercentOfProductionRate="15"/>
+		<!--BUILDING_VENETIAN_ARSENAL-->
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" YieldType="YIELD_GOLD" PercentOfProductionRate="15"/>
+	</Project_YieldConversions>
+
+	<ProjectCompletionModifiers>
+		<!--BUILDING_STONEHENGE-->
+		<Row ProjectType="PROJECT_STONEHENGE_ADJUST_QUARRY_YIELD_EWHO" ModifierId="STONEHENGE_ADJUST_QUARRY_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_STONEHENGE_ADJUST_QUARRY_YIELD_EWHO" ModifierId="STONEHENGE_ADJUST_QUARRY_FAITH_EWHO"/>
+		<!--BUILDING_PETRA-->
+		<Row ProjectType="PROJECT_PETRA_ADJUST_DESERT_CITY_YIELD_EWHO" ModifierId="PETRA_ADJUST_DESERT_CITY_FOOD_ATTACH_EWHO"/>
+		<Row ProjectType="PROJECT_PETRA_ADJUST_DESERT_CITY_YIELD_EWHO" ModifierId="PETRA_ADJUST_DESERT_CITY_GOLD_ATTACH_EWHO"/>
+		<Row ProjectType="PROJECT_PETRA_ADJUST_DESERT_CITY_YIELD_EWHO" ModifierId="PETRA_ADJUST_DESERT_CITY_PRODUCTION_ATTACH_EWHO"/>
+		<!--BUILDING_GREAT_ZIMBABWE-->
+		<Row ProjectType="PROJECT_GREAT_ZIMBABWE_ADJUST_CITY_GOLD_EWHO" ModifierId="GREAT_ZIMBABWE_ADJUST_CITY_GOLD_EWHO"/>
+		<!--BUILDING_VENETIAN_ARSENAL-->
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MODERN_NAVAL_MELEE_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ATOMIC_NAVAL_MELEE_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INFORMATION_NAVAL_MELEE_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MODERN_NAVAL_RANGED_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ATOMIC_NAVAL_RANGED_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INFORMATION_NAVAL_RANGED_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MODERN_NAVAL_RAIDER_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ATOMIC_NAVAL_RAIDER_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INFORMATION_NAVAL_RAIDER_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_RENAISSANCE_NAVAL_MELEE_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INDUSTRIAL_NAVAL_MELEE_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_RENAISSANCE_NAVAL_RANGED_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INDUSTRIAL_NAVAL_RANGED_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_RENAISSANCE_NAVAL_RAIDER_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INDUSTRIAL_NAVAL_RAIDER_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ANCIENT_NAVAL_MELEE_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_CLASSICAL_NAVAL_MELEE_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ANCIENT_NAVAL_RANGED_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_CLASSICAL_NAVAL_RANGED_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ANCIENT_NAVAL_RAIDER_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_CLASSICAL_NAVAL_RAIDER_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MEDIEVAL_NAVAL_MELEE_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MEDIEVAL_NAVAL_RANGED_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MEDIEVAL_NAVAL_RAIDER_PRODUCTION_EWHO"/>
+
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_NAVAL_UNITS_GRANT_GOLD_EWHO"/>
+		<Row ProjectType="PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO" ModifierId="VENETIAN_ARSENAL_ADJUST_TRADER_GRANT_ADMIRAL_POINT_EWHO"/>
+		
+	</ProjectCompletionModifiers>
+
+	<Modifiers>
+		<!--BUILDING_STONEHENGE-->
+		<Row>
+			<ModifierId>STONEHENGE_ADJUST_QUARRY_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_STONEHENGE_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_STONEHENGE_QUARRY_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STONEHENGE_ADJUST_QUARRY_FAITH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_STONEHENGE_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_STONEHENGE_QUARRY_EWHO</SubjectRequirementSetId>
+		</Row>
+
+		<!--BUILDING_PETRA-->
+		<Row>
+			<ModifierId>PETRA_ADJUST_DESERT_CITY_FOOD_ATTACH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_PETRA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_DESERT_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PETRA_ADJUST_DESERT_CITY_FOOD_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>PETRA_ADJUST_DESERT_CITY_GOLD_ATTACH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_PETRA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_DESERT_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PETRA_ADJUST_DESERT_CITY_GOLD_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>PETRA_ADJUST_DESERT_CITY_PRODUCTION_ATTACH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_PETRA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_DESERT_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PETRA_ADJUST_DESERT_CITY_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+
+		<!--BUILDING_GREAT_ZIMBABWE-->
+		<Row>
+			<ModifierId>GREAT_ZIMBABWE_ADJUST_CITY_GOLD_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_GREAT_ZIMBABWE_EWHO</OwnerRequirementSetId>
+		</Row>
+
+		<!--BUILDING_VENETIAN_ARSENAL-->
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MODERN_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ATOMIC_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INFORMATION_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MODERN_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ATOMIC_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INFORMATION_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MODERN_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ATOMIC_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INFORMATION_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_RENAISSANCE_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INDUSTRIAL_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_RENAISSANCE_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INDUSTRIAL_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_RENAISSANCE_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INDUSTRIAL_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ANCIENT_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_CLASSICAL_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ANCIENT_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_CLASSICAL_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ANCIENT_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_CLASSICAL_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MEDIEVAL_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MEDIEVAL_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MEDIEVAL_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_NAVAL_UNITS_GRANT_GOLD_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_TRADER_GRANT_ADMIRAL_POINT_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO</OwnerRequirementSetId>
+		</Row>
+		
+	</Modifiers>
+	
+	<ModifierArguments>
+		<!--BUILDING_STONEHENGE-->
+		<Row>
+			<ModifierId>STONEHENGE_ADJUST_QUARRY_PRODUCTION_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>STONEHENGE_ADJUST_QUARRY_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>STONEHENGE_ADJUST_QUARRY_FAITH_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>STONEHENGE_ADJUST_QUARRY_FAITH_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<!--BUILDING_PETRA-->
+		<Row>
+			<ModifierId>PETRA_ADJUST_DESERT_CITY_FOOD_ATTACH_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>PETRA_ADJUST_DESERT_CITY_FOOD_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>PETRA_ADJUST_DESERT_CITY_FOOD_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>PETRA_ADJUST_DESERT_CITY_FOOD_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>PETRA_ADJUST_DESERT_CITY_GOLD_ATTACH_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>PETRA_ADJUST_DESERT_CITY_GOLD_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>PETRA_ADJUST_DESERT_CITY_GOLD_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>PETRA_ADJUST_DESERT_CITY_GOLD_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>PETRA_ADJUST_DESERT_CITY_PRODUCTION_ATTACH_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>PETRA_ADJUST_DESERT_CITY_PRODUCTION_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>PETRA_ADJUST_DESERT_CITY_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>PETRA_ADJUST_DESERT_CITY_PRODUCTION_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+
+		<!--BUILDING_GREAT_ZIMBABWE-->
+		<Row>
+			<ModifierId>GREAT_ZIMBABWE_ADJUST_CITY_GOLD_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_ZIMBABWE_ADJUST_CITY_GOLD_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+
+		<!--BUILDING_VENETIAN_ARSENAL-->
+		<!--Melee-->
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MODERN_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_MELEE</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MODERN_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_MODERN</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MODERN_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ATOMIC_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_MELEE</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ATOMIC_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_ATOMIC</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ATOMIC_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INFORMATION_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_MELEE</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INFORMATION_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_INFORMATION</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INFORMATION_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_RENAISSANCE_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_MELEE</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_RENAISSANCE_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_RENAISSANCE</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_RENAISSANCE_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INDUSTRIAL_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_MELEE</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INDUSTRIAL_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_INDUSTRIAL</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INDUSTRIAL_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ANCIENT_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_MELEE</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ANCIENT_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_ANCIENT</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ANCIENT_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_CLASSICAL_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_MELEE</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_CLASSICAL_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_CLASSICAL</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_CLASSICAL_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MEDIEVAL_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_MELEE</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MEDIEVAL_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_MEDIEVAL</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MEDIEVAL_NAVAL_MELEE_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<!--Ranged-->
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MODERN_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_RANGED</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MODERN_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_MODERN</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MODERN_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ATOMIC_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_RANGED</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ATOMIC_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_ATOMIC</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ATOMIC_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INFORMATION_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_RANGED</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INFORMATION_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_INFORMATION</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INFORMATION_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_RENAISSANCE_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_RANGED</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_RENAISSANCE_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_RENAISSANCE</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_RENAISSANCE_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INDUSTRIAL_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_RANGED</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INDUSTRIAL_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_INDUSTRIAL</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INDUSTRIAL_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ANCIENT_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_RANGED</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ANCIENT_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_ANCIENT</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ANCIENT_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_CLASSICAL_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_RANGED</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_CLASSICAL_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_CLASSICAL</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_CLASSICAL_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MEDIEVAL_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_RANGED</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MEDIEVAL_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_MEDIEVAL</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MEDIEVAL_NAVAL_RANGED_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<!--Raider-->
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MODERN_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_RAIDER</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MODERN_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_MODERN</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MODERN_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ATOMIC_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_RAIDER</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ATOMIC_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_ATOMIC</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ATOMIC_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INFORMATION_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_RAIDER</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INFORMATION_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_INFORMATION</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INFORMATION_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_RENAISSANCE_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_RAIDER</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_RENAISSANCE_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_RENAISSANCE</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_RENAISSANCE_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INDUSTRIAL_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_RAIDER</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INDUSTRIAL_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_INDUSTRIAL</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_INDUSTRIAL_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ANCIENT_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_RAIDER</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ANCIENT_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_ANCIENT</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_ANCIENT_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_CLASSICAL_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_RAIDER</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_CLASSICAL_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_CLASSICAL</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_CLASSICAL_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MEDIEVAL_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_RAIDER</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MEDIEVAL_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_MEDIEVAL</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_SINGLE_CITY_MEDIEVAL_NAVAL_RAIDER_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_NAVAL_UNITS_GRANT_GOLD_EWHO</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_VENETIAN_ARSENAL_NAVAL_UNITS_GOLD_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ADJUST_TRADER_GRANT_ADMIRAL_POINT_EWHO</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_VENETIAN_ARSENAL_TRADER_ADMIRAL_POINT_EWHO</Value>
+		</Row>
+
+		
+
+	</ModifierArguments>
+
+	<RequirementSets>
+		<!--BUILDING_STONEHENGE-->
+		<Row RequirementSetId="REQSET_STONEHENGE_QUARRY_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_HAS_STONEHENGE_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+		<!--BUILDING_PETRA-->
+		<Row RequirementSetId="REQSET_PLAYER_HAS_PETRA_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLOT_HAS_DESERT_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+		<!--BUILDING_GREAT_ZIMBABWE-->
+		<Row RequirementSetId="REQSET_PLAYER_HAS_GREAT_ZIMBABWE_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+		<!--BUILDING_VENETIAN_ARSENAL-->
+		<Row RequirementSetId="REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<!--BUILDING_STONEHENGE-->
+		<Row RequirementSetId="REQSET_STONEHENGE_QUARRY_EWHO" RequirementId="REQUIRES_PLOT_HAS_QUARRY"/>
+		<Row RequirementSetId="REQSET_PLAYER_HAS_STONEHENGE_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+		
+		<!--BUILDING_PETRA-->
+		<Row RequirementSetId="REQSET_PLAYER_HAS_PETRA_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+		<Row RequirementSetId="REQSET_PLOT_HAS_DESERT_EWHO" RequirementId="PETRA_YIELD_MODIFIER_REQUIRES_PLOT_HAS_DESERT"/>
+
+		<!--BUILDING_GREAT_ZIMBABWE-->
+		<Row RequirementSetId="REQSET_PLAYER_HAS_GREAT_ZIMBABWE_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+
+		<!--BUILDING_VENETIAN_ARSENAL-->
+		<Row RequirementSetId="REQSET_PLAYER_HAS_VENETIAN_ARSENAL_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+	</RequirementSetRequirements>
+
+<!--=============================================================================================================-->
+	
+	<BuildingModifiers>
+		<!--BUILDING_STONEHENGE-->
+		<Row>
+			<BuildingType>BUILDING_STONEHENGE</BuildingType>
+			<ModifierId>STONEHENGE_ALLOW_PROJECT_EWHO</ModifierId>
+		</Row>
+		<!--BUILDING_PETRA-->
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<ModifierId>PETRA_ALLOW_PROJECT_EWHO</ModifierId>
+		</Row>
+		<!--BUILDING_GREAT_ZIMBABWE-->
+		<Row>
+			<BuildingType>BUILDING_GREAT_ZIMBABWE</BuildingType>
+			<ModifierId>GREAT_ZIMBABWE_ALLOW_PROJECT_EWHO</ModifierId>
+		</Row>
+		<!--BUILDING_VENETIAN_ARSENAL-->
+		<Row>
+			<BuildingType>BUILDING_VENETIAN_ARSENAL</BuildingType>
+			<ModifierId>VENETIAN_ARSENAL_ALLOW_PROJECT_EWHO</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+		<!--BUILDING_STONEHENGE-->
+		<Row>
+			<ModifierId>STONEHENGE_ALLOW_PROJECT_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ALLOW_PROJECT_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_MAJOR_EWHO</OwnerRequirementSetId>
+		</Row>
+		<!--BUILDING_PETRA-->
+		<Row>
+			<ModifierId>PETRA_ALLOW_PROJECT_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ALLOW_PROJECT_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_MAJOR_EWHO</OwnerRequirementSetId>
+		</Row>
+		<!--BUILDING_GREAT_ZIMBABWE-->
+		<Row>
+			<ModifierId>GREAT_ZIMBABWE_ALLOW_PROJECT_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ALLOW_PROJECT_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_MAJOR_EWHO</OwnerRequirementSetId>
+		</Row>
+		<!--BUILDING_VENETIAN_ARSENAL-->
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ALLOW_PROJECT_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ALLOW_PROJECT_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_MAJOR_EWHO</OwnerRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--BUILDING_STONEHENGE-->
+		<Row>
+			<ModifierId>STONEHENGE_ALLOW_PROJECT_EWHO</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_STONEHENGE_ADJUST_QUARRY_YIELD_EWHO</Value>
+		</Row>
+		<!--BUILDING_PETRA-->
+		<Row>
+			<ModifierId>PETRA_ALLOW_PROJECT_EWHO</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_PETRA_ADJUST_DESERT_CITY_YIELD_EWHO</Value>
+		</Row>
+		<!--BUILDING_GREAT_ZIMBABWE-->
+		<Row>
+			<ModifierId>GREAT_ZIMBABWE_ALLOW_PROJECT_EWHO</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_GREAT_ZIMBABWE_ADJUST_CITY_GOLD_EWHO</Value>
+		</Row>
+		<!--BUILDING_VENETIAN_ARSENAL-->
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_ALLOW_PROJECT_EWHO</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO</Value>
+		</Row>
+		
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_PLAYER_IS_MAJOR_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_MAJOR_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+	</RequirementSetRequirements>
+	
+	
+</GameData>

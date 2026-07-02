@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- SIMPLIFY-CHINESE -->
+
+    <Row Tag="LOC_CQUI_BINDINGS" Language="zh_Hans_CN">
+      <Text>热键</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_BINDINGS_DROPDOWN" Language="zh_Hans_CN">
+      <Text>热键模式</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_BINDINGS_DROPDOWN_TOOLTIP" Language="zh_Hans_CN">
+      <Text>标准：不变[NEWLINE]经典: 文明5热键[NEWLINE]强化: 文明5热键加上如下改动[NEWLINE]  WASD 控制视角[NEWLINE]  Q/E 单位/城市 轮转[NEWLINE]  Shift 切换 城市/单位 选择[NEWLINE]  挖掘/空袭 移至 alt-键 + Q/S[NEWLINE]  注意:在设置里取消 W/E 的热键，否则以上无效。</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_BINDINGS_CLASSIC" Language="zh_Hans_CN">
+      <Text>经典</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_BINDINGS_ENHANCED" Language="zh_Hans_CN">
+      <Text>强化</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_BINDINGS_STANDARD" Language="zh_Hans_CN">
+      <Text>标准</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_CITYVIEW" Language="zh_Hans_CN">
+      <Text>城市视图</Text>
+    </Row>
+    <!-- Relocate City Strike and Encampment Strike button translations done via Google Translate -->
+    <Row Tag="LOC_CQUI_CITYVIEW_RELOCATECITYSTRIKEBUTTON" Language="zh_Hans_CN">
+      <Text>移居城市攻击图标</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_CITYVIEW_RELOCATECITYSTRIKEBUTTON_TOOLTIP" Language="zh_Hans_CN">
+      <Text>启用此选项可将“城市攻击”按钮移到健康和防御面板上方</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_CITYVIEW_RELOCATEENCAMPMENTSTRIKEBUTTON" Language="zh_Hans_CN">
+      <Text>移居营地攻击图标</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_CITYVIEW_RELOCATEENCAMPMENTSTRIKEBUTTON_TOOLTIP" Language="zh_Hans_CN">
+      <Text>启用此选项可将“营地攻击”按钮移至健康和防御栏上方。</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_CITYVIEW_PRODUCTIONQUEUE" Language="zh_Hans_CN">
+      <Text>启用生产队列</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_CITYVIEW_SHOWCULTUREGROWTH" Language="zh_Hans_CN">
+      <Text>显示边境拓展的地块</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_CITYVIEW_SHOWCULTUREGROWTH_TOOLTIP" Language="zh_Hans_CN">
+      <Text>点击城市视图中的成长按钮也可切换显示/隐藏</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_CITYVIEW_SHOWYIELDSONCITYHOVER" Language="zh_Hans_CN">
+      <Text>鼠标指向时显示城市市民分配信息</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_CITYVIEW_SHOWYIELDSONCITYHOVER_TOOLTIP" Language="zh_Hans_CN">
+      <Text>鼠标指向时显示市民分配，顶部显示，以及边境增长</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_CITYVIEW_SMARTBANNER_HEADER" Language="zh_Hans_CN">
+      <Text>智能城市横幅</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_CITYVIEW_SMARTBANNER" Language="zh_Hans_CN">
+      <Text>开启智能横幅</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_CITYVIEW_SMARTBANNER_TOOLTIP" Language="zh_Hans_CN">
+      <Text>在城市横幅上显示新的图标</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_CITYVIEW_SMARTBANNER_UNLOCKEDCITIZEN_TOOLTIP" Language="zh_Hans_CN">
+      <Text>当有未锁公民自动安置时会显示[ICON_EXCLAMATION]图标。</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_CITYVIEW_SMARTBANNER_DISTRICTS_TOOLTIP" Language="zh_Hans_CN">
+      <Text>显示区域图标表示已建造的区域</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_CITYVIEW_SMARTBANNER_POPULATION_TOOLTIP" Language="zh_Hans_CN">
+      <Text>显示下一人口增长剩余回合[NEWLINE]以及多余住房数量。</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_CITYVIEW_SMARTBANNER_CULTURAL_TOOLTIP" Language="zh_Hans_CN">
+      <Text>显示文化增长剩余回合。</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_CITYVIEW_SMARTWORKICON" Language="zh_Hans_CN">
+      <Text>工作中的市民头像</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_CITYVIEW_SMARTWORKICON_TOOLTIP" Language="zh_Hans_CN">
+      <Text>使工作中的市民头像有不同的大小/透明度</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_CITYVIEW_SMARTWORKICONALPHA" Language="zh_Hans_CN">
+      <Text>头像透明度</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_CITYVIEW_SMARTWORKICONSIZE" Language="zh_Hans_CN">
+      <Text>头像大小</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_CITYVIEW_WORKICONS_HEADER" Language="zh_Hans_CN">
+      <Text>市民头像</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_CITYVIEW_WORKICONALPHA" Language="zh_Hans_CN">
+      <Text>头像透明度</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_CITYVIEW_WORKICONSIZE" Language="zh_Hans_CN">
+      <Text>头像大小</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_GENERAL" Language="zh_Hans_CN">
+      <Text>通用</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_GENERAL_HIDDEN" Language="zh_Hans_CN">
+      <Text>隐藏</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_GENERAL_MINIMAPSIZE" Language="zh_Hans_CN">
+      <Text>小地图尺寸</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_GENERAL_RESOURCEDIMMINGSTYLE" Language="zh_Hans_CN">
+      <Text>已开发过的资源图标</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_GENERAL_RESOURCEDIMMINGSTYLE_TOOLTIP" Language="zh_Hans_CN">
+      <Text>固定：总是显示资源的图标[NEWLINE]透明：改良过的资源的图标透明显示[NEWLINE]隐藏：改良过的资源的图标隐藏</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_GENERAL_SHOWLUXURY" Language="zh_Hans_CN">
+      <Text>在顶部面板显示奢侈</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_GENERAL_SOLID" Language="zh_Hans_CN">
+      <Text>固定</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_GENERAL_TOGGLEYIELDSONLOAD" Language="zh_Hans_CN">
+      <Text>默认显示产量</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_GENERAL_TRANSPARENT" Language="zh_Hans_CN">
+      <Text>透明</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_GOSSIP" Language="zh_Hans_CN">
+      <Text>情报消息</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_GOSSIP_TRIMMESSAGE" Language="zh_Hans_CN">
+      <Text>简略情报消息</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_GOSSIP_TRIMMESSAGE_TOOLTIP" Language="zh_Hans_CN">
+      <Text>移除情报消息中说明情报来源的废话</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_LENSES" Language="zh_Hans_CN">
+      <Text>滤镜</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_LENSES_AUTOAPPLYARCHAEOLOGISTLENS" Language="zh_Hans_CN">
+      <Text>选中考古学家自动切换为考古透镜</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_LENSES_AUTOAPPLYBUILDERLENS" Language="zh_Hans_CN">
+      <Text>选中建造者自动切换为建造者透镜</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_LENSES_AUTOAPPLYSCOUTLENS" Language="zh_Hans_CN">
+      <Text>选中侦察兵自动切换为侦查透镜</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_POPUPS" Language="zh_Hans_CN">
+      <Text>弹窗</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_POPUPS_ALWAYSOPENTECHTREES" Language="zh_Hans_CN">
+      <Text>科技完成时弹出科技树</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_POPUPS_TECHVISUAL" Language="zh_Hans_CN">
+      <Text>开启科技/市政弹窗</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_POPUPS_TECHVISUAL_TOOLTIP" Language="zh_Hans_CN">
+      <Text>每当新的科技/市政完成时弹窗</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_POPUPS_TECHAUDIO" Language="zh_Hans_CN">
+      <Text>使用技术/公民弹出窗口播放音频</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_POPUPS_TECHAUDIO_TOOLTIP" Language="zh_Hans_CN">
+      <Text>当技术/公民弹出窗口出现时，切换以自动播放音频画外音</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_SETTINGS_REMINDER" Language="zh_Hans_CN">
+      <Text>注意：CQUI的设置在存档间是相互独立的。[NEWLINE]如果你想要修改默认配置，请编辑 [MOD INSTALL DIRECTORY]/CQUI/Assets目录下的CQUI_Settings.sql文件</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_UNITS" Language="zh_Hans_CN">
+      <Text>单位</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_UNITS_SHOWUNITPATHS" Language="zh_Hans_CN">
+      <Text>选中或者鼠标指向时显示单位行进路径</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_UNITS_AUTOEXPANDUNITACTIONS" Language="zh_Hans_CN">
+      <Text>自动展开单位的指令面板</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_SHOW_SUZERAIN_IN_CITYSTATE_BANNER" Language="zh_Hans_CN">
+      <Text>城邦旗帜中显示宗主国</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_SHOW_WAR_ICON_IN_CITYSTATE_BANNER" Language="zh_Hans_CN">
+      <Text>城邦旗帜中的战争图标</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_SHOW_WAR_ICON_IN_CITYSTATE_BANNER_TOOLTIP" Language="zh_Hans_CN">
+      <Text>当与城邦交战时，在该城邦的城市旗帜中显示战争图标</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_LABELS_ON_SUZERAIN_ICON" Language="zh_Hans_CN">
+    <Text>显示宗主国使者标签</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_LABELS_ON_SUZERAIN_ICON_TOOLTIP" Language="zh_Hans_CN">
+        <Text>在城邦旗帜中显示宗主国使者标签[NEWLINE]当您是宗主国时，图标右上角的数字显示已派遣使者数量。[NEWLINE]当您不是宗主国时，您的使者在左上角显示，宗主国使者在右上角显示。</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_SHOW_SUZERAIN_CIV_ICON" Language="zh_Hans_CN">
+        <Text>显示文明图标</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_SHOW_SUZERAIN_DISABLED" Language="zh_Hans_CN">
+        <Text>不显示宗主国</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_SHOW_SUZERAIN_IN_CITYSTATE_BANNER_TOOLTIP" Language="zh_Hans_CN">
+        <Text>在城邦旗帜中显示宗主国的文明或领袖图标</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_SHOW_SUZERAIN_LEADER_ICON" Language="zh_Hans_CN">
+        <Text>显示领袖图标</Text>
+	</Row>
+    <Row Tag="LOC_CQUI_LENSES_RELIGIONLENSUNITFLAGSTYLE" Language="zh_Hans_CN">
+      <Text>宗教滤镜单位标志样式</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_LENSES_RELIGIONLENSUNITFLAGSTYLE_TOOLTIP" Language="zh_Hans_CN">
+      <Text>宗教滤镜打开时非宗教单位的单位标志图标的样式[NEWLINE]实心：单位标志保持可见，保持不变[NEWLINE]透明：单位标志变为透明[NEWLINE]隐藏：单位标志已隐藏</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_SETTINGS" Language="zh_Hans_CN">
+      <Text>CQUI 设置</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_SETTINGS_MOVED" Language="zh_Hans_CN">
+      <Text>CQUI 设置现在可以通过从游戏菜单中选择"选项"，然后点击 CQUI 设置按钮找到</Text>
+    </Row>
+
+    <!-- More Lenses Color Slider Controls -->
+    <Row Tag="LOC_CQUI_LENSES_RGB_COLOR_SETTINGS" Language="zh_Hans_CN">
+      <Text>自定义滤镜的 RGB 颜色设置</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_LENSES_RGB_COLOR_SETTINGS_BLUE" Language="zh_Hans_CN">
+      <Text>蓝色</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_LENSES_RGB_COLOR_SETTINGS_EDITBOX_TOOLTIP" Language="zh_Hans_CN">
+      <Text>输入一个介于 0 和 255 之间的值</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_LENSES_RGB_COLOR_SETTINGS_GREEN" Language="zh_Hans_CN">
+      <Text>绿色</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_LENSES_RGB_COLOR_SETTINGS_RED" Language="zh_Hans_CN">
+      <Text>红色</Text>
+    </Row>
+    <Replace Tag="LOC_DEAL_CURRENT_DEALS" Language="zh_Hans_CN">
+      <Text>当前[NEWLINE]交易</Text>
+    </Replace>
+    <Replace Tag="LOC_DEAL_CURRENT_DEALS_TT" Language="zh_Hans_CN">
+      <Text>当前活跃交易的摘要</Text>
+    </Replace>
+    <Replace Tag="LOC_DEAL_OUTGOING_ITEMS_TT" Language="zh_Hans_CN">
+      <Text>我方付出的项目（即我方正在出售）</Text>
+    </Replace>
+    <Replace Tag="LOC_DEAL_INCOMING_ITEMS_TT" Language="zh_Hans_CN">
+      <Text>我方收入的项目（即我方正在购买）</Text>
+    </Replace>
+
+    <!-- ==================== cqui_text_settings.xml 缺失 ==================== -->
+
+    <!-- City View - 城市视图 -->
+    <Replace Tag="LOC_CQUI_CITYVIEW_SHOWCITIZENICONSONHOVER" Language="zh_Hans_CN">
+      <Text>鼠标悬停时显示市民图标</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_CITYVIEW_SHOWCITIZENICONSONHOVER_TOOLTIP" Language="zh_Hans_CN">
+      <Text>鼠标悬停于城市横幅上时显示市民图标</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_CITYVIEW_SHOWCITYMANAGEONHOVER" Language="zh_Hans_CN">
+      <Text>鼠标悬停时显示城市管理区域</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_CITYVIEW_SHOWCITYMANAGEONHOVER_TOOLTIP" Language="zh_Hans_CN">
+      <Text>鼠标悬停于城市横幅上时显示市民管理区域</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_CITYVIEW_SHOWCITYMANAGEOVERLENSES" Language="zh_Hans_CN">
+      <Text>在滤镜上显示城市管理</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_CITYVIEW_SHOWCITYMANAGEOVERLENSES_TOOLTIP" Language="zh_Hans_CN">
+      <Text>在城市视图的各种标签页（如宗教标签页）激活的滤镜上显示市民管理信息</Text>
+    </Replace>
+
+    <!-- Smartbanners - 智能横幅 -->
+    <Replace Tag="LOC_CQUI_CITYVIEW_SMARTBANNER_DISTRICTS_AVAILABLE" Language="zh_Hans_CN">
+      <Text>可建造区域</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_CITYVIEW_SMARTBANNER_DISTRICTS_AVAILABLE_TOOLTIP" Language="zh_Hans_CN">
+      <Text>显示一个图标，指示该城市可以建造区域</Text>
+    </Replace>
+
+    <!-- Lenses - 滤镜自动切换（含提示） -->
+    <Replace Tag="LOC_CQUI_LENSES_AUTOAPPLYARCHAEOLOGISTLENS_TOOLTIP" Language="zh_Hans_CN">
+      <Text>选中考古学家单位时自动切换为考古学家滤镜。</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_LENSES_AUTOAPPLYBUILDERLENS_TOOLTIP" Language="zh_Hans_CN">
+      <Text>启用此选项可在选择建造者时自动应用建造者滤镜。</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_LENSES_BUILDERDISABLENOTHING" Language="zh_Hans_CN">
+      <Text>建造者滤镜：禁用无操作地块高亮</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_LENSES_BUILDERDISABLENOTHING_TOOLTIP" Language="zh_Hans_CN">
+      <Text>禁止高亮显示无可操作内容的地块。</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_LENSES_BUILDERDISABLEDANGEROUS" Language="zh_Hans_CN">
+      <Text>建造者滤镜：禁用危险地块高亮</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_LENSES_BUILDERDISABLEDANGEROUS_TOOLTIP" Language="zh_Hans_CN">
+      <Text>禁止高亮显示与敌人相邻的地块。</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_LENSES_AUTOAPPLYSCOUTLENS_TOOLTIP" Language="zh_Hans_CN">
+      <Text>启用此选项可在选择侦察单位时自动应用侦察滤镜。</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_LENSES_AUTOAPPLYSCOUTLENS_EXTRA" Language="zh_Hans_CN">
+      <Text>自动应用侦察滤镜（扩展）</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_LENSES_AUTOAPPLYSCOUTLENS_EXTRA_TOOLTIP" Language="zh_Hans_CN">
+      <Text>启用此选项可在选择所有军事单位时自动应用侦察滤镜。</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_LENSES_AUTOAPPLYENGINEERLENS" Language="zh_Hans_CN">
+      <Text>为军事工程师自动应用路线滤镜</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_LENSES_AUTOAPPLYENGINEERLENS_TOOLTIP" Language="zh_Hans_CN">
+      <Text>启用此选项可在选择军事工程师时自动应用路线滤镜。</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_LENSES_AUTOAPPLYRELIGIONLENSINCITY" Language="zh_Hans_CN">
+      <Text>在城市视图中自动应用宗教滤镜</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_LENSES_AUTOAPPLYRELIGIONLENSINCITY_TOOLTIP" Language="zh_Hans_CN">
+      <Text>启用此选项可在城市视图中选择宗教标签页时自动应用宗教滤镜。</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_LENSES_AUTOAPPLYLOYALTYLENSINCITY" Language="zh_Hans_CN">
+      <Text>在城市视图中自动应用忠诚度滤镜</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_LENSES_AUTOAPPLYLOYALTYLENSINCITY_TOOLTIP" Language="zh_Hans_CN">
+      <Text>启用此选项可在城市视图中选择忠诚度标签页时自动应用忠诚度滤镜。</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_LENSES_AUTOAPPLYPOWERLENSINCITY" Language="zh_Hans_CN">
+      <Text>在城市视图中自动应用电力滤镜</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_LENSES_AUTOAPPLYPOWERLENSINCITY_TOOLTIP" Language="zh_Hans_CN">
+      <Text>启用此选项可在城市视图中选择电力标签页时自动应用电力滤镜。</Text>
+    </Replace>
+
+    <!-- Popups - 弹窗 -->
+    <Replace Tag="LOC_CQUI_POPUPS_ALWAYSOPENTECHTREES" Language="zh_Hans_CN">
+      <Text>始终打开完整科技树而非弹窗</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_POPUPS_WONDERBUILTVISUAL" Language="zh_Hans_CN">
+      <Text>奇观弹窗动画</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_POPUPS_WONDERBUILTVISUAL_TOOLTIP" Language="zh_Hans_CN">
+      <Text>切换奇观完成时显示的弹窗动画</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_POPUPS_WONDERBUILTAUDIO" Language="zh_Hans_CN">
+      <Text>奇观弹窗音效</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_POPUPS_WONDERBUILTAUDIO_TOOLTIP" Language="zh_Hans_CN">
+      <Text>切换奇观完成时播放的弹窗音效。完全独立于视觉组件，即使没有可见弹窗也可播放。</Text>
+    </Replace>
+
+    <!-- General - 通用 -->
+    <Replace Tag="LOC_CQUI_GENERAL_SHOWPRD" Language="zh_Hans_CN">
+      <Text>显示政策弹窗提醒</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_GENERAL_SHOWPRD_TOOLTIP" Language="zh_Hans_CN">
+      <Text>启用弹窗提醒您在回合结束前变更政策卡</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_GENERAL_AUTOREPEATTECHCIVIC" Language="zh_Hans_CN">
+      <Text>自动重复可重复的科技与市政</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_GENERAL_AUTOREPEATTECHCIVIC_TOOLTIP" Language="zh_Hans_CN">
+      <Text>自动重复研究可重复的科技与市政（未来科技和未来市政）</Text>
+    </Replace>
+
+    <!-- Trader Screen - 贸易界面 -->
+    <Replace Tag="LOC_CQUI_TRADER_SCREEN" Language="zh_Hans_CN">
+      <Text>贸易界面</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_TRADER_SHOW_SORT_ORDER" Language="zh_Hans_CN">
+      <Text>显示排序顺序</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_TRADER_SHOW_SORT_ORDER_TOOLTIP" Language="zh_Hans_CN">
+      <Text>在贸易界面中显示各种产出的排序顺序</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_TRADER_COLOR_YIELDS" Language="zh_Hans_CN">
+      <Text>产出值着色</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_TRADER_COLOR_YIELDS_TOOLTIP" Language="zh_Hans_CN">
+      <Text>根据产出类型对数值着色。例如：食物产出显示为绿色</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_TRADER_ADD_DIVIDER" Language="zh_Hans_CN">
+      <Text>在组之间添加分隔线</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_TRADER_ADD_DIVIDER_TOOLTIP" Language="zh_Hans_CN">
+      <Text>在贸易概览面板中各组之间添加分隔线</Text>
+    </Replace>
+
+    <!-- Recommendations - 推荐 -->
+    <Replace Tag="LOC_CQUI_RECOMMENDATIONS_SCREEN" Language="zh_Hans_CN">
+      <Text>推荐</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_RECOMMENDATIONS_SHOWPRODUCTION" Language="zh_Hans_CN">
+      <Text>显示生产推荐</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_RECOMMENDATIONS_SHOWTECH" Language="zh_Hans_CN">
+      <Text>显示科技/市政推荐</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_RECOMMENDATIONS_SHOWIMPROVEMENTS" Language="zh_Hans_CN">
+      <Text>显示改良推荐</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_RECOMMENDATIONS_SHOWCITYDETAILADVISOR" Language="zh_Hans_CN">
+      <Text>显示城市详情顾问</Text>
+    </Replace>
+
+    <!-- Unit Commands - 单位指令 -->
+    <Replace Tag="LOC_CQUI_CANCEL_COMMAND" Language="zh_Hans_CN">
+      <Text>取消已排队的单位行动</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_REMOVE_HARVEST" Language="zh_Hans_CN">
+      <Text>移除地貌 / 收获资源</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_BUILD_FISHING" Language="zh_Hans_CN">
+      <Text>建造渔船</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_BUILD_FORT" Language="zh_Hans_CN">
+      <Text>建造要塞</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_BUILD_CAMP" Language="zh_Hans_CN">
+      <Text>建造猎场</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_BUILD_FARM" Language="zh_Hans_CN">
+      <Text>建造农场</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_BUILD_MILL" Language="zh_Hans_CN">
+      <Text>建造伐木场</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_BUILD_OIL" Language="zh_Hans_CN">
+      <Text>建造石油钻井 / 油井</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_BUILD_PASTURE" Language="zh_Hans_CN">
+      <Text>建造牧场</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_BUILD_PLANTATION" Language="zh_Hans_CN">
+      <Text>建造种植园</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_BUILD_QUARRY" Language="zh_Hans_CN">
+      <Text>建造采石场</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_BUILD_RAILROAD" Language="zh_Hans_CN">
+      <Text>建造铁路</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_BUILD_MINE" Language="zh_Hans_CN">
+      <Text>建造矿场</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_NUKE" Language="zh_Hans_CN">
+      <Text>大规模杀伤性打击：核装置</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_THERMO_NUKE" Language="zh_Hans_CN">
+      <Text>大规模杀伤性打击：热核装置</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_REBASE" Language="zh_Hans_CN">
+      <Text>转移基地</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_PLACE_PIN" Language="zh_Hans_CN">
+      <Text>放置地图钉</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_SPREAD_RELIGION" Language="zh_Hans_CN">
+      <Text>传播宗教</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_REMOVE_HERESY" Language="zh_Hans_CN">
+      <Text>清除异端</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_REST_HEAL" Language="zh_Hans_CN">
+      <Text>休息并治疗</Text>
+    </Replace>
+
+    <!-- Inline CityState Quest - 内联城邦任务 -->
+    <Replace Tag="LOC_CQUI_INLINE_CITY_STATE_QUEST" Language="zh_Hans_CN">
+      <Text>显示内联城邦任务</Text>
+    </Replace>
+    <Replace Tag="LOC_CQUI_INLINE_CITY_STATE_QUEST_FONT_SIZE" Language="zh_Hans_CN">
+      <Text>内联城邦任务字体大小：</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>

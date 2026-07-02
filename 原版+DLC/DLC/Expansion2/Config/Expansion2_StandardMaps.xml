@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<DomainValueUnions>
+		<Row Domain="Maps:Expansion2Maps" OtherDomain="StandardMaps"/>
+	</DomainValueUnions>
+	<DomainValueFilters>
+		<Row Domain="Maps:Expansion2Maps" Value="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" Filter="difference"/>
+		<Row Domain="Maps:Expansion2Maps" Value="../../Assets/Maps/EarthMaps/EarthStandard.Civ6Map" Filter="difference"/>
+		<Row Domain="Maps:Expansion2Maps" Value="../../Assets/Maps/EarthMaps/MediterraneanLarge.Civ6Map" Filter="difference"/>
+		<Row Domain="Maps:Expansion2Maps" Value="../../Assets/Maps/EarthMaps/TSLMediterraneanLarge.Civ6Map" Filter="difference"/>
+		<Row Domain="Maps:Expansion2Maps" Value="../../Assets/Maps/EarthMaps/WorldMapHuge.Civ6Map" Filter="difference"/>
+		<Row Domain="Maps:Expansion2Maps" Value="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Filter="difference"/>
+	</DomainValueFilters>
+	<Maps>
+		<!-- New -->
+		<Row Domain="Maps:Expansion2Maps" File="Continents_Islands.lua" Name="LOC_MAP_CONTINENTS_ISLANDS_NAME" Description="LOC_MAP_CONTINENTS_ISLANDS_DESCRIPTION" Image="Map_ContinentsAndIslands" SortIndex="210"/>
+		<Row Domain="Maps:Expansion2Maps" File="Primordial.lua" Name="LOC_MAP_PRIMORDIAL_NAME" Description="LOC_MAP_PRIMORDIAL_DESCRIPTION" Image="Map_Primodial" SortIndex="220"/>
+		<Row Domain="Maps:Expansion2Maps" File="Splintered_Fractal.lua" Name="LOC_MAP_SPLINTERED_FRACTAL_NAME" Description="LOC_MAP_SPLINTERED_FRACTAL_DESCRIPTION" Image="Map_SplinteredFractal" SortIndex="240"/>
+		<Row Domain="Maps:Expansion2Maps" File="Tilted_Axis.lua" Name="LOC_MAP_TILTED_AXIS_NAME" Description="LOC_MAP_TILTED_AXIS_DESCRIPTION" DisableWorldWrap="1" Image="Map_TiltedAxis" SortIndex="250"/>
+	</Maps>
+	<Parameters>
+		<Row Key1="Map" Key2="Continents_Islands.lua" ParameterId="WorldAge" Name="LOC_MAP_WORLD_AGE_NAME" Description="LOC_MAP_WORLD_AGE_DESCRIPTION" Domain="WorldAge" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="world_age" GroupId="MapOptions" Hash="0" SortIndex="230"/>
+		<Row Key1="Map" Key2="Continents_Islands.lua" ParameterId="Temperature" Name="LOC_MAP_TEMPERATURE_NAME" Description="LOC_MAP_TEMPERATURE_DESCRIPTION" Domain="Temperature" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="temperature" GroupId="MapOptions" Hash="0" SortIndex="240"/>
+		<Row Key1="Map" Key2="Continents_Islands.lua" ParameterId="Rainfall" Name="LOC_MAP_RAINFALL_NAME" Description="LOC_MAP_RAINFALL_DESCRIPTION" Domain="Rainfall" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="rainfall" GroupId="MapOptions" Hash="0" SortIndex="250"/>
+		<Row Key1="Map" Key2="Continents_Islands.lua" ParameterId="SeaLevel" Name="LOC_MAP_SEA_LEVEL_NAME" Description="LOC_MAP_SEA_LEVEL_LOW_DESCRIPTION" Domain="SeaLevel" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="sea_level" GroupId="MapOptions" Hash="0" SortIndex="260"/>
+		<Row Key1="Map" Key2="Primordial.lua" ParameterId="WorldAge" Name="LOC_MAP_WORLD_AGE_NAME" Description="LOC_MAP_WORLD_AGE_DESCRIPTION" Domain="WorldAge" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="world_age" GroupId="MapOptions" Hash="0" SortIndex="230"/>
+		<Row Key1="Map" Key2="Primordial.lua" ParameterId="Temperature" Name="LOC_MAP_TEMPERATURE_NAME" Description="LOC_MAP_TEMPERATURE_DESCRIPTION" Domain="Temperature" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="temperature" GroupId="MapOptions" Hash="0" SortIndex="240"/>
+		<Row Key1="Map" Key2="Primordial.lua" ParameterId="Rainfall" Name="LOC_MAP_RAINFALL_NAME" Description="LOC_MAP_RAINFALL_DESCRIPTION" Domain="Rainfall" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="rainfall" GroupId="MapOptions" Hash="0" SortIndex="250"/>
+		<Row Key1="Map" Key2="Primordial.lua" ParameterId="SeaLevel" Name="LOC_MAP_SEA_LEVEL_NAME" Description="LOC_MAP_SEA_LEVEL_LOW_DESCRIPTION" Domain="SeaLevel" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="sea_level" GroupId="MapOptions" Hash="0" SortIndex="260"/>
+		<Row Key1="Map" Key2="Splintered_Fractal.lua" ParameterId="WorldAge" Name="LOC_MAP_WORLD_AGE_NAME" Description="LOC_MAP_WORLD_AGE_DESCRIPTION" Domain="WorldAge" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="world_age" GroupId="MapOptions" Hash="0" SortIndex="230"/>
+		<Row Key1="Map" Key2="Splintered_Fractal.lua" ParameterId="Temperature" Name="LOC_MAP_TEMPERATURE_NAME" Description="LOC_MAP_TEMPERATURE_DESCRIPTION" Domain="Temperature" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="temperature" GroupId="MapOptions" Hash="0" SortIndex="240"/>
+		<Row Key1="Map" Key2="Splintered_Fractal.lua" ParameterId="Rainfall" Name="LOC_MAP_RAINFALL_NAME" Description="LOC_MAP_RAINFALL_DESCRIPTION" Domain="Rainfall" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="rainfall" GroupId="MapOptions" Hash="0" SortIndex="250"/>
+		<Row Key1="Map" Key2="Splintered_Fractal.lua" ParameterId="SeaLevel" Name="LOC_MAP_SEA_LEVEL_NAME" Description="LOC_MAP_SEA_LEVEL_LOW_DESCRIPTION" Domain="SeaLevel" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="sea_level" GroupId="MapOptions" Hash="0" SortIndex="260"/>
+		<Row Key1="Map" Key2="Tilted_Axis.lua" ParameterId="WorldAge" Name="LOC_MAP_WORLD_AGE_NAME" Description="LOC_MAP_WORLD_AGE_DESCRIPTION" Domain="WorldAge" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="world_age" GroupId="MapOptions" Hash="0" SortIndex="230"/>
+		<Row Key1="Map" Key2="Tilted_Axis.lua" ParameterId="Rainfall" Name="LOC_MAP_RAINFALL_NAME" Description="LOC_MAP_RAINFALL_DESCRIPTION" Domain="Rainfall" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="rainfall" GroupId="MapOptions" Hash="0" SortIndex="250"/>
+		<Row Key1="Map" Key2="Tilted_Axis.lua" ParameterId="SeaLevel" Name="LOC_MAP_SEA_LEVEL_NAME" Description="LOC_MAP_SEA_LEVEL_LOW_DESCRIPTION" Domain="SeaLevel" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="sea_level" GroupId="MapOptions" Hash="0" SortIndex="260"/>
+	</Parameters>
+</GameInfo>

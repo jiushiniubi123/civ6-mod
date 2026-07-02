@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- KOREAN -->
+    <Row Tag="LOC_CQUI_NAME" Language="ko_KR">
+      <Text>CQUI</Text>
+    </Row>
+
+    <!-- MESSAGES -->
+    <Row Tag="LOC_CQUI_CIVIC_MESSAGE_S" Language="ko_KR">
+      <Text>현재 연구 중인 사회 제도인 </Text>
+    </Row>
+    <Row Tag="LOC_CQUI_TECH_MESSAGE_S" Language="ko_KR">
+      <Text>현재 연구 중인 기술인 </Text>
+    </Row>
+    <Row Tag="LOC_CQUI_HALF_MESSAGE_E" Language="ko_KR">
+      <Text>의 상승 효과를 최대치로 받을 수 있는 턴까지 1턴 남았습니다.</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_FINISH_MESSAGE_E" Language="ko_KR">
+      <Text>이(가) 완료되었습니다.</Text>
+    </Row>
+
+    <!-- CITY PANEL -->
+    <Row Tag="LOC_CQUI_CITY_ENTERTAINMENT" Language="ko_KR">
+      <Text>유흥</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_FROM_POPULATION" Language="ko_KR">
+      <Text>인구로부터</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_RELIGIOUS_MINORITIES" Language="ko_KR">
+      <Text>소수 종교</Text>
+    </Row>
+    <Row Tag="LOC_HUD_CITY_PILLAGED" Language="ko_KR">
+      <Text>[COLOR:StatBadCS](약탈당함)[ENDCOLOR]</Text>
+    </Row>
+
+    <!-- CITY VIEW -->
+    <Row Tag="LOC_HUD_CITY_NEXT_PLOT" Language="ko_KR">
+      <Text>이 도시는 문화 산출량에 따라 해당 타일을 흡수할 것입니다.</Text>
+    </Row>
+
+    <!-- POPUPS -->
+    <Row Tag="LOC_CQUI_GREAT_PERSON_PROGRESS" Language="ko_KR">
+      <Text>진행 상황:</Text>
+    </Row>
+
+    <!-- ActionPanel -->
+    <Row Tag="LOC_CQUI_ACTION_PANEL_ENCAMPMENT_RANGED_ATTACK" Language="ko_KR">
+      <Text>주둔지 원거리 공격</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_ACTION_PANEL_ENCAMPMENT_RANGED_ATTACK_TOOLTIP" Language="ko_KR">
+      <Text>플레이어의 주둔지에서 원거리 공격이 가능합니다.</Text>
+    </Row>
+
+    <!-- Policyreminderpopup -->
+    <Row Tag="LOC_POLICY_REMINDER_TITLE" Language="ko_KR">
+		  <Text>정책 카드 알림</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_REMINDER_TEXT" Language="ko_KR">
+      <Text>새로운 정책 카드가 해금되었습니다.</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_REMINDER_ACTION_BUTTON" Language="ko_KR">
+      <Text>정책 교체</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_REMINDER_ACTION_BUTTON_TOOLTIP" Language="ko_KR">
+      <Text>이번 턴에 정책을 교체할 수 있습니다.</Text>
+    </Row>
+
+    <!-- Diplomacy View -->
+    <Row Tag="LOC_CQUI_DIPLOMACY_VIEW_TOTAL_SCORE_PER_TURN_TEXT" Language="ko_KR">
+      <Text>총합</Text>
+    </Row>
+
+    <!-- Smartbanner unlocked citizen -->
+    <Row Tag="LOC_CQUI_SMARTBANNER_UNLOCKEDCITIZEN_TOOLTIP" Language="ko_KR">
+      <Text>AI가 자동으로 배치한 시민이 존재합니다.</Text>
+    </Row>
+    
+    <!-- #62 Infixo original owner tooltip -->
+    <Row Tag="LOC_CQUI_CITY_BANNER_ORIGINAL_CAPITAL_TT" Language="ko_KR">
+        <Text>[NEWLINE][ICON_Bullet]{1_OriginalOwner}의 최초 수도</Text>
+    </Row>
+    <Row Tag="LOC_CQUI_CITY_BANNER_ORIGINAL_CITY_TT" Language="ko_KR">
+        <Text>[NEWLINE][ICON_Bullet]{1_OriginalOwner}의 원래 도시</Text>
+    </Row>
+    
+    <!-- #75 Infixo tourism info in the plot tooltip -->
+    <Row Tag="LOC_CQUI_TOOLTIP_PLOT_IMPROVE_RESOURCE" Language="ko_KR">
+        <Text>[COLOR:Civ6Red]자원 생산을 위해 타일을 수리하거나 개발하십시오.[ENDCOLOR]</Text>
+    </Row>
+    
+    <!-- #177 Infixo goody hut rewards -->
+    <Row Tag="LOC_GOODYHUT_CIVIC_BOOST_DESCRIPTION" Language="ko_KR">
+        <Text>[ICON_CivicBoosted] {1_Num} 위한 영감 효과 {1_Num: plural 1?무작위 사회 제도를; other?무작위 사회 제도들을;}</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_TECH_BOOST_DESCRIPTION" Language="ko_KR">
+        <Text>[ICON_TechBoosted] {1_Num} 위한 유레카 효과 {1_Num: plural 1?무작위 기술을; other?무작위 기술들을;}</Text>
+    </Row>
+    <Row Tag="LOC_GOODYHUT_STRATEGIC_RESOURCES_DESCRIPTION" Language="ko_KR">
+        <Text>+{1_Num} 가장 발전된 전략 자원</Text>
+    </Row>
+
+	<!-- #11 Spy Info -->
+    <Replace Tag="LOC_CUI_SI_SPY_AVAILABLE" Language="ko_KR">
+        <Text>현재 활동 중인 [ICON_Unit]스파이: {1_num}명</Text>
+    </Replace>
+    <Replace Tag="LOC_CUI_SI_SPY_CAPACITY" Language="ko_KR">
+        <Text>활동 가능한 [ICON_Unit]스파이: {1_num}명</Text>
+    </Replace>
+	
+	<!-- Diplomacy Deal View -->
+	<Replace Tag="LOC_IDS_DEAL_TERMS" Language="ko_KR">
+		<Text>거래 조건</Text>
+	</Replace>
+	<Replace Tag="LOC_IDS_DEAL_TRADE" Language="ko_KR">
+		<Text>와 [COLOR_Red]거래[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="LOC_IDS_DEAL_SUZERAIN" Language="ko_KR">
+		<Text>의 [COLOR_Civ6Blue]종주국[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="LOC_IDS_DEAL_UNTRADEABLE" Language="ko_KR">
+		<Text>거래 불가</Text>
+	</Replace>
+	<Replace Tag="LOC_IDS_DEAL_DUPLICATE" Language="ko_KR">
+		<Text>중복</Text>
+	</Replace>
+    <Replace Tag="LOC_CUI_DP_GOLD_EDIT_TOOLTIP" Language="ko_KR">
+        <Text>좌클릭으로 증가, 우클릭으로 감소</Text>
+    </Replace>
+    <Replace Tag="LOC_CUI_DP_THEY_HAVE_ITEM_TOOLTIP" Language="ko_KR">
+        <Text>상대방이 이 물품을 이미 가지고 있습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_CUI_DP_WE_HAVE_ITEM_TOOLTIP" Language="ko_KR">
+        <Text>우리는 이 물품을 이미 가지고 있습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_CUI_DP_WE_HAVE_ONLY_ONE_TOOLTIP" Language="ko_KR">
+        <Text>하나만 가지고 있는 사치 자원입니다.</Text>
+    </Replace>
+	
+	<!-- Extended variables for world ranking from 20 to 30 players -->
+	<Replace Tag="LOC_WORLD_RANKINGS_21_PLACE" Language="ko_KR">
+		<Text>21번째</Text>
+	</Replace>
+	<Replace Tag="LOC_WORLD_RANKINGS_22_PLACE" Language="ko_KR">
+		<Text>22번째</Text>
+	</Replace>
+	<Replace Tag="LOC_WORLD_RANKINGS_23_PLACE" Language="ko_KR">
+		<Text>23번째</Text>
+	</Replace>
+	<Replace Tag="LOC_WORLD_RANKINGS_24_PLACE" Language="ko_KR">
+		<Text>24번째</Text>
+	</Replace>
+	<Replace Tag="LOC_WORLD_RANKINGS_25_PLACE" Language="ko_KR">
+		<Text>25번째</Text>
+	</Replace>
+	<Replace Tag="LOC_WORLD_RANKINGS_26_PLACE" Language="ko_KR">
+		<Text>26번째</Text>
+	</Replace>
+	<Replace Tag="LOC_WORLD_RANKINGS_27_PLACE" Language="ko_KR">
+		<Text>27번째</Text>
+	</Replace>
+	<Replace Tag="LOC_WORLD_RANKINGS_28_PLACE" Language="ko_KR">
+		<Text>28번째</Text>
+	</Replace>
+	<Replace Tag="LOC_WORLD_RANKINGS_29_PLACE" Language="ko_KR">
+		<Text>29번째</Text>
+	</Replace>
+	<Replace Tag="LOC_WORLD_RANKINGS_30_PLACE" Language="ko_KR">
+		<Text>30번째</Text>
+	</Replace>
+		
+  </LocalizedText>
+</GameData>

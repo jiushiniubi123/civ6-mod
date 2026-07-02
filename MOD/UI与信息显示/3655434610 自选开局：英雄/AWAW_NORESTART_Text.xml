@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AWAW_NORESTART_Text -->
+<!-- Author: Awase -->
+<!-- DateCreated: 1/28/2026 4:26:17 PM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_START_HEROES_NAME" Language="en_US">
+			<Text>Custom Start: Heroes</Text>
+		</Replace>
+		<Replace Tag="LOC_START_HEROES_DESCRIPTION" Language="en_US">
+			<Text>Select heroes to be discovered at the start of the game.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_START_HEROES_NAME" Language="zh_Hans_CN">
+			<Text>自选开局：英雄</Text>
+		</Replace>
+		<Replace Tag="LOC_START_HEROES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>选择开局即可发现的英雄。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_START_HEROES_NAME" Language="zh_Hant_HK">
+			<Text>自選開局：英雄</Text>
+		</Replace>
+		<Replace Tag="LOC_START_HEROES_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>選擇開局即可發現的英雄。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_START_HEROES_NAME" Language="ja_JP">
+			<Text>カスタムスタート：英雄</Text>
+		</Replace>
+		<Replace Tag="LOC_START_HEROES_DESCRIPTION" Language="ja_JP">
+			<Text>ゲーム開始時に発見される英雄を選択します。</Text>
+		</Replace>
+
+		<!-- ========================================================== -->
+		<!-- ENGLISH (en_US)                                            -->
+		<!-- ========================================================== -->
+		<Replace Tag="LOC_UNIT_HERO_ANANSI_NAME" Language="en_US">
+			<Text>Anansi</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_ANANSI_DESCRIPTION" Language="en_US">
+			<Text>Demigod and traveler of African folklore, renowned for his wit and trickery.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_ARTHUR_NAME" Language="en_US">
+			<Text>Arthur</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_ARTHUR_DESCRIPTION" Language="en_US">
+			<Text>King and founder of the Knights of the Round Table, renowned for his virtue and chivalry.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_BEOWULF_NAME" Language="en_US">
+			<Text>Beowulf</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_BEOWULF_DESCRIPTION" Language="en_US">
+			<Text>Mighty warrior of the far North, renowned for his strength and bravery in single combat.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HERCULES_NAME" Language="en_US">
+			<Text>Hercules</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HERCULES_DESCRIPTION" Language="en_US">
+			<Text>Demigod of superhuman strength, renowned for his famous Labors.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HIMIKO_NAME" Language="en_US">
+			<Text>Himiko</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HIMIKO_DESCRIPTION" Language="en_US">
+			<Text>Shaman-Queen of ancient Japan, renowned for her wisdom and mystical power.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HIPPOLYTA_NAME" Language="en_US">
+			<Text>Hippolyta</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HIPPOLYTA_DESCRIPTION" Language="en_US">
+			<Text>Warrior Queen of the Amazons, renowned for her leadership and martial skill.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HUNAHPU_NAME" Language="en_US">
+			<Text>Hunahpu &amp; Xbalanque</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HUNAHPU_DESCRIPTION" Language="en_US">
+			<Text>Legendary athletes and heroes of the Maya, renowned for their power over death and the Underworld.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_MAUI_NAME" Language="en_US">
+			<Text>Maui</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_MAUI_DESCRIPTION" Language="en_US">
+			<Text>Demigod and hero of Polynesian myth, renowned for his feats and gifts to humanity.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_MULAN_NAME" Language="en_US">
+			<Text>Mulan</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_MULAN_DESCRIPTION" Language="en_US">
+			<Text>Devoted and skilled warrior, renowned for her devotion and loyalty.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_OYA_NAME" Language="en_US">
+			<Text>Oya</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_OYA_DESCRIPTION" Language="en_US">
+			<Text>Orisha of winds, storms, and lightning, renowned for her extreme power.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_SINBAD_NAME" Language="en_US">
+			<Text>Sinbad</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_SINBAD_DESCRIPTION" Language="en_US">
+			<Text>[COLOR_LIGHTBLUE]Naval Hero.[ENDCOLOR] Adventurer and fortune-hunter, renowned for his strange and marvelous travels.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_WUKONG_NAME" Language="en_US">
+			<Text>Sun Wukong</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_WUKONG_DESCRIPTION" Language="en_US">
+			<Text>The Monkey King, hero of ancient China, renowned for his cunning and immortality.</Text>
+		</Replace>
+
+		<!-- ========================================================== -->
+		<!-- SIMPLIFIED CHINESE (zh_Hans_CN)                            -->
+		<!-- ========================================================== -->
+		<Replace Tag="LOC_UNIT_HERO_ANANSI_NAME" Language="zh_Hans_CN">
+			<Text>阿南西</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_ANANSI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>非洲民间传说中的半人旅行者，拥有超人的智慧和谋略。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_ARTHUR_NAME" Language="zh_Hans_CN">
+			<Text>亚瑟</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_ARTHUR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>以美德和骑士精神著称的国王，圆桌骑士的创建者。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_BEOWULF_NAME" Language="zh_Hans_CN">
+			<Text>贝奥武夫</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_BEOWULF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>北境的勇猛战士，以力量和勇敢著称。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HERCULES_NAME" Language="zh_Hans_CN">
+			<Text>赫丘利</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HERCULES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>半神，拥有超人的力量，以自身的功绩闻名。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HIMIKO_NAME" Language="zh_Hans_CN">
+			<Text>卑弥呼</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HIMIKO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>古代日本女王，相传拥有强大的智慧和神秘力量。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HIPPOLYTA_NAME" Language="zh_Hans_CN">
+			<Text>希波吕忒</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HIPPOLYTA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>阿玛宗战士女王，拥有高超的领导能力和武艺。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HUNAHPU_NAME" Language="zh_Hans_CN">
+			<Text>乌纳普与斯巴兰克</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HUNAHPU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>玛雅传说中的英雄和运动健将，相传能够穿越生死，抵达冥府。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_MAUI_NAME" Language="zh_Hans_CN">
+			<Text>毛伊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_MAUI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>波利尼西亚神话中的半神和英雄，以对人类的贡献和赠礼而著称。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_MULAN_NAME" Language="zh_Hans_CN">
+			<Text>花木兰</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_MULAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>替父从军的女战士，英勇奉献、忠贞不二。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_OYA_NAME" Language="zh_Hans_CN">
+			<Text>奥亚</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_OYA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>风暴及闪电的化身，传说拥有强大无比的力量。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_SINBAD_NAME" Language="zh_Hans_CN">
+			<Text>辛巴达</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_SINBAD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[COLOR_LIGHTBLUE]航海英雄。[ENDCOLOR]探险家、宝藏猎人，进行了大量奇幻探险。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_WUKONG_NAME" Language="zh_Hans_CN">
+			<Text>孙悟空</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_WUKONG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中国古代神话中的美猴王，拥有七十二变和筋斗云。</Text>
+		</Replace>
+
+		<!-- ========================================================== -->
+		<!-- TRADITIONAL CHINESE (zh_Hant_HK)                           -->
+		<!-- ========================================================== -->
+		<Replace Tag="LOC_UNIT_HERO_ANANSI_NAME" Language="zh_Hant_HK">
+			<Text>阿南西</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_ANANSI_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>非洲民間傳說中的半神與旅者，因其機敏與狡詐而著名。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_ARTHUR_NAME" Language="zh_Hant_HK">
+			<Text>亞瑟</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_ARTHUR_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>國王暨圓桌武士的創立者，因其美德與騎士精神而著名。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_BEOWULF_NAME" Language="zh_Hant_HK">
+			<Text>貝奧武夫</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_BEOWULF_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>來自遙遠北境的強大戰士，因其在單場戰鬥中的力量與武勇而著名。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HERCULES_NAME" Language="zh_Hant_HK">
+			<Text>海克力斯</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HERCULES_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>擁有超人力量的半神，因其十二偉業而著名。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HIMIKO_NAME" Language="zh_Hant_HK">
+			<Text>卑彌呼</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HIMIKO_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>上古日本的巫卜女王，因其智慧與法力而著名。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HIPPOLYTA_NAME" Language="zh_Hant_HK">
+			<Text>希波利塔</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HIPPOLYTA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>亞馬遜的戰士女王，因其領導力與武技而著名。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HUNAHPU_NAME" Language="zh_Hant_HK">
+			<Text>胡納赫普及旭巴蘭克</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HUNAHPU_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>馬雅的傳奇運動員暨英雄，因其操控死亡與冥界的能力而著名。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_MAUI_NAME" Language="zh_Hant_HK">
+			<Text>毛伊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_MAUI_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>玻里尼西亞神話中的半神暨英雄，因其成就與對人類的禮贈而著名。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_MULAN_NAME" Language="zh_Hant_HK">
+			<Text>花木蘭</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_MULAN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>專心致志且武藝高強的戰士，因其奉獻精神及忠誠而著名。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_OYA_NAME" Language="zh_Hant_HK">
+			<Text>歐雅</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_OYA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>代表風雨雷電之奧里莎，因其強大的神力而著名。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_SINBAD_NAME" Language="zh_Hant_HK">
+			<Text>辛巴達</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_SINBAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>[COLOR_LIGHTBLUE]航海英雄。[ENDCOLOR]探險家暨尋寶家，因其怪誕且精彩的旅程而著名。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_WUKONG_NAME" Language="zh_Hant_HK">
+			<Text>孫悟空</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_WUKONG_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>美猴王，上古中國的英雄。因其智謀和不壞之身而著名。</Text>
+		</Replace>
+
+		<!-- ========================================================== -->
+		<!-- JAPANESE (ja_JP)                                           -->
+		<!-- ========================================================== -->
+		<Replace Tag="LOC_UNIT_HERO_ANANSI_NAME" Language="ja_JP">
+			<Text>アナンシ</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_ANANSI_DESCRIPTION" Language="ja_JP">
+			<Text>アフリカの传承に登场する半神の旅人。知恵と策略で知られる。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_ARTHUR_NAME" Language="ja_JP">
+			<Text>アーサー</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_ARTHUR_DESCRIPTION" Language="ja_JP">
+			<Text>円卓の骑士団を結成した王。徳と骑士道で知られる。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_BEOWULF_NAME" Language="ja_JP">
+			<Text>ベーオウルフ</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_BEOWULF_DESCRIPTION" Language="ja_JP">
+			<Text>北欧の勇士。一骑讨ちにおける类まれな力と勇気で知られる。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HERCULES_NAME" Language="ja_JP">
+			<Text>ヘラクレス</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HERCULES_DESCRIPTION" Language="ja_JP">
+			<Text>超人的な怪力で知られる半神。「12の功业」で知られる。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HIMIKO_NAME" Language="ja_JP">
+			<Text>卑弥呼</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HIMIKO_DESCRIPTION" Language="ja_JP">
+			<Text>古代日本の巫女王。知恵と神通力で知られる。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HIPPOLYTA_NAME" Language="ja_JP">
+			<Text>ヒッポリュテ</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HIPPOLYTA_DESCRIPTION" Language="ja_JP">
+			<Text>アマゾネスの女王。指导力と武芸で知られる。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HUNAHPU_NAME" Language="ja_JP">
+			<Text>フンアフプーとイシュバランケー</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HUNAHPU_DESCRIPTION" Language="ja_JP">
+			<Text>球戯を得意とするマヤの伝説的な英雄。死と冥府の征服者として知られる。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_MAUI_NAME" Language="ja_JP">
+			<Text>マウイ</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_MAUI_DESCRIPTION" Language="ja_JP">
+			<Text>ポリネシア神话に登场する半神の英雄。数々の伟业と人间への赠り物で知られる。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_MULAN_NAME" Language="ja_JP">
+			<Text>ムーラン</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_MULAN_DESCRIPTION" Language="ja_JP">
+			<Text>溢れんばかりの热意と卓越した技量を兼ね备えた女戦士。献身と忠义で知られる。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_OYA_NAME" Language="ja_JP">
+			<Text>オヤ</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_OYA_DESCRIPTION" Language="ja_JP">
+			<Text>风と岚と稲妻の女神。激しい力で知られる。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_SINBAD_NAME" Language="ja_JP">
+			<Text>シンドバッド</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_SINBAD_DESCRIPTION" Language="ja_JP">
+			<Text>[COLOR_LIGHTBLUE]海の英雄。[ENDCOLOR]富を求めた冒険者。奇妙で不思议な旅の数々で知られる。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_WUKONG_NAME" Language="ja_JP">
+			<Text>孙悟空</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_WUKONG_DESCRIPTION" Language="ja_JP">
+			<Text>斉天大聖の异名を持つ猿の王。ずる贤さと不死身の体で知られる。</Text>
+		</Replace>
+
+		
+		<Row Tag="LOC_UNIT_HERO_FLACS_NANA_NAME" Language="en_US">
+			<Text>Nana Hiiragi</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HERO_FLACS_NANA_DESCRIPTION" Language="en_US">
+			<Text>
+				Transfer student into a class for "Talented" students, renowned for her excellence at observation, reasoning, and planning.
+			</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HERO_FLACS_CHITO_YUURI_NAME" Language="en_US">
+			<Text>Chito &amp; Yuuri</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HERO_FLACS_CHITO_YUURI_DESCRIPTION" Language="en_US">
+			<Text>Lonely girls navigating in the ruins of civilization, renowned for their journey with the Kettenkrad.
+			</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HERO_FLACS_MAPLE_NAME" Language="en_US">
+			<Text>Maple</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HERO_FLACS_MAPLE_DESCRIPTION" Language="en_US">
+			<Text>Curious player who don't want to get hurt, renowned for her defense. 
+			</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HERO_FLACS_KOMORI_NAME" Language="en_US">
+			<Text>Shuri Komori</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HERO_FLACS_KOMORI_DESCRIPTION" Language="en_US">
+			<Text>Girl that can't decline requests, renowned for her helpfulness.
+			</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HERO_FLACS_CLARISSA_NAME" Language="en_US">
+			<Text>Clarissa Bernhard</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HERO_FLACS_CLARISSA_DESCRIPTION" Language="en_US">
+			<Text>English outlaw who grown up in Japan, renowned for her dangerous deeds.
+			</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HERO_FLACS_ANDY_LAW_NAME" Language="en_US">
+			<Text>Andy Law</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HERO_FLACS_ANDY_LAW_DESCRIPTION" Language="en_US">
+			<Text>
+				Known as Little Boy and the King of Death is the main protagonist and the anti-hero of the famous Crazy Flasher series.
+			</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HERO_FLACS_REMEDY_NAME" Language="en_US">
+			<Text>Princess Remedy</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HERO_FLACS_REMEDY_DESCRIPTION" Language="en_US">
+			<Text>
+				Graduated from Saturnian Healing School, uses his powers to heal inhabitants and defeat enemies.
+			</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HERO_FLACS_LEE_HUANG_NAME" Language="en_US">
+			<Text>Huang Lee</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HERO_FLACS_LEE_HUANG_DESCRIPTION" Language="en_US">
+			<Text>
+				The rich son of Hong Kong. Member of Liberty City triad.
+			</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HERO_FLACS_SEKIRO_NAME" Language="en_US">
+			<Text>Sekiro</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HERO_FLACS_SEKIRO_DESCRIPTION" Language="en_US">
+			<Text>
+				A disgraced and bruised shinobi, a warrior saved from the brink of death.
+			</Text>
+		</Row>
+		
+		<Replace Tag="LOC_UNIT_HERO_FLACS_NANA_NAME" Language="zh_Hans_CN">
+			<Text>柊娜娜</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_FLACS_NANA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				是随小野寺京谷一同转学到超能力者培训学校的学生。具有出色的观察、推理和运筹能力。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_FLACS_CHITO_YUURI_NAME" Language="zh_Hans_CN">
+			<Text>千户和尤莉</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_FLACS_CHITO_YUURI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				变成孤身两人的少女千户与尤莉，两人今天也在连绵不绝的废墟中，乘着爱车Sdkfz 2(Kettenkrad)，漫无目的地彷徨。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_FLACS_MAPLE_NAME" Language="zh_Hans_CN">
+			<Text>梅普露</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_FLACS_MAPLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				本名「本条枫」。充满好奇心的类型。受朋友推荐而开始玩游戏，因为怕痛所以把防御力点满，选用了冷门的大盾使。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_FLACS_KOMORI_NAME" Language="zh_Hans_CN">
+			<Text>小森朱里</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_FLACS_KOMORI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				拒绝不了他人请求的女生，把不少时间都用在了别人身上。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_FLACS_CLARISSA_NAME" Language="zh_Hans_CN">
+			<Text>克莱丽莎</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_FLACS_CLARISSA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				从小就在日本生活的英国人，专门从事危险工作。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_FLACS_ANDY_LAW_NAME" Language="zh_Hans_CN">
+			<Text>安迪·烙</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_FLACS_ANDY_LAW_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				性格冷酷，战斗力超强，能力包括跑酷、综合格斗、枪械精通、驾驶精通。战斗型。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_FLACS_REMEDY_NAME" Language="zh_Hans_CN">
+			<Text>治疗公主</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_FLACS_REMEDY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				毕业于土星医学院，使用自身的力量治疗居民并击败敌人。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_FLACS_LEE_HUANG_NAME" Language="zh_Hans_CN">
+			<Text>李煌</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_FLACS_LEE_HUANG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				香港富豪公子。家族处于香港黑社会三合会。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_FLACS_SEKIRO_NAME" Language="zh_Hans_CN">
+			<Text>只狼</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_FLACS_SEKIRO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				一个名誉不再、伤痕累累的忍者，一个从死亡边缘捡回一命的战士。
+			</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

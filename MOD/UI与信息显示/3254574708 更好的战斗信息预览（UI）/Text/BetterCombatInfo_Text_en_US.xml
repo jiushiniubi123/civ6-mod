@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BetterCombatInfo_Text_en_US -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 5/21/2024 12:10:09 AM -->
+<GameData>
+	<BaseGameText>
+
+		<!--Strength-->
+		<Row Tag="LOC_HUD_UNIT_PANEL_OUTCOME_STRENGTH_DIFFERENCE_POSITIVE" >
+			<Text>[COLOR_FLOAT_CULTURE]+{1_Num}[ENDCOLOR][ICON_Strength]</Text>
+		</Row>
+		<Row Tag="LOC_HUD_UNIT_PANEL_OUTCOME_STRENGTH_DIFFERENCE_NEGATIVE" >
+			<Text>[COLOR_Civ6Red]{1_Num}[ENDCOLOR][ICON_Strength]</Text>
+		</Row>
+
+		<!--Results-->
+		<Row Tag="LOC_HUD_UNIT_PANEL_OUTCOME_POSSIBLE_RESULT" >
+			<Text>Your {1_UnitName} may cause [COLOR_GREEN]{2_MinNum}~{3_MaxNum}[ENDCOLOR] damage to enemy.</Text>
+		</Row>
+		<Row Tag="LOC_HUD_UNIT_PANEL_OUTCOME_POSSIBLE_RESULT_REVERSE" >
+			<Text>Your {1_UnitName} may receive [COLOR_FLOAT_MILITARY]{2_MinNum}~{3_MaxNum}[ENDCOLOR] damage.</Text>
+		</Row>
+
+		<Row Tag="LOC_HUD_UNIT_PANEL_OUTCOME_JUDGEMENT_ATTACKER_LIVE" >
+			<Text>Your {1_UnitName} won't die after this battle.</Text>
+		</Row>
+		<Row Tag="LOC_HUD_UNIT_PANEL_OUTCOME_JUDGEMENT_ATTACKER_POSSIBLE_DIE" >
+			<Text>Your {1_UnitName}[COLOR_Civ6Red] might die[ENDCOLOR] after this battle!</Text>
+		</Row>
+		<Row Tag="LOC_HUD_UNIT_PANEL_OUTCOME_JUDGEMENT_ATTACKER_DIE" >
+			<Text>Your {1_UnitName}[COLOR_Civ6Red] will die[ENDCOLOR] after this battle!</Text>
+		</Row>
+
+		<Row Tag="LOC_HUD_UNIT_PANEL_OUTCOME_JUDGEMENT_DEFENDER_LIVE" >
+			<Text>Enemy {1_UnitName} won't die after this battle.</Text>
+		</Row>
+		<Row Tag="LOC_HUD_UNIT_PANEL_OUTCOME_JUDGEMENT_DEFENDER_POSSIBLE_DIE" >
+			<Text>Enemy {1_UnitName}[COLOR_FLOAT_CULTURE] might die[ENDCOLOR] after this battle!</Text>
+		</Row>
+		<Row Tag="LOC_HUD_UNIT_PANEL_OUTCOME_JUDGEMENT_DEFENDER_DIE" >
+			<Text>Enemy {1_UnitName}[COLOR_FLOAT_CULTURE] will die[ENDCOLOR] after this battle!</Text>
+		</Row>
+
+		<!--Unit Health-->
+		<Row Tag="LOC_HUD_UNIT_PANEL_OUTCOME_SELF_UNIT_HEALTH" >
+			<Text>{1_Health}/{2_MaxDamage}[ICON_DAMAGED]</Text>
+		</Row>
+		<Row Tag="LOC_HUD_UNIT_PANEL_OUTCOME_TARGET_UNIT_HEALTH" >
+			<Text>{1_Health}/{2_MaxDamage}[ICON_DAMAGED]</Text>
+		</Row>
+
+
+	</BaseGameText>
+</GameData>

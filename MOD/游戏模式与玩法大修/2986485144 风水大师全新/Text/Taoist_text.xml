@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Taoist_text_CN -->
+<!-- Author: pen -->
+<!-- DateCreated: 2023/6/8 10:35:13 -->
+<GameData>
+	<BaseGameText>
+		<Replace Tag="LOC_TAOIST_SETTINGS_NAME">
+			<Text>LeyLine Detector Settings</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_SETTINGS_DESCRIPTION">
+			<Text>Adjust LeyLine Detector ability settings.</Text>
+		</Replace>
+		<Replace Tag="LOC_SETTINGS_TAOIST_STANDARD_NAME">
+			<Text>Standard (Recommended)</Text>
+		</Replace>
+		<Replace Tag="LOC_SETTINGS_TAOIST_STANDARD_DESCRIPTION">
+			<Text>Standard LeyLine Detector ability. Gain one LeyLine Detector when Secret Society gain promotion.</Text>
+		</Replace>
+		<Replace Tag="LOC_SETTINGS_TAOIST_NORMAL_NAME">
+			<Text>Normal (PVP Suitable)</Text>
+		</Replace>
+		<Replace Tag="LOC_SETTINGS_TAOIST_NORMAL_DESCRIPTION">
+			<Text>Retains the basic LeyLine Detector ability. Provides only one LeyLine Detector, with no initial charges, no unique promotions, and stricter Ley Line placement rules.</Text>
+		</Replace>
+		<Replace Tag="LOC_SETTINGS_TAOIST_CUSTOM_NAME">
+			<Text>Custom</Text>
+		</Replace>
+		<Replace Tag="LOC_SETTINGS_TAOIST_CUSTOM_DESCRIPTION">
+			<Text>Manually choose to enable or adjust LeyLine Detector abilities.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_TAOIST_INITIAL_ACTIONS_NAME">
+			<Text>LeyLine Detector Initial Actions</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_INITIAL_ACTIONS_DESCRIPTION">
+			<Text>Adjust the Initial Actions for LeyLine Detector (does not affect Maximum number of records)</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_INITIAL_MOVEMENT_NAME">
+			<Text>LeyLine Detector Initial Movement</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_INITIAL_MOVEMENT_DESCRIPTION">
+			<Text>Adjust the Initial Movement for LeyLine Detector</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_PROMOTION_SUPPLEMENT_NAME">
+			<Text>Enable LeyLine Detector Charge Replenishment</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_PROMOTION_SUPPLEMENT_DESCRIPTION">
+			<Text>When enabled, the LeyLine Detector gains charges upon promotion equal to the increase in its charge cap (e.g., gaining the "Taoism Magic" promotion, which adds +3 to Maximum number of records, will immediately grant the LeyLine Detector 3 charges).</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_RIGID_TERRAIN_NAME">
+			<Text>Enable Strict Terrain Finding</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_RIGID_TERRAIN_DESCRIPTION">
+			<Text>When enabled, the LeyLine Detector must satisfy terrain and feature conditions to find Ley Lines.</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_RIGID_TERRAIN_TOOLTIP">
+			<Text>Terrain does not meet the conditions for Ley Line Finding.</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_NO_DISTRICT_NAME">
+			<Text>Prohibit Generation on Districts</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_NO_DISTRICT_DESCRIPTION">
+			<Text>When enabled, the LeyLine Detector cannot find Ley Lines on tiles containing a District.</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_NO_DISTRICT_TOOLTIP">
+			<Text>Cannot find Ley Lines on Districts.</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_NO_IMPROVEMENT_NAME">
+			<Text>Prohibit Generation on Improvements</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_NO_IMPROVEMENT_DESCRIPTION">
+			<Text>When enabled, the LeyLine Detector cannot find Ley Lines on tiles containing an Improvement.</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_NO_IMPROVEMENT_TOOLTIP">
+			<Text>Cannot find Ley Lines on Improvements.</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_ALLOW_PROMOTION_NAME">
+			<Text>Enable LeyLine Detector Unique Promotions</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_ALLOW_PROMOTION_DESCRIPTION">
+			<Text>When enabled, the LeyLine Detector can gain unique promotions when Secret Society gain promotion.</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_ENTER_FOREIGN_NAME">
+			<Text>Enable LeyLine Detector Ignores Borders</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_ENTER_FOREIGN_DESCRIPTION">
+			<Text>When enabled, the LeyLine Detector can enter foreign cities, ignoring border closures.</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_ONLY_ONE_NAME">
+			<Text>Enable Single LeyLine Detector</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_ONLY_ONE_DESCRIPTION">
+			<Text>When enabled, only one LeyLine Detector is obtained upon unlocking Secret Society (no further ones are gained).</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_SEA_LEYLINE_NAME">
+			<Text>Enable Ley Line Finding on Water</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_SEA_LEYLINE_DESCRIPTION">
+			<Text>When enabled, the LeyLine Detector can find Ley Lines on water tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_DISPOSABLE_NAME">
+			<Text>Enable Disposable LeyLine Detector</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_DISPOSABLE_DESCRIPTION">
+			<Text>When enabled, the maximum storage capacity for LeyLine Detector is fixed at 1, and it is removed after its charge is consumed.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_UNIT_TAOIST_NAME">
+			<Text>LeyLine Detector</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TAOIST_DESCRIPTION">
+			<Text>Searching for the Dragon Line</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_ADD_LEYLINE">
+			<Text>Find Ley Line</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_NOT_ADD_LEYLINE">
+			<Text>Unable to detect</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_REMOVE_LEYLINE">
+			<Text>Record detection</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_REMOVE_LEYLINE_TO_MAX">
+			<Text>Record reach maximum</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_MAX_LEYLINE">
+			<Text>Maximum number of records: [COLOR:Red]{1_Num}[ENDCOLOR] /{2_Num}</Text>
+		</Replace>
+		<Replace Tag="LOC_GRANT_TAOIST_UNIT_DESCRIPTION">
+			<Text>Capital gains a LeyLine Detector.</Text>
+		</Replace>
+		<Replace Tag="LOC_PPROMOTION_CLASS_PEN_TAOIST_NAME">
+			<Text>LeyLine Detector</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_GRAVE_ROBBER_NAME">
+			<Text>Ghosts stealing</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_GRAVE_ROBBER_DESCRIPTION">
+			<Text>+2 Maximum number of records. Combat kills provide [ICON_GOLD] Gold equal to 100% of killed unit's base [ICON_STRENGTH] Combat Strength (on Standard Speed).</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_SHRINK_LAND_NAME">
+			<Text>Shrink land to an inch</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_SHRINK_LAND_DESCRIPTION">
+			<Text>+1 Maximum number of records, +3 [ICON_MOVEMENT] Movement and ignores zone of control.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_CONCEALMENT_NAME">
+			<Text>Cover the clouds</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_CONCEALMENT_DESCRIPTION">
+			<Text>+2 Maximum number of records, gain stealth for oneself and adjacent land units.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_SUMMON_WIND_RAIN_NAME">
+			<Text>Summon wind and rain</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_SUMMON_WIND_RAIN_DESCRIPTION">
+			<Text>+2 Maximum number of records, +5 [ICON_STRENGTH] Combat Strength for adjacent land units.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_TAOISM_MAGIC_NAME">
+			<Text>Taoism Magic</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_TAOISM_MAGIC_DESCRIPTION">
+			<Text>+3 Maximum number of records</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_GRAVE_ROBBER_NAME">
+			<Text>Ghosts stealing</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_GRAVE_ROBBER_DESCRIPTION">
+			<Text>Combat kills provide [ICON_GOLD] Gold equal to 100% of killed unit's base [ICON_STRENGTH] Combat Strength (on Standard Speed). (From adjacent LeyLine Detector)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_CONCEALMENT_NAME">
+			<Text>Cover the clouds</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_CONCEALMENT_DESCRIPTION">
+			<Text>Gain stealth (From adjacent LeyLine Detector)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_SUMMON_WIND_RAIN_NAME">
+			<Text>Summon wind and rain</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_SUMMON_WIND_RAIN_DESCRIPTION">
+			<Text>+5 [ICON_STRENGTH] Combat Strength (From adjacent LeyLine Detector)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_SUMMON_WIND_RAIN_STR_DESCRIPTION">
+			<Text>+{1_num} from LeyLine Detector</Text>
+		</Replace>
+	</BaseGameText>
+	
+	<LocalizedText>	
+		<Replace Tag="LOC_TAOIST_SETTINGS_NAME" Language="zh_Hans_CN">
+			<Text>风水师设置</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_SETTINGS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>调整风水师能力启用</Text>
+		</Replace>
+		<Replace Tag="LOC_SETTINGS_TAOIST_STANDARD_NAME" Language="zh_Hans_CN">
+			<Text>标准（推荐）</Text>
+		</Replace>
+		<Replace Tag="LOC_SETTINGS_TAOIST_STANDARD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>标准的风水师能力，每次结社晋升获得一位风水师。</Text>
+		</Replace>
+		<Replace Tag="LOC_SETTINGS_TAOIST_NORMAL_NAME" Language="zh_Hans_CN">
+			<Text>常规（PVP适用）</Text>
+		</Replace>
+		<Replace Tag="LOC_SETTINGS_TAOIST_NORMAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>保留常规风水师能力，仅提供一位风水师，无初始次数、无特色晋升、地脉放置更严格。</Text>
+		</Replace>
+		<Replace Tag="LOC_SETTINGS_TAOIST_CUSTOM_NAME" Language="zh_Hans_CN">
+			<Text>自定义</Text>
+		</Replace>
+		<Replace Tag="LOC_SETTINGS_TAOIST_CUSTOM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>自行选择开启或调整风水师能力。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_TAOIST_INITIAL_ACTIONS_NAME" Language="zh_Hans_CN">
+			<Text>风水师初始次数</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_INITIAL_ACTIONS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>调整风水师初始使用次数。</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_MAX_RECORD_ACTIONS_NAME" Language="zh_Hans_CN">
+			<Text>风水师初始储存上限</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_MAX_RECORD_ACTIONS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>调整风水师初始储存上限。</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_INITIAL_MOVEMENT_NAME" Language="zh_Hans_CN">
+			<Text>风水师初始移动力</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_INITIAL_MOVEMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>调整风水师初始移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_PROMOTION_SUPPLEMENT_NAME" Language="zh_Hans_CN">
+			<Text>开启风水师次数补充</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_PROMOTION_SUPPLEMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>开启后，风水师获得晋升时补充等同于提升上限的次数。（比如“玄门法力”+3储存上限，获得“玄门法力”晋升时风水师立刻获得3点次数）</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_RIGID_TERRAIN_NAME" Language="zh_Hans_CN">
+			<Text>开启严格地形生成</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_RIGID_TERRAIN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>开启后，风水师生成地脉需满足地形地貌条件。</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_RIGID_TERRAIN_TOOLTIP" Language="zh_Hans_CN">
+			<Text>地形不满足寻龙点穴条件</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_NO_DISTRICT_NAME" Language="zh_Hans_CN">
+			<Text>禁止于区域生成地脉</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_NO_DISTRICT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>开启后，风水师无法在存在区域的单元格生成地脉。</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_NO_DISTRICT_TOOLTIP" Language="zh_Hans_CN">
+			<Text>禁止于区域生成地脉</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_NO_IMPROVEMENT_NAME" Language="zh_Hans_CN">
+			<Text>禁止于改良生成地脉</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_NO_IMPROVEMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>开启后，风水师无法在存在改良的单元格生成地脉。</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_NO_IMPROVEMENT_TOOLTIP" Language="zh_Hans_CN">
+			<Text>禁止于改良生成地脉</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_ALLOW_PROMOTION_NAME" Language="zh_Hans_CN">
+			<Text>开启风水师特色晋升</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_ALLOW_PROMOTION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>开启后，风水师随着结社晋升可获得特色晋升</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_ENTER_FOREIGN_NAME" Language="zh_Hans_CN">
+			<Text>开启风水师无视边界</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_ENTER_FOREIGN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>开启后，允许风水师无视边界关闭进入外国城市。</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_ONLY_ONE_NAME" Language="zh_Hans_CN">
+			<Text>开启单一风水师</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_ONLY_ONE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>开启后，仅通过解锁结社获得一名风水师（后续不再获得）。</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_SEA_LEYLINE_NAME" Language="zh_Hans_CN">
+			<Text>开启水上寻龙点穴</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_SEA_LEYLINE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>开启后，允许风水师在水域单元格生成地脉。</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_DISPOSABLE_NAME" Language="zh_Hans_CN">
+			<Text>开启一次性风水师</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_DISPOSABLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>开启后，风水师生成地脉的同时降低储存上限，并在储存上限为0时消失。</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_OUTBORDER_NAME" Language="zh_Hans_CN">
+			<Text>开启更改其他文明境内地脉</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_OUTBORDER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>开启后，风水师允许更改其他文明境内的地脉。</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_UNIT_TAOIST_NAME" Language="zh_Hans_CN">
+			<Text>风水师</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TAOIST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>寻龙分金看缠山，一重缠是一重关，关门如有八分险，不出阴阳八卦形。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_ADD_LEYLINE" Language="zh_Hans_CN">
+			<Text>寻龙点穴</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_ADD_LEYLINE_TOOLTIP" Language="zh_Hans_CN">
+			<Text>寻龙点穴</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_NOT_ADD_LEYLINE" Language="zh_Hans_CN">
+			<Text>无法更改地势</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_REMOVE_LEYLINE" Language="zh_Hans_CN">
+			<Text>风水易势</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_REMOVE_LEYLINE_TO_MAX" Language="zh_Hans_CN">
+			<Text>法力不足</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_MAX_LEYLINE" Language="zh_Hans_CN">
+			<Text>最大储存地脉数量：[COLOR:Red]{1_Num}[ENDCOLOR] /{2_Num}</Text>
+		</Replace>
+		<Replace Tag="LOC_GRANT_TAOIST_UNIT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>首都获得一位风水师</Text>
+		</Replace>
+		<Replace Tag="LOC_PPROMOTION_CLASS_PEN_TAOIST_NAME" Language="zh_Hans_CN">
+			<Text>风水师</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_GRAVE_ROBBER_NAME" Language="zh_Hans_CN">
+			<Text>摸金校尉</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_GRAVE_ROBBER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+2使用次数上限、相邻单位战斗胜利后，获得等同于被击杀单位基础 [ICON_STRENGTH] 战斗力100%的 [ICON_GOLD] 金币</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_SHRINK_LAND_NAME" Language="zh_Hans_CN">
+			<Text>缩地成寸</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_SHRINK_LAND_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1使用次数上限、+3 [ICON_MOVEMENT] 移动力，并且不受控制区影响</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_CONCEALMENT_NAME" Language="zh_Hans_CN">
+			<Text>遮云蔽日</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_CONCEALMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+2使用次数上限、自身及相邻陆地单位获得隐身能力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_SUMMON_WIND_RAIN_NAME" Language="zh_Hans_CN">
+			<Text>呼风唤雨</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_SUMMON_WIND_RAIN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+2使用次数上限、相邻陆地单位+5 [ICON_STRENGTH] 战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_TAOISM_MAGIC_NAME" Language="zh_Hans_CN">
+			<Text>玄门法力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_TAOISM_MAGIC_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+3使用次数上限</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_GRAVE_ROBBER_NAME" Language="zh_Hans_CN">
+			<Text>摸金校尉</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_GRAVE_ROBBER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>战斗胜利后，获得等同于被击杀单位基础 [ICON_STRENGTH] 战斗力100%的 [ICON_GOLD] 金币（来自相邻风水师）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_CONCEALMENT_NAME" Language="zh_Hans_CN">
+			<Text>遮云蔽日</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_CONCEALMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得隐身能力（来自相邻风水师）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_SUMMON_WIND_RAIN_NAME" Language="zh_Hans_CN">
+			<Text>呼风唤雨</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_SUMMON_WIND_RAIN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+5 [ICON_STRENGTH] 战斗力（来自相邻风水师）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_SUMMON_WIND_RAIN_STR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+{1_num} 来自风水师</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_TAOIST_SETTINGS_NAME" Language="zh_Hant_HK">
+			<Text>風水先生設置</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_SETTINGS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>調整風水先生能力啟用</Text>
+		</Replace>
+		<Replace Tag="LOC_SETTINGS_TAOIST_STANDARD_NAME" Language="zh_Hant_HK">
+			<Text>標準（推薦）</Text>
+		</Replace>
+		<Replace Tag="LOC_SETTINGS_TAOIST_STANDARD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>標準的風水先生能力，每次結社晉升獲得一位風水先生。</Text>
+		</Replace>
+		<Replace Tag="LOC_SETTINGS_TAOIST_NORMAL_NAME" Language="zh_Hant_HK">
+			<Text>常規（PVP適用）</Text>
+		</Replace>
+		<Replace Tag="LOC_SETTINGS_TAOIST_NORMAL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>保留常規風水先生能力，僅提供一位風水先生，無初始次數、無特色晉升、地脈放置更嚴格。</Text>
+		</Replace>
+		<Replace Tag="LOC_SETTINGS_TAOIST_CUSTOM_NAME" Language="zh_Hant_HK">
+			<Text>自定義</Text>
+		</Replace>
+		<Replace Tag="LOC_SETTINGS_TAOIST_CUSTOM_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>自行選擇開啟或調整風水先生能力。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_TAOIST_INITIAL_ACTIONS_NAME" Language="zh_Hant_HK">
+			<Text>風水先生初始次數</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_INITIAL_ACTIONS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>調整風水先生初始使用次數（不影響儲存上限）</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_INITIAL_MOVEMENT_NAME" Language="zh_Hant_HK">
+			<Text>風水先生初始移动力</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_INITIAL_MOVEMENT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>调整風水先生初始移动力</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_PROMOTION_SUPPLEMENT_NAME" Language="zh_Hant_HK">
+			<Text>開啟風水先生次數補充</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_PROMOTION_SUPPLEMENT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>開啟後，風水先生獲得晉升時補充等同於提升上限的次數。（比如「玄門法力」+3儲存上限，獲得「玄門法力」晉升時風水先生立刻獲得3點次數）</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_RIGID_TERRAIN_NAME" Language="zh_Hant_HK">
+			<Text>開啟嚴格地形生成</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_RIGID_TERRAIN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>開啟後，風水先生生成地脈需滿足地形地貌條件。</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_RIGID_TERRAIN_TOOLTIP" Language="zh_Hant_HK">
+			<Text>地形不滿足尋龍點穴條件</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_NO_DISTRICT_NAME" Language="zh_Hant_HK">
+			<Text>禁止於區域生成</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_NO_DISTRICT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>開啟後，風水先生無法在存在區域的單元格生成地脈。</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_NO_DISTRICT_TOOLTIP" Language="zh_Hant_HK">
+			<Text>禁止於區域生成地脈</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_NO_IMPROVEMENT_NAME" Language="zh_Hant_HK">
+			<Text>禁止於改良生成</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_NO_IMPROVEMENT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>開啟後，風水先生無法在存在改良的單元格生成地脈。</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_NO_IMPROVEMENT_TOOLTIP" Language="zh_Hant_HK">
+			<Text>禁止於改良生成地脈</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_ALLOW_PROMOTION_NAME" Language="zh_Hant_HK">
+			<Text>開啟風水先生特色晉升</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_ALLOW_PROMOTION_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>開啟後，風水先生隨著結社晉升可獲得特色晉升</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_ENTER_FOREIGN_NAME" Language="zh_Hant_HK">
+			<Text>開啟風水先生無視邊界</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_ENTER_FOREIGN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>開啟後，允許風水先生無視邊界關閉進入外國城市。</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_ONLY_ONE_NAME" Language="zh_Hant_HK">
+			<Text>開啟單一風水先生</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_ONLY_ONE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>開啟後，僅通過解鎖結社獲得一名風水先生（後續不再獲得）。</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_SEA_LEYLINE_NAME" Language="zh_Hant_HK">
+			<Text>開啟水上尋龍點穴</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_SEA_LEYLINE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>開啟後，允許風水先生在水域單元格生成地脈。</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_DISPOSABLE_NAME" Language="zh_Hant_HK">
+			<Text>開啟一次性風水先生</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_DISPOSABLE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>開啟後，風水師儲存上限固定為1，並在消耗完次數後消失。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_UNIT_TAOIST_NAME" Language="zh_Hant_HK">
+			<Text>風水先生</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TAOIST_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>尋龍分金看纏山，一重纏是一重關，關門如有八分險，不出陰陽八卦形。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_ADD_LEYLINE" Language="zh_Hant_HK">
+			<Text>尋龍點穴</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_NOT_ADD_LEYLINE" Language="zh_Hant_HK">
+			<Text>無法更改地勢</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_REMOVE_LEYLINE" Language="zh_Hant_HK">
+			<Text>風水易勢</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_REMOVE_LEYLINE_TO_MAX" Language="zh_Hant_HK">
+			<Text>法力不足</Text>
+		</Replace>
+		<Replace Tag="LOC_TAOIST_MAX_LEYLINE" Language="zh_Hant_HK">
+			<Text>最大儲存地脈數量：[COLOR:Red]{1_Num}[ENDCOLOR] /{2_Num}</Text>
+		</Replace>
+		<Replace Tag="LOC_GRANT_TAOIST_UNIT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>首都獲得一位風水先生</Text>
+		</Replace>
+		<Replace Tag="LOC_PPROMOTION_CLASS_PEN_TAOIST_NAME" Language="zh_Hant_HK">
+			<Text>風水先生</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_GRAVE_ROBBER_NAME" Language="zh_Hant_HK">
+			<Text>摸金校尉</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_GRAVE_ROBBER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+1使用次數上限、相鄰單位戰鬥勝利後，獲得等同於被擊殺單位基礎 [ICON_STRENGTH] 戰鬥力100%的 [ICON_GOLD] 金幣</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_SHRINK_LAND_NAME" Language="zh_Hant_HK">
+			<Text>縮地成寸</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_SHRINK_LAND_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+1使用次數上限、+3 [ICON_MOVEMENT] 移動力，並且不受控製區影響</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_CONCEALMENT_NAME" Language="zh_Hant_HK">
+			<Text>遮雲蔽日</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_CONCEALMENT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+1使用次數上限、自身及相鄰陸地單位獲得隱身能力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_SUMMON_WIND_RAIN_NAME" Language="zh_Hant_HK">
+			<Text>呼風喚雨</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_SUMMON_WIND_RAIN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+1使用次數上限、相鄰陸地單位+5 [ICON_STRENGTH] 戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_TAOISM_MAGIC_NAME" Language="zh_Hant_HK">
+			<Text>玄門法力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_TAOIST_TAOISM_MAGIC_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+2使用次數上限</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_GRAVE_ROBBER_NAME" Language="zh_Hant_HK">
+			<Text>摸金校尉</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_GRAVE_ROBBER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>戰鬥勝利後，獲得等同於被擊殺單位基礎 [ICON_STRENGTH] 戰鬥力100%的 [ICON_GOLD] 金幣（來自相鄰風水先生）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_CONCEALMENT_NAME" Language="zh_Hant_HK">
+			<Text>遮雲蔽日</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_CONCEALMENT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>獲得隱身能力（來自相鄰風水先生）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_SUMMON_WIND_RAIN_NAME" Language="zh_Hant_HK">
+			<Text>呼風喚雨</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_SUMMON_WIND_RAIN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+5 [ICON_STRENGTH] 戰鬥力（來自相鄰風水先生）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TAOIST_SUMMON_WIND_RAIN_STR_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_num} 來自風水先生</Text>
+		</Replace>
+	</LocalizedText>		
+</GameData>

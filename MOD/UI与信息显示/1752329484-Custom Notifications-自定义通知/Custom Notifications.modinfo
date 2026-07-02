@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e83d6977-7baf-4e4f-abd2-2a9f59a537ad" version="1.08">
+
+  <Properties>
+    <Name>Custom Notifications</Name>
+    <Description>You get notifications when city borders expand, when city population grows, when your trade deal expires, when religion you founded becomes dominant in a city and when your religion stops being dominant.</Description>
+    <Teaser>Custom notifications.</Teaser>
+    <Authors>qqqbbb</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+	<AffectsSavedGames>0</AffectsSavedGames>
+  </Properties>
+
+
+  <InGameActions>
+
+    <AddGameplayScripts id="Custom_Notifications_lua">
+      <File>Custom Notifications.lua</File>
+
+    </AddGameplayScripts>
+
+	<UpdateIcons id="Custom_Notifications_Icons">
+		<File>Custom_Notifications_Icons.sql</File>
+	</UpdateIcons>
+
+    <ImportFiles id="Custom_Notifications_Icons">
+	    <File>CN_Icons40.dds</File>
+		<File>CN_TopBarIcon.dds</File> 
+    </ImportFiles>
+
+    <UpdateText id="Custom_Notifications_Text">
+      <File>CN_Text.sql</File>
+      <File>CN_Text_Chinese.sql</File>
+    </UpdateText>
+
+	<AddUserInterfaces id="Custom_Notifications_AddUserInterfaces">
+	  <Properties>
+		<Context>InGame</Context>
+	  </Properties>
+		<File>CN_UI.xml</File>
+	</AddUserInterfaces>
+
+	<!-- <UpdateDatabase id="Custom_Notifications_Settings"> -->
+
+	<!-- </UpdateDatabase> -->
+  </InGameActions>
+
+
+  <Files>
+    <File>Custom Notifications.lua</File>
+	<File>Custom_Notifications_Icons.sql</File> 
+	<File>CN_TopBarIcon.dds</File> 
+    <File>CN_Icons40.dds</File>
+	<File>CN_UI.lua</File>
+	<File>CN_UI.xml</File>
+    <File>CN_Text.sql</File>
+	<File>CN_Text_Chinese.sql</File>
+  </Files>
+</Mod>

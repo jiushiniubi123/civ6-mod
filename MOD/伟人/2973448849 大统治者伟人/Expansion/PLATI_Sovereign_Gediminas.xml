@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Classical Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_GEDIMINAS" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_GEDIMINAS" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_GEDIMINAS_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="2" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_SOVEREIGN_GEDIMINAS_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_GEDIMINAS" ModifierId="GREATPERSON_BONUS_SOVEREIGN_GEDIMINAS_GENERAL" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SOVEREIGN_GEDIMINAS" ModifierId="GREATPERSON_BONUS_SOVEREIGN_GEDIMINAS_KNIGHT" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_SOVEREIGN_GEDIMINAS_GENERAL</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_SOVEREIGN_GEDIMINAS_KNIGHT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_SOVEREIGN_GEDIMINAS_GENERAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_SOVEREIGN_GEDIMINAS_KNIGHT</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_KNIGHT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_SOVEREIGN_GEDIMINAS_KNIGHT</ModifierId>
+			<Name>Experience</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_SOVEREIGN_GEDIMINAS_KNIGHT</ModifierId>
+			<Name>UniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_BONUS_SOVEREIGN_GEDIMINAS_GENERAL" Context="Summary" Text="LOC_GREATPERSON_PLATI_SOVEREIGN_GEDIMINAS_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

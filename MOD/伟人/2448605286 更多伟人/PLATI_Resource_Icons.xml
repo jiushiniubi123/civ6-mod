@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_EGG_RESOURCE" IconSize="22" IconsPerRow="8" IconsPerColumn="8" Filename="EGG_22.dds"/>
+		<Row Name="ICON_ATLAS_EGG_RESOURCE" IconSize="38" IconsPerRow="8" IconsPerColumn="8" Filename="EGG_38.dds"/>
+		<Row Name="ICON_ATLAS_EGG_RESOURCE" IconSize="50" IconsPerRow="8" IconsPerColumn="8" Filename="EGG_50.dds"/>
+		<Row Name="ICON_ATLAS_EGG_RESOURCE" IconSize="64" IconsPerRow="8" IconsPerColumn="8" Filename="EGG_64.dds"/>
+		<Row Name="ICON_ATLAS_EGG_RESOURCE" IconSize="256" IconsPerRow="8" IconsPerColumn="8" Filename="EGG_256.dds"/>
+		<Row Name="ICON_ATLAS_EGG_RESOURCE_BASELINE_6" Baseline="6" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="EGG_22.dds"/>
+		<!-- R -->
+		<Row Name="ICON_ATLAS_PEPPER_RESOURCE" IconSize="22" IconsPerRow="8" IconsPerColumn="8" Filename="PEPPER_22.dds"/>
+		<Row Name="ICON_ATLAS_PEPPER_RESOURCE" IconSize="38" IconsPerRow="8" IconsPerColumn="8" Filename="PEPPER_38.dds"/>
+		<Row Name="ICON_ATLAS_PEPPER_RESOURCE" IconSize="50" IconsPerRow="8" IconsPerColumn="8" Filename="PEPPER_50.dds"/>
+		<Row Name="ICON_ATLAS_PEPPER_RESOURCE" IconSize="64" IconsPerRow="8" IconsPerColumn="8" Filename="PEPPER_64.dds"/>
+		<Row Name="ICON_ATLAS_PEPPER_RESOURCE" IconSize="256" IconsPerRow="8" IconsPerColumn="8" Filename="PEPPER_256.dds"/>
+		<Row Name="ICON_ATLAS_PEPPER_RESOURCE_BASELINE_6" Baseline="6" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="PEPPER_22.dds"/>
+		<!-- R -->
+		<Row Name="ICON_ATLAS_NUTMEG_RESOURCE" IconSize="22" IconsPerRow="8" IconsPerColumn="8" Filename="NUTMEG_22.dds"/>
+		<Row Name="ICON_ATLAS_NUTMEG_RESOURCE" IconSize="38" IconsPerRow="8" IconsPerColumn="8" Filename="NUTMEG_38.dds"/>
+		<Row Name="ICON_ATLAS_NUTMEG_RESOURCE" IconSize="50" IconsPerRow="8" IconsPerColumn="8" Filename="NUTMEG_50.dds"/>
+		<Row Name="ICON_ATLAS_NUTMEG_RESOURCE" IconSize="64" IconsPerRow="8" IconsPerColumn="8" Filename="NUTMEG_64.dds"/>
+		<Row Name="ICON_ATLAS_NUTMEG_RESOURCE" IconSize="256" IconsPerRow="8" IconsPerColumn="8" Filename="NUTMEG_256.dds"/>
+		<Row Name="ICON_ATLAS_NUTMEG_RESOURCE_BASELINE_6" Baseline="6" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="NUTMEG_22.dds"/>
+		<!-- R -->
+		<Row Name="ICON_ATLAS_RESOURCE_PRALINE" IconSize="22" IconsPerRow="8" IconsPerColumn="8" Filename="PRALINE_22.dds"/>
+		<Row Name="ICON_ATLAS_RESOURCE_PRALINE" IconSize="38" IconsPerRow="8" IconsPerColumn="8" Filename="PRALINE_38.dds"/>
+		<Row Name="ICON_ATLAS_RESOURCE_PRALINE" IconSize="50" IconsPerRow="8" IconsPerColumn="8" Filename="PRALINE_50.dds"/>
+		<Row Name="ICON_ATLAS_RESOURCE_PRALINE" IconSize="64" IconsPerRow="8" IconsPerColumn="8" Filename="PRALINE_64.dds"/>
+		<Row Name="ICON_ATLAS_RESOURCE_PRALINE" IconSize="256" IconsPerRow="8" IconsPerColumn="8" Filename="PRALINE_256.dds"/>
+		<Row Name="ICON_ATLAS_RESOURCE_PRALINE_BASELINE_6" Baseline="6" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="PRALINE_22.dds"/>
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<Row Name="RESOURCE_EGG" Atlas="ICON_ATLAS_EGG_RESOURCE_BASELINE_6" Index="0"/>
+		<Row Name="ICON_RESOURCE_EGG" Atlas="ICON_ATLAS_EGG_RESOURCE" Index="0"/>
+		<!-- R -->
+		<Row Name="RESOURCE_PEPPER" Atlas="ICON_ATLAS_PEPPER_RESOURCE_BASELINE_6" Index="0"/>
+		<Row Name="ICON_RESOURCE_PEPPER" Atlas="ICON_ATLAS_PEPPER_RESOURCE" Index="0"/>
+		<!-- R -->
+		<Row Name="RESOURCE_NUTMEG" Atlas="ICON_ATLAS_NUTMEG_RESOURCE_BASELINE_6" Index="0"/>
+		<Row Name="ICON_RESOURCE_NUTMEG" Atlas="ICON_ATLAS_NUTMEG_RESOURCE" Index="0"/>
+		<!-- R -->
+		<Row Name="RESOURCE_PRALINE" Atlas="ICON_ATLAS_RESOURCE_PRALINE_BASELINE_6" Index="0"/>
+		<Row Name="ICON_RESOURCE_PRALINE" Atlas="ICON_ATLAS_RESOURCE_PRALINE" Index="0"/>
+	</IconDefinitions>
+</GameData>

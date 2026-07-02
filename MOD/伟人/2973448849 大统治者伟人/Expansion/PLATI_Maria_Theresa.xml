@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- INDUSTRIAL Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_TWELWTH" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_TWELWTH"
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_TWELWTH_NAME"
+			 GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns"
+			 EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1"
+			 ActionRequiresCompletedDistrictType="DISTRICT_GOVERNMENT"
+			 ActionEffectTextOverride="LOC_GREATPERSON_PLATI_TWELWTH_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_TWELWTH" ModifierId="GREAT_PLATI_MARIA_ALCAZAR" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_TWELWTH" ModifierId="GREAT_PLATI_MARIA_BATEY" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_TWELWTH" ModifierId="GREAT_PLATI_MARIA_CAHOKIA" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_TWELWTH" ModifierId="GREAT_PLATI_MARIA_HEADS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_TWELWTH" ModifierId="GREAT_PLATI_MARIA_MAHAVIHARA" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_TWELWTH" ModifierId="GREAT_PLATI_MARIA_MOAI" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_TWELWTH" ModifierId="GREAT_PLATI_MARIA_MONASTERY" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_TWELWTH" ModifierId="GREAT_PLATI_MARIA_NAZCA" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_TWELWTH" ModifierId="GREAT_PLATI_MARIA_TRADINGDOME" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<!---->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_TWELWTH" ModifierId="GREAT_PLATI_MARIA_ALCAZAR_MUSICIAN" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_TWELWTH" ModifierId="GREAT_PLATI_MARIA_BATEY_MUSICIAN" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_TWELWTH" ModifierId="GREAT_PLATI_MARIA_CAHOKIA_MUSICIAN" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_TWELWTH" ModifierId="GREAT_PLATI_MARIA_HEADS_MUSICIAN" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_TWELWTH" ModifierId="GREAT_PLATI_MARIA_MAHAVIHARA_MUSICIAN" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_TWELWTH" ModifierId="GREAT_PLATI_MARIA_MOAI_MUSICIAN" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_TWELWTH" ModifierId="GREAT_PLATI_MARIA_MONASTERY_MUSICIAN" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_TWELWTH" ModifierId="GREAT_PLATI_MARIA_NAZCA_MUSICIAN" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_TWELWTH" ModifierId="GREAT_PLATI_MARIA_TRADINGDOME_MUSICIAN" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row ModifierId="GREAT_PLATI_MARIA_ALCAZAR" 		ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT" SubjectRequirementSetId="PLATI_PLAYER_HAS_ALCAZAR" Permanent="true"/>
+		<Row ModifierId="GREAT_PLATI_MARIA_BATEY" 			ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT" SubjectRequirementSetId="PLATI_PLAYER_HAS_BATEY" Permanent="true"/>
+		<Row ModifierId="GREAT_PLATI_MARIA_CAHOKIA" 		ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT" SubjectRequirementSetId="PLATI_PLAYER_HAS_CAHOKIA" Permanent="true"/>
+		<Row ModifierId="GREAT_PLATI_MARIA_HEADS" 			ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT" SubjectRequirementSetId="PLATI_PLAYER_HAS_HEADS" Permanent="true"/>
+		<Row ModifierId="GREAT_PLATI_MARIA_MAHAVIHARA" 		ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT" SubjectRequirementSetId="PLAYER_HAS_MAHAVIHARA" Permanent="true"/>
+		<Row ModifierId="GREAT_PLATI_MARIA_MOAI" 			ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT" SubjectRequirementSetId="PLATI_PLAYER_HAS_MOAI" Permanent="true"/>
+		<Row ModifierId="GREAT_PLATI_MARIA_MONASTERY" 		ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT" SubjectRequirementSetId="PLATI_PLAYER_HAS_MONASTERY" Permanent="true"/>
+		<Row ModifierId="GREAT_PLATI_MARIA_NAZCA" 			ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT" SubjectRequirementSetId="PLATI_PLAYER_HAS_NAZCA" Permanent="true"/>
+		<Row ModifierId="GREAT_PLATI_MARIA_TRADINGDOME" 	ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT" SubjectRequirementSetId="PLATI_PLAYER_HAS_TRADINGDOME" Permanent="true"/>
+		<!---->
+		<Row ModifierId="GREAT_PLATI_MARIA_ALCAZAR_MUSICIAN" 		ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT" SubjectRequirementSetId="PLATI_PLAYER_HAS_ALCAZAR" Permanent="true"/>
+		<Row ModifierId="GREAT_PLATI_MARIA_BATEY_MUSICIAN" 			ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT" SubjectRequirementSetId="PLATI_PLAYER_HAS_BATEY" Permanent="true"/>
+		<Row ModifierId="GREAT_PLATI_MARIA_CAHOKIA_MUSICIAN" 		ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT" SubjectRequirementSetId="PLATI_PLAYER_HAS_CAHOKIA" Permanent="true"/>
+		<Row ModifierId="GREAT_PLATI_MARIA_HEADS_MUSICIAN" 			ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT" SubjectRequirementSetId="PLATI_PLAYER_HAS_HEADS" Permanent="true"/>
+		<Row ModifierId="GREAT_PLATI_MARIA_MAHAVIHARA_MUSICIAN" 	ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT" SubjectRequirementSetId="PLAYER_HAS_MAHAVIHARA" Permanent="true"/>
+		<Row ModifierId="GREAT_PLATI_MARIA_MOAI_MUSICIAN" 			ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT" SubjectRequirementSetId="PLATI_PLAYER_HAS_MOAI" Permanent="true"/>
+		<Row ModifierId="GREAT_PLATI_MARIA_MONASTERY_MUSICIAN" 		ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT" SubjectRequirementSetId="PLATI_PLAYER_HAS_MONASTERY" Permanent="true"/>
+		<Row ModifierId="GREAT_PLATI_MARIA_NAZCA_MUSICIAN" 			ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT" SubjectRequirementSetId="PLATI_PLAYER_HAS_NAZCA" Permanent="true"/>
+		<Row ModifierId="GREAT_PLATI_MARIA_TRADINGDOME_MUSICIAN" 	ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT" SubjectRequirementSetId="PLATI_PLAYER_HAS_TRADINGDOME" Permanent="true"/>
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="GREAT_PLATI_MARIA_ALCAZAR" 	Name="GreatPersonClassType" 	Value="GREAT_PERSON_CLASS_ARTIST" />
+		<Row ModifierId="GREAT_PLATI_MARIA_ALCAZAR" 	Name="Amount" 					Value="20" />
+		<Row ModifierId="GREAT_PLATI_MARIA_BATEY" 		Name="GreatPersonClassType" 	Value="GREAT_PERSON_CLASS_ARTIST" />
+		<Row ModifierId="GREAT_PLATI_MARIA_BATEY" 		Name="Amount" 					Value="20" />
+		<Row ModifierId="GREAT_PLATI_MARIA_CAHOKIA" 	Name="GreatPersonClassType" 	Value="GREAT_PERSON_CLASS_ARTIST" />
+		<Row ModifierId="GREAT_PLATI_MARIA_CAHOKIA" 	Name="Amount" 					Value="20" />
+		<Row ModifierId="GREAT_PLATI_MARIA_HEADS" 		Name="GreatPersonClassType" 	Value="GREAT_PERSON_CLASS_ARTIST" />
+		<Row ModifierId="GREAT_PLATI_MARIA_HEADS" 		Name="Amount" 					Value="20" />
+		<Row ModifierId="GREAT_PLATI_MARIA_MAHAVIHARA" 	Name="GreatPersonClassType" 	Value="GREAT_PERSON_CLASS_ARTIST" />
+		<Row ModifierId="GREAT_PLATI_MARIA_MAHAVIHARA" 	Name="Amount" 					Value="20" />
+		<Row ModifierId="GREAT_PLATI_MARIA_MOAI" 		Name="GreatPersonClassType" 	Value="GREAT_PERSON_CLASS_ARTIST" />
+		<Row ModifierId="GREAT_PLATI_MARIA_MOAI" 		Name="Amount" 					Value="20" />
+		<Row ModifierId="GREAT_PLATI_MARIA_MONASTERY" 	Name="GreatPersonClassType" 	Value="GREAT_PERSON_CLASS_ARTIST" />
+		<Row ModifierId="GREAT_PLATI_MARIA_MONASTERY" 	Name="Amount" 					Value="20" />
+		<Row ModifierId="GREAT_PLATI_MARIA_NAZCA" 		Name="GreatPersonClassType" 	Value="GREAT_PERSON_CLASS_ARTIST" />
+		<Row ModifierId="GREAT_PLATI_MARIA_NAZCA" 		Name="Amount" 					Value="20" />
+		<Row ModifierId="GREAT_PLATI_MARIA_TRADINGDOME" Name="GreatPersonClassType" 	Value="GREAT_PERSON_CLASS_ARTIST" />
+		<Row ModifierId="GREAT_PLATI_MARIA_TRADINGDOME" Name="Amount" 					Value="20" />
+		<!---->
+		<Row ModifierId="GREAT_PLATI_MARIA_ALCAZAR_MUSICIAN" 	Name="GreatPersonClassType" 	Value="GREAT_PERSON_CLASS_MUSICIAN" />
+		<Row ModifierId="GREAT_PLATI_MARIA_ALCAZAR_MUSICIAN" 	Name="Amount" 					Value="20" />
+		<Row ModifierId="GREAT_PLATI_MARIA_BATEY_MUSICIAN" 		Name="GreatPersonClassType" 	Value="GREAT_PERSON_CLASS_MUSICIAN" />
+		<Row ModifierId="GREAT_PLATI_MARIA_BATEY_MUSICIAN" 		Name="Amount" 					Value="20" />
+		<Row ModifierId="GREAT_PLATI_MARIA_CAHOKIA_MUSICIAN" 	Name="GreatPersonClassType" 	Value="GREAT_PERSON_CLASS_MUSICIAN" />
+		<Row ModifierId="GREAT_PLATI_MARIA_CAHOKIA_MUSICIAN" 	Name="Amount" 					Value="20" />
+		<Row ModifierId="GREAT_PLATI_MARIA_HEADS_MUSICIAN" 		Name="GreatPersonClassType" 	Value="GREAT_PERSON_CLASS_MUSICIAN" />
+		<Row ModifierId="GREAT_PLATI_MARIA_HEADS_MUSICIAN" 		Name="Amount" 					Value="20" />
+		<Row ModifierId="GREAT_PLATI_MARIA_MAHAVIHARA_MUSICIAN" Name="GreatPersonClassType" 	Value="GREAT_PERSON_CLASS_MUSICIAN" />
+		<Row ModifierId="GREAT_PLATI_MARIA_MAHAVIHARA_MUSICIAN" Name="Amount" 					Value="20" />
+		<Row ModifierId="GREAT_PLATI_MARIA_MOAI_MUSICIAN" 		Name="GreatPersonClassType" 	Value="GREAT_PERSON_CLASS_MUSICIAN" />
+		<Row ModifierId="GREAT_PLATI_MARIA_MOAI_MUSICIAN" 		Name="Amount" 					Value="20" />
+		<Row ModifierId="GREAT_PLATI_MARIA_MONASTERY_MUSICIAN" 	Name="GreatPersonClassType" 	Value="GREAT_PERSON_CLASS_MUSICIAN" />
+		<Row ModifierId="GREAT_PLATI_MARIA_MONASTERY_MUSICIAN" 	Name="Amount" 					Value="20" />
+		<Row ModifierId="GREAT_PLATI_MARIA_NAZCA_MUSICIAN" 		Name="GreatPersonClassType" 	Value="GREAT_PERSON_CLASS_MUSICIAN" />
+		<Row ModifierId="GREAT_PLATI_MARIA_NAZCA_MUSICIAN" 		Name="Amount" 					Value="20" />
+		<Row ModifierId="GREAT_PLATI_MARIA_TRADINGDOME_MUSICIAN" Name="GreatPersonClassType" 	Value="GREAT_PERSON_CLASS_MUSICIAN" />
+		<Row ModifierId="GREAT_PLATI_MARIA_TRADINGDOME_MUSICIAN" Name="Amount" 					Value="20" />
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREAT_PLATI_MARIA_ALCAZAR" Context="Summary" Text="LOC_GREATPERSON_PLATI_TWELWTH_GREATPERSON_GPP"/>
+	</ModifierStrings>
+	<RequirementSets>
+		<Row><RequirementSetId>PLATI_PLAYER_HAS_BATEY</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_PLAYER_HAS_CAHOKIA</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_PLAYER_HAS_HEADS</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_PLAYER_HAS_ALCAZAR</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_PLAYER_HAS_MOAI</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_PLAYER_HAS_MONASTERY</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_PLAYER_HAS_NAZCA</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>PLATI_PLAYER_HAS_TRADINGDOME</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>PLATI_PLAYER_HAS_BATEY</RequirementSetId><RequirementId>PLATI_PLAYER_IMPROVEMENT_CONSTRUCTED_BATEY</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_PLAYER_HAS_CAHOKIA</RequirementSetId><RequirementId>PLATI_PLAYER_IMPROVEMENT_CONSTRUCTED_CAHOKIA</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_PLAYER_HAS_HEADS</RequirementSetId><RequirementId>PLATI_PLAYER_IMPROVEMENT_CONSTRUCTED_HEADS</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_PLAYER_HAS_ALCAZAR</RequirementSetId><RequirementId>PLATI_PLAYER_IMPROVEMENT_CONSTRUCTED_ALCAZAR</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_PLAYER_HAS_MOAI</RequirementSetId><RequirementId>PLATI_PLAYER_IMPROVEMENT_CONSTRUCTED_MOAI</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_PLAYER_HAS_MONASTERY</RequirementSetId><RequirementId>PLATI_PLAYER_IMPROVEMENT_CONSTRUCTED_MONASTERY</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_PLAYER_HAS_NAZCA</RequirementSetId><RequirementId>PLATI_PLAYER_IMPROVEMENT_CONSTRUCTED_NAZCA</RequirementId></Row>
+		<Row><RequirementSetId>PLATI_PLAYER_HAS_TRADINGDOME</RequirementSetId><RequirementId>PLATI_PLAYER_IMPROVEMENT_CONSTRUCTED_TRADINGDOME</RequirementId></Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row><RequirementId>PLATI_PLAYER_IMPROVEMENT_CONSTRUCTED_BATEY</RequirementId><RequirementType>REQUIREMENT_PLAYER_HAS_IMPROVEMENT</RequirementType></Row>
+		<Row><RequirementId>PLATI_PLAYER_IMPROVEMENT_CONSTRUCTED_CAHOKIA</RequirementId><RequirementType>REQUIREMENT_PLAYER_HAS_IMPROVEMENT</RequirementType></Row>
+		<Row><RequirementId>PLATI_PLAYER_IMPROVEMENT_CONSTRUCTED_HEADS</RequirementId><RequirementType>REQUIREMENT_PLAYER_HAS_IMPROVEMENT</RequirementType></Row>
+		<Row><RequirementId>PLATI_PLAYER_IMPROVEMENT_CONSTRUCTED_ALCAZAR</RequirementId><RequirementType>REQUIREMENT_PLAYER_HAS_IMPROVEMENT</RequirementType></Row>
+		<Row><RequirementId>PLATI_PLAYER_IMPROVEMENT_CONSTRUCTED_MOAI</RequirementId><RequirementType>REQUIREMENT_PLAYER_HAS_IMPROVEMENT</RequirementType></Row>
+		<Row><RequirementId>PLATI_PLAYER_IMPROVEMENT_CONSTRUCTED_MONASTERY</RequirementId><RequirementType>REQUIREMENT_PLAYER_HAS_IMPROVEMENT</RequirementType></Row>
+		<Row><RequirementId>PLATI_PLAYER_IMPROVEMENT_CONSTRUCTED_NAZCA</RequirementId><RequirementType>REQUIREMENT_PLAYER_HAS_IMPROVEMENT</RequirementType></Row>
+		<Row><RequirementId>PLATI_PLAYER_IMPROVEMENT_CONSTRUCTED_TRADINGDOME</RequirementId><RequirementType>REQUIREMENT_PLAYER_HAS_IMPROVEMENT</RequirementType></Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row><RequirementId>PLATI_PLAYER_IMPROVEMENT_CONSTRUCTED_BATEY</RequirementId><Name>ImprovementType</Name><Value>IMPROVEMENT_BATEY</Value></Row>
+		<Row><RequirementId>PLATI_PLAYER_IMPROVEMENT_CONSTRUCTED_CAHOKIA</RequirementId><Name>ImprovementType</Name><Value>IMPROVEMENT_MOUND</Value></Row>
+		<Row><RequirementId>PLATI_PLAYER_IMPROVEMENT_CONSTRUCTED_HEADS</RequirementId><Name>ImprovementType</Name><Value>IMPROVEMENT_MAHAVIHARA</Value></Row>
+		<Row><RequirementId>PLATI_PLAYER_IMPROVEMENT_CONSTRUCTED_ALCAZAR</RequirementId><Name>ImprovementType</Name><Value>IMPROVEMENT_ALCAZAR</Value></Row>
+		<Row><RequirementId>PLATI_PLAYER_IMPROVEMENT_CONSTRUCTED_MOAI</RequirementId><Name>ImprovementType</Name><Value>IMPROVEMENT_MOAI</Value></Row>
+		<Row><RequirementId>PLATI_PLAYER_IMPROVEMENT_CONSTRUCTED_MONASTERY</RequirementId><Name>ImprovementType</Name><Value>IMPROVEMENT_MONASTERY</Value></Row>
+		<Row><RequirementId>PLATI_PLAYER_IMPROVEMENT_CONSTRUCTED_NAZCA</RequirementId><Name>ImprovementType</Name><Value>IMPROVEMENT_NAZCA_LINE</Value></Row>
+		<Row><RequirementId>PLATI_PLAYER_IMPROVEMENT_CONSTRUCTED_TRADINGDOME</RequirementId><Name>ImprovementType</Name><Value>IMPROVEMENT_TRADING_DOME</Value></Row>
+	</RequirementArguments>
+</GameData>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b26abdd5-a1d7-453a-a443-d4c325d14ecb" version="1">
+  <Properties>
+    <Name>Barbarian Outposts to Watchtowers</Name>
+    <Description>Clearing a barbarian outpost will also build a watchtower in its tile.</Description>
+    <Created>1592776549</Created>
+    <Teaser>Clearing a barbarian outpost will also build a watchtower in its tile.</Teaser>
+    <Authors>SailorCat</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="72950284-90dc-424d-ba04-4a1d8de2b336" title="Watchtower Improvement" />
+  </Dependencies>
+  <InGameActions>
+    <AddGameplayScripts id="Net">
+      <Properties>
+        <LoadOrder>-1</LoadOrder>
+      </Properties>
+      <File>SAILOR_BOtW_Net.lua</File>
+    </AddGameplayScripts>
+    <AddGameplayScripts id="Function">
+      <Properties>
+        <LoadOrder>1780</LoadOrder>
+      </Properties>
+      <File>SAILOR_BOtW_Functions.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>SAILOR_BOtW_Functions.lua</File>
+    <File>SAILOR_BOtW_Net.lua</File>
+  </Files>
+</Mod>

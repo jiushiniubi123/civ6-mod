@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+  
+    <!-- 自由城邦继承城市名称 -->
+    <Replace Language="zh_Hans_CN" Tag="LOC_INHERIT_CITY_NAME">
+      <Text>自由城邦继承城市名称</Text>
+    </Replace>
+    <Replace Language="zh_Hans_CN" Tag="LOC_INHERIT_CITY_NAME_DESCRIPTION">
+      <Text>启用后，新生成的城邦将使用原自由城市的名称。[NEWLINE]（默认值：关闭）</Text>
+    </Replace>
+    
+    <!-- 自由城邦继承城市地块 -->
+    <Replace Language="zh_Hans_CN" Tag="LOC_INHERIT_CITY_PLOTS">
+      <Text>自由城邦继承城市地块</Text>
+    </Replace>
+    <Replace Language="zh_Hans_CN" Tag="LOC_INHERIT_CITY_PLOTS_DESCRIPTION">
+      <Text>启用后，新生成的城邦将继承原自由城市已购买的所有地块。[NEWLINE]（默认值：关闭）</Text>
+    </Replace>
+    
+    <!-- 自由城市转化为城邦的概率 -->
+    <Replace Language="zh_Hans_CN" Tag="LOC_FREE_CS_CONVERSION_PROBABILITY">
+      <Text>自由城市转化概率</Text>
+    </Replace>
+    <Replace Language="zh_Hans_CN" Tag="LOC_FREE_CS_CONVERSION_PROBABILITY_DESCRIPTION">
+      <Text>设置自由城市转化为新城邦的基础概率百分比。（默认值：12）</Text>
+    </Replace>
+    
+  </LocalizedText>
+</GameData>

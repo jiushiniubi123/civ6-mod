@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fb2ba7a1-a306-4b9c-9eeb-205872ba8bc2" version="1">
+  <Properties>
+    <Name>LOC_BELIEF_REWORK_NAME</Name>
+    <Description>LOC_BELIEF_REWORK_DESCRIPTION</Description>
+    <Teaser>LOC_BELIEF_REWORK_TEASER</Teaser>
+    <Authors>环己烷</Authors>
+    <SpecialThanks></SpecialThanks>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="LOC_BELIEF_REWORK_NAME">
+      <en_US>Belief Rework</en_US>
+      <zh_Hans_CN>万神殿与信条重做</zh_Hans_CN>
+    </Text>
+	<Text id="LOC_BELIEF_REWORK_DESCRIPTION">
+      <en_US>This mod has currently modified most Pantheon, Follower and Worship religions, for detail please consult the Civilopedia in game.</en_US>
+      <zh_Hans_CN>本mod当前修改了大多数万神殿、追随者和祭祀信条，具体修改内容可见游戏内百科。如果有好的改动建议，或者交流文明6相关，可以加群623526762。</zh_Hans_CN>
+    </Text>
+	<Text id="LOC_BELIEF_REWORK_TEASER">
+      <en_US>This mod strengthens most of the religions so as to make Civ6 more interesting, as well as add new gameplay to Civ6.</en_US>
+      <zh_Hans_CN>消灭垃圾万神，加强游戏体验，引进新的玩法</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <ActionCriteria>
+    <Criteria id="Expansion2_NO_Huan_MOD">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse inverse="1">a8939399-32ec-4e22-8f5a-4616225924b0</ModInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+  </FrontEndActions>
+  <InGameActions>
+	<UpdateArt id="Belief_Rework_Art" criteria="Expansion2_NO_Huan_MOD">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>Belief Rework.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Belief_Rework_Database_Pantheon" criteria="Expansion2_NO_Huan_MOD">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>PANTHEON.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Belief_Rework_Database_Follower" criteria="Expansion2_NO_Huan_MOD">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>FOLLOWER.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Belief_Rework_Database_Worship" criteria="Expansion2_NO_Huan_MOD">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>WORSHIP.sql</File>
+    </UpdateDatabase>
+	<UpdateIcons id="Belief_Rework_Icon" criteria="Expansion2_NO_Huan_MOD">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>ICON_GREAT_PERSON.sql</File>
+    </UpdateIcons>
+	<UpdateText id="Belief_Rework_Text_Pantheon" criteria="Expansion2_NO_Huan_MOD">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>TEXT_PANTHEON.sql</File>
+    </UpdateText>
+    <UpdateText id="Belief_Rework_Text_Follower" criteria="Expansion2_NO_Huan_MOD">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>TEXT_FOLLOWER.sql</File>
+    </UpdateText>
+    <UpdateText id="Belief_Rework_Text_Worship" criteria="Expansion2_NO_Huan_MOD">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>TEXT_WORSHIP.sql</File>
+    </UpdateText>
+    <UpdateText id="Belief_Rework_Text_Buildings" criteria="Expansion2_NO_Huan_MOD">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>TEXT_BUILDINGS.sql</File>
+    </UpdateText>
+	<UpdateText id="Belief_Rework_Text_Great_Person" criteria="Expansion2_NO_Huan_MOD">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>TEXT_GREAT_PERSON.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>PANTHEON.sql</File>
+    <File>FOLLOWER.sql</File>
+    <File>WORSHIP.sql</File>
+    <File>TEXT_PANTHEON.sql</File>
+    <File>TEXT_FOLLOWER.sql</File>
+    <File>TEXT_WORSHIP.sql</File>
+    <File>TEXT_BUILDINGS.sql</File>
+	<File>TEXT_GREAT_PERSON.sql</File>
+	<File>ICON_GREAT_PERSON.sql</File>
+	<File>Belief Rework.dep</File>
+	<File>Artdefs/Units.artdef</File>
+  </Files>
+</Mod>

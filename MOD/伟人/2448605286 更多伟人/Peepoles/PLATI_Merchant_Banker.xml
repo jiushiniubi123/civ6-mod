@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- INDUSTRIAL Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_BANKER" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_BANKER" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_BANKER_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" EraType="ERA_MODERN" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_GOVERNMENT" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_BANKER_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_BANKER" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_BANKER_GOLD_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_BANKER_GOLD_BOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_BUILDING_FAVOR</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_BANKER_GOLD_BOOST</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_BANK</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_BANKER_GOLD_BOOST</ModifierId>
+			<Name>Favor</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_BANKER_GOLD_BOOST" Context="Summary" Text="LOC_GREATPERSON_PLATI_BANKER_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

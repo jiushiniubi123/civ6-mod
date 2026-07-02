@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="DC1EB1A7-A8F4-1BE4-3AE4-83DD7692AB66" version="1">
+  <Properties>
+    <Name>单位升级不结束回合</Name>
+    <Description>开启这个MOD可以让所有人类玩家的单位升级不结束回合</Description>
+    <Created>1750069177</Created>
+    <Teaser>开启这个MOD可以让单位升级不结束回合</Teaser>
+    <Authors>Memorry</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+		<Mod id="9DE86512-DE1A-400D-8C0A-AB46EBBF76B9" title="LOC_GRANCOLOMBIA_MAYA_MOD_TITLE"/>
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File>GameData1.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>GameData1.sql</File>
+  </Files>
+</Mod>

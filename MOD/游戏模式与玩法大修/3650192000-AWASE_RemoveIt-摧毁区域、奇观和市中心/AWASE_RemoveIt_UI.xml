@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AWASE_RemoveIt_UI -->
+<!-- Author: Awase -->
+<!-- DateCreated: 1/20/2026 8:31:30 AM -->
+<Context>
+	<!-- 按钮容器，挂载到 UnitPanel -->
+	<Grid ID="AWASE_REMOVEIT_ActionGrid" Anchor="R,B" Size="auto,41" AutoSizePadding="6,0" Texture="SelectionPanel_ActionGroupSlot" SliceCorner="5,19" SliceSize="1,1" SliceTextureSize="12,41" ConsumeMouse="1" Hidden="1">
+		<Button ID="AWASE_REMOVEIT_RemoveButton" Anchor="C,B" Size="44,53" Texture="UnitPanel_ActionButton" ToolTip="LOC_REMOVEIT_BUTTON_TOOLTIP">
+			<Image ID="UnitButtonIcon" Anchor="C,C" Offset="0,-2" Size="38,38" Icon="ICON_UNITOPERATION_WMD_STRIKE"/>
+		</Button>
+	</Grid>
+</Context>

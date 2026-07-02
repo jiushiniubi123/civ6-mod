@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ===========================================================================
+ TechCivicIcons - 图标定义（完整优化版 v3）
+ 所有图标引用现有游戏图集，不添加新纹理文件
+ 图标命名对应 DIPLOMATIC_ACTION 类型，右击时打开正确的百科页面
+ 
+ 图标选择说明：
+   ICON_ATLAS_UNITS Index 0           = ★开拓者图标（开拓者下海）
+   ICON_ATLAS_UNITS Index 1           = 建造者图标（建造者下海）
+   ICON_ATLAS_UNIT_ACTIONS Index 57   = 收获资源图标（建造者收获动作）
+   ICON_ATLAS_UNIT_ACTIONS Index 68   = 移除地貌图标（建造者移除动作）
+   ICON_ATLAS_STATS Index 3           = 移动力图标（★所有移动力/海里移动力/移山填海统一图标）
+   ICON_ATLAS_STATS Index 11          = 政体图标（法典）
+ =========================================================================== -->
+<GameInfo>
+  <IconDefinitions>
+    <!-- ======================================== -->
+    <!-- [1989198528] 建造者和工人开局可下海 -->
+    <!-- ======================================== -->
+    <!-- 建造者下海 → 移动力图标（海里移动力使用移动力图标） -->
+    <Row Name="ICON_DIPLOACTION_TI_BUILDER_EMBARK" Atlas="ICON_ATLAS_STATS" Index="3"/>
+    <!-- ★收获资源 → 收获动作图标 -->
+    <Row Name="ICON_DIPLOACTION_TI_HARVEST_RESOURCES" Atlas="ICON_ATLAS_UNIT_ACTIONS" Index="57"/>
+    <!-- ★开拓者下海 → 开拓者图标（ICON_ATLAS_UNITS Index 0） -->
+    <Row Name="ICON_DIPLOACTION_TI_SETTLER_EMBARK" Atlas="ICON_ATLAS_UNITS" Index="0"/>
+    <!-- 移除地貌 → 移除动作图标 -->
+    <Row Name="ICON_DIPLOACTION_TI_REMOVE_FEATURES" Atlas="ICON_ATLAS_UNIT_ACTIONS" Index="68"/>
+
+    <!-- ======================================== -->
+    <!-- [3378446140] + [2578023455] 合并图标 -->
+    <!-- ★每个科技只保留一个图标，统一使用移动力图标 -->
+    <!-- ======================================== -->
+    <Row Name="ICON_DIPLOACTION_TI_MOVEMENT_CAVALRY_1" Atlas="ICON_ATLAS_STATS" Index="3"/>
+    <Row Name="ICON_DIPLOACTION_TI_MOVEMENT_COMBINED_1" Atlas="ICON_ATLAS_STATS" Index="3"/>
+    <Row Name="ICON_DIPLOACTION_TI_MOVEMENT_NC_2" Atlas="ICON_ATLAS_STATS" Index="3"/>
+    <Row Name="ICON_DIPLOACTION_TI_MOVEMENT_COMBINED_2" Atlas="ICON_ATLAS_STATS" Index="3"/>
+    <Row Name="ICON_DIPLOACTION_TI_MOVEMENT_COMBINED_3" Atlas="ICON_ATLAS_STATS" Index="3"/>
+
+    <!-- ======================================== -->
+    <!-- [2578023455] 移山填海 独立科技 -->
+    <!-- ======================================== -->
+    <Row Name="ICON_DIPLOACTION_TI_JINGWEI_CT" Atlas="ICON_ATLAS_STATS" Index="3"/>
+    <Row Name="ICON_DIPLOACTION_TI_YUGONG_MC" Atlas="ICON_ATLAS_STATS" Index="3"/>
+    <Row Name="ICON_DIPLOACTION_TI_COMBINED_RB" Atlas="ICON_ATLAS_STATS" Index="3"/>
+    <Row Name="ICON_DIPLOACTION_TI_JINGWEI_SP" Atlas="ICON_ATLAS_STATS" Index="3"/>
+    <Row Name="ICON_DIPLOACTION_TI_YUGONG_CM" Atlas="ICON_ATLAS_STATS" Index="4"/>
+    <Row Name="ICON_DIPLOACTION_TI_YUGONG_NF" Atlas="ICON_ATLAS_STATS" Index="4"/>
+    <Row Name="ICON_DIPLOACTION_TI_JINGWEI_MP" Atlas="ICON_ATLAS_STATS" Index="4"/>
+    <Row Name="ICON_DIPLOACTION_TI_JINGWEI_SM" Atlas="ICON_ATLAS_STATS" Index="4"/>
+
+    <!-- ======================================== -->
+    <!-- 市政 -->
+    <!-- ======================================== -->
+    <Row Name="ICON_DIPLOACTION_TI_CODE_OF_LAWS" Atlas="ICON_ATLAS_STATS" Index="11"/>
+
+    <!-- ======================================== -->
+    <!-- 水运移动力（原版效果，使用移动力图标） -->
+    <!-- ======================================== -->
+    <Row Name="ICON_DIPLOACTION_TI_WATER_MOVEMENT_1" Atlas="ICON_ATLAS_STATS" Index="3"/>
+    <Row Name="ICON_DIPLOACTION_TI_WATER_MOVEMENT_2" Atlas="ICON_ATLAS_STATS" Index="3"/>
+
+    <!-- ======================================== -->
+    <!-- 战略资源收获（自己修改1587956117 添加，使用锤子图标） -->
+    <!-- ======================================== -->
+    <Row Name="ICON_DIPLOACTION_TI_HARVEST_HORSES" Atlas="ICON_ATLAS_UNIT_ACTIONS" Index="57"/>
+    <Row Name="ICON_DIPLOACTION_TI_HARVEST_IRON" Atlas="ICON_ATLAS_UNIT_ACTIONS" Index="57"/>
+    <Row Name="ICON_DIPLOACTION_TI_HARVEST_NITER" Atlas="ICON_ATLAS_UNIT_ACTIONS" Index="57"/>
+    <Row Name="ICON_DIPLOACTION_TI_HARVEST_COAL" Atlas="ICON_ATLAS_UNIT_ACTIONS" Index="57"/>
+    <Row Name="ICON_DIPLOACTION_TI_HARVEST_OIL" Atlas="ICON_ATLAS_UNIT_ACTIONS" Index="57"/>
+    <Row Name="ICON_DIPLOACTION_TI_HARVEST_ALUMINUM" Atlas="ICON_ATLAS_UNIT_ACTIONS" Index="57"/>
+    <Row Name="ICON_DIPLOACTION_TI_HARVEST_URANIUM" Atlas="ICON_ATLAS_UNIT_ACTIONS" Index="57"/>
+
+  </IconDefinitions>
+</GameInfo>

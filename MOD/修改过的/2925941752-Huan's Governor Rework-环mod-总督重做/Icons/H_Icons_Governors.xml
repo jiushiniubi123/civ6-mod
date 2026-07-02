@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <IconDefinitions>
+        <Row Name="ICON_BUILDING_GOVERNOR_MAGNUS_ARRIVE" Atlas="ICON_ATLAS_BUILDINGS" Index="29"/>
+        <Row Name="ICON_BUILDING_GOVERNOR_MAGNUS_ARRIVE_FOW" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="29"/>
+        <Row Name="ICON_BUILDING_GOVERNOR_MAGNUS_OFFICE" Atlas="ICON_ATLAS_BUILDINGS" Index="29"/>
+        <Row Name="ICON_BUILDING_GOVERNOR_MAGNUS_OFFICE_FOW" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="29"/>
+    </IconDefinitions>
+</GameData>

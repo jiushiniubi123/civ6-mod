@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PackageText -->
+<!-- Author: Awase -->
+<!-- DateCreated: 1/28/2026 4:29:05 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_AWAW_NORESTART_TITLE" Language="en_US">
+			<Text>Custom Start: Heroes</Text>
+		</Row>
+		<Row Tag="LOC_AWAW_NORESTART_TITLE" Language="zh_Hans_CN">
+			<Text>自选开局：英雄</Text>
+		</Row>
+		<Row Tag="LOC_AWAW_NORESTART_TITLE" Language="zh_Hant_HK">
+			<Text>自選開局：英雄</Text>
+		</Row>
+		<Row Tag="LOC_AWAW_NORESTART_TITLE" Language="ja_JP">
+			<Text>カスタムスタート：英雄</Text>
+		</Row>
+
+		<Row Tag="LOC_AWAW_NORESTART_TEASER" Language="en_US">
+			<Text>Allows selecting heroes to be discovered at the start in "Advanced Setup".</Text>
+		</Row>
+		<Row Tag="LOC_AWAW_NORESTART_TEASER" Language="zh_Hans_CN">
+			<Text>可在「高级设置」中选择开局即发现的英雄。</Text>
+		</Row>
+		<Row Tag="LOC_AWAW_NORESTART_TEASER" Language="zh_Hant_HK">
+			<Text>可在「高級設置」中選擇開局即發現的英雄。</Text>
+		</Row>
+		<Row Tag="LOC_AWAW_NORESTART_TEASER" Language="ja_JP">
+			<Text>「高度な設定」で、ゲーム開始時に発見される英雄を選択できます。</Text>
+		</Row>
+
+		<Row Tag="LOC_AWAW_NORESTART_DESCRIPTION" Language="en_US">
+			<Text>Allows players to select specific heroes in "Advanced Setup" (multiple selections allowed).[NEWLINE][NEWLINE]Selected heroes will be discovered immediately on the first turn.[NEWLINE][NEWLINE]Requires "Heroes &amp; Legends" mode.</Text>
+		</Row>
+		<Row Tag="LOC_AWAW_NORESTART_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>允许玩家在「高级设置」中选择特定英雄（可多选）。[NEWLINE][NEWLINE]选定的英雄将在第一回合立即被发现。[NEWLINE][NEWLINE]需要开启“英雄与传奇”模式。</Text>
+		</Row>
+		<Row Tag="LOC_AWAW_NORESTART_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>允許玩家在「高級設置」中選擇特定英雄（可多選）。[NEWLINE][NEWLINE]選定的英雄將在第一回合立即被發現。[NEWLINE][NEWLINE]需要開啟「英雄與傳奇」模式。</Text>
+		</Row>
+		<Row Tag="LOC_AWAW_NORESTART_DESCRIPTION" Language="ja_JP">
+			<Text>「高度な設定」で特定の英雄を選択できるようになります（複数選択可能）。[NEWLINE][NEWLINE]選択した英雄は第1ターンに即座に発見されます。[NEWLINE][NEWLINE]「英雄と伝説」モードを有効にする必要があります。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

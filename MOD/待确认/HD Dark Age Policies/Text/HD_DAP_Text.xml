@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- HD_DAP_Text -->
+<!-- [AUDIT] All LOC_ keys reference exact identifiers from HD_DAP_Data.sql -->
+<!-- [AUDIT] Bilingual: en_US + zh_Hans_CN -->
+<!-- [AUDIT] 6 policies: 4 Dark Age + 2 Golden Age (Counter Reformation removed per user) -->
+<GameData>
+    <LocalizedText>
+        <!-- ===================================================-->
+        <!-- DARK AGE POLICY NAMES -->
+        <!-- ===================================================-->
+        <Row Tag="LOC_POLICY_DAP_CHATTEL_SLAVERY_NAME" Language="en_US">
+            <Text>Chattel Slavery</Text>
+        </Row>
+        <Row Tag="LOC_POLICY_DAP_CHATTEL_SLAVERY_NAME" Language="zh_Hans_CN">
+            <Text>奴隶制</Text>
+        </Row>
+        <Row Tag="LOC_POLICY_DAP_CHILD_SOLDIERS_NAME" Language="en_US">
+            <Text>Child Soldiers</Text>
+        </Row>
+        <Row Tag="LOC_POLICY_DAP_CHILD_SOLDIERS_NAME" Language="zh_Hans_CN">
+            <Text>童兵</Text>
+        </Row>
+        <Row Tag="LOC_POLICY_DAP_GREAT_MIGRATION_NAME" Language="en_US">
+            <Text>Great Migration</Text>
+        </Row>
+        <Row Tag="LOC_POLICY_DAP_GREAT_MIGRATION_NAME" Language="zh_Hans_CN">
+            <Text>大迁徙</Text>
+        </Row>
+        <Row Tag="LOC_POLICY_DAP_LABOUR_CAMPS_NAME" Language="en_US">
+            <Text>Labour Camps</Text>
+        </Row>
+        <Row Tag="LOC_POLICY_DAP_LABOUR_CAMPS_NAME" Language="zh_Hans_CN">
+            <Text>劳改营</Text>
+        </Row>
+
+        <!-- ===================================================-->
+        <!-- GOLDEN AGE POLICY NAMES -->
+        <!-- ===================================================-->
+        <Row Tag="LOC_POLICY_DAP_ROYAL_TOMBS_NAME" Language="en_US">
+            <Text>Royal Tombs</Text>
+        </Row>
+        <Row Tag="LOC_POLICY_DAP_ROYAL_TOMBS_NAME" Language="zh_Hans_CN">
+            <Text>皇家陵墓</Text>
+        </Row>
+        <Row Tag="LOC_POLICY_DAP_GREAT_PERSON_ACADEMY_NAME" Language="en_US">
+            <Text>Flourishing Talents</Text>
+        </Row>
+        <Row Tag="LOC_POLICY_DAP_GREAT_PERSON_ACADEMY_NAME" Language="zh_Hans_CN">
+            <Text>英杰辈出</Text>
+        </Row>
+
+        <!-- ===================================================-->
+        <!-- DARK AGE POLICY DESCRIPTIONS -->
+        <!-- ===================================================-->
+        <Row Tag="LOC_POLICY_DAP_CHATTEL_SLAVERY_DESCRIPTION" Language="en_US">
+            <Text>Can capture defeated enemy civilization combat units (non-barbarian) and convert them to Builders. [COLOR_RED]-1 [ICON_GLORY_DARK_AGE] Era Score from defeating civilization combat units.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="LOC_POLICY_DAP_CHATTEL_SLAVERY_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>击败敌方文明战斗单位（非蛮族）可将其俘虏并转化为建造者。[COLOR_RED]击败文明战斗单位时-1 [ICON_GLORY_DARK_AGE] 时代分。[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="LOC_POLICY_DAP_CHILD_SOLDIERS_DESCRIPTION" Language="en_US">
+            <Text>All units gain +100% Combat Experience. [COLOR_RED]-1 [ICON_GLORY_DARK_AGE] Era Score from promoting a Combat Unit.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="LOC_POLICY_DAP_CHILD_SOLDIERS_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>所有单位获得 +100% 战斗经验。[COLOR_RED]战斗单位晋升时-1 [ICON_GLORY_DARK_AGE] 时代分。[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="LOC_POLICY_DAP_GREAT_MIGRATION_DESCRIPTION" Language="en_US">
+            <Text>New cities begin with +1 [ICON_CITIZEN] Population.[NEWLINE][COLOR_RED]-2 [ICON_GLORY_DARK_AGE] Era Score from founding new cities.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="LOC_POLICY_DAP_GREAT_MIGRATION_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>新建城市初始获得 +1 [ICON_CITIZEN] 人口。[NEWLINE][COLOR_RED]建立新城市时-2 [ICON_GLORY_DARK_AGE] 时代分。[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="LOC_POLICY_DAP_LABOUR_CAMPS_DESCRIPTION" Language="en_US">
+            <Text>+0.4 [ICON_PRODUCTION] Production per Citizen in cities with a Governor. [COLOR_RED]-1 [ICON_GLORY_DARK_AGE] Era Score when a city completes production.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="LOC_POLICY_DAP_LABOUR_CAMPS_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>有总督的城市中，每个公民 +0.4 [ICON_PRODUCTION] 生产力。[COLOR_RED]城市完成生产时-1 [ICON_GLORY_DARK_AGE] 时代分。[ENDCOLOR]</Text>
+        </Row>
+
+        <!-- ===================================================-->
+        <!-- GOLDEN AGE POLICY DESCRIPTIONS -->
+        <!-- ===================================================-->
+        <Row Tag="LOC_POLICY_DAP_ROYAL_TOMBS_DESCRIPTION" Language="en_US">
+            <Text>[COLOR_FLOAT_GOLD]+1 [ICON_GLORY_GOLDEN_AGE] Era Score when a Wonder is constructed.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="LOC_POLICY_DAP_ROYAL_TOMBS_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>[COLOR_FLOAT_GOLD]建造奇观时 +1 [ICON_GLORY_GOLDEN_AGE] 时代分。[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="LOC_POLICY_DAP_GREAT_PERSON_ACADEMY_DESCRIPTION" Language="en_US">
+            <Text>[COLOR_FLOAT_GOLD]+1 [ICON_GLORY_GOLDEN_AGE] Era Score when a Great Person is recruited through normal means (not purchased with [ICON_GOLD] Gold or [ICON_FAITH] Faith).[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="LOC_POLICY_DAP_GREAT_PERSON_ACADEMY_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>[COLOR_FLOAT_GOLD]通过正常方式招募伟人时 +1 [ICON_GLORY_GOLDEN_AGE] 时代分（不包含 [ICON_GOLD] 金币或 [ICON_FAITH] 信仰购买）。[ENDCOLOR]</Text>
+        </Row>
+
+        <!-- ===================================================-->
+        <!-- ABILITY NAMES -->
+        <!-- ===================================================-->
+        <Row Tag="LOC_ABILITY_DAP_CHATTEL_SLAVERY_NAME" Language="en_US">
+            <Text>Chattel Slavery</Text>
+        </Row>
+        <Row Tag="LOC_ABILITY_DAP_CHATTEL_SLAVERY_NAME" Language="zh_Hans_CN">
+            <Text>奴隶制</Text>
+        </Row>
+
+        <!-- ===================================================-->
+        <!-- ABILITY DESCRIPTIONS -->
+        <!-- ===================================================-->
+        <Row Tag="LOC_ABILITY_DAP_CHATTEL_SLAVERY_DESCRIPTION" Language="en_US">
+            <Text>Can capture defeated enemy civilization combat units (non-barbarian) and convert them to Builders.</Text>
+        </Row>
+        <Row Tag="LOC_ABILITY_DAP_CHATTEL_SLAVERY_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>击败敌方文明战斗单位（非蛮族）可将其俘虏并转化为建造者。</Text>
+        </Row>
+
+        <!-- ===================================================-->
+        <!-- MODIFIER PREVIEW STRINGS -->
+        <!-- ===================================================-->
+        <Row Tag="LOC_ABILITY_DAP_CHATTEL_SLAVERY_MODIFIER_DESCRIPTION" Language="en_US">
+            <Text>Can capture defeated enemy civilization combat units (non-barbarian) and convert them to Builders.</Text>
+        </Row>
+        <Row Tag="LOC_ABILITY_DAP_CHATTEL_SLAVERY_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>击败敌方文明战斗单位（非蛮族）可将其俘虏并转化为建造者。</Text>
+        </Row>
+    </LocalizedText>
+</GameData>

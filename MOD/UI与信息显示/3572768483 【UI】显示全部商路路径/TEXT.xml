@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<Replace Tag="LOC_APTR_BOTTON_ToolTip" Language="en_US">
+			<Text>Left-click to show all trade route paths; right-click to open detailed options.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AP_TRADE_TOP_ON_NAME" Language="en_US">
+			<Text>Show All Trade Route Paths</Text>
+		</Replace>
+
+		<Replace Tag="LOC_APTR_COLORFUL_ROUTE_NAME" Language="en_US">
+			<Text>Color-Coded Routes</Text>
+		</Replace>
+
+		<Replace Tag="LOC_APTR_SHOW_OUTGOING_NAME" Language="en_US">
+			<Text>Show Outgoing Routes</Text>
+		</Replace>
+
+		<Replace Tag="LOC_APTR_SHOW_INCOMING_NAME" Language="en_US">
+			<Text>Show Incoming Routes</Text>
+		</Replace>
+
+		<Replace Tag="LOC_APTR_SHOW_DOMESTIC_NAME" Language="en_US">
+			<Text>Show Domestic Routes</Text>
+		</Replace>
+
+		<Replace Tag="LOC_APTR_COLORFUL_ROUTE_DESCRIPTION" Language="en_US">
+			<Text>Displays trade routes in different colors: domestic routes in white, outgoing international routes in yellow, and incoming international routes in blue.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_APTR_SHOW_DOMESTIC_DESCRIPTION" Language="en_US">
+			<Text>Shows domestic trade route paths, displayed in white by default.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_APTR_SHOW_OUTGOING_DESCRIPTION" Language="en_US">
+			<Text>Shows outgoing international trade routes, displayed in yellow by default.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_APTR_SHOW_INCOMING_DESCRIPTION" Language="en_US">
+			<Text>Shows incoming international trade routes, displayed in blue by default.</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_APTR_BOTTON_ToolTip" Language="zh_Hans_CN">
+			<Text>左键点击显示全部商路路径，右键点击开启细节选项。</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_AP_TRADE_TOP_ON_NAME" Language="zh_Hans_CN">
+			<Text>显示全部商路路径</Text>
+		</Replace>		
+		<Replace Tag="LOC_APTR_COLORFUL_ROUTE_NAME" Language="zh_Hans_CN">
+			<Text>彩色的商路路径</Text>
+		</Replace>	
+		<Replace Tag="LOC_APTR_SHOW_OUTGOING_NAME" Language="zh_Hans_CN">
+			<Text>显示发出的国际商路</Text>
+		</Replace>	
+		<Replace Tag="LOC_APTR_SHOW_INCOMING_NAME" Language="zh_Hans_CN">
+			<Text>显示接收的国际商路</Text>
+		</Replace>	
+		<Replace Tag="LOC_APTR_SHOW_DOMESTIC_NAME" Language="zh_Hans_CN">
+			<Text>显示国内商路</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_APTR_COLORFUL_ROUTE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>将不同类型的商路以不同颜色的路径呈现，国内商路为白色，发出的国际商路为黄色，接收的国际商路为蓝色。</Text>
+		</Replace>	
+		<Replace Tag="LOC_APTR_SHOW_DOMESTIC_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>显示国内商路路径，默认以白色呈现。</Text>
+		</Replace>	
+		<Replace Tag="LOC_APTR_SHOW_OUTGOING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>显示发出的国际商路，默认以黄色呈现。</Text>
+		</Replace>	
+		<Replace Tag="LOC_APTR_SHOW_INCOMING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>显示接收的国际商路，默认以蓝色呈现。</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_APTR_BOTTON_ToolTip" Language="zh_Hant_HK">
+		<Text>左鍵點擊顯示全部商路路徑，右鍵點擊開啟細節選項。 </Text>
+		</Replace>	
+
+		<Replace Tag="LOC_AP_TRADE_TOP_ON_NAME" Language="zh_Hant_HK">
+		<Text>顯示全部商路路徑</Text>
+		</Replace>		
+		<Replace Tag="LOC_APTR_COLORFUL_ROUTE_NAME" Language="zh_Hant_HK">
+		<Text>彩色的商路路徑</Text>
+		</Replace>	
+		<Replace Tag="LOC_APTR_SHOW_OUTGOING_NAME" Language="zh_Hant_HK">
+		<Text>顯示發出的國際商路</Text>
+		</Replace>	
+		<Replace Tag="LOC_APTR_SHOW_INCOMING_NAME" Language="zh_Hant_HK">
+		<Text>顯示接收的國際商路</Text>
+		</Replace>	
+		<Replace Tag="LOC_APTR_SHOW_DOMESTIC_NAME" Language="zh_Hant_HK">
+		<Text>顯示國內商路</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_APTR_COLORFUL_ROUTE_DESCRIPTION" Language="zh_Hant_HK">
+		<Text>將不同類型的商路以不同顏色的路徑呈現，國內商路為白色，發出的國際商路為黃色，接收的國際商路為藍色。 </Text>
+		</Replace>	
+		<Replace Tag="LOC_APTR_SHOW_DOMESTIC_DESCRIPTION" Language="zh_Hant_HK">
+		<Text>顯示國內商路路徑，默認以白色呈現。 </Text>
+		</Replace>	
+		<Replace Tag="LOC_APTR_SHOW_OUTGOING_DESCRIPTION" Language="zh_Hant_HK">
+		<Text>顯示發出的國際商路，默認以黃色呈現。 </Text>
+		</Replace>	
+		<Replace Tag="LOC_APTR_SHOW_INCOMING_DESCRIPTION" Language="zh_Hant_HK">
+		<Text>顯示接收的國際商路，默認以藍色呈現。 </Text>
+		</Replace>	
+
+		<Replace Tag="LOC_APTR_BOTTON_ToolTip" Language="es_ES">
+			<Text>Clic izquierdo para mostrar todas las rutas comerciales; clic derecho para abrir las opciones detalladas.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AP_TRADE_TOP_ON_NAME" Language="es_ES">
+			<Text>Mostrar todas las rutas comerciales</Text>
+		</Replace>
+
+		<Replace Tag="LOC_APTR_COLORFUL_ROUTE_NAME" Language="es_ES">
+			<Text>Rutas diferenciadas por color</Text>
+		</Replace>
+
+		<Replace Tag="LOC_APTR_SHOW_OUTGOING_NAME" Language="es_ES">
+			<Text>Mostrar rutas salientes</Text>
+		</Replace>
+
+		<Replace Tag="LOC_APTR_SHOW_INCOMING_NAME" Language="es_ES">
+			<Text>Mostrar rutas entrantes</Text>
+		</Replace>
+
+		<Replace Tag="LOC_APTR_SHOW_DOMESTIC_NAME" Language="es_ES">
+			<Text>Mostrar rutas domésticas</Text>
+		</Replace>
+
+		<Replace Tag="LOC_APTR_COLORFUL_ROUTE_DESCRIPTION" Language="es_ES">
+			<Text>Muestra las rutas comerciales en diferentes colores: rutas domésticas en blanco, rutas internacionales salientes en amarillo y rutas internacionales entrantes en azul.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_APTR_SHOW_DOMESTIC_DESCRIPTION" Language="es_ES">
+			<Text>Muestra las rutas comerciales domésticas, que se muestran en blanco por defecto.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_APTR_SHOW_OUTGOING_DESCRIPTION" Language="es_ES">
+			<Text>Muestra las rutas comerciales internacionales salientes, que se muestran en amarillo por defecto.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_APTR_SHOW_INCOMING_DESCRIPTION" Language="es_ES">
+			<Text>Muestra las rutas comerciales internacionales entrantes, que se muestran en azul por defecto.</Text>
+		</Replace>
+
+	</LocalizedText>
+</GameData>

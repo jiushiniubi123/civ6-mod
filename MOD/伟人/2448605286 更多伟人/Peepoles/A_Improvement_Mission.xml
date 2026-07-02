@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Classical Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_MISSION" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_MISSION" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_MISSION_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_HOLY_SITE" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_MISSION_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_MISSION" ModifierId="GREATPERSON_BONUS_MISSION" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_MISSION" ModifierId="GREATPERSON_BONUS_FAITH_TO_SCIENCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_MISSION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_VALID_IMPROVEMENT</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_FAITH_TO_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD_BASED_ON_CURRENT_YIELD_RATE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_MISSION</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_MISSION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_FAITH_TO_SCIENCE</ModifierId>
+			<Name>YieldToGrant</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_FAITH_TO_SCIENCE</ModifierId>
+			<Name>YieldToBaseOn</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_FAITH_TO_SCIENCE</ModifierId>
+			<Name>Multiplier</Name>
+			<Value>0.5</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_BONUS_MISSION" Context="Summary" Text="LOC_GREATPERSON_PLATI_MISSION_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

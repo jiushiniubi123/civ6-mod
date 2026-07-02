@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Mod id="a3d96573-440f-450e-a3c8-cc7fdf66867d" version="1">
+
+	<Properties>
+	
+		<Name>Embarkation for Scouts and Builders at Start</Name>
+		
+		<Description>Builders and Scouts are able to Embark from the beginning of the game.
+		This mod is meant to complement my [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1910437393]CONUS navigable "rivers" map mod[/url] so that the rivers may be crossed prior to sailing.
+		Special thanks to [url=https://steamcommunity.com/profiles/76561198031034663/myworkshopfiles/?appid=289070]Junky[/url] for working out how to mod embarkation at start.</Description>
+		
+		<Created>1580904807</Created>
+		
+		<Teaser>Builders and Scouts are able to Embark from the beginning of the game.</Teaser>
+		
+		<Authors>Andre Miksha</Authors>
+		
+		<CompatibleVersions>1.2,2.0</CompatibleVersions>
+		
+	</Properties>
+	
+	
+	<InGameActions>
+
+		<UpdateDatabase>
+		
+			<File>Embark/Embarkscout.sql</File>
+			<File>Embark/Embarkbuilder.sql</File>
+			
+		</UpdateDatabase>
+
+		<UpdateDatabase id="HarvestUnlock">
+			<Properties>
+				<LoadOrder>10000005</LoadOrder>
+			</Properties>
+			<File>Embark/HarvestUnlock.sql</File>
+		</UpdateDatabase>
+		
+		<AddGameplayScripts>
+		
+			<File>Embark/Embarkscout.lua</File>
+			<File>Embark/Embarkbuilder.lua</File>
+			
+		</AddGameplayScripts>
+
+	</InGameActions>
+  
+  
+	<Files>
+	
+		<File>Embark/Embarkscout.sql</File>
+		<File>Embark/Embarkbuilder.sql</File>
+		<File>Embark/HarvestUnlock.sql</File>
+		<File>Embark/Embarkscout.lua</File>
+		<File>Embark/Embarkbuilder.lua</File>
+		
+	</Files>
+	
+</Mod>

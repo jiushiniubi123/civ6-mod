@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b820e109-c326-7375-b44f-1635a8bedbe5" version="1">
+  <Properties>
+    <Name>Great Sovereigns</Name>
+    <Description>Adds completely new Great People type with new individuals.</Description>
+    <Created>1639777325</Created>
+    <Teaser>Completely new Great People type.</Teaser>
+    <Authors>Plati</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+	<Criteria id="GreatSovereigns_Reclassify">
+		<ConfigurationValueMatches>
+			<Group>Game</Group>
+			<ConfigurationId>SovereignReclassifyGenerals</ConfigurationId>
+			<Value>1</Value>
+		</ConfigurationValueMatches>
+	</Criteria>
+	<Criteria id="Alhambra_Sovereign">
+		<ConfigurationValueMatches>
+			<Group>Game</Group>
+			<ConfigurationId>PlatiAlhambraRework</ConfigurationId>
+			<Value>1</Value>
+		</ConfigurationValueMatches>
+	</Criteria>
+	<Criteria id="PLATI_MARITIMES_MODS_ONS">
+	  <ModInUse inverse="0">58ecce8a-d3df-430a-b135-280908153662</ModInUse>	<!-- More Maritime: Seaside Sectors -->
+	</Criteria>
+	<Criteria id="PLATI_WONDER_BURJ_ON">
+	  <ModInUse inverse="0">6366039a-6cd8-48d5-99ce-d7832a617629</ModInUse>	<!-- Wonder: Burj Khalifa -->
+	</Criteria>
+	<Criteria id="PLATI_NATIONAL_WONDERS_ON">
+	  <ModInUse inverse="0">8719d97f-0db4-4c18-9863-82eb9b0c6175</ModInUse>	<!-- CIVLIZATION VI: NATIONAL WONDERS -->
+	</Criteria>
+	<Criteria id="PLATI_MONOPOLY_PLUS_PLUS_ON">
+	  <ModInUse inverse="0">b248a322-3e2a-4a6a-830a-6b0d1f3435fc</ModInUse>	<!-- Monopoly ++ -->
+	  <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
+			<Group>Game</Group>
+			<Value>1</Value>
+      </ConfigurationValueMatches>
+	</Criteria>
+	<Criteria id="PLATI_MONOPOLY_PLUS_PLUS_OFF">
+	  <ModInUse inverse="1">b248a322-3e2a-4a6a-830a-6b0d1f3435fc</ModInUse>	<!-- Monopoly ++ -->
+	</Criteria>
+	<Criteria id="PLATI_6T_EXPLORER_COLLECTION_ON">
+	  <ModInUse inverse="0">25b096b6-3f4f-432a-be25-5680ae03b193</ModInUse>	<!-- Explorers -->
+	  <ModInUse inverse="0">3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0</ModInUse>	<!-- Grand Era -->
+	  <ModInUse inverse="0">1047a269-38a8-4cee-b70a-a7681015eed7</ModInUse>	<!-- UC Spirituality -->
+	</Criteria>
+	<Criteria id="PLATI_6T_EXPLORER_COLLECTION_OFF">
+	  <ModInUse inverse="1">25b096b6-3f4f-432a-be25-5680ae03b193</ModInUse>	<!-- Explorers -->
+	  <ModInUse inverse="1">3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0</ModInUse>	<!-- Grand Era -->
+	  <ModInUse inverse="1">1047a269-38a8-4cee-b70a-a7681015eed7</ModInUse>	<!-- UC Spirituality -->
+	</Criteria>
+	<Criteria id="PLATI_6T_CARAVANS_PILGRIMS_COLLECTION_ON">
+	  <ModInUse inverse="0">3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0</ModInUse>	<!-- Grand Era -->
+	  <ModInUse inverse="0">27b6c633-3f32-4cc4-9575-e8c586b9fa7a</ModInUse>	<!-- Leugis Caravans and Pilgrims -->
+	</Criteria>
+	<Criteria id="PLATI_6T_WATER_COLLECTION_ON">
+	  <ModInUse inverse="0">3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0</ModInUse>	<!-- Grand Era -->
+	  <ModInUse inverse="0">93e0f97a-a9cc-494d-8560-b3b6b9aabdf2</ModInUse>	<!-- UC Entertainment -->
+	  <ModInUse inverse="0">58ecce8a-d3df-430a-b135-280908153662</ModInUse>	<!-- More Maritime: Seaside Sectors -->
+	</Criteria>
+	<Criteria id="PLATI_6T_WATER_COLLECTION_OFF">
+	  <ModInUse inverse="1">3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0</ModInUse>	<!-- Grand Era -->
+	  <ModInUse inverse="1">93e0f97a-a9cc-494d-8560-b3b6b9aabdf2</ModInUse>	<!-- UC Entertainment -->
+	  <ModInUse inverse="1">58ecce8a-d3df-430a-b135-280908153662</ModInUse>	<!-- More Maritime: Seaside Sectors -->
+	</Criteria>
+	<Criteria id="PLATI_6T_ON">
+	  <ModInUse inverse="0">3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0</ModInUse>	<!-- Grand Era -->
+	</Criteria>
+	<Criteria id="PLATI_6T_OFF">
+	  <ModInUse inverse="1">3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0</ModInUse>	<!-- Grand Era -->
+	</Criteria>
+	<Criteria id="PLATI_6T_ENLIGHTEN_ON">
+	  <ModInUse inverse="0">3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0</ModInUse>	<!-- Grand Era -->
+	  <ModInUse inverse="0">c6c62855-e22a-47b2-9c36-be0a8c09519e</ModInUse>	<!-- Enlightement Governments -->
+	</Criteria>
+	<Criteria id="PLATI_JNR_WORSHIP_ON">
+	  <ModInUse inverse="0">8be477ae-8642-462d-bcad-768fda353127</ModInUse>	<!-- Urban Complexity: Worship -->
+	</Criteria>
+	<Criteria id="PLATI_CRITERIA_DRAMATIC_AGES_ENABLED">
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_DRAMATICAGES</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+	<UpdateDatabase id="Plati_Config">
+		<File>GreatSovereigns_Config.xml</File>
+		<File>Alhambra_Config.xml</File>
+	</UpdateDatabase>
+	<UpdateText id="Plati_Config_Text">
+		<File>GreatSovereigns_Config_Text.xml</File>
+		<File>Alhambra_Config_Text.xml</File>
+	</UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="game">
+      <File>GreatSovereigns_People.xml</File>
+      <File>GreatSovereigns_Core.xml</File>
+	  <File>GreatSovereigns_Policy.xml</File>
+	  <File>GreatSovereigns_Abilities.xml</File>
+	  <File>Sovereigns_Buildings.xml</File>
+	  <!-- Expansion beyond base 18 -->
+	  <File>Expansion/PLATI_Sovereign_First.xml</File>
+	  <File>Expansion/PLATI_Sovereign_Zayed.xml</File>
+	  <File>Expansion/PLATI_Sovereign_Gediminas.xml</File>
+	  <!-- SUMUS MAGNUS -->
+	  <File>Expansion/Merchant_Rodrigo_Borgia.xml</File>
+	  <File>Expansion/Merchant_Kosemi_Sultan.xml</File>
+	  <File>Expansion/PLATI_General_Bismark.xml</File>
+	  <File>Expansion/PLATI_Merchant_Arbe.xml</File>
+	  <File>Expansion/PLATI_Scientist_Beg.xml</File>
+	  <File>Expansion/PLATI_NEW_Deng.xml</File>
+	  <File>Expansion/PLATI_SOVEREIGN_RAMKH.xml</File>
+	  <File>Expansion/PLATI_Maria_Theresa.xml</File>
+	  <!-- Pantheon -->
+	  <File>GreatSovereigns_Pantheons.sql</File>
+	  <!-- Resource -->
+	  <File>GreatSovereigns_Resources.xml</File>
+	  <!-- Oracle -->
+	  <File>GreatSovereign_ORACLE.sql</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="PLATI_SOVEREIGN_GENERALS" criteria="GreatSovereigns_Reclassify">
+		<Properties>
+			<LoadOrder>999</LoadOrder>
+		</Properties>
+		<File>GreatSovereign_Config_Enabled.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_ALHAMBRA_REWORK_DATABASE" criteria="Alhambra_Sovereign">
+		<Properties>
+			<LoadOrder>808</LoadOrder>
+		</Properties>
+		<File>Alhambra_Database.sql</File>
+		<File>Alhambra_Config_Enabled.xml</File>
+	</UpdateDatabase>
+	<UpdateText id="PLATI_ALHAMBRA_REWORK_TEXT" criteria="Alhambra_Sovereign">
+		<Properties>
+			<LoadOrder>808</LoadOrder>
+		</Properties>
+		<File>Alhambra_Texts.sql</File>
+	</UpdateText>
+	<UpdateDatabase id="PLATI_ALFRED_SPECIAL" criteria="PLATI_MARITIMES_MODS_ONS">
+		<Properties>
+			<LoadOrder>248</LoadOrder>
+		</Properties>
+		<File>GreatSovereigns_Alfred_Special.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_BURJ_KHALIFA" criteria="PLATI_WONDER_BURJ_ON">
+		<Properties>
+			<LoadOrder>248</LoadOrder>
+		</Properties>
+		<File>GreatSovereigns_Wonder_Burj.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_NATIONAL_EPIC" criteria="PLATI_NATIONAL_WONDERS_ON">
+		<Properties>
+			<LoadOrder>248</LoadOrder>
+		</Properties>
+		<File>GreatSovereigns_Wonder_National.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_ISMAIL_I_SPECIAL" criteria="PLATI_CRITERIA_DRAMATIC_AGES_ENABLED">
+		<Properties>
+			<LoadOrder>250</LoadOrder>
+		</Properties>
+		<File>Expansion/PLATI_Sovereign_Ismail.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_LKY_I_SPECIAL" criteria="PLATI_MONOPOLY_PLUS_PLUS_ON">
+		<Properties>
+			<LoadOrder>250</LoadOrder>
+		</Properties>
+		<File>Expansion/PLATI_SOVEREIGN_LKY_TYCOONS.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_LKY_II_SPECIAL" criteria="PLATI_MONOPOLY_PLUS_PLUS_OFF">
+		<Properties>
+			<LoadOrder>250</LoadOrder>
+		</Properties>
+		<File>Expansion/PLATI_SOVEREIGN_LKY.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_ISABELLA_CONDITION" criteria="PLATI_6T_EXPLORER_COLLECTION_ON">
+		<Properties>
+			<LoadOrder>250</LoadOrder>
+		</Properties>
+		<File>Expansion/PLATI_6T_ISABELLA.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_JULIUS_CONDITION" criteria="PLATI_6T_EXPLORER_COLLECTION_OFF">
+		<Properties>
+			<LoadOrder>250</LoadOrder>
+		</Properties>
+		<File>Expansion/PLATI_General_Akbar.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_ENRICO_DANDOLO" criteria="PLATI_6T_CARAVANS_PILGRIMS_COLLECTION_ON">
+		<Properties>
+			<LoadOrder>250</LoadOrder>
+		</Properties>
+		<File>Expansion/PLATI_6T_DANDOLO.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_PARAMESWARA" criteria="PLATI_6T_WATER_COLLECTION_OFF">
+		<Properties>
+			<LoadOrder>250</LoadOrder>
+		</Properties>
+		<File>Expansion/PLATI_Sovereign_Frederick.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_MONACO" criteria="PLATI_6T_WATER_COLLECTION_ON">
+		<Properties>
+			<LoadOrder>250</LoadOrder>
+		</Properties>
+		<File>Expansion/PLATI_6T_MONACO.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_POLICIES_6T_ON" criteria="PLATI_6T_ON">
+		<Properties>
+			<LoadOrder>250</LoadOrder>
+		</Properties>
+		<File>GreatSovereigns_Policies_6T_Enabled.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_ENLG_6T_ON" criteria="PLATI_6T_ENLIGHTEN_ON">
+		<Properties>
+			<LoadOrder>250</LoadOrder>
+		</Properties>
+		<File>GreatSovereigns_Policies_6T_Enlightenment.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_WORSHIP_JNR" criteria="PLATI_JNR_WORSHIP_ON">
+		<Properties>
+			<LoadOrder>250</LoadOrder>
+		</Properties>
+		<File>Sovereigns_Buildings_UC.xml</File>
+	</UpdateDatabase>
+	<UpdateIcons id="PLATI_IKONS_6T_ON" criteria="PLATI_6T_ON">
+		<Properties>
+			<LoadOrder>250</LoadOrder>
+		</Properties>
+		<File>GreatSovereigns_Policies_6T_Icons.sql</File>
+	</UpdateIcons>
+	<UpdateDatabase id="PLATI_POLICIES_6T_OFF" criteria="PLATI_6T_OFF">
+		<Properties>
+			<LoadOrder>250</LoadOrder>
+		</Properties>
+		<File>GreatSovereigns_Policies_6T_Disabled.xml</File>
+	</UpdateDatabase>
+    <UpdateIcons id="NewAction">
+      <File>GreatSovereigns_Icon.xml</File>
+	  <File>GreatSovereigns_Portraits.xml</File>
+	  <File>GreatSovereigns_Policies_Icon.xml</File>
+	  <File>GreatSovereigns_Resource_Icons.xml</File>
+	  <File>Sovereigns_Buildings_Icons.xml</File>
+	  <File>GreatSovereigns_Policies_Special_Icons.sql</File>
+    </UpdateIcons>
+	<ImportFiles id="SOVEREIGNS_Import">
+		<!-- Portraits -->
+		<File>Icons/PLATI_ZERO.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_SOLOMON.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_AURELIUS.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_DARIUS.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_ASHOKA.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_FREDERICH.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_AHMAD.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_CHARLEMAGNE.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_RAMKH.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_THERESA.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_HAILE.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_ATATURK.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_MEIJI.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_LEE_KUAN_YEW.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_AKBAR.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_ASKIA.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_HARUN.dds</File>
+		<!-- Expansion beyond base 18 -->
+		<File>Icons/Expanded/PLATI_SOVEREIGN_FIRST.dds</File>
+		<File>Icons/Expanded/PLATI_SOVEREIGN_ZAYED.dds</File>
+		<File>Icons/Expanded/PLATI_SOVEREIGN_FREDERICK.dds</File>
+		<File>Icons/Expanded/PLATI_SOVEREIGN_GEDIMINAS.dds</File>
+		<!-- SUMUS MAGNUS -->
+		<File>Icons/Expanded/PLATI_GENERAL_BISMARK.dds</File>
+		<File>Icons/Expanded/PLATI_MERCHANT_ARBE.dds</File>
+		<File>Icons/Expanded/PLATI_MERCHANT_KOSEM_SULTAN.dds</File>
+		<File>Icons/Expanded/PLATI_MERCHANT_RODRIGO_BORGIA.dds</File>
+		<File>Icons/Expanded/PLATI_SCIENTIST_BEG.dds</File>
+		<File>Icons/Expanded/PLATI_GENERAL_AKBAR.dds</File>
+		<!-- Interface -->
+		<File>Textures/GreatSovereign_BaseIcon_105.dds</File>
+		<File>Textures/GreatSovereign_BaseIcon.dds</File>
+		<File>Textures/ICON_GREAT_SOVEREIGN_38.dds</File>
+		<File>Textures/ICON_GREAT_SOVEREIGN_50.dds</File>
+		<File>Textures/ICON_GREAT_SOVEREIGN_80.dds</File>
+		<File>Textures/ICON_GREAT_SOVEREIGN_256.dds</File>
+		<File>Textures/ICON_GREAT_SOVEREIGN_PORTRAIT_38.dds</File>
+		<File>Textures/ICON_GREAT_SOVEREIGN_PORTRAIT_50.dds</File>
+		<File>Textures/ICON_GREAT_SOVEREIGN_PORTRAIT_70.dds</File>
+		<File>Textures/ICON_GREAT_SOVEREIGN_PORTRAIT_95.dds</File>
+		<File>Textures/ICON_GREAT_SOVEREIGN_PORTRAIT_200.dds</File>
+		<File>Textures/ICON_GREAT_SOVEREIGN_PORTRAIT_256.dds</File>
+		<!---->
+		<File>Textures/ICON_GREAT_SOVEREIGN_ACTION_38.dds</File>
+		<File>Textures/ICON_GREAT_SOVEREIGN_Z_22.dds</File>
+		<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_30.dds</File>
+		<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_32.dds</File>
+		<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_38.dds</File>
+		<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_50.dds</File>
+		<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_70.dds</File>
+		<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_80.dds</File>
+		<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_256.dds</File>
+		<!-- 2024 -->
+		<File>Icons/PLATI_SOVEREIGNN_ALFRED.dds</File>
+		<File>Icons/Expanded/PLATI_DENG.dds</File>
+		<File>Icons/Expanded/PLATI_ISMAIL.dds</File>
+		<!-- Pantheon -->
+		<File>Textures/PLATI_NEW_PANTHEON_32.dds</File>
+		<File>Textures/PLATI_NEW_PANTHEON_50.dds</File>
+		<File>Textures/PLATI_NEW_PANTHEON_64.dds</File>
+		<File>Textures/PLATI_NEW_PANTHEON_256.dds</File>
+		<!-- Resource -->
+		<File>Textures/COWRIE_22.dds</File>
+		<File>Textures/COWRIE_38.dds</File>
+		<File>Textures/COWRIE_50.dds</File>
+		<File>Textures/COWRIE_64.dds</File>
+		<File>Textures/COWRIE_256.dds</File>
+		<!-- LKY -->
+		<File>Textures/ICON_LKY_INVESTPR_Z_22.dds</File>
+		<!-- 2025 -->
+		<File>Icons/Expanded/PLATI_ISABELLA.dds</File>
+		<File>Icons/Expanded/PLATI_S_DANDOLO.dds</File>
+		<File>Icons/Expanded/PLATI_S_RAINER.dds</File>
+		<File>Textures/PLATI_GAPolicies256.dds</File>
+		<File>Textures/PLATI_GAPolicies50.dds</File>
+		<File>Textures/PLATI_GAPolicies38.dds</File>
+    </ImportFiles>
+	<UpdateArt id="SOVEREIGNS_ART">
+      <File>GreatSovereigns.dep</File>
+    </UpdateArt>
+	<UpdateText id="SOBEREIGN_TEXTn">
+		<File>GreatSovereigns_Localisation.xml</File>
+	</UpdateText>
+  </InGameActions>
+  <Files>
+	<!-- Core -->
+    <File>ArtDefs/PLATI_SOVEREIGNS.artdef</File>
+    <File>GreatSovereigns_People.xml</File>
+    <File>GreatSovereigns_Icon.xml</File>
+    <File>GreatSovereigns_Core.xml</File>
+	<File>GreatSovereigns_Policy.xml</File>
+	<File>GreatSovereigns.xml</File>
+	<File>GreatSovereigns_Portraits.xml</File>
+	<File>GreatSovereigns_Policies_Icon.xml</File>
+	<File>GreatSovereigns.dep</File>
+	<File>GreatSovereigns_Localisation.xml</File>
+	<File>GreatSovereigns_Abilities.xml</File>
+	<!-- Expansion beyond base 18 -->
+	<File>Expansion/PLATI_Sovereign_First.xml</File>
+	<File>Expansion/PLATI_Sovereign_Zayed.xml</File>
+	<File>Expansion/PLATI_Sovereign_Frederick.xml</File>
+	<File>Expansion/PLATI_Sovereign_Gediminas.xml</File>
+	<!-- SUMUS MAGNUS -->
+	<File>Expansion/Merchant_Rodrigo_Borgia.xml</File>
+	<File>Expansion/Merchant_Kosemi_Sultan.xml</File>
+	<File>Expansion/PLATI_General_Bismark.xml</File>
+	<File>Expansion/PLATI_Merchant_Arbe.xml</File>
+	<File>Expansion/PLATI_Scientist_Beg.xml</File>
+	<File>Expansion/PLATI_General_Akbar.xml</File>
+	<!-- Portraits -->
+	<File>Icons/PLATI_ZERO.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_SOLOMON.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_AURELIUS.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_DARIUS.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_ASHOKA.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_FREDERICH.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_AHMAD.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_CHARLEMAGNE.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_RAMKH.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_THERESA.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_HAILE.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_ATATURK.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_MEIJI.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_LEE_KUAN_YEW.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_AKBAR.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_ASKIA.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_HARUN.dds</File>
+	<!-- Expansion beyond base 18 -->
+	<File>Icons/Expanded/PLATI_SOVEREIGN_FIRST.dds</File>
+	<File>Icons/Expanded/PLATI_SOVEREIGN_ZAYED.dds</File>
+	<File>Icons/Expanded/PLATI_SOVEREIGN_FREDERICK.dds</File>
+	<File>Icons/Expanded/PLATI_SOVEREIGN_GEDIMINAS.dds</File>
+	<!-- SUMUS MAGNUS -->
+	<File>Icons/Expanded/PLATI_GENERAL_BISMARK.dds</File>
+	<File>Icons/Expanded/PLATI_MERCHANT_ARBE.dds</File>
+	<File>Icons/Expanded/PLATI_MERCHANT_KOSEM_SULTAN.dds</File>
+	<File>Icons/Expanded/PLATI_MERCHANT_RODRIGO_BORGIA.dds</File>
+	<File>Icons/Expanded/PLATI_SCIENTIST_BEG.dds</File>
+	<File>Icons/Expanded/PLATI_GENERAL_AKBAR.dds</File>
+	<!-- Interface -->
+	<File>Textures/GreatSovereign_BaseIcon_105.dds</File>
+	<File>Textures/GreatSovereign_BaseIcon.dds</File>
+	<File>Textures/ICON_GREAT_SOVEREIGN_38.dds</File>
+	<File>Textures/ICON_GREAT_SOVEREIGN_50.dds</File>
+	<File>Textures/ICON_GREAT_SOVEREIGN_80.dds</File>
+	<File>Textures/ICON_GREAT_SOVEREIGN_256.dds</File>
+	<File>Textures/ICON_GREAT_SOVEREIGN_PORTRAIT_38.dds</File>
+	<File>Textures/ICON_GREAT_SOVEREIGN_PORTRAIT_50.dds</File>
+	<File>Textures/ICON_GREAT_SOVEREIGN_PORTRAIT_70.dds</File>
+	<File>Textures/ICON_GREAT_SOVEREIGN_PORTRAIT_95.dds</File>
+	<File>Textures/ICON_GREAT_SOVEREIGN_PORTRAIT_200.dds</File>
+	<File>Textures/ICON_GREAT_SOVEREIGN_PORTRAIT_256.dds</File>
+	<!---->
+	<File>Textures/ICON_GREAT_SOVEREIGN_ACTION_38.dds</File>
+	<File>Textures/ICON_GREAT_SOVEREIGN_Z_22.dds</File>
+	<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_30.dds</File>
+	<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_32.dds</File>
+	<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_38.dds</File>
+	<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_50.dds</File>
+	<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_70.dds</File>
+	<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_80.dds</File>
+	<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_256.dds</File>
+	<!---->
+	<File>GreatSovereigns_Alfred_Special.xml</File>
+	<File>Icons/PLATI_SOVEREIGNN_ALFRED.dds</File>
+	<File>Icons/Expanded/PLATI_DENG.dds</File>
+	<File>Expansion/PLATI_NEW_Deng.xml</File>
+	<File>Expansion/PLATI_Sovereign_Ismail.xml</File>
+	<File>Icons/Expanded/PLATI_ISMAIL.dds</File>
+	<File>GreatSovereign_Config_Enabled.xml</File>
+	<File>GreatSovereigns_Config.xml</File>
+	<File>GreatSovereigns_Config_Text.xml</File>
+	<!-- Pantheon -->
+	<File>GreatSovereigns_Pantheons.sql</File>
+	<!-- Pantheon -->
+	<File>Textures/PLATI_NEW_PANTHEON_32.dds</File>
+	<File>Textures/PLATI_NEW_PANTHEON_50.dds</File>
+	<File>Textures/PLATI_NEW_PANTHEON_64.dds</File>
+	<File>Textures/PLATI_NEW_PANTHEON_256.dds</File>
+	<!-- Alhambra -->
+	<File>Alhambra_Database.sql</File>
+	<File>Alhambra_Config_Enabled.xml</File>
+	<File>Alhambra_Texts.sql</File>
+	<File>Alhambra_Config.xml</File>
+	<File>Alhambra_Config_Text.xml</File>
+	<!-- Resource -->
+	<File>GreatSovereigns_Resources.xml</File>
+	<File>GreatSovereigns_Resource_Icons.xml</File>
+	<File>Textures/COWRIE_22.dds</File>
+	<File>Textures/COWRIE_38.dds</File>
+	<File>Textures/COWRIE_50.dds</File>
+	<File>Textures/COWRIE_64.dds</File>
+	<File>Textures/COWRIE_256.dds</File>
+	<!-- Buildings -->
+	<File>Sovereigns_Buildings.xml</File>
+	<File>Sovereigns_Buildings_Icons.xml</File>
+	<!-- Mod Support -->
+	<File>GreatSovereigns_Wonder_Burj.xml</File>
+	<File>GreatSovereigns_Wonder_National.xml</File>
+	<!-- Oracle -->
+	<File>GreatSovereign_ORACLE.sql</File>
+	<!-- LKY -->
+	<File>Expansion/PLATI_SOVEREIGN_LKY.xml</File>
+	<File>Expansion/PLATI_SOVEREIGN_LKY_TYCOONS.xml</File>
+	<File>Textures/ICON_LKY_INVESTPR_Z_22.dds</File>
+	<!-- 2025 -->
+	<File>Expansion/PLATI_SOVEREIGN_RAMKH.xml</File>
+	<File>Expansion/PLATI_6T_ISABELLA.xml</File>
+	<File>Expansion/PLATI_6T_DANDOLO.xml</File>
+	<File>Expansion/PLATI_6T_MONACO.xml</File>
+	<File>Icons/Expanded/PLATI_ISABELLA.dds</File>
+	<File>Icons/Expanded/PLATI_S_DANDOLO.dds</File>
+	<File>Icons/Expanded/PLATI_S_RAINER.dds</File>
+	<File>GreatSovereigns_Policies_Special_Icons.sql</File>
+	<File>GreatSovereigns_Policies_6T_Icons.sql</File>
+	<File>Textures/PLATI_GAPolicies256.dds</File>
+	<File>Textures/PLATI_GAPolicies50.dds</File>
+	<File>Textures/PLATI_GAPolicies38.dds</File>
+	<File>GreatSovereigns_Policies_6T_Disabled.xml</File>
+	<File>GreatSovereigns_Policies_6T_Enabled.xml</File>
+	<File>GreatSovereigns_Policies_6T_Enlightenment.xml</File>
+	<File>Expansion/PLATI_Maria_Theresa.xml</File>
+	<File>Sovereigns_Buildings_UC.xml</File>
+  </Files>
+</Mod>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Medieval Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_DAHLBERG" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_DAHLBERG" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_DAHLBERG_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_DAHLBERG_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_DAHLBERG" ModifierId="GREATPERSON_DAHLBERG_BONUS_FORTS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_DAHLBERG" ModifierId="GREATPERSON_DAHLBERG_BONUS_ENGI" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_DAHLBERG_BONUS_FORTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_IMPROVEMENT_ADJACENCY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_DAHLBERG_BONUS_ENGI</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_DAHLBERG_BONUS_FORTS</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_DAHLBERG_BONUS_FORTS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_DAHLBERG_BONUS_FORTS</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_FORT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_DAHLBERG_BONUS_FORTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_DAHLBERG_BONUS_FORTS</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_DAHLBERG_BONUS_FORTS</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_DAHLBERG</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_DAHLBERG_BONUS_ENGI</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_MILITARY_ENGINEER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_DAHLBERG_BONUS_ENGI</ModifierId>
+			<Name>Experience</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_DAHLBERG_BONUS_ENGI</ModifierId>
+			<Name>UniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_DAHLBERG_BONUS_FORTS" Context="Summary" Text="LOC_GREATPERSON_PLATI_DAHLBERG_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

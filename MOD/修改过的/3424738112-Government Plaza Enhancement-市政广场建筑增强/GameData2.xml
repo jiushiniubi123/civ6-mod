@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData2 -->
+<!-- Author: chen -->
+<!-- DateCreated: 2/12/2025 2:19:42 PM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="en_US">
+			<Text>+50% [ICON_Production] Production towards Settlers, +15% [ICON_Production] Production towards Builders.[NEWLINE]New cities receive a free Builder.[NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>训练开拓者时+20% [ICON_Production] 生产力，训练建造者时+20% [ICON_Production] 生产力。本城训练开拓者不减人口。[NEWLINE]新城市获得1个免费的建造者。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>訓練開拓者時+50% [ICON_Production] 生產力，訓練建造者時+15% [ICON_Production] 生產力。[NEWLINE]新城市免費獲得1位建造者。[NEWLINE]獎勵1個 [Icon_Governor] 行政長官職稱。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_CONQUEST_DESCRIPTION" Language="en_US">
+			<Text>+3 [ICON_Strength] Combat Strength for all units.[NEWLINE]Capturing an enemy City grants 25% bonus [ICON_Production] Production in all Cities for 5 turns.[NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_CONQUEST_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>所有單位+3 [ICON_Strength] 戰鬥力。[NEWLINE]佔領敵方城市時所有城市可獲得25% [ICON_Production] 生產力加成，效果持續5個回合。[NEWLINE]獎勵1個 [Icon_Governor] 行政長官職稱。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_CONQUEST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有单位+3 [ICON_Strength] 战斗力。[NEWLINE]占领一座敌方城市后，所有城市将获得25%的 [ICON_Production] 生产力加成，效果持续5回合。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="en_US">
+			<Text>In this city, if a [Icon_Governor] Governor is established, each [ICON_Citizen] Citizen provides +1 [ICON_Production] Production.[NEWLINE]+2 [ICON_Food] Food, +2 [ICON_Amenities] Amenities and +4 [ICON_Housing] Housing in Cities with [Icon_Governor] Governors.[NEWLINE]-2 Loyalty in Cities without [Icon_Governor] Governors.[NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>
+		</Replace>
+	<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="zh_Hant_HK">
+		<Text>此城市若擁有 [Icon_Governor] 行政長官，每個 [ICON_Citizen] 人口+1 [ICON_Production] 生產力。[NEWLINE]擁有 [Icon_Governor] 行政長官的城市+2 [ICON_Food] 食物、+2 [ICON_Amenities] 滿意度、+4 [ICON_Housing] 住房。[NEWLINE]沒有 [Icon_Governor] 行政長官的城市-2忠誠度。[NEWLINE]獎勵1個 [Icon_Governor] 行政長官職稱。</Text>
+	</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城市若拥有 [Icon_Governor] 总督，每个 [ICON_Citizen] 人口+1 [ICON_Production] 生产力。[NEWLINE]有 [ICON_Governor] 总督的城市+2 [ICON_Food] 食物、+2 [ICON_Amenities] 宜居度、+4 [ICON_Housing] 住房。[NEWLINE]无 [ICON_Governor] 总督的城市-2忠诚度。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_SCIENCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造者能使用所有次数为一个区域项目提供 [ICON_Production] 生产力加成（每有1次建造次数便完成项目的2%）。一次只能用于一座城市，每回合仅限使用一次。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_CITYSTATES_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Grants the ability to buy Naval and Air units with [ICON_Faith] Faith.[NEWLINE]+3 [ICON_Favor] Diplomatic Favor, +2 Influence points. Leveraging City States costs half [ICON_Gold] Gold.[NEWLINE]City State units gain +4 [ICON_Strength] Combat Strength if you are the City State's Suzerain (including Leveraged Units).[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_CITYSTATES_EXPANSION2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>賦予以 [ICON_Faith] 信仰值購買海軍和空軍單位的能力。[NEWLINE]+3 [ICON_Favor] 外交支持，+2影響力點數。徵集城邦單位所花費的 [ICON_Gold] 金幣減半。[NEWLINE]若您為城邦的宗主國，城邦單位 [ICON_Strength] 戰鬥力+4（包括已徵集的單位）。[NEWLINE]獎勵1個 [Icon_Governor] 行政長官職稱。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_CITYSTATES_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>赋予以 [ICON_Faith] 信仰值购买海军和空军单位的能力。[NEWLINE]+3 [ICON_Favor] 外交支持，+2影响力点数。征召城邦单位消耗的 [ICON_Gold] 金币减半。[NEWLINE]如您是城邦的宗主国，则城邦单位+4 [ICON_Strength] 战斗力（征召单位包含在内）。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_SPIES_DESCRIPTION" Language="en_US">
+			<Text>Grants the ability to buy Civilian and Support units with [ICON_Faith] Faith.[NEWLINE]+1 Spy and Spy capacity.[NEWLINE]All Spy Operations have a higher chance of success.[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_SPIES_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>賦予以 [ICON_Faith] 信仰值購買平民和支援單位的能力。[NEWLINE]間諜與間諜容量+1。[NEWLINE]所有間諜行動的成功率更高。[NEWLINE]獎勵1個 [Icon_Governor] 行政長官職稱。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_SPIES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>赋予以 [ICON_Faith] 信仰值购买平民和支援单位的能力。[NEWLINE]间谍与间谍容量+1。[NEWLINE]所有间谍行动的成功率上升。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+		</Replace>
+
+		<Row Tag="LOC_ABILITY_GOV_CONQUEST_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+{Amount} Combat Strength from Warlord's Throne.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GOV_CONQUEST_DESCRIPTION" Language="en_US">
+			<Text>+3 [ICON_Strength] Combat Strength（Warlord's Throne）</Text>
+		</Row>
+		<Replace Tag="LOC_ABILITY_GOV_CONQUEST_STRENGTH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{Amount} 來自軍閥王座</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GOV_CONQUEST_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+{Amount} 来自军阀宝座</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GOV_CONQUEST_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+3 [ICON_Strength] 戰鬥力（軍閥王座） </Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GOV_CONQUEST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+3 [ICON_Strength] 战斗力（军阀宝座）</Text>
+		</Replace>
+	</LocalizedText>
+	<!-- 在有 [Icon_Governor] 行政長官就職的城市中訓練戰鬥和支援單位+25% [ICON_Production] 生產力。在有 [Icon_Governor] 总督就职的城市中训练战斗和支援单位+25% [ICON_Production] 生产力。 +25% [ICON_Production] Production towards Military and Support units in cities with a [Icon_Governor] Governor.-->
+</GameData>

@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Text_zh_Hans_CN -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/16/2023 9:59:10 PM -->
+<GameData>
+	<LocalizedText>
+		<!--Standard Text-->
+		<Replace Tag="LOC_ABILITY_BUILDER_EXTRA_MOVEMENT_PYRAMIDS_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>金字塔的鼓舞</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BUILDER_EXTRA_MOVEMENT_PYRAMIDS_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>金字塔提供+1 [ICON_Movement] 移动力（埃及-历史拥有者特性）</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_GREAT_LIGHTHOUSE_SIGHT_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>大灯塔的指引</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GREAT_LIGHTHOUSE_SIGHT_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>大灯塔提供+1视野（埃及-历史拥有者特性）</Text>
+		</Replace>	
+		
+		<Replace Tag="LOC_ABILITY_COLOSSUS_STRENGTH_FRIENDLY_TERRITORY_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>巨像的鼓舞</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COLOSSUS_STRENGTH_FRIENDLY_TERRITORY_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在本国领土中、或与本国领土相邻的地区作战时，所有单位+3 [ICON_Strength] 战斗力，来自巨像。（希腊-历史拥有者特性）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COLOSSUS_STRENGTH_FRIENDLY_TERRITORY_EWHO_PREVIEW" Language="zh_Hans_CN">
+			<Text>巨像提供+3 [ICON_Strength] 战斗力（希腊-历史拥有者特性）</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_COLOSSEUM_STRENGTH_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>罗马斗兽场的鼓舞</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COLOSSEUM_STRENGTH_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>罗马斗兽场提供+5 [ICON_Strength] 战斗力（罗马-历史拥有者特性）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COLOSSEUM_STRENGTH_EWHO_PREVIEW" Language="zh_Hans_CN">
+			<Text>罗马斗兽场提供+5 [ICON_Strength] 战斗力（罗马-历史拥有者特性）</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_STATUE_OF_ZEUS_ADJACENT_STRENGTH_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>宙斯的力量</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_STATUE_OF_ZEUS_ADJACENT_STRENGTH_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与抗骑兵单位相邻时+5 [ICON_Strength] 战斗力，来自宙斯像（希腊-历史拥有者特性）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_STATUE_OF_ZEUS_ADJACENT_STRENGTH_EWHO_PREVIEW" Language="zh_Hans_CN">
+			<Text>相邻抗骑兵单位提供+5 [ICON_Strength] 战斗力，来自宙斯像（希腊-历史拥有者特性）</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_STATUE_OF_ZEUS_EXTRA_MOVEMENT_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>宙斯的祝福</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_STATUE_OF_ZEUS_EXTRA_MOVEMENT_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>宙斯像提供+1 [ICON_Movement] 移动力（希腊-历史拥有者特性）</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_STONEHENGE_ADJUST_QUARRY_YIELD_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>成为巨石阵历史拥有者</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_STONEHENGE_ADJUST_QUARRY_YIELD_EWHO_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>成为巨石阵历史拥有者</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_STONEHENGE_ADJUST_QUARRY_YIELD_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>进行时提供生产力15%的信仰 [ICON_Faith] 。完成时解锁历史拥有者加成：所有采石场+1 [ICON_Faith] 信仰，+1 [ICON_Production] 生产力。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_PETRA_ADJUST_DESERT_CITY_YIELD_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>成为佩特拉古城历史拥有者</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PETRA_ADJUST_DESERT_CITY_YIELD_EWHO_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>成为佩特拉古城历史拥有者</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PETRA_ADJUST_DESERT_CITY_YIELD_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>进行时提供生产力15%的食物 [ICON_Food] 。完成时解锁历史拥有者加成：所有建立在沙漠上的城市+20% [ICON_Food] 食物，+20% [ICON_Gold] 金币，+10% [ICON_Production] 生产力。</Text>
+		</Replace>
+		
+		<!--==========================================================================================-->
+		<Replace Tag="LOC_ABILITY_ALHAMBRA_MELEE_PROVIDE_MOVEMENT_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>阿尔罕布拉宫增益</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ALHAMBRA_MELEE_PROVIDE_MOVEMENT_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为2个单元格内的平民宗教单位提供+2 [ICON_Movement] 移动力，来自阿尔罕布拉宫（西班牙-历史拥有者特性）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ALHAMBRA_RELIGIOUS_CIVILIAN_EXTRA_MOVEMENT_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>阿尔罕布拉宫增益</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ALHAMBRA_RELIGIOUS_CIVILIAN_EXTRA_MOVEMENT_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+2 [ICON_Movement] 移动力来自2个单元格内的近战单位，来自阿尔罕布拉宫（西班牙-历史拥有者特性）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ALHAMBRA_RELIGIOUS_CIVILIAN_PROVIDE_MOVEMENT_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>阿尔罕布拉宫增益</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ALHAMBRA_RELIGIOUS_CIVILIAN_PROVIDE_MOVEMENT_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为2个单元格内的近战单位提供+2 [ICON_Movement] 移动力，来自阿尔罕布拉宫（西班牙-历史拥有者特性）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ALHAMBRA_MELEE_EXTRA_MOVEMENT_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>阿尔罕布拉宫增益</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ALHAMBRA_MELEE_EXTRA_MOVEMENT_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+2 [ICON_Movement] 移动力来自2个单元格内的平民宗教单位，来自阿尔罕布拉宫（西班牙-历史拥有者特性）</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_CHICHEN_ITZA_OBSERVATORY_JUNGLE_SCIENCE_EWHO" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Science] 科技值来自相邻雨林{1_Num : plural 1?单元格; other?单元格;}，来自奇琴伊察（玛雅-历史拥有者特性）</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_HAGIA_SOPHIA_CAVALRY_STRENGTH_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>圣索菲亚大教堂的祝福</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HAGIA_SOPHIA_CAVALRY_STRENGTH_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>对抗信奉其他宗教的文明时+4 [ICON_Strength] 战斗力，来自圣索菲亚大教堂（拜占庭-历史拥有者特性）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HAGIA_SOPHIA_CAVALRY_STRENGTH_EWHO_PREVIEW" Language="zh_Hans_CN">
+			<Text>对抗信奉其他宗教的文明时+4 [ICON_Strength] 战斗力，来自圣索菲亚大教堂（拜占庭-历史拥有者特性）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HAGIA_SOPHIA_SIEGE_STRENGTH_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>圣索菲亚大教堂的祝福</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HAGIA_SOPHIA_SIEGE_STRENGTH_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>对抗信奉其他宗教的文明时+4 [ICON_Strength] 战斗力，来自圣索菲亚大教堂（奥斯曼-历史拥有者特性）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HAGIA_SOPHIA_SIEGE_STRENGTH_EWHO_PREVIEW" Language="zh_Hans_CN">
+			<Text>对抗信奉其他宗教的文明时+4 [ICON_Strength] 战斗力，来自圣索菲亚大教堂（奥斯曼-历史拥有者特性）</Text>
+		</Replace>
+
+		<Replace Tag="LOC_HUEY_TEOCALLI_DISTRICT_HOLY_SITE_COAST_FAITH" Language="zh_Hans_CN">
+			<Text>从相邻的湖泊或海岸单元格获得+{1_num} [ICON_Faith] 信仰值，来自休伊神庙（阿兹特克-历史拥有者特性）</Text>
+		</Replace>
+		<!--==========================================================================================-->
+		<Replace Tag="LOC_PROJECT_GREAT_ZIMBABWE_ADJUST_CITY_GOLD_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>成为大津巴布韦历史拥有者</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_GREAT_ZIMBABWE_ADJUST_CITY_GOLD_EWHO_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>成为大津巴布韦历史拥有者</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_GREAT_ZIMBABWE_ADJUST_CITY_GOLD_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>进行时提供生产力15%的金币 [ICON_Gold] 。完成时解锁历史拥有者加成：所在城市+20% [ICON_Gold] 金币。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>成为威尼斯军械库历史拥有者</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>成为威尼斯军械库历史拥有者</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_VENETIAN_ARSENAL_GAIN_BUFF_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>进行时提供生产力15%的金币 [ICON_Gold] 。完成时解锁历史拥有者加成：所在城市建造海军单位+30% [ICON_Production] 生产力，航空母舰除外；海军单位提供+3 [ICON_Gold] 金币；商人如果处于水域单元格，则+1 [ICON_GreatAdmiral] 海军统帅点数。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_VENETIAN_ARSENAL_NAVAL_UNITS_GOLD_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>威尼斯军械库增益</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_VENETIAN_ARSENAL_NAVAL_UNITS_GOLD_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为您的首都提供+3 [ICON_Gold] 金币，来自威尼斯军械库。（历史拥有者特性）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_VENETIAN_ARSENAL_TRADER_ADMIRAL_POINT_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>威尼斯军械库增益</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_VENETIAN_ARSENAL_TRADER_ADMIRAL_POINT_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>如果位于水域单元格，则+1 [ICON_GreatAdmiral] 海军统帅点数，来自威尼斯军械库。（历史拥有者特性）</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TERRAIN_CLASS_HILLS_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>丘陵（EWHO）</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_TERRACOTTA_ARMY_CCT_GREAT_WALL_BUFF_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>兵马俑增益</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TERRACOTTA_ARMY_CCT_GREAT_WALL_BUFF_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>如果位于长城1个单元格以内，则+2 [ICON_Movement] 移动力+1 [ICON_Range] 射程，来自兵马俑。（中国-历史拥有者特性）</Text>
+		</Replace>
+		
+		<!--Expansion1 Text-->
+		<Replace Tag="LOC_ABILITY_TEMPLE_ARTEMIS_RANGED_STRENGTH_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>阿耳忒弥斯的祝福</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TEMPLE_ARTEMIS_RANGED_STRENGTH_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>如果敌人在牧场、营地和相邻的单元格上，则进攻时+5 [ICON_Strength] 战斗力，来自阿耳忒弥斯神庙。（希腊-历史拥有者特性）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TEMPLE_ARTEMIS_RANGED_STRENGTH_EWHO_PREVIEW" Language="zh_Hans_CN">
+			<Text>阿耳忒弥斯神庙提供+5 [ICON_Strength] 战斗力（希腊-历史拥有者特性）</Text>
+		</Replace>
+		
+		<!--==========================================================================================-->
+		<Replace Tag="LOC_ABILITY_KOTOKU_IN_MONKS_STRENGTH_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>大佛的鼓舞</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KOTOKU_IN_MONKS_STRENGTH_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>对抗信奉其他宗教的文明时+4 [ICON_Strength] 战斗力，来自高德院（日本-历史拥有者特性）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KOTOKU_IN_MONKS_STRENGTH_EWHO_PREVIEW" Language="zh_Hans_CN">
+			<Text>对抗信奉其他宗教的文明时+4 [ICON_Strength] 战斗力，来自高德院（日本-历史拥有者特性）</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_KILWA_KISIWANI_ADJUST_DIPLOMATIC_FAVOR_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>成为基尔瓦基斯瓦尼历史拥有者</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KILWA_KISIWANI_ADJUST_DIPLOMATIC_FAVOR_EWHO_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>成为基尔瓦基斯瓦尼历史拥有者</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KILWA_KISIWANI_ADJUST_DIPLOMATIC_FAVOR_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>进行时提供生产力15%的科技 [ICON_Science] 和文化 [ICON_Culture] 。完成时解锁历史拥有者加成：每回合+5 [ICON_FAVOR] 外交支持。</Text>
+		</Replace>
+
+		<!--==========================================================================================-->
+		
+		<!--<Replace Tag="LOC_TRAIT_CIVILIZATION_ENGINEER_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>沙贾汗（泰姬陵专属）</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ENGINEER_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造泰姬陵后获得特殊伟人——沙贾汗</Text>
+		</Replace>-->
+		<Replace Tag="LOC_UNIT_GREAT_ENGINEER_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_UNIT_GREAT_ENGINEER_NAME}(EWHO)</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GREAT_ENGINEER_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_UNIT_GREAT_ENGINEER_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GREAT_ENGINEER_EWHO_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_UNITS_PAGE_UNIT_GREAT_ENGINEER_CHAPTER_HISTORY_PARA_1}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_ENGINEER_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>大工程师(EWHO)</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SHAH_JAHAN_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>沙贾汗（泰姬陵专属）</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_SHAH_JAHAN_EWHO_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_SHAH_JAHAN_CHAPTER_HISTORY_PARA_1}</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_SHAH_JAHAN_EWHO_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_SHAH_JAHAN_CHAPTER_HISTORY_PARA_2}</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_SHAH_JAHAN_EWHO_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_SHAH_JAHAN_CHAPTER_HISTORY_PARA_3}</Text>
+		</Replace>
+		<Replace Tag="LOC_SHAH_JAHAN_EWHO_ACTION_NAME" Language="zh_Hans_CN">
+			<Text>为奇观添加生产力</Text>
+		</Replace>
+		<Replace Tag="LOC_SHAH_JAHAN_EWHO_WONDER_PURCHASE" Language="zh_Hans_CN">
+			<Text>建造奇观时提供 [ICON_Production] 生产力，上限为当前国库储量的一半。然后减去购买 [ICON_Production] 生产力两倍量的 [ICON_Gold] 金币。</Text>
+		</Replace>
+		
+
+		<!--Expansion2 Text-->
+		<Replace Tag="LOC_PROJECT_GREAT_BATH_ADJUST_FLOODPLAIN_YIELD_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>成为大浴场历史拥有者</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_GREAT_BATH_ADJUST_FLOODPLAIN_YIELD_EWHO_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>成为大浴场历史拥有者</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_GREAT_BATH_ADJUST_FLOODPLAIN_YIELD_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>进行时提供生产力15%的信仰 [ICON_Faith] 。完成时解锁历史拥有者加成：所有泛滥平原单元格+1 [ICON_Faith] 信仰+1 [ICON_Production] 生产力。</Text>
+		</Replace>
+		
+		<!--==========================================================================================-->
+		<Replace Tag="LOC_ABILITY_MEENAKSHI_TEMPLE_RELIGIOUS_CIVILIAN_PROVIDE_FAITH_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>米纳克希神庙的祝福</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_MEENAKSHI_TEMPLE_RELIGIOUS_CIVILIAN_PROVIDE_FAITH_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为所在和相邻的单元格+1 [ICON_Faith] 信仰，来自米纳克希神庙（印度-历史拥有者特性）</Text>
+		</Replace>
+
+		<!--==========================================================================================-->
+		<Replace Tag="LOC_PROJECT_PANAMA_CANAL_ADJUST_SEA_UNITS_MOVEMENT_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>成为巴拿马运河历史拥有者</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PANAMA_CANAL_ADJUST_SEA_UNITS_MOVEMENT_EWHO_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>成为巴拿马运河历史拥有者</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PANAMA_CANAL_ADJUST_SEA_UNITS_MOVEMENT_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>进行时提供生产力15%的金币 [ICON_Gold] 。完成时解锁历史拥有者加成：海军单位在运河区域12个单元格以内+1 [ICON_Movement] 移动力。如果运河1个单元格以内有您的海军单位，则运河所在的城市+20% [ICON_Gold] 金币。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_SEA_UNITS_EXTRA_MOVEMENT_PANAMA_CANAL_EWHO_NAME" Language="zh_Hans_CN">
+			<Text>巴拿马运河协助航运</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SEA_UNITS_EXTRA_MOVEMENT_PANAMA_CANAL_EWHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>12个单元格内的运河提供+1 [ICON_Movement] 移动力，为1个单元格以内的运河所在的城市+20%金币。（巴拿马运河-历史拥有者特性）</Text>
+		</Replace>
+
+		<!--Pedia Text-->
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGEGROUP_WONDERSEHO_NAME" Language="zh_Hans_CN">
+			<Text>奇观历史拥有者特性</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_CONTENT_TITLE" Language="zh_Hans_CN">
+			<Text>详情</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_SEARCH_TITLE" Language="zh_Hans_CN">
+			<Text>历史拥有者</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_BASICCONCEPT_TITLE" Language="zh_Hans_CN">
+			<Text>基本概念</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_BASICCONCEPT_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				这个页面由模组“奇观的历史拥有者获得额外加成”提供。当此模组开启时，玩家会获得以下三种效果：
+				[NEWLINE][ICON_BUllet] 奇观的历史拥有者建造该奇观获得+50% [ICON_Production] 生产力。
+				[NEWLINE][ICON_BUllet] 奇观的历史拥有者从奇观获得独特的加成，详见奇观具体条目。
+				[NEWLINE][ICON_BUllet] 没有（主流文明）历史拥有者的奇观，玩家可以通过项目解锁独特的加成。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_BASICCONCEPT_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				此外，为了游戏性，玩家可以在创建游戏时勾选“奇观历史拥有者专属加成：仅限人类”模式。在此模式下，只有人类玩家能获得建造加速和独特加成。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_BASICCONCEPT_PARA_3" Language="zh_Hans_CN">
+			<Text>
+				我们在兼容性方面做了很多努力，因此，这个模组支持所有三种游戏规则，有游戏本体就可以运行，并且会自动为DLC中的奇观添加加成。为了保证兼容性，所有奇观的历史拥有者加成，都是在原来效果上增加。因此，这个模组理论上兼容所有奇观增强、削弱、平衡模组，以及两个大型模组（HD和GA），除非有模组强行删除某些官方奇观、官方文明或者官方文明的特性。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_BASICCONCEPT_PARA_4" Language="zh_Hans_CN">
+			<Text>
+				为了不和其他模组的奇观效果文本描述冲突，所有的奇观历史拥有者加成的文本描述都单独写在这个分栏里。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_BASICCONCEPT_PARA_5" Language="zh_Hans_CN">
+			<Text>
+				目前我们已经完成了所有53个官方奇观的历史拥有者特性。[COLOR:Civ6Yellow]很遗憾地告诉大家，因为工坊的mod制作者们太给力了，奇观mod的数量远远超过了预计，因此我们放弃了制作工坊奇观mod的历史拥有者特性。[ENDCOLOR]
+			</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_ANCIENT_TITLE" Language="zh_Hans_CN">
+			<Text>远古奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_ANCIENT_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				游戏中包含7个远古奇观。[NEWLINE]其中5个在标准规则下可用。分别是：[NEWLINE][ICON_BUllet] 巨石阵[NEWLINE][ICON_BUllet] 空中花园[NEWLINE][ICON_BUllet] 埃特曼安吉神庙[NEWLINE][ICON_BUllet] 金字塔[NEWLINE][ICON_BUllet] 神谕
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_ANCIENT_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				1个至少需要迭起兴衰规则：[NEWLINE][ICON_BUllet] 阿耳忒弥斯神庙
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_ANCIENT_PARA_3" Language="zh_Hans_CN">
+			<Text>
+				1个在风云变幻规则下才可用：[NEWLINE][ICON_BUllet] 大浴场
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_CLASSICAL_TITLE" Language="zh_Hans_CN">
+			<Text>古典奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_CLASSICAL_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				游戏中包含12个古典奇观。其中11个在标准规则下可用。分别是：[NEWLINE][ICON_BUllet] 大灯塔[NEWLINE][ICON_BUllet] 阿帕达纳宫[NEWLINE][ICON_BUllet] 兵马俑[NEWLINE][ICON_BUllet] 博尔戈尔山[NEWLINE][ICON_BUllet] 大图书馆[NEWLINE][ICON_BUllet] 巨像[NEWLINE][ICON_BUllet] 罗马斗兽场[NEWLINE][ICON_BUllet] 摩诃菩提寺[NEWLINE][ICON_BUllet] 摩索拉斯王陵墓[NEWLINE][ICON_BUllet] 佩特拉古城[NEWLINE][ICON_BUllet] 宙斯像
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_CLASSICAL_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				1个在风云变幻规则下才可用：[NEWLINE][ICON_BUllet] 马丘比丘
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_MEDIEVAL_TITLE" Language="zh_Hans_CN">
+			<Text>中世纪奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_MEDIEVAL_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				游戏中包含10个中世纪奇观。其中6个在标准规则下可用。分别是：[NEWLINE][ICON_BUllet] 阿尔罕布拉宫[NEWLINE][ICON_BUllet] 奇琴伊察[NEWLINE][ICON_BUllet] 圣米歇尔山[NEWLINE][ICON_BUllet] 圣索菲亚大教堂[NEWLINE][ICON_BUllet] 吴哥窟[NEWLINE][ICON_BUllet] 休伊神庙
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_MEDIEVAL_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				2个至少需要迭起兴衰规则：[NEWLINE][ICON_BUllet] 高德院[NEWLINE][ICON_BUllet] 基尔瓦基斯瓦尼
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_MEDIEVAL_PARA_3" Language="zh_Hans_CN">
+			<Text>
+				2个在风云变幻规则下才可用：[NEWLINE][ICON_BUllet] 米纳克希神庙[NEWLINE][ICON_BUllet] 桑科雷大学
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_RENAISSANCE_TITLE" Language="zh_Hans_CN">
+			<Text>文艺复兴奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_RENAISSANCE_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				游戏中包含8个文艺复兴奇观。其中5个在标准规则下可用。分别是：[NEWLINE][ICON_BUllet] 贝伦塔[NEWLINE][ICON_BUllet] 大津巴布韦[NEWLINE][ICON_BUllet] 威尼斯军械库[NEWLINE][ICON_BUllet] 紫禁城[NEWLINE][ICON_BUllet] 布达拉宫
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_RENAISSANCE_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				3个至少需要迭起兴衰规则：[NEWLINE][ICON_BUllet] 圣瓦西里主教座堂[NEWLINE][ICON_BUllet] 泰姬陵[NEWLINE][ICON_BUllet] 西印度交易所
+			</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_INDUSTRIAL_TITLE" Language="zh_Hans_CN">
+			<Text>工业时代奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_INDUSTRIAL_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				游戏中包含8个工业时代奇观。其中5个在标准规则下可用。分别是：[NEWLINE][ICON_BUllet] 艾尔米塔什博物馆[NEWLINE][ICON_BUllet] 大本钟[NEWLINE][ICON_BUllet] 鲁尔山谷[NEWLINE][ICON_BUllet] 莫斯科大剧院[NEWLINE][ICON_BUllet] 牛津大学
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_INDUSTRIAL_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				1个至少需要迭起兴衰规则：[NEWLINE][ICON_BUllet] 自由女神像
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_INDUSTRIAL_PARA_3" Language="zh_Hans_CN">
+			<Text>
+				2个至少需要风云变化规则：[NEWLINE][ICON_BUllet] 巴拿马运河[NEWLINE][ICON_BUllet] 匈牙利议会大厦
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_MODERN_TITLE" Language="zh_Hans_CN">
+			<Text>现代奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_MODERN_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				游戏中包含4个现代奇观。其中3个在标准规则下可用。分别是：[NEWLINE][ICON_BUllet] 埃菲尔铁塔[NEWLINE][ICON_BUllet] 百老汇[NEWLINE][ICON_BUllet] 救世基督像
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_MODERN_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				1个至少需要风云变化规则：[NEWLINE][ICON_BUllet] 金门大桥
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_ATOMIC_TITLE" Language="zh_Hans_CN">
+			<Text>原子能时代奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_ATOMIC_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				游戏中包含4个原子能时代奇观。其中3个在标准规则下可用。分别是：[NEWLINE][ICON_BUllet] 马拉卡纳体育场[NEWLINE][ICON_BUllet] 生物圈[NEWLINE][ICON_BUllet] 悉尼歌剧院
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_ATOMIC_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				1个至少需要迭起兴衰规则：[NEWLINE][ICON_BUllet] 阿蒙森-斯科特南极站
+			</Text>
+		</Replace>		
+		
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_WONDERSINDLC_TITLE" Language="zh_Hans_CN">
+			<Text>DLC中的奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_WONDERSINDLC_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				我们在这里列出所有不在游戏本体的奇观的所在DLC位置，以便玩家们参考：
+				[NEWLINE][NEWLINE][ICON_BUllet]休伊神庙：阿兹特克包
+				[NEWLINE][NEWLINE][ICON_BUllet]博尔戈尔山：努比亚包
+				[NEWLINE][NEWLINE][ICON_BUllet]阿帕达纳宫：马其顿-波斯包
+				[NEWLINE][NEWLINE][ICON_BUllet]摩索拉斯王陵墓：马其顿-波斯包
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_WONDERSINDLC_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet]吴哥窟：印度尼西亚-高棉包
+				[NEWLINE][NEWLINE][ICON_BUllet]阿耳忒弥斯神庙：迭起兴衰资料片
+				[NEWLINE][NEWLINE][ICON_BUllet]高德院：迭起兴衰资料片
+				[NEWLINE][NEWLINE][ICON_BUllet]基尔瓦基斯瓦尼：迭起兴衰资料片
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_WONDERSINDLC_PARA_3" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet]圣瓦西里主教座堂：迭起兴衰资料片
+				[NEWLINE][NEWLINE][ICON_BUllet]泰姬陵：迭起兴衰资料片
+				[NEWLINE][NEWLINE][ICON_BUllet]西印度交易所：迭起兴衰资料片
+				[NEWLINE][NEWLINE][ICON_BUllet]自由女神像：迭起兴衰资料片
+				[NEWLINE][NEWLINE][ICON_BUllet]阿蒙森-斯科特南极站：迭起兴衰资料片
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_WONDERSINDLC_PARA_4" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet]大浴场：风云变幻资料片
+				[NEWLINE][NEWLINE][ICON_BUllet]马丘比丘：风云变幻资料片
+				[NEWLINE][NEWLINE][ICON_BUllet]米纳克希神庙：风云变幻资料片
+				[NEWLINE][NEWLINE][ICON_BUllet]桑科雷大学：风云变幻资料片
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_WONDERSINDLC_PARA_5" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet]巴拿马运河：风云变幻资料片
+				[NEWLINE][NEWLINE][ICON_BUllet]匈牙利议会大厦：风云变幻资料片
+				[NEWLINE][NEWLINE][ICON_BUllet]金门大桥：风云变幻资料片
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOPAGE_CHAPTER_WONDERSINDLC_PARA_6" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet]宙斯像：拜占庭-高卢包
+				[NEWLINE][NEWLINE][ICON_BUllet]生物圈：拜占庭-高卢包
+				[NEWLINE][NEWLINE][ICON_BUllet]埃特曼安吉神庙：葡萄牙包
+				[NEWLINE][NEWLINE][ICON_BUllet]贝伦塔：葡萄牙包
+			</Text>
+		</Replace>
+		
+		<!--==========================================================================================================================-->
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_CONTENT_TITLE" Language="zh_Hans_CN">
+			<Text>远古奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_SEARCH_TITLE" Language="zh_Hans_CN">
+			<Text>远古奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_STANDARD_TITLE" Language="zh_Hans_CN">
+			<Text>
+				标准规则下可用的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_STANDARD_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 巨石阵：[NEWLINE]位置在今英格兰威尔特郡，没有（主流文明）历史拥有者。历史拥有者加成：所有采石场+1 [ICON_Faith] 信仰，+1 [ICON_Production] 生产力。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_STANDARD_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 空中花园：[NEWLINE]位置不可考，历史拥有者为巴比伦或亚述（之后考虑兼容工坊模组）。历史拥有者加成：所有种植园和建造在加成资源上的农场+1 [ICON_Food] 食物。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_STANDARD_PARA_3" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 埃特曼安吉神庙：[NEWLINE]位置在今伊拉克，历史拥有者为巴比伦。历史拥有者加成：建成时赠送2个远古、古典或中世纪科技的 [ICON_TechBoosted] 尤里卡。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_STANDARD_PARA_4" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 金字塔：[NEWLINE]位置在今埃及，历史拥有者为埃及。历史拥有者加成：所有建造者+1 [ICON_Movement] 移动力。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_STANDARD_PARA_5" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 神谕：[NEWLINE]位置在今希腊福基斯，历史拥有者为希腊。历史拥有者加成：+2影响力点数，该城市区域为该类型 [ICON_GreatPerson] 伟人点额外+1。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_RISEANDFALL_TITLE" Language="zh_Hans_CN">
+			<Text>
+				迭起兴衰规则下可用的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_RISEANDFALL_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 阿耳忒弥斯神庙：[NEWLINE]位置在今土耳其（爱奥尼亚），历史拥有者为希腊。历史拥有者加成：所在城市的营地和牧场+1 [ICON_Faith] 信仰+1 [ICON_Gold] 金币。所有远程单位进攻时，如果敌人在牧场、营地和相邻的单元格上，则+5 [ICON_Strength] 战斗力。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_GATHERINGSTORM_TITLE" Language="zh_Hans_CN">
+			<Text>
+				风云变幻规则下可用的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_GATHERINGSTORM_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 大浴场：[NEWLINE]位置在今巴基斯坦信德省，没有（主流文明）历史拥有者。历史拥有者加成：所有泛滥平原单元格+1 [ICON_Faith] 信仰+1 [ICON_Production] 生产力。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_REQUIREDDLC_TITLE" Language="zh_Hans_CN">
+			<Text>
+				DLC中的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOANCIENTPAGE_CHAPTER_REQUIREDDLC_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 埃特曼安吉神庙：葡萄牙包[NEWLINE][ICON_BUllet] 阿耳忒弥斯神庙：迭起兴衰资料片[NEWLINE][ICON_BUllet] 大浴场：风云变幻资料片
+			</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_CONTENT_TITLE" Language="zh_Hans_CN">
+			<Text>古典奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_SEARCH_TITLE" Language="zh_Hans_CN">
+			<Text>古典奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_STANDARD_TITLE" Language="zh_Hans_CN">
+			<Text>
+				标准规则下可用的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_STANDARD_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 大灯塔：[NEWLINE]位置在今埃及亚历山大，历史拥有者为埃及。历史拥有者加成：所有海军单位+1视野。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_STANDARD_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 阿帕达纳宫：[NEWLINE]位置在今伊朗设拉子，历史拥有者为波斯。历史拥有者加成：征服一座拥有奇观的城市时，+2 [ICON_Envoy] 使者。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_STANDARD_PARA_3" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 兵马俑：[NEWLINE]位置在今陕西西安，历史拥有者为中国。历史拥有者加成：额外+4 [ICON_Gold] 金币，建成时立刻获得一个当前最强的近战单位和一个当前最强的重骑兵单位。虎蹲炮如果位于长城1个单元格以内，则+2 [ICON_Movement] 移动力+1 [ICON_Range] 射程。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_STANDARD_PARA_4" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 博尔戈尔山：[NEWLINE]位置在今苏丹，历史拥有者为努比亚。历史拥有者加成：战略资源矿产提供+1 [ICON_Science] 科技值。加成和奢侈品资源矿产提供+1 [ICON_Culture] 文化。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_STANDARD_PARA_5" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 大图书馆：[NEWLINE]位置在今埃及亚历山大，历史拥有者为埃及。历史拥有者加成：所在城市出发的 [ICON_TradeRoute] 贸易路线+1 [ICON_Science] 科技值。与您的拥有学院的城市连接的其他文明的 [ICON_TradeRoute] 贸易路线为双方+1 [ICON_Science] 科技值，对于此城则变为+2 [ICON_Science] 科技值。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_STANDARD_PARA_6" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 巨像：[NEWLINE]位置在今希腊罗德岛，历史拥有者为希腊。历史拥有者加成：额外+1 [ICON_GreatGeneral] 大将军点数。在本国领土中、或与本国领土相邻的地区作战时，所有单位+3 [ICON_Strength] 战斗力。所有铜资源+4 [ICON_Gold] 金币+2 [ICON_Production] 生产力。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_STANDARD_PARA_7" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 罗马斗兽场：[NEWLINE]位置在今意大利罗马，历史拥有者为罗马。历史拥有者加成：军事单位在12个单元格内战斗+5 [ICON_Strength] 战斗力。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_STANDARD_PARA_8" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 摩诃菩提寺：[NEWLINE]位置在今印度比哈尔邦，历史拥有者为印度。历史拥有者加成：所在城市所有森林单元格+1 [ICON_Faith] 信仰值+1 [ICON_Culture] 文化。（迭起兴衰或风云变幻规则下，所在城市对相邻城市释放的宗教压力强度加倍，城市将不会受到来自其他文明宗教的压力。）
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_STANDARD_PARA_9" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 摩索拉斯王陵墓：[NEWLINE]位置在今土耳其博德鲁姆，历史拥有者为波斯。历史拥有者加成：所在城市出发的 [ICON_TradeRoute] 贸易路线+1 [ICON_Science] 科技+1 [ICON_Faith] 信仰+1 [ICON_Culture] 文化。（迭起兴衰或风云变幻规则下额外+1 [ICON_GOVERNOR] 总督头衔。）
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_STANDARD_PARA_10" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 佩特拉古城：[NEWLINE]位置在今约旦，没有（主流文明）历史拥有者。历史拥有者加成：所有建造在沙漠上的城市+20% [ICON_Food] 食物+20% [ICON_Gold] 金币+10% [ICON_Production] 生产力。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_STANDARD_PARA_11" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 宙斯像：[NEWLINE]位置在今希腊奥林匹亚，历史拥有者为希腊。历史拥有者加成：所有抗骑兵单位+1 [ICON_Movement] 移动力，且获得相邻抗骑兵单位+5 [ICON_Strength] 战斗力的能力。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_RISEANDFALL_TITLE" Language="zh_Hans_CN">
+			<Text>
+				迭起兴衰规则下可用的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_RISEANDFALL_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				古典时期没有这样的奇观。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_GATHERINGSTORM_TITLE" Language="zh_Hans_CN">
+			<Text>
+				风云变幻规则下可用的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_GATHERINGSTORM_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 马丘比丘：[NEWLINE]位置在今秘鲁，历史拥有者为印加。历史拥有者加成：[ICON_DISTRICT_COMMERCIAL_HUB] 商业中心、[ICON_DISTRICT_THEATER] 剧院广场及 [ICON_DISTRICT_INDUSTRIAL_ZONE] 工业区为周围的山脉单元格提供+1对应产出。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_REQUIREDDLC_TITLE" Language="zh_Hans_CN">
+			<Text>
+				DLC中的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOCLASSICALPAGE_CHAPTER_REQUIREDDLC_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 阿帕达纳宫：马其顿-波斯包[NEWLINE][ICON_BUllet] 摩索拉斯王陵墓：马其顿-波斯包[NEWLINE][ICON_BUllet] 博尔戈尔山：努比亚包[NEWLINE][ICON_BUllet] 马丘比丘：风云变幻资料片[NEWLINE][ICON_BUllet] 宙斯像：拜占庭-高卢包
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_CONTENT_TITLE" Language="zh_Hans_CN">
+			<Text>中世纪奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_SEARCH_TITLE" Language="zh_Hans_CN">
+			<Text>中世纪奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_STANDARD_TITLE" Language="zh_Hans_CN">
+			<Text>
+				标准规则下可用的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_STANDARD_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 阿尔罕布拉宫：[NEWLINE]位置在今西班牙格拉纳达，历史拥有者为西班牙（特别地，阿尔罕布拉宫由摩尔人建造，因此西班牙建造时只获得+25% [ICON_Production] 生产力）。历史拥有者加成：额外+2 [ICON_Culture] 文化；如果任意近战单位和任意平民宗教单位之间的距离小于等于2，则他们互相提供+2 [ICON_Movement] 移动力。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_STANDARD_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 奇琴伊察：[NEWLINE]位置在今墨西哥，历史拥有者为玛雅。历史拥有者加成：首都及首都6单元格内的城市，雨林单元格+1 [ICON_Culture] 文化值；雨林为天文台提供标准相邻加成；相邻雨林的农场+1文化 [ICON_Culture] +1 [ICON_Production] 生产力。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_STANDARD_PARA_3" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 圣米歇尔山：[NEWLINE]位置在今法国芒什省，历史拥有者为法国。历史拥有者加成：购买使徒的费用降低20%；宫殿+4巨作槽位，可保存任意类型。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_STANDARD_PARA_4" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 圣索菲亚大教堂：[NEWLINE]位置在今土耳其伊斯坦布尔，历史拥有者为拜占庭和奥斯曼（特别地，圣索菲亚大教堂由拜占庭建造，因此奥斯曼建造时只获得+25% [ICON_Production] 生产力）。历史拥有者加成：所有轻重骑兵与信奉其他宗教的文明进行战争时，+4 [ICON_Strength] 战斗力（拜占庭）。或者，所有攻城单位与信奉其他宗教的文明进行战争时，+4 [ICON_Strength] 战斗力（奥斯曼）。注意，奥斯曼只能在风云变换规则下游玩。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_STANDARD_PARA_5" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 吴哥窟：[NEWLINE]位置在今柬埔寨，历史拥有者为高棉。历史拥有者加成：该城市的圣地和工业区+100%相邻加成；所有15人口以上的城市+1 [ICON_Amenities] 宜居度。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_STANDARD_PARA_6" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 休伊神庙：[NEWLINE]位置在今墨西哥，历史拥有者为阿兹特克。历史拥有者加成：湖泊或海岸单元格为圣地提供标准相邻加成；帝国内的城市如果与湖泊相邻，则+1 [ICON_Amenities] 宜居度。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_RISEANDFALL_TITLE" Language="zh_Hans_CN">
+			<Text>
+				迭起兴衰规则下可用的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_RISEANDFALL_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 高德院：[NEWLINE]位置在今日本神奈川县镰仓市，历史拥有者为日本。历史拥有者加成：额外+3 [ICON_Faith] 信仰，额外赠送2名武僧；武僧对抗信奉其他宗教的文明时，+4 [ICON_Strength] 战斗力。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_RISEANDFALL_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 基尔瓦基斯瓦尼：[NEWLINE]位置在今坦桑尼亚，没有（主流文明）历史拥有者。历史拥有者加成：每回合+5 [ICON_FAVOR] 外交支持。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_GATHERINGSTORM_TITLE" Language="zh_Hans_CN">
+			<Text>
+				风云变幻规则下可用的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_GATHERINGSTORM_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 米纳克希神庙：[NEWLINE]位置在今印度泰米尔纳德邦，历史拥有者为印度。历史拥有者加成：购买使徒的费用降低20%。平民宗教单位为所在和相邻的单元格提供+1 [ICON_Faith] 信仰。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_GATHERINGSTORM_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 桑科雷大学：[NEWLINE]位置在今马里廷巴克图，历史拥有者为马里。历史拥有者加成：所有建立在沙漠上的城市，+8% [ICON_Science] 科技值，+16% [ICON_Faith] 信仰值。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_REQUIREDDLC_TITLE" Language="zh_Hans_CN">
+			<Text>
+				DLC中的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMEDIEVALPAGE_CHAPTER_REQUIREDDLC_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 休伊神庙：阿兹特克包
+				[NEWLINE][ICON_BUllet] 吴哥窟：印度尼西亚-高棉包
+				[NEWLINE][ICON_BUllet] 高德院：迭起兴衰资料片
+				[NEWLINE][ICON_BUllet] 基尔瓦基斯瓦尼：迭起兴衰资料片
+				[NEWLINE][ICON_BUllet] 米纳克希神庙：风云变幻资料片
+				[NEWLINE][ICON_BUllet] 桑科雷大学：风云变幻资料片
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_CONTENT_TITLE" Language="zh_Hans_CN">
+			<Text>文艺复兴奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_SEARCH_TITLE" Language="zh_Hans_CN">
+			<Text>文艺复兴奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_STANDARD_TITLE" Language="zh_Hans_CN">
+			<Text>
+				标准规则下可用的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_STANDARD_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 贝伦塔：[NEWLINE]位置在今葡萄牙里斯本，历史拥有者为葡萄牙。历史拥有者加成：+1 [ICON_TradeRoute] 贸易路线容量，从拥有 [ICON_DISTRICT_HARBOR] 港口的城市起源的 [ICON_TradeRoute] 贸易路线+4 [ICON_Gold] 金币（对此城变为+8 [ICON_Gold] 金币）。（迭起兴衰或风云变幻规则下，和首座城市不在同一个大陆上的城市额外+2初始 [ICON_Citizen] 人口。）
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_STANDARD_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 大津巴布韦：[NEWLINE]位置在今津巴布韦，没有（主流文明）历史拥有者。历史拥有者加成：所在城市额外+20% [ICON_Gold] 金币。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_STANDARD_PARA_3" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 威尼斯军械库：[NEWLINE]位置在今意大利威尼斯，没有（主流文明）历史拥有者。历史拥有者加成：所在城市建造海军单位+30% [ICON_Production] 生产力。您的每个海军单位提供+3 [ICON_Gold] 金币。商人如果处于水域单元格，则+1 [ICON_GreatAdmiral] 海军统帅点数。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_STANDARD_PARA_4" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 紫禁城：[NEWLINE]位置在今中国北京，历史拥有者为中国。历史拥有者加成：长城改良设施为所在城市+1内部防御，+1外部防御（可叠加）。允许进行里甲（食物）项目，人口小于10的城市进行该项目时+1000% [ICON_Production] 生产力（如果是朱棣则额外+500%），并且完成该项目时获得一个 [ICON_TechBoosted] 尤里卡和一个 [ICON_CivicBoosted] 鼓舞（需要中国统治者包）。10人口及以上的城市+10% [ICON_Culture] 文化值。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_STANDARD_PARA_5" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 布达拉宫：[NEWLINE]位置在今中国西藏，历史拥有者为中国。历史拥有者加成：所在城市的丘陵单元格+2 [ICON_Faith] 信仰。所在城市获得等同于其每回合所获 [ICON_Faith] 信仰值40%的 [ICON_Culture] 文化值。如果所在城市拥有 [ICON_DISTRICT_HOLY_SITE] 圣地，则+2影响力点数。
+			</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_RISEANDFALL_TITLE" Language="zh_Hans_CN">
+			<Text>
+				迭起兴衰规则下可用的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_RISEANDFALL_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 圣瓦西里主教座堂：[NEWLINE]位置在今俄罗斯莫斯科，历史拥有者为俄罗斯。历史拥有者加成：所有建立在冻土上的城市+16% [ICON_Food] 食物，+8% [ICON_Production] 生产力、 +8% [ICON_Culture] 文化值。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_RISEANDFALL_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 泰姬陵：[NEWLINE]位置在今印度北方邦，历史拥有者为印度。历史拥有者加成：额外+5 [ICON_Culture] 文化，建成后的下一回合免费获得特殊 [ICON_GreatPerson] 伟人沙贾汗，同 [ICON_GreatEngineer] 大工程师沙贾汗能力相同，但是使用次数为3。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_RISEANDFALL_PARA_3" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 西印度交易所：[NEWLINE]位置在今西班牙塞维利亚，历史拥有者为西班牙。历史拥有者加成：不在首都所处大陆的城市，为到达该城市的国内 [ICON_TradeRoute] 贸易路线+3 [ICON_Gold] 金币+2 [ICON_Faith] 信仰+1 [ICON_Production] 生产力。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_GATHERINGSTORM_TITLE" Language="zh_Hans_CN">
+			<Text>
+				风云变幻规则下可用的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_GATHERINGSTORM_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				文艺复兴时期没有这样的奇观。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_REQUIREDDLC_TITLE" Language="zh_Hans_CN">
+			<Text>
+				DLC中的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHORENAISSANCEPAGE_CHAPTER_REQUIREDDLC_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 贝伦塔：葡萄牙包
+				[NEWLINE][ICON_BUllet] 圣瓦西里主教座堂：迭起兴衰资料片
+				[NEWLINE][ICON_BUllet] 泰姬陵：迭起兴衰资料片
+				[NEWLINE][ICON_BUllet] 西印度交易所：迭起兴衰资料片
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_CONTENT_TITLE" Language="zh_Hans_CN">
+			<Text>工业时代奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_SEARCH_TITLE" Language="zh_Hans_CN">
+			<Text>工业时代奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_STANDARD_TITLE" Language="zh_Hans_CN">
+			<Text>
+				标准规则下可用的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_STANDARD_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 艾尔米塔什博物馆：[NEWLINE]位置在今俄罗斯圣彼得堡，历史拥有者为俄罗斯。历史拥有者加成：额外+2 [ICON_Culture] 文化，[ICON_GreatWork_Portrait] 肖像、[ICON_GreatWork_Landscape] 风景、[ICON_GreatWork_Religious] 宗教、[ICON_GreatWork_Sculpture] 雕塑艺术巨作和 [ICON_GreatWork_Artifact] 文物额外+2 [ICON_Culture] 文化，寺庙+1巨作槽位，可保存任意类型。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_STANDARD_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 大本钟：[NEWLINE]位置在今英国伦敦，历史拥有者为英国。历史拥有者加成：每座工厂提供+1 [ICON_TradeRoute] 贸易路线容量。皇家海军船坞为起源的 [ICON_TradeRoute] 国际贸易路线+3 [ICON_Gold] 金币。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_STANDARD_PARA_3" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 鲁尔山谷：[NEWLINE]位置在今德国北莱茵-威斯特法伦，历史拥有者为德国。历史拥有者加成：所有城市建造区域时+20% [ICON_Production] 生产力，如果城市拥有工业区则增加到40%。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_STANDARD_PARA_4" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 莫斯科大剧院：[NEWLINE]位置在今俄罗斯莫斯科，历史拥有者为俄罗斯。历史拥有者加成：额外+2 [ICON_Culture] 文化，[ICON_GreatWork_Music] 音乐巨作额外+2 [ICON_Culture] 文化，寺庙+1巨作槽位，可保存任意类型。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_STANDARD_PARA_5" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 牛津大学：[NEWLINE]位置在今英国牛津，历史拥有者为英国。历史拥有者加成：[ICON_GreatWork_Writing] 著作额外+2 [ICON_Science] 科技。如果城市拥有 [ICON_DISTRICT_CAMPUS] 学院，则 [ICON_DISTRICT_INDUSTRIAL_ZONE] 工业区+100%相邻加成。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_RISEANDFALL_TITLE" Language="zh_Hans_CN">
+			<Text>
+				迭起兴衰规则下可用的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_RISEANDFALL_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 自由女神像：[NEWLINE]位置在今美国纽约，历史拥有者为法国和美国。历史拥有者加成：此城市额外+1 [ICON_Amenities] 宜居度。进行联合作战时，如果与其同盟位于4个单元格以内，则共享掠夺奖励和战斗经验值收益。
+			</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_GATHERINGSTORM_TITLE" Language="zh_Hans_CN">
+			<Text>
+				风云变幻规则下可用的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_GATHERINGSTORM_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 巴拿马运河：[NEWLINE]位置在今巴拿马，历史拥有者为美国，或者没有（主流文明）历史拥有者。历史拥有者加成：海军单位在运河区域12个单元格以内+1 [ICON_Movement] 移动力。如果运河1个单元格内有您的海军单位，则运河所在的城市+20% [ICON_Gold] 金币。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_GATHERINGSTORM_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 匈牙利议会大厦：[NEWLINE]位置在今匈牙利布达佩斯，历史拥有者为匈牙利。历史拥有者加成：建成沿河的区域时+1 [ICON_Envoy] 使者。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_REQUIREDDLC_TITLE" Language="zh_Hans_CN">
+			<Text>
+				DLC中的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOINDUSTRIALPAGE_CHAPTER_REQUIREDDLC_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 自由女神像：迭起兴衰资料片
+				[NEWLINE][ICON_BUllet] 巴拿马运河：风云变幻资料片
+				[NEWLINE][ICON_BUllet] 匈牙利议会大厦：风云变幻资料片
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_CONTENT_TITLE" Language="zh_Hans_CN">
+			<Text>现代奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_SEARCH_TITLE" Language="zh_Hans_CN">
+			<Text>现代奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_STANDARD_TITLE" Language="zh_Hans_CN">
+			<Text>
+				标准规则下可用的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_STANDARD_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 埃菲尔铁塔：[NEWLINE]位置在今法国巴黎，历史拥有者为法国。历史拥有者加成：此城市所有魅力达到+4的单元格额外+2 [ICON_Culture] 文化。世界奇观提供的 [ICON_Tourism] 旅游业绩+50%。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_STANDARD_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 百老汇：[NEWLINE]位置在今美国纽约，历史拥有者为美国。历史拥有者加成：额外+4 [ICON_Culture] 文化，电影制片厂+2 [ICON_Culture] 文化。（风云变幻规则下，购买摇滚乐队费用-20%）
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_STANDARD_PARA_3" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 救世基督像：[NEWLINE]位置在今巴西里约热内卢，历史拥有者为巴西。历史拥有者加成：所有海滨度假区+2 [ICON_Gold] 金币+2 [ICON_Faith] 信仰，如果相邻雨林则变为+4。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_RISEANDFALL_TITLE" Language="zh_Hans_CN">
+			<Text>
+				迭起兴衰规则下可用的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_RISEANDFALL_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				现代没有这样的奇观。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_GATHERINGSTORM_TITLE" Language="zh_Hans_CN">
+			<Text>
+				风云变幻规则下可用的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_GATHERINGSTORM_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 金门大桥：[NEWLINE]位置在今美国旧金山，历史拥有者为美国。历史拥有者加成：在此城的每个区域中提供等于其相邻加成的 [ICON_Tourism] 旅游业绩（ [ICON_Gold] 金币和 [ICON_Faith] 信仰加成带来的量减半）。沿海城市1个单元格以内如果没有道路则获得现代道路。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_REQUIREDDLC_TITLE" Language="zh_Hans_CN">
+			<Text>
+				DLC中的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOMODERNPAGE_CHAPTER_REQUIREDDLC_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 金门大桥：风云变幻资料片
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_CONTENT_TITLE" Language="zh_Hans_CN">
+			<Text>原子能时代奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_SEARCH_TITLE" Language="zh_Hans_CN">
+			<Text>原子能时代奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_STANDARD_TITLE" Language="zh_Hans_CN">
+			<Text>
+				标准规则下可用的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_STANDARD_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 马拉卡纳体育场：[NEWLINE]位置在今巴西里约热内卢，历史拥有者为巴西。历史拥有者加成：街头狂欢节和科帕卡瓦纳建筑的宜居度辐射范围额外增加3格。区域如果相邻雨林，则对应伟人种类的 [ICON_GreatPerson] 伟人点+1。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_STANDARD_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 生物圈：[NEWLINE]位置在今加拿大蒙特利尔，历史拥有者为美国和加拿大。历史拥有者加成：额外+8 [ICON_Gold] 金币，社区提供+4 [ICON_Tourism] 旅游业绩。所有建立在冻土上的城市的单元格+1魅力（加拿大专属）。建造社区时+50% [ICON_Production] 生产力（美国专属）。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_STANDARD_PARA_3" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 悉尼歌剧院：[NEWLINE]位置在今澳大利亚悉尼，历史拥有者为澳大利亚。历史拥有者加成：所有建立在海岸上的城市的单元格+1魅力。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_RISEANDFALL_TITLE" Language="zh_Hans_CN">
+			<Text>
+				迭起兴衰规则下可用的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_RISEANDFALL_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 阿蒙森-斯科特南极站：[NEWLINE]位置在今南极，历史拥有者为美国。历史拥有者加成：所有拥有大学的城市获得研究实验室。研究实验室为城市内的雪地和雪地丘陵单元格+3 [ICON_Science] 科技。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_GATHERINGSTORM_TITLE" Language="zh_Hans_CN">
+			<Text>
+				风云变幻规则下可用的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_GATHERINGSTORM_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				原子能时代没有这样的奇观。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_REQUIREDDLC_TITLE" Language="zh_Hans_CN">
+			<Text>
+				DLC中的奇观
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_EWHOATOMICPAGE_CHAPTER_REQUIREDDLC_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				[ICON_BUllet] 阿蒙森-斯科特南极站：迭起兴衰资料片
+			</Text>
+		</Replace>
+
+	</LocalizedText>
+</GameData>

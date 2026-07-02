@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fa9000c6-f01b-44da-85c4-6db67d6e01a4" version="1.0">
+
+	<Properties>
+		<Name>Clear Notifications quickly</Name>
+		<Description>Added a customizable hotkey for quick clearing notifications.</Description>
+		<Teaser>Added a customizable hotkey for quick clearing notifications.</Teaser>
+		<Authors>ZHY_memory</Authors>
+		<AffectsSavedGames>0</AffectsSavedGames>
+		<CompatibleVersions>1.2,2.0</CompatibleVersions>
+	</Properties>
+	
+	<FrontEndActions>
+		<UpdateText id="Replace_Text">
+			<File>Config_ClearNotifications_Text.xml</File>
+		</UpdateText>
+		<UpdateDatabase id="NewAction">
+			<File>Config_ClearNotifications.xml</File>
+		</UpdateDatabase>
+	</FrontEndActions>
+	
+	<InGameActions>
+		<ImportFiles id="NotificationClear_Import">
+			<Properties>
+				<LoadOrder>100</LoadOrder>
+			</Properties>
+			<File>NotificationPanel_QuickClear.lua</File>
+		</ImportFiles>
+
+		<UpdateText id="Replace_Text">
+			<File>Config_ClearNotifications_Text.xml</File>
+		</UpdateText>
+		
+	</InGameActions>
+	
+	<Files>
+		<File>NotificationPanel_QuickClear.lua</File>
+		<File>Config_ClearNotifications_Text.xml</File>
+		<File>Config_ClearNotifications.xml</File>
+	</Files>
+</Mod>

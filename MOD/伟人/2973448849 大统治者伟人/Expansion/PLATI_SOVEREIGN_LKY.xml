@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GreatSovereigns -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_ELEVENTH" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ELEVENTH"
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ELEVENTH_NAME"
+			 GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns"
+			 EraType="ERA_ATOMIC" Gender="M" ActionCharges="1"
+			 ActionRequiresCompletedDistrictType="DISTRICT_GOVERNMENT"
+			 ActionEffectTextOverride="LOC_GREATPERSON_PLATI_ELEVENTH_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ELEVENTH" ModifierId="GREAT_PLATI_LEE_KUAN_YEW" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row ModifierId="GREAT_PLATI_LEE_KUAN_YEW" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_GREAT_PERSON_CHARGES" RunOnce="false" Permanent="true" SubjectRequirementSetId="UNIT_IS_MERCHANT"/>
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="GREAT_PLATI_LEE_KUAN_YEW" Name="Amount" Value="1" />
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREAT_PLATI_LEE_KUAN_YEW" Context="Summary" Text="LOC_GREATPERSON_PLATI_ELEVENTH_GREATPERSON_GPP"/>
+	</ModifierStrings>
+</GameData>

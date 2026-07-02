@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="POLICY_SOVEREIGNS" 					Kind="KIND_POLICY" />
+		<Row Type="POLICY_SOVEREIGNS_BUFFED" 			Kind="KIND_POLICY" />
+	</Types>
+	<Policies>
+		<Row PolicyType="POLICY_SOVEREIGNS" 		Name="LOC_POLICY_SOVEREIGNS_NAME" 			Description="LOC_POLICY_SOVEREIGNS_DESCRIPTION" 				PrereqCivic="CIVIC_POLITICAL_PHILOSOPHY" 	GovernmentSlotType="SLOT_WILDCARD" />
+		<Row PolicyType="POLICY_SOVEREIGNS_BUFFED" 	Name="LOC_POLICY_SOVEREIGNS_BUFFED_NAME" 	Description="LOC_POLICY_SOVEREIGNS_BUFFED_DESCRIPTION" 			PrereqCivic="CIVIC_CAPITALISM" 				GovernmentSlotType="SLOT_WILDCARD" />
+	</Policies>
+	<ObsoletePolicies>
+		<Row PolicyType="POLICY_SOVEREIGNS" ObsoletePolicy="POLICY_SOVEREIGNS_BUFFED"/>
+	</ObsoletePolicies>
+	<PolicyModifiers>
+		<Row PolicyType="POLICY_SOVEREIGNS" 				ModifierId="POLICY_SOVEREIGNS_MODIFIER"/>
+		<Row PolicyType="POLICY_SOVEREIGNS_BUFFED" 			ModifierId="POLICY_SOVEREIGNS_BUFFED_MODIFIER"/>
+		<Row PolicyType="POLICY_SOVEREIGNS_BUFFED" 			ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_ONE"/>
+		<Row PolicyType="POLICY_SOVEREIGNS_BUFFED" 			ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_TWO"/>
+		<Row PolicyType="POLICY_SOVEREIGNS_BUFFED" 			ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_THR"/>
+		<Row PolicyType="POLICY_SOVEREIGNS_BUFFED" 			ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_FHR"/>
+		<Row PolicyType="POLICY_SOVEREIGNS_BUFFED" 			ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_FIV"/>
+		<Row PolicyType="POLICY_SOVEREIGNS_BUFFED" 			ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_SIX"/>
+		<Row PolicyType="POLICY_SOVEREIGNS_BUFFED" 			ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_SEV"/>
+		<Row PolicyType="POLICY_SOVEREIGNS_BUFFED" 			ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_EIG"/>
+		<Row PolicyType="POLICY_SOVEREIGNS_BUFFED" 			ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_NIN"/>
+		<Row PolicyType="POLICY_SOVEREIGNS_BUFFED" 			ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_TEN"/>
+		<Row PolicyType="POLICY_SOVEREIGNS_BUFFED" 			ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_ELE"/>
+		<Row PolicyType="POLICY_SOVEREIGNS_BUFFED" 			ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_TWE"/>
+		<Row PolicyType="POLICY_SOVEREIGNS_BUFFED" 			ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_THI"/>
+		<Row PolicyType="POLICY_SOVEREIGNS_BUFFED" 			ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_FRT"/>
+		<Row PolicyType="POLICY_SOVEREIGNS_BUFFED" 			ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_FVT"/>
+		<Row PolicyType="POLICY_SOVEREIGNS_BUFFED" 			ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_SXT"/>
+	</PolicyModifiers>
+	<Modifiers>
+		<Row ModifierId="POLICY_SOVEREIGNS_MODIFIER" 			ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_MODIFIER" 	ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_ONE" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_REQ_LKY_CITY_HAS_DISTRICT_AERODROME" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_TWO" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_REQ_LKY_CITY_HAS_DISTRICT_AQUEDUCT" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_THR" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_REQ_LKY_CITY_HAS_DISTRICT_CAMPUS" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_FHR" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_REQ_LKY_CITY_HAS_DISTRICT_CANAL" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_FIV" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_REQ_LKY_CITY_HAS_DISTRICT_COMMERCE" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_SIX" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_REQ_LKY_CITY_HAS_DISTRICT_DAM" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_SEV" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_REQ_LKY_CITY_HAS_DISTRICT_DIPLOMATIC" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_EIG" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_REQ_LKY_CITY_HAS_DISTRICT_ENTERTAINMENT" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_NIN" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_REQ_LKY_CITY_HAS_DISTRICT_GOVERNMENT" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_TEN" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_REQ_LKY_CITY_HAS_DISTRICT_HARBOR" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_ELE" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_REQ_LKY_CITY_HAS_DISTRICT_HOLY" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_TWE" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_REQ_LKY_CITY_HAS_DISTRICT_INDUSTRIAL" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_THI" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_REQ_LKY_CITY_HAS_DISTRICT_NEIGHBORHOOD" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_FRT" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_REQ_LKY_CITY_HAS_DISTRICT_SPACEPORT" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_FVT" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_REQ_LKY_CITY_HAS_DISTRICT_THEATER" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_SXT" 	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"	SubjectRequirementSetId="PLATI_REQ_LKY_CITY_HAS_DISTRICT_WATER_ENTERTAINMENT" />
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="POLICY_SOVEREIGNS_MODIFIER" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SOVEREIGNS_MODIFIER" Name="Amount" Value="2" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_MODIFIER" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_MODIFIER" Name="Amount" Value="2" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_ONE" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_ONE" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_TWO" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_TWO" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_THR" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_THR" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_FHR" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_FHR" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_FIV" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_FIV" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_SIX" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_SIX" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_SEV" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_SEV" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_EIG" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_EIG" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_NIN" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_NIN" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_TEN" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_TEN" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_ELE" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_ELE" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_TWE" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_TWE" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_THI" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_THI" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_FRT" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_FRT" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_FVT" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_FVT" Name="Amount" Value="1" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_SXT" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatSovereigns" />
+		<Row ModifierId="POLICY_SOVEREIGNS_BUFFED_CAPITAL_SXT" Name="Amount" Value="1" />
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_CAMPUS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_HOLY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_COMMERCE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_THEATER</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_HARBOR</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_INDUSTRIAL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_AERODROME</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_AQUEDUCT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_NEIGHBORHOOD</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_SPACEPORT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_ENTERTAINMENT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_GOVERNMENT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_WATER_ENTERTAINMENT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_CANAL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_DAM</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row><Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_DIPLOMATIC</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_CAMPUS</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_CAMPUS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_CAMPUS</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_CAPITAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_HOLY</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_HOLY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_HOLY</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_CAPITAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_COMMERCE</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_COMMERCE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_COMMERCE</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_CAPITAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_THEATER</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_THEATER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_THEATER</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_CAPITAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_HARBOR</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_HARBOR</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_HARBOR</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_CAPITAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_INDUSTRIAL</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_INDUSTRIAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_INDUSTRIAL</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_CAPITAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_AERODROME</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_AERODROME</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_AERODROME</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_CAPITAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_AQUEDUCT</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_AQUEDUCT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_AQUEDUCT</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_CAPITAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_NEIGHBORHOOD</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_NEIGHBORHOOD</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_NEIGHBORHOOD</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_CAPITAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_SPACEPORT</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_SPACEPORT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_SPACEPORT</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_CAPITAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_ENTERTAINMENT</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_ENTERTAINMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_ENTERTAINMENT</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_CAPITAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_GOVERNMENT</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_GOVERNMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_GOVERNMENT</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_CAPITAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_WATER_ENTERTAINMENT</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_WATER_ENTERTAINMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_WATER_ENTERTAINMENT</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_CAPITAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_CANAL</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_CANAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_CANAL</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_CAPITAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_DAM</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_DAM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_DAM</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_CAPITAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_DIPLOMATIC</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_DIPLOMATIC</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_REQ_LKY_CITY_HAS_DISTRICT_DIPLOMATIC</RequirementSetId>
+			<RequirementId>PLATI_LKY_REQUIREMENT_CAPITAL</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_CAPITAL</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_CAMPUS</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_HOLY</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_COMMERCE</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_THEATER</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_HARBOR</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_INDUSTRIAL</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_AERODROME</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_AQUEDUCT</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_NEIGHBORHOOD</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_SPACEPORT</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_ENTERTAINMENT</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_GOVERNMENT</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_WATER_ENTERTAINMENT</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_CANAL</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_DAM</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_DIPLOMATIC</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_CAPITAL</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PALACE</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_CAMPUS</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_HOLY</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_COMMERCE</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_THEATER</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_HARBOR</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HARBOR</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_INDUSTRIAL</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_AERODROME</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AERODROME</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_AQUEDUCT</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AQUEDUCT</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_NEIGHBORHOOD</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_NEIGHBORHOOD</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_SPACEPORT</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_SPACEPORT</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_ENTERTAINMENT</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENTERTAINMENT_COMPLEX</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_GOVERNMENT</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_GOVERNMENT</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_WATER_ENTERTAINMENT</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_WATER_ENTERTAINMENT_COMPLEX</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_CANAL</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CANAL</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_DAM</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_DAM</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_LKY_REQUIREMENT_DIPLOMATIC</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_DIPLOMATIC_QUARTER</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>
+

@@ -1,0 +1,2 @@
+-- You can copy and customize parameters from AutoBuilders_Settings.sql here. 
+-- It will overwrite default settings.

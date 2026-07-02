@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Khmer -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/30/2023 9:26:09 AM -->
+<GameData>
+	<BuildingModifiers>
+		<!--吴哥窟-->
+		<Row>
+			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
+			<ModifierId>ANGKOR_WAT_ADJUST_SINGLE_CITY_INDUSTRIAL_ZONE_YIELD_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
+			<ModifierId>ANGKOR_WAT_ADJUST_SINGLE_CITY_HOLY_SITE_YIELD_EWHO</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
+			<ModifierId>ANGKOR_WAT_ADJUST_CITY_WITH_15_POPULATION_AMENITY_ATTACH_EWHO</ModifierId>
+		</Row>
+		
+
+	</BuildingModifiers>
+
+	<Modifiers>
+		<!--吴哥窟-->
+		<Row>
+			<ModifierId>ANGKOR_WAT_ADJUST_SINGLE_CITY_INDUSTRIAL_ZONE_YIELD_EWHO</ModifierId>
+			<ModifierType>MODIFIER_CITY_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_KHMER_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>DISTRICT_IS_INDUSTRIAL_ZONE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ANGKOR_WAT_ADJUST_SINGLE_CITY_HOLY_SITE_YIELD_EWHO</ModifierId>
+			<ModifierType>MODIFIER_CITY_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_KHMER_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>ANGKOR_WAT_ADJUST_CITY_WITH_15_POPULATION_AMENITY_ATTACH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_KHMER_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_CITY_HAS_15_POPULATION_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ANGKOR_WAT_ADJUST_CITY_WITH_15_POPULATION_AMENITY_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_ENTERTAINMENT</ModifierType>
+		</Row>
+		
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ANGKOR_WAT_ADJUST_SINGLE_CITY_INDUSTRIAL_ZONE_YIELD_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>ANGKOR_WAT_ADJUST_SINGLE_CITY_INDUSTRIAL_ZONE_YIELD_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>ANGKOR_WAT_ADJUST_SINGLE_CITY_HOLY_SITE_YIELD_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>ANGKOR_WAT_ADJUST_SINGLE_CITY_HOLY_SITE_YIELD_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>ANGKOR_WAT_ADJUST_CITY_WITH_15_POPULATION_AMENITY_ATTACH_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>ANGKOR_WAT_ADJUST_CITY_WITH_15_POPULATION_AMENITY_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>ANGKOR_WAT_ADJUST_CITY_WITH_15_POPULATION_AMENITY_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_PLAYER_IS_KHMER_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_CITY_HAS_15_POPULATION_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+			
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_KHMER_EWHO" RequirementId="PLAYER_IS_KHMER_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_KHMER_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+		
+		<Row RequirementSetId="REQSET_CITY_HAS_15_POPULATION_EWHO" RequirementId="REQUIRES_CITY_HAS_15_POPULATION_EWHO"/>	
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row RequirementId="PLAYER_IS_KHMER_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+
+	</Requirements>
+
+	<RequirementArguments>
+		<Row RequirementId="PLAYER_IS_KHMER_EWHO" Name="CivilizationType" Value="CIVILIZATION_KHMER"/>
+
+	</RequirementArguments>
+
+	<TraitModifiers>
+		<!--吴哥窟-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_KHMER_BARAYS</TraitType>
+			<ModifierId>CIVILIZATION_KHMER_ADJUST_ANGKOR_WAT_PRODUCTION_EWHO</ModifierId>
+		</Row>
+
+	</TraitModifiers>
+
+	<Modifiers>
+		<!--吴哥窟-->
+		<Row>
+			<ModifierId>CIVILIZATION_KHMER_ADJUST_ANGKOR_WAT_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_KHMER_EWHO</OwnerRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<!--吴哥窟-->
+		<Row>
+			<ModifierId>CIVILIZATION_KHMER_ADJUST_ANGKOR_WAT_PRODUCTION_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_ANGKOR_WAT</Value>
+		</Row>
+		<Row>
+			<ModifierId>CIVILIZATION_KHMER_ADJUST_ANGKOR_WAT_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

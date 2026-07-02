@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8551829d-4619-4442-b5b3-c97cf8ff1c18" version="1">
+  <Properties>
+    <Name>MOD_OPHIDY_WS_NAME</Name>
+    <Description>MOD_OPHIDY_WS_DESCRIPTION</Description>
+    <Created>1695109506</Created>
+    <Teaser>MOD_OPHIDY_WS_TEASER</Teaser>
+    <Authors>Ophidy</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="MOD_OPHIDY_WS_NAME">
+      <en_US>Ophidy's [COLOR:Civ6Yellow]Start by Wonders[ENDCOLOR]</en_US>
+      <zh_Hans_CN>Ophidy's [COLOR:Civ6Yellow]自订奇观开局[ENDCOLOR]</zh_Hans_CN>
+    </Text>
+    <Text id="MOD_OPHIDY_WS_DESCRIPTION">
+      <en_US>Start by Wonders</en_US>
+      <zh_Hans_CN>自订奇观开局</zh_Hans_CN>
+    </Text>
+    <Text id="MOD_OPHIDY_WS_TEASER">
+      <en_US>Start by Wonders</en_US>
+      <zh_Hans_CN>自订奇观开局</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <Dependencies>
+    	<Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="Mod_excluded">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse inverse="1">2dfda52d-ba57-449e-a616-7616294c0b8b</ModInUse> 
+	  <ModInUse inverse="1">c88cba8b-8311-4d35-90c3-51a4a5d66550</ModInUse> 
+    </Criteria>
+	<Criteria id="GAMEMODE_WS">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_WS</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <ModInUse inverse="1">2dfda52d-ba57-449e-a616-7616294c0b8b</ModInUse> 
+	  <ModInUse inverse="1">c88cba8b-8311-4d35-90c3-51a4a5d66550</ModInUse> 
+    </Criteria>
+	<!--supoort-->
+	<Criteria id="Mod_Support_HD">
+	  <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+	  <ModInUse>521b8777-0977-4859-a5ee-3e411a732e5c</ModInUse>
+	</Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="WS_UpdateDatabase_FE">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Core/WS_Config.sql</File>
+      <File>Core/WS_Gamemode.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="WS_UpdateText_FE">
+      <File>Text/WS_Text.xml</File>
+      <File>Text/WS_Text_GM.xml</File>
+    </UpdateText>
+    <UpdateIcons id="WS_UpdateIcons_FE">
+      <File>Core/WS_Gamemode_Texture.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="WS_UpdateArt_FE">
+      <File>MOD_OPHIDY_WS_NAME.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+	<!-- Vanilla -->
+    <ImportFiles id="WS_NaturalWonderGenerator" criteria="Mod_excluded">
+      <Properties>
+        <LoadOrder>20000</LoadOrder>
+      </Properties>
+      <File>Script/NaturalWonderGenerator.lua</File>
+    </ImportFiles>
+    <ImportFiles id="WS_AssignStartingPlots" criteria="GAMEMODE_WS">
+	<Properties>
+        <LoadOrder>20000</LoadOrder>
+     </Properties>
+      <File>Script/AssignStartingPlots.lua</File>
+    </ImportFiles>
+    <UpdateDatabase id="WS_UpdateDatabase" criteria="Mod_excluded">
+      <Properties>
+        <LoadOrder>20000</LoadOrder>
+      </Properties>
+      <File>Core/WS_Replace.sql</File>
+      <File>Core/WS_Gamemode.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="WS_UpdateIcons">
+      <File>Core/WS_Gamemode_Texture.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="WS_UpdateArt">
+      <File>MOD_OPHIDY_WS_NAME.dep</File>
+    </UpdateArt>
+    <UpdateText id="WS_UpdateText">
+      <File>Text/WS_Text.xml</File>
+      <File>Text/WS_Text_GM.xml</File>
+    </UpdateText>
+	<!-- Mod Support -->
+	<ImportFiles id="HD_NaturalWonderGenerator" criteria="Mod_Support_HD">
+      <Properties>
+        <LoadOrder>16001</LoadOrder>
+      </Properties>
+      <File>Script/NaturalWonderGenerator.lua</File>
+    </ImportFiles>
+  </InGameActions>
+  <Files>
+	<File>Mod_Support/HD/NaturalWonderGenerator.lua</File>
+    <File>Core/WS_Config.sql</File>
+    <File>Core/WS_Gamemode.sql</File>
+    <File>Core/WS_Gamemode_Texture.xml</File>
+    <File>Core/WS_Replace.sql</File>
+    <File>MOD_OPHIDY_WS_NAME.dep</File>
+    <File>Platforms/MacOS/BLPs/WSTexture.blp</File>
+    <File>Platforms/Windows/BLPs/WSTexture.blp</File>
+    <File>Script/NaturalWonderGenerator.lua</File>
+	<File>Script/AssignStartingPlots.lua</File>
+    <File>Script/WS_Script.lua</File>
+    <File>Text/WS_Text.xml</File>
+    <File>Text/WS_Text_GM.xml</File>
+    <File>XLPs/WSTexture.xlp</File>
+  </Files>
+</Mod>

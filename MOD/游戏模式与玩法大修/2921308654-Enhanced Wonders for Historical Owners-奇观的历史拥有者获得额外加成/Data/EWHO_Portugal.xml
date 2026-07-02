@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Portugal -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 2/19/2023 10:59:46 PM -->
+<GameData>
+	<BuildingModifiers>
+		<!--贝伦塔-->
+		<Row>
+			<BuildingType>BUILDING_TORRE_DE_BELEM</BuildingType>
+			<ModifierId>TORRE_DE_BELEM_ADJUST_TRADE_ROUTE_CAPACITY_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TORRE_DE_BELEM</BuildingType>
+			<ModifierId>TORRE_DE_BELEM_ADJUST_HARBOR_TRADE_DOMESTIC_GOLD_ATTACH_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TORRE_DE_BELEM</BuildingType>
+			<ModifierId>TORRE_DE_BELEM_ADJUST_HARBOR_TRADE_DOMESTIC_GOLD_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TORRE_DE_BELEM</BuildingType>
+			<ModifierId>TORRE_DE_BELEM_ADJUST_HARBOR_TRADE_INTERNATIONAL_GOLD_ATTACH_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TORRE_DE_BELEM</BuildingType>
+			<ModifierId>TORRE_DE_BELEM_ADJUST_HARBOR_TRADE_INTERNATIONAL_GOLD_EWHO</ModifierId>
+		</Row>
+
+	</BuildingModifiers>
+
+	<Modifiers>
+		<!--贝伦塔-->
+		<Row>
+			<ModifierId>TORRE_DE_BELEM_ADJUST_TRADE_ROUTE_CAPACITY_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_PORTUGAL_EWHO</OwnerRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>TORRE_DE_BELEM_ADJUST_HARBOR_TRADE_DOMESTIC_GOLD_ATTACH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ATTACH_MODIFIER_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_PORTUGAL_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_DISTRICT_IS_HARBOR_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TORRE_DE_BELEM_ADJUST_HARBOR_TRADE_DOMESTIC_GOLD_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_PORTUGAL_EWHO</OwnerRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>TORRE_DE_BELEM_ADJUST_HARBOR_TRADE_INTERNATIONAL_GOLD_ATTACH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ATTACH_MODIFIER_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_PORTUGAL_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_DISTRICT_IS_HARBOR_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TORRE_DE_BELEM_ADJUST_HARBOR_TRADE_INTERNATIONAL_GOLD_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_PORTUGAL_EWHO</OwnerRequirementSetId>
+		</Row>
+
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TORRE_DE_BELEM_ADJUST_TRADE_ROUTE_CAPACITY_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TORRE_DE_BELEM_ADJUST_HARBOR_TRADE_DOMESTIC_GOLD_ATTACH_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TORRE_DE_BELEM_ADJUST_HARBOR_TRADE_DOMESTIC_GOLD_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>TORRE_DE_BELEM_ADJUST_HARBOR_TRADE_DOMESTIC_GOLD_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TORRE_DE_BELEM_ADJUST_HARBOR_TRADE_DOMESTIC_GOLD_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TORRE_DE_BELEM_ADJUST_HARBOR_TRADE_INTERNATIONAL_GOLD_ATTACH_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TORRE_DE_BELEM_ADJUST_HARBOR_TRADE_INTERNATIONAL_GOLD_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>TORRE_DE_BELEM_ADJUST_HARBOR_TRADE_INTERNATIONAL_GOLD_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TORRE_DE_BELEM_ADJUST_HARBOR_TRADE_INTERNATIONAL_GOLD_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_PLAYER_IS_PORTUGAL_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_PORTUGAL_EWHO" RequirementId="PLAYER_IS_PORTUGAL_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_PORTUGAL_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<!--PORTUGAL-->
+		<Row RequirementId="PLAYER_IS_PORTUGAL_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+
+	</Requirements>
+
+	<RequirementArguments>
+		<!--PORTUGAL-->
+		<Row RequirementId="PLAYER_IS_PORTUGAL_EWHO" Name="CivilizationType" Value="CIVILIZATION_PORTUGAL"/>
+
+	</RequirementArguments>
+
+	<TraitModifiers>
+		<!--贝伦塔-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_PORTUGAL</TraitType>
+			<ModifierId>CIVILIZATION_PORTUGAL_ADJUST_TORRE_DE_BELEM_PRODUCTION_EWHO</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<Modifiers>
+		<!--贝伦塔-->
+		<Row>
+			<ModifierId>CIVILIZATION_PORTUGAL_ADJUST_TORRE_DE_BELEM_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_PORTUGAL_EWHO</OwnerRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<!--贝伦塔-->
+		<Row>
+			<ModifierId>CIVILIZATION_PORTUGAL_ADJUST_TORRE_DE_BELEM_PRODUCTION_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_TORRE_DE_BELEM</Value>
+		</Row>
+		<Row>
+			<ModifierId>CIVILIZATION_PORTUGAL_ADJUST_TORRE_DE_BELEM_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

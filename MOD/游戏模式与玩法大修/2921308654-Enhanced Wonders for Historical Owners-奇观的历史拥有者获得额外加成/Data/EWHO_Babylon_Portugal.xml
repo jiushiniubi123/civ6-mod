@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Babylon_Portugal -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/18/2023 6:21:26 PM -->
+<GameData>
+	<BuildingModifiers>
+		<!--埃特曼安吉神庙-->
+		<Row>
+			<BuildingType>BUILDING_ETEMENANKI</BuildingType>
+			<ModifierId>ETEMENANKI_GRANT_TECHNOLOGY_BOOST_EWHO</ModifierId>
+		</Row>
+
+	</BuildingModifiers>
+
+	<Modifiers>
+		<!--埃特曼安吉神庙-->
+		<Row>
+			<ModifierId>ETEMENANKI_GRANT_TECHNOLOGY_BOOST_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_BY_ERA</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_BABYLON_STK_EWHO</OwnerRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ETEMENANKI_GRANT_TECHNOLOGY_BOOST_EWHO</ModifierId>
+			<Name>StartEraType</Name>
+			<Value>ERA_ANCIENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>ETEMENANKI_GRANT_TECHNOLOGY_BOOST_EWHO</ModifierId>
+			<Name>EndEraType</Name>
+			<Value>ERA_MEDIEVAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>ETEMENANKI_GRANT_TECHNOLOGY_BOOST_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+
+	<TraitModifiers>
+		<!--埃特曼安吉神庙-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_BABYLON</TraitType>
+			<ModifierId>CIVILIZATION_BABYLON_ADJUST_ETEMENANKI_PRODUCTION_EWHO</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<Modifiers>
+		<!--埃特曼安吉神庙-->
+		<Row>
+			<ModifierId>CIVILIZATION_BABYLON_ADJUST_ETEMENANKI_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_BABYLON_STK_EWHO</OwnerRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<!--埃特曼安吉神庙-->
+		<Row>
+			<ModifierId>CIVILIZATION_BABYLON_ADJUST_ETEMENANKI_PRODUCTION_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_ETEMENANKI</Value>
+		</Row>
+		<Row>
+			<ModifierId>CIVILIZATION_BABYLON_ADJUST_ETEMENANKI_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
+	
+</GameData>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Maps>
+		<!-- New Maps -->
+		<Row Domain="Maps:Expansion1Maps" File="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/Europe.Civ6Map" Name="LOC_MAP_EUROPE_NAME" Description="LOC_MAP_EUROPE_DESCRIPTION" Image="Map_Europe" StaticMap="1" RequiresUniqueLeaders="0" SortIndex="1010"/>
+		<Row Domain="Maps:Expansion1Maps" File="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" Name="LOC_TSLEUROPE_NAME" Description="LOC_TSLEUROPE_DESCRIPTION" Image="Map_TrueStartEurope" StaticMap="1" RequiresUniqueLeaders="1" SortIndex="1020"/>
+		<!-- Expansion 2 Support -->
+		<Row Domain="Maps:Expansion2Maps" File="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/Europe_XP2.Civ6Map" Name="LOC_MAP_EUROPE_NAME" Description="LOC_MAP_EUROPE_DESCRIPTION" Image="Map_Europe" StaticMap="1" RequiresUniqueLeaders="0" SortIndex="1010"/>
+		<Row Domain="Maps:Expansion2Maps" File="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Name="LOC_TSLEUROPE_NAME" Description="LOC_TSLEUROPE_DESCRIPTION" Image="Map_TrueStartEurope" StaticMap="1" RequiresUniqueLeaders="1" SortIndex="1020"/>
+	</Maps>
+	<MapSizes>
+		<Row Domain="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/Europe.Civ6Map" MapSizeType="MAPSIZE_STANDARD" Name="LOC_MAPSIZE_STANDARD_NAME" Description="LOC_MAPSIZE_STANDARD_DESCRIPTION" MinPlayers="2" MaxPlayers="8" DefaultPlayers="8" MinCityStates="0" MaxCityStates="12" DefaultCityStates="12" SortIndex="10"/>
+		<Row Domain="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" MapSizeType="MAPSIZE_STANDARD" Name="LOC_MAPSIZE_STANDARD_NAME" Description="LOC_MAPSIZE_STANDARD_DESCRIPTION" MinPlayers="2" MaxPlayers="8" DefaultPlayers="8" MinCityStates="0" MaxCityStates="9" DefaultCityStates="9" SortIndex="10"/>
+		<Row Domain="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/Europe_XP2.Civ6Map" MapSizeType="MAPSIZE_STANDARD" Name="LOC_MAPSIZE_STANDARD_NAME" Description="LOC_MAPSIZE_STANDARD_DESCRIPTION" MinPlayers="2" MaxPlayers="8" DefaultPlayers="8" MinCityStates="0" MaxCityStates="12" DefaultCityStates="12" SortIndex="10"/>
+		<Row Domain="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" MapSizeType="MAPSIZE_STANDARD" Name="LOC_MAPSIZE_STANDARD_NAME" Description="LOC_MAPSIZE_STANDARD_DESCRIPTION" MinPlayers="2" MaxPlayers="8" DefaultPlayers="8" MinCityStates="0" MaxCityStates="9" DefaultCityStates="9" SortIndex="10"/>
+	</MapSizes>
+	<MapDomainOverrides>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/Europe.Civ6Map" ParameterId="MapSize" Domain="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/Europe.Civ6Map"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" ParameterId="MapSize" Domain="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/Europe_XP2.Civ6Map" ParameterId="MapSize" Domain="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/Europe_XP2.Civ6Map"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" ParameterId="MapSize" Domain="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map"/>
+	</MapDomainOverrides>
+	<MapLeaders>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" LeaderType="RANDOM"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" LeaderType="RANDOM_POOL1"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" LeaderType="RANDOM_POOL2"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" LeaderType="LEADER_ALEXANDER"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" LeaderType="LEADER_BARBAROSSA"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" LeaderType="LEADER_CATHERINE_DE_MEDICI"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" LeaderType="LEADER_GORGO"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" LeaderType="LEADER_HARDRADA"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" LeaderType="LEADER_JADWIGA"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" LeaderType="LEADER_PERICLES"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" LeaderType="LEADER_PETER_GREAT"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" LeaderType="LEADER_PHILIP_II"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" LeaderType="LEADER_ROBERT_THE_BRUCE"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" LeaderType="LEADER_TAMAR"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" LeaderType="LEADER_TOMYRIS"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" LeaderType="LEADER_TRAJAN"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" LeaderType="LEADER_VICTORIA"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" LeaderType="LEADER_WILHELMINA"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="RANDOM"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="RANDOM_POOL1"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="RANDOM_POOL2"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_ALEXANDER"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_BARBAROSSA"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_CATHERINE_DE_MEDICI"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_ELEANOR_ENGLAND"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_ELEANOR_FRANCE"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_GORGO"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_HARDRADA"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_JADWIGA"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_KRISTINA"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_MATTHIAS_CORVINUS"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_PERICLES"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_PETER_GREAT"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_PHILIP_II"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_ROBERT_THE_BRUCE"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_SULEIMAN"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_TAMAR"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_TOMYRIS"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_TRAJAN"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_VICTORIA"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_WILHELMINA"/>
+		
+		<!-- Expansion 1 Leaders -->
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" LeaderType="LEADER_CHANDRAGUPTA"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" LeaderType="LEADER_GENGHIS_KHAN"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" LeaderType="LEADER_LAUTARO"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" LeaderType="LEADER_POUNDMAKER"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" LeaderType="LEADER_ROBERT_THE_BRUCE"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" LeaderType="LEADER_SEONDEOK"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" LeaderType="LEADER_SHAKA"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" LeaderType="LEADER_TAMAR"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" LeaderType="LEADER_WILHELMINA"/>
+		
+		<Row Map="../../Assets/Maps/EarthMaps/TSLMediterraneanLarge.Civ6Map" LeaderType="LEADER_TAMAR"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" LeaderType="LEADER_CHANDRAGUPTA"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" LeaderType="LEADER_GENGHIS_KHAN"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" LeaderType="LEADER_LAUTARO"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" LeaderType="LEADER_POUNDMAKER"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" LeaderType="LEADER_ROBERT_THE_BRUCE"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" LeaderType="LEADER_SEONDEOK"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" LeaderType="LEADER_SHAKA"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" LeaderType="LEADER_TAMAR"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" LeaderType="LEADER_WILHELMINA"/>
+	</MapLeaders>
+	
+	
+	<MapSupportedValues>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_BUENOS_AIRES" />
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_CARTHAGE" />
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_HATTUSA" />
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_HONG_KONG" />
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_JAKARTA" />
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_KABUL" />
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_KUMASI" />
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_LA_VENTA" />
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_NAN_MADOL" />
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_SEOUL" />
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_TORONTO" />
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_ZANZIBAR" />
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_RAPA_NUI"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_AUCKLAND"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_ANTANANARIVO"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_ARMAGH"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_GRANADA"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_MUSCAT"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_PALENQUE"/>
+	
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_BRUSSELS"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_BUENOS_AIRES"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_GENEVA"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_HATTUSA"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_HONG_KONG"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_JAKARTA"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_JERUSALEM"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_KABUL"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_KANDY"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_KUMASI"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_LA_VENTA"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_LISBON"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_MOHENJO_DARO"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_NAN_MADOL"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_PRESLAV"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_VALLETTA"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_VILNIUS"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_YEREVAN"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_ZANZIBAR"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_ANTIOCH" />
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_VATICAN_CITY"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_CAGUANA"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_SINGAPORE"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_LAHORE"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_TARUGA"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_HUNZA"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_AYUTTHAYA"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_CHINGUETTI"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_JOHANNESBURG"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_NALANDA"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_SAMARKAND"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_WOLIN"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_RAPA_NUI"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_AUCKLAND"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_ANTANANARIVO"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_ARMAGH"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_GRANADA"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_MUSCAT"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_PALENQUE"/>
+		
+		<Row Map="../../Assets/Maps/EarthMaps/TSLMediterraneanLarge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_ANTIOCH"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLMediterraneanLarge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_BRUSSELS"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLMediterraneanLarge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_GENEVA"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLMediterraneanLarge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_HATTUSA"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLMediterraneanLarge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_JERUSALEM"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLMediterraneanLarge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_PRESLAV"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLMediterraneanLarge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_VALLETTA"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLMediterraneanLarge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_VATICAN_CITY"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLMediterraneanLarge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_YEREVAN"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLMediterraneanLarge.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_GRANADA"/>
+		
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_ANTIOCH" />
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_CARTHAGE" />
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_GENEVA" />
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_HATTUSA" />
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_PRESLAV" />
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_STOCKHOLM" />
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_VALLETTA" />
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_VILNIUS" />
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_YEREVAN" />
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_GRANADA" />
+		
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_ANTIOCH" />
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_ARMAGH" />
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_BOLOGNA" />
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_CARDIFF" />
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_CARTHAGE" />
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_GENEVA" />
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_GRANADA" />
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_HATTUSA" />
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_PRESLAV" />
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_VALLETTA" />
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_VILNIUS" />
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_YEREVAN" />
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_GRANADA" />
+	</MapSupportedValues>
+
+	
+	<MapStartPositions>
+		<!-- Expansion 1 Leaders -->
+		<Row Map="../../Assets/Maps/EarthMaps/TSLMediterraneanLarge.Civ6Map" Plot="3261" Type="LEADER" Value="LEADER_TAMAR"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Plot="4902" Type="LEADER" Value="LEADER_CHANDRAGUPTA"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Plot="6209" Type="LEADER" Value="LEADER_GENGHIS_KHAN"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Plot="1594" Type="LEADER" Value="LEADER_LAUTARO"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Plot="6913" Type="LEADER" Value="LEADER_POUNDMAKER"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Plot="7080" Type="LEADER" Value="LEADER_ROBERT_THE_BRUCE"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Plot="5569" Type="LEADER" Value="LEADER_SEONDEOK"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Plot="2282" Type="LEADER" Value="LEADER_SHAKA"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Plot="5926" Type="LEADER" Value="LEADER_TAMAR"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Plot="6693" Type="LEADER" Value="LEADER_WILHELMINA"/>		
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Plot="6176" Type="LEADER" Value="LEADER_MINOR_CIV_ANTIOCH"/>
+	</MapStartPositions>
+	<ParameterDependencies>
+		<Row ParameterId="Resources" ConfigurationGroup="Map" ConfigurationId="MAP_SCRIPT" Operator="NotEquals" ConfigurationValue="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/Europe.Civ6Map"/>
+		<Row ParameterId="StartPosition" ConfigurationGroup="Map" ConfigurationId="MAP_SCRIPT" Operator="NotEquals" ConfigurationValue="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/Europe.Civ6Map"/>
+		<Row ParameterId="Resources" ConfigurationGroup="Map" ConfigurationId="MAP_SCRIPT" Operator="NotEquals" ConfigurationValue="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map"/>
+		<Row ParameterId="StartPosition" ConfigurationGroup="Map" ConfigurationId="MAP_SCRIPT" Operator="NotEquals" ConfigurationValue="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard.Civ6Map"/>
+		<Row ParameterId="Resources" ConfigurationGroup="Map" ConfigurationId="MAP_SCRIPT" Operator="NotEquals" ConfigurationValue="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/Europe_XP2.Civ6Map"/>
+		<Row ParameterId="StartPosition" ConfigurationGroup="Map" ConfigurationId="MAP_SCRIPT" Operator="NotEquals" ConfigurationValue="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/Europe_XP2.Civ6Map"/>
+		<Row ParameterId="Resources" ConfigurationGroup="Map" ConfigurationId="MAP_SCRIPT" Operator="NotEquals" ConfigurationValue="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map"/>
+		<Row ParameterId="StartPosition" ConfigurationGroup="Map" ConfigurationId="MAP_SCRIPT" Operator="NotEquals" ConfigurationValue="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map"/>
+	</ParameterDependencies>
+</GameInfo>

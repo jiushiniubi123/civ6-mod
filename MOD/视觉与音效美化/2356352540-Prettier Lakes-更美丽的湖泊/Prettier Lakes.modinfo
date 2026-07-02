@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="73244534-3044-4ffb-b82c-f06b93240ae3" version="1">
+  <Properties>
+    <Name>Prettier Lakes</Name>
+    <Description>Improved retextures for Lakes, Oases, and some Natural Wonders.</Description>
+    <Created>1610222006</Created>
+    <Teaser>Improved retextures for Lakes, Oases, and some Natural Wonders.</Teaser>
+    <Authors>p0kiehl</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateArt id="Art">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>PrettierLakes.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Features.artdef</File>
+    <File>Materials/Water/DeadSea.mtl</File>
+    <File>Materials/Water/Lake.mtl</File>
+    <File>Materials/Water/Opaque.mtl</File>
+    <File>Materials/Water/Pink.mtl</File>
+    <File>Materials/Water/River.mtl</File>
+    <File>Materials/Water/RiverSource.mtl</File>
+    <File>Materials/Water/Suk_Baray_Water.mtl</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_WaterCoast_Density_DarkMap_0x105534d8</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_WaterCoast_Density_DarkMap_0x1cc32115</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_WaterCoast_Density_DarkMap_0xade33b95</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_WaterCoast_Density_ScatterMap_0x105534d8</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_WaterCoast_Density_ScatterMap_0x1cc32115</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_WaterCoast_Density_ScatterMap_0xade33b95</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_WaterPink_Density_DarkMap_0x14774de5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_WaterPink_Density_ScatterMap_0x14774de5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_WaterTropical_Density_DarkMap_0x3a7d0b55</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_WaterTropical_Density_ScatterMap_0x3a7d0b55</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_Water_Bumps_Small_Lean0_0x4389a925</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_Water_Bumps_Small_Lean0_0x9be17165</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_Water_Bumps_Small_Lean1_0x4389a925</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_Water_Bumps_Small_Lean1_0x9be17165</File>
+    <File>Platforms/MacOS/BLPs/Water.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_WaterCoast_Density_DarkMap_0x105534d8</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_WaterCoast_Density_DarkMap_0x1cc32115</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_WaterCoast_Density_DarkMap_0xade33b95</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_WaterCoast_Density_ScatterMap_0x105534d8</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_WaterCoast_Density_ScatterMap_0x1cc32115</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_WaterCoast_Density_ScatterMap_0xade33b95</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_WaterPink_Density_DarkMap_0x14774de5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_WaterPink_Density_ScatterMap_0x14774de5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_WaterTropical_Density_DarkMap_0x3a7d0b55</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_WaterTropical_Density_ScatterMap_0x3a7d0b55</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_Water_Bumps_Small_Lean0_0x4389a925</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_Water_Bumps_Small_Lean0_0x9be17165</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_Water_Bumps_Small_Lean1_0x4389a925</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_Water_Bumps_Small_Lean1_0x9be17165</File>
+    <File>Platforms/Windows/BLPs/Water.blp</File>
+    <File>PrettierLakes.dep</File>
+    <File>Textures/TER_WaterPink_Density.dds</File>
+    <File>Textures/TER_WaterPink_Density.tex</File>
+    <File>Textures/TER_WaterPink_Scatter.dds</File>
+    <File>Textures/TER_WaterPink_Scatter.tex</File>
+    <File>XLPs/Water.xlp</File>
+  </Files>
+</Mod>

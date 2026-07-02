@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is vanilla file with some modifications by Zur13 -->
+<Context Style="FontNormal16">
+
+	<AlphaAnim ID="SearchSuggestionsTimer" Begin="0" End="1" Speed="4" Cycle="Once" Stopped="1"/>
+	
+	<!-- Map Search List Panel -->
+	<Grid Anchor="L,B" ID="MapSearchPanel" Offset="-100,0" Size="320,auto" Texture="Tracker_OptionsBacking" SliceCorner="55,61" SliceSize="1,1" SliceTextureSize="121,119" ConsumeAllMouse="1" MinSize="121,119" AutoSizePadding="0,15">
+		<Stack Size="parent,auto">
+			<!-- Zur13 changed title text -->
+			<Label Anchor="C,T" String="{LOC_MSE_WINDOW_TITLE:upper}" Offset="-5,12" Style="FontFlair16" Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0"/>
+
+			<Grid ID="SearchSuggestions" Size="parent-88,auto" Offset="0,-6" Anchor="C,T" AnchorSide="I,O" Texture="Controls_DropdownPanel" InnerPadding="6,6" SliceCorner="10,10" SliceTextureSize="22,22" Hidden="1">
+				<Stack ID="SearchSuggestionStack" Anchor="C,C" Size="parent,auto" StackGrowth="Top"/>
+			</Grid>
+			<Grid ID="FilterSuggestions" Size="parent-88,auto" Offset="0,-6" Anchor="C,T" AnchorSide="I,O" Texture="Controls_DropdownPanel" InnerPadding="6,6" SliceCorner="10,10" SliceTextureSize="22,22" Hidden="1">
+				<Stack ID="FilterSuggestionStack" Anchor="C,C" Size="parent,auto" StackGrowth="Top"/>
+			</Grid>
+			
+			<Grid Texture="Controls_Search2" SliceCorner="30,13" SliceTextureSize="41,26" Anchor="L,T" Offset="15,3" Size="parent-70,26" ToolTip="LOC_HUD_MAP_SEARCH_TOOLTIP"> <!--Zur13: Changed Offset="-5,0" to 15,3 Anchor="C,T" to L,T Size="parent-50,26" to parent-70,26 -->
+				<EditBox ID="MapSearchBox" Style="EditTextArea" Size="parent-30,22" Anchor="L,C" Offset="24,0" EditMode="0" FocusStop="0" KeepFocus="1"/>
+				<GridButton			ID="MseRemoveLastWordSearch" Anchor="L,C" Offset="253,0" Size="25,25" Style="ButtonControl" String="LOC_MSE_BTN_REMOVE_LAST_WORD" ToolTip="LOC_MSE_BTN_REMOVE_LAST_WORD_TT" TextOffset="0,0" /> <!--Zur13: Added this button -->
+			</Grid>
+			<Bar ID="ProgressBar" Anchor="C,T" Size="parent-60,1" Offset="-5,0" Direction="Right" FGColor="DarkBlue" Percent="1.0"/>
+			<Grid Texture="Controls_Filter" SliceCorner="30,13" SliceTextureSize="41,26" Anchor="L,T" Offset="15,0" Size="parent-70,26" ToolTip="LOC_HUD_MAP_SEARCH_FILTER_TOOLTIP"> <!--Zur13: Changed Offset="-5,0" to 15,3 Anchor="C,T" to L,T Size="parent-50,26" to parent-70,26 -->
+				<EditBox ID="MapSearchFilterBox" Style="EditTextArea" Size="parent-30,22" Anchor="L,C" Offset="24,0" EditMode="0" FocusStop="1" KeepFocus="1"/>
+				<GridButton			ID="MseRemoveLastWordFilter" Anchor="L,C" Offset="253,0" Size="25,25" Style="ButtonControl" String="LOC_MSE_BTN_REMOVE_LAST_WORD" ToolTip="LOC_MSE_BTN_REMOVE_LAST_WORD_TT" TextOffset="0,0" /> <!--Zur13: Added this button -->
+			</Grid>
+			
+			<!-- Zur13 additional components start -->
+			<CheckBox	ID="MseCBAppend"	Anchor="C,T" 	Offset="0,12"	TextOffset="-5,0" String="LOC_MSE_APPEND"			ToolTip="LOC_MSE_APPEND_TT"				 IsChecked="1"	Style="WhiteSemiBold14" ButtonTexture="Controls_Checkbox.dds"	ButtonSize="17,17" CheckTexture="Controls_Checkbox.dds"	CheckSize="17,17" CheckTextureOffset="0,17" />
+			
+			<Label		String="{LOC_MSE_SEARCH_AREA}"		ToolTip="LOC_MSE_SEARCH_AREA_TT"	Anchor="C,T" Offset="-5,12" Style="FontFlair16" Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0"/>
+			
+			<Container Anchor="L,T" Size="parent-60,auto" Offset="20,10">
+				<CheckBox	ID="MseCBOwnerOthers"	Anchor="R,T" 	Offset="130,0"	TextOffset="-5,0" String="LOC_MSE_SEARCH_AREA_OTHER"			ToolTip="LOC_MSE_SEARCH_AREA_OTHER_TT"				IsChecked="1"	Style="WhiteSemiBold14" ButtonTexture="Controls_Checkbox.dds"	ButtonSize="17,17" CheckTexture="Controls_Checkbox.dds"	CheckSize="17,17" CheckTextureOffset="0,17" />
+				<CheckBox	ID="MseCBOwnerMe"		Anchor="R,T" 	Offset="0,0"	TextOffset="-5,0" String="LOC_MSE_SEARCH_AREA_ME"				ToolTip="LOC_MSE_SEARCH_AREA_ME_TT"					IsChecked="1"	Style="WhiteSemiBold14" ButtonTexture="Controls_Checkbox.dds"	ButtonSize="17,17" CheckTexture="Controls_Checkbox.dds"	CheckSize="17,17" CheckTextureOffset="0,17" />
+			</Container>
+
+			<Container Anchor="L,T" Size="parent-60,auto" Offset="20,10">
+				<CheckBox	ID="MseCBOwnerNone"		Anchor="R,T" 	Offset="130,0"	TextOffset="-5,0" String="LOC_MSE_SEARCH_AREA_NONE"				ToolTip="LOC_MSE_SEARCH_AREA_NONE_TT"				IsChecked="1"	Style="WhiteSemiBold14" ButtonTexture="Controls_Checkbox.dds"	ButtonSize="17,17" CheckTexture="Controls_Checkbox.dds"	CheckSize="17,17" CheckTextureOffset="0,17" />
+				<CheckBox	ID="MseCBPurchasedByMe"	Anchor="R,T" 	Offset="0,0"	TextOffset="-5,0" String="LOC_MSE_SEARCH_AREA_PURCHASED_BY_ME"	ToolTip="LOC_MSE_SEARCH_AREA_PURCHASED_BY_ME_TT"	IsChecked="1"	Style="WhiteSemiBold14" ButtonTexture="Controls_Checkbox.dds"	ButtonSize="17,17" CheckTexture="Controls_Checkbox.dds"	CheckSize="17,17" CheckTextureOffset="0,17" />
+			</Container>
+			
+			<!-- Zur13 additional components end -->
+			
+			<Container Anchor="C,T" Size="parent-50,auto" Offset="-5,10">
+				<Button ID="PrevResultButton" Anchor="L,C" Offset="10,0" Style="ArrowButtonLeft" Disabled="1"/>
+				<Label ID="ResultsLabel" Anchor="C,C" String=""/>
+				<Button ID="NextResultButton" Anchor="R,C" Offset="10,0" Style="ArrowButtonRight" Disabled="1"/>
+			</Container>
+
+			<Container Anchor="C,T" Size="parent-50,auto" Offset="-5,10">
+				<GridButton ID="ClearButton" Anchor="L,C" Offset="10,0" Size="100,30" Style="ButtonControl" String="LOC_HUD_MAP_SEARCH_CLEAR_SEARCH"/>
+				<GridButton	ID="MseSearchOptionsBtn"	Anchor="C,C" Offset="0,0" Size="30,30" Style="ButtonControl" String="LOC_MSE_SEARCH_OPTIONS_BTN" ToolTip="LOC_MSE_SEARCH_OPTIONS_BTN_TT" TextOffset="0,0" /> <!--Zur13: Added this button -->
+				<GridButton ID="SearchButton" Anchor="R,C" Offset="10,0" Size="100,30" Style="ButtonControl" String="LOC_HUD_MAP_SEARCH_BEGIN_SEARCH"/>
+			</Container>
+		</Stack>
+		
+		<Image Texture="Controls_ButtonExtendSmall" TextureOffset="0,60" Size="20,20" Anchor="L,B" Offset="120,10"/>
+	</Grid>
+
+	
+	
+	<!-- ==================================================================== -->
+	<!--  MSE SELECTOR                                                        -->
+	<!-- ==================================================================== -->
+	<Grid Anchor="L,B" ID="ExtendedMapSearchPanelSelection"		Offset="205,0" Size="80,auto" Texture="Tracker_OptionsBacking" SliceCorner="55,61" SliceSize="1,1" SliceTextureSize="121,119" ConsumeAllMouse="1" MinSize="80,119" AutoSizePadding="0,15">
+		<Stack Size="parent,auto">
+			<GridButton			ID="MSEBtnSelSearchBar"	Anchor="C,C"		Size="40,42"		Offset="-5,6"											 Style="TabButton">
+				<Image		ID=""					Anchor="C,C"		Size="27,27"		Offset="-1,1"	ToolTip="LOC_MSE_EXT_SEL_DEST_SEARCH_TT"	Color="146,133,109,255" Texture="MySearchIcon.dds"  StretchMode="Uniform"	/>
+			</GridButton>
+			<GridButton			ID="MSEBtnSelFilterBar"	Anchor="C,C"		Size="40,42"		Offset="-5,6"											 Style="TabButton">
+				<Image		ID=""					Anchor="C,C"		Size="27,27"		Offset="0,2"	ToolTip="LOC_MSE_EXT_SEL_DEST_FILTER_TT"	Color="146,133,109,255" Texture="MyFilterIcon.dds"  StretchMode="Fill"	/>
+			</GridButton>
+			
+			<Button			ID="MSEBtnSelRes"		Anchor="C,C"		Size="40,40"		Offset="-5,10"	Texture="LaunchBar_Hook_ButtonSmall.dds" Style="ButtonDisabledText">
+				<Image		ID=""					Anchor="C,C"		Size="27,27"		Offset="-1,-1"	ToolTip="LOC_MSE_EXT_SEL_RESOURCE_TT"	Color="146,133,109,255" Icon="ICON_RESOURCES"  />
+			</Button>
+
+			<Button			ID="MSEBtnSelCivil"		Anchor="C,C"		Size="40,40"		Offset="-5,3"	Texture="LaunchBar_Hook_ButtonSmall.dds" Style="ButtonDisabledText">
+				<Image		ID=""					Anchor="C,C"		Size="27,27"		Offset="-1,-1"	ToolTip="LOC_MSE_EXT_SEL_CIVILIZATION_TT"	Color="146,133,109,255" Icon="ICON_CIVILIZATION_ROME"  />
+			</Button>
+			
+			<Button			ID="MSEBtnSelUnits"		Anchor="C,C"		Size="40,40"		Offset="-5,3"	Texture="LaunchBar_Hook_ButtonSmall.dds" Style="ButtonDisabledText">
+				<Image		ID=""					Anchor="C,C"		Size="27,27"		Offset="-1,-1"	ToolTip="LOC_MSE_EXT_SEL_UNIT_TT"	Color="196,183,159,255" Icon="ICON_UNIT_WARRIOR_PORTRAIT"  />
+			</Button>
+			
+			<Button			ID="MSEBtnSelImpr"		Anchor="C,C"		Size="40,40"		Offset="-5,3"	Texture="LaunchBar_Hook_ButtonSmall.dds" Style="ButtonDisabledText">
+				<Image		ID=""					Anchor="C,C"		Size="27,27"		Offset="-1,-1"	ToolTip="LOC_MSE_EXT_SEL_IMPROVEMENT_TT" Color="146,133,109,255" Icon="ICON_IMPROVEMENT_FARM"  />
+			</Button>
+
+			<Button			ID="MSEBtnSelWond"		Anchor="C,C"		Size="40,40"		Offset="-5,3"	Texture="LaunchBar_Hook_ButtonSmall.dds" Style="ButtonDisabledText">
+				<Image		ID=""					Anchor="C,C"		Size="27,27"		Offset="-1,-1"	ToolTip="LOC_MSE_EXT_SEL_WONDER_TT" Color="206,223,209,255" Icon="ICON_BUILDING_EIFFEL_TOWER"  />
+			</Button>
+
+			<!--<Button			ID="MSEBtnSelCities"	Anchor="C,C"		Size="40,40"		Offset="-5,12"	Texture="LaunchBar_Hook_ButtonSmall.dds" Style="ButtonDisabledText">
+				<Image		ID=""					Anchor="C,C"		Size="27,27"		Offset="-1,-1"	ToolTip="LOC_MSE_EXT_SEL_CITY_TT"	Color="146,133,109,255" Icon="ICON_CIVILOPEDIA_BUILDINGS"  />
+			</Button>-->
+		</Stack>
+	</Grid>
+	
+	<!-- ==================================================================== -->
+	<!--  MSE OPTIONS                                                         -->
+	<!-- ==================================================================== -->
+	<Grid				ID="MSESearchOptions"	Anchor="L,B"	Size="380,auto"		Offset="270,0"	Texture="Tracker_OptionsBacking" SliceCorner="55,61" SliceSize="1,1" SliceTextureSize="121,119" ConsumeAllMouse="1" MinSize="121,119" AutoSizePadding="0,15">
+		<Stack Size="parent,auto">
+			<Label		ID="MseSearchOptionsTitle"		Anchor="C,T"				Offset="-5,12"	String="{LOC_MSE_SEARCH_OPTIONS_WND_TITLE:upper}"	Style="FontFlair16" Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0"/>
+
+			<!--<Container		ID="MSESearchOptionsContColor1"	Anchor="C,T"	Size="parent-50,auto"	Offset="-5,12">
+				<Label		ID="MseSearchOptionsColor1"		Anchor="L,C"							Offset="0,0"	String="LOC_MSE_SEARCH_OPTIONS_COLOR_FILL"	Style="FontFlair18"		Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow"/>
+				
+				<PullDown	ID="MSEColorPD1"				Anchor="L,C"	Size="170,28"			Offset="150,0"	ScrollThreshold="290" SpaceForScroll="15"	Style="PullDownBlue"	ToolTip="LOC_MSE_SEARCH_OPTIONS_COLOR_FILL" AutoSizePopUp="1" AutoFlip="1">
+				
+					<ButtonData>
+						<GridButton		ID="ColorButtonPD1"			String=""		Size="parent,28"	TextAnchor="L,C"	TextOffset="45"			Texture="Controls_ButtonControl"		Style="WhiteSemiBold14" SliceCorner="10,10" SliceSize="1,1" SliceTextureSize="24,24" TruncateWidth="210" StateOffsetIncrement="0,24">
+							<Image		ID="ColorEntryImagePD1"		Anchor="L,C"	Size="24,20"		Offset="5,0"		StretchMode="Fill"		Texture="Controls_KeySwatchHex">
+								<Image	ID="ColorEntryImageBgPD1"		Anchor="C,C"	Size="24,20"		Offset="0,0"		StretchMode="Fill"		Texture="Controls_KeySwatchHex"/>
+								<Image	ID="ColorEntryImageTopPD1"	Anchor="C,C"	Size="23,18"		Offset="0,0"		StretchMode="Fill"		Texture="Controls_KeySwatchHex"/>
+							</Image>
+						</GridButton>
+					</ButtonData>
+
+					<GridData Size="170,auto" AutoSizePadding="6,5" Anchor="C,T" Offset="0,6" AnchorSide="I,O" Texture="Controls_DropdownPanel" SliceCorner="9,9" SliceSize="4,4" SliceTextureSize="22,22"/>
+
+					<ScrollPanelData Anchor="L,T" Vertical="1" AutoScrollBar="1" Style="ScrollPanelWithRightBar">
+						<ScrollBar Style="ScrollVerticalBar" Anchor="R,C" AnchorSide="O,I" Color="28,60,90,255" Offset="1,0">
+							<Thumb Style="ScrollThumbAlt" Color="28,60,90,255" />
+							<UpButton								Anchor="R,T"	AnchorSide="I,I"						Offset="-3,0"	Style="ScrollUpButton" />
+							<DownButton								Anchor="R,B"	AnchorSide="I,I"						Offset="-3,0"	Style="ScrollDownButton" />
+						</ScrollBar>
+					</ScrollPanelData>
+
+					<StackData StackGrowth="Down" Size="170,auto" Anchor="L,T"/>
+					
+					<InstanceData		Name="ColorListEntry1">
+						<GridButton		ID="ColorEntryButton1"	Anchor="L,T"	Size="parent,28"	TextAnchor="L,C"	TextOffset="45"			Texture="Controls_ButtonControl.dds"	Style="WhiteSemiBold14" SliceCorner="10,10" SliceSize="1,1" SliceTextureSize="24,24" StateOffsetIncrement="0,24" TruncateWidth="220">
+							<Image		ID="ColorEntryImage1"	Anchor="L,C"	Size="24,20"		Offset="5,0"		StretchMode="Fill"		Texture="Controls_KeySwatchHex">
+								<Image	ID="ColorEntryImageBg1"	Anchor="C,C"	Size="24,20"		Offset="0,0"		StretchMode="Fill"		Texture="Controls_KeySwatchHex"/>
+								<Image	ID="ColorEntryImageTop1"	Anchor="C,C"	Size="23,18"		Offset="0,0"		StretchMode="Fill"		Texture="Controls_KeySwatchHex"/>
+							</Image>
+						</GridButton>
+					</InstanceData>
+				</PullDown>
+			</Container>-->
+
+			<Label		ID="MseSearchOptionsTitle"		Anchor="C,T"								Offset="-5,12"	String="{LOC_MSE_SEARCH_OPTIONS_COLOR_TITLE:upper}"	Style="FontFlair16" Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0"/>
+			
+			<PullDown	ID="MSEColorPD1"				Anchor="C,T"	Size="330,28"			Offset="-5,6"	ScrollThreshold="390" SpaceForScroll="15"	Style="PullDownBlue"		ToolTip="LOC_MSE_SEARCH_OPTIONS_COLOR_FILL" AutoSizePopUp="1" AutoFlip="0">
+				<ButtonData>
+					<GridButton		ID="ColorButtonPD1"			String=""		Size="parent,28"	TextAnchor="L,C"	TextOffset="45"			Texture="Controls_ButtonControl"		Style="WhiteSemiBold14" SliceCorner="10,10" SliceSize="1,1" SliceTextureSize="24,24" TruncateWidth="210" StateOffsetIncrement="0,24">
+						<Image		ID="ColorEntryImagePD1"		Anchor="L,C"	Size="22,18"		Offset="5,0"		StretchMode="Fill"		Texture="Controls_KeySwatchHex">
+							<Image	ID="ColorEntryImageBgPD1"	Anchor="C,C"	Size="22,18"		Offset="0,0"		StretchMode="Fill"		Texture="Controls_KeySwatchHex"/>
+							<Image	ID="ColorEntryImageTopPD1"	Anchor="C,C"	Size="22,18"		Offset="0,0"		StretchMode="Fill"		Texture="Controls_KeySwatchHex"/>
+						</Image>
+					</GridButton>
+				</ButtonData>
+
+				<GridData 																			Offset="0,6"		AnchorSide="I,O"	AutoSizePadding="6,5" Texture="Controls_DropdownPanel" SliceCorner="9,9" SliceSize="4,4" SliceTextureSize="22,22"/>
+
+				<ScrollPanelData								Anchor="C,C"	Size="12,12"												Style="ScrollPanelWithRightBar" Vertical="1" AutoScrollBar="1" >
+					<ScrollBar									Anchor="R,C"						Offset="1,0"		AnchorSide="O,I"	Style="ScrollVerticalBar"		Color="28,60,90,255" >
+						<UpButton								Anchor="R,T"						Offset="-3,0"		AnchorSide="I,I"	Style="ScrollUpButton" />
+						<DownButton								Anchor="R,B"						Offset="-3,0"		AnchorSide="I,I"	Style="ScrollDownButton" />
+					</ScrollBar>
+				</ScrollPanelData>
+
+				<StackData										Anchor="C,T"						StackGrowth="Down" />
+
+				<InstanceData		Name="ColorListEntry1">
+					<GridButton		ID="Button"					Anchor="L,T"	Size="300,28"		TextAnchor="L,C"	TextOffset="45"			Texture="Controls_ButtonControl.dds"	Style="WhiteSemiBold14" SliceCorner="10,10" SliceSize="1,1" SliceTextureSize="24,24" StateOffsetIncrement="0,24" TruncateWidth="220">
+						<Image		ID="ColorEntryImage1"		Anchor="L,C"	Size="22,18"		Offset="5,0"		StretchMode="Fill"		Texture="Controls_KeySwatchHex">
+							<Image	ID="ColorEntryImageBg1"		Anchor="C,C"	Size="22,18"		Offset="0,0"		StretchMode="Fill"		Texture="Controls_KeySwatchHex"/>
+							<Image	ID="ColorEntryImageTop1"	Anchor="C,C"	Size="22,18"		Offset="0,0"		StretchMode="Fill"		Texture="Controls_KeySwatchHex"/>
+						</Image>
+					</GridButton>
+				</InstanceData>
+			</PullDown>
+			
+			
+			
+			<PullDown	ID="MSEColorPD2"				Anchor="C,T"	Size="330,28"			Offset="-5,6"	ScrollThreshold="390" SpaceForScroll="15"	Style="PullDownBlue"	ToolTip="LOC_MSE_SEARCH_OPTIONS_COLOR_BORDER1" AutoSizePopUp="1" AutoFlip="1">
+				<ButtonData>
+					<GridButton		ID="ColorButtonPD2"			String=""		Size="parent,28"	TextAnchor="L,C"	TextOffset="45"			Texture="Controls_ButtonControl"		Style="WhiteSemiBold14" SliceCorner="10,10" SliceSize="1,1" SliceTextureSize="24,24" TruncateWidth="210" StateOffsetIncrement="0,24">
+						<Image		ID="ColorEntryImagePD2"		Anchor="L,C"	Size="22,18"		Offset="5,0"		StretchMode="Fill"		Texture="Controls_KeySwatchHex">
+							<Image	ID="ColorEntryImageBgPD2"	Anchor="C,C"	Size="22,18"		Offset="0,0"		StretchMode="Fill"		Texture="Controls_KeySwatchHex"/>
+							<Image	ID="ColorEntryImageTopPD2"	Anchor="C,C"	Size="22,18"		Offset="0,0"		StretchMode="Fill"		Texture="Controls_KeySwatchHex"/>
+						</Image>
+					</GridButton>
+				</ButtonData>
+
+				<GridData 										Anchor="C,T"						Offset="0,6"		AnchorSide="I,O" AutoSizePadding="6,5" Texture="Controls_DropdownPanel" SliceCorner="9,9" SliceSize="4,4" SliceTextureSize="22,22"/>
+
+				<ScrollPanelData								Anchor="C,C"	Size="12,12"												Style="ScrollPanelWithRightBar" Vertical="1" AutoScrollBar="1" >
+					<ScrollBar									Anchor="R,C"						Offset="1,0"		AnchorSide="O,I"	Style="ScrollVerticalBar"		Color="28,60,90,255" >
+						<UpButton								Anchor="R,T"						Offset="-3,0"		AnchorSide="I,I"	Style="ScrollUpButton" />
+						<DownButton								Anchor="R,B"						Offset="-3,0"		AnchorSide="I,I"	Style="ScrollDownButton" />
+					</ScrollBar>
+				</ScrollPanelData>
+
+				<StackData										Anchor="C,T"						StackGrowth="Down" />
+
+				<InstanceData		Name="ColorListEntry2">
+					<GridButton		ID="Button"					Anchor="L,T"	Size="300,28"		TextAnchor="L,C"	TextOffset="45"			Texture="Controls_ButtonControl.dds"	Style="WhiteSemiBold14" SliceCorner="10,10" SliceSize="1,1" SliceTextureSize="24,24" StateOffsetIncrement="0,24" TruncateWidth="220">
+						<Image		ID="ColorEntryImage2"		Anchor="L,C"	Size="22,18"		Offset="5,0"		StretchMode="Fill"		Texture="Controls_KeySwatchHex">
+							<Image	ID="ColorEntryImageBg2"		Anchor="C,C"	Size="22,18"		Offset="0,0"		StretchMode="Fill"		Texture="Controls_KeySwatchHex"/>
+							<Image	ID="ColorEntryImageTop2"	Anchor="C,C"	Size="22,18"		Offset="0,0"		StretchMode="Fill"		Texture="Controls_KeySwatchHex"/>
+						</Image>
+					</GridButton>
+				</InstanceData>
+			</PullDown>
+
+			
+			
+			<PullDown	ID="MSEColorPD3"				Anchor="C,T"	Size="330,28"			Offset="-5,6"	ScrollThreshold="390" SpaceForScroll="15"	Style="PullDownBlue"	ToolTip="LOC_MSE_SEARCH_OPTIONS_COLOR_BORDER2" AutoSizePopUp="1" AutoFlip="1">
+				<ButtonData>
+					<GridButton		ID="ColorButtonPD3"			String=""		Size="parent,28"	TextAnchor="L,C"	TextOffset="45"			Texture="Controls_ButtonControl"		Style="WhiteSemiBold14" SliceCorner="10,10" SliceSize="1,1" SliceTextureSize="24,24" TruncateWidth="210" StateOffsetIncrement="0,24">
+						<Image		ID="ColorEntryImagePD3"		Anchor="L,C"	Size="22,18"		Offset="5,0"		StretchMode="Fill"		Texture="Controls_KeySwatchHex">
+							<Image	ID="ColorEntryImageBgPD3"	Anchor="C,C"	Size="22,18"		Offset="0,0"		StretchMode="Fill"		Texture="Controls_KeySwatchHex"/>
+							<Image	ID="ColorEntryImageTopPD3"	Anchor="C,C"	Size="22,18"		Offset="0,0"		StretchMode="Fill"		Texture="Controls_KeySwatchHex"/>
+						</Image>
+					</GridButton>
+				</ButtonData>
+
+				<GridData 										Anchor="C,T"						Offset="0,6"		AnchorSide="I,O" AutoSizePadding="6,5" Texture="Controls_DropdownPanel" SliceCorner="9,9" SliceSize="4,4" SliceTextureSize="22,22"/>
+
+				<ScrollPanelData								Anchor="C,T"	Size="330,390"												Style="ScrollPanelWithRightBar" Vertical="1" AutoScrollBar="0" >
+					<ScrollBar									Anchor="C,C"						Offset="1,0"		AnchorSide="I,I"	Style="ScrollVerticalBar"		Color="28,60,90,255" >
+						<UpButton								Anchor="R,T"						Offset="-3,0"		AnchorSide="I,I"	Style="ScrollUpButton" />
+						<DownButton								Anchor="R,B"						Offset="-3,0"		AnchorSide="I,I"	Style="ScrollDownButton" />
+					</ScrollBar>
+				</ScrollPanelData>
+
+				<StackData										Anchor="C,T"	Size="330,auto"		StackGrowth="Down" />
+
+				<InstanceData		Name="ColorListEntry3">
+					<GridButton		ID="Button"					Anchor="L,T"	Size="300,28"		TextAnchor="L,C"	TextOffset="45"			Texture="Controls_ButtonControl.dds"	Style="WhiteSemiBold14" SliceCorner="10,10" SliceSize="1,1" SliceTextureSize="24,24" StateOffsetIncrement="0,24" TruncateWidth="220">
+						<Image		ID="ColorEntryImage3"		Anchor="L,C"	Size="22,18"		Offset="5,0"		StretchMode="Fill"		Texture="Controls_KeySwatchHex">
+							<Image	ID="ColorEntryImageBg3"		Anchor="C,C"	Size="22,18"		Offset="0,0"		StretchMode="Fill"		Texture="Controls_KeySwatchHex"/>
+							<Image	ID="ColorEntryImageTop3"	Anchor="C,C"	Size="22,18"		Offset="0,0"		StretchMode="Fill"		Texture="Controls_KeySwatchHex"/>
+						</Image>
+					</GridButton>
+				</InstanceData>
+			</PullDown>
+			
+		</Stack>
+	</Grid>
+	
+	<!-- ==================================================================== -->
+	<!--  MSE RESOURCES                                                       -->
+	<!-- ==================================================================== -->
+	<Grid Anchor="L,B" ID="ExtendedMapSearchPanelSuggestionsRes"	Offset="270,0" Size="337,auto" Texture="Tracker_OptionsBacking" SliceCorner="55,61" SliceSize="1,1" SliceTextureSize="121,119" ConsumeAllMouse="1" MinSize="121,119" AutoSizePadding="0,15">
+		<Stack Size="parent,auto" Padding="6" >
+			<Label		ID="MseResSelTitle"	Anchor="C,T" String="{LOC_MSE_EXT_WINDOW_TITLE:upper}"	Offset="-5,12" Style="FontFlair16" Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0"/>
+			
+			<ScrollPanel	ID="MseResScroll"			Anchor="C,T"	Size="parent-50,481"					Offset="-5,0"	Style="ScrollPanelWithRightBar">
+				<ScrollBar								Anchor="R,C"	AnchorSide="I,I"						Offset="0,0"	Style="ScrollVerticalBar" />
+				<UpButton								Anchor="R,T"	AnchorSide="I,I"						Offset="-3,0"	Style="ScrollUpButton" />
+				<DownButton								Anchor="R,B"	AnchorSide="I,I"						Offset="-3,0"	Style="ScrollDownButton" />
+				
+				<Stack Size="parent,auto" Padding="6" >
+					<GridButton ID="ResButton1"		Anchor="C,T" Size="194,28"			Offset="0,0"	Style="ButtonControl"  String="{LOC_TOOLTIP_STRATEGIC_RESOURCE}" Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0" />
+					<Container	ID="MSEResGrid1"	Anchor="C,T" Size="parent,auto"	Offset="-5,0">
+					</Container>
+			
+					<GridButton ID="ResButton2"		Anchor="C,T" Size="194,28"			Offset="0,0"	Style="ButtonControl"  String="{LOC_TOOLTIP_LUXURY_RESOURCE}" Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0" />
+					<Container ID="MSEResGrid2"		Anchor="C,T" Size="parent,auto"	Offset="-5,0">
+					</Container>
+
+					<GridButton ID="ResButton3"		Anchor="C,T" Size="194,28"			Offset="0,0"	Style="ButtonControl"  String="{LOC_TOOLTIP_BONUS_RESOURCE}" Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0" />
+					<Container ID="MSEResGrid3"		Anchor="C,T" Size="parent,auto"	Offset="-5,0">
+					</Container>
+
+					<GridButton ID="ResButton4"		Anchor="C,T" Size="194,28"			Offset="0,0"	Style="ButtonControl"  String="{LOC_RESOURCE_NAME}" Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0" />
+					<Container ID="MSEResGrid4"		Anchor="C,T" Size="parent,auto"	Offset="-5,0">
+					</Container>
+					<Container ID="MSEResGrid5"		Anchor="C,T" Size="parent,auto"	Offset="-5,0">
+					</Container>
+				</Stack>
+			</ScrollPanel>
+		</Stack>
+	</Grid>
+
+	<!-- ==================================================================== -->
+	<!--  MSE CIVILIZATIONS                                                   -->
+	<!-- ==================================================================== -->
+	<Grid Anchor="L,B" ID="ExtendedMapSearchPanelSuggestionsCivil"	Offset="270,0" Size="380,auto" Texture="Tracker_OptionsBacking" SliceCorner="55,61" SliceSize="1,1" SliceTextureSize="121,119" ConsumeAllMouse="1" MinSize="121,119" AutoSizePadding="0,15">
+		<Stack Size="parent,auto" Padding="6" >
+			<Label			ID="MseCivSelTitle"			Anchor="C,T" String="{LOC_MSE_EXT_WINDOW_TITLE:upper}"	Offset="-5,12" Style="FontFlair16" Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0"/>
+			
+			<ScrollPanel	ID="MseCivScroll"			Anchor="C,T"	Size="parent-50,481"					Offset="-5,0"	Style="ScrollPanelWithRightBar">
+				<ScrollBar								Anchor="R,C"	AnchorSide="I,I"						Offset="0,0"	Style="ScrollVerticalBar" />
+				<UpButton								Anchor="R,T"	AnchorSide="I,I"						Offset="-3,0"	Style="ScrollUpButton" />
+				<DownButton								Anchor="R,B"	AnchorSide="I,I"						Offset="-3,0"	Style="ScrollDownButton" />
+
+				<Stack ID="MseStackCivilizations"																Offset="0,12"	StackGrowth="Bottom">
+					
+				</Stack>
+			</ScrollPanel>
+			
+		</Stack>
+	</Grid>
+
+	<!-- ==================================================================== -->
+	<!--  MSE UNITS                                                           -->
+	<!-- ==================================================================== -->
+	<Grid Anchor="L,B" ID="ExtendedMapSearchPanelSuggestionsUnits"	Offset="270,0" Size="380,auto" Texture="Tracker_OptionsBacking" SliceCorner="55,61" SliceSize="1,1" SliceTextureSize="121,119" ConsumeAllMouse="1" MinSize="121,119" AutoSizePadding="0,15">
+		<Stack Size="parent,auto" Padding="6" >
+			<Label			ID="MseUniSelTitle"			Anchor="C,T" String="{LOC_MSE_EXT_WINDOW_TITLE:upper}"	Offset="-5,12" Style="FontFlair16" Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0"/>
+
+			<Container ID="MSEUniGrid1"		Anchor="C,T" Size="parent-50,auto"	Offset="-5,12">
+				<GridButton ID="MseUniButton1"		Anchor="L,T" Size="160,28"			Offset="-3,0"	Style="ButtonControl"  String="LOC_UNIT_NAME" Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0" />
+				<GridButton ID="MseUniButton2"		Anchor="R,T" Size="160,28"			Offset="-3,0"	Style="ButtonControl"  String="LOC_PROMOTION_CLASS_SIEGE_NAME" Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0" />
+			</Container>
+			<Container ID="MSEUniGrid2"		Anchor="C,T" Size="parent-50,auto"	Offset="-5,0">
+				<GridButton ID="MseUniButton3"		Anchor="L,T" Size="160,28"			Offset="-3,0"	Style="ButtonControl"  String="LOC_PROMOTION_CLASS_MELEE_NAME" Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0" />
+				<GridButton ID="MseUniButton4"		Anchor="R,T" Size="160,28"			Offset="-3,0"	Style="ButtonControl"  String="LOC_PROMOTION_CLASS_RANGED_NAME" Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0" />
+			</Container>
+			<Container ID="MSEUniGrid3"		Anchor="C,T" Size="parent-50,auto"	Offset="-5,0">
+				<GridButton ID="MseUniButton5"		Anchor="L,T" Size="160,28"			Offset="-3,0"	Style="ButtonControl"  String="LOC_UNITFLAG_ARMY_SUFFIX" Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0" />
+				<GridButton ID="MseUniButton6"		Anchor="R,T" Size="160,28"			Offset="-3,0"	Style="ButtonControl"  String="LOC_UNITFLAG_CORPS_SUFFIX" Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0" />
+			</Container>
+			<Container ID="MSEUniGrid4"		Anchor="C,T" Size="parent-50,auto"	Offset="-5,0">
+				<GridButton ID="MseUniButton7"		Anchor="L,T" Size="160,28"			Offset="-3,0"	Style="ButtonControl"  String="LOC_UNITFLAG_ARMADA_SUFFIX" Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0" />
+				<GridButton ID="MseUniButton8"		Anchor="R,T" Size="160,28"			Offset="-3,0"	Style="ButtonControl"  String="LOC_UNITFLAG_FLEET_SUFFIX" Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0" />
+			</Container>
+			
+			<Line			ID="MseUniScrollDelim"		Start="20,0"	End="350,0"		Color="146,133,109,255"	Width="1" />
+			
+			<ScrollPanel	ID="MseUniScroll"			Anchor="C,T"	Size="parent-50,326"					Offset="-5,0"	Style="ScrollPanelWithRightBar">
+				<ScrollBar								Anchor="R,C"	AnchorSide="I,I"						Offset="0,0"	Style="ScrollVerticalBar" />
+				<UpButton								Anchor="R,T"	AnchorSide="I,I"						Offset="-3,0"	Style="ScrollUpButton" />
+				<DownButton								Anchor="R,B"	AnchorSide="I,I"						Offset="-3,0"	Style="ScrollDownButton" />
+				
+				<Stack ID="MseStackUni"																			Offset="0,12"	StackGrowth="Bottom">
+					
+				</Stack>
+			</ScrollPanel>
+		</Stack>
+	</Grid>
+
+
+	<!-- ==================================================================== -->
+	<!--  MSE IMPROVEMENTS                                                    -->
+	<!-- ==================================================================== -->
+	<Grid Anchor="L,B" ID="ExtendedMapSearchPanelSuggestionsImpr"	Offset="270,0" Size="380,auto" Texture="Tracker_OptionsBacking" SliceCorner="55,61" SliceSize="1,1" SliceTextureSize="121,119" ConsumeAllMouse="1" MinSize="121,119" AutoSizePadding="0,15">
+		<Stack Size="parent,auto" Padding="6" >
+			<Label			ID="MseImpSelTitle"			Anchor="C,T" String="{LOC_MSE_EXT_WINDOW_TITLE:upper}"	Offset="-5,12" Style="FontFlair16" Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0"/>
+			
+			<Container ID="MSEImpGrid1"		Anchor="C,T" Size="parent-50,auto"	Offset="-5,12">
+				<GridButton ID="MseImpButton1"		Anchor="L,T" Size="165,28"			Offset="-3,0"	Style="ButtonControl"  String="LOC_IMPROVEMENT_NAME" Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0" />
+				<GridButton ID="MseImpButton2"		Anchor="R,T" Size="165,28"			Offset="-3,0"	Style="ButtonControl"  String="LOC_MSE_EXT_SEARCH_TERMS_IMPROVEMENT_DOES_NOT_MATCH_RESOURCE"  ToolTip="LOC_MSE_EXT_SEARCH_TERMS_IMPROVEMENT_DOES_NOT_MATCH_RESOURCE_DESC"	Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0" />
+			</Container>
+			
+			<Line			ID="MseImpScrollDelim"		Start="20,0"	End="350,0"		Color="146,133,109,255"	Width="1" />
+			
+			<ScrollPanel	ID="MseImpScroll"			Anchor="C,T"	Size="parent-50,428"					Offset="-5,0"	Style="ScrollPanelWithRightBar">
+				<ScrollBar								Anchor="R,C"	AnchorSide="I,I"						Offset="0,0"	Style="ScrollVerticalBar" />
+				<UpButton								Anchor="R,T"	AnchorSide="I,I"						Offset="-3,0"	Style="ScrollUpButton" />
+				<DownButton								Anchor="R,B"	AnchorSide="I,I"						Offset="-3,0"	Style="ScrollDownButton" />
+
+				<Stack ID="MseStackImprovements"																Offset="0,12"	StackGrowth="Bottom">
+
+				</Stack>
+			</ScrollPanel>
+
+		</Stack>
+	</Grid>
+
+
+	<!-- ==================================================================== -->
+	<!--  MSE WONDERS                                                         -->
+	<!-- ==================================================================== -->
+	<Grid Anchor="L,B" ID="ExtendedMapSearchPanelSuggestionsWon"	Offset="270,0" Size="380,auto" Texture="Tracker_OptionsBacking" SliceCorner="55,61" SliceSize="1,1" SliceTextureSize="121,119" ConsumeAllMouse="1" MinSize="121,119" AutoSizePadding="0,15">
+		<Stack Size="parent,auto" Padding="6" >
+			<Label			ID="MseWonSelTitle"			Anchor="C,T" String="{LOC_MSE_EXT_WINDOW_TITLE:upper}"	Offset="-5,12" Style="FontFlair16" Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0"/>
+
+			<Container ID="MSEWonGrid1"		Anchor="C,T" Size="parent-50,auto"	Offset="-5,12">
+				<GridButton ID="MseWonButton1"		Anchor="L,T" Size="165,28"			Offset="-3,0"	Style="ButtonControl"  String="LOC_WONDER_NAME" Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0" />
+				<GridButton ID="MseWonButton2"		Anchor="R,T" Size="165,28"			Offset="-3,0"	Style="ButtonControl"  String="LOC_NATURAL_WONDER_NAME"	Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0" />
+			</Container>
+
+			<Line			ID="MseWonScrollDelim"		Start="20,0"	End="350,0"		Color="146,133,109,255"	Width="1" />
+
+			<ScrollPanel	ID="MseWonScroll"			Anchor="C,T"	Size="parent-50,428"					Offset="-5,0"	Style="ScrollPanelWithRightBar">
+				<ScrollBar								Anchor="R,C"	AnchorSide="I,I"						Offset="0,0"	Style="ScrollVerticalBar" />
+				<UpButton								Anchor="R,T"	AnchorSide="I,I"						Offset="-3,0"	Style="ScrollUpButton" />
+				<DownButton								Anchor="R,B"	AnchorSide="I,I"						Offset="-3,0"	Style="ScrollDownButton" />
+
+				<Stack ID="MseStackWonders"																Offset="0,12"	StackGrowth="Bottom">
+
+				</Stack>
+			</ScrollPanel>
+
+		</Stack>
+	</Grid>
+	
+	<!-- ==================================================================== -->
+	<!--  INSTANCES                                                           -->
+	<!-- ==================================================================== -->
+	<Instance     Name="SuggestionEntry">
+		<GridButton ID="SuggestionButton" Style="ButtonControl" Anchor="C,T" Size="parent,26" TruncateWidth="parent-10"/>
+	</Instance>
+
+	<!-- ==================================================================== -->
+	<!--  MSE INSTANCES                                                       -->
+	<!-- ==================================================================== -->
+	<Instance	Name="ResEntry">
+		<Stack	ID="MseStackRes" Offset="0,0" StackGrowth="Right" Padding="0">
+			<GridButton ID="ResButton"	Anchor="C,T" Size="28,28" Style="ButtonControl" TextOffset="1,2" />
+			<Label		ID="MseResLbl"	Anchor="C,T" String=""	Offset="0,0" Style="FontFlair16" Color0="106,93,69,255" Color1="0,0,0,150" Color2="146,133,109,255" FontStyle="Glow" SmallCaps="20" SmallCapsLeading="0" SmallCapsType="EveryWord" KerningAdjustment="0" Hidden="1" />
+		</Stack>
+	</Instance>
+
+
+	<Instance	Name="MseCivilizationEntry">
+		<GridButton		ID="CivButton"		Anchor="L,T"	Size="parent-20,50"	TextAnchor="L,C" TextOffset="100" WrapWidth="200" Style="ButtonControl" >
+			<Container					Anchor="L,T"	Size="44,44"	Offset="3,3">
+				<Image	ID="CivIconBG"					Size="44,44"					Texture="CircleBacking44" />
+				<Image	ID="IconShadows"				Size="44,44"					Texture="Circle44_Darker"  Color="0,0,0,50" />
+				<Image	ID="IconHighlights"				Size="44,44"					Texture="Circle44_Lighter" Color="255,255,255,100" />
+				<Image	ID="CivIcon"	Anchor="C,C"	Size="44,44"					Texture="CivSymbols44"/>
+				<!--civIcon = "ICON_"..civTypeName;-->
+			</Container>
+			<Container					Anchor="L,C"	Size="62,62"	Offset="44,-1" >
+				<Image	ID="LeaderIcon"	Anchor="C,C" 	Size="45,45"					Texture="Leaders45" />
+			</Container>
+		</GridButton>
+	</Instance>
+
+	<Instance Name="MseUnitTypeListEntry">
+		<GridButton		ID="UnitTypeButton"	Anchor="L,T"	Size="parent-20,28"		TextAnchor="L,C"	TextOffset="36" WrapWidth="250" Style="ButtonControl" FontStyle="stroke" >
+			<Image		ID="UnitTypeIcon"	Anchor="L,C"	Size="22,22"			Offset="6,0"		Texture="UnitFlagAtlas22"/>
+		</GridButton>
+	</Instance>
+
+	<Instance Name="MseWonderListEntry">
+		<GridButton		ID="MSEWonderButton"	Anchor="L,T"	Size="parent-20,44"		TextAnchor="L,C"	TextOffset="48" WrapWidth="250" Style="ButtonControl" FontStyle="stroke" >
+			<Image		ID="MSEWonderIcon"		Anchor="L,C"	Size="38,38"			Offset="6,0"		Texture="Wonders38"/>
+		</GridButton>
+	</Instance>
+	
+</Context>

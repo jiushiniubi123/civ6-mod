@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a1b2c3d4-e5f6-7890-abcd-ef12345678aaaa90" version="1">
+  <Properties>
+    <Name>科技市政图标补充</Name>
+    <Teaser>为模组解锁内容添加合适的科技树/市政树图标</Teaser>
+    <Description>
+      为以下模组添加科技树和市政树上的图标：
+      - 建造者和侦察兵开局可下海：使用建造者和侦察兵图标展示下海能力，使用建造者图标展示收获解锁
+      - 科技为陆地单位提供移动力：使用移动力图标展示各科技的移动力加成（★修复：TECH_MACHINERY 骑兵+非骑兵拆分为两个图标）
+      - 移山填海（愚公/精卫/天鲲号）：使用专用图标展示科技强化（移动力/视野/劳动力拆分）
+      - 法典市政：增加"文明的起点"图标
+      所有图标通过 DIPLOMATIC_ACTION 方式注入（参考开放边界模式），
+      右击图标时打开正确的百科页面，不修改任何 UI 文件。
+      同时移除所有被替代的 ICON_TECHUNLOCK_13 描述图标。
+    </Description>
+    <Authors>Generated</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+
+  <ActionCriteria />
+  <InGameActions>
+    <!-- ★ LoadOrder=100000 确保在 移山填海(LoadOrder=100) 和 移动力mod 之后加载，
+         以便正确清除所有 Description 字段 -->
+    <UpdateDatabase id="TCI_Data">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <File>Data/TechCivicIcons_Data.sql</File>
+    </UpdateDatabase>
+    <!-- 汉化修复：使用 UpdateText 而非 UpdateDatabase，确保中文文本正确加载 -->
+    <UpdateText id="TCI_Text">
+      <File>Text/TechCivicIcons_Text.sql</File>
+    </UpdateText>
+    <UpdateIcons id="TCI_Icons">
+      <File>Data/TechCivicIcons_Icons.xml</File>
+    </UpdateIcons>
+  </InGameActions>
+
+  <Files>
+    <File>Data/TechCivicIcons_Data.sql</File>
+    <File>Text/TechCivicIcons_Text.sql</File>
+    <File>Data/TechCivicIcons_Icons.xml</File>
+  </Files>
+</Mod>

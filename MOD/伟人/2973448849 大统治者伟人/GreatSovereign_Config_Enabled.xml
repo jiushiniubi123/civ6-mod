@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<GreatPersonIndividuals>
+		<Update><Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE"/><Set><GreatPersonClassType>GREAT_PERSON_CLASS_GreatSovereigns</GreatPersonClassType></Set></Update>
+		<Update><Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUSTAVUS_ADOLPHUS"/><Set><GreatPersonClassType>GREAT_PERSON_CLASS_GreatSovereigns</GreatPersonClassType></Set></Update>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Update><Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE"/><Set><ModifierId>GREATPERSON_NAPOLEON_BONAPARTE_PLATI_SOVEREIGN_ACTIVE</ModifierId></Set></Update>
+		<Update><Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUSTAVUS_ADOLPHUS"/><Set><ModifierId>GREATPERSON_GUSTAVUS_ADOLPHUS_PLATI_SOVEREIGN_ACTIVE</ModifierId></Set></Update>
+	</GreatPersonIndividualActionModifiers>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_NAPOLEON_BONAPARTE_PLATI_SOVEREIGN_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_NAPOLEON_BONAPARTE_ACTIVE_PLATI_SOVEREIGN_TEXT"/>
+		<Row ModifierId="GREATPERSON_GUSTAVUS_ADOLPHUS_PLATI_SOVEREIGN_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_GUSTAVUS_ADOLPHUS_ACTIVE_PLATI_SOVEREIGN_TEXT"/>
+	</ModifierStrings>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_NAPOLEON_BONAPARTE_PLATI_SOVEREIGN_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GUSTAVUS_ADOLPHUS_PLATI_SOVEREIGN_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_NAPOLEON_BONAPARTE_PLATI_SOVEREIGN_ACTIVE</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_WILDCARD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GUSTAVUS_ADOLPHUS_PLATI_SOVEREIGN_ACTIVE</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_MILITARY</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

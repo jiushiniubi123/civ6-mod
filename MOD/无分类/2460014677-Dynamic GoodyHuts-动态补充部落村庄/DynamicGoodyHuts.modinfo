@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6280f7cf-bf51-410e-a390-808c013135c9" version="1">
+  <Properties>
+    <Name>LOC_DYNAMIC_GOODYHUTS_NAME</Name>
+    <Description>Generate new Goodyhuts dynamically</Description>
+    <Teaser>Generate new Goodyhuts dynamically</Teaser>
+    <Authors>DeepLogic</Authors>
+    <!-- <SpecialThanks>xiaoxiaoyu10101, wltk</SpecialThanks> -->
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="LOC_DYNAMIC_GOODYHUTS_NAME">
+      <en_US>Dynamic GoodyHuts</en_US>
+      <zh_Hans_CN>动态补充部落村庄</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <InGameActions>
+    <UpdateDatabase id="DynamicGoodyHutsDataBase">
+      <Properties><LoadOrder>11000</LoadOrder></Properties>
+      <File>upd_data.sql</File>
+    </UpdateDatabase>
+    <AddGameplayScripts id="DynamicGoodyHutsCommon">
+      <Properties><LoadOrder>11000</LoadOrder></Properties>
+      <File>DGH_Common.lua</File>
+    </AddGameplayScripts>
+    <AddUserInterfaces id="DynamicGoodyHutsCore">
+      <Properties>
+        <Context>InGame</Context>
+        <LoadOrder>11000</LoadOrder>
+      </Properties>
+      <File>DynamicGoodyHuts.xml</File>
+    </AddUserInterfaces>
+  </InGameActions>
+  <Files>
+    <File>upd_data.sql</File>
+    <File>DGH_Common.lua</File>
+    <File>DynamicGoodyHuts.lua</File>
+    <File>DynamicGoodyHuts.xml</File>
+  </Files>
+</Mod>

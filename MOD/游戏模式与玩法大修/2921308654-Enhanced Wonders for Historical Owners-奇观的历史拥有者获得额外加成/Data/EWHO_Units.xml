@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Units -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 2/20/2023 12:53:43 AM -->
+<GameData>
+	<Types>
+		<Row Type="UNIT_GREAT_ENGINEER_EWHO" Kind="KIND_UNIT"/>
+		<!--<Row Type="TRAIT_CIVILIZATION_ENGINEER_EWHO" Kind="KIND_TRAIT"/>-->
+
+	</Types>
+	<TypeTags>
+		<Row Type="UNIT_GREAT_ENGINEER_EWHO" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_GREAT_ENGINEER_EWHO" Tag="CLASS_ALL_ERAS"/>
+
+	</TypeTags>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_GREAT_ENGINEER_EWHO" AiType="UNITTYPE_CIVILIAN"/>
+
+	</UnitAiInfos>
+	<Units>
+		<Row UnitType="UNIT_GREAT_ENGINEER_EWHO" Cost="1" 
+			 BaseMoves="4" BaseSightRange="2" 
+			 ZoneOfControl="false" Domain="DOMAIN_LAND" 
+			 FormationClass="FORMATION_CLASS_CIVILIAN" 
+			 Name="LOC_UNIT_GREAT_ENGINEER_EWHO_NAME" Description="LOC_UNIT_GREAT_ENGINEER_EWHO_DESCRIPTION" 
+			 CanCapture="False" CanRetreatWhenCaptured="True" CanTrain="False" 
+			 
+			 />
+		<!--TraitType="TRAIT_CIVILIZATION_ENGINEER_EWHO"-->
+		<!--TraitType="TRAIT_CIVILIZATION_COMANDANTE_GENERAL"-->
+	</Units>
+
+	<!--<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_ENGINEER_EWHO" Name="LOC_TRAIT_CIVILIZATION_ENGINEER_EWHO_NAME" Description="LOC_TRAIT_CIVILIZATION_ENGINEER_EWHO_DESCRIPTION"/>
+	</Traits>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_INDIA" TraitType="TRAIT_CIVILIZATION_ENGINEER_EWHO"/>
+	</CivilizationTraits>-->
+	
+</GameData>

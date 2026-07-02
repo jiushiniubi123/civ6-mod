@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Data_Building -->
+<!-- Author: aall1 -->
+<!-- DateCreated: 4/16/2019 8:05:59 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_NOTRE_DAME" Kind="KIND_BUILDING" />
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_NOTRE_DAME" Name="LOC_BUILDING_NOTRE_DAME_NAME" Description="LOC_BUILDING_NOTRE_DAME_DESCRIPTION"    Cost="710" AdvisorType="ADVISOR_RELIGIOUS"  MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Quote="LOC_BUILDING_NOTRE_DAME_QUOTE" PrereqCivic="CIVIC_DIVINE_RIGHT" ObsoleteEra="ERA_INDUSTRIAL" DefenseModifier="6" GrantFortification="2" RequiresRiver="true" Entertainment="2" RegionalRange="10"/>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_NOTRE_DAME" YieldType="YIELD_FAITH" YieldChange="2"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_NOTRE_DAME" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="2"/>
+	</Building_GreatPersonPoints>
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_NOTRE_DAME" GreatWorkSlotType="GREATWORKSLOT_ART" NumSlots="3" ThemingUniquePerson="true" ThemingSameObjectType="true" ThemingYieldMultiplier="100" ThemingTourismMultiplier="100" NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_BUILDING_THEMINGBONUS_ART"/>
+	</Building_GreatWorks>
+</GameData>

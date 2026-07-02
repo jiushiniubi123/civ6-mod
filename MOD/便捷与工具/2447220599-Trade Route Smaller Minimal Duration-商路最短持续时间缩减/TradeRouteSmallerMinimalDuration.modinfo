@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="09875a80-abf9-4f14-9add-4b9e6cd5589c" version="1">
+  <Properties>
+    <Name>LOC_TRADE_ROUTE_SMALLER_MINIMAL_DURATION_NAME</Name>
+    <Description>Reduce the minimal duration requirement for the trade route to complete.</Description>
+    <Teaser>Trade Route Smaller Minimal Duration</Teaser>
+    <Authors>DeepLogic</Authors>
+    <SpecialThanks>Siv</SpecialThanks>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="LOC_TRADE_ROUTE_SMALLER_MINIMAL_DURATION_NAME">
+      <en_US>Trade Route Smaller Minimal Duration</en_US>
+      <zh_Hans_CN>商路最少持续时间缩减</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <InGameActions>
+    <UpdateDatabase id="TradeRouteShorterDuration">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+      <File>upd_database.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>upd_database.sql</File>
+  </Files>
+</Mod>

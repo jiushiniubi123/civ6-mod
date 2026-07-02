@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="053a803e-d930-4fe6-9a61-2e569f374c89" version="2">
+  <Properties>
+    <Name>[COLOR_RED]AB2531[ENDCOLOR] Buy Units with Faith + New Policy Cards</Name>
+    <Description>Adds 11 policy cards total:
+- Holy Army/Navy/Airforce/Service: Buy land, naval, air combat units and civil/support units with faith.
+- Holy Settle/Build: Buy settlers, builders and traders with faith.
+- Forced Passports: Open borders with all city-states.
+- Safe Passage: Land traders immune to plunder while at peace; international trade routes Gold -1.
+- Peace Convoy: While at peace, international trade routes Gold -1, but sea trade routes immune to plunder.
+- Home Defense: All units +7 Combat Strength when fighting in own territory.
+- Trade Isolation: All trade route yields -50%, but trade routes fully immune to plunder (land and sea).</Description>
+    <Teaser>11 policy cards: faith purchases, trade protection, home defense &amp; more.</Teaser>
+    <Authors>AB2531, Trae AI</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>Holy_Army_Gameplay.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Icons">
+      <File>Holy_Army_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File>Holy_Army_Text.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Holy_Army_Gameplay.xml</File>
+    <File>Holy_Army_Icons.xml</File>
+    <File>Holy_Army_Text.xml</File>
+  </Files>
+</Mod>

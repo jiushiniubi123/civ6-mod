@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Row Tag="LOC_QR_CATEGORY_NAME" Language="en_US">
+      <Text>Quick Restart</Text>
+    </Row>
+    <Row Tag="LOC_QR_OPTIONS_RG" Language="en_US">
+      <Text>Restart the Game</Text>
+    </Row>
+    <Row Tag="LOC_QR_OPTIONS_TB" Language="en_US">
+      <Text>Toggle the Button</Text>
+    </Row>
+  </LocalizedText>
+</GameData>

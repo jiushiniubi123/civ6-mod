@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b8a7c566-c2ab-44d4-a52d-a97416faf690" version="1">
+  <Properties>
+    <Name>Abu Simbel (World Wonder)</Name>
+    <Description>Adds Abu Simbel as a World Wonder.</Description>
+    <Created>1571406185</Created>
+    <Teaser>Adds Abu Simbel as a World Wonder.</Teaser>
+    <Authors>Deliverator</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateArt id="Abu_Art">
+      <File>CWON_Abu_Simbel.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Abu_DB">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>Data/Abu_Simbel_Gameplay.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Abu_Icons">
+      <File>Icons/Abu_Simbel_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Abu_Text">
+      <File>Text/Abu_Simbel_Text.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>CWON_Abu_Simbel.dep</File>
+    <File>Data/Abu_Simbel_Gameplay.sql</File>
+    <File>Icons/Abu_Simbel_Icons.xml</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Abu_Simbel_AO_v2</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Black_Gloss</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Black_Metalness</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Abu_Simbel_b_v4_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Abu_Simbel_HB_v1_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Dark_Pyramids_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Sphinx_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Yellow_Petra_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Flat_Normal_5120</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Flat_Normal_5121</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Sphinx_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Sphinx_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Sphinx_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Sphinx_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Petra_Rocks_Only_AO</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Sphinx_Baked_AO</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_White_AO</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Petra_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Petra_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Petra_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Petra_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Pyramids_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Pyramids_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Pyramids_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Pyramids_N1</File>
+    <File>Platforms/Windows/BLPs/strategicview/strategicview_buildings.blp</File>
+    <File>Platforms/Windows/BLPs/UITextures.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+    <File>Text/Abu_Simbel_Text.xml</File>
+  </Files>
+</Mod>

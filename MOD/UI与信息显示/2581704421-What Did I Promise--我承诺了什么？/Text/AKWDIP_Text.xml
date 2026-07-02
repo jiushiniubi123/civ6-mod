@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+<LocalizedText>
+<Row Tag="LOC_AKWDIP_PROMISE_ACCPETED_HEADER" Text="我方已承诺过的:" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_PROMISE_REFUSED_HEADER" Text="我方曾拒绝过的:" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_PROMISE_UNKNOWN_HEADER" Text="对方要求我方:" Language="zh_CN"/>
+
+<Row Tag="LOC_AKWDIP_ACCEPTED_DONT_SETTLE_NEAR_ME" Text="[ICON_AKWDIP_GREEN_DONT_SETTLE_NEAR_ME] 禁止在其附近定居 ({1_turnsleft}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_ACCEPTED_DONT_DIG_UP_MY_ARTIFACTS" Text="[ICON_AKWDIP_GREEN_DONT_DIG_UP_MY_ARTIFACTS] 禁止挖掘其历史遗迹 ({1_turnsleft}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_ACCEPTED_DONT_SPY_ON_ME" Text="[ICON_AKWDIP_GREEN_DONT_SPY_ON_ME] 停止一切针对性间谍活动 ({1_turnsleft}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME" Text="[ICON_AKWDIP_GREEN_KEEP_TROOPS_AWAY_FROM_ME] 驱离我方部队 ({1_turnsleft}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_ACCEPTED_DONT_CONVERT_MY_CITIES" Text="[ICON_AKWDIP_GREEN_DONT_CONVERT_MY_CITIES] 停止一切针对性宗教传教活动 ({1_turnsleft}[ICON_TURN])" Language="zh_CN"/>
+
+<Row Tag="LOC_AKWDIP_REFUSED_DONT_SETTLE_NEAR_ME" Text="[ICON_AKWDIP_RED_DONT_SETTLE_NEAR_ME] 禁止在其附近定居 ({1_turnsleft}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_REFUSED_DONT_DIG_UP_MY_ARTIFACTS" Text="[ICON_AKWDIP_RED_DONT_DIG_UP_MY_ARTIFACTS] 禁止挖掘其历史遗迹 ({1_turnsleft}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_REFUSED_DONT_SPY_ON_ME" Text="[ICON_AKWDIP_RED_DONT_SPY_ON_ME] 停止一切针对性间谍活动 ({1_turnsleft}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_REFUSED_KEEP_TROOPS_AWAY_FROM_ME" Text="[ICON_AKWDIP_RED_KEEP_TROOPS_AWAY_FROM_ME] 驱离我方部队 ({1_turnsleft}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_REFUSED_DONT_CONVERT_MY_CITIES" Text="[ICON_AKWDIP_RED_DONT_CONVERT_MY_CITIES] 停止一切针对性宗教传教活动 ({1_turnsleft}[ICON_TURN])" Language="zh_CN"/>
+
+<Row Tag="LOC_AKWDIP_REQUESTED_DONT_SETTLE_NEAR_ME" Text="[ICON_AKWDIP_BLUE_DONT_SETTLE_NEAR_ME] 禁止在其附近定居 ({1_turnsleft}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_REQUESTED_DONT_DIG_UP_MY_ARTIFACTS" Text="[ICON_AKWDIP_BLUE_DONT_DIG_UP_MY_ARTIFACTS] 禁止挖掘其历史遗迹 ({1_turnsleft}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_REQUESTED_DONT_SPY_ON_ME" Text="[ICON_AKWDIP_BLUE_DONT_SPY_ON_ME] 停止一切针对性间谍活动 ({1_turnsleft}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_REQUESTED_KEEP_TROOPS_AWAY_FROM_ME" Text="[ICON_AKWDIP_BLUE_KEEP_TROOPS_AWAY_FROM_ME] 驱离我方部队 ({1_turnsleft}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_REQUESTED_DONT_CONVERT_MY_CITIES" Text="[ICON_AKWDIP_BLUE_DONT_CONVERT_MY_CITIES] 停止一切针对性宗教传教活动 ({1_turnsleft}[ICON_TURN])" Language="zh_CN"/>
+
+<Row Tag="LOC_AKWDIP_REQUESTED_DONT_SETTLE_NEAR_ME_NODATE" Text="[ICON_AKWDIP_BLUE_DONT_SETTLE_NEAR_ME] 禁止在其附近定居" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_REQUESTED_DONT_DIG_UP_MY_ARTIFACTS_NODATE" Text="[ICON_AKWDIP_BLUE_DONT_DIG_UP_MY_ARTIFACTS] 禁止挖掘其历史遗迹" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_REQUESTED_DONT_SPY_ON_ME_NODATE" Text="[ICON_AKWDIP_BLUE_DONT_SPY_ON_ME] 停止一切针对性间谍活动" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_REQUESTED_KEEP_TROOPS_AWAY_FROM_ME_NODATE" Text="[ICON_AKWDIP_BLUE_KEEP_TROOPS_AWAY_FROM_ME] 驱离我方部队" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_REQUESTED_DONT_CONVERT_MY_CITIES_NODATE" Text="[ICON_AKWDIP_BLUE_DONT_CONVERT_MY_CITIES] 停止一切针对性宗教传教活动" Language="zh_CN"/>
+
+<Row Tag="LOC_AKWDIP_HUD_SETTLEPROMISE_LENS_LEGEND" Text="即将打破承诺" Language="zh_CN"/>
+
+
+<Row Tag="LOC_AKWDIP_HUD_TROOPSPROMISE_LENS" Text="军事协议" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_HUD_TROOPSPROMISE_LENS_TOOLTIP" Text="我方承诺过要将部队远离双方争议地区" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_HUD_TROOPSPROMISE_LENS_LEGEND" Text="我方承诺过将撤离这里并保持安全距离" Language="zh_CN"/>
+
+
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_HEADER" Text="外交警告" Language="zh_CN"/>
+
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_DONT_SETTLE_NEAR_ME" Text="我方承诺过 {1_civname} 将不会在其附近定居 ({2_turns}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_DONT_SETTLE_NEAR_ME" Text="{1_civname} 曾严正警告我方不可在其附近定居 ({2_turns}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_DONT_SETTLE_NEAR_ME" Text="{1_civname} 曾严正警告我方不可在其附近定居" Language="zh_CN"/>
+
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_DONT_DIG_UP_MY_ARTIFACTS" Text="我方承诺过 {1_civname} 不在其领土上进行挖掘考古 ({2_turns}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_DONT_DIG_UP_MY_ARTIFACTS" Text="{1_civname} 严正警告过我方不可在其领土内挖掘考古 ({2_turns}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_DONT_DIG_UP_MY_ARTIFACTS" Text="{1_civname} 严正警告过我方不可在其领土内挖掘考古" Language="zh_CN"/>
+
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_DONT_SPY_ON_ME" Text="我方承诺过 {1_civname} 我方将不再对其进行针对性间谍活动 ({2_turns}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_DONT_SPY_ON_ME" Text="{1_civname} 严正警告过我方立即停止一切针对性间谍活动 ({2_turns}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_DONT_SPY_ON_ME" Text="{1_civname} 严正警告过我方立即停止一切针对性间谍活动" Language="zh_CN"/>
+
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME" Text="我方承诺过 {1_civname} 将撤离我方部队远离他们的领土边界 ({2_turns}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_KEEP_TROOPS_AWAY_FROM_ME" Text="{1_civname} 要求过我方撤离抵近其领土边界的部队 ({2_turns}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_KEEP_TROOPS_AWAY_FROM_ME" Text="{1_civname} 要求过我方撤离抵近其领土边界的部队" Language="zh_CN"/>
+
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_DONT_CONVERT_MY_CITIES" Text="我方承诺过 {1_civname} 不会再往他们的领土内派遣传教士 ({2_turns}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_DONT_CONVERT_MY_CITIES" Text="{1_civname} 严正警告过我们禁止向其人民进行宗教传播活动 ({2_turns}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_DONT_CONVERT_MY_CITIES" Text="{1_civname} 严正警告过我们禁止向其人民进行宗教传播活动" Language="zh_CN"/>
+
+
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_DONT_SETTLE_NEAR_ME" Text="在此处建立城市将违背我方对于 {1_civname} 的承诺 ({2_turns}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_DONT_SETTLE_NEAR_ME" Text="{1_civname} 曾严正警告过我方禁止在此处定居 ({2_turns}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_DONT_SETTLE_NEAR_ME" Text="{1_civname} 曾严正警告过我方禁止在此处定居" Language="zh_CN"/>
+
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_DONT_DIG_UP_MY_ARTIFACTS" Text="在此处挖掘考古将违背我方对于 {1_civname} 做出的承诺 ({2_turns}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_DONT_DIG_UP_MY_ARTIFACTS" Text="{1_civname} 严正警告过我方禁止在其领土内进行挖掘考古 ({2_turns}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_DONT_DIG_UP_MY_ARTIFACTS" Text="{1_civname} 严正警告过我方禁止在其领土内进行挖掘考古" Language="zh_CN"/>
+
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_DONT_SPY_ON_ME" Text="我方承诺过 {1_civname} 不再对其进行针对性的间谍活动 ({2_turns}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_DONT_SPY_ON_ME" Text="{1_civname} 严正警告过我方立即停止对其的间谍活动 ({2_turns}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_DONT_SPY_ON_ME" Text="{1_civname} 严正警告过我方立即停止对其的间谍活动" Language="zh_CN"/>
+
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME_PAST" Text="{1_civname} 将可能打破我方已做出的不再在其领土边界活动的承诺" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME_NOW" Text="如果不想打破我方曾经做出的承诺，我方必须尽快从 {1_civadj} 的领土边界撤离我方的部队 ({2_turns}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME_IMMINENT" Text="如果不想打破我方曾经做出的承诺，我方必须尽快从 {1_civadj} 的领土边界撤离我方的部队于 {3_turns}[ICON_TURN]回合内，否则将违背承诺 ({2_turns}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME" Text="我方已对 {1_civname} 做出承诺将撤离我方单位远离其领土 ({2_turns}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_KEEP_TROOPS_AWAY_FROM_ME" Text="{1_civname} 严正警告过我方立即将部队撤离这里 ({2_turns}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_KEEP_TROOPS_AWAY_FROM_ME" Text="{1_civname} 严正警告过我方立即将部队撤离这里" Language="zh_CN"/>
+
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_DONT_CONVERT_MY_CITIES" Text="在此处传播宗教将违背我方对于 {1_civname} 做出的承诺 ({2_turns}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_DONT_CONVERT_MY_CITIES" Text="{1_civname} 严正警告过我方严禁在此处传播我方宗教 ({2_turns}[ICON_TURN])" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_DONT_CONVERT_MY_CITIES" Text="{1_civname} 严正警告过我方严禁在此处传播我方宗教" Language="zh_CN"/>
+
+<Row Tag="LOC_AKWDIP_IMMINENT_DMZ_BREACH_NOTIFICATION_HEADER" Text="打破非军事承诺警告" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_NOTIFICATION_DMZ_BREACH_IMMINENT_TEXT" Text="我方即将打破对于 {1_civname} 的承诺，除非我们于 {2_turns}[ICON_TURN] 回合内撤离我方单位！" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_NOTIFICATION_DMZ_BREACH_NOW_TEXT" Text="我方即将打破和 {1_civname} 的将部队撤离其领土边界的承诺！" Language="zh_CN"/>
+
+<Row Tag="LOC_AKWDIP_TOPBARBUTTON" Text="" Language="zh_CN"/>
+<Row Tag="LOC_AKWDIP_TOPBARBUTTON_TT" Text="我方做出的承诺选项" Language="zh_CN"/>
+</LocalizedText>
+
+</GameData> 

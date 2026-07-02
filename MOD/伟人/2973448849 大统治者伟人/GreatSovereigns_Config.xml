@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Parameters>
+		<Row ParameterId="SovereignReclassifyGenerals" Name="LOC_GAME_SOVEREIGN_RECLASSIFY_NAME" Description="LOC_GAME_SOVEREIGN_RECLASSIFY_DESC" Domain="bool" DefaultValue="0" ConfigurationGroup="Game" ConfigurationId="SovereignReclassifyGenerals" GroupId="AdvancedOptions" Visible="1" SortIndex="2001"/>
+	</Parameters>
+</GameInfo>

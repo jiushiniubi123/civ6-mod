@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Parameters>
+		<Row ParameterId="SumusMagnusVisionariesOfPeace" Name="LOC_SUMUS_MAGNUS_PEACE_VISIONARIES_NAME" Description="LOC_SUMUS_MAGNUS_PEACE_VISIONARIES_DESC" 	Domain="bool" DefaultValue="0" ConfigurationGroup="Game" ConfigurationId="SumusMagnusVisionariesOfPeace" GroupId="AdvancedOptions" Visible="1" SortIndex="2002"/>
+		<Row ParameterId="SumusMagnusUniqueImprovements" Name="LOC_SUMUS_MAGNUS_UNIQUE_IMPROV_NAME" Description="LOC_SUMUS_MAGNUS_UNIQUE_IMPROV_DESC" 			Domain="bool" DefaultValue="0" ConfigurationGroup="Game" ConfigurationId="SumusMagnusUniqueImprovements" GroupId="AdvancedOptions" Visible="1" SortIndex="2003"/>
+		<Row ParameterId="SumusMagnusRemoveUnimpressives" Name="LOC_SUMUS_MAGNUS_REMOVE_UNIMPRESSIVES_NAME" Description="LOC_SUMUS_MAGNUS_REMOVE_UNIMPRESSIVES_DESC" 			Domain="bool" DefaultValue="0" ConfigurationGroup="Game" ConfigurationId="SumusMagnusRemoveUnimpressives" GroupId="AdvancedOptions" Visible="1" SortIndex="2004"/>
+	</Parameters>
+</GameInfo>

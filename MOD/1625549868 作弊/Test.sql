@@ -1,0 +1,9 @@
+-- Test
+-- Author: Zur13
+-- DateCreated: 1/13/2019 6:40:08 PM
+--------------------------------------------------------------
+--UPDATE Improvements
+--SET 
+	--TraitType = null
+--WHERE
+    --ImprovementType="IMPROVEMENT_STEPWELL" 

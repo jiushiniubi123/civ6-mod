@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RENAISSANCE Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_MORGAN" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_MORGAN" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_MORGAN_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionEffectTileHighlighting="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" AreaHighlightRadius="2" />
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualBirthModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_MORGAN" ModifierId="PLATI_PIRATE_PASSIVE_BOOST_RENAISSANCE"/>
+	</GreatPersonIndividualBirthModifiers>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_MORGAN" ModifierId="GREATPERSON_PLATI_MORGAN_SEADOGS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_MORGAN_SEADOGS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GOVERNOR_POINTS</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_PIRATE_PASSIVE_BOOST_RENAISSANCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_RENAISSANCE_SEA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_MORGAN_SEADOGS</ModifierId>
+			<Name>Delta</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_PIRATE_PASSIVE_BOOST_RENAISSANCE</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_PLATI_CAPTURE_SHIPS</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_PLATI_MORGAN_SEADOGS" 			Context="Summary" Text="LOC_GREATPERSON_PLATI_MORGAN_ACTIVE"/>
+		<Row ModifierId="PLATI_PIRATE_PASSIVE_BOOST_RENAISSANCE" 	Context="Summary" Text="LOC_PIRATE_PASSIVE_RENAISSANCE"/>
+	</ModifierStrings>
+</GameData>

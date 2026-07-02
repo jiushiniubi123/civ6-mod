@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+  <GridButton ID="QuickRestartButton" Size="29,29" Anchor="C,C" Style="ButtonControl">
+    <Label Size="29,29" Anchor="C,C" Style="TopBarMeta" String="R" />
+  </GridButton>
+</Context>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="007a4f25-f013-4be4-ab4b-3dd4f76e0d0a">
+  <Properties>
+    <Name>Super Spy Promotions 1.11</Name>
+    <Teaser>Choose from  all  promotions, and acquire more skills.</Teaser>
+    <Description>This mod allows all players to choose from any available spy promotions, and acquire up to six deadly skills through a higher promotion limit.[NEWLINE][NEWLINE]Compatible with [COLOR_Green]Civilization VI[ENDCOLOR], [COLOR_Green]Rise &amp; Fall[ENDCOLOR], and [COLOR_Green]Gathering Storm[ENDCOLOR].[NEWLINE][NEWLINE]</Description>
+    <Authors>Das_Capitolin</Authors>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <CompatibleVersions>1.2, 2.0</CompatibleVersions>
+    <SubscriptionID>2811007486</SubscriptionID>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="SuperSpyPromotions">
+      <File>SuperSpyPromotions.sql</File>
+      <Properties>
+        <LoadOrder>5001</LoadOrder>
+      </Properties>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>SuperSpyPromotions.sql</File>
+  </Files>
+</Mod>

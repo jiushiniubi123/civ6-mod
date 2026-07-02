@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="5d8f7e83-5b2a-4199-adb3-e0c02ed088ca" version="2">
+  <Properties>
+    <Name>Non Stop Project</Name>
+    <Description>Tired of telling your city to build a project? This mod will make your city keep building the damn same project until you tell it to stop.[NEWLINE][NEWLINE]I'm not sure it is multiplayer and hotseat compatible...[NEWLINE][NEWLINE]Now fully compatible with Gathering Storm!</Description>
+    <Teaser>Tired of telling your city to build a project? This mod will make your city keep building the damn same project until you tell</Teaser>
+    <Authors>Kenska</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <AddUserInterfaces id="NonStopProjectUI">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>NonStopProject.xml</File>
+    </AddUserInterfaces>
+    <ImportFiles id="NonStopProjectUIFiles">
+      <File>NonStopProject.lua</File>
+      <File>NonStopProject.xml</File>
+    </ImportFiles>
+  </InGameActions>
+  <Files>
+    <File>NonStopProject.lua</File>
+    <File>NonStopProject.xml</File>
+  </Files>
+</Mod>

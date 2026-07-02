@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c2dc0d1a-38d8-4034-af1d-ccf938c8ab8b" version="1">
+  <Properties>
+    <Name>LOC_EWHO_MOD_NAME</Name>
+    <Description>LOC_EWHO_MOD_DESCRIPTION</Description>
+    <Created>1673965277</Created>
+    <Teaser>LOC_EWHO_MOD_TEASER</Teaser>
+    <Authors>LOC_EWHO_MOD_AUTHORS</Authors>
+    <SpecialThanks>LOC_EWHO_MOD_SPECIALTHANKS</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <!-- <Dependencies> -->
+    <!-- <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" /> -->
+    <!-- <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" /> -->
+  <!-- </Dependencies> -->
+  <LocalizedText>
+    <Text id="LOC_EWHO_MOD_NAME">
+      <en_US>Enhanced Wonders for Historical Owners</en_US>
+      <zh_Hans_CN>奇观的历史拥有者获得额外加成</zh_Hans_CN>
+	  <zh_Hant_HK>奇观的历史拥有者获得额外加成</zh_Hant_HK>
+    </Text>
+    <Text id="LOC_EWHO_MOD_TEASER">
+      <en_US>A mod that add abilities to Wonders</en_US>
+      <zh_Hans_CN>奇观拓展</zh_Hans_CN>
+	  <zh_Hant_HK>奇观拓展</zh_Hant_HK>
+    </Text>
+    <Text id="LOC_EWHO_MOD_DESCRIPTION">
+      <en_US>[ICON_BUllet] The historical owner of a certain Wonder gains +50% [ICON_Production] production while building the Wonder.[NEWLINE][ICON_BUllet] Historical owners of Wonders receive unique bonuses from them .(Please check the pedia in game for detailed information.)[NEWLINE][NEWLINE]Recent updates: add bonuses for 16 Wonders from Industrial Era to Atomic Era.</en_US>
+      <zh_Hans_CN>一个奇观扩展mod。[NEWLINE][NEWLINE][ICON_BUllet]一方面，奇观的历史拥有者建造该奇观时获得加速。[NEWLINE][ICON_BUllet]另一方面，玩家拥有的历史奇观为其提供更强力的效果，详情参见游戏内百科的奇观页面。目前已经支持所有官方的奇观。[NEWLINE][NEWLINE]最近更新：增加了对16个官方的工业、现代和原子能奇观的支持。</zh_Hans_CN>
+	  <zh_Hant_HK>一个奇观扩展mod。[NEWLINE][NEWLINE][ICON_BUllet]一方面，奇观的历史拥有者建造该奇观时获得加速。[NEWLINE][ICON_BUllet]另一方面，玩家拥有的历史奇观为其提供更强力的效果，详情参见游戏内百科的奇观页面。目前已经支持所有官方的奇观。[NEWLINE][NEWLINE]最近更新：增加了对16个官方的工业、现代和原子能奇观的支持。</zh_Hant_HK>
+    </Text>
+	<Text id="LOC_EWHO_MOD_AUTHORS">
+      <en_US>Maple_Leaves</en_US>
+      <zh_Hans_CN>枫叶(Maple_Leaves)</zh_Hans_CN>
+	  <zh_Hant_HK>枫叶(Maple_Leaves)</zh_Hant_HK>
+    </Text>
+	<Text id="LOC_EWHO_MOD_SPECIALTHANKS">
+      <en_US>Hemmelfort, UFO300, nea baraja, Lumen, Qianguge, C1sen, ChuanYin, DanXiao</en_US>
+      <zh_Hans_CN>Hemmelfort，UFO300，nea baraja，流明贤者，千古歌，C1sen，猭音，古明地淡宵</zh_Hans_CN>
+	  <zh_Hant_HK>Hemmelfort，UFO300，nea baraja，流明贤者，千古歌，C1sen，猭音，古明地淡宵</zh_Hant_HK>
+    </Text>
+  </LocalizedText>
+  <ActionCriteria>
+	<Criteria id="EWHO">
+	  <RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+	</Criteria>
+	<Criteria id="EWHO_Expansion1">
+	  <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+	</Criteria>
+	<Criteria id="EWHO_Expansion1_Expansion2">
+	  <RuleSetInUse>RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+	</Criteria>
+	<Criteria id="EWHO_Expansion2">
+	  <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+	</Criteria>
+	<Criteria id="EWHO_Australia">
+      <RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse>E3F53C61-371C-440B-96CE-077D318B36C0</ModInUse>
+    </Criteria>
+	<Criteria id="EWHO_Aztec">
+      <RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse>02A8BDDE-67EA-4D38-9540-26E685E3156E</ModInUse>
+    </Criteria>
+	<Criteria id="EWHO_Indonesia_Khmer">
+      <RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse>1F367231-A040-4793-BDBB-088816853683</ModInUse>
+    </Criteria>
+	<Criteria id="EWHO_Nubia">
+      <RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse>643EA320-8E1A-4CF1-A01C-00D88DDD131A</ModInUse>
+    </Criteria>
+	<Criteria id="EWHO_Persia">
+      <RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse>E2749E9A-8056-45CD-901B-C368C8E83DEB</ModInUse>
+    </Criteria>
+	<Criteria id="EWHO_Persia_Expansion1_Expansion2">
+      <RuleSetInUse>RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse>E2749E9A-8056-45CD-901B-C368C8E83DEB</ModInUse>
+    </Criteria>
+	<Criteria id="EWHO_GranColombia_Maya"> 
+		<RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>9DE86512-DE1A-400D-8C0A-AB46EBBF76B9</ModInUse> 
+	</Criteria> 
+	<Criteria id="EWHO_Byzantium_Gaul"> 
+		<RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>A1100FC4-70F2-4129-AC27-2A65A685ED08</ModInUse> 
+	</Criteria>
+	<Criteria id="EWHO_Byzantium_Gaul_XP2"> 
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>A1100FC4-70F2-4129-AC27-2A65A685ED08</ModInUse> 
+	</Criteria>	
+	<Criteria id="EWHO_Babylon">
+      <RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse>8424840C-92EF-4426-A9B4-B4E0CB818049</ModInUse>
+    </Criteria>
+	<Criteria id="EWHO_Babylon_Portugal">
+      <RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse>8424840C-92EF-4426-A9B4-B4E0CB818049</ModInUse>
+	  <ModInUse>FFDF4E79-DEE2-47BB-919B-F5739106627A</ModInUse>
+    </Criteria>
+	<Criteria id="EWHO_Babylon_Portugal_Expansion2">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse>8424840C-92EF-4426-A9B4-B4E0CB818049</ModInUse>
+	  <ModInUse>FFDF4E79-DEE2-47BB-919B-F5739106627A</ModInUse>
+    </Criteria>
+	<Criteria id="EWHO_Portugal">
+      <RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+	  <ModInUse>FFDF4E79-DEE2-47BB-919B-F5739106627A</ModInUse>
+    </Criteria>
+	<Criteria id="EWHO_Portugal_Expansion1">
+      <RuleSetInUse>RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+	  <ModInUse>FFDF4E79-DEE2-47BB-919B-F5739106627A</ModInUse>
+    </Criteria>
+	<Criteria id="EWHO_RulersOfChina">
+      <RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse>7D27831B-BAA6-4A8B-A39C-94243BAD3F47</ModInUse>
+    </Criteria>
+	<Criteria id="EWHO_SecretSocieties_Mode">
+      <ConfigurationValueMatches>
+		<Group>Game</Group>
+        <ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="EWHO_Monopolies_Mode">
+	  <ConfigurationValueMatches>
+		<Group>Game</Group>
+	    <ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
+		<Value>1</Value>
+	  </ConfigurationValueMatches>
+	</Criteria>
+	<Criteria id="EWHO_HumanOnly_Mode">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_EWHOHUMANONLY</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="EWHO_HumanOnly_Mode_Expansion1_Expansion2">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_EWHOHUMANONLY</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <RuleSetInUse>RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+	<Criteria id="EWHO_HumanOnly_Mode_Expansion2">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_EWHOHUMANONLY</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+	<Criteria id="EWHO_Australia_HumanOnly_Mode">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_EWHOHUMANONLY</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+      <ModInUse>E3F53C61-371C-440B-96CE-077D318B36C0</ModInUse>
+    </Criteria>
+	<Criteria id="EWHO_Aztec_HumanOnly_Mode">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_EWHOHUMANONLY</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <ModInUse>02A8BDDE-67EA-4D38-9540-26E685E3156E</ModInUse>
+    </Criteria>
+	<Criteria id="EWHO_Babylon_HumanOnly_Mode">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_EWHOHUMANONLY</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <ModInUse>8424840C-92EF-4426-A9B4-B4E0CB818049</ModInUse>
+    </Criteria>
+	<Criteria id="EWHO_Byzantium_Gaul_HumanOnly_Mode">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_EWHOHUMANONLY</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <ModInUse>A1100FC4-70F2-4129-AC27-2A65A685ED08</ModInUse> 
+    </Criteria>  
+	<Criteria id="EWHO_GranColombia_Maya_HumanOnly_Mode">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_EWHOHUMANONLY</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <ModInUse>9DE86512-DE1A-400D-8C0A-AB46EBBF76B9</ModInUse> 
+    </Criteria>
+	<Criteria id="EWHO_Indonesia_Khmer_HumanOnly_Mode">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_EWHOHUMANONLY</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <ModInUse>1F367231-A040-4793-BDBB-088816853683</ModInUse> 
+    </Criteria>
+	<Criteria id="EWHO_Nubia_HumanOnly_Mode">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_EWHOHUMANONLY</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <ModInUse>643EA320-8E1A-4CF1-A01C-00D88DDD131A</ModInUse>
+    </Criteria>
+	<Criteria id="EWHO_Persia_HumanOnly_Mode">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_EWHOHUMANONLY</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <ModInUse>E2749E9A-8056-45CD-901B-C368C8E83DEB</ModInUse>
+    </Criteria>
+	<Criteria id="EWHO_Portugal_HumanOnly_Mode">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_EWHOHUMANONLY</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <ModInUse>FFDF4E79-DEE2-47BB-919B-F5739106627A</ModInUse>
+    </Criteria>
+	<Criteria id="EWHO_RulersOfChina_HumanOnly_Mode">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_EWHOHUMANONLY</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <ModInUse>7D27831B-BAA6-4A8B-A39C-94243BAD3F47</ModInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateText id="Text">
+      <File>Text/EWHO_ConfigText_zh_Hans_CN.xml</File>
+	  <File>Text/EWHO_ConfigText_en_US.xml</File>
+	  <File>Text/EWHO_ConfigText_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="Config">
+      <File>Data/EWHO_Config.xml</File>
+    </UpdateDatabase>
+	<UpdateIcons id="Icon">
+      <File>Icon/EWHO_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Enhanced_Wonders_for_Historical_Owners.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Datebase_EWHO">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO</Criteria>
+	  <File>Data/EWHO_Modifiers.xml</File>
+	  <File>Data/EWHO_Requirements.xml</File>
+	  <File>Data/EWHO_UnitAbilities.xml</File>
+      <File>Data/EWHO_Buildings.xml</File>
+	  <File>Data/EWHO_Projects.xml</File>
+      <File>Data/EWHO_Civilizations.xml</File>
+	  <File>Data/EWHO_Civilopedia.xml</File>
+	  <File>Data/EWHO_GreatPeople.xml</File>
+	  <File>Data/EWHO_Terrains.xml</File>
+	  <File>Data/EWHO_Units.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="Datebase_EWHO_Expansion1">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO_Expansion1_Expansion2</Criteria>
+      <File>Data/EWHO_Buildings_Expansion1.xml</File>
+	  <File>Data/EWHO_Civilizations_XP1.xml</File>
+	  <File>Data/EWHO_Projects_Expansion1.xml</File>
+	  <File>Data/EWHO_Requirements_Expansion1.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="Datebase_EWHO_Expansion2">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO_Expansion2</Criteria>
+      <File>Data/EWHO_Buildings_Expansion2.xml</File>
+	  <File>Data/EWHO_Civilizations_XP2.xml</File>
+	  <File>Data/EWHO_Projects_Expansion2.xml</File>
+	  <File>Data/EWHO_Requirements_Expansion2.xml</File>
+	  <File>Data/EWHO_UnitAbilities_XP2.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="Datebase_EWHO_Australia">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO_Australia</Criteria>
+      <File>Data/EWHO_Australia.xml</File>
+    </UpdateDatabase>	
+	<UpdateDatabase id="Datebase_EWHO_Aztec">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO_Aztec</Criteria>
+      <File>Data/EWHO_Aztec.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="Datebase_EWHO_Babylon">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO_Babylon</Criteria>
+      <File>Data/EWHO_Babylon.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="Datebase_EWHO_Babylon_Portugal">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO_Babylon_Portugal</Criteria>
+      <File>Data/EWHO_Babylon_Portugal.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="Datebase_EWHO_Byzantium_Gaul">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO_Byzantium_Gaul</Criteria>
+      <File>Data/EWHO_Byzantium_Gaul.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="Datebase_EWHO_Byzantium_Gaul_XP2">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO_Byzantium_Gaul_XP2</Criteria>
+      <File>Data/EWHO_Byzantium_Gaul_XP2.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="Datebase_EWHO_GranColombia_Maya">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO_GranColombia_Maya</Criteria>
+      <File>Data/EWHO_Maya.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="Datebase_EWHO_Indonesia_Khmer">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO_Indonesia_Khmer</Criteria>
+      <File>Data/EWHO_Khmer.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="Datebase_EWHO_Nubia">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO_Nubia</Criteria>
+      <File>Data/EWHO_Nubia.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="Datebase_EWHO_Persia">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO_Persia</Criteria>
+      <File>Data/EWHO_Persia.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="Datebase_EWHO_Persia_Expansion1">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO_Persia_Expansion1_Expansion2</Criteria>
+      <File>Data/EWHO_Persia_Expansion1.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="Datebase_EWHO_Portugal"> 
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties> 
+	  <Criteria>EWHO_Portugal</Criteria>
+      <File>Data/EWHO_Portugal.xml</File> 
+    </UpdateDatabase> 
+	<UpdateDatabase id="Datebase_EWHO_Portugal_Expansion1">
+	  <Properties> 
+        <LoadOrder>999999</LoadOrder>
+      </Properties> 
+	  <Criteria>EWHO_Portugal_Expansion1</Criteria> 
+      <File>Data/EWHO_Portugal_Expansion1.xml</File> 
+    </UpdateDatabase> 
+	<UpdateDatabase id="Datebase_EWHO_RulersOfChina"> 
+	  <Properties> 
+        <LoadOrder>999999</LoadOrder> 
+      </Properties> 
+	  <Criteria>EWHO_RulersOfChina</Criteria> 
+      <File>Data/EWHO_RulersOfChina.xml</File> 
+    </UpdateDatabase> 
+	<UpdateDatabase id="Datebase_EWHO_HumanOnly_Mode">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO_HumanOnly_Mode</Criteria>
+	  <File>Data/EWHO_ReqSetReq_AI.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="Datebase_EWHO_HumanOnly_Mode_XP1">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO_HumanOnly_Mode_Expansion1_Expansion2</Criteria>
+	  <File>Data/EWHO_ReqSetReq_AI_XP1.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="Datebase_EWHO_HumanOnly_Mode_XP2">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO_HumanOnly_Mode_Expansion2</Criteria>
+	  <File>Data/EWHO_ReqSetReq_AI_XP2.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="Datebase_EWHO_Australia_HumanOnly_Mode">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO_Australia_HumanOnly_Mode</Criteria>
+      <File>Data/EWHO_Australia_AI.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="Datebase_EWHO_Aztec_HumanOnly_Mode">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO_Aztec_HumanOnly_Mode</Criteria>
+      <File>Data/EWHO_Aztec_AI.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="Datebase_EWHO_Babylon_HumanOnly_Mode">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO_Babylon_HumanOnly_Mode</Criteria>
+      <File>Data/EWHO_Babylon_AI.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="Datebase_EWHO_Byzantium_Gaul_HumanOnly_Mode">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO_Byzantium_Gaul_HumanOnly_Mode</Criteria>
+	  <File>Data/EWHO_Byzantium_Gaul_AI.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="Datebase_EWHO_GranColombia_Maya_HumanOnly_Mode">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO_GranColombia_Maya_HumanOnly_Mode</Criteria>
+	  <File>Data/EWHO_Maya_AI.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="Datebase_EWHO_Indonesia_Khmer_HumanOnly_Mode">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO_Indonesia_Khmer_HumanOnly_Mode</Criteria>
+	  <File>Data/EWHO_Khmer_AI.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="Datebase_EWHO_Nubia_HumanOnly_Mode">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO_Nubia_HumanOnly_Mode</Criteria>
+	  <File>Data/EWHO_Nubia_AI.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="Datebase_EWHO_Persia_HumanOnly_Mode">
+	  <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+	  <Criteria>EWHO_Persia_HumanOnly_Mode</Criteria>
+      <File>Data/EWHO_Persia_AI.xml</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="Datebase_Portugal_HumanOnly_Mode">
+	   <Properties> 
+         <LoadOrder>999999</LoadOrder> 
+       </Properties>
+	   <Criteria>EWHO_Portugal_HumanOnly_Mode</Criteria> 
+       <File>Data/EWHO_Portugal_AI.xml</File> 
+    </UpdateDatabase> 
+	<UpdateDatabase id="Datebase_RulersOfChina_HumanOnly_Mode">
+	   <Properties> 
+         <LoadOrder>999999</LoadOrder> 
+       </Properties>
+	   <Criteria>EWHO_RulersOfChina_HumanOnly_Mode</Criteria> 
+       <File>Data/EWHO_RulersOfChina_AI.xml</File>
+    </UpdateDatabase> 
+    <UpdateText id="Text_EWHO">
+      <File>Text/EWHO_Text_zh_Hans_CN.xml</File>
+      <File>Text/EWHO_Text_en_US.xml</File>
+	  <File>Text/EWHO_Text_zh_Hant_HK.xml</File>
+    </UpdateText>
+	<UpdateIcons id="Icon_EWHO">
+      <File>Icon/EWHO_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art_EWHO">
+      <File>Enhanced_Wonders_for_Historical_Owners.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Units.artdef</File>
+    <File>Artdefs/Units_Great_People.artdef</File>
+    <File>Data/EWHO_Australia.xml</File>
+    <File>Data/EWHO_Australia_AI.xml</File>
+    <File>Data/EWHO_Aztec.xml</File>
+    <File>Data/EWHO_Aztec_AI.xml</File>
+    <File>Data/EWHO_Babylon.xml</File>
+    <File>Data/EWHO_Babylon_AI.xml</File>
+    <File>Data/EWHO_Babylon_Portugal.xml</File>
+    <File>Data/EWHO_Buildings.xml</File>
+    <File>Data/EWHO_Buildings_Expansion1.xml</File>
+    <File>Data/EWHO_Buildings_Expansion2.xml</File>
+    <File>Data/EWHO_Byzantium_Gaul.xml</File>
+    <File>Data/EWHO_Byzantium_Gaul_AI.xml</File>
+    <File>Data/EWHO_Byzantium_Gaul_XP2.xml</File>
+    <File>Data/EWHO_Civilizations.xml</File>
+    <File>Data/EWHO_Civilizations_XP1.xml</File>
+    <File>Data/EWHO_Civilizations_XP2.xml</File>
+    <File>Data/EWHO_Civilopedia.xml</File>
+    <File>Data/EWHO_Config.xml</File>
+    <File>Data/EWHO_GreatPeople.xml</File>
+    <File>Data/EWHO_Khmer.xml</File>
+    <File>Data/EWHO_Khmer_AI.xml</File>
+    <File>Data/EWHO_Maya.xml</File>
+    <File>Data/EWHO_Maya_AI.xml</File>
+    <File>Data/EWHO_Modifiers.xml</File>
+    <File>Data/EWHO_Nubia.xml</File>
+    <File>Data/EWHO_Nubia_AI.xml</File>
+    <File>Data/EWHO_Persia.xml</File>
+    <File>Data/EWHO_Persia_AI.xml</File>
+    <File>Data/EWHO_Persia_Expansion1.xml</File>
+    <File>Data/EWHO_Portugal.xml</File>
+    <File>Data/EWHO_Portugal_AI.xml</File>
+    <File>Data/EWHO_Portugal_Expansion1.xml</File>
+    <File>Data/EWHO_Projects.xml</File>
+    <File>Data/EWHO_Projects_Expansion1.xml</File>
+    <File>Data/EWHO_Projects_Expansion2.xml</File>
+    <File>Data/EWHO_ReqSetReq_AI.xml</File>
+    <File>Data/EWHO_ReqSetReq_AI_XP1.xml</File>
+    <File>Data/EWHO_ReqSetReq_AI_XP2.xml</File>
+    <File>Data/EWHO_Requirements.xml</File>
+    <File>Data/EWHO_Requirements_Expansion1.xml</File>
+    <File>Data/EWHO_Requirements_Expansion2.xml</File>
+    <File>Data/EWHO_RulersOfChina.xml</File>
+    <File>Data/EWHO_RulersOfChina_AI.xml</File>
+    <File>Data/EWHO_Terrains.xml</File>
+    <File>Data/EWHO_UnitAbilities.xml</File>
+    <File>Data/EWHO_UnitAbilities_XP2.xml</File>
+    <File>Data/EWHO_Units.xml</File>
+    <File>Enhanced_Wonders_for_Historical_Owners.dep</File>
+    <File>Icon/EWHO_Icons.xml</File>
+    <File>Platforms/MacOS/BLPs/EWHOPictures.blp</File>
+    <File>Platforms/Windows/BLPs/EWHOPictures.blp</File>
+    <File>Text/EWHO_ConfigText_en_US.xml</File>
+    <File>Text/EWHO_ConfigText_zh_Hans_CN.xml</File>
+    <File>Text/EWHO_ConfigText_zh_Hant_HK.xml</File>
+    <File>Text/EWHO_Text_en_US.xml</File>
+    <File>Text/EWHO_Text_zh_Hans_CN.xml</File>
+    <File>Text/EWHO_Text_zh_Hant_HK.xml</File>
+  </Files>
+</Mod>

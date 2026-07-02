@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="eaba50bd-41e2-4912-969c-22fd99c4b0ad" version="1">
+  <Properties>
+    <Name>EpsTweak for Casus Belli</Name>
+    <Description>Decreases the Grievance penalties of [COLOR_FLOAT_GOLD]Casus Belli[ENDCOLOR] - the initial penalties, penalties for capturing cities, and penalties for razing cities.[NEWLINE][NEWLINE]Also updates their descriptions for more clarity.[NEWLINE][NEWLINE]</Description>
+    <Created>1629113242</Created>
+    <Teaser>Decreases the Grievance penalties for Casus Belli.</Teaser>
+    <Authors>Eps</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions />
+  <InGameActions>
+    <UpdateDatabase id="InGameDatabase">
+      <File>Core/GameDefines.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="InGameText">
+      <File>Core/GameText.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Core/GameDefines.xml</File>
+    <File>Core/GameText.xml</File>
+  </Files>
+</Mod>

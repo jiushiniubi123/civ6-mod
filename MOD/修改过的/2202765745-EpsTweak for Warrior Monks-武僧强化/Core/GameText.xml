@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_UNIT_WARRIOR_MONK_DESCRIPTION_EPSTWEAK" Language="en_US"><Text>拥有独特升级树的陆战单位。解锁归正会后[NEWLINE]+10 [ICON_Strength] 战斗力，解锁保护环境后+10 [ICON_Strength] 战斗力。</Text></Row>
+		
+		<Row Tag="LOC_EPSTWEAK_MONKS_ABILITY_REFORMED_CHURCH_STRENGTH_NAME" Language="en_US"><Text>来自归正会</Text></Row>
+		<Row Tag="LOC_EPSTWEAK_MONKS_ABILITY_REFORMED_CHURCH_STRENGTH_DESCRIPTION" Language="en_US"><Text>解锁归正会后+10 [ICON_Strength] 战斗力。</Text></Row>
+		<Row Tag="LOC_EPSTWEAK_MONKS_REFORMED_CHURCH_STRENGTH_PREVIEW" Language="en_US"><Text>解锁归正会后+10 [ICON_Strength] 战斗力。</Text></Row>
+		
+		<Row Tag="LOC_EPSTWEAK_MONKS_ABILITY_CONSERVATION_STRENGTH_NAME" Language="en_US"><Text>来自保护地球</Text></Row>
+		<Row Tag="LOC_EPSTWEAK_MONKS_ABILITY_CONSERVATION_STRENGTH_DESCRIPTION" Language="en_US"><Text>解锁保护环境后+10 [ICON_Strength] 战斗力。</Text></Row>
+		<Row Tag="LOC_EPSTWEAK_MONKS_CONSERVATION_STRENGTH_PREVIEW" Language="en_US"><Text>解锁保护环境后+10 [ICON_Strength] 战斗力。</Text></Row>
+		
+		<Row Tag="LOC_PROMOTION_MONK_EXPLODING_PALMS_DESCRIPTION_EPSTWEAK" Language="en_US"><Text>如果敌人造成的伤害大于它所承受的伤害，就会击退敌人。不可击退的敌人会受到额外伤害。</Text></Row>
+	</LocalizedText>
+</GameData>

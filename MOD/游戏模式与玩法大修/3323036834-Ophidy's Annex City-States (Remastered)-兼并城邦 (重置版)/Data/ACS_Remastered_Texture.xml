@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ACS_mastered_Texture -->
+<!-- Author: Ophidy -->
+<!-- DateCreated: 8/29/2024 10:36:47 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_ACSR_BUTTON" IconSize="22" Filename="ICON_ACSM_BUTTON_22"/>
+		<Row Name="ATLAS_ICON_ACSR_BUTTON" IconSize="30" Filename="ICON_ACSM_BUTTON_30"/>
+		<Row Name="ATLAS_ICON_ACSR_BUTTON" IconSize="32" Filename="ICON_ACSM_BUTTON_32"/>
+		<Row Name="ATLAS_ICON_ACSR_BUTTON" IconSize="36" Filename="ICON_ACSM_BUTTON_36"/>
+		<Row Name="ATLAS_ICON_ACSR_BUTTON" IconSize="40" Filename="ICON_ACSM_BUTTON_40"/>
+		<Row Name="ATLAS_ICON_ACSR_BUTTON" IconSize="44" Filename="ICON_ACSM_BUTTON_44"/>
+		<Row Name="ATLAS_ICON_ACSR_BUTTON" IconSize="48" Filename="ICON_ACSM_BUTTON_48"/>
+		<Row Name="ATLAS_ICON_ACSR_BUTTON" IconSize="64" Filename="ICON_ACSM_BUTTON_64"/>
+		<Row Name="ATLAS_ICON_ACSR_BUTTON" IconSize="68" Filename="ICON_ACSM_BUTTON_68"/>
+		<Row Name="ATLAS_ICON_ACSR_BUTTON" IconSize="80" Filename="ICON_ACSM_BUTTON_80"/>
+		<Row Name="ATLAS_ICON_ACSR_BUTTON" IconSize="256" Filename="ICON_ACSM_BUTTON_256"/>
+	</IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_ACSR_BUTTON" Atlas="ATLAS_ICON_ACSR_BUTTON" Index="0"/>
+    </IconDefinitions>
+</GameData>

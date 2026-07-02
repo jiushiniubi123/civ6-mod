@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Persia -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/18/2023 7:28:26 PM -->
+<GameData>
+	<BuildingModifiers>
+		<!--阿帕达纳宫-->
+		<Row>
+			<BuildingType>BUILDING_APADANA</BuildingType>
+			<ModifierId>APADANA_CAPTURED_CITY_GARNT_INFLUENCE_TOKEN_ATTACH_EWHO</ModifierId>
+		</Row>
+		<!--摩索拉斯王陵墓-->
+		<Row>
+			<BuildingType>BUILDING_HALICARNASSUS_MAUSOLEUM</BuildingType>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_TRADE_DOMESTIC_SCIENCE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HALICARNASSUS_MAUSOLEUM</BuildingType>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_TRADE_INTERNATIONAL_SCIENCE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HALICARNASSUS_MAUSOLEUM</BuildingType>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_TRADE_DOMESTIC_FAITH_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HALICARNASSUS_MAUSOLEUM</BuildingType>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_TRADE_INTERNATIONAL_FAITH_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HALICARNASSUS_MAUSOLEUM</BuildingType>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_TRADE_DOMESTIC_CULTURE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HALICARNASSUS_MAUSOLEUM</BuildingType>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_TRADE_INTERNATIONAL_CULTURE_EWHO</ModifierId>
+		</Row>
+		
+	</BuildingModifiers>
+
+	<Modifiers>
+		<!--阿帕达纳宫-->
+		<Row>
+			<ModifierId>APADANA_CAPTURED_CITY_GARNT_INFLUENCE_TOKEN_ATTACH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPTURED_CITY_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_PERSIA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>CITY_HAS_WONDER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>APADANA_CAPTURED_CITY_GARNT_INFLUENCE_TOKEN_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_INFLUENCE_TOKEN</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+		</Row>
+		<!--摩索拉斯王陵墓-->
+		<Row>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_TRADE_DOMESTIC_SCIENCE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_PERSIA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_TRADE_INTERNATIONAL_SCIENCE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_PERSIA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_TRADE_DOMESTIC_FAITH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_PERSIA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_TRADE_INTERNATIONAL_FAITH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_PERSIA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_TRADE_DOMESTIC_CULTURE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_PERSIA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_TRADE_INTERNATIONAL_CULTURE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_PERSIA_EWHO</OwnerRequirementSetId>
+		</Row>
+		
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>APADANA_CAPTURED_CITY_GARNT_INFLUENCE_TOKEN_ATTACH_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>APADANA_CAPTURED_CITY_GARNT_INFLUENCE_TOKEN_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>APADANA_CAPTURED_CITY_GARNT_INFLUENCE_TOKEN_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_TRADE_DOMESTIC_SCIENCE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_TRADE_DOMESTIC_SCIENCE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_TRADE_INTERNATIONAL_SCIENCE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_TRADE_INTERNATIONAL_SCIENCE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_TRADE_DOMESTIC_FAITH_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_TRADE_DOMESTIC_FAITH_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_TRADE_INTERNATIONAL_FAITH_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_TRADE_INTERNATIONAL_FAITH_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_TRADE_DOMESTIC_CULTURE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_TRADE_DOMESTIC_CULTURE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_TRADE_INTERNATIONAL_CULTURE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>HALICARNASSUS_MAUSOLEUM_TRADE_INTERNATIONAL_CULTURE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_PLAYER_IS_PERSIA_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_PERSIA_EWHO" RequirementId="PLAYER_IS_PERSIA_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_PERSIA_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<!--Persia-->
+		<Row RequirementId="PLAYER_IS_PERSIA_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+
+	</Requirements>
+
+	<RequirementArguments>
+		<!--Persia-->
+		<Row RequirementId="PLAYER_IS_PERSIA_EWHO" Name="CivilizationType" Value="CIVILIZATION_PERSIA"/>
+	</RequirementArguments>
+
+	<TraitModifiers>
+		<!--阿帕达纳宫-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SATRAPIES</TraitType>
+			<ModifierId>CIVILIZATION_PERSIA_ADJUST_APADANA_PRODUCTION_EWHO</ModifierId>
+		</Row>
+		<!--摩索拉斯王陵墓-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SATRAPIES</TraitType>
+			<ModifierId>CIVILIZATION_PERSIA_ADJUST_HALICARNASSUS_MAUSOLEUM_PRODUCTION_EWHO</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<Modifiers>
+		<!--阿帕达纳宫-->
+		<Row>
+			<ModifierId>CIVILIZATION_PERSIA_ADJUST_APADANA_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_PERSIA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<!--摩索拉斯王陵墓-->
+		<Row>
+			<ModifierId>CIVILIZATION_PERSIA_ADJUST_HALICARNASSUS_MAUSOLEUM_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_PERSIA_EWHO</OwnerRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<!--阿帕达纳宫-->
+		<Row>
+			<ModifierId>CIVILIZATION_PERSIA_ADJUST_APADANA_PRODUCTION_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_APADANA</Value>
+		</Row>
+		<Row>
+			<ModifierId>CIVILIZATION_PERSIA_ADJUST_APADANA_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!--摩索拉斯王陵墓-->
+		<Row>
+			<ModifierId>CIVILIZATION_PERSIA_ADJUST_HALICARNASSUS_MAUSOLEUM_PRODUCTION_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_HALICARNASSUS_MAUSOLEUM</Value>
+		</Row>
+		<Row>
+			<ModifierId>CIVILIZATION_PERSIA_ADJUST_HALICARNASSUS_MAUSOLEUM_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

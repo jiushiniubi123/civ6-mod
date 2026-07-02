@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_RulersOfChina -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 2/23/2023 1:33:38 AM -->
+<GameData>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_FORBIDDEN_CITY</BuildingType>
+			<ModifierId>FORBIDDEN_CITY_ALLOW_LIJIA_FOOD_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FORBIDDEN_CITY</BuildingType>
+			<ModifierId>FORBIDDEN_CITY_ATTACH_ADJUST_CITY_WITH_LESS_THAN_10_POPULATION_LIJIA_FOOD_PRODUCTION_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FORBIDDEN_CITY</BuildingType>
+			<ModifierId>FORBIDDEN_CITY_ATTACH_ADJUST_CITY_WITH_LESS_THAN_10_POPULATION_LIJIA_FOOD_PRODUCTION_YONGLE_EWHO</ModifierId>
+		</Row>
+
+	</BuildingModifiers>
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ALLOW_LIJIA_FOOD_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ALLOW_PROJECT_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_CHINA_EWHO</OwnerRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ATTACH_ADJUST_CITY_WITH_LESS_THAN_10_POPULATION_LIJIA_FOOD_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_CHINA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_CITY_HAS_LESS_THAN_10_POPULATION_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ADJUST_CITY_WITH_LESS_THAN_10_POPULATION_LIJIA_FOOD_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_PROJECT_PRODUCTION_EWHO</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ATTACH_ADJUST_CITY_WITH_LESS_THAN_10_POPULATION_LIJIA_FOOD_PRODUCTION_YONGLE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_CHINA_YONGLE_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_CITY_HAS_LESS_THAN_10_POPULATION_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ADJUST_CITY_WITH_LESS_THAN_10_POPULATION_LIJIA_FOOD_PRODUCTION_YONGLE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_PROJECT_PRODUCTION_EWHO</ModifierType>
+		</Row>
+
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ALLOW_LIJIA_FOOD_EWHO</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_LIJIA_FOOD</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ATTACH_ADJUST_CITY_WITH_LESS_THAN_10_POPULATION_LIJIA_FOOD_PRODUCTION_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>FORBIDDEN_CITY_ADJUST_CITY_WITH_LESS_THAN_10_POPULATION_LIJIA_FOOD_PRODUCTION_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ADJUST_CITY_WITH_LESS_THAN_10_POPULATION_LIJIA_FOOD_PRODUCTION_EWHO</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_LIJIA_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ADJUST_CITY_WITH_LESS_THAN_10_POPULATION_LIJIA_FOOD_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1000</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ATTACH_ADJUST_CITY_WITH_LESS_THAN_10_POPULATION_LIJIA_FOOD_PRODUCTION_YONGLE_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>FORBIDDEN_CITY_ADJUST_CITY_WITH_LESS_THAN_10_POPULATION_LIJIA_FOOD_PRODUCTION_YONGLE_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ADJUST_CITY_WITH_LESS_THAN_10_POPULATION_LIJIA_FOOD_PRODUCTION_YONGLE_EWHO</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_LIJIA_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ADJUST_CITY_WITH_LESS_THAN_10_POPULATION_LIJIA_FOOD_PRODUCTION_YONGLE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>500</Value>
+		</Row>
+
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_CITY_HAS_LESS_THAN_10_POPULATION_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_CHINA_YONGLE_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_CITY_HAS_LESS_THAN_10_POPULATION_EWHO" RequirementId="REQUIRES_CITY_HAS_LESS_THAN_10_POPULATION_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_CHINA_YONGLE_EWHO" RequirementId="PLAYER_IS_CHINA_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_CHINA_YONGLE_EWHO" RequirementId="PLAYER_IS_YONGLE_EWHO"/>
+
+	</RequirementSetRequirements>
+	
+	<Requirements>
+		<Row RequirementId="PLAYER_IS_YONGLE_EWHO" RequirementType="REQUIREMENT_PLAYER_LEADER_TYPE_MATCHES"/>
+
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="PLAYER_IS_YONGLE_EWHO" Name="LeaderType" Value="LEADER_YONGLE"/>
+
+	</RequirementArguments>
+	<!--========================================================================================-->
+	<ProjectCompletionModifiers>
+		<Row ProjectType="PROJECT_LIJIA_FOOD" ModifierId="PROJECT_LIJIA_FOOD_GRANT_TECHNOLOGY_BOOST_EWHO"/>
+		<Row ProjectType="PROJECT_LIJIA_FOOD" ModifierId="PROJECT_LIJIA_FOOD_GRANT_CIVIC_BOOST_EWHO"/>
+	</ProjectCompletionModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>PROJECT_LIJIA_FOOD_GRANT_TECHNOLOGY_BOOST_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_GOODY_HUT</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_CHINA_HAS_FORBIDDEN_CITY_EWHO</OwnerRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>PROJECT_LIJIA_FOOD_GRANT_CIVIC_BOOST_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_GOODY_HUT</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_CHINA_HAS_FORBIDDEN_CITY_EWHO</OwnerRequirementSetId>
+		</Row>
+
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>PROJECT_LIJIA_FOOD_GRANT_TECHNOLOGY_BOOST_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--<Row>
+			<ModifierId>PROJECT_LIJIA_FOOD_GRANT_TECHNOLOGY_BOOST_EWHO</ModifierId>
+			<Name>Source</Name>
+			<Value>CAPTURED_CITY</Value>
+		</Row>-->
+
+		<Row>
+			<ModifierId>PROJECT_LIJIA_FOOD_GRANT_CIVIC_BOOST_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--<Row>
+			<ModifierId>PROJECT_LIJIA_FOOD_GRANT_CIVIC_BOOST_EWHO</ModifierId>
+			<Name>Source</Name>
+			<Value>CAPTURED_CITY</Value>
+		</Row>-->
+	</ModifierArguments>
+	
+</GameData>

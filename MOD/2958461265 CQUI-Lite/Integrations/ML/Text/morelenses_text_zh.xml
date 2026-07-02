@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- SIMPLIFY-CHINESE -->
+
+    <!-- Builder Lens -->
+    <Replace Tag="LOC_HUD_BUILDER_LENS" Language="zh_Hans_CN">
+      <Text>建造者</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_TOOLTIP" Language="zh_Hans_CN">
+      <Text>高亮显示可以被建造者改良的地块</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_P2" Language="zh_Hans_CN">
+      <Text>资源/可掠夺/可使用特殊能力</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_P4" Language="zh_Hans_CN">
+      <Text>丘陵</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_P5" Language="zh_Hans_CN">
+      <Text>可移除地貌</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_P7" Language="zh_Hans_CN">
+      <Text>一般地块</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_PN" Language="zh_Hans_CN">
+      <Text>无法改良</Text>
+    </Replace>
+
+    <!-- Archaeologist Lens -->
+    <Replace Tag="LOC_HUD_ARCHAEOLOGIST_LENS" Language="zh_Hans_CN">
+      <Text>考古学家</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_ARCHAEOLOGIST_LENS_TOOLTIP" Language="zh_Hans_CN">
+      <Text>高亮显示可被考古学家发掘的地块</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_ARCHAEOLOGIST_LENS_ARTIFACT" Language="zh_Hans_CN">
+      <Text>考古现场</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_ARCHAEOLOGIST_LENS_SHIPWRECK" Language="zh_Hans_CN">
+      <Text>船只残骸</Text>
+    </Replace>
+
+    <!-- City Overlap Lens -->
+    <Replace Tag="LOC_HUD_CITYOVERLAP6_LENS" Language="zh_Hans_CN">
+      <Text>6格城市数</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_CITYOVERLAP6_LENS_TOOLTIP" Language="zh_Hans_CN">
+      <Text>显示地块6格范围内的城市数量</Text>
+    </Replace>
+
+    <!-- City Overlap Lens -->
+    <Replace Tag="LOC_HUD_CITYOVERLAP9_LENS" Language="zh_Hans_CN">
+      <Text>9格城市数</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_CITYOVERLAP9_LENS_TOOLTIP" Language="zh_Hans_CN">
+      <Text>显示地块9格范围内的城市数量</Text>
+    </Replace>
+
+    <!-- Barbarian Lens -->
+    <Replace Tag="LOC_HUD_BARBARIAN_LENS" Language="zh_Hans_CN">
+      <Text>野蛮人</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BARBARIAN_LENS_TOOLTIP" Language="zh_Hans_CN">
+      <Text>高亮显示地图上的野蛮人营地</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BARBARIAN_LENS_ENCAMPMENT" Language="zh_Hans_CN">
+      <Text>野蛮人营地</Text>
+    </Replace>
+
+    <!-- Resources Lens -->
+    <Replace Tag="LOC_HUD_RESOURCE_LENS" Language="zh_Hans_CN">
+      <Text>资源</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_RESOURCE_LENS_TOOLTIP" Language="zh_Hans_CN">
+      <Text>高亮显示地图上的资源</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_RESOURCE_LENS_LUXCONNECTED" Language="zh_Hans_CN">
+      <Text>已开发奢侈资源</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_RESOURCE_LENS_LUXNCONNECTED" Language="zh_Hans_CN">
+      <Text>奢侈资源</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_RESOURCE_LENS_STRATCONNECTED" Language="zh_Hans_CN">
+      <Text>已开发战略资源</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_RESOURCE_LENS_STRATNCONNECTED" Language="zh_Hans_CN">
+      <Text>战略资源</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_RESOURCE_LENS_BONUSCONNECTED" Language="zh_Hans_CN">
+      <Text>已开发奖励资源</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_RESOURCE_LENS_BONUSNCONNECTED" Language="zh_Hans_CN">
+      <Text>奖励资源</Text>
+    </Replace>
+
+    <!-- Wonder Lens -->
+    <Replace Tag="LOC_HUD_WONDER_LENS" Language="zh_Hans_CN">
+      <Text>奇观</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_WONDER_LENS_TOOLTIP" Language="zh_Hans_CN">
+      <Text>高亮显示自然奇观和玩家建造的世界奇观</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_WONDER_LENS_NATURAL" Language="zh_Hans_CN">
+      <Text>自然奇观</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_WONDER_LENS_PLAYER" Language="zh_Hans_CN">
+      <Text>世界奇观</Text>
+    </Replace>
+
+    <!-- Adjacency Yield Lens -->
+    <Replace Tag="LOC_HUD_ADJYIELD_LENS" Language="zh_Hans_CN">
+      <Text>邻接收益</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_ADJYIELD_LENS_TOOLTIP" Language="zh_Hans_CN">
+      <Text>显示区域的邻接收益</Text>
+    </Replace>
+
+    <!-- Scout Lens -->
+    <Replace Tag="LOC_HUD_SCOUT_LENS" Language="zh_Hans_CN">
+      <Text>侦查</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_SCOUT_LENS_TOOLTIP" Language="zh_Hans_CN">
+      <Text>高亮显示地图上的部落村庄</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_SCOUT_LENS_GHUT" Language="zh_Hans_CN">
+      <Text>部落村庄</Text>
+    </Replace>
+
+    <Replace Tag="LOC_HUD_ROUTES_LENS" Language="zh_Hans_CN">
+      <Text>路线</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_ROUTES_LENS_RAIL" Language="zh_Hans_CN">
+      <Text>铁路</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_ROUTES_LENS_ROAD" Language="zh_Hans_CN">
+      <Text>道路</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_ROUTES_LENS_TOOLTIP" Language="zh_Hans_CN">
+      <Text>高亮显示道路和铁路</Text>
+    </Replace>
+
+  <!-- ========== 补充：英文版中存在但中文版缺失的滤镜文本 ========== -->
+
+    <!-- Citizen Management Lens -->
+    <Replace Tag="LOC_HUD_CITIZEN_MANAGEMENT_LENS" Language="zh_Hans_CN">
+      <Text>市民管理</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_CITIZEN_MANAGEMENT_LENS_TOOLTIP" Language="zh_Hans_CN">
+      <Text>高亮显示建造者可以工作的地块</Text>
+    </Replace>
+
+    <!-- Builder Lens 补充 -->
+    <Replace Tag="LOC_HUD_BUILDER_LENS_PD" Language="zh_Hans_CN">
+      <Text>危险</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_P1B" Language="zh_Hans_CN">
+      <Text>奖励资源</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_P1L" Language="zh_Hans_CN">
+      <Text>奢侈资源</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_P1S" Language="zh_Hans_CN">
+      <Text>战略资源</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_P3" Language="zh_Hans_CN">
+      <Text>正在工作 / 奇观增强</Text>
+    </Replace>
+
+    <!-- City Overlap Lens (6格版本) -->
+    <Replace Tag="LOC_HUD_CITYOVERLAP_LENS" Language="zh_Hans_CN">
+      <Text>城市重叠</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_CITYOVERLAP_LENS_TOOLTIP" Language="zh_Hans_CN">
+      <Text>显示地块在6格范围内与多少座城市重叠</Text>
+    </Replace>
+    <Replace Tag="LOC_PANEL_CITYOVERLAP_OPTION1" Language="zh_Hans_CN">
+      <Text>高亮外部边界</Text>
+    </Replace>
+    <Replace Tag="LOC_PANEL_CITYOVERLAP_NMOUSE" Language="zh_Hans_CN">
+      <Text>无鼠标模式</Text>
+    </Replace>
+    <Replace Tag="LOC_PANEL_CITYOVERLAP_RANGE" Language="zh_Hans_CN">
+      <Text>范围鼠标模式</Text>
+    </Replace>
+    <Replace Tag="LOC_TOOLTIP_CITYOVERLAP_RANGE" Language="zh_Hans_CN">
+      <Text>显示地块并高亮鼠标下地块指定范围内的城市。</Text>
+    </Replace>
+    <Replace Tag="LOC_PANEL_CITYOVERLAP_RADIUS" Language="zh_Hans_CN">
+      <Text>半径鼠标模式</Text>
+    </Replace>
+
+    <!-- Naturalist Lens -->
+    <Replace Tag="LOC_HUD_NATURALIST_LENS" Language="zh_Hans_CN">
+      <Text>自然学家</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_NATURALIST_LENS_TOOLTIP" Language="zh_Hans_CN">
+      <Text>高亮显示可以建立国家公园的位置</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_NATURALIST_LENS_PARK" Language="zh_Hans_CN">
+      <Text>该区域已准备好建立国家公园</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_NATURALIST_LENS_OK" Language="zh_Hans_CN">
+      <Text>如果其他地块修复完成，该地块可以使用</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_NATURALIST_LENS_FIXABLE" Language="zh_Hans_CN">
+      <Text>需要修复才能用于国家公园</Text>
+    </Replace>
+
+    <!-- City Plot Lens -->
+    <Replace Tag="LOC_HUD_CITY_PLOT_LENS" Language="zh_Hans_CN">
+      <Text>城市地块</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_CITY_PLOT_LENS_TOOLTIP" Language="zh_Hans_CN">
+      <Text>高亮显示城市地块中工作与锁定的地块</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_CITY_PLOT_LENS_WORKING" Language="zh_Hans_CN">
+      <Text>工作中地块</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_CITY_PLOT_LENS_LOCKED" Language="zh_Hans_CN">
+      <Text>锁定地块</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_CITY_PLOT_LENS_CULTURE" Language="zh_Hans_CN">
+      <Text>下一次文化边界增长</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_CITY_PLOT_LENS_OTHER" Language="zh_Hans_CN">
+      <Text>其他地块</Text>
+    </Replace>
+
+  </LocalizedText>
+</GameData>

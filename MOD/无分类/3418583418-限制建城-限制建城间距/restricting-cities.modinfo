@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="7b3bf03f-4ea9-4af1-ab6f-b02ee31c81b0" version="1">
+  <Properties>
+    <Name>限制建城</Name>
+    <Description>这个mod限制了所有ai（文明、城邦，包括玩家）的坐城的范围，原版是三环内不能建城，这个mod把范围改为5环内不能建城，避免了ai到处建城，限制了爆铺（开了两句游戏，测试能用）。</Description>
+    <Teaser></Teaser>
+    <Authors>猫猫那么可爱</Authors>
+    <Homepage></Homepage>
+    <SpecialThanks></SpecialThanks>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="">
+      <File>core.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>core.sql</File>
+  </Files>
+</Mod>

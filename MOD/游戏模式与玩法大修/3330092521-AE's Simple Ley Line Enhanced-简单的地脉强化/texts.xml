@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- texts -->
+<!-- Author: Another Eve -->
+<!-- DateCreated: 9/13/2024 9:42:38 AM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HERMETIC_ORDER_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>发现自然奇观后解锁。在地图上显示“地脉”资源。“地脉”能为所有特色区域带来大量相邻加成。“地脉”额外提供1[ICON_Production] 。“地脉”可被覆盖和移除。可在“地脉”上建造采石场和农田。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HERMETIC_ORDER_1_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by discovering a Natural Wonder. Reveals the Ley Line resource on the map. Ley Lines give a major adjacency bonus to all specialty districts."Ley Line" provides additional 1 [ICON_Food] , 1 [ICON_Faith]  and 1 [ICON_Production] . The "Ley Line" can be covered and removed. Mines and Quarries can be built on the "Ley Line".</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

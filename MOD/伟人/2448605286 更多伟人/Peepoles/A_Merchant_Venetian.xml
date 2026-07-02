@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- INDUSTRIAL Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_VENETIAN_SMUGGLER" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_VENETIAN_SMUGGLER" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_VENETIAN_SMUGGLER_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_HARBOR"	ActionRequiresOwnedTile="false"	ActionRequiresPlayerRelicSlot="true"	ActionRequiresNonHostileTerritory="True" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_VENETIAN_SMUGGLER_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualBirthModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_VENETIAN_SMUGGLER" ModifierId="GREAT_PERSON_ENTER_FOREIGN_LANDS" />
+	</GreatPersonIndividualBirthModifiers>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_VENETIAN_SMUGGLER" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_VENETIAN_SMUGGLER_GOLD_BOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_VENETIAN_SMUGGLER" ModifierId="GREATPERSON_EXTRA_TRADE_ROUTE_CAPACITY" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_VENETIAN_SMUGGLER_GOLD_BOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RELIC</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_VENETIAN_SMUGGLER_GOLD_BOOST</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_VENETIAN_SMUGGLER_GOLD_BOOST" Context="Summary" Text="LOC_GREATPERSON_PLATI_VENETIAN_SMUGGLER_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

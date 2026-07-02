@@ -1,0 +1,1724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Buildings -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/16/2023 7:55:12 PM -->
+<GameData>
+	
+	<BuildingModifiers>
+		<!--Ancient-->
+		<Row>
+			<BuildingType>BUILDING_PYRAMIDS</BuildingType>
+			<ModifierId>PYRAMID_ADJUST_BUILDER_MOVEMENT_EWHO</ModifierId>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<ModifierId>ORACLE_ADJUST_GREATGENERALPOINTS_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<ModifierId>ORACLE_ADJUST_GREATADMIRALPOINTS_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<ModifierId>ORACLE_ADJUST_GREATENGINEERPOINTS_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<ModifierId>ORACLE_ADJUST_GREATMERCHANTPOINTS_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<ModifierId>ORACLE_ADJUST_GREATPROPHETPOINTS_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<ModifierId>ORACLE_ADJUST_GREATSCIENTISTPOINTS_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<ModifierId>ORACLE_ADJUST_GREATWRITERPOINTS_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<ModifierId>ORACLE_ADJUST_INFLUENCE_POINTS_EWHO</ModifierId>
+		</Row>
+		<!--Classical-->
+		<Row>
+			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
+			<ModifierId>TERRACOTTA_ARMY_ADJUST_GOLD_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
+			<ModifierId>TERRACOTTA_ARMY_GRANT_MELEE_UNIT_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
+			<ModifierId>TERRACOTTA_ARMY_GRANT_HEAVY_CAVALRY_UNIT_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
+			<ModifierId>TERRACOTTA_ARMY_CCT_GRANT_BUFF_NEAR_GREAT_WALL_EWHO</ModifierId>
+		</Row>	
+
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
+			<ModifierId>GREAT_LIGHTHOUSE_ADJUST_SIGHT_EWHO</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+			<ModifierId>GREAT_LIBRARY_TRADE_DOMESTIC_SCIENCE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+			<ModifierId>GREAT_LIBRARY_TRADE_INTERNATIONAL_SCIENCE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+			<ModifierId>GREAT_LIBRARY_ATTACH_ADJUST_SCIENCE_TO_INCOMING_FOREIGN_ROUTES_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+			<ModifierId>GREAT_LIBRARY_ADJUST_SCIENCE_TO_INCOMING_FOREIGN_ROUTES_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+			<ModifierId>GREAT_LIBRARY_ATTACH_ADJUST_SCIENCE_FROM_INCOMING_FOREIGN_ROUTES_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+			<ModifierId>GREAT_LIBRARY_ADJUST_SCIENCE_FROM_INCOMING_FOREIGN_ROUTES_EWHO</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_COLOSSUS</BuildingType>
+			<ModifierId>COLOSSUS_ADJUST_GREAT_GENERAL_POINT_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COLOSSUS</BuildingType>
+			<ModifierId>COLOSSUS_UNITS_GRANT_FRIENDLY_BUFF_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COLOSSUS</BuildingType>
+			<ModifierId>COLOSSUS_ADJUST_COPPER_PRODUCTION_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COLOSSUS</BuildingType>
+			<ModifierId>COLOSSUS_ADJUST_COPPER_GOLD_EWHO</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_COLOSSEUM</BuildingType>
+			<ModifierId>COLOSSEUM_UNITS_GRANT_BUFF_WITHIN_12_TILES_EWHO</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_MAHABODHI_TEMPLE</BuildingType>
+			<ModifierId>MAHABODHI_TEMPLE_ADJUST_FOREST_FAITH_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MAHABODHI_TEMPLE</BuildingType>
+			<ModifierId>MAHABODHI_TEMPLE_ADJUST_FOREST_CULTURE_EWHO</ModifierId>
+		</Row>
+		
+		<!--Medieval-->
+		<Row>
+			<BuildingType>BUILDING_ALHAMBRA</BuildingType>
+			<ModifierId>ALHAMBRA_ADJUST_CULTURE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALHAMBRA</BuildingType>
+			<ModifierId>ALHAMBRA_MELEE_PROVIDE_MOVEMENT_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALHAMBRA</BuildingType>
+			<ModifierId>ALHAMBRA_RELIGIOUS_CIVILIAN_PROVIDE_MOVEMENT_EWHO</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_MONT_ST_MICHEL</BuildingType>
+			<ModifierId>MONT_ST_MICHEL_APOSTLE_DISCOUNT_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONT_ST_MICHEL</BuildingType>
+			<ModifierId>MONT_ST_MICHEL_EXTRA_PALACE_SLOTS_EWHO</ModifierId>
+		</Row>
+		
+		<!--Renaissance-->
+		<Row>
+			<BuildingType>BUILDING_FORBIDDEN_CITY</BuildingType>
+			<ModifierId>FORBIDDEN_CITY_ATTACH_ADJUST_GREAT_WALL_CITY_INNER_DEFENSE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FORBIDDEN_CITY</BuildingType>
+			<ModifierId>FORBIDDEN_CITY_ATTACH_ADJUST_GREAT_WALL_CITY_OUTER_DEFENSE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FORBIDDEN_CITY</BuildingType>
+			<ModifierId>FORBIDDEN_CITY_ATTACH_ADJUST_CITY_WITH_10_POPULATION_CULTURE_EWHO</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_POTALA_PALACE</BuildingType>
+			<ModifierId>POTALA_PALACE_ADJUST_SINGLE_CITY_HILLS_FAITH_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POTALA_PALACE</BuildingType>
+			<ModifierId>POTALA_PALACE_ADJUST_SINGLE_CITY_CULTURE_FROM_FAITH_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POTALA_PALACE</BuildingType>
+			<ModifierId>POTALA_PALACE_ADJUST_INFLUENCE_POINTS_ATTACH_EWHO</ModifierId>
+		</Row>
+
+		<!--Industrial-->
+		<Row>
+			<BuildingType>BUILDING_HERMITAGE</BuildingType>
+			<ModifierId>HERMITAGE_ADJUST_CULTURE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HERMITAGE</BuildingType>
+			<ModifierId>HERMITAGE_ADJUST_GREATWORK_PORTRAIT_CULTURE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HERMITAGE</BuildingType>
+			<ModifierId>HERMITAGE_ADJUST_GREATWORK_LANDSCAPE_CULTURE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HERMITAGE</BuildingType>
+			<ModifierId>HERMITAGE_ADJUST_GREATWORK_RELIGIOUS_CULTURE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HERMITAGE</BuildingType>
+			<ModifierId>HERMITAGE_ADJUST_GREATWORK_ARTIFACT_CULTURE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HERMITAGE</BuildingType>
+			<ModifierId>HERMITAGE_EXTRA_TEMPLE_SLOTS_EWHO</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_BIG_BEN</BuildingType>
+			<ModifierId>BIG_BEN_FACTORY_EXTRA_TRADE_ROUTE_CAPACITY_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BIG_BEN</BuildingType>
+			<ModifierId>BIG_BEN_HARBOR_EXTRA_TRADE_ROUTE_GOLD_FOR_INTERNATIONAL_EWHO</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_RUHR_VALLEY</BuildingType>
+			<ModifierId>RUHR_VALLEY_ALL_DISTRICTS_PRODUCTION_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RUHR_VALLEY</BuildingType>
+			<ModifierId>RUHR_VALLEY_ALL_DISTRICTS_PRODUCTION_EXTRA_EWHO</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_BOLSHOI_THEATRE</BuildingType>
+			<ModifierId>BOLSHOI_THEATRE_ADJUST_CULTURE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BOLSHOI_THEATRE</BuildingType>
+			<ModifierId>BOLSHOI_THEATRE_ADJUST_GREATWORK_MUSIC_CULTURE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BOLSHOI_THEATRE</BuildingType>
+			<ModifierId>BOLSHOI_THEATRE_EXTRA_TEMPLE_SLOT_EWHO</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_OXFORD_UNIVERSITY</BuildingType>
+			<ModifierId>OXFORD_UNIVERSITY_ADJUST_GREATWORK_WRITING_SCIENCE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OXFORD_UNIVERSITY</BuildingType>
+			<ModifierId>OXFORD_UNIVERSITY_ADJUST_INDUSTRIAL_ZONE_ADJACENCY_ATTACH_EWHO</ModifierId>
+		</Row>
+		
+		<!--Modern-->
+		<Row>
+			<BuildingType>BUILDING_EIFFEL_TOWER</BuildingType>
+			<ModifierId>EIFFEL_TOWER_ADJUST_CITY_PLOT_CULTURE_APPEAL_4_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EIFFEL_TOWER</BuildingType>
+			<ModifierId>EIFFEL_TOWER_ADJUST_WONDERS_TOURISM_EWHO</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_BROADWAY</BuildingType>
+			<ModifierId>BROADWAY_ADJUST_CULTURE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BROADWAY</BuildingType>
+			<ModifierId>BROADWAY_ADJUST_FILM_STUDIO_CULTURE_EWHO</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_CRISTO_REDENTOR</BuildingType>
+			<ModifierId>CRISTO_REDENTOR_ADJUST_BEACH_RESORT_GOLD_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRISTO_REDENTOR</BuildingType>
+			<ModifierId>CRISTO_REDENTOR_ADJUST_BEACH_RESORT_FAITH_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRISTO_REDENTOR</BuildingType>
+			<ModifierId>CRISTO_REDENTOR_ADJUST_BEACH_RESORT_GOLD_ADJACENT_TO_JUNGLE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRISTO_REDENTOR</BuildingType>
+			<ModifierId>CRISTO_REDENTOR_ADJUST_BEACH_RESORT_FAITH_ADJACENT_TO_JUNGLE_EWHO</ModifierId>
+		</Row>
+		
+		<!--Atomic-->
+		<Row>
+			<BuildingType>BUILDING_ESTADIO_DO_MARACANA</BuildingType>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_DISTRICTS_EXTRA_REGIONAL_RANGE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ESTADIO_DO_MARACANA</BuildingType>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATPROPHETPOINTS_JUNGLE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ESTADIO_DO_MARACANA</BuildingType>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATGENERALPOINTS_JUNGLE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ESTADIO_DO_MARACANA</BuildingType>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATADMIRALPOINTS_JUNGLE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ESTADIO_DO_MARACANA</BuildingType>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATENGINEERPOINTS_JUNGLE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ESTADIO_DO_MARACANA</BuildingType>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATMERCHANTPOINTS_JUNGLE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ESTADIO_DO_MARACANA</BuildingType>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATSCIENTISTPOINTS_JUNGLE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ESTADIO_DO_MARACANA</BuildingType>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATWRITERPOINTS_JUNGLE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ESTADIO_DO_MARACANA</BuildingType>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATARTISTPOINTS_JUNGLE_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ESTADIO_DO_MARACANA</BuildingType>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATMUSICIANPOINTS_JUNGLE_EWHO</ModifierId>
+		</Row>
+
+
+		
+	</BuildingModifiers>
+
+	<Modifiers>
+		<!--Ancient-->
+		<Row>
+			<ModifierId>PYRAMID_ADJUST_BUILDER_MOVEMENT_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_EGYPT_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>UNIT_IS_BUILDER</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>ORACLE_ADJUST_GREATGENERALPOINTS_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_GREECE_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>DISTRICT_IS_ENCAMPMENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_ADJUST_GREATADMIRALPOINTS_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_GREECE_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>DISTRICT_IS_HARBOR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_ADJUST_GREATENGINEERPOINTS_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_GREECE_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>DISTRICT_IS_INDUSTRIAL_ZONE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_ADJUST_GREATMERCHANTPOINTS_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_GREECE_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>DISTRICT_IS_COMMERCIAL_HUB</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_ADJUST_GREATPROPHETPOINTS_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_GREECE_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_ADJUST_GREATSCIENTISTPOINTS_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_GREECE_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_ADJUST_GREATWRITERPOINTS_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_GREECE_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>DISTRICT_IS_THEATER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_ADJUST_INFLUENCE_POINTS_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_INFLUENCE_POINTS_PER_TURN</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_GREECE_EWHO</OwnerRequirementSetId>
+		</Row>
+		
+		<!--Classical-->
+		<Row>
+			<ModifierId>TERRACOTTA_ARMY_ADJUST_GOLD_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_CHINA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TERRACOTTA_ARMY_GRANT_MELEE_UNIT_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_BY_CLASS_EWHO</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_CHINA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TERRACOTTA_ARMY_GRANT_HEAVY_CAVALRY_UNIT_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_BY_CLASS_EWHO</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_CHINA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TERRACOTTA_ARMY_CCT_GRANT_BUFF_NEAR_GREAT_WALL_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_CHINA_EWHO</OwnerRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>GREAT_LIGHTHOUSE_ADJUST_SIGHT_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_EGYPT_EWHO</OwnerRequirementSetId>
+		</Row>
+		
+		<Row>
+			<ModifierId>GREAT_LIBRARY_TRADE_DOMESTIC_SCIENCE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_EGYPT_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_LIBRARY_TRADE_INTERNATIONAL_SCIENCE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_EGYPT_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_LIBRARY_ATTACH_ADJUST_SCIENCE_TO_INCOMING_FOREIGN_ROUTES_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_EGYPT_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_CITY_HAS_CAMPUS_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_LIBRARY_ADJUST_SCIENCE_TO_INCOMING_FOREIGN_ROUTES_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_TO_OTHERS</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>GREAT_LIBRARY_ATTACH_ADJUST_SCIENCE_FROM_INCOMING_FOREIGN_ROUTES_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_EGYPT_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_CITY_HAS_CAMPUS_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_LIBRARY_ADJUST_SCIENCE_FROM_INCOMING_FOREIGN_ROUTES_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>COLOSSUS_ADJUST_GREAT_GENERAL_POINT_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_GREAT_PERSON_POINT</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_GREECE_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COLOSSUS_UNITS_GRANT_FRIENDLY_BUFF_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_GREECE_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COLOSSUS_ADJUST_COPPER_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_GREECE_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_COPPER_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COLOSSUS_ADJUST_COPPER_GOLD_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_GREECE_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_COPPER_EWHO</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>COLOSSEUM_UNITS_GRANT_BUFF_WITHIN_12_TILES_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_ROME_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_12_PLOTS_AWAY_MAX_UNIT_EWHO</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>MAHABODHI_TEMPLE_ADJUST_FOREST_FAITH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_INDIA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_FOREST_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAHABODHI_TEMPLE_ADJUST_FOREST_CULTURE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_INDIA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_FOREST_EWHO</SubjectRequirementSetId>
+		</Row>
+		
+		<!--Medieval-->
+		<Row>
+			<ModifierId>ALHAMBRA_ADJUST_CULTURE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_SPAIN_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ALHAMBRA_MELEE_PROVIDE_MOVEMENT_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_SPAIN_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ALHAMBRA_RELIGIOUS_CIVILIAN_PROVIDE_MOVEMENT_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_SPAIN_EWHO</OwnerRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>MONT_ST_MICHEL_APOSTLE_DISCOUNT_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_FRANCE_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MONT_ST_MICHEL_EXTRA_PALACE_SLOTS_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_FRANCE_EWHO</OwnerRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+
+		<!--Renaissance-->
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ATTACH_ADJUST_GREAT_WALL_CITY_INNER_DEFENSE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_IMPROVEMENTS_ATTACH_MODIFIER_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_CHINA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_IMPROVEMENT_IS_GREAT_WALL_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ADJUST_GREAT_WALL_CITY_INNER_DEFENSE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_INNER_DEFENSE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ATTACH_ADJUST_GREAT_WALL_CITY_OUTER_DEFENSE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_IMPROVEMENTS_ATTACH_MODIFIER_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_CHINA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_IMPROVEMENT_IS_GREAT_WALL_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ADJUST_GREAT_WALL_CITY_OUTER_DEFENSE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_OUTER_DEFENSE_EWHO</ModifierType>
+		</Row>
+		
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ATTACH_ADJUST_CITY_WITH_10_POPULATION_CULTURE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_CHINA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_CITY_HAS_10_POPULATION_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ADJUST_CITY_WITH_10_POPULATION_CULTURE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>POTALA_PALACE_ADJUST_SINGLE_CITY_HILLS_FAITH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_CHINA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_HILLS_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>POTALA_PALACE_ADJUST_SINGLE_CITY_CULTURE_FROM_FAITH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_YIELD_MODIFIER_FROM_FAITH_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_CHINA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>POTALA_PALACE_ADJUST_INFLUENCE_POINTS_ATTACH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_CHINA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_CITY_HAS_HOLY_SITE_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>POTALA_PALACE_ADJUST_INFLUENCE_POINTS_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_INFLUENCE_POINTS_PER_TURN</ModifierType>
+		</Row>
+
+		<!--Industrial-->
+		<Row>
+			<ModifierId>HERMITAGE_ADJUST_CULTURE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_RUSSIA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_ADJUST_GREATWORK_PORTRAIT_CULTURE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_RUSSIA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_ADJUST_GREATWORK_LANDSCAPE_CULTURE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_RUSSIA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_ADJUST_GREATWORK_RELIGIOUS_CULTURE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_RUSSIA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_ADJUST_GREATWORK_ARTIFACT_CULTURE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_RUSSIA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_EXTRA_TEMPLE_SLOTS_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_RUSSIA_EWHO</OwnerRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+
+		<Row>
+			<ModifierId>BIG_BEN_FACTORY_EXTRA_TRADE_ROUTE_CAPACITY_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_ENGLAND_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_DISTRICT_IS_INDUSTRIAL_ZONE_HAS_FACTORY_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>BIG_BEN_HARBOR_EXTRA_TRADE_ROUTE_GOLD_FOR_INTERNATIONAL_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_ENGLAND_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_CITY_HAS_HARBOR_EWHO</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>RUHR_VALLEY_ALL_DISTRICTS_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_ALL_DISTRICTS_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_GERMANY_EWHO</OwnerRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>RUHR_VALLEY_ALL_DISTRICTS_PRODUCTION_EXTRA_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_ALL_DISTRICTS_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_GERMANY_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_CITY_HAS_INDUSTRIAL_ZONE_EWHO</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>BOLSHOI_THEATRE_ADJUST_CULTURE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_RUSSIA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>BOLSHOI_THEATRE_ADJUST_GREATWORK_MUSIC_CULTURE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_RUSSIA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>BOLSHOI_THEATRE_EXTRA_TEMPLE_SLOT_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_RUSSIA_EWHO</OwnerRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+
+		<Row>
+			<ModifierId>OXFORD_UNIVERSITY_ADJUST_GREATWORK_WRITING_SCIENCE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_ENGLAND_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>OXFORD_UNIVERSITY_ADJUST_INDUSTRIAL_ZONE_ADJACENCY_ATTACH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_ENGLAND_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_CITY_HAS_CAMPUS_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>OXFORD_UNIVERSITY_ADJUST_INDUSTRIAL_ZONE_ADJACENCY_EWHO</ModifierId>
+			<ModifierType>MODIFIER_CITY_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_INDUSTRIAL_ZONE</SubjectRequirementSetId>
+		</Row>
+
+		<!--Modern-->
+		<Row>
+			<ModifierId>EIFFEL_TOWER_ADJUST_CITY_PLOT_CULTURE_APPEAL_4_EWHO</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_FRANCE_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_BREATHTAKING_APPEAL_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>EIFFEL_TOWER_ADJUST_WONDERS_TOURISM_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TOURISM</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_FRANCE_EWHO</OwnerRequirementSetId>
+			<SubjectStackLimit>1</SubjectStackLimit>
+		</Row>
+
+		<Row>
+			<ModifierId>BROADWAY_ADJUST_CULTURE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_AMERICA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>BROADWAY_ADJUST_FILM_STUDIO_CULTURE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_AMERICA_EWHO</OwnerRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>CRISTO_REDENTOR_ADJUST_BEACH_RESORT_GOLD_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_BRAZIL_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_BEACH_RESORT_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CRISTO_REDENTOR_ADJUST_BEACH_RESORT_FAITH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_BRAZIL_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_BEACH_RESORT_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CRISTO_REDENTOR_ADJUST_BEACH_RESORT_GOLD_ADJACENT_TO_JUNGLE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_BRAZIL_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_BEACH_RESORT_ADJACENT_TO_JUNGLE_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CRISTO_REDENTOR_ADJUST_BEACH_RESORT_FAITH_ADJACENT_TO_JUNGLE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_BRAZIL_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_BEACH_RESORT_ADJACENT_TO_JUNGLE_EWHO</SubjectRequirementSetId>
+		</Row>
+		
+		<!--Atomic-->
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_DISTRICTS_EXTRA_REGIONAL_RANGE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_EXTRA_REGIONAL_RANGE</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_BRAZIL_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_DISTRICT_IS_ENTERTAINMENT_COMPLEX_OR_WATER_PARK_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATPROPHETPOINTS_JUNGLE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_BRAZIL_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_DISTRICT_IS_HOLY_SITE_ADJACENT_TO_JUNGLE_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATGENERALPOINTS_JUNGLE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_BRAZIL_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_JUNGLE_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATADMIRALPOINTS_JUNGLE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_BRAZIL_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_DISTRICT_IS_HARBOR_ADJACENT_TO_JUNGLE_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATENGINEERPOINTS_JUNGLE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_BRAZIL_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_DISTRICT_IS_INDUSTRIAL_ZONE_ADJACENT_TO_JUNGLE_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATMERCHANTPOINTS_JUNGLE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_BRAZIL_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_DISTRICT_IS_COMMERCIAL_HUB_ADJACENT_TO_JUNGLE_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATSCIENTISTPOINTS_JUNGLE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_BRAZIL_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_DISTRICT_IS_CAMPUS_ADJACENT_TO_JUNGLE_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATWRITERPOINTS_JUNGLE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_BRAZIL_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_DISTRICT_IS_THEATER_ADJACENT_TO_JUNGLE_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATARTISTPOINTS_JUNGLE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_BRAZIL_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_DISTRICT_IS_THEATER_ADJACENT_TO_JUNGLE_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATMUSICIANPOINTS_JUNGLE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_BRAZIL_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_DISTRICT_IS_THEATER_ADJACENT_TO_JUNGLE_EWHO</SubjectRequirementSetId>
+		</Row>
+
+
+	</Modifiers>
+
+	<ModifierArguments>
+		<!--Ancient-->
+		<Row>
+			<ModifierId>PYRAMID_ADJUST_BUILDER_MOVEMENT_EWHO</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_BUILDER_EXTRA_MOVEMENT_PYRAMIDS_EWHO</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>ORACLE_ADJUST_GREATGENERALPOINTS_EWHO</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_ADJUST_GREATGENERALPOINTS_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_ADJUST_GREATADMIRALPOINTS_EWHO</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ADMIRAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_ADJUST_GREATADMIRALPOINTS_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_ADJUST_GREATENGINEERPOINTS_EWHO</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ENGINEER</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_ADJUST_GREATENGINEERPOINTS_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_ADJUST_GREATMERCHANTPOINTS_EWHO</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MERCHANT</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_ADJUST_GREATMERCHANTPOINTS_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_ADJUST_GREATPROPHETPOINTS_EWHO</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_PROPHET</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_ADJUST_GREATPROPHETPOINTS_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_ADJUST_GREATSCIENTISTPOINTS_EWHO</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_SCIENTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_ADJUST_GREATSCIENTISTPOINTS_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_ADJUST_GREATWRITERPOINTS_EWHO</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_ADJUST_GREATWRITERPOINTS_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_ADJUST_INFLUENCE_POINTS_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!--Classical-->
+		<Row>
+			<ModifierId>TERRACOTTA_ARMY_ADJUST_GOLD_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_TERRACOTTA_ARMY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TERRACOTTA_ARMY_ADJUST_GOLD_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TERRACOTTA_ARMY_ADJUST_GOLD_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>TERRACOTTA_ARMY_GRANT_MELEE_UNIT_EWHO</ModifierId>
+			<Name>UnitPromotionClassType</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TERRACOTTA_ARMY_GRANT_HEAVY_CAVALRY_UNIT_EWHO</ModifierId>
+			<Name>UnitPromotionClassType</Name>
+			<Value>PROMOTION_CLASS_HEAVY_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TERRACOTTA_ARMY_CCT_GRANT_BUFF_NEAR_GREAT_WALL_EWHO</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_TERRACOTTA_ARMY_CCT_GREAT_WALL_BUFF_EWHO</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>GREAT_LIGHTHOUSE_ADJUST_SIGHT_EWHO</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_LIGHTHOUSE_SIGHT_EWHO</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>GREAT_LIBRARY_TRADE_DOMESTIC_SCIENCE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+			<!--<Value>YIELD_CULTURE</Value>-->
+		</Row>
+		<Row>
+			<ModifierId>GREAT_LIBRARY_TRADE_DOMESTIC_SCIENCE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_LIBRARY_TRADE_INTERNATIONAL_SCIENCE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+			<!--<Value>YIELD_FAITH</Value>-->
+		</Row>
+		<Row>
+			<ModifierId>GREAT_LIBRARY_TRADE_INTERNATIONAL_SCIENCE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>GREAT_LIBRARY_ATTACH_ADJUST_SCIENCE_TO_INCOMING_FOREIGN_ROUTES_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GREAT_LIBRARY_ADJUST_SCIENCE_TO_INCOMING_FOREIGN_ROUTES_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_LIBRARY_ADJUST_SCIENCE_TO_INCOMING_FOREIGN_ROUTES_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+			<!--<Value>YIELD_CULTURE</Value>-->
+		</Row>
+		<Row>
+			<ModifierId>GREAT_LIBRARY_ADJUST_SCIENCE_TO_INCOMING_FOREIGN_ROUTES_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>GREAT_LIBRARY_ATTACH_ADJUST_SCIENCE_FROM_INCOMING_FOREIGN_ROUTES_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GREAT_LIBRARY_ADJUST_SCIENCE_FROM_INCOMING_FOREIGN_ROUTES_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_LIBRARY_ADJUST_SCIENCE_FROM_INCOMING_FOREIGN_ROUTES_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_LIBRARY_ADJUST_SCIENCE_FROM_INCOMING_FOREIGN_ROUTES_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>COLOSSUS_ADJUST_GREAT_GENERAL_POINT_EWHO</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>COLOSSUS_ADJUST_GREAT_GENERAL_POINT_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>COLOSSUS_UNITS_GRANT_FRIENDLY_BUFF_EWHO</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_COLOSSUS_STRENGTH_FRIENDLY_TERRITORY_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>COLOSSUS_ADJUST_COPPER_PRODUCTION_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>COLOSSUS_ADJUST_COPPER_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>COLOSSUS_ADJUST_COPPER_GOLD_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>COLOSSUS_ADJUST_COPPER_GOLD_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>COLOSSEUM_UNITS_GRANT_BUFF_WITHIN_12_TILES_EWHO</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_COLOSSEUM_STRENGTH_EWHO</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MAHABODHI_TEMPLE_ADJUST_FOREST_FAITH_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAHABODHI_TEMPLE_ADJUST_FOREST_FAITH_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAHABODHI_TEMPLE_ADJUST_FOREST_CULTURE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAHABODHI_TEMPLE_ADJUST_FOREST_CULTURE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		
+		<!--Medieval-->
+		<Row>
+			<ModifierId>ALHAMBRA_ADJUST_CULTURE_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_ALHAMBRA</Value>
+		</Row>
+		<Row>
+			<ModifierId>ALHAMBRA_ADJUST_CULTURE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>ALHAMBRA_ADJUST_CULTURE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>ALHAMBRA_MELEE_PROVIDE_MOVEMENT_EWHO</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_ALHAMBRA_MELEE_PROVIDE_MOVEMENT_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>ALHAMBRA_RELIGIOUS_CIVILIAN_PROVIDE_MOVEMENT_EWHO</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_ALHAMBRA_RELIGIOUS_CIVILIAN_PROVIDE_MOVEMENT_EWHO</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MONT_ST_MICHEL_APOSTLE_DISCOUNT_EWHO</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_APOSTLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MONT_ST_MICHEL_APOSTLE_DISCOUNT_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>MONT_ST_MICHEL_EXTRA_PALACE_SLOTS_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PALACE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MONT_ST_MICHEL_EXTRA_PALACE_SLOTS_EWHO</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_PALACE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MONT_ST_MICHEL_EXTRA_PALACE_SLOTS_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+
+		<!--Renaissance-->
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ATTACH_ADJUST_GREAT_WALL_CITY_INNER_DEFENSE_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>FORBIDDEN_CITY_ADJUST_GREAT_WALL_CITY_INNER_DEFENSE_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ADJUST_GREAT_WALL_CITY_INNER_DEFENSE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ATTACH_ADJUST_GREAT_WALL_CITY_OUTER_DEFENSE_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>FORBIDDEN_CITY_ADJUST_GREAT_WALL_CITY_OUTER_DEFENSE_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ADJUST_GREAT_WALL_CITY_OUTER_DEFENSE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ATTACH_ADJUST_CITY_WITH_10_POPULATION_CULTURE_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>FORBIDDEN_CITY_ADJUST_CITY_WITH_10_POPULATION_CULTURE_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ADJUST_CITY_WITH_10_POPULATION_CULTURE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_ADJUST_CITY_WITH_10_POPULATION_CULTURE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>POTALA_PALACE_ADJUST_SINGLE_CITY_HILLS_FAITH_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>POTALA_PALACE_ADJUST_SINGLE_CITY_HILLS_FAITH_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>POTALA_PALACE_ADJUST_SINGLE_CITY_CULTURE_FROM_FAITH_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>POTALA_PALACE_ADJUST_SINGLE_CITY_CULTURE_FROM_FAITH_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>40</Value>
+		</Row>
+		<Row>
+			<ModifierId>POTALA_PALACE_ADJUST_INFLUENCE_POINTS_ATTACH_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>POTALA_PALACE_ADJUST_INFLUENCE_POINTS_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>POTALA_PALACE_ADJUST_INFLUENCE_POINTS_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+
+		<!--Industrial-->
+		<Row>
+			<ModifierId>HERMITAGE_ADJUST_CULTURE_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_HERMITAGE</Value>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_ADJUST_CULTURE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_ADJUST_CULTURE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_ADJUST_GREATWORK_PORTRAIT_CULTURE_EWHO</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_PORTRAIT</Value>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_ADJUST_GREATWORK_PORTRAIT_CULTURE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_ADJUST_GREATWORK_PORTRAIT_CULTURE_EWHO</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_ADJUST_GREATWORK_LANDSCAPE_CULTURE_EWHO</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_LANDSCAPE</Value>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_ADJUST_GREATWORK_LANDSCAPE_CULTURE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_ADJUST_GREATWORK_LANDSCAPE_CULTURE_EWHO</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_ADJUST_GREATWORK_RELIGIOUS_CULTURE_EWHO</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_RELIGIOUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_ADJUST_GREATWORK_RELIGIOUS_CULTURE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_ADJUST_GREATWORK_RELIGIOUS_CULTURE_EWHO</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_ADJUST_GREATWORK_ARTIFACT_CULTURE_EWHO</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_ARTIFACT</Value>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_ADJUST_GREATWORK_ARTIFACT_CULTURE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_ADJUST_GREATWORK_ARTIFACT_CULTURE_EWHO</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_EXTRA_TEMPLE_SLOTS_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_TEMPLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_EXTRA_TEMPLE_SLOTS_EWHO</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_PALACE</Value>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_EXTRA_TEMPLE_SLOTS_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>BIG_BEN_FACTORY_EXTRA_TRADE_ROUTE_CAPACITY_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>BIG_BEN_HARBOR_EXTRA_TRADE_ROUTE_GOLD_FOR_INTERNATIONAL_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>BIG_BEN_HARBOR_EXTRA_TRADE_ROUTE_GOLD_FOR_INTERNATIONAL_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>RUHR_VALLEY_ALL_DISTRICTS_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHR_VALLEY_ALL_DISTRICTS_PRODUCTION_EXTRA_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>BOLSHOI_THEATRE_ADJUST_CULTURE_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_BOLSHOI_THEATRE</Value>
+		</Row>
+		<Row>
+			<ModifierId>BOLSHOI_THEATRE_ADJUST_CULTURE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>BOLSHOI_THEATRE_ADJUST_CULTURE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>BOLSHOI_THEATRE_ADJUST_GREATWORK_MUSIC_CULTURE_EWHO</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_MUSIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>BOLSHOI_THEATRE_ADJUST_GREATWORK_MUSIC_CULTURE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>BOLSHOI_THEATRE_ADJUST_GREATWORK_MUSIC_CULTURE_EWHO</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>BOLSHOI_THEATRE_EXTRA_TEMPLE_SLOT_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_TEMPLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>BOLSHOI_THEATRE_EXTRA_TEMPLE_SLOT_EWHO</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_PALACE</Value>
+		</Row>
+		<Row>
+			<ModifierId>BOLSHOI_THEATRE_EXTRA_TEMPLE_SLOT_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>OXFORD_UNIVERSITY_ADJUST_GREATWORK_WRITING_SCIENCE_EWHO</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_WRITING</Value>
+		</Row>
+		<Row>
+			<ModifierId>OXFORD_UNIVERSITY_ADJUST_GREATWORK_WRITING_SCIENCE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>OXFORD_UNIVERSITY_ADJUST_GREATWORK_WRITING_SCIENCE_EWHO</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>OXFORD_UNIVERSITY_ADJUST_INDUSTRIAL_ZONE_ADJACENCY_ATTACH_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>OXFORD_UNIVERSITY_ADJUST_INDUSTRIAL_ZONE_ADJACENCY_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>OXFORD_UNIVERSITY_ADJUST_INDUSTRIAL_ZONE_ADJACENCY_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>OXFORD_UNIVERSITY_ADJUST_INDUSTRIAL_ZONE_ADJACENCY_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>EIFFEL_TOWER_ADJUST_CITY_PLOT_CULTURE_APPEAL_4_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>EIFFEL_TOWER_ADJUST_CITY_PLOT_CULTURE_APPEAL_4_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>EIFFEL_TOWER_ADJUST_WONDERS_TOURISM_EWHO</ModifierId>
+			<Name>BoostsWonders</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>EIFFEL_TOWER_ADJUST_WONDERS_TOURISM_EWHO</ModifierId>
+			<Name>ScalingFactor</Name>
+			<Value>150</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>BROADWAY_ADJUST_CULTURE_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_BROADWAY</Value>
+		</Row>
+		<Row>
+			<ModifierId>BROADWAY_ADJUST_CULTURE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>BROADWAY_ADJUST_CULTURE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>BROADWAY_ADJUST_FILM_STUDIO_CULTURE_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_FILM_STUDIO</Value>
+		</Row>
+		<Row>
+			<ModifierId>BROADWAY_ADJUST_FILM_STUDIO_CULTURE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>BROADWAY_ADJUST_FILM_STUDIO_CULTURE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>CRISTO_REDENTOR_ADJUST_BEACH_RESORT_GOLD_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>CRISTO_REDENTOR_ADJUST_BEACH_RESORT_GOLD_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>CRISTO_REDENTOR_ADJUST_BEACH_RESORT_FAITH_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>CRISTO_REDENTOR_ADJUST_BEACH_RESORT_FAITH_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>CRISTO_REDENTOR_ADJUST_BEACH_RESORT_GOLD_ADJACENT_TO_JUNGLE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>CRISTO_REDENTOR_ADJUST_BEACH_RESORT_GOLD_ADJACENT_TO_JUNGLE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>CRISTO_REDENTOR_ADJUST_BEACH_RESORT_FAITH_ADJACENT_TO_JUNGLE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>CRISTO_REDENTOR_ADJUST_BEACH_RESORT_FAITH_ADJACENT_TO_JUNGLE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_DISTRICTS_EXTRA_REGIONAL_RANGE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATGENERALPOINTS_JUNGLE_EWHO</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATGENERALPOINTS_JUNGLE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATADMIRALPOINTS_JUNGLE_EWHO</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ADMIRAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATADMIRALPOINTS_JUNGLE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATENGINEERPOINTS_JUNGLE_EWHO</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ENGINEER</Value>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATENGINEERPOINTS_JUNGLE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATMERCHANTPOINTS_JUNGLE_EWHO</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MERCHANT</Value>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATMERCHANTPOINTS_JUNGLE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATPROPHETPOINTS_JUNGLE_EWHO</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_PROPHET</Value>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATPROPHETPOINTS_JUNGLE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATSCIENTISTPOINTS_JUNGLE_EWHO</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_SCIENTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATSCIENTISTPOINTS_JUNGLE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATWRITERPOINTS_JUNGLE_EWHO</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATWRITERPOINTS_JUNGLE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATARTISTPOINTS_JUNGLE_EWHO</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ARTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATARTISTPOINTS_JUNGLE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATMUSICIANPOINTS_JUNGLE_EWHO</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>ESTADIO_DO_MARACANA_ADJUST_GREATMUSICIANPOINTS_JUNGLE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		
+
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_PLAYER_IS_EGYPT_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_GREECE_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_CHINA_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_ROME_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_INDIA_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_SPAIN_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_JAPAN_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_FRANCE_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_RUSSIA_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_AMERICA_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_NOT_AMERICA_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_ENGLAND_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_GERMANY_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_BRAZIL_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		
+
+		<Row RequirementSetId="REQSET_CITY_HAS_CAMPUS_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		
+		<Row RequirementSetId="REQSET_PLOT_HAS_COPPER_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLOT_HAS_FOREST_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	
+		<Row RequirementSetId="REQSET_12_PLOTS_AWAY_MAX_UNIT_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		
+		<Row RequirementSetId="REQSET_DISTRICT_IS_CITY_CENTER_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_COMMERCIAL_HUB_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_THEATER_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_INDUSTRIAL_ZONE_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_HARBOR_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_NEIGHBORHOOD_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+		<Row RequirementSetId="REQSET_PLOT_HAS_PASTURE_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLOT_HAS_CAMP_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+		<Row RequirementSetId="REQSET_PLOT_HAS_TUNDRA_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLOT_HAS_HILLS_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+		<Row RequirementSetId="REQSET_CITY_IS_NOT_OWNER_CAPITAL_CONTINENT_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		
+		<Row RequirementSetId="REQSET_CITY_HAS_10_POPULATION_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+		<Row RequirementSetId="REQSET_CITY_HAS_HOLY_SITE_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+		<Row RequirementSetId="REQSET_PLAYER_IS_CHINA_HAS_FORBIDDEN_CITY_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+		<Row RequirementSetId="REQSET_DISTRICT_IS_INDUSTRIAL_ZONE_HAS_FACTORY_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_CITY_HAS_HARBOR_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_CITY_HAS_INDUSTRIAL_ZONE_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>	
+
+		<Row RequirementSetId="REQSET_IMPROVEMENT_IS_GREAT_WALL_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+		<Row RequirementSetId="REQSET_PLOT_BREATHTAKING_APPEAL_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+		<Row RequirementSetId="PLOT_IS_COASTAL_LAND_REQUIREMENTS_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+		<Row RequirementSetId="REQSET_PLOT_HAS_BEACH_RESORT_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLOT_HAS_BEACH_RESORT_ADJACENT_TO_JUNGLE_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+		<Row RequirementSetId="REQSET_DISTRICT_IS_ENTERTAINMENT_COMPLEX_OR_WATER_PARK_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
+
+		<Row RequirementSetId="REQSET_DISTRICT_IS_HOLY_SITE_ADJACENT_TO_JUNGLE_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_COMMERCIAL_HUB_ADJACENT_TO_JUNGLE_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_THEATER_ADJACENT_TO_JUNGLE_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_INDUSTRIAL_ZONE_ADJACENT_TO_JUNGLE_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_HARBOR_ADJACENT_TO_JUNGLE_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_CAMPUS_ADJACENT_TO_JUNGLE_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_JUNGLE_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		
+
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_EGYPT_EWHO" RequirementId="PLAYER_IS_EGYPT_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_EGYPT_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+
+		<Row RequirementSetId="REQSET_PLAYER_IS_GREECE_EWHO" RequirementId="PLAYER_IS_GREECE_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_GREECE_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+
+		<Row RequirementSetId="REQSET_PLAYER_IS_CHINA_EWHO" RequirementId="PLAYER_IS_CHINA_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_CHINA_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+
+		<Row RequirementSetId="REQSET_PLAYER_IS_ROME_EWHO" RequirementId="PLAYER_IS_ROME_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_ROME_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+
+		<Row RequirementSetId="REQSET_PLAYER_IS_INDIA_EWHO" RequirementId="PLAYER_IS_INDIA_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_INDIA_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+
+		<Row RequirementSetId="REQSET_PLAYER_IS_SPAIN_EWHO" RequirementId="PLAYER_IS_SPAIN_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_SPAIN_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+
+		<Row RequirementSetId="REQSET_PLAYER_IS_JAPAN_EWHO" RequirementId="PLAYER_IS_JAPAN_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_JAPAN_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+
+		<Row RequirementSetId="REQSET_PLAYER_IS_FRANCE_EWHO" RequirementId="PLAYER_IS_FRANCE_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_FRANCE_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+
+		<Row RequirementSetId="REQSET_PLAYER_IS_RUSSIA_EWHO" RequirementId="PLAYER_IS_RUSSIA_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_RUSSIA_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+
+		<Row RequirementSetId="REQSET_PLAYER_IS_AMERICA_EWHO" RequirementId="PLAYER_IS_AMERICA_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_AMERICA_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+
+		<Row RequirementSetId="REQSET_PLAYER_IS_NOT_AMERICA_EWHO" RequirementId="PLAYER_IS_NOT_AMERICA_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_NOT_AMERICA_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+
+		<Row RequirementSetId="REQSET_PLAYER_IS_ENGLAND_EWHO" RequirementId="PLAYER_IS_ENGLAND_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_ENGLAND_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+
+		<Row RequirementSetId="REQSET_PLAYER_IS_GERMANY_EWHO" RequirementId="PLAYER_IS_GERMANY_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_GERMANY_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+
+		<Row RequirementSetId="REQSET_PLAYER_IS_BRAZIL_EWHO" RequirementId="PLAYER_IS_BRAZIL_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_BRAZIL_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+
+
+		<Row RequirementSetId="REQSET_CITY_HAS_CAMPUS_EWHO" RequirementId="REQUIRES_CITY_HAS_CAMPUS"/>
+
+		<Row RequirementSetId="REQSET_PLOT_HAS_COPPER_EWHO" RequirementId="REQUIRES_PLOT_HAS_COPPER_EWHO"/>
+		
+		<Row RequirementSetId="REQSET_12_PLOTS_AWAY_MAX_UNIT_EWHO" RequirementId="REQUIRES_12_PLOTS_AWAY_MAX_UNIT_EWHO"/>
+
+		<Row RequirementSetId="REQSET_PLOT_HAS_FOREST_EWHO" RequirementId="PLOT_IS_FOREST_REQUIREMENT"/>
+
+		<Row RequirementSetId="REQSET_DISTRICT_IS_CITY_CENTER_EWHO" RequirementId="REQUIRES_DISTRICT_IS_CITY_CENTER"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_COMMERCIAL_HUB_EWHO" RequirementId="REQUIRES_DISTRICT_IS_COMMERCIAL_HUB"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_THEATER_EWHO" RequirementId="REQUIRES_DISTRICT_IS_THEATER"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_INDUSTRIAL_ZONE_EWHO" RequirementId="REQUIRES_DISTRICT_IS_INDUSTRIAL_ZONE"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_HARBOR_EWHO" RequirementId="REQUIRES_DISTRICT_IS_HARBOR"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_NEIGHBORHOOD_EWHO" RequirementId="REQUIRES_DISTRICT_IS_NEIGHBORHOOD_EWHO"/>
+
+		<Row RequirementSetId="REQSET_PLOT_HAS_PASTURE_EWHO" RequirementId="REQUIRES_PLOT_HAS_PASTURE"/>
+		<Row RequirementSetId="REQSET_PLOT_HAS_CAMP_EWHO" RequirementId="REQUIRES_PLOT_HAS_CAMP"/>
+
+		<Row RequirementSetId="REQSET_PLOT_HAS_TUNDRA_EWHO" RequirementId="REQUIRES_PLOT_HAS_TUNDRA_EWHO"/>
+		<Row RequirementSetId="REQSET_PLOT_HAS_HILLS_EWHO" RequirementId="REQUIRES_PLOT_HAS_HILLS_EWHO"/>
+
+		<Row RequirementSetId="REQSET_CITY_IS_NOT_OWNER_CAPITAL_CONTINENT_EWHO" RequirementId="REQUIRES_CITY_IS_NOT_OWNER_CAPITAL_CONTINENT"/>
+
+		<Row RequirementSetId="REQSET_CITY_HAS_10_POPULATION_EWHO" RequirementId="REQUIRES_CITY_HAS_10_POPULATION_EWHO"/>
+
+		<Row RequirementSetId="REQSET_CITY_HAS_HOLY_SITE_EWHO" RequirementId="REQUIRES_CITY_HAS_HOLY_SITE"/>
+
+		<Row RequirementSetId="REQSET_PLAYER_IS_CHINA_HAS_FORBIDDEN_CITY_EWHO" RequirementId="PLAYER_IS_CHINA_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_CHINA_HAS_FORBIDDEN_CITY_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+
+		<Row RequirementSetId="REQSET_DISTRICT_IS_INDUSTRIAL_ZONE_HAS_FACTORY_EWHO" RequirementId="REQUIRES_DISTRICT_IS_INDUSTRIAL_ZONE"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_INDUSTRIAL_ZONE_HAS_FACTORY_EWHO" RequirementId="REQUIRES_CITY_HAS_FACTORY_EWHO"/>
+
+		<Row RequirementSetId="REQSET_CITY_HAS_HARBOR_EWHO" RequirementId="REQUIRES_CITY_HAS_HARBOR"/>
+		<Row RequirementSetId="REQSET_CITY_HAS_INDUSTRIAL_ZONE_EWHO" RequirementId="REQUIRES_CITY_HAS_INDUSTRIAL_ZONE"/>
+
+		<Row RequirementSetId="REQSET_IMPROVEMENT_IS_GREAT_WALL_EWHO" RequirementId="REQUIRES_IMPROVEMENT_IS_GREAT_WALL_EWHO"/>
+
+		<Row RequirementSetId="REQSET_PLOT_BREATHTAKING_APPEAL_EWHO" RequirementId="REQUIRES_PLOT_BREATHTAKING_APPEAL_EWHO"/>
+
+		<Row RequirementSetId="PLOT_IS_COASTAL_LAND_REQUIREMENTS_EWHO" RequirementId="PLOT_IS_COASTAL_LAND_EWHO"/>
+
+		<Row RequirementSetId="REQSET_PLOT_HAS_BEACH_RESORT_EWHO" RequirementId="REQUIRES_PLOT_HAS_BEACH_RESORT_EWHO"/>
+
+		<Row RequirementSetId="REQSET_PLOT_HAS_BEACH_RESORT_ADJACENT_TO_JUNGLE_EWHO" RequirementId="REQUIRES_PLOT_HAS_BEACH_RESORT_EWHO"/>
+		<Row RequirementSetId="REQSET_PLOT_HAS_BEACH_RESORT_ADJACENT_TO_JUNGLE_EWHO" RequirementId="REQUIRES_PLOT_ADJACENT_TO_RAINFOREST_EWHO"/>
+
+		<Row RequirementSetId="REQSET_DISTRICT_IS_ENTERTAINMENT_COMPLEX_OR_WATER_PARK_EWHO" RequirementId="REQUIRES_DISTRICT_IS_ENTERTAINMENT_COMPLEX"/>
+
+		<Row RequirementSetId="REQSET_DISTRICT_IS_HOLY_SITE_ADJACENT_TO_JUNGLE_EWHO" RequirementId="REQUIRES_DISTRICT_IS_HOLY_SITE"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_HOLY_SITE_ADJACENT_TO_JUNGLE_EWHO" RequirementId="REQUIRES_PLOT_ADJACENT_TO_RAINFOREST_EWHO"/>
+
+		<Row RequirementSetId="REQSET_DISTRICT_IS_COMMERCIAL_HUB_ADJACENT_TO_JUNGLE_EWHO" RequirementId="REQUIRES_DISTRICT_IS_COMMERCIAL_HUB"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_COMMERCIAL_HUB_ADJACENT_TO_JUNGLE_EWHO" RequirementId="REQUIRES_PLOT_ADJACENT_TO_RAINFOREST_EWHO"/>
+		
+		<Row RequirementSetId="REQSET_DISTRICT_IS_THEATER_ADJACENT_TO_JUNGLE_EWHO" RequirementId="REQUIRES_DISTRICT_IS_THEATER"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_THEATER_ADJACENT_TO_JUNGLE_EWHO" RequirementId="REQUIRES_PLOT_ADJACENT_TO_RAINFOREST_EWHO"/>
+		
+		<Row RequirementSetId="REQSET_DISTRICT_IS_INDUSTRIAL_ZONE_ADJACENT_TO_JUNGLE_EWHO" RequirementId="REQUIRES_DISTRICT_IS_INDUSTRIAL_ZONE"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_INDUSTRIAL_ZONE_ADJACENT_TO_JUNGLE_EWHO" RequirementId="REQUIRES_PLOT_ADJACENT_TO_RAINFOREST_EWHO"/>
+		
+		<Row RequirementSetId="REQSET_DISTRICT_IS_HARBOR_ADJACENT_TO_JUNGLE_EWHO" RequirementId="REQUIRES_DISTRICT_IS_HARBOR"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_HARBOR_ADJACENT_TO_JUNGLE_EWHO" RequirementId="REQUIRES_PLOT_ADJACENT_TO_RAINFOREST_EWHO"/>
+
+		<Row RequirementSetId="REQSET_DISTRICT_IS_CAMPUS_ADJACENT_TO_JUNGLE_EWHO" RequirementId="REQUIRES_DISTRICT_IS_CAMPUS"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_CAMPUS_ADJACENT_TO_JUNGLE_EWHO" RequirementId="REQUIRES_PLOT_ADJACENT_TO_RAINFOREST_EWHO"/>
+
+		<Row RequirementSetId="REQSET_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_JUNGLE_EWHO" RequirementId="REQUIRES_DISTRICT_IS_ENCAMPMENT"/>
+		<Row RequirementSetId="REQSET_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_JUNGLE_EWHO" RequirementId="REQUIRES_PLOT_ADJACENT_TO_RAINFOREST_EWHO"/>
+
+		
+
+
+	</RequirementSetRequirements>
+	
+</GameData>

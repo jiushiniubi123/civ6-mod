@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CityStateBonusViewer_Button -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 8/1/2024 6:27:06 PM -->
+<Context FontStyle="Stroke">
+
+	<Instance Name="CityStateViewer_Item">
+		<Button ID="CityStateViewer_Button" Anchor="L,C" Size="49,49" Texture="LaunchBar_Hook_GreatPeopleButton" Style="ButtonNormalText" StateOffsetIncrement="0,0" ToolTip="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_LAUNCH_BUTTON">
+			<!--<Image ID="CityStateViewer_Icon" Size="35,35" Anchor="C,C" Offset="-2,0" Texture="CityStateViewer_Icon_35.dds"/>-->
+			<!--<Image ID="CityStateViewer_Icon" Size="35,35" Anchor="C,C" Offset="0,0" Texture="LaunchBar_Hook_TechTree.dds"/>-->
+			<Image ID="CityStateViewer_Icon" Size="35,35" Anchor="C,C" Offset="0,0" Texture="LaunchBar_Hook_CityStates_35"/>
+
+			<Label ID="CityStateViewer_AlertIndicator" String="[ICON_New]" Anchor="R,T" AnchorSide="O,O" Offset="-18,-18" Hidden="1"/>
+		</Button>
+	</Instance>
+
+	<Instance Name="CityStateViewer_PinInstance">
+		<Image ID="CityStateViewer_Pin" Anchor="L,C" Offset="0,-2" Size="7,7" Texture="LaunchBar_TrackPip" Color="255,255,255,200"/>
+	</Instance>
+
+</Context>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="aab33283-4b8f-46a4-83c0-784a8bfa177e" version="1">
+  <Properties>
+    <Name>Brandenburg Gate (World Wonder)</Name>
+    <Description>Brandenburg Gate (World Wonder)</Description>
+    <Created>1571646117</Created>
+    <Teaser>Brandenburg Gate (World Wonder)</Teaser>
+    <Authors>Del</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="BrandDB">
+      <File>Gameplay/Brandenburg_Gate_Gameplay.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="BrandIcons">
+      <File>Icons/Brandenburg_Gate_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="BrandText">
+      <File>Text/Brandenburg_Gate_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="BrandArt">
+      <File>CWON_Brandenburg_Gate.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>CWON_Brandenburg_Gate.dep</File>
+    <File>Gameplay/Brandenburg_Gate_Gameplay.sql</File>
+    <File>Icons/Brandenburg_Gate_Icons.xml</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Black_Gloss</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Black_Metalness</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Brandenburg_Decal</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_brgt_texture0_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_brgt_texture0_L</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Brandenburg_Decal_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_brgt_texture0_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_brgt_texture1_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_brgt_texture2_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_brgt_texture3_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_brgt_texture4_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_brgt_texture5_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_brgt_texture6_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_brgt_texture7_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_brgt_texture8_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_brgt_texture9_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Flat_Normal_5120</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Flat_Normal_5121</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_White_AO</File>
+    <File>Platforms/Windows/BLPs/strategicview/strategicview_buildings.blp</File>
+    <File>Platforms/Windows/BLPs/UITextures.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+    <File>Text/Brandenburg_Gate_Text.xml</File>
+  </Files>
+</Mod>

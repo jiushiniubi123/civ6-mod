@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="318cad32-8057-4c64-aa77-8540dbcaee0a" version="1">
+  <Properties>
+    <Name>OftenOviour_MOD_UGEFD_NAME</Name>
+    <Description>OftenOviour_MOD_UGEFD_DESC</Description>
+    <Created>1754843851</Created>
+    <Teaser>OftenOviour_MOD_UGEFD_TEAS</Teaser>
+    <Authors>OftenOviour</Authors>
+	<AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <AddGameplayScripts id="gameplay">
+      <File>AddXP.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>AddXP.lua</File>
+  </Files>
+  <LocalizedText>
+    <Text id="OftenOviour_MOD_UGEFD_NAME">
+		<en_US>(Pro Version)Raise troops for a thousand day, and use then for a while</en_US>
+		<zh_Hans_CN>养兵千日，用兵一时（优化版）</zh_Hans_CN>
+	</Text>
+	<Text id="OftenOviour_MOD_UGEFD_DESC">
+		<en_US>The Pro Version of the Mod with the same name. Districts would only provide Exp for MATCHED Units (eg. Harbor provides Exp for Navals); District itself provide +2 Exp (Aerodrome +1), each building in district provide +1 extra Exp; Units with higher level gain less Exp from districts.</en_US>
+		<zh_Hans_CN>同名Mod的优化版本，相应区域只会为匹配的单位提供经验值（如港口匹配海军单位）；区域本身提供+2经验值（航空港为+1），区域内的每一级建筑额外提供+1经验值；等级较高的单位从对应区域获取经验值的效率降低。</zh_Hans_CN>
+	</Text>
+	<Text id="OftenOviour_MOD_UGEFD_TEAS">
+		<en_US> </en_US>
+		<zh_Hans_CN> </zh_Hans_CN>
+	</Text>
+  </LocalizedText>
+</Mod>

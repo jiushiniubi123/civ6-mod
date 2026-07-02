@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CityStateBonusViewer_Text_zh_Hans_CN -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 8/1/2024 10:40:44 PM -->
+<GameData>
+	<LocalizedText>
+		<!--zh_Hans_CN-->
+		<Replace Tag="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_LAUNCH_BUTTON" Language="zh_Hans_CN">
+			<Text>城邦增益列表[NEWLINE][NEWLINE]查看游戏中城邦的独特增益</Text>
+		</Replace>
+		<Replace Tag="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_PANEL_TITLE" Language="zh_Hans_CN">
+			<Text>城邦增益列表</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_VIEWMODE_PREFIX" Language="zh_Hans_CN">
+			<Text>查看模式：</Text>
+		</Replace>
+		<Replace Tag="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_VIEWMODE_ALL" Language="zh_Hans_CN">
+			<Text>所有城邦</Text>
+		</Replace>
+		<Replace Tag="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_VIEWMODE_HASMET" Language="zh_Hans_CN">
+			<Text>仅遇到的城邦</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_SORTMODE_PREFIX" Language="zh_Hans_CN">
+			<Text>排序方式：</Text>
+		</Replace>
+		<Replace Tag="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_SORTMODE_BY_NAME" Language="zh_Hans_CN">
+			<Text>按名称</Text>
+		</Replace>
+		<Replace Tag="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_SORTMODE_BY_TYPE" Language="zh_Hans_CN">
+			<Text>按类型</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_FILTER_TITLE" Language="zh_Hans_CN">
+			<Text>筛选</Text>
+		</Replace>
+		<Replace Tag="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_FILTER_TYPE_ALL" Language="zh_Hans_CN">
+			<Text>所有</Text>
+		</Replace>
+		<Replace Tag="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_FILTER_TYPE_ML_CS_TYPE_ERROR" Language="zh_Hans_CN">
+			<Text>未定义</Text>
+		</Replace>
+		<Replace Tag="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_FILTER_TYPE_SCIENTIFIC" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_CITYSTATES_PAGEGROUP_SCIENTIFIC_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_FILTER_TYPE_RELIGIOUS" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_CITYSTATES_PAGEGROUP_RELIGIOUS_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_FILTER_TYPE_TRADE" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_CITYSTATES_PAGEGROUP_TRADE_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_FILTER_TYPE_CULTURAL" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_CITYSTATES_PAGEGROUP_CULTURAL_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_FILTER_TYPE_MILITARISTIC" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_CITYSTATES_PAGEGROUP_MILITARISTIC_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_FILTER_TYPE_INDUSTRIAL" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_CITYSTATES_PAGEGROUP_INDUSTRIAL_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_FILTER_TYPE_CSE_AGRICULTURAL" Language="zh_Hans_CN">
+			<Text>{LOC_CITY_STATES_TYPE_CSE_AGRICULTURAL}</Text>
+		</Replace>
+		<Replace Tag="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_FILTER_TYPE_CSE_CONSULAR" Language="zh_Hans_CN">
+			<Text>{LOC_CITY_STATES_TYPE_CSE_CONSULAR}</Text>
+		</Replace>
+		<Replace Tag="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_FILTER_TYPE_CSE_ENTERTAINMENT" Language="zh_Hans_CN">
+			<Text>{LOC_CITY_STATES_TYPE_CSE_ENTERTAINMENT}</Text>
+		</Replace>
+		<Replace Tag="LOC_MAPLE_CITY_STATE_BONUS_VIEWER_FILTER_TYPE_CSE_MARITIME" Language="zh_Hans_CN">
+			<Text>{LOC_CITY_STATES_TYPE_CSE_MARITIME}</Text>
+		</Replace>
+
+	</LocalizedText>
+</GameData>

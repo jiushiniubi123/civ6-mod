@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="97568b34-46ee-48a0-be4f-020ea3b662c4" version="1">
+  <Properties>
+    <Name>LOC_ML_SUK_ID_EXPANSION_NAME</Name>
+    <Description>LOC_ML_SUK_ID_EXPANSION_DESCRIPTION</Description>
+    <Created>1773329631</Created>
+    <Teaser>LOC_ML_SUK_ID_EXPANSION_TEASER</Teaser>
+    <Authors>LOC_ML_SUK_ID_EXPANSION_AUTHORS</Authors>
+    <SpecialThanks>LOC_ML_SUK_ID_EXPANSION_SPECIALTHANKS</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="b21bf49d-565e-42bb-a4e9-379a9facb54f" title="Sukritact's Urban Identities" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="Suk_UrbanIdentities_Expansion2">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_SUK_URBANIDENTITIES</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <Properties>
+        <LoadOrder>201</LoadOrder>
+      </Properties>
+      <Criteria>Suk_UrbanIdentities_Expansion2</Criteria>
+      <File>Data/ML_UrbanIdentities_Regions.sql</File>
+      <File>Data/ML_UrbanIdentities_RegionIdentities.sql</File>
+      <File>Data/ML_UrbanIdentities_UnitAbilities.sql</File>
+      <File>Data/ML_UrbanIdentities_Modifiers.sql</File>
+      <File>Data/ML_UrbanIdentities_Requirements.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <Properties>
+        <LoadOrder>201</LoadOrder>
+      </Properties>
+      <Criteria>Suk_UrbanIdentities_Expansion2</Criteria>
+      <File>Text/ML_UrbanIdentities_Text_en_US.xml</File>
+      <File>Text/ML_UrbanIdentities_Text_zh_Hans_CN.xml</File>
+      <File>Text/ML_UrbanIdentities_Text_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <ImportFiles id="if">
+      <Properties>
+        <LoadOrder>201</LoadOrder>
+      </Properties>
+      <Criteria>Suk_UrbanIdentities_Expansion2</Criteria>
+      <File>Lua/Modules/ML_UrbanIdentities_SupportFunctions.lua</File>
+      <File>Lua/Suk_RegionDefinitions_ML.lua</File>
+    </ImportFiles>
+  </InGameActions>
+  <LocalizedText>
+    <Text id="LOC_ML_SUK_ID_EXPANSION_NAME">
+      <en_US>More Urban Identities</en_US>
+      <zh_Hans_CN>更多地带特征</zh_Hans_CN>
+      <zh_Hant_HK>更多地带特征</zh_Hant_HK>
+    </Text>
+    <Text id="LOC_ML_SUK_ID_EXPANSION_TEASER">
+      <en_US>Urban Identities</en_US>
+      <zh_Hans_CN>地带特征</zh_Hans_CN>
+      <zh_Hant_HK>地带特征</zh_Hant_HK>
+    </Text>
+    <Text id="LOC_ML_SUK_ID_EXPANSION_DESCRIPTION">
+      <en_US>Adds new types of Regions and Identities for Sukritact's Urban Identities Mod.</en_US>
+      <zh_Hans_CN>为Sukritact的地带特征mod加入了更多种类的地带特征。</zh_Hans_CN>
+      <zh_Hant_HK>为Sukritact的地带特征mod加入了更多种类的地带特征。</zh_Hant_HK>
+    </Text>
+    <Text id="LOC_ML_SUK_ID_EXPANSION_AUTHORS">
+      <en_US>Maple_Leaves, Phantagonist</en_US>
+      <zh_Hans_CN>枫叶(Maple_Leaves), Phantagonist</zh_Hans_CN>
+      <zh_Hant_HK>枫叶(Maple_Leaves), Phantagonist</zh_Hant_HK>
+    </Text>
+    <Text id="LOC_ML_SUK_ID_EXPANSION_SPECIALTHANKS">
+      <en_US>Sukritact</en_US>
+      <zh_Hans_CN>Sukritact</zh_Hans_CN>
+      <zh_Hant_HK>Sukritact</zh_Hant_HK>
+    </Text>
+  </LocalizedText>
+  <Files>
+    <File>Data/ML_UrbanIdentities_Modifiers.sql</File>
+    <File>Data/ML_UrbanIdentities_RegionIdentities.sql</File>
+    <File>Data/ML_UrbanIdentities_Regions.sql</File>
+    <File>Data/ML_UrbanIdentities_Requirements.sql</File>
+    <File>Data/ML_UrbanIdentities_UnitAbilities.sql</File>
+    <File>Data/unused.sql</File>
+    <File>Lua/Modules/ML_UrbanIdentities_SupportFunctions.lua</File>
+    <File>Lua/Suk_RegionDefinitions_ML.lua</File>
+    <File>Text/ML_UrbanIdentities_Text_en_US.xml</File>
+    <File>Text/ML_UrbanIdentities_Text_zh_Hans_CN.xml</File>
+    <File>Text/ML_UrbanIdentities_Text_zh_Hant_HK.xml</File>
+  </Files>
+</Mod>

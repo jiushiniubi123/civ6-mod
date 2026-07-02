@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mod id="001a4d25-f013-4be4-ab4b-3dd4f76e0d0a" version="1.0">
+	<Properties>
+		<Name>Disable Rock Bands</Name>
+		<Teaser>Disables the purchase Rock Bands</Teaser>
+		<Description>Perhaps you hate rock and roll, or you just want to make Culture and Religious victories much more difficult. Either way, this mod removes Rock Band units from the game.[NEWLINE][NEWLINE]Compatible with Civilization VI [COLOR_Green]Gathering Storm[ENDCOLOR]</Description>
+		<Authors>Das Capitolin</Authors>
+		<SpecialThanks>JNR13</SpecialThanks>
+		<AffectsSavedGames>0</AffectsSavedGames>
+		<CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+	<Files>
+		<File>DisableRockBands.sql</File>
+	</Files>
+	<InGameActions>
+	<UpdateDatabase id="Gameplay">
+		<File>DisableRockBands.sql</File>
+		<Properties>
+			<LoadOrder>101</LoadOrder>
+		</Properties>
+	</UpdateDatabase>
+	</InGameActions>
+</Mod>

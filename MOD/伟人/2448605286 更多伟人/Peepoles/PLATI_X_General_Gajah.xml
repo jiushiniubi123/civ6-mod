@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MEDIEVAL Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_GAJAH" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_GAJAH" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_GAJAH_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="1" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualBirthModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_GAJAH" ModifierId="GREATPERSON_GAJAH_COMBAT_PASSIVE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_GAJAH" ModifierId="GREATPERSON_GAJAH_EMBARK_PASSIVE"/>
+	</GreatPersonIndividualBirthModifiers>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_GAJAH" ModifierId="GREATPERSON_PLATI_GAJAH_PEPPER" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_GAJAH" ModifierId="GREATPERSON_PLATI_GAJAH_NUTMEG" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_GAJAH_PEPPER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_GAJAH_NUTMEG</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY</ModifierType>
+			<SubjectRequirementSetId>CITY_NOT_FOUNDED</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GAJAH_COMBAT_PASSIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_MEDIEVAL_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GAJAH_EMBARK_PASSIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_MEDIEVAL_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_GAJAH_PEPPER</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_PEPPER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_GAJAH_PEPPER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_GAJAH_NUTMEG</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_NUTMEG</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_GAJAH_NUTMEG</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GAJAH_COMBAT_PASSIVE</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GAJAH_MADA_COMBAT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GAJAH_EMBARK_PASSIVE</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GAJAH_MADA_DISEMBARK</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_PLATI_GAJAH_PEPPER" 	Context="Summary" Text="LOC_GREATPERSON_PLATI_GAJAH_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_GAJAH_COMBAT_PASSIVE" 	Context="Summary" Text="LOC_GREATPERSON_PLATI_GAJAH_PASSIVE"/>
+	</ModifierStrings>
+</GameData>

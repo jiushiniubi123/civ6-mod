@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Medieval Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_URBAN" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_URBAN" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_URBAN_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionEffectTileHighlighting="false" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_URBAN_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_URBAN" ModifierId="GREATPERSON_URBAN_BONUS_FORTS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_URBAN" ModifierId="GREATPERSON_URBAN_BONUS_ENGI" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_URBAN_BONUS_FORTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_URBAN_BONUS_ENGI</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_URBAN_BONUS_FORTS</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_BOMBARD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_URBAN_BONUS_FORTS</ModifierId>
+			<Name>Experience</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_URBAN_BONUS_FORTS</ModifierId>
+			<Name>UniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_URBAN_BONUS_ENGI</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_BOMBARD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_URBAN_BONUS_ENGI</ModifierId>
+			<Name>Experience</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_URBAN_BONUS_ENGI</ModifierId>
+			<Name>UniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_URBAN_BONUS_FORTS" Context="Summary" Text="LOC_GREATPERSON_PLATI_URBAN_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_URBAN_BONUS_ENGI" Context="Summary" Text="LOC_GREATPERSON_PLATI_URBAN_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

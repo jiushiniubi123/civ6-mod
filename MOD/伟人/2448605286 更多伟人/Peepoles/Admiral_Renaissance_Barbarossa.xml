@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RENAISSANCE Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_BARBAROSA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_BARBAROSA" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_BARBAROSA_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionEffectTileHighlighting="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" AreaHighlightRadius="2" />
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualBirthModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_BARBAROSA" ModifierId="PLATI_PIRATE_PASSIVE_BOOST_RENAISSANCE"/>
+	</GreatPersonIndividualBirthModifiers>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_BARBAROSA" ModifierId="GREATPERSON_PLATI_BARBAROSA_MEDITERRANEAN" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_BARBAROSA_MEDITERRANEAN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_VALID_UNIT_BUILD</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_BARBAROSA_MEDITERRANEAN</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_OTTOMAN_BARBARY_CORSAIR</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_PLATI_BARBAROSA_MEDITERRANEAN" Context="Summary" Text="LOC_GREATPERSON_PLATI_BARBAROSA_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+        <Replace Tag="LOC_QR_CATEGORY_NAME" Language="zh_Hans_CN">
+            <Text>快速跳水</Text>
+        </Replace>    
+        <Replace Tag="LOC_QR_OPTIONS_RG" Language="zh_Hans_CN">
+            <Text>重新开始游戏</Text>
+        </Replace>
+        <Replace Tag="LOC_QR_OPTIONS_TB" Language="zh_Hans_CN">
+            <Text>显示/隐藏按钮</Text>
+        </Replace>
+    </LocalizedText>
+</GameData>

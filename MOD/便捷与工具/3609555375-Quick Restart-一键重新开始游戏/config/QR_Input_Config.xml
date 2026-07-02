@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+    <InputCategories>
+        <Row CategoryId="QR" Name="LOC_QR_CATEGORY_NAME" Visible="1" SortIndex="0"/>
+    </InputCategories>
+
+    <InputActions>
+        <Row ActionId="RestartGame" Name="LOC_QR_OPTIONS_RG" Description="LOC_QR_OPTIONS_RG" CategoryId="QR" ContextId="World"/>
+        <Row ActionId="ToggleButton" Name="LOC_QR_OPTIONS_TB" Description="LOC_QR_OPTIONS_TB" CategoryId="QR" ContextId="World"/>
+    </InputActions>
+
+    <InputActionDefaultGestures>
+        <Row ActionId="RestartGame" Index="0" GestureType="KBMouse" GestureData="LOC_OPTIONS_KEY_ALT+LOC_OPTIONS_KEY_R"/>
+        <Row ActionId="ToggleButton" Index="0" GestureType="KBMouse" GestureData="LOC_OPTIONS_KEY_ALT+LOC_OPTIONS_KEY_T"/>
+    </InputActionDefaultGestures>
+</GameInfo>

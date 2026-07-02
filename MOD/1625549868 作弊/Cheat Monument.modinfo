@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c488cb5b-dc84-4287-9458-561f4673184f" version="1">
+  <Properties>
+    <Name>Cheat Monument</Name>
+    <Description>Adds Cheat Monument building for use with Cheat Monument Cheat Packs mods. Cheat Monument building will be automatically added to the first player city founded. Cheat Monument building has a production cost of 5000 but for the human player it will be constructed immediatelly. This building is the placeholder for civilization traits added by Cheat Monument Cheat Pack mods (you can install any combination of cheat pack mods). Cheat Monument is set to be world unique so only one monument can exist and if you have one AI can't build it.</Description>
+    <CompatibleVersions xmlns="http://schemas.microsoft.com/developer/msbuild/2003">2.0</CompatibleVersions>
+    <Teaser>Adds Cheat Monument building for use with Cheat Monument Cheat Packs mods..</Teaser>
+    <Authors>Zur13</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>CMonument_Gameplay.xml</File>
+      <File>Test.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Icons">
+      <File>CMonument_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File>CMonument_Text.xml</File>
+    </UpdateText>
+    <AddUserInterfaces id="DummyUI">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>DummyUI.xml</File>
+    </AddUserInterfaces>
+    <AddGameplayScripts id="Base">
+      <File>Base.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>Base.lua</File>
+    <File>CMonument_Gameplay.xml</File>
+    <File>CMonument_Icons.xml</File>
+    <File>CMonument_Text.xml</File>
+    <File>DummyUI.lua</File>
+    <File>DummyUI.xml</File>
+    <File>Test.sql</File>
+  </Files>
+</Mod>

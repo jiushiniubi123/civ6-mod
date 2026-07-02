@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Industrial Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_HOBBES" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_HOBBES" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_HOBBES_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" EraType="ERA_CLASSICAL" Gender="M" ActionCharges="0" />
+	</GreatPersonIndividuals>
+</GameData>

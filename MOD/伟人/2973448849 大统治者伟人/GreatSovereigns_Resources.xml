@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A -->
+<!-- Author: Plati -->
+<!-- A -->
+<GameData>
+	<Types>
+		<Row Type="RESOURCE_COWRIE" 			Kind="KIND_RESOURCE"/>
+	</Types>
+	<Resources>
+		<Row ResourceType="RESOURCE_COWRIE" 			Name="LOC_RESOURCE_COWRIE_NAME" 			ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="0"/>
+	</Resources>
+</GameData>

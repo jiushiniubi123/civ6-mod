@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Terrains -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 2/24/2023 8:48:24 PM -->
+<GameData>
+	<Types>
+		<Row Type="TERRAIN_CLASS_HILLS_EWHO" Kind="KIND_TERRAIN_CLASS"/>
+
+	</Types>
+
+	<TerrainClasses>
+		<Row TerrainClassType="TERRAIN_CLASS_HILLS_EWHO" Name="LOC_TERRAIN_CLASS_HILLS_EWHO_NAME"/>
+
+	</TerrainClasses>
+	
+	<TerrainClass_Terrains>
+		<Row TerrainClassType="TERRAIN_CLASS_HILLS_EWHO" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row TerrainClassType="TERRAIN_CLASS_HILLS_EWHO" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row TerrainClassType="TERRAIN_CLASS_HILLS_EWHO" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row TerrainClassType="TERRAIN_CLASS_HILLS_EWHO" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row TerrainClassType="TERRAIN_CLASS_HILLS_EWHO" TerrainType="TERRAIN_SNOW_HILLS"/>
+
+	</TerrainClass_Terrains>
+</GameData>

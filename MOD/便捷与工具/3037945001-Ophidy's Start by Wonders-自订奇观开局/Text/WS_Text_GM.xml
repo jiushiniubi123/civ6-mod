@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Paititi_Start_Text_InGame -->
+<!-- Author: Lazire -->
+<!-- DateCreated: 9/17/2023 3:18:40 AM -->
+<GameData>
+	<EnglishText>
+		<Row Tag="LOC_GAMEMODE_WS_NAME">
+			<Text>Start by Wonders</Text>
+		</Row>
+		<Row Tag="LOC_GAMEMODE_WS_DESCRIPTION">
+			<Text>After entering the game, randomly assign human players to the selected Start Wonders. [NEWLINE][NEWLINE] If this game mode is not activated, the selected Start Wonders will be generated but players will not be moved to their sides</Text>
+		</Row>
+	</EnglishText>
+
+	<LocalizedText>
+		<Replace Tag="LOC_GAMEMODE_WS_NAME" Language="zh_Hans_CN">
+			<Text>自订奇观开局</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_WS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>进入游戏后，将人类玩家随机分配到已选定的开局奇观旁。[NEWLINE][NEWLINE]如不开启该模式则只会生成选定的开局奇观而不会将玩家转移到其旁边</Text>
+		</Replace>
+	</LocalizedText>
+
+</GameData>

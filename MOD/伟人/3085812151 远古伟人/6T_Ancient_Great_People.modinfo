@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8b1e0073-88e9-43e8-b899-fa9baccc2086" version="2">
+  <Properties>
+    <Name>[COLOR:ResFaithLabelCS]6T[ENDCOLOR] - Ancient Paragons (Great People Pack)</Name>
+    <Description>Adds two Great Generals, Admirals, Merchants, Scientists, Writers, and Prophets to the Ancient era and two Great Engineers to the Classical era, each one male and one female (one of the Great Engineers is Imhotep, who is not added but just moved to the Classical era with the Babylon DLC active).</Description>
+    <Created>1700111261</Created>
+    <Teaser>Adds Great People to the Ancient era.</Teaser>
+    <Authors>JNR</Authors>
+    <SpecialThanks>Phantagonist, Zolaar, TheColdHands, Traditional Boywife</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+	<Criteria id="Expansion1" any="1">
+	  <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+	  <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+	</Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Gameplay/6T_AGP_Admiral.sql</File>
+      <File>Gameplay/6T_AGP_Engineer.sql</File>
+      <File>Gameplay/6T_AGP_General.sql</File>
+      <File>Gameplay/6T_AGP_Merchant.sql</File>
+      <File>Gameplay/6T_AGP_Prophet.sql</File>
+      <File>Gameplay/6T_AGP_Scientist.sql</File>
+      <File>Gameplay/6T_AGP_Writer.sql</File>
+      <File>Gameplay/6T_AGP_Unit_Abilities.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Text/6T_AGP_Text_Admiral.sql</File>
+      <File>Text/6T_AGP_Text_Engineer.sql</File>
+      <File>Text/6T_AGP_Text_General.sql</File>
+      <File>Text/6T_AGP_Text_Merchant.sql</File>
+      <File>Text/6T_AGP_Text_Prophet.sql</File>
+      <File>Text/6T_AGP_Text_Scientist.sql</File>
+      <File>Text/6T_AGP_Text_Writer.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Icons/6T_AGP_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>6T_Ancient_Great_People.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Gameplay_XP1" criteria="Expansion1">
+      <Properties>
+        <LoadOrder>14</LoadOrder>
+      </Properties>
+      <File>Gameplay/6T_AGP_XP1.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>6T_Ancient_Great_People.dep</File>
+    <File>Gameplay/6T_AGP_Admiral.sql</File>
+    <File>Gameplay/6T_AGP_Engineer.sql</File>
+    <File>Gameplay/6T_AGP_General.sql</File>
+    <File>Gameplay/6T_AGP_Merchant.sql</File>
+    <File>Gameplay/6T_AGP_Prophet.sql</File>
+    <File>Gameplay/6T_AGP_Scientist.sql</File>
+    <File>Gameplay/6T_AGP_Unit_Abilities.sql</File>
+    <File>Gameplay/6T_AGP_Writer.sql</File>
+    <File>Gameplay/6T_AGP_XP1.sql</File>
+    <File>Icons/6T_AGP_Icons.sql</File>
+    <File>Text/6T_AGP_Text_Admiral.sql</File>
+    <File>Text/6T_AGP_Text_Engineer.sql</File>
+    <File>Text/6T_AGP_Text_General.sql</File>
+    <File>Text/6T_AGP_Text_Merchant.sql</File>
+    <File>Text/6T_AGP_Text_Prophet.sql</File>
+    <File>Text/6T_AGP_Text_Scientist.sql</File>
+    <File>Text/6T_AGP_Text_Writer.sql</File>
+  </Files>
+</Mod>

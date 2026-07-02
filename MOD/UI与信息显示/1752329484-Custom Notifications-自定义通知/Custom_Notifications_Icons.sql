@@ -1,0 +1,14 @@
+
+INSERT INTO IconAtlases (Name)
+SELECT 'ICON_ATLAS_CN_CN';
+
+INSERT INTO IconDefinitions (Name, Atlas, 'Index')
+VALUES ('ICON_NOTIFICATION_USER_DEFINED_9', 'ICON_ATLAS_CN_CN', 1),
+		('ICON_NOTIFICATION_USER_DEFINED_8', 'ICON_ATLAS_CN_CN', 0),
+		('ICON_NOTIFICATION_USER_DEFINED_7', 'ICON_ATLAS_NOTIFICATIONS', 85),
+		('ICON_NOTIFICATION_USER_DEFINED_6', 'ICON_ATLAS_NOTIFICATIONS', 6);
+
+INSERT INTO IconTextureAtlases (Name, IconSize, IconsPerRow, IconsPerColumn, Filename)
+SELECT 'ICON_ATLAS_CN_CN', 40, 2, 1, 'CN_Icons40.dds';
+
+	-- <Row Name="ICON_ATLAS_STATS" IconSize="55" IconsPerRow="8" IconsPerColumn="8" Filename="Stats55"/>

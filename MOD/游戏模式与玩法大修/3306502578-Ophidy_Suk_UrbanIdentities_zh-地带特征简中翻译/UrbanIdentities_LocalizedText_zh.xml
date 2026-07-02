@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- UrbanIdentities_LocalizedText_zh -->
+<!-- Author: Ophidy -->
+<!-- DateCreated: 8/10/2024 11:26:43 PM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_GAMEMODE_SUK_URBANIDENTITIES_NAME" Language="zh_Hans_CN">
+			<Text>Sukritact的地带特征</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_SUK_URBANIDENTITIES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该游戏模式旨在赋予城市个性和特征。使它们成为帝国中独特的部分。[NEWLINE][NEWLINE]城市现在能够获得[ICON_SUK_IDENTITY]特征，以获得独特的特性与加成。不同的[ICON_SUK_REGION]地理区域遍布在地图上，在其范围内建立的首个城市将被赋予特征。你会在哪里找到你的龙兴之地？它们将如何发展，并留下什么遗产？当你游玩地带特征时，这些都是需要回答的问题！</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_GAMEMODE_SUK_URBANIDENTITIES_REGIONCOVERAGE_NAME" Language="zh_Hans_CN">
+			<Text>地带范围</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_SUK_URBANIDENTITIES_REGIONCOVERAGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>设置 [ICON_SUK_REGION] 地带在地图上覆盖范围的最大值</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_SUK_REGIONS_CLAIMED" Language="zh_Hans_CN">
+			<Text>已宣称 {1} [ICON_SUK_REGION] ({2})</Text>
+		</Replace>
+		<Replace Tag="LOC_SUK_REGIONS_UNCLAIMED" Language="zh_Hans_CN">
+			<Text>[COLOR_RED]未被宣称 {1} [ICON_SUK_REGION][ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_TOGGLE_SUK_REGIONS" Language="zh_Hans_CN">
+			<Text>地带图标</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_TOGGLE_SUK_REGIONS_TOOLTIP" Language="zh_Hans_CN">
+			<Text>显示/隐藏地带图标</Text>
+		</Replace>
+		<Replace Tag="LOC_SUK_SCREENSHOT_MODE_REGION_BANNER_NAME" Language="zh_Hans_CN">
+			<Text>隐藏地带面板</Text>
+		</Replace>
+		<Replace Tag="LOC_SUK_SCREENSHOT_MODE_REGION_BANNER_DESC" Language="zh_Hans_CN">
+			<Text>在截图模式下隐藏地带面板</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_ABILITY_IDENTITY_SUK_IMPACT_STRUCTURES_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_IDENTITY_SUK_IMPACT_STRUCTURES_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_IDENTITY_SUK_IMPACT_STRUCTURES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+5 宗教战斗力来自{LOC_ABILITY_IDENTITY_SUK_IMPACT_STRUCTURES_NAME}。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_IMPACT_STRUCTURES_RELIGOUS_COMBAT_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+{1_Value} 宗教战斗力来自 {LOC_ABILITY_IDENTITY_SUK_IMPACT_STRUCTURES_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_IDENTITY_SUK_ALTITUDE_TRAINING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在丘陵单元格移动时无视移动力损耗。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_PUNA_GRASSLANDS_HILLS" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_GOLD] 金币来自相邻丘陵单元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_FRESHWATER_FISHERY_FOOD" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Food] 食物来自相邻湖泊单元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_FRESHWATER_FISHERY_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_GOLD] 金币来自相邻湖泊单元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_DEFENSIBLE_CLIFFS_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_GOLD] 金币来自相邻海岸单元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_GEYSER_FIELD_CLTURE" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Culture] 文化值来自相邻地热裂缝。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_BIRD_SANCTUARY_MARSH_SCIENCE" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Science] 科技值来自相邻沼泽单元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_BIRD_SANCTUARY_WOODS_SCIENCE" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Science] 科技值来自相邻树林单元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_ALTITUDE_TRAINING_FOOD" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Food] 食物来自相邻山脉单元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_NATURAL_HARBOR_ADJACENCY" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Food] 食物来自相邻区域。</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_REGION_SUK_FOREST_NAME" Language="zh_Hans_CN">
+			<Text>森林地带</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_JUNGLE_NAME" Language="zh_Hans_CN">
+			<Text>雨林地带</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_CLIFFS_NAME" Language="zh_Hans_CN">
+			<Text>悬崖地带</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_OASIS_NAME" Language="zh_Hans_CN">
+			<Text>绿洲地带</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_MOUNTAINS_NAME" Language="zh_Hans_CN">
+			<Text>山脉地带</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_KELP_NAME" Language="zh_Hans_CN">
+			<Text>海藻森林地带</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_REEF_NAME" Language="zh_Hans_CN">
+			<Text>礁脉地带</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_HILLS_NAME" Language="zh_Hans_CN">
+			<Text>丘陵地带</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_PLAINS_NAME" Language="zh_Hans_CN">
+			<Text>平原地带</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_GEOTHERMAL_NAME" Language="zh_Hans_CN">
+			<Text>地热地带</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_MARSH_NAME" Language="zh_Hans_CN">
+			<Text>沼泽地带</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_LAKE_NAME" Language="zh_Hans_CN">
+			<Text>湖泊地带</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_DESERT_NAME" Language="zh_Hans_CN">
+			<Text>沙漠地带</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_RIVER_NAME" Language="zh_Hans_CN">
+			<Text>河流地带</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_HARDWOOD_TREES_NAME" Language="zh_Hans_CN">
+			<Text>硬木森林</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_HARDWOOD_TREES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市每经过一个游戏时代获得+1 [ICON_PRODUCTION] 生产力。该 [ICON_SUK_REGION] 地带的伐木场相邻市中心或工业区时，提供+2 [ICON_PRODUCTION] 生产力和+1 [ICON_GOLD] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_HARDWOOD_TREES_FLAVOR" Language="zh_Hans_CN">
+			<Text>该地带的木材特别适合建筑工程，备受追捧。</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_UNDERGROUND_AQUIFERS_NAME" Language="zh_Hans_CN">
+			<Text>地下水层</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_UNDERGROUND_AQUIFERS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市获得+2 [ICON_HOUSING] 住房。允许在该城市的沙漠平原上建造农场改良设施，且非泛滥沙漠平原上的农场和种植园获得+1 [ICON_Food] 食物和+1 [ICON_GOLD] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_UNDERGROUND_AQUIFERS_FLAVOR" Language="zh_Hans_CN">
+			<Text>在意想不到的地方，暗河喷涌而出。</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_IDYLLIC_SCENERY_NAME" Language="zh_Hans_CN">
+			<Text>乡土田园</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_IDYLLIC_SCENERY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市获得+3 [ICON_AMENITIES] 宜居度。该 [ICON_SUK_REGION] 地带上的城市公园提供+1 [ICON_Food] 食物和+1 [ICON_Culture] 文化值。允许在该城市建造城市公园（需要游戏与娱乐市政）。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_IDYLLIC_SCENERY_FLAVOR" Language="zh_Hans_CN">
+			<Text>绚丽的风光为疲倦的灵魂带去平静和慰藉</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_OPEN_SKIES_NAME" Language="zh_Hans_CN">
+			<Text>开阔地</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_OPEN_SKIES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该 [ICON_SUK_Region] 地带与学院相邻的单元格获得+1 [ICON_SCIENCE] 科技值，如果该城市有大学，则提升至+2 [ICON_SCIENCE] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_OPEN_SKIES_FLAVOR" Language="zh_Hans_CN">
+			<Text>没有密林、没有山川，在这里人们仰头眺望无垠的星空。</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_PROPHETIC_VISIONS_NAME" Language="zh_Hans_CN">
+			<Text>预兆幻象</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_PROPHETIC_VISIONS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该 [ICON_SUK_Region] 地带与圣地相邻的单元格获得+2 [ICON_Faith] 信仰值。如果该城市有寺庙，则提升至+3 [ICON_Faith] 信仰值。该城市的圣地获得+1 [ICON_GreatProphet] 大预言家点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_PROPHETIC_VISIONS_FLAVOR" Language="zh_Hans_CN">
+			<Text>出于某种原因，圣人们说他们的占卜在这里更有效。也许空气中有什么东西？</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_MOUNTAIN_PASS_NAME" Language="zh_Hans_CN">
+			<Text>山隘</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_MOUNTAIN_PASS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该 [ICON_SUK_REGION] 地带上的商业中心提供+4 [ICON_Gold] 金币和+1 [ICON_TradeRoute] 贸易路线容量。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_MOUNTAIN_PASS_FLAVOR" Language="zh_Hans_CN">
+			<Text>山外的商贾不可避免地经过这个不起眼的山谷。</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_RICH_SOIL_NAME" Language="zh_Hans_CN">
+			<Text>沃土</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_RICH_SOIL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>当你在该 [ICON_SUK_REGION] 地带的每个单元格上首次建造农场改良设施时，都有33%的几率生成一个可被改良的加成资源。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_RICH_SOIL_FLAVOR" Language="zh_Hans_CN">
+			<Text>浆果、蔬菜、谷物。这些植物在黑土地中茁壮成长。</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_MASSIVE_TREES_NAME" Language="zh_Hans_CN">
+			<Text>参天古树</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_MASSIVE_TREES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市建造区域时-15% [ICON_Production] 生产力。建造在该 [ICON_Suk_Region] 地带的圣地和剧院广场获得额外+3产出，若魅力达到惊艳或以上，则额外提供+2 [ICON_GreatPerson] 伟人点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_MASSIVE_TREES_FLAVOR" Language="zh_Hans_CN">
+			<Text>看到这些难以置信的巨树，你不禁敬畏和惊叹。</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_OCEAN_SWELLS_NAME" Language="zh_Hans_CN">
+			<Text>波涛汹涌</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_OCEAN_SWELLS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市建造港口及其中建筑时-50% [ICON_PRODUCTION] 生产力。该城市相邻海岸的区域获得+1 [ICON_AMENITIES] 宜居度和+3 [ICON_GOLD] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_OCEAN_SWELLS_FLAVOR" Language="zh_Hans_CN">
+			<Text>翻腾的浪潮使这个地方不适合航行，但它令人赞叹的壮丽吸引了观光者和寻求刺激的人。</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_FOSSIL_DEPOSITS_NAME" Language="zh_Hans_CN">
+			<Text>化石矿床</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_FOSSIL_DEPOSITS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市每经过一个游戏时代获得+1 [ICON_Science] 科技值。若该城市同时拥有大学和考古博物馆，则该 [ICON_SUK_REGION] 地带的单元格提供+2 [ICON_Science] 科技值和+2 [ICON_Culture] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_FOSSIL_DEPOSITS_FLAVOR" Language="zh_Hans_CN">
+			<Text>人们能发现奇异的骨骼，它们散发着遥远又陌生的远古回响。</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_REJUVENATING_SPRINGS_NAME" Language="zh_Hans_CN">
+			<Text>振奋之泉</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_REJUVENATING_SPRINGS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市获得+1 [ICON_Housing] 住房和+1 [ICON_Amenities] 宜居度。建造在该 [ICON_Suk_Region] 地带上的娱乐中心为6个单元格内的所有城市提供+1 [ICON_Housing] 住房和+1 [ICON_Amenities] 宜居度，并为相邻的单元格提供+6 [ICON_Food] 食物。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_REJUVENATING_SPRINGS_FLAVOR" Language="zh_Hans_CN">
+			<Text>疲惫的旅者浸泡在这些水中，据说它们能够抗疲劳。</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_SCENIC_VISTAS_NAME" Language="zh_Hans_CN">
+			<Text>风景名胜</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_SCENIC_VISTAS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市建造区域时-15% [ICON_Production] 生产力。该 [ICON_Suk_Region] 地带的魅力值达到惊艳及以上的单元格获得+2 [ICON_Culture] 文化值和+2 [ICON_Gold] 金币。建造在该 [ICON_Suk_Region] 地带上的剧院广场获得+3 [ICON_Culture] 文化值，并使城市所有单元格获得+1魅力值。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_SCENIC_VISTAS_FLAVOR" Language="zh_Hans_CN">
+			<Text>从这些陡峭的悬崖上，世界如画卷铺开。</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_NATURAL_HARBOR_NAME" Language="zh_Hans_CN">
+			<Text>天然良港</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_NATURAL_HARBOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市建造港口和其中建筑时+50% [ICON_PRODUCTION] 生产力。该城市的港口每相邻一个区域获得+2 [ICON_FOOD] 食物。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_NATURAL_HARBOR_FLAVOR" Language="zh_Hans_CN">
+			<Text>深邃而平静，这个避风港为喘息的人们遮蔽大海的怒涛。</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_KARST_AQUIFERS_NAME" Language="zh_Hans_CN">
+			<Text>喀斯特溶洞</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_KARST_AQUIFERS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市建造区域时-30% [ICON_Production] 生产力。该城市和其6个单元格内的其它城市获得+2 [ICON_Housing] 住房和+1 [ICON_Amenities] 宜居度，若它们拥有水渠，则额外获得+4 [ICON_Food] 食物。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_KARST_AQUIFERS_FLAVOR" Language="zh_Hans_CN">
+			<Text>水量充沛，但要当心脚下的落水洞。</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_STEEP_SLOPES_NAME" Language="zh_Hans_CN">
+			<Text>险峻峭壁</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_STEEP_SLOPES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市建造区域时-30% [ICON_Production] 生产力。建造在该 [ICON_Suk_Region] 地带上的区域获得相应的+2相邻加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_STEEP_SLOPES_FLAVOR" Language="zh_Hans_CN">
+			<Text>陡峭的险坡造就了一些困难但富有创造力的建筑。</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_PUNA_GRASSLANDS_NAME" Language="zh_Hans_CN">
+			<Text>普纳草地</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_PUNA_GRASSLANDS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市的农场-1 [ICON_Food] 食物而牧场+2 [ICON_Food] 食物。[NEWLINE][NEWLINE]该城市的商业中心从每个相邻的丘陵或山脉获得+1 [ICON_Gold] 金币，若建造在该地带上，还将提供等同于 [ICON_Gold] 金币相邻加成的 [ICON_Food] 食物。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_PUNA_GRASSLANDS_FLAVOR" Language="zh_Hans_CN">
+			<Text>这些高海拔草原并不适合农业，但这里的牲畜皮毛非常珍贵。</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_FOG_DESERTS_NAME" Language="zh_Hans_CN">
+			<Text>雾沙漠</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_FOG_DESERTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市获得+2 [ICON_HOUSING] 住房。该 [ICON_SUK_REGION] 地带的改良设施获得+2 [ICON_FOOD] 食物；区域获得+1 [ICON_FOOD] 食物。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_FOG_DESERTS_FLAVOR" Language="zh_Hans_CN">
+			<Text>来自潮湿地区的滚滚浓雾带来了水分，这些水可以被当地植物和人类利用。</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_CLOUD_FORESTS_NAME" Language="zh_Hans_CN">
+			<Text>云雾林</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_CLOUD_FORESTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市的伐木场-1 [ICON_Production] 生产力。该 [ICON_Suk_Region] 地带未改良的单元格获得+1 [ICON_Faith] 信仰值（需要神秘主义市政），+1 [ICON_Culture] 文化值（需要戏剧与诗歌市政），+1 [ICON_Science] 科技值（需要教育科技）。若解锁了保护地球市政，则以上加成翻倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_CLOUD_FORESTS_FLAVOR" Language="zh_Hans_CN">
+			<Text>这些森林以茂密的云层和更茂密的树木而闻名，但这里也有丰富的生命存在。</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_ALLUVIAL_PLACER_NAME" Language="zh_Hans_CN">
+			<Text>冲积砂矿床</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_ALLUVIAL_PLACER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市相邻河流的矿山获得+2 [ICON_GOLD] 金币。该 [ICON_Suk_Region] 地带的矿山获得+1 [ICON_PRODUCTION] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_ALLUVIAL_PLACER_FLAVOR" Language="zh_Hans_CN">
+			<Text>由水流携带并与沉积物混合的是矿物和贵金属</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_SPAWNING_GROUNDS_NAME" Language="zh_Hans_CN">
+			<Text>产卵场</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_SPAWNING_GROUNDS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该 [ICON_SUK_REGION] 地带单元格提供+1 [ICON_FOOD] 食物；若城市拥有剧院广场，还会提供+1 [ICON_CULTURE] 文化值；若该城市的剧院广场相邻河流，还会提供+1 [ICON_FOOD] 食物和+1 [ICON_CULTURE] 文化值。一旦城市拥有堤坝或工业区，将会失去以上加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_SPAWNING_GROUNDS_FLAVOR" Language="zh_Hans_CN">
+			<Text>鱼类会迁徙到这些水域产卵，前提是溪流清澈干净</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_FRESHWATER_FISHERY_NAME" Language="zh_Hans_CN">
+			<Text>淡水渔场</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_FRESHWATER_FISHERY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造在该 [ICON_SUK_REGION] 地带上的港口区域从每个相邻湖泊单元格获得+1 [ICON_Food] 食物和+2 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_FRESHWATER_FISHERY_FLAVOR" Language="zh_Hans_CN">
+			<Text>这里的水生生物不仅数量丰富，而且味道鲜美！</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_TOWER_KARST_NAME" Language="zh_Hans_CN">
+			<Text>塔状喀斯特</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_TOWER_KARST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该 [ICON_Suk_Region] 地带未改良的单元格获得+1 [ICON_Culture] 文化值；若单元格相邻农场，则额外+1；若魅力值达到惊艳及以上，则额外+1。若城市拥有剧院广场，则以上加成还会提供等量 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_TOWER_KARST_FLAVOR" Language="zh_Hans_CN">
+			<Text>令人惊叹的岩塔从山间耸出，真是雄伟壮丽的景象。</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_SURFACE_DEPOSITS_NAME" Language="zh_Hans_CN">
+			<Text>沉积地表</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_SURFACE_DEPOSITS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>若拥有军营，该城市生产单位时+15% [ICON_Production] 生产力。该 [ICON_Suk_Region] 地带上的军营提供+2 [ICON_Production] 生产力和+2 [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_SURFACE_DEPOSITS_FLAVOR" Language="zh_Hans_CN">
+			<Text>虽然可能不足以满足重工业的需求，但这里有足够的金属用于日常工具，也许还有...马蹄铁和武器？</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_VANTAGE_POINTS_NAME" Language="zh_Hans_CN">
+			<Text>优势区域</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_VANTAGE_POINTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该 [ICON_Suk_Region] 地带上的任何单位都将获得+2视野范围。如果城市的军营建造在该地带上，其训练的远程和侦查单位初始获得一次免费的晋升。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_VANTAGE_POINTS_FLAVOR" Language="zh_Hans_CN">
+			<Text>这片区域过于显眼，没人能够偷偷溜过去。</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_IDENTITY_SUK_GEYSER_FIELD_NAME" Language="zh_Hans_CN">
+			<Text>间歇泉区</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_GEYSER_FIELD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该 [ICON_Suk_Region] 地带的地热裂缝获得-1 [ICON_Science] 科技值和+1 [ICON_Culture] 文化值。该地带上的剧院广场从地热裂缝获得大量相邻加成。研究保护地球市政后，地热裂缝获得额外+1 [ICON_Culture] 文化值和+2 [ICON_Food] 食物，区域从相邻地热裂缝获得+4 [ICON_Tourism] 旅游业绩。[NEWLINE][NEWLINE]一旦城市拥有学院，将会失去以上加成全部。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_GEYSER_FIELD_FLAVOR" Language="zh_Hans_CN">
+			<Text>这些间歇泉以其规律而令人印象深刻的水柱，既证明了地热力量的奇迹，也吸引了游客。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_OMINOUS_FOREST_NAME" Language="zh_Hans_CN">
+			<Text>诡异森林</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_OMINOUS_FOREST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市获得-1 [ICON_Amenities] 宜居度。该 [ICON_Suk_Region] 地带单元格+1 [ICON_Culture] 文化值，+1 [ICON_Faith] 信仰值。[NEWLINE][NEWLINE]若城市拥有圣地，该 [ICON_Suk_Region] 地带单元格额外+1 [ICON_Culture] 文化值，+1 [ICON_Faith] 信仰值。[NEWLINE]若城市拥有剧院广场，该 [ICON_Suk_Region] 地带单元格额外+1 [ICON_Culture] 文化值，+1 [ICON_Faith] 信仰值。[NEWLINE][NEWLINE]一旦城市拥有学院，将会失去以上全部加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_OMINOUS_FOREST_FLAVOR" Language="zh_Hans_CN">
+			<Text>黑暗而不祥的传说中，隐藏在这些树之间的神秘事物比比皆是。那里有什么东西吗？或者只是光的诡计？</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_STURDY_REEDS_NAME" Language="zh_Hans_CN">
+			<Text>硬质苇荡</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_STURDY_REEDS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该 [ICON_Suk_Region] 地带的湖泊单元格，若在市中心或商业中心2个单元格范围内，获得+1 [ICON_Production] 生产力。若同时处于以上两区域的加成范围内，则提升至+2 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_STURDY_REEDS_FLAVOR" Language="zh_Hans_CN">
+			<Text>该地区的池塘和海岸培育了一种特别坚固的芦苇，特别适合手工艺和建筑。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_WINDY_PLAINS_NAME" Language="zh_Hans_CN">
+			<Text>多风平原</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_WINDY_PLAINS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造在该 [ICON_Suk_Region] 地带上的工业区为相邻农场提供+2 [ICON_Food] 食物，为相邻矿山提供+2 [ICON_Production] 生产力。该城市能够在平坦的平原和草地地形上建造风力发电厂。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_WINDY_PLAINS_FLAVOR" Language="zh_Hans_CN">
+			<Text>草不停地随风摇曳。任何没有束缚的东西都有被吹走的倾向。这可能是建造风车的好地方</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_NATURAL_OUTPOST_NAME" Language="zh_Hans_CN">
+			<Text>天然前哨</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_NATURAL_OUTPOST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该 [ICON_Suk_Region] 地带上的军营提供+2 [ICON_TradeRoute] 贸易路线容量。所有由该城市出发的 [ICON_TradeRoute] 贸易路线获得+2 [ICON_Food] 食物和+3 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_NATURAL_OUTPOST_FLAVOR" Language="zh_Hans_CN">
+			<Text>孤独、危险、遥远；没有理由来这里，但你必须经过这个地区才能到达其他地方。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_UNDERSEA_FORMATIONS_NAME" Language="zh_Hans_CN">
+			<Text>海底地层</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_UNDERSEA_FORMATIONS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>若在圣地3个单元格以内，礁石获得+2 [ICON_Faith] 信仰值；若在剧院广场3个单元格以内，礁石获得+2 [ICON_Culture] 文化值；若在学院3个单元格以内，礁石获得+1 [ICON_Science] 科技值。一旦城市拥有港口，将会失去以上所有加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_UNDERSEA_FORMATIONS_FLAVOR" Language="zh_Hans_CN">
+			<Text>珊瑚附着在地表下奇妙的岩层上，呈现出美丽而精致的景象。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_BIRD_SANCTUARY_NAME" Language="zh_Hans_CN">
+			<Text>鸟类天堂</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_BIRD_SANCTUARY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市获得+1 [ICON_Amenities] 宜居度。该城市的学院从相邻沼泽获得标准相邻加成；从相邻树林获得少量相邻加成。该地带上的娱乐中心提供额外+2 [ICON_Amenities] 宜居度。一旦城市拥有工业区，将会失去以上所有加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_BIRD_SANCTUARY_FLAVOR" Language="zh_Hans_CN">
+			<Text>该地区生活着各种各样的鸟儿。它们在清晨的啼叫确实嘈杂，但也令人愉快。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_ALTITUDE_TRAINING_NAME" Language="zh_Hans_CN">
+			<Text>高原苦寒</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_ALTITUDE_TRAINING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>市中心从相邻山脉获得 [ICON_Food] 食物标准相邻加成。如果城市拥有水渠或军营，训练的单位将不会遭受丘陵的 [ICON_Movement] 移动力损耗。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_ALTITUDE_TRAINING_FLAVOR" Language="zh_Hans_CN">
+			<Text>令人难以置信的海拔要求居住在这里的人在身体上适应低氧环境。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_DEFENSIBLE_CLIFFS_NAME" Language="zh_Hans_CN">
+			<Text>悬崖铁壁</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_DEFENSIBLE_CLIFFS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市的军营从相邻海岸获得 [ICON_Gold] 金币标准相邻加成，若建造在该 [ICON_Suk_Region] 地带上，还将提供+1 [ICON_TradeRoute] 贸易路线容量。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_DEFENSIBLE_CLIFFS_FLAVOR" Language="zh_Hans_CN">
+			<Text>这些悬崖俯瞰着一片对海上贸易至关重要的水域。住在这里的人应该保护他们。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_CLAY_DEPOSITS_NAME" Language="zh_Hans_CN">
+			<Text>粘土矿床</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_CLAY_DEPOSITS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该 [ICON_Suk_Region] 地带上的剧院广场获得+2 [ICON_Culture] 文化值相邻加成。若相邻工业区，则剧院广场提供等于其 [ICON_Culture] 文化值相邻加成的 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_CLAY_DEPOSITS_FLAVOR" Language="zh_Hans_CN">
+			<Text>高质量和丰富的粘土沉积物推动了窑炉的创建，以制作华丽的陶瓷和瓷器作品。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_IMPACT_STRUCTURES_NAME" Language="zh_Hans_CN">
+			<Text>冲撞结构</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_IMPACT_STRUCTURES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市建造区域时-15% [ICON_Production] 生产力。[NEWLINE][NEWLINE]如果该城市拥有圣地且没有宇航中心，其训练的宗教单位获得+5 [ICON_Religion] 宗教战斗力。[NEWLINE][NEWLINE]如果该城市拥有宇航中心且没有圣地，进行太空竞赛项目时+30% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_IMPACT_STRUCTURES_FLAVOR" Language="zh_Hans_CN">
+			<Text>神圣愤怒的迹象？或者只是一块非常大的岩石碰巧与地球相撞？无论哪种情况，地面都会留下持久的伤痕。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_IGNEOUS_INTRUSION_NAME" Language="zh_Hans_CN">
+			<Text>岩浆侵入</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_IGNEOUS_INTRUSION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市可在丘陵上建造采石场改良设施，且建造在该地带上的采石场获得+1 [ICON_Production] 生产力。如果城市在该 [ICON_Suk_Region] 地带上拥有工业区，则建造奇观时+15% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_IGNEOUS_INTRUSION_FLAVOR" Language="zh_Hans_CN">
+			<Text>构成这些山丘的大部分岩石是由地下冷却的岩浆形成的，非常适合建造纪念碑。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_STURDY_REEDS_DESCRIPTION_OCEANS" Language="zh_Hans_CN">
+			<Text>该 [ICON_Suk_Region] 地带的湖泊和海藻森林单元格，若在市中心或商业中心2个单元格范围内，获得+1 [ICON_Production] 生产力。若同时处于以上两区域的范围内，则提升至+2 [ICON_Production] 生产力。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_SUK_URBAN_IDENTITIES_TITLE" Language="zh_Hans_CN">
+			<Text>特征</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_SUK_URBAN_IDENTITIES_PAGEGROUP_REGIONAL_NAME" Language="zh_Hans_CN">
+			<Text>地带特征</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_SUK_URBAN_IDENTITIES_PAGEGROUP_URBAN_NAME" Language="zh_Hans_CN">
+			<Text>城市特征</Text>
+		</Replace>
+		<Replace Tag="LOC_UI_PEDIA_SUK_URBAN_IDENTITIES_REGIONS" Language="zh_Hans_CN">
+			<Text>出现在</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_SUK_URBAN_IDENTITIES_1_CHAPTER_CONTENT_TITLE" Language="zh_Hans_CN">
+			<Text>特征</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_SUK_URBAN_IDENTITIES_1_CHAPTER_CONTENT_PARA_1" Language="zh_Hans_CN">
+			<Text>[ICON_SUK_IDENTITY] 特征是你的城市可获得的特性，改变了城市规划的方式。只有宣称特定地带的城市才可获得 [ICON_SUK_IDENTITY] 特征。 [ICON_SUK_IDENTITY] 特征可能是祸福相依的。它们可能会提供加成或惩罚。有些可能需要你满足特定条件以获得奖励。无论如何，它们通常激励你以一改常态的方式规划区域和设施。 [ICON_SUK_IDENTITY] 特征被分为两种：地带特征和城市特征。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_SUK_URBAN_IDENTITIES_1_CHAPTER_CONTENT_PARA_2" Language="zh_Hans_CN">
+			<Text>地带特征：[NEWLINE]这些 [ICON_SUK_IDENTITY] 特征通过在一个未被宣称的 [ICON_SUK_REGION] 地带范围（地图上以某种方式标记为特殊的区域）内建立或占领首个城市来获得。这样做将为该城市宣称该地带，并获得该 [ICON_SUK_REGION] 地带相关的 [ICON_SUK_IDENTITY] 城市特征。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_SUK_URBAN_IDENTITIES_1_CHAPTER_CONTENT_PARA_3" Language="zh_Hans_CN">
+			<Text>城市特征：[NEWLINE] [ICON_SUK_IDENTITY] 城市特征在当前版该中尚未实现！这些 [ICON_SUK_IDENTITY] 特征会在游戏途中获取。为城市选择城市特征的机会随着你的城市发展而出现：增加人口和改善基础设施。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GAMEMODE_SUK_URBANIDENTITIES_NAME" Language="zh_Hant_HK">
+			<Text>Sukritact的地帶特征</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_SUK_URBANIDENTITIES_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該遊戲模式旨在賦予城市個性和特征。使它們成為帝國中獨特的部分。[NEWLINE][NEWLINE]城市現在能夠獲得[ICON_SUK_IDENTITY]特征，以獲得獨特的特性與加成。不同的[ICON_SUK_REGION]地理區域遍布在地圖上，在其範圍內建立的首個城市將被賦予特征。你會在哪裏找到你的龍興之地？它們將如何發展，並留下什麽遺產？當你遊玩地帶特征時，這些都是需要回答的問題！</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GAMEMODE_SUK_URBANIDENTITIES_REGIONCOVERAGE_NAME" Language="zh_Hant_HK">
+			<Text>地帶範圍</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_SUK_URBANIDENTITIES_REGIONCOVERAGE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>設置 [ICON_SUK_REGION] 地帶在地圖上覆蓋範圍的最大值</Text>
+		</Replace>
+
+		<Replace Tag="LOC_SUK_REGIONS_CLAIMED" Language="zh_Hant_HK">
+			<Text>已宣稱 {1} [ICON_SUK_REGION] ({2})</Text>
+		</Replace>
+		<Replace Tag="LOC_SUK_REGIONS_UNCLAIMED" Language="zh_Hant_HK">
+			<Text>[COLOR_RED]未被宣稱 {1} [ICON_SUK_REGION][ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_TOGGLE_SUK_REGIONS" Language="zh_Hant_HK">
+			<Text>地帶圖標</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_TOGGLE_SUK_REGIONS_TOOLTIP" Language="zh_Hant_HK">
+			<Text>顯示/隱藏地帶圖標</Text>
+		</Replace>
+		<Replace Tag="LOC_SUK_SCREENSHOT_MODE_REGION_BANNER_NAME" Language="zh_Hant_HK">
+			<Text>隱藏地帶面板</Text>
+		</Replace>
+		<Replace Tag="LOC_SUK_SCREENSHOT_MODE_REGION_BANNER_DESC" Language="zh_Hant_HK">
+			<Text>在截圖模式下隱藏地帶面板</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_IDENTITY_SUK_IMPACT_STRUCTURES_NAME" Language="zh_Hant_HK">
+			<Text>{LOC_IDENTITY_SUK_IMPACT_STRUCTURES_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_IDENTITY_SUK_IMPACT_STRUCTURES_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+5 宗教戰鬥力來自{LOC_ABILITY_IDENTITY_SUK_IMPACT_STRUCTURES_NAME}。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_IMPACT_STRUCTURES_RELIGOUS_COMBAT_MODIFIER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_Value} 宗教戰鬥力來自 {LOC_ABILITY_IDENTITY_SUK_IMPACT_STRUCTURES_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_IDENTITY_SUK_ALTITUDE_TRAINING_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>在丘陵單元格移動時無視移動力損耗。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_PUNA_GRASSLANDS_HILLS" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_GOLD] 金幣來自相鄰丘陵單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_FRESHWATER_FISHERY_FOOD" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Food] 食物來自相鄰湖泊單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_FRESHWATER_FISHERY_GOLD" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_GOLD] 金幣來自相鄰湖泊單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_DEFENSIBLE_CLIFFS_GOLD" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_GOLD] 金幣來自相鄰海岸單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_GEYSER_FIELD_CLTURE" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Culture] 文化值來自相鄰地熱裂縫。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_BIRD_SANCTUARY_MARSH_SCIENCE" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Science] 科技值來自相鄰沼澤單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_BIRD_SANCTUARY_WOODS_SCIENCE" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Science] 科技值來自相鄰樹林單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_ALTITUDE_TRAINING_FOOD" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Food] 食物來自相鄰山脈單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_NATURAL_HARBOR_ADJACENCY" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Food] 食物來自相鄰區域。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_REGION_SUK_FOREST_NAME" Language="zh_Hant_HK">
+			<Text>森林地帶</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_JUNGLE_NAME" Language="zh_Hant_HK">
+			<Text>雨林地帶</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_CLIFFS_NAME" Language="zh_Hant_HK">
+			<Text>懸崖地帶</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_OASIS_NAME" Language="zh_Hant_HK">
+			<Text>綠洲地帶</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_MOUNTAINS_NAME" Language="zh_Hant_HK">
+			<Text>山脈地帶</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_KELP_NAME" Language="zh_Hant_HK">
+			<Text>海藻森林地帶</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_REEF_NAME" Language="zh_Hant_HK">
+			<Text>礁脈地帶</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_HILLS_NAME" Language="zh_Hant_HK">
+			<Text>丘陵地帶</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_PLAINS_NAME" Language="zh_Hant_HK">
+			<Text>平原地帶</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_GEOTHERMAL_NAME" Language="zh_Hant_HK">
+			<Text>地熱地帶</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_MARSH_NAME" Language="zh_Hant_HK">
+			<Text>沼澤地帶</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_LAKE_NAME" Language="zh_Hant_HK">
+			<Text>湖泊地帶</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_DESERT_NAME" Language="zh_Hant_HK">
+			<Text>沙漠地帶</Text>
+		</Replace>
+		<Replace Tag="LOC_REGION_SUK_RIVER_NAME" Language="zh_Hant_HK">
+			<Text>河流地帶</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_HARDWOOD_TREES_NAME" Language="zh_Hant_HK">
+			<Text>硬木森林</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_HARDWOOD_TREES_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該城市每經過一個遊戲時代獲得+1 [ICON_PRODUCTION] 生產力。該 [ICON_SUK_REGION] 地帶的伐木場相鄰市中心或工業區時，提供+2 [ICON_PRODUCTION] 生產力和+1 [ICON_GOLD] 金幣。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_HARDWOOD_TREES_FLAVOR" Language="zh_Hant_HK">
+			<Text>該地帶的木材特別適合建築工程，備受追捧。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_UNDERGROUND_AQUIFERS_NAME" Language="zh_Hant_HK">
+			<Text>地下水層</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_UNDERGROUND_AQUIFERS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該城市獲得+2 [ICON_HOUSING] 住房。允許在該城市的沙漠平原上建造農場改良設施，且非泛濫沙漠平原上的農場和種植園獲得+1 [ICON_Food] 食物和+1 [ICON_GOLD] 金幣。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_UNDERGROUND_AQUIFERS_FLAVOR" Language="zh_Hant_HK">
+			<Text>在意想不到的地方，暗河噴湧而出。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_IDYLLIC_SCENERY_NAME" Language="zh_Hant_HK">
+			<Text>鄉土田園</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_IDYLLIC_SCENERY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該城市獲得+3 [ICON_AMENITIES] 滿意度。該 [ICON_SUK_REGION] 地帶上的城市公園提供+1 [ICON_Food] 食物和+1 [ICON_Culture] 文化值。允許在該城市建造城市公園（需要遊戲與娛樂市政）。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_IDYLLIC_SCENERY_FLAVOR" Language="zh_Hant_HK">
+			<Text>絢麗的風光為疲倦的靈魂帶去平靜和慰藉</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_OPEN_SKIES_NAME" Language="zh_Hant_HK">
+			<Text>開闊地</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_OPEN_SKIES_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該 [ICON_SUK_Region] 地帶與學院相鄰的單元格獲得+1 [ICON_SCIENCE] 科技值，如果該城市有大學，則提升至+2 [ICON_SCIENCE] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_OPEN_SKIES_FLAVOR" Language="zh_Hant_HK">
+			<Text>沒有密林、沒有山川，在這裏人們仰頭眺望無垠的星空。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_PROPHETIC_VISIONS_NAME" Language="zh_Hant_HK">
+			<Text>預兆幻象</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_PROPHETIC_VISIONS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該 [ICON_SUK_Region] 地帶與聖地相鄰的單元格獲得+2 [ICON_Faith] 信仰值。如果該城市有寺廟，則提升至+3 [ICON_Faith] 信仰值。該城市的聖地獲得+1 [ICON_GreatProphet] 大預言家點數。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_PROPHETIC_VISIONS_FLAVOR" Language="zh_Hant_HK">
+			<Text>出於某種原因，聖人們說他們的占蔔在這裏更有效。也許空氣中有什麽東西？</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_MOUNTAIN_PASS_NAME" Language="zh_Hant_HK">
+			<Text>山隘</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_MOUNTAIN_PASS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該 [ICON_SUK_REGION] 地帶上的商業中心提供+4 [ICON_Gold] 金幣和+1 [ICON_TradeRoute] 貿易路線容量。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_MOUNTAIN_PASS_FLAVOR" Language="zh_Hant_HK">
+			<Text>山外的商賈不可避免地經過這個不起眼的山谷。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_RICH_SOIL_NAME" Language="zh_Hant_HK">
+			<Text>沃土</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_RICH_SOIL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>當你在該 [ICON_SUK_REGION] 地帶的每個單元格上首次建造農場改良設施時，都有33%的幾率生成一個可被改良的加成資源。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_RICH_SOIL_FLAVOR" Language="zh_Hant_HK">
+			<Text>漿果、蔬菜、谷物。這些植物在黑土地中茁壯成長。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_MASSIVE_TREES_NAME" Language="zh_Hant_HK">
+			<Text>參天古樹</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_MASSIVE_TREES_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該城市建造區域時-15% [ICON_Production] 生產力。建造在該 [ICON_Suk_Region] 地帶的聖地和劇院廣場獲得額外+3產出，若魅力達到驚艷或以上，則額外提供+2 [ICON_GreatPerson] 偉人點數。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_MASSIVE_TREES_FLAVOR" Language="zh_Hant_HK">
+			<Text>看到這些難以置信的巨樹，你不禁敬畏和驚嘆。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_OCEAN_SWELLS_NAME" Language="zh_Hant_HK">
+			<Text>波濤洶湧</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_OCEAN_SWELLS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該城市建造港口及其中建築時-50% [ICON_PRODUCTION] 生產力。該城市相鄰海岸的區域獲得+1 [ICON_AMENITIES] 滿意度和+3 [ICON_GOLD] 金幣。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_OCEAN_SWELLS_FLAVOR" Language="zh_Hant_HK">
+			<Text>翻騰的浪潮使這個地方不適合航行，但它令人贊嘆的壯麗吸引了觀光者和尋求刺激的人。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_FOSSIL_DEPOSITS_NAME" Language="zh_Hant_HK">
+			<Text>化石礦床</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_FOSSIL_DEPOSITS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該城市每經過一個遊戲時代獲得+1 [ICON_Science] 科技值。若該城市同時擁有大學和考古博物館，則該 [ICON_SUK_REGION] 地帶的單元格提供+2 [ICON_Science] 科技值和+2 [ICON_Culture] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_FOSSIL_DEPOSITS_FLAVOR" Language="zh_Hant_HK">
+			<Text>人們能發現奇異的骨骼，它們散發著遙遠又陌生的遠古回響。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_REJUVENATING_SPRINGS_NAME" Language="zh_Hant_HK">
+			<Text>振奮之泉</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_REJUVENATING_SPRINGS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該城市獲得+1 [ICON_Housing] 住房和+1 [ICON_Amenities] 滿意度。建造在該 [ICON_Suk_Region] 地帶上的娛樂中心為6個單元格內的所有城市提供+1 [ICON_Housing] 住房和+1 [ICON_Amenities] 滿意度，並為相鄰的單元格提供+6 [ICON_Food] 食物。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_REJUVENATING_SPRINGS_FLAVOR" Language="zh_Hant_HK">
+			<Text>疲憊的旅者浸泡在這些水中，據說它們能夠抗疲勞。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_SCENIC_VISTAS_NAME" Language="zh_Hant_HK">
+			<Text>風景名勝</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_SCENIC_VISTAS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該城市建造區域時-15% [ICON_Production] 生產力。該 [ICON_Suk_Region] 地帶的魅力值達到驚艷及以上的單元格獲得+2 [ICON_Culture] 文化值和+2 [ICON_Gold] 金幣。建造在該 [ICON_Suk_Region] 地帶上的劇院廣場獲得+3 [ICON_Culture] 文化值，並使城市所有單元格獲得+1魅力值。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_SCENIC_VISTAS_FLAVOR" Language="zh_Hant_HK">
+			<Text>從這些陡峭的懸崖上，世界如畫卷鋪開。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_NATURAL_HARBOR_NAME" Language="zh_Hant_HK">
+			<Text>天然良港</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_NATURAL_HARBOR_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該城市建造港口和其中建築時+50% [ICON_PRODUCTION] 生產力。該城市的港口每相鄰一個區域獲得+2 [ICON_FOOD] 食物。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_NATURAL_HARBOR_FLAVOR" Language="zh_Hant_HK">
+			<Text>深邃而平靜，這個避風港為喘息的人們遮蔽大海的怒濤。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_KARST_AQUIFERS_NAME" Language="zh_Hant_HK">
+			<Text>喀斯特溶洞</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_KARST_AQUIFERS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該城市建造區域時-30% [ICON_Production] 生產力。該城市和其6個單元格內的其它城市獲得+2 [ICON_Housing] 住房和+1 [ICON_Amenities] 滿意度，若它們擁有水渠，則額外獲得+4 [ICON_Food] 食物。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_KARST_AQUIFERS_FLAVOR" Language="zh_Hant_HK">
+			<Text>水量充沛，但要當心腳下的落水洞。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_STEEP_SLOPES_NAME" Language="zh_Hant_HK">
+			<Text>險峻峭壁</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_STEEP_SLOPES_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該城市建造區域時-30% [ICON_Production] 生產力。建造在該 [ICON_Suk_Region] 地帶上的區域獲得相應的+2相鄰加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_STEEP_SLOPES_FLAVOR" Language="zh_Hant_HK">
+			<Text>陡峭的險坡造就了一些困難但富有創造力的建築。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_PUNA_GRASSLANDS_NAME" Language="zh_Hant_HK">
+			<Text>普納草地</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_PUNA_GRASSLANDS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該城市的農場-1 [ICON_Food] 食物而牧場+2 [ICON_Food] 食物。[NEWLINE][NEWLINE]該城市的商業中心從每個相鄰的丘陵或山脈獲得+1 [ICON_Gold] 金幣，若建造在該地帶上，還將提供等同於 [ICON_Gold] 金幣相鄰加成的 [ICON_Food] 食物。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_PUNA_GRASSLANDS_FLAVOR" Language="zh_Hant_HK">
+			<Text>這些高海拔草原並不適合農業，但這裏的牲畜皮毛非常珍貴。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_FOG_DESERTS_NAME" Language="zh_Hant_HK">
+			<Text>霧沙漠</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_FOG_DESERTS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該城市獲得+2 [ICON_HOUSING] 住房。該 [ICON_SUK_REGION] 地帶的改良設施獲得+2 [ICON_FOOD] 食物；區域獲得+1 [ICON_FOOD] 食物。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_FOG_DESERTS_FLAVOR" Language="zh_Hant_HK">
+			<Text>來自潮濕地區的滾滾濃霧帶來了水分，這些水可以被當地植物和人類利用。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_CLOUD_FORESTS_NAME" Language="zh_Hant_HK">
+			<Text>雲霧林</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_CLOUD_FORESTS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該城市的伐木場-1 [ICON_Production] 生產力。該 [ICON_Suk_Region] 地帶未改良的單元格獲得+1 [ICON_Faith] 信仰值（需要神秘主義市政），+1 [ICON_Culture] 文化值（需要戲劇與詩歌市政），+1 [ICON_Science] 科技值（需要教育科技）。若解鎖了保護地球市政，則以上加成翻倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_CLOUD_FORESTS_FLAVOR" Language="zh_Hant_HK">
+			<Text>這些森林以茂密的雲層和更茂密的樹木而聞名，但這裏也有豐富的生命存在。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_ALLUVIAL_PLACER_NAME" Language="zh_Hant_HK">
+			<Text>沖積砂礦床</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_ALLUVIAL_PLACER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該城市相鄰河流的礦山獲得+2 [ICON_GOLD] 金幣。該 [ICON_Suk_Region] 地帶的礦山獲得+1 [ICON_PRODUCTION] 生產力。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_ALLUVIAL_PLACER_FLAVOR" Language="zh_Hant_HK">
+			<Text>由水流攜帶並與沈積物混合的是礦物和貴金屬</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_SPAWNING_GROUNDS_NAME" Language="zh_Hant_HK">
+			<Text>產卵場</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_SPAWNING_GROUNDS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該 [ICON_SUK_REGION] 地帶單元格提供+1 [ICON_FOOD] 食物；若城市擁有劇院廣場，還會提供+1 [ICON_CULTURE] 文化值；若該城市的劇院廣場相鄰河流，還會提供+1 [ICON_FOOD] 食物和+1 [ICON_CULTURE] 文化值。一旦城市擁有堤壩或工業區，將會失去以上加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_SPAWNING_GROUNDS_FLAVOR" Language="zh_Hant_HK">
+			<Text>魚類會遷徙到這些水域產卵，前提是溪流清澈幹凈</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_FRESHWATER_FISHERY_NAME" Language="zh_Hant_HK">
+			<Text>淡水漁場</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_FRESHWATER_FISHERY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>建造在該 [ICON_SUK_REGION] 地帶上的港口區域從每個相鄰湖泊單元格獲得+1 [ICON_Food] 食物和+2 [ICON_Gold] 金幣。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_FRESHWATER_FISHERY_FLAVOR" Language="zh_Hant_HK">
+			<Text>這裏的水生生物不僅數量豐富，而且味道鮮美！</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_TOWER_KARST_NAME" Language="zh_Hant_HK">
+			<Text>塔狀喀斯特</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_TOWER_KARST_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該 [ICON_Suk_Region] 地帶未改良的單元格獲得+1 [ICON_Culture] 文化值；若單元格相鄰農場，則額外+1；若魅力值達到驚艷及以上，則額外+1。若城市擁有劇院廣場，則以上加成還會提供等量 [ICON_Gold] 金幣。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_TOWER_KARST_FLAVOR" Language="zh_Hant_HK">
+			<Text>令人驚嘆的巖塔從山間聳出，真是雄偉壯麗的景象。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_SURFACE_DEPOSITS_NAME" Language="zh_Hant_HK">
+			<Text>沈積地表</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_SURFACE_DEPOSITS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>若擁有軍營，該城市生產單位時+15% [ICON_Production] 生產力。該 [ICON_Suk_Region] 地帶上的軍營提供+2 [ICON_Production] 生產力和+2 [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_SURFACE_DEPOSITS_FLAVOR" Language="zh_Hant_HK">
+			<Text>雖然可能不足以滿足重工業的需求，但這裏有足夠的金屬用於日常工具，也許還有...馬蹄鐵和武器？</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_VANTAGE_POINTS_NAME" Language="zh_Hant_HK">
+			<Text>優勢區域</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_VANTAGE_POINTS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該 [ICON_Suk_Region] 地帶上的任何單位都將獲得+2視野範圍。如果城市的軍營建造在該地帶上，其訓練的遠程和偵查單位初始獲得一次免費的晉升。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_VANTAGE_POINTS_FLAVOR" Language="zh_Hant_HK">
+			<Text>這片區域過於顯眼，沒人能夠偷偷溜過去。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_GEYSER_FIELD_NAME" Language="zh_Hant_HK">
+			<Text>間歇泉區</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_GEYSER_FIELD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該 [ICON_Suk_Region] 地帶的地熱裂縫獲得-1 [ICON_Science] 科技值和+1 [ICON_Culture] 文化值。該地帶上的劇院廣場從地熱裂縫獲得大量相鄰加成。研究保護地球市政後，地熱裂縫獲得額外+1 [ICON_Culture] 文化值和+2 [ICON_Food] 食物，區域從相鄰地熱裂縫獲得+4 [ICON_Tourism] 旅遊業績。[NEWLINE][NEWLINE]一旦城市擁有學院，將會失去以上加成全部。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_GEYSER_FIELD_FLAVOR" Language="zh_Hant_HK">
+			<Text>這些間歇泉以其規律而令人印象深刻的水柱，既證明了地熱力量的奇跡，也吸引了遊客。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_OMINOUS_FOREST_NAME" Language="zh_Hant_HK">
+			<Text>詭異森林</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_OMINOUS_FOREST_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該城市獲得-1 [ICON_Amenities] 滿意度。該 [ICON_Suk_Region] 地帶單元格+1 [ICON_Culture] 文化值，+1 [ICON_Faith] 信仰值。[NEWLINE][NEWLINE]若城市擁有聖地，該 [ICON_Suk_Region] 地帶單元格額外+1 [ICON_Culture] 文化值，+1 [ICON_Faith] 信仰值。[NEWLINE]若城市擁有劇院廣場，該 [ICON_Suk_Region] 地帶單元格額外+1 [ICON_Culture] 文化值，+1 [ICON_Faith] 信仰值。[NEWLINE][NEWLINE]一旦城市擁有學院，將會失去以上全部加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_OMINOUS_FOREST_FLAVOR" Language="zh_Hant_HK">
+			<Text>黑暗而不祥的傳說中，隱藏在這些樹之間的神秘事物比比皆是。那裏有什麽東西嗎？或者只是光的詭計？</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_STURDY_REEDS_NAME" Language="zh_Hant_HK">
+			<Text>硬質葦蕩</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_STURDY_REEDS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該 [ICON_Suk_Region] 地帶的湖泊單元格，若在市中心或商業中心2個單元格範圍內，獲得+1 [ICON_Production] 生產力。若同時處於以上兩區域的加成範圍內，則提升至+2 [ICON_Production] 生產力。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_STURDY_REEDS_FLAVOR" Language="zh_Hant_HK">
+			<Text>該地區的池塘和海岸培育了一種特別堅固的蘆葦，特別適合手工藝和建築。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_WINDY_PLAINS_NAME" Language="zh_Hant_HK">
+			<Text>多風平原</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_WINDY_PLAINS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>建造在該 [ICON_Suk_Region] 地帶上的工業區為相鄰農場提供+2 [ICON_Food] 食物，為相鄰礦山提供+2 [ICON_Production] 生產力。該城市能夠在平坦的平原和草地地形上建造風力發電廠。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_WINDY_PLAINS_FLAVOR" Language="zh_Hant_HK">
+			<Text>草不停地隨風搖曳。任何沒有束縛的東西都有被吹走的傾向。這可能是建造風車的好地方</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_NATURAL_OUTPOST_NAME" Language="zh_Hant_HK">
+			<Text>天然前哨</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_NATURAL_OUTPOST_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該 [ICON_Suk_Region] 地帶上的軍營提供+2 [ICON_TradeRoute] 貿易路線容量。所有由該城市出發的 [ICON_TradeRoute] 貿易路線獲得+2 [ICON_Food] 食物和+3 [ICON_Gold] 金幣。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_NATURAL_OUTPOST_FLAVOR" Language="zh_Hant_HK">
+			<Text>孤獨、危險、遙遠；沒有理由來這裏，但你必須經過這個地區才能到達其他地方。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_UNDERSEA_FORMATIONS_NAME" Language="zh_Hant_HK">
+			<Text>海底地層</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_UNDERSEA_FORMATIONS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>若在聖地3個單元格以內，礁石獲得+2 [ICON_Faith] 信仰值；若在劇院廣場3個單元格以內，礁石獲得+2 [ICON_Culture] 文化值；若在學院3個單元格以內，礁石獲得+1 [ICON_Science] 科技值。一旦城市擁有港口，將會失去以上所有加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_UNDERSEA_FORMATIONS_FLAVOR" Language="zh_Hant_HK">
+			<Text>珊瑚附著在地表下奇妙的巖層上，呈現出美麗而精致的景象。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_BIRD_SANCTUARY_NAME" Language="zh_Hant_HK">
+			<Text>鳥類天堂</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_BIRD_SANCTUARY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該城市獲得+1 [ICON_Amenities] 滿意度。該城市的學院從相鄰沼澤獲得標準相鄰加成；從相鄰樹林獲得少量相鄰加成。該地帶上的娛樂中心提供額外+2 [ICON_Amenities] 滿意度。一旦城市擁有工業區，將會失去以上所有加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_BIRD_SANCTUARY_FLAVOR" Language="zh_Hant_HK">
+			<Text>該地區生活著各種各樣的鳥兒。它們在清晨的啼叫確實嘈雜，但也令人愉快。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_ALTITUDE_TRAINING_NAME" Language="zh_Hant_HK">
+			<Text>高原苦寒</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_ALTITUDE_TRAINING_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>市中心從相鄰山脈獲得 [ICON_Food] 食物標準相鄰加成。如果城市擁有水渠或軍營，訓練的單位將不會遭受丘陵的 [ICON_Movement] 移動力損耗。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_ALTITUDE_TRAINING_FLAVOR" Language="zh_Hant_HK">
+			<Text>令人難以置信的海拔要求居住在這裏的人在身體上適應低氧環境。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_DEFENSIBLE_CLIFFS_NAME" Language="zh_Hant_HK">
+			<Text>懸崖鐵壁</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_DEFENSIBLE_CLIFFS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市的軍營從相鄰海岸獲得 [ICON_Gold] 金幣標準相鄰加成，若建造在該 [ICON_Suk_Region] 地帶上，還將提供+1 [ICON_TradeRoute] 貿易路線容量。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_DEFENSIBLE_CLIFFS_FLAVOR" Language="zh_Hant_HK">
+			<Text>這些懸崖俯瞰著一片對海上貿易至關重要的水域。住在這裏的人應該保護他們。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_CLAY_DEPOSITS_NAME" Language="zh_Hant_HK">
+			<Text>粘土礦床</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_CLAY_DEPOSITS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該 [ICON_Suk_Region] 地帶上的劇院廣場獲得+2 [ICON_Culture] 文化值相鄰加成。若相鄰工業區，則劇院廣場提供等於其 [ICON_Culture] 文化值相鄰加成的 [ICON_Production] 生產力。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_CLAY_DEPOSITS_FLAVOR" Language="zh_Hant_HK">
+			<Text>高質量和豐富的粘土沈積物推動了窯爐的創建，以製作華麗的陶瓷和瓷器作品。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_IMPACT_STRUCTURES_NAME" Language="zh_Hant_HK">
+			<Text>沖撞結構</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_IMPACT_STRUCTURES_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該城市建造區域時-15% [ICON_Production] 生產力。[NEWLINE][NEWLINE]如果該城市擁有聖地且沒有宇航中心，其訓練的宗教單位獲得+5 [ICON_Religion] 宗教戰鬥力。[NEWLINE][NEWLINE]如果該城市擁有宇航中心且沒有聖地，進行太空競賽項目時+30% [ICON_Production] 生產力。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_IMPACT_STRUCTURES_FLAVOR" Language="zh_Hant_HK">
+			<Text>神聖憤怒的跡象？或者只是一塊非常大的巖石碰巧與地球相撞？無論哪種情況，地面都會留下持久的傷痕。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_IGNEOUS_INTRUSION_NAME" Language="zh_Hant_HK">
+			<Text>巖漿侵入</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_IGNEOUS_INTRUSION_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該城市可在丘陵上建造采石場改良設施，且建造在該地帶上的采石場獲得+1 [ICON_Production] 生產力。如果城市在該 [ICON_Suk_Region] 地帶上擁有工業區，則建造奇觀時+15% [ICON_Production] 生產力。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_IGNEOUS_INTRUSION_FLAVOR" Language="zh_Hant_HK">
+			<Text>構成這些山丘的大部分巖石是由地下冷卻的巖漿形成的，非常適合建造紀念碑。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IDENTITY_SUK_STURDY_REEDS_DESCRIPTION_OCEANS" Language="zh_Hant_HK">
+			<Text>該 [ICON_Suk_Region] 地帶的湖泊和海藻森林單元格，若在市中心或商業中心2個單元格範圍內，獲得+1 [ICON_Production] 生產力。若同時處於以上兩區域的範圍內，則提升至+2 [ICON_Production] 生產力。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_SUK_URBAN_IDENTITIES_TITLE" Language="zh_Hant_HK">
+			<Text>特征</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_SUK_URBAN_IDENTITIES_PAGEGROUP_REGIONAL_NAME" Language="zh_Hant_HK">
+			<Text>地帶特征</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_SUK_URBAN_IDENTITIES_PAGEGROUP_URBAN_NAME" Language="zh_Hant_HK">
+			<Text>城市特征</Text>
+		</Replace>
+		<Replace Tag="LOC_UI_PEDIA_SUK_URBAN_IDENTITIES_REGIONS" Language="zh_Hant_HK">
+			<Text>出現在</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_SUK_URBAN_IDENTITIES_1_CHAPTER_CONTENT_TITLE" Language="zh_Hant_HK">
+			<Text>特征</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_SUK_URBAN_IDENTITIES_1_CHAPTER_CONTENT_PARA_1" Language="zh_Hant_HK">
+			<Text>[ICON_SUK_IDENTITY] 特征是你的城市可獲得的特性，改變了城市規劃的方式。只有宣稱特定地帶的城市才可獲得 [ICON_SUK_IDENTITY] 特征。 [ICON_SUK_IDENTITY] 特征可能是禍福相依的。它們可能會提供加成或懲罰。有些可能需要你滿足特定條件以獲得獎勵。無論如何，它們通常激勵你以一改常態的方式規劃區域和設施。 [ICON_SUK_IDENTITY] 特征被分為兩種：地帶特征和城市特征。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_SUK_URBAN_IDENTITIES_1_CHAPTER_CONTENT_PARA_2" Language="zh_Hant_HK">
+			<Text>地帶特征：[NEWLINE]這些 [ICON_SUK_IDENTITY] 特征通過在一個未被宣稱的 [ICON_SUK_REGION] 地帶範圍（地圖上以某種方式標記為特殊的區域）內建立或占領首個城市來獲得。這樣做將為該城市宣稱該地帶，並獲得該 [ICON_SUK_REGION] 地帶相關的 [ICON_SUK_IDENTITY] 城市特征。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_SUK_URBAN_IDENTITIES_1_CHAPTER_CONTENT_PARA_3" Language="zh_Hant_HK">
+			<Text>城市特征：[NEWLINE] [ICON_SUK_IDENTITY] 城市特征在當前版該中尚未實現！這些 [ICON_SUK_IDENTITY] 特征會在遊戲途中獲取。為城市選擇城市特征的機會隨著你的城市發展而出現：增加人口和改善基礎設施。</Text>
+		</Replace>
+		
+		
+		
+		<!--   Support: Savannah   -->
+		<Replace Tag="LOC_REGION_SUK_JNR_SAVANNAH_NAME" Language="zh_Hans_CN">
+			<Text>稀树草原地带</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_JNR_SILVOPASTURE_NAME" Language="zh_Hans_CN">
+			<Text>林牧复合</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_JNR_SILVOPASTURE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市相邻稀树草原或树林的牧场与农场获得+1 [ICON_FOOD] 食物。该 [ICON_Suk_Region] 地带的距离商业中心3个单元格内的牧场获得+2 [ICON_CULTURE] 文化值。该 [ICON_Suk_Region] 地带的伐木场获得-1 [ICON_PRODUCTION] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_JNR_SILVOPASTURE_FLAVOR" Language="zh_Hans_CN">
+			<Text>大型哺乳动物在这些开阔的林地中漫步，以丰富的禾草为食。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_REGION_SUK_JNR_SAVANNAH_NAME" Language="zh_Hant_HK">
+			<Text>稀樹草原地帶</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_JNR_SILVOPASTURE_NAME" Language="zh_Hant_HK">
+			<Text>林牧復合</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_JNR_SILVOPASTURE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該城市相鄰稀樹草原或樹林的牧場與農場獲得+1 [ICON_FOOD] 食物。該 [ICON_Suk_Region] 地帶的距離商業中心3個單元格內的牧場獲得+2 [ICON_CULTURE] 文化值。該 [ICON_Suk_Region] 地帶的伐木場獲得-1 [ICON_PRODUCTION] 生產力。</Text>
+		</Replace>
+		<Replace Tag="LOC_IDENTITY_SUK_JNR_SILVOPASTURE_FLAVOR" Language="zh_Hant_HK">
+			<Text>大型哺乳動物在這些開闊的林地中漫步，以豐富的禾草為食。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

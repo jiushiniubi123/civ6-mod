@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Context Name="CustomNotificationsContext">
+
+  <!-- Button on the top panel -->
+  <Button ID="CN_TopPanelButton" Size="29,29" Anchor="C,C" Texture="CN_TopBarIcon.dds" ToolTip="LOC_CN_BUTTON_TOOLTIP" ConsumeMouse="1"/>
+
+  <Container ID="CN_ContentContainer" Size="700,460" Anchor="C,C">
+    <Container Size="700,180" ID="CN_MenuContainer" Anchor="C,T" ConsumeMouse="1" Hidden="1">
+          <Grid ID="CN_MenuContext" Anchor="C,T" Texture="Controls_PanelBlue" Size="parent,parent" Style="CityPanelSlotGrid" ConsumeMouse="1" Hidden="0" SliceCorner="25,28" SliceSize="33,18" SliceTextureSize="83,75" >
+
+            <Stack ID="CN_MenuStack" Anchor="C,T" Size="parent-40,auto" StackGrowth="Bottom" StackPadding="5">
+              <Grid Anchor="C,C" Offset="0,10" Size="parent,24" Style="CityPanelSlotGrid">
+                <Label ID="CN_Title" Anchor="C,C" String="LOC_CN_TITLE" Style="PanelHeaderText" FontStyle="stroke" ColorSet="BodyTextBright"/>
+              </Grid>
+
+			<CheckBox ID="CN_CityPopCheckBox" IsChecked="1" Offset="0,0" TextOffset="-22,0" String="LOC_CN_CITY_POP_CHECKBOX" ToolTip="" Style="WhiteSemiBold14" ButtonTexture="Controls_Checkbox.dds" ButtonSize="17,17" CheckTexture="Controls_Checkbox.dds"	CheckSize="17,17" CheckTextureOffset="0,17" Anchor="C,T"/>
+
+			<CheckBox ID="CN_CityBorderCheckBox" IsChecked="1" Offset="0,0" TextOffset="-22,0" String="LOC_CN_CITY_BORDER_CHECKBOX" Style="WhiteSemiBold14" ButtonTexture="Controls_Checkbox.dds" ButtonSize="17,17" CheckTexture="Controls_Checkbox.dds"	CheckSize="17,17" CheckTextureOffset="0,17" Anchor="C,T"/>
+
+			<CheckBox ID="CN_TradeDealCheckBox" IsChecked="1" Offset="0,0" TextOffset="-22,0" String="LOC_CN_TRADE_DEAL_CHECKBOX" Style="WhiteSemiBold14" ButtonTexture="Controls_Checkbox.dds" ButtonSize="17,17" CheckTexture="Controls_Checkbox.dds"	CheckSize="17,17" CheckTextureOffset="0,17" Anchor="C,T"/>
+
+			<CheckBox ID="CN_ReligionCheckBox" IsChecked="1" Offset="0,0" TextOffset="-22,0" String="LOC_CN_RELIGION_CHECKBOX" Style="WhiteSemiBold14" ButtonTexture="Controls_Checkbox.dds" ButtonSize="17,17" CheckTexture="Controls_Checkbox.dds"	CheckSize="17,17" CheckTextureOffset="0,17" Anchor="C,T"/>
+
+              <Grid ID="CN_OK_ButtonGrid" Anchor="C,T" Size="parent-6, 40">
+                <GridButton ID="CN_OK_Button" Anchor="C,B" Size="150,40" Style="MainButton" FontStyle="Shadow" String="LOC_OK_BUTTON" />
+              </Grid>
+
+            </Stack> 
+          </Grid> 
+    </Container> 
+  </Container> 
+</Context>

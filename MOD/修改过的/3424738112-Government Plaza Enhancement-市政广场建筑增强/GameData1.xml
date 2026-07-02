@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: chen -->
+<!-- DateCreated: 1/26/2025 9:29:33 PM -->
+<GameData>
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_GOV_CITYSTATES" ModifierId="GOV_FAITH_PURCHASE_NAVAL_MELEE"/>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GOV_FAITH_PURCHASE_NAVAL_MELEE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GOV_FAITH_PURCHASE_NAVAL_MELEE</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_MELEE</Value>
+		</Row>
+	</ModifierArguments>
+
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_GOV_CITYSTATES" ModifierId="GOV_FAITH_PURCHASE_NAVAL_RANGED"/>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GOV_FAITH_PURCHASE_NAVAL_RANGED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GOV_FAITH_PURCHASE_NAVAL_RANGED</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_RANGED</Value>
+		</Row>
+	</ModifierArguments>
+
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_GOV_CITYSTATES" ModifierId="GOV_CITYSTATES_PURCHASE_NAVAL_RAIDER"/>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GOV_CITYSTATES_PURCHASE_NAVAL_RAIDER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GOV_CITYSTATES_PURCHASE_NAVAL_RAIDER</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_RAIDER</Value>
+		</Row>
+	</ModifierArguments>
+
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_GOV_CITYSTATES" ModifierId="GOV_CITYSTATES_PURCHASE_NAVAL_CARRIER"/>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GOV_CITYSTATES_PURCHASE_NAVAL_CARRIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GOV_CITYSTATES_PURCHASE_NAVAL_CARRIER</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_CARRIER</Value>
+		</Row>
+	</ModifierArguments>
+
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_GOV_CITYSTATES" ModifierId="GOV_CITYSTATES_PURCHASE_AIR_FIGHTER"/>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GOV_CITYSTATES_PURCHASE_AIR_FIGHTER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GOV_CITYSTATES_PURCHASE_AIR_FIGHTER</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_AIR_FIGHTER</Value>
+		</Row>
+	</ModifierArguments>
+
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_GOV_CITYSTATES" ModifierId="GOV_CITYSTATES_PURCHASE_AIR_BOMBER"/>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GOV_CITYSTATES_PURCHASE_AIR_BOMBER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GOV_CITYSTATES_PURCHASE_AIR_BOMBER</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_AIR_BOMBER</Value>
+		</Row>
+	</ModifierArguments>
+
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_GOV_SPIES" ModifierId="GOV_SPIES_PURCHASE_LANDCIVILIAN"/>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GOV_SPIES_PURCHASE_LANDCIVILIAN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GOV_SPIES_PURCHASE_LANDCIVILIAN</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_LANDCIVILIAN</Value>
+		</Row>
+	</ModifierArguments>
+
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_GOV_SPIES" ModifierId="GOV_SPIES_PURCHASE_SPIES"/>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GOV_SPIES_PURCHASE_SPIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GOV_SPIES_PURCHASE_SPIES</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_SPY</Value>
+		</Row>
+	</ModifierArguments>
+
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_GOV_SPIES" ModifierId="GOV_SPIES_PURCHASE_SUPPORT"/>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GOV_SPIES_PURCHASE_SUPPORT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GOV_SPIES_PURCHASE_SUPPORT</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_SUPPORT</Value>
+		</Row>
+	</ModifierArguments>
+
+
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_GOV_CITYSTATES" ModifierId="BUILDING_GOV_CITYSTATES"/>
+	</BuildingModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>BUILDING_GOV_CITYSTATES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_INFLUENCE_POINTS_PER_TURN</ModifierType>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>BUILDING_GOV_CITYSTATES</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="GOV_FAITH_PILLAGE_IMPROVEMENT_FAITH" Name="Amount"/>
+			<Set Value="25"/>
+		</Update>
+		<Update>
+			<Where ModifierId="GOV_FAITH_PILLAGE_DISTRICT_FAITH" Name="Amount"/>
+			<Set Value="50"/>
+		</Update>
+	</ModifierArguments>
+
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_GOV_CONQUEST" ModifierId="GOV_CONQUEST_STRENGTH"/>
+	</BuildingModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>GOV_CONQUEST_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ABILITY_GOV_CONQUEST_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+	</Modifiers>
+
+	<Types>
+		<Row Type="ABILITY_GOV_CONQUEST" Kind="KIND_ABILITY"/>
+	</Types>
+
+	<TypeTags>
+		<Row Type="ABILITY_GOV_CONQUEST" Tag="CLASS_ALL_COMBAT_UNITS"/>
+	</TypeTags>
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_GOV_CONQUEST" Name="LOC_ABILITY_GOV_CONQUEST_NAME" Description="LOC_ABILITY_GOV_CONQUEST_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_GOV_CONQUEST</UnitAbilityType>
+			<ModifierId>ABILITY_GOV_CONQUEST_STRENGTH</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GOV_CONQUEST_STRENGTH</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GOV_CONQUEST</Value>
+		</Row>
+		<Row>
+			<ModifierId>ABILITY_GOV_CONQUEST_STRENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+	</ModifierArguments>
+
+	<ModifierStrings>
+		<Row ModifierId="ABILITY_GOV_CONQUEST_STRENGTH" Context="Preview" Text="LOC_ABILITY_GOV_CONQUEST_STRENGTH_DESCRIPTION"/>
+	</ModifierStrings>
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>GOV_CONQUEST_UNIT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_MILITARY_UNITS_PRODUCTION</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GOV_CONQUEST_UNIT</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_CONQUEST_UNIT</ModifierId>
+			<Name>StartEra</Name>
+			<Value>ERA_ANCIENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_CONQUEST_UNIT</ModifierId>
+			<Name>EndEra</Name>
+			<Value>ERA_INFORMATION</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="GOV_PRODUCTION_BOOST_FROM_CAPTURE" Name="TurnsActive"/>
+			<Set Value="5"/>
+		</Update>
+		<Update>
+			<Where ModifierId="GOV_PRODUCTION_BOOST_FROM_CAPTURE" Name="Amount"/>
+			<Set Value="25"/>
+		</Update>
+	</ModifierArguments>
+
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="BUILDING_GOV_TALL"/>
+		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_BUILDER_COST_REDUCTION"/>
+	</BuildingModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>BUILDING_GOV_TALL</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+	<Row>
+		<ModifierId>BUILDING_GOV_TALL</ModifierId>
+		<Name>Amount</Name>
+		<Value>1</Value>
+	</Row>
+	<Row>
+		<ModifierId>BUILDING_GOV_TALL</ModifierId>
+		<Name>YieldType</Name>
+		<Value>YIELD_PRODUCTION</Value>
+	</Row>
+	</ModifierArguments>
+
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="BUILDING_GOV_TALL_FOOD"/>
+	</BuildingModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>BUILDING_GOV_TALL_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>BUILDING_GOV_TALL_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>BUILDING_GOV_TALL_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_BUILDER_COST_REDUCTION</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_BUILDER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_BUILDER_COST_REDUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+	</ModifierArguments>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>GOV_BUILDER_COST_REDUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PRODUCTION</ModifierType>
+		</Row>
+	</Modifiers>
+
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_GOV_CULTURE" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="6"/>
+		<Row BuildingType="BUILDING_GOV_CULTURE" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="6"/>
+		<Row BuildingType="BUILDING_GOV_CULTURE" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="6"/>
+	</Building_GreatPersonPoints>
+
+	<Building_GreatPersonPoints>
+		<Update>
+			<Where BuildingType="BUILDING_QUEENS_BIBLIOTHEQUE"/>
+			<Set PointsPerTurn="9"/>
+		</Update>
+	</Building_GreatPersonPoints>
+
+	<!-- =============================== -->
+	<!-- 祠堂(BUILDING_GOV_WIDE) 效果修改 -->
+	<!-- 移除: 原版50%本城开拓者加速 -->
+	<!-- 新增1: 本城开拓者不减人口 (参考总督马格努斯) -->
+	<!-- 新增2: 全国开拓者加速20% -->
+	<!-- =============================== -->
+
+	<BuildingModifiers>
+		<Delete BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_SETTLER_COST_REDUCTION"/>
+		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_WIDE_ATTACH_NO_POP_LOSS"/>
+		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_WIDE_SETTLER_PRODUCTION_NATIONAL"/>
+	</BuildingModifiers>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>CITY_HAS_GOV_WIDE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>CITY_HAS_GOV_WIDE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_WIDE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>GOV_WIDE_ATTACH_NO_POP_LOSS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOV_WIDE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOV_WIDE_CITY_NO_POP_LOSS_SETTLER</ModifierId>
+			<ModifierType>MODIFIER_CITY_ADJUST_SETTLER_CONSUME_POPULATION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOV_WIDE_SETTLER_PRODUCTION_NATIONAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PRODUCTION</ModifierType>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GOV_WIDE_ATTACH_NO_POP_LOSS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOV_WIDE_CITY_NO_POP_LOSS_SETTLER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_WIDE_CITY_NO_POP_LOSS_SETTLER</ModifierId>
+			<Name>Enabled</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_WIDE_SETTLER_PRODUCTION_NATIONAL</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SETTLER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_WIDE_SETTLER_PRODUCTION_NATIONAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

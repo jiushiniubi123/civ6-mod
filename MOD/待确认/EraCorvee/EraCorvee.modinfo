@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e8a3f1b2-c5d6-4e7f-9a0b-1c2d3e4f5a6b" version="1">
+	<Properties>
+		<Name>Era Corvée - 时代徭役政策卡</Name>
+		<Teaser>每个时代提供不同工人加速奇观效果的政策卡</Teaser>
+		<Description><![CDATA[
+为每个时代创建一张徭役政策卡，允许工人使用次数为奇观提供产能加速。
+
+核心机制：
+- 修改 UNITCOMMAND_WONDER_PRODUCTION 的 MaxEra 从 2→8，移除原版"仅远古+古典"限制
+- 8张政策卡覆盖全部8个时代，每张使用 MODIFIER_PLAYER_ADJUST_UNIT_WONDER_PERCENT
+- 不同时代提供不同加速比例：
+  远古10% → 古典12% → 中世纪15% → 文艺复兴18%
+  → 工业22% → 现代25% → 原子30% → 信息35%
+- 政策卡在对应时代解锁，并在下一时代自动淘汰
+- 与秦始皇的15%加速效果叠加（秦始皇+远古徭役=25%）
+
+注意：由于 MODIFIER_PLAYER_ADJUST_UNIT_WONDER_PERCENT 不支持时代过滤参数，
+时代区分通过政策卡解锁/淘汰机制实现，加速效果本身对所有时代奇观生效。
+		]]></Description>
+		<Authors>TRAE AI</Authors>
+		<CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+	<Dependencies>
+		<Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion2" />
+	</Dependencies>
+	<InGameActions>
+		<UpdateDatabase id="EraCorvee_Data">
+			<Properties>
+				<LoadOrder>200</LoadOrder>
+			</Properties>
+			<File>Data/EraCorvee_Data.sql</File>
+		</UpdateDatabase>
+		<UpdateText id="EraCorvee_Text">
+			<Properties>
+				<LoadOrder>200</LoadOrder>
+			</Properties>
+			<File>Data/EraCorvee_Text.sql</File>
+		</UpdateText>
+	</InGameActions>
+	<Files>
+		<File>Data/EraCorvee_Data.sql</File>
+		<File>Data/EraCorvee_Text.sql</File>
+	</Files>
+</Mod>

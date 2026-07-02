@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BCSP_Localization -->
+<!-- Author: Maple_Leaves -->
+<!-- DateCreated: 10/23/2024 11:24:28 PM -->
+<GameData>
+	<LocalizedText>
+		
+		<!--zh_Hans_CN-->
+		<!--City-State Types-->
+		<Replace Tag="LOC_CITYSTATE_PICKER_INDUSTRIAL_NAME" Language="zh_Hans_CN">
+			<Text>工业</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_MILITARISTIC_NAME" Language="zh_Hans_CN">
+			<Text>军事</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_SCIENTIFIC_NAME" Language="zh_Hans_CN">
+			<Text>科技</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_TRADE_NAME" Language="zh_Hans_CN">
+			<Text>贸易</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_CULTURAL_NAME" Language="zh_Hans_CN">
+			<Text>文化</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_RELIGIOUS_NAME" Language="zh_Hans_CN">
+			<Text>宗教</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_CSE_AGRICULTURAL_NAME" Language="zh_Hans_CN">
+			<Text>农业</Text>
+		</Replace>	
+		<Replace Tag="LOC_CITYSTATE_PICKER_CSE_ENTERTAINMENT_NAME" Language="zh_Hans_CN">
+			<Text>娱乐</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_CSE_MARITIME_NAME" Language="zh_Hans_CN">
+			<Text>航海</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_CSE_CONSULAR_NAME" Language="zh_Hans_CN">
+			<Text>领事</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITYSTATE_PICKER_INDUSTRIAL_COUNT_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_CITYSTATE_PICKER_INDUSTRIAL_NAME}城邦数量</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_MILITARISTIC_COUNT_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_CITYSTATE_PICKER_MILITARISTIC_NAME}城邦数量</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_SCIENTIFIC_COUNT_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_CITYSTATE_PICKER_SCIENTIFIC_NAME}城邦数量</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_TRADE_COUNT_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_CITYSTATE_PICKER_TRADE_NAME}城邦数量</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_CULTURAL_COUNT_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_CITYSTATE_PICKER_CULTURAL_NAME}城邦数量</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_RELIGIOUS_COUNT_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_CITYSTATE_PICKER_RELIGIOUS_NAME}城邦数量</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_CSE_AGRICULTURAL_COUNT_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_CITYSTATE_PICKER_CSE_AGRICULTURAL_NAME}城邦数量</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_CSE_ENTERTAINMENT_COUNT_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_CITYSTATE_PICKER_CSE_ENTERTAINMENT_NAME}城邦数量</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_CSE_MARITIME_COUNT_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_CITYSTATE_PICKER_CSE_MARITIME_NAME}城邦数量</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_CSE_CONSULAR_COUNT_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_CITYSTATE_PICKER_CSE_CONSULAR_NAME}城邦数量</Text>
+		</Replace>
+
+		
+		<!--Warning-->
+		<Replace Tag="LOC_CITY_STATE_PICKER_COUNT_WARNING_TOO_MANY_NUM" Language="zh_Hans_CN">
+			<Text>[COLOR_RED]选取各类城邦总数{1_Num}，超出上限{2_UpperLimit}，请调节滑块减少{3_DeleteNum}个！[ENDCOLOR]</Text>
+		</Replace>
+		<!--<Replace Tag="LOC_CITY_STATE_PICKER_COUNT_WARNING_SELECTED_CS_NOT_MATCH" Language="zh_Hans_CN">
+			<Text>[COLOR_RED]您选择的下列城邦类型的数量不符：[ENDCOLOR]</Text>
+		</Replace>-->
+		
+		<!--Tips-->
+		<Replace Tag="LOC_CITY_STATE_PICKER_CHECK_USE_SELECTED_CITY_STATES" Language="zh_Hans_CN">
+			<Text>使用在左下方面板选中的城邦（经典模式）</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_STATE_PICKER_CHECK_MODE_USE_SELECTED_CITY_STATES" Language="zh_Hans_CN">
+			<Text>此时，您需要在左下方指定允许出现的城邦，并拖动上方的城邦数量滑块以设定城邦数量。必要时也可以点击选择原版/Mod城邦。</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_STATE_PICKER_CHECK_MODE_NOT_USE_SELECTED_CITY_STATES" Language="zh_Hans_CN">
+			<Text>此时，左下方的选择无效。将按照上方的设置，分别在每种类型的城邦中随机抽取您设置数量的城邦。（此时城邦数量滑块无法直接拖动！）[NEWLINE][NEWLINE]但是您可以在左下方禁止某些城邦在随机抽取中出现。</Text>
+		</Replace>
+
+		<!--Button-->
+		<Replace Tag="LOC_CS_PICKER_SELECT_VANILLA" Language="zh_Hans_CN">
+			<Text>选择原版城邦</Text>
+		</Replace>
+		<Replace Tag="LOC_CS_PICKER_SELECT_MOD" Language="zh_Hans_CN">
+			<Text>选择Mod城邦</Text>
+		</Replace>
+
+		<!--Check-->
+		<Replace Tag="LOC_CS_PICKER_SELECT_CHECK" Language="zh_Hans_CN">
+			<Text>选中</Text>
+		</Replace>
+		<Replace Tag="LOC_CS_PICKER_SELECT_CHECK_TOOLTIP" Language="zh_Hans_CN">
+			<Text>选中以在经典模式中使用该城邦</Text>
+		</Replace>
+		<Replace Tag="LOC_CS_PICKER_SELECT_BAN" Language="zh_Hans_CN">
+			<Text>禁用</Text>
+		</Replace>
+		<Replace Tag="LOC_CS_PICKER_SELECT_BAN_TOOLTIP" Language="zh_Hans_CN">
+			<Text>选中以禁止该城邦在随机模式中出现</Text>
+		</Replace>
+
+
+		<!--zh_Hant_HK-->
+		<!--City-State Types-->
+		<Replace Tag="LOC_CITYSTATE_PICKER_INDUSTRIAL_NAME" Language="zh_Hant_HK">
+			<Text>工業</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_MILITARISTIC_NAME" Language="zh_Hant_HK">
+			<Text>軍事</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_SCIENTIFIC_NAME" Language="zh_Hant_HK">
+			<Text>科學</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_TRADE_NAME" Language="zh_Hant_HK">
+			<Text>貿易</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_CULTURAL_NAME" Language="zh_Hant_HK">
+			<Text>文化</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_RELIGIOUS_NAME" Language="zh_Hant_HK">
+			<Text>宗教</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_CSE_AGRICULTURAL_NAME" Language="zh_Hant_HK">
+			<Text>農業</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_CSE_ENTERTAINMENT_NAME" Language="zh_Hant_HK">
+			<Text>娛樂</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_CSE_MARITIME_NAME" Language="zh_Hant_HK">
+			<Text>航海</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_CSE_CONSULAR_NAME" Language="zh_Hant_HK">
+			<Text>領事</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITYSTATE_PICKER_INDUSTRIAL_COUNT_NAME" Language="zh_Hant_HK">
+			<Text>{LOC_CITYSTATE_PICKER_INDUSTRIAL_NAME}城邦數量</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_MILITARISTIC_COUNT_NAME" Language="zh_Hant_HK">
+			<Text>{LOC_CITYSTATE_PICKER_MILITARISTIC_NAME}城邦數量</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_SCIENTIFIC_COUNT_NAME" Language="zh_Hant_HK">
+			<Text>{LOC_CITYSTATE_PICKER_SCIENTIFIC_NAME}城邦數量</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_TRADE_COUNT_NAME" Language="zh_Hant_HK">
+			<Text>{LOC_CITYSTATE_PICKER_TRADE_NAME}城邦數量</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_CULTURAL_COUNT_NAME" Language="zh_Hant_HK">
+			<Text>{LOC_CITYSTATE_PICKER_CULTURAL_NAME}城邦數量</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_RELIGIOUS_COUNT_NAME" Language="zh_Hant_HK">
+			<Text>{LOC_CITYSTATE_PICKER_RELIGIOUS_NAME}城邦數量</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_CSE_AGRICULTURAL_COUNT_NAME" Language="zh_Hant_HK">
+			<Text>{LOC_CITYSTATE_PICKER_CSE_AGRICULTURAL_NAME}城邦數量</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_CSE_ENTERTAINMENT_COUNT_NAME" Language="zh_Hant_HK">
+			<Text>{LOC_CITYSTATE_PICKER_CSE_ENTERTAINMENT_NAME}城邦數量</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_CSE_MARITIME_COUNT_NAME" Language="zh_Hant_HK">
+			<Text>{LOC_CITYSTATE_PICKER_CSE_MARITIME_NAME}城邦數量</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATE_PICKER_CSE_CONSULAR_COUNT_NAME" Language="zh_Hant_HK">
+			<Text>{LOC_CITYSTATE_PICKER_CSE_CONSULAR_NAME}城邦數量</Text>
+		</Replace>
+
+
+		<!--Warning-->
+		<Replace Tag="LOC_CITY_STATE_PICKER_COUNT_WARNING_TOO_MANY_NUM" Language="zh_Hant_HK">
+			<Text>[COLOR_RED]選取各類城邦總數{1_Num}，超出上限{2_UpperLimit}，請調節滑塊減少{3_DeleteNum}個！ [ENDCOLOR]</Text>
+		</Replace>
+
+		<!--Tips-->
+		<Replace Tag="LOC_CITY_STATE_PICKER_CHECK_USE_SELECTED_CITY_STATES" Language="zh_Hant_HK">
+			<Text>使用在左下方面板選取的城邦（經典模式）</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_STATE_PICKER_CHECK_MODE_USE_SELECTED_CITY_STATES" Language="zh_Hant_HK">
+			<Text>此時，您需要在左下方指定允許出現的城邦，並拖動上方的城邦數量滑塊以設定城邦數量。 必要時也可以點擊選擇原版/Mod城邦。</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_STATE_PICKER_CHECK_MODE_NOT_USE_SELECTED_CITY_STATES" Language="zh_Hant_HK">
+			<Text>此時，左下方的選擇無效。 將按照上方的設置，分別在每種類型的城邦中隨機抽取您設置數量的城邦。 （此時城邦數量滑塊無法直接拖動！ ）[NEWLINE][NEWLINE]但是您可以在左下方禁止某些城邦在隨機抽取中出現。</Text>
+		</Replace>
+
+		<!--Button-->
+		<Replace Tag="LOC_CS_PICKER_SELECT_VANILLA" Language="zh_Hant_HK">
+			<Text>選擇原版城邦</Text>
+		</Replace>
+		<Replace Tag="LOC_CS_PICKER_SELECT_MOD" Language="zh_Hant_HK">
+			<Text>選擇Mod城邦</Text>
+		</Replace>
+
+		<!--Check-->
+		<Replace Tag="LOC_CS_PICKER_SELECT_CHECK" Language="zh_Hant_HK">
+			<Text>选中</Text>
+		</Replace>
+		<Replace Tag="LOC_CS_PICKER_SELECT_CHECK_TOOLTIP" Language="zh_Hant_HK">
+			<Text>选中以在经典模式中使用该城邦</Text>
+		</Replace>
+		<Replace Tag="LOC_CS_PICKER_SELECT_BAN" Language="zh_Hant_HK">
+			<Text>禁用</Text>
+		</Replace>
+		<Replace Tag="LOC_CS_PICKER_SELECT_BAN_TOOLTIP" Language="zh_Hant_HK">
+			<Text>选中以禁止该城邦在随机模式中出现</Text>
+		</Replace>
+
+
+	</LocalizedText>
+</GameData>

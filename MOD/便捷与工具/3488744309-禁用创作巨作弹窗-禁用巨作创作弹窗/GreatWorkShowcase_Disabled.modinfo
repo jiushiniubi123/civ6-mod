@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1D9B99A6-C871-2BD0-4EA0-A1D6C76C5C5E" version="1">
+  <Properties>
+    <Name>禁用创作巨作弹窗</Name>
+    <Teaser>Disables GreatWork Created Popup</Teaser>
+    <Description>Disables GreatWork Created Popup</Description>
+    <Authors>Memory</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+
+  <InGameActions>
+     <ReplaceUIScript id="ZHY_ReplaceUI">
+      <Properties>
+        <Context>InGame</Context>
+        <LoadOrder>9001</LoadOrder>
+        <LuaContext>GreatWorkShowcase</LuaContext>
+        <LuaReplace>GreatWorkShowcase.lua</LuaReplace>
+      </Properties>
+    </ReplaceUIScript>
+    <ImportFiles id="ZHY_ImportFiles">
+      <File>GreatWorkShowcase.lua</File>
+    </ImportFiles>
+  </InGameActions>
+	
+  <Files>
+    <File>GreatWorkShowcase.lua</File>
+  </Files>
+</Mod>

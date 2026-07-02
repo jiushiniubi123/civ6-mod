@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1cfe2a52-233b-4d4c-8bdf-209ec10352c1" version="1">
+  <Properties>
+    <Name>Tower Bridge (World Wonder)</Name>
+    <Description>Adds Tower Bridge as a World Wonder</Description>
+    <Created>1587398155</Created>
+    <Teaser>Adds Tower Bridge as a World Wonder</Teaser>
+    <Authors>Deliverator</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="TB_DB">
+      <File>Gameplay/Tower_Bridge_Gameplay.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="TB_Art">
+      <File>CWON_Tower_Bridge.dep</File>
+    </UpdateArt>
+    <UpdateText id="TB_Text">
+      <File>Text/Tower_Bridge_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="TB_Icons">
+      <File>Icons/Tower_Bridge_Icons.xml</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>CWON_Tower_Bridge.dep</File>
+    <File>Gameplay/Tower_Bridge_Gameplay.sql</File>
+    <File>Icons/Tower_Bridge_Icons.xml</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/BLOB_WON_Tower_Bridge_HMedit_4</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Attic_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Attic_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Attic_n1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Black_Gloss</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Black_Metalness</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Chains_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Chains_L</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Chains_OPAC</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Corner_Towers_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Archways_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Attic_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Chains_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Coat_of_Arms_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Corner_Towers_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Islands_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Main_Walls_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Pavement_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Railings_512_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Road_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Roof_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Flat_Normal_5120</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Flat_Normal_5121</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_LightSrcDim</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_Light_FlDim</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_Spotlight__Dim</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Main_Walls_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Main_Walls_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Main_Walls_n1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Railings_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Railings_L</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Railings_OPAC</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Roof_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_White_AO</File>
+    <File>Platforms/Windows/BLPs/strategicview/strategicview_buildings.blp</File>
+    <File>Platforms/Windows/BLPs/UITextures.blp</File>
+    <File>Platforms/Windows/BLPs/VFX.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+    <File>Text/Tower_Bridge_Text.xml</File>
+  </Files>
+</Mod>

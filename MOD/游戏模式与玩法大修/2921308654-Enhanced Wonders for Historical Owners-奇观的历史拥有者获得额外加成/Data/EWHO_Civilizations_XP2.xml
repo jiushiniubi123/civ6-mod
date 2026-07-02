@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Civilizations_XP2 -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/20/2023 4:41:12 PM -->
+<GameData>
+	<TraitModifiers>
+		<!--马丘比丘-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GREAT_MOUNTAINS</TraitType>
+			<ModifierId>CIVILIZATION_INCA_ADJUST_MACHU_PICCHU_PRODUCTION_EWHO</ModifierId>
+		</Row>
+		<!--米纳克希神庙-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_DHARMA</TraitType>
+			<ModifierId>CIVILIZATION_INDIA_ADJUST_MEENAKSHI_TEMPLE_PRODUCTION_EWHO</ModifierId>
+		</Row>
+		<!--桑科雷大学-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MALI_GOLD_DESERT</TraitType>
+			<ModifierId>CIVILIZATION_MALI_ADJUST_UNIVERSITY_SANKORE_PRODUCTION_EWHO</ModifierId>
+		</Row>
+		<!--圣索菲亚大教堂-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GREAT_TURKISH_BOMBARD</TraitType>
+			<ModifierId>CIVILIZATION_OTTOMAN_ADJUST_HAGIA_SOPHIA_PRODUCTION_EWHO</ModifierId>
+		</Row>
+		<!--巴拿马运河-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FOUNDING_FATHERS</TraitType>
+			<ModifierId>CIVILIZATION_AMERICA_ADJUST_PANAMA_CANAL_PRODUCTION_EWHO</ModifierId>
+		</Row>
+		<!--匈牙利议会大厦-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_PEARL_DANUBE</TraitType>
+			<ModifierId>CIVILIZATION_HUNGARY_ADJUST_ORSZAGHAZ_PRODUCTION_EWHO</ModifierId>
+		</Row>
+		<!--大本钟-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION</TraitType>
+			<ModifierId>CIVILIZATION_ENGLAND_ADJUST_BIG_BEN_PRODUCTION_EWHO</ModifierId>
+		</Row>
+		<!--牛津大学-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION</TraitType>
+			<ModifierId>CIVILIZATION_ENGLAND_ADJUST_OXFORD_UNIVERSITY_PRODUCTION_EWHO</ModifierId>
+		</Row>
+		<!--金门大桥-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FOUNDING_FATHERS</TraitType>
+			<ModifierId>CIVILIZATION_AMERICA_ADJUST_GOLDEN_GATE_BRIDGE_PRODUCTION_EWHO</ModifierId>
+		</Row>
+
+	</TraitModifiers>
+
+	<Modifiers>
+		<!--马丘比丘-->
+		<Row>
+			<ModifierId>CIVILIZATION_INCA_ADJUST_MACHU_PICCHU_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_INCA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<!--米纳克希神庙-->
+		<Row>
+			<ModifierId>CIVILIZATION_INDIA_ADJUST_MEENAKSHI_TEMPLE_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_INDIA_EWHO</OwnerRequirementSetId>
+		</Row>
+		<!--桑科雷大学-->
+		<Row>
+			<ModifierId>CIVILIZATION_MALI_ADJUST_UNIVERSITY_SANKORE_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_MALI_EWHO</OwnerRequirementSetId>
+		</Row>
+		<!--圣索菲亚大教堂-->
+		<Row>
+			<ModifierId>CIVILIZATION_OTTOMAN_ADJUST_HAGIA_SOPHIA_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_OTTOMAN_EWHO</OwnerRequirementSetId>
+		</Row>
+
+		<!--巴拿马运河-->
+		<Row>
+			<ModifierId>CIVILIZATION_AMERICA_ADJUST_PANAMA_CANAL_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_AMERICA_EWHO</OwnerRequirementSetId>
+		</Row>
+
+		<!--匈牙利议会大厦-->
+		<Row>
+			<ModifierId>CIVILIZATION_HUNGARY_ADJUST_ORSZAGHAZ_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_HUNGARY_EWHO</OwnerRequirementSetId>
+		</Row>
+		
+		<!--金门大桥-->
+		<Row>
+			<ModifierId>CIVILIZATION_AMERICA_ADJUST_GOLDEN_GATE_BRIDGE_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_AMERICA_EWHO</OwnerRequirementSetId>
+		</Row>
+		
+
+	</Modifiers>
+
+	<ModifierArguments>
+		<!--马丘比丘-->
+		<Row>
+			<ModifierId>CIVILIZATION_INCA_ADJUST_MACHU_PICCHU_PRODUCTION_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MACHU_PICCHU</Value>
+		</Row>
+		<Row>
+			<ModifierId>CIVILIZATION_INCA_ADJUST_MACHU_PICCHU_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!--米纳克希神庙-->
+		<Row>
+			<ModifierId>CIVILIZATION_INDIA_ADJUST_MEENAKSHI_TEMPLE_PRODUCTION_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MEENAKSHI_TEMPLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>CIVILIZATION_INDIA_ADJUST_MEENAKSHI_TEMPLE_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!--桑科雷大学-->
+		<Row>
+			<ModifierId>CIVILIZATION_MALI_ADJUST_UNIVERSITY_SANKORE_PRODUCTION_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_UNIVERSITY_SANKORE</Value>
+		</Row>
+		<Row>
+			<ModifierId>CIVILIZATION_MALI_ADJUST_UNIVERSITY_SANKORE_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!--圣索菲亚大教堂-->
+		<Row>
+			<ModifierId>CIVILIZATION_OTTOMAN_ADJUST_HAGIA_SOPHIA_PRODUCTION_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_HAGIA_SOPHIA</Value>
+		</Row>
+		<Row>
+			<ModifierId>CIVILIZATION_OTTOMAN_ADJUST_HAGIA_SOPHIA_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<!--巴拿马运河-->
+		<Row>
+			<ModifierId>CIVILIZATION_AMERICA_ADJUST_PANAMA_CANAL_PRODUCTION_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PANAMA_CANAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>CIVILIZATION_AMERICA_ADJUST_PANAMA_CANAL_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+
+		<!--匈牙利议会大厦-->
+		<Row>
+			<ModifierId>CIVILIZATION_HUNGARY_ADJUST_ORSZAGHAZ_PRODUCTION_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_ORSZAGHAZ</Value>
+		</Row>
+		<Row>
+			<ModifierId>CIVILIZATION_HUNGARY_ADJUST_ORSZAGHAZ_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		
+		<!--金门大桥-->
+		<Row>
+			<ModifierId>CIVILIZATION_AMERICA_ADJUST_GOLDEN_GATE_BRIDGE_PRODUCTION_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOLDEN_GATE_BRIDGE</Value>
+		</Row>
+		<Row>
+			<ModifierId>CIVILIZATION_AMERICA_ADJUST_GOLDEN_GATE_BRIDGE_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+
+		
+
+	</ModifierArguments>
+
+
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_PLAYER_IS_CANADA_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_CANADA_EWHO" RequirementId="PLAYER_IS_CANADA_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_CANADA_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="PLAYER_IS_CANADA_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+
+	</Requirements>
+
+	<RequirementArguments>
+		<Row RequirementId="PLAYER_IS_CANADA_EWHO" Name="CivilizationType" Value="CIVILIZATION_CANADA"/>
+
+	</RequirementArguments>
+	
+</GameData>

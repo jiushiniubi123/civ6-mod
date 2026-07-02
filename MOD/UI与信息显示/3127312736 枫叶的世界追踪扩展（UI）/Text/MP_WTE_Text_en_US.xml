@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MP_WTE_Text_en_US -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 12/28/2023 11:35:26 PM -->
+<GameData>
+	<LocalizedText>
+
+		<!--部落村庄相关-->
+		<Replace Tag="LOC_GOODY_HUT_LIST_HEADER" Language="en_US">
+			<Text>Goody Hut List</Text>
+		</Replace>
+
+		<Replace Tag="LOC_WORLDTRACKER_NO_GOODY_HUTS" Language="en_US">
+			<Text>No Goody Huts</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_GOODY_HUT_BUTTON_TEXT" Language="en_US">
+			<Text>{1_GoodyHutName}: {2_Continent}, Plot{3_PlotIndex}</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_GOODY_HUT_BUTTON_TEXT_UNREVEALED" Language="en_US">
+			<Text>{1_GoodyHutName}: Unknown</Text>
+		</Replace>
+
+		<Replace Tag="LOC_WORLDTRACKER_GOODY_HUT_BUTTON_TOOLTIP" Language="en_US">
+			<Text>Locate on Map</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_GOODY_HUT_BUTTON_TOOLTIP_UNREVEALED" Language="en_US">
+			<Text>Unknown</Text>
+		</Replace>
+
+		<Replace Tag="LOC_WORLDTRACKER_GOODY_HUTS_SEARCH_TT" Language="en_US">
+			<Text>Search</Text>
+		</Replace>
+
+
+		<!--自然奇观相关-->
+		<Replace Tag="LOC_NATURAL_WONDER_LIST_HEADER" Language="en_US">
+			<Text>Natural Wonder List</Text>
+		</Replace>
+
+		<Replace Tag="LOC_WORLDTRACKER_NO_NATURAL_WONDERS" Language="en_US">
+			<Text>No Natural Wonders</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_NATURAL_WONDER_BUTTON_TEXT" Language="en_US">
+			<Text>{1_GoodyHutName}: {2_Continent}, Plot{3_PlotIndex}</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_NATURAL_WONDER_BUTTON_TEXT_WATER" Language="en_US">
+			<Text>{1_GoodyHutName}: Plot{2_PlotIndex}</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_NATURAL_WONDER_BUTTON_TEXT_TERRITORY" Language="en_US">
+			<Text>{1_GoodyHutName}: {2_Terrtory}, Plot{3_PlotIndex}</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_NATURAL_WONDER_BUTTON_TEXT_UNREVEALED" Language="en_US">
+			<Text>Unknown</Text>
+		</Replace>
+
+		<Replace Tag="LOC_WORLDTRACKER_NATURAL_WONDER_BUTTON_TOOLTIP" Language="en_US">
+			<Text>Locate on Map</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_NATURAL_WONDER_BUTTON_TOOLTIP_UNREVEALED" Language="en_US">
+			<Text>Unknown</Text>
+		</Replace>
+
+
+		<!--蛮族哨站相关-->
+		<Replace Tag="LOC_BARBARIAN_CAMP_LIST_HEADER" Language="en_US">
+			<Text>Barbarian Camp List</Text>
+		</Replace>
+
+		<Replace Tag="LOC_WORLDTRACKER_NO_BARBARIAN_CAMPS" Language="en_US">
+			<Text>No Barbarian Camps</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_BARBARIAN_CAMP_BUTTON_TEXT" Language="en_US">
+			<Text>{1_BarbarianCampName}: {2_Continent}, Plot{3_PlotIndex}</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_BARBARIAN_CAMP_BUTTON_TEXT_UNREVEALED" Language="en_US">
+			<Text>{1_BarbarianCampName}: Unknown</Text>
+		</Replace>
+
+		<Replace Tag="LOC_WORLDTRACKER_BARBARIAN_CAMP_BUTTON_TOOLTIP" Language="en_US">
+			<Text>Locate on Map</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_BARBARIAN_CAMP_BUTTON_TOOLTIP_UNREVEALED" Language="en_US">
+			<Text>Unknown</Text>
+		</Replace>
+
+		<!--氏族模式下-->
+		<Replace Tag="LOC_WORLDTRACKER_BARBARIAN_CAMP_BUTTON_TEXT_CLANMODE" Language="en_US">
+			<Text>{1_ClanName} Clan: {2_Continent}, Plot{3_PlotIndex}</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_BARBARIAN_CAMP_BUTTON_TEXT_CLANMODE_DETAILED" Language="en_US">
+			<Text>{1_ClanName} ({2_ClanType}): {3_Continent}({4_PlotIndex})</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_BARBARIAN_CAMP_BUTTON_TEXT_UNREVEALED_CLANMODE" Language="en_US">
+			<Text>Unknown Clan</Text>
+		</Replace>
+
+		<Replace Tag="LOC_WORLDTRACKER_BARBARIAN_CAMP_TREAT_POPUP_TEXT_UNREVEALED_CLANMODE" Language="en_US">
+			<Text>Treat</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLDTRACKER_BARBARIAN_CAMP_TREAT_POPUP_TOOLTIP_UNREVEALED_CLANMODE" Language="en_US">
+			<Text>Treat With {1_ClanName} Clan</Text>
+		</Replace>
+
+
+	</LocalizedText>
+</GameData>

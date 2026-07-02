@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ba43ebab-b345-4e0a-9a91-2cddb07d157f" version="1">
+  <Properties>
+    <Name>LOC_MY_MOD_NAME_BETTER_CITYSTATE_PICKER</Name>
+    <Description>LOC_MY_MOD_DESCRIPTION_BETTER_CITYSTATE_PICKER</Description>
+    <Created>1729958123</Created>
+    <Teaser>LOC_MY_MOD_TEASER_BETTER_CITYSTATE_PICKER</Teaser>
+    <Authors>LOC_MY_MOD_AUTHORS_BETTER_CITYSTATE_PICKER</Authors>
+    <SpecialThanks>LOC_MY_MOD_SPECIALTHANKS_BETTER_CITYSTATE_PICKER</SpecialThanks>
+	<AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  
+  <LocalizedText>
+		<Text id="LOC_MY_MOD_NAME_BETTER_CITYSTATE_PICKER">
+			<en_US>Better City-State Picker (UI)</en_US>
+			<zh_Hans_CN>更好的城邦选择器（UI）</zh_Hans_CN>
+			<zh_Hant_HK>更好的城邦选择器（UI）</zh_Hant_HK>
+		</Text>
+		<Text id="LOC_MY_MOD_DESCRIPTION_BETTER_CITYSTATE_PICKER">
+			<en_US>A new mode has been added to the city-state picker that allows the number to be set for each city-state type. Alternatively, you can continue to use Classic mode and use the two new buttons to select the vanilla/mod city-states with one click. [NEWLINE][NEWLINE]Does not affect saved games. Supports the new city-state types introduced by CIVITAS City States.[NEWLINE][NEWLINE]Recent update: Add the "Ban" feature in the new mode.</en_US>
+			<zh_Hans_CN>为城邦选择器新增了一个模式，允许对每个城邦类型设置数量。或者，您也可以继续使用经典模式，并且使用新增的两个按钮，一键选中原版/Mod城邦。[NEWLINE][NEWLINE]不影响游戏存档。支持CIVITAS City States引入的城邦类型。[NEWLINE][NEWLINE]最近更新：新增了随机模式中的禁用功能。</zh_Hans_CN>
+			<zh_Hant_HK>为城邦选择器新增了一个模式，允许对每个城邦类型设置数量。或者，您也可以继续使用经典模式，并且使用新增的两个按钮，一键选中原版/Mod城邦。[NEWLINE][NEWLINE]不影响游戏存档。支持CIVITAS City States引入的城邦类型。[NEWLINE][NEWLINE]最近更新：新增了随机模式中的禁用功能。</zh_Hant_HK>
+		</Text>
+		<Text id="LOC_MY_MOD_TEASER_BETTER_CITYSTATE_PICKER">
+			<en_US>Easier to choose City-States!</en_US>
+			<zh_Hans_CN>更方便地选择城邦！</zh_Hans_CN>
+			<zh_Hant_HK>更方便地选择城邦！</zh_Hant_HK>
+		</Text>
+		<Text id="LOC_MY_MOD_AUTHORS_BETTER_CITYSTATE_PICKER">
+			<en_US>Maple_Leaves, OneMoTurn</en_US>
+			<zh_Hans_CN>枫叶(Maple_Leaves)，OneMoTurn</zh_Hans_CN>
+			<zh_Hant_HK>枫叶(Maple_Leaves)，OneMoTurn</zh_Hant_HK>
+		</Text>
+		<Text id="LOC_MY_MOD_SPECIALTHANKS_BETTER_CITYSTATE_PICKER">
+			<en_US>Firaxis</en_US>
+			<zh_Hans_CN>Firaxis</zh_Hans_CN>
+			<zh_Hant_HK>Firaxis</zh_Hant_HK>
+		</Text>
+	</LocalizedText>
+	
+  <FrontEndActions>
+    <ImportFiles id="if">
+      <File>Base/Assets/UI/FrontEnd/CityStatePicker.xml</File>
+      <File>Base/Assets/UI/FrontEnd/CityStatePicker.lua</File>
+    </ImportFiles>
+    <UpdateText id="text">
+      <File>Text/BCSP_BaseGameText.xml</File>
+      <File>Text/BCSP_Localization.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="config_data">
+      <File>Config/BCSP_Config.sql</File>
+    </UpdateDatabase>
+  </FrontEndActions>
+  <Files>
+    <File>Base/Assets/UI/FrontEnd/CityStatePicker.lua</File>
+    <File>Base/Assets/UI/FrontEnd/CityStatePicker.xml</File>
+    <File>Config/BCSP_Config.sql</File>
+    <File>Text/BCSP_BaseGameText.xml</File>
+    <File>Text/BCSP_Localization.xml</File>
+    <File>Unused.sql</File>
+  </Files>
+</Mod>

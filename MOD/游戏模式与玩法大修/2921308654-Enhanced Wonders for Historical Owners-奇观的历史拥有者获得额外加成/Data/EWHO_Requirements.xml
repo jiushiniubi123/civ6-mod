@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Requirements -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/17/2023 8:52:56 AM -->
+<GameData>
+	<!--这个文件专门定义条件-->
+	<Requirements>
+		<!--Egypt-->
+		<Row RequirementId="PLAYER_IS_EGYPT_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+		<!--Greece-->
+		<Row RequirementId="PLAYER_IS_GREECE_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+		<!--China-->
+		<Row RequirementId="PLAYER_IS_CHINA_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+		<!--Rome-->
+		<Row RequirementId="PLAYER_IS_ROME_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+		<!--India-->
+		<Row RequirementId="PLAYER_IS_INDIA_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+		<!--Spain-->
+		<Row RequirementId="PLAYER_IS_SPAIN_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+		<!--Japan-->
+		<Row RequirementId="PLAYER_IS_JAPAN_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+		<!--France-->
+		<Row RequirementId="PLAYER_IS_FRANCE_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+		<!--Russia-->
+		<Row RequirementId="PLAYER_IS_RUSSIA_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+		<!--America-->
+		<Row RequirementId="PLAYER_IS_AMERICA_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+		<!--America-->
+		<Row RequirementId="PLAYER_IS_NOT_AMERICA_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES" Inverse="true"/>
+		<!--England-->
+		<Row RequirementId="PLAYER_IS_ENGLAND_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+		<!--Germany-->
+		<Row RequirementId="PLAYER_IS_GERMANY_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+		<!--Brazil-->
+		<Row RequirementId="PLAYER_IS_BRAZIL_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>	
+
+		<!--Copper-->
+		<Row RequirementId="REQUIRES_PLOT_HAS_COPPER_EWHO" RequirementType="REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES"/>
+		<!--12 tiles-->
+		<Row RequirementId="REQUIRES_12_PLOTS_AWAY_MAX_UNIT_EWHO" RequirementType="REQUIREMENT_PLOT_ADJACENT_TO_OWNER"/>
+		
+		<!--Adjacent to jungle-->
+		<Row RequirementId="REQUIRES_PLOT_ADJACENT_TO_RAINFOREST_EWHO" RequirementType="REQUIREMENT_PLOT_ADJACENT_FEATURE_TYPE_MATCHES"/>
+		
+		<!--Plot has Tundra-->
+		<Row RequirementId="REQUIRES_PLOT_HAS_TUNDRA_EWHO" RequirementType="REQUIREMENT_PLOT_TERRAIN_CLASS_MATCHES"/>
+		<!--Plot has Snow-->
+		<Row RequirementId="REQUIRES_PLOT_HAS_SNOW_EWHO" RequirementType="REQUIREMENT_PLOT_TERRAIN_CLASS_MATCHES"/>
+		
+		<!--Population-->
+		<Row RequirementId="REQUIRES_CITY_HAS_15_POPULATION_EWHO" RequirementType="REQUIREMENT_CITY_HAS_X_POPULATION"/>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_LESS_THAN_10_POPULATION_EWHO</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_X_POPULATION</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row RequirementId="REQUIRES_CITY_HAS_10_POPULATION_EWHO" RequirementType="REQUIREMENT_CITY_HAS_X_POPULATION"/>
+		
+		<!--Plot has Hills-->
+		<Row RequirementId="REQUIRES_PLOT_HAS_HILLS_EWHO" RequirementType="REQUIREMENT_PLOT_TERRAIN_CLASS_MATCHES"/>
+		
+		<!--City has building-->
+		<Row RequirementId="REQUIRES_CITY_HAS_FACTORY_EWHO" RequirementType="REQUIREMENT_CITY_HAS_BUILDING"/>
+		<Row RequirementId="REQUIRES_CITY_HAS_UNIVERSITY_EWHO" RequirementType="REQUIREMENT_CITY_HAS_BUILDING"/>
+		<Row RequirementId="REQUIRES_CITY_HAS_RESEARCH_LAB_EWHO" RequirementType="REQUIREMENT_CITY_HAS_BUILDING"/>
+		
+		<!--Plot improvement type match-->
+		<Row RequirementId="REQUIRES_IMPROVEMENT_IS_GREAT_WALL_EWHO" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES"/>
+		<Row RequirementId="REQUIRES_PLOT_HAS_BEACH_RESORT_EWHO" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES"/>
+		
+		<!--Appeal-->
+		<Row RequirementId="REQUIRES_PLOT_BREATHTAKING_APPEAL_EWHO" RequirementType="REQUIREMENT_PLOT_IS_APPEAL_BETWEEN"/>
+		
+		<!--Coastal land-->
+		<Row RequirementId="PLOT_IS_COASTAL_LAND_EWHO" RequirementType="REQUIREMENT_PLOT_IS_COASTAL_LAND"/>
+		
+		<!--District type match-->
+		<Row RequirementId="REQUIRES_DISTRICT_IS_NEIGHBORHOOD_EWHO" RequirementType="REQUIREMENT_DISTRICT_TYPE_MATCHES"/>
+
+	</Requirements>
+	
+	<RequirementArguments>
+		<!--Egypt-->
+		<Row RequirementId="PLAYER_IS_EGYPT_EWHO" Name="CivilizationType" Value="CIVILIZATION_EGYPT"/>
+		<!--Greece-->
+		<Row RequirementId="PLAYER_IS_GREECE_EWHO" Name="CivilizationType" Value="CIVILIZATION_GREECE"/>
+		<!--China-->
+		<Row RequirementId="PLAYER_IS_CHINA_EWHO" Name="CivilizationType" Value="CIVILIZATION_CHINA"/>
+		<!--Rome-->
+		<Row RequirementId="PLAYER_IS_ROME_EWHO" Name="CivilizationType" Value="CIVILIZATION_ROME"/>
+		<!--India-->
+		<Row RequirementId="PLAYER_IS_INDIA_EWHO" Name="CivilizationType" Value="CIVILIZATION_INDIA"/>
+		<!--Spain-->
+		<Row RequirementId="PLAYER_IS_SPAIN_EWHO" Name="CivilizationType" Value="CIVILIZATION_SPAIN"/>
+		<!--Japan-->
+		<Row RequirementId="PLAYER_IS_JAPAN_EWHO" Name="CivilizationType" Value="CIVILIZATION_JAPAN"/>
+		<!--France-->
+		<Row RequirementId="PLAYER_IS_FRANCE_EWHO" Name="CivilizationType" Value="CIVILIZATION_FRANCE"/>
+		<!--Russia-->
+		<Row RequirementId="PLAYER_IS_RUSSIA_EWHO" Name="CivilizationType" Value="CIVILIZATION_RUSSIA"/>
+		<!--America-->
+		<Row RequirementId="PLAYER_IS_AMERICA_EWHO" Name="CivilizationType" Value="CIVILIZATION_AMERICA"/>
+		<!--America-->
+		<Row RequirementId="PLAYER_IS_NOT_AMERICA_EWHO" Name="CivilizationType" Value="CIVILIZATION_AMERICA"/>
+		<!--England-->
+		<Row RequirementId="PLAYER_IS_ENGLAND_EWHO" Name="CivilizationType" Value="CIVILIZATION_ENGLAND"/>
+		<!--Germany-->
+		<Row RequirementId="PLAYER_IS_GERMANY_EWHO" Name="CivilizationType" Value="CIVILIZATION_GERMANY"/>
+		<!--Brazil-->
+		<Row RequirementId="PLAYER_IS_BRAZIL_EWHO" Name="CivilizationType" Value="CIVILIZATION_BRAZIL"/>
+		
+
+		<!--Copper-->
+		<Row RequirementId="REQUIRES_PLOT_HAS_COPPER_EWHO" Name="ResourceType" Value="RESOURCE_COPPER"/>
+		<!--12 tiles-->
+		<Row>
+			<RequirementId>REQUIRES_12_PLOTS_AWAY_MAX_UNIT_EWHO</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_12_PLOTS_AWAY_MAX_UNIT_EWHO</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>12</Value>
+		</Row>
+
+		<!--Adjacent to jungle-->
+		<Row RequirementId="REQUIRES_PLOT_ADJACENT_TO_RAINFOREST_EWHO" Name="FeatureType" Value="FEATURE_JUNGLE"/>
+
+		<!--Plot has Tundra-->
+		<Row RequirementId="REQUIRES_PLOT_HAS_TUNDRA_EWHO" Name="TerrainClass" Value="TERRAIN_CLASS_TUNDRA"/>
+		<!--Plot has Snow-->
+		<Row RequirementId="REQUIRES_PLOT_HAS_SNOW_EWHO" Name="TerrainClass" Value="TERRAIN_CLASS_SNOW"/>
+
+		<!--Population-->
+		<Row RequirementId="REQUIRES_CITY_HAS_15_POPULATION_EWHO" Name="Amount" Value="15"/>
+		<Row RequirementId="REQUIRES_CITY_HAS_LESS_THAN_10_POPULATION_EWHO" Name="Amount" Value="10"/>
+		<Row RequirementId="REQUIRES_CITY_HAS_10_POPULATION_EWHO" Name="Amount" Value="10"/>
+
+		<!--Plot has Hills-->
+		<Row RequirementId="REQUIRES_PLOT_HAS_HILLS_EWHO" Name="TerrainClass" Value="TERRAIN_CLASS_HILLS_EWHO"/>
+
+		<!--City has building-->
+		<Row RequirementId="REQUIRES_CITY_HAS_FACTORY_EWHO" Name="BuildingType" Value="BUILDING_FACTORY"/>
+		<Row RequirementId="REQUIRES_CITY_HAS_UNIVERSITY_EWHO" Name="BuildingType" Value="BUILDING_UNIVERSITY"/>
+		<Row RequirementId="REQUIRES_CITY_HAS_RESEARCH_LAB_EWHO" Name="BuildingType" Value="BUILDING_RESEARCH_LAB"/>
+		
+		<!--Plot improvement type match-->
+		<Row RequirementId="REQUIRES_IMPROVEMENT_IS_GREAT_WALL_EWHO" Name="ImprovementType" Value="IMPROVEMENT_GREAT_WALL"/>
+		<Row RequirementId="REQUIRES_PLOT_HAS_BEACH_RESORT_EWHO" Name="ImprovementType" Value="IMPROVEMENT_BEACH_RESORT"/>		
+
+		<!--Appeal-->
+		<Row RequirementId="REQUIRES_PLOT_BREATHTAKING_APPEAL_EWHO" Name="MinimumAppeal" Value="4"/>
+
+		<!--District type match-->
+		<Row RequirementId="REQUIRES_DISTRICT_IS_NEIGHBORHOOD_EWHO" Name="DistrictType" Value="DISTRICT_NEIGHBORHOOD"/>
+		
+	</RequirementArguments>
+</GameData>

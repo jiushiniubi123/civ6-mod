@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="319b82f2-9a11-41cd-a050-1e9cf6cb689d" version="1">
+	<Properties>
+		<Name>LOC_AP_TRADE_UI_NAME</Name>
+		<Teaser>LOC_AP_TRADE_UI_TEASER</Teaser>
+		<Description>LOC_AP_TRADE_UI_DESCRIPTION</Description>
+		<Authors>Apry</Authors>
+		<CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AffectsSavedGames>0</AffectsSavedGames>
+	</Properties>
+  <LocalizedText>
+    <Text id="LOC_AP_TRADE_UI_NAME">
+      <en_US>[UI] Show All Trade Route Paths</en_US>
+      <zh_Hans_CN>【UI】显示全部商路路径</zh_Hans_CN>
+      <zh_Hant_HK>【UI】顯示全部商路路徑</zh_Hant_HK>
+      <es_ES>[UI] Mostrar todas las rutas comerciales</es_ES>
+    </Text>
+  <Text id="LOC_AP_TRADE_UI_TEASER">
+      <en_US>Adds a button to display all trade route paths.</en_US>
+      <zh_Hans_CN>提供顶端按钮以显示全部商路路径。</zh_Hans_CN>
+      <zh_Hant_HK>提供頂端按鈕以顯示全部商路路徑。</zh_Hant_HK>
+      <es_ES>Añade un botón para mostrar todas las rutas comerciales.</es_ES>
+    </Text>
+  <Text id="LOC_AP_TRADE_UI_DESCRIPTION">
+      <en_US>Adds a "Trade Path" button to the top-left UI panel. Left-click to show all trade route paths; right-click to open detailed options.</en_US>
+      <zh_Hans_CN>在游戏界面左上栏加入“商路路径按钮”，左键点击显示全部商路路径，右键点击开启细节选项。</zh_Hans_CN>
+      <zh_Hant_HK>在遊戲介面左上欄加入“商路路徑按鈕”，左鍵點擊顯示全部商路路徑，右鍵點擊開啟細節選項。</zh_Hant_HK>
+      <es_ES>Añade un botón de “Ruta comercial” en el panel superior izquierdo de la interfaz. Clic izquierdo para mostrar todas las rutas comerciales; clic derecho para abrir las opciones detalladas.</es_ES>
+    </Text>
+  </LocalizedText>
+
+  <InGameActions>
+    <UpdateText id="TEXT">
+      <File>TEXT.xml</File>
+    </UpdateText>
+    <AddUserInterfaces id="AP_TRADE_UI">
+      <Properties>
+        <Context>InGame</Context>
+        <LoadOrder>20</LoadOrder>
+      </Properties>
+      <File>AP_TRADE_UI.xml</File>
+    </AddUserInterfaces>
+  </InGameActions>
+  <Files>
+    <File>TEXT.xml</File>
+    <File>AP_TRADE_UI.xml</File>
+    <File>AP_TRADE_UI.lua</File>
+  </Files>
+</Mod>

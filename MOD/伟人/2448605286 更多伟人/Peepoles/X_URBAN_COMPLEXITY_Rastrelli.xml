@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Classical Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_CURIE" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_CURIE" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_CURIE_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" EraType="ERA_INDUSTRIAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_GOVERNMENT"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_CURIE" ModifierId="GREATPERSON_BONUS_RASTRELLI_MANSION" 			AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_CURIE" ModifierId="GREATPERSON_BONUS_RASTRELLI_CABINET" 			AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_CURIE" ModifierId="GREATPERSON_BONUS_RASTRELLI_GOV_TALL" 			AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_CURIE" ModifierId="GREATPERSON_BONUS_RASTRELLI_GOV_WIDE" 			AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_CURIE" ModifierId="GREATPERSON_BONUS_RASTRELLI_GOV_CONQUEST" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_CURIE" ModifierId="GREATPERSON_BONUS_RASTRELLI_GOV_CITYSTATES" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_CURIE" ModifierId="GREATPERSON_BONUS_RASTRELLI_GOV_SPIES" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_CURIE" ModifierId="GREATPERSON_BONUS_RASTRELLI_GOV_FAITH" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_CURIE" ModifierId="GREATPERSON_BONUS_RASTRELLI_GOV_MILITARY" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_CURIE" ModifierId="GREATPERSON_BONUS_RASTRELLI_GOV_CULTURE" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_CURIE" ModifierId="GREATPERSON_BONUS_RASTRELLI_GOV_SCIENCE" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_CURIE" ModifierId="GREATPERSON_BONUS_RASTRELLI_GOV_KRISTINA" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_MANSION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOV_DISTRICT</SubjectRequirementSetId>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- ------------------------------------------------------------------>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_CABINET</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOV_DISTRICT</SubjectRequirementSetId>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- ------------------------------------------------------------------>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_TALL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- ------------------------------------------------------------------>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_WIDE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- ------------------------------------------------------------------>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_CONQUEST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- ------------------------------------------------------------------>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_CITYSTATES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- ------------------------------------------------------------------>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_SPIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- ------------------------------------------------------------------>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- ------------------------------------------------------------------>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_MILITARY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- ------------------------------------------------------------------>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- ------------------------------------------------------------------>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- ------------------------------------------------------------------>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_KRISTINA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- ------------------------------------------------------------------>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_KRISTINA</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_QUEENS_BIBLIOTHEQUE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_KRISTINA</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_KRISTINA</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<!-- ------------------------------------------------------------------>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_SCIENCE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<!-- ------------------------------------------------------------------>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_CULTURE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<!-- ------------------------------------------------------------------>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_MILITARY</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_MILITARY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_MILITARY</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_MILITARY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<!-- ------------------------------------------------------------------>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_FAITH</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<!-- ------------------------------------------------------------------>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_SPIES</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_SPIES</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_SPIES</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_SPIES</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<!-- ------------------------------------------------------------------>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_CITYSTATES</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_CITYSTATES</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_CITYSTATES</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_CITYSTATES</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<!-- ------------------------------------------------------------------>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_CONQUEST</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_CONQUEST</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_CONQUEST</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_CONQUEST</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<!-- ------------------------------------------------------------------>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_WIDE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_WIDE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_WIDE</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_WIDE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<!-- ------------------------------------------------------------------>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_TALL</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_TALL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_TALL</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_GOV_TALL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<!-- ------------------------------------------------------------------>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_MANSION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_JNR_MANSION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_MANSION</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_MANSION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<!-- ------------------------------------------------------------------>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_CABINET</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_JNR_CABINET</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_CABINET</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RASTRELLI_CABINET</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<!-- ------------------------------------------------------------------>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_BONUS_RASTRELLI_MANSION" Context="Summary" Text="LOC_GREATPERSON_PLATI_RASTRELLI_UC_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

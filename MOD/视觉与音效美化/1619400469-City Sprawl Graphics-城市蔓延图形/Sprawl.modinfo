@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="511c8fce-8dd4-4393-9941-03925e105422" version="4">
+  <Properties>
+    <Name>City Sprawl Graphics</Name>
+    <Description>Makes (more) buildings appear on the outskirts of the city center and districts next to it.</Description>
+    <Teaser>More urban sprawl (cosmetic only).</Teaser>
+    <Authors>Hiraeth, LostAlgorithm, JNR</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateArt id="ArtDependency">
+      <Properties>
+        <LoadOrder>2013</LoadOrder>
+      </Properties>
+      <File>Sprawl.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/CityGenerators.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Landmarks_Shared.artdef</File>
+    <File>Sprawl.dep</File>
+  </Files>
+</Mod>

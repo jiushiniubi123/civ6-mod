@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b21bf49d-565e-42bb-a4e9-379a9facb54f" version="1">
+  <Properties>
+    <Name>Sukritact's Urban Identities</Name>
+    <Description>Identities are traits your cities can earn, changing the rules of city planning. Only cities owned by a civilization can have Identities. Identities may have both positive and negative effects on your city. They may provide bonuses or maluses to certain districts or improvements. Some may have a condition that you must fulfil to reap the rewards. Either way, they often encourage you to lay out your districts and improvements in a way you might not do otherwise.[NEWLINE][NEWLINE]Gain Identities by being the first civilization to found or capture a city in an unclaimed Region (areas of the map that have been marked off as special in some way). Doing this claims the Region for that city, and earns the Region’s associated Identity for that city.</Description>
+    <Created>1731530391</Created>
+    <Teaser>Urban Identities gives your cities character! What cities will you build?</Teaser>
+    <Authors>Sukritact, Leugi, CaptainLime, Pouakai</Authors>
+    <SpecialThanks>Andrew Dittmann, Matt Lambert, Pinary, Slothoth</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <References>
+    <Mod id="4922ba47-61e1-4b15-9281-db996b14522d" title="Sukritact's Oceans" />
+  </References>
+  <ActionCriteria>
+    <Criteria id="NeverMet" />
+    <Criteria id="GameModeEnabled">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_SUK_URBANIDENTITIES</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <File>Core/Common/Suk_UrbanIdentities_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="UpdateText">
+      <File>Core/Localisation/Suk_UrbanIdentities_Localisation.sql</File>
+    </UpdateText>
+    <UpdateArt id="UpdateArt">
+      <File>Sukritact_s_Urban_Identities.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="UpdateIcons">
+      <File>Core/Common/Suk_UrbanIdentities_Icons.sql</File>
+    </UpdateIcons>
+  </FrontEndActions>
+  <InGameActions>
+    <AddGameplayScripts id="AddGameplayScripts">
+      <Criteria>GameModeEnabled</Criteria>
+      <File>Lua/Suk_UrbanIdentities_Master.lua</File>
+      <File>Lua/Suk_CustomRegionEffects_Core.lua</File>
+    </AddGameplayScripts>
+    <UpdateArt id="UpdateArt">
+      <Criteria>GameModeEnabled</Criteria>
+      <File>Sukritact_s_Urban_Identities.dep</File>
+    </UpdateArt>
+    <ImportFiles id="ImportFiles">
+      <Criteria>GameModeEnabled</Criteria>
+      <File>Lua/Suk_RegionDefinitions_UrbanIdentities.lua</File>
+      <File>Lua/Suk_RegionCreator.lua</File>
+      <File>Lua/Suk_RegionIdentities.lua</File>
+      <File>Lua/Suk_IdentitiesManager.lua</File>
+      <File>Lua/Modules/PlotIterators.lua</File>
+      <File>Lua/Modules/Suk_MapConvolution.lua</File>
+      <File>UI/CivilopediaPage_Suk_UrbanIdentities.lua</File>
+    </ImportFiles>
+    <AddUserInterfaces id="AddUserInterfaces">
+      <Properties>
+        <Context>InGame</Context>
+        <LoadOrder>11</LoadOrder>
+      </Properties>
+      <Criteria>GameModeEnabled</Criteria>
+      <File>UI/Suk_RegionOverlay.xml</File>
+    </AddUserInterfaces>
+    <UpdateDatabase id="UpdateSchema">
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <Criteria>GameModeEnabled</Criteria>
+      <File>Core/Gameplay/Suk_UrbanIdentities_Schema.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="UpdateDatabase_RegionsAutomated">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <Criteria>GameModeEnabled</Criteria>
+      <File>Core/Gameplay/Suk_UrbanIdentities_Regions.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="UpdateText">
+      <Criteria>GameModeEnabled</Criteria>
+      <File>Core/Localisation/Suk_UrbanIdentities_Localisation.sql</File>
+      <File>Core/Localisation/Suk_UrbanIdentities_CivilopediaLocalisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="UpdateIcons">
+      <Criteria>GameModeEnabled</Criteria>
+      <File>Core/Common/Suk_UrbanIdentities_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateDatabase id="UpdateDatabase_RegionIdenitites">
+      <Properties>
+        <LoadOrder>11</LoadOrder>
+      </Properties>
+      <Criteria>GameModeEnabled</Criteria>
+      <File priority="2">Core/Gameplay/Suk_UrbanIdentities_RegionIdentities.sql</File>
+      <File priority="2">Core/Gameplay/Suk_UrbanIdentities_Civilopedia.sql</File>
+      <File priority="1">Core/Gameplay/Suk_UrbanIdentities__AdjacencySetup.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Lenses.artdef</File>
+    <File>ArtDefs/Overlay.artdef</File>
+    <File>ArtDefs/UserInterface.artdef</File>
+    <File>Core/Common/Suk_UrbanIdentities_Config.sql</File>
+    <File>Core/Common/Suk_UrbanIdentities_Icons.sql</File>
+    <File>Core/Gameplay/Suk_UrbanIdentities_Civilopedia.sql</File>
+    <File>Core/Gameplay/Suk_UrbanIdentities_RegionIdentities.sql</File>
+    <File>Core/Gameplay/Suk_UrbanIdentities_Regions.sql</File>
+    <File>Core/Gameplay/Suk_UrbanIdentities_Schema.sql</File>
+    <File>Core/Gameplay/Suk_UrbanIdentities__AdjacencySetup.sql</File>
+    <File>Core/Localisation/Suk_UrbanIdentities_CivilopediaLocalisation.sql</File>
+    <File>Core/Localisation/Suk_UrbanIdentities_Localisation.sql</File>
+    <File>Lua/Modules/PlotIterators.lua</File>
+    <File>Lua/Modules/Suk_MapConvolution.lua</File>
+    <File>Lua/Suk_CustomRegionEffects_Core.lua</File>
+    <File>Lua/Suk_IdentitiesManager.lua</File>
+    <File>Lua/Suk_RegionCreator.lua</File>
+    <File>Lua/Suk_RegionDefinitions_UrbanIdentities.lua</File>
+    <File>Lua/Suk_RegionIdentities.lua</File>
+    <File>Lua/Suk_UrbanIdentities_Master.lua</File>
+    <File>Platforms/MacOS/BLPs/Overlay.blp</File>
+    <File>Platforms/MacOS/BLPs/UITextures.blp</File>
+    <File>Platforms/Windows/BLPs/Overlay.blp</File>
+    <File>Platforms/Windows/BLPs/UITextures.blp</File>
+    <File>Sukritact_s_Urban_Identities.dep</File>
+    <File>UI/CivilopediaPage_Suk_UrbanIdentities.lua</File>
+    <File>UI/Suk_RegionLens.lua</File>
+    <File>UI/Suk_RegionLens.xml</File>
+    <File>UI/Suk_RegionOverlay.lua</File>
+    <File>UI/Suk_RegionOverlay.xml</File>
+  </Files>
+</Mod>

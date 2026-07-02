@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ISABELLA -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_ISABELLA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ISABELLA" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ISABELLA_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GreatSovereigns" EraType="ERA_RENAISSANCE" Gender="F" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_ISABELLA_ACTIVE_ALTERNATIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ISABELLA" ModifierId="GREATPERSON_BONUS_ISABELLA_FREE_EXPLORER" 			AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<!-- -------------------------------------------------------------------------------------->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ISABELLA" ModifierId="GREATPERSON_BONUS_ISABELLA_SHRINE" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ISABELLA" ModifierId="GREATPERSON_BONUS_ISABELLA_ALTAR" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ISABELLA" ModifierId="GREATPERSON_BONUS_ISABELLA_TEMPLE" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ISABELLA" ModifierId="GREATPERSON_BONUS_ISABELLA_MONASTERY" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ISABELLA" ModifierId="GREATPERSON_BONUS_ISABELLA_GARDEN" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ISABELLA" ModifierId="GREATPERSON_BONUS_ISABELLA_HOSPITUM" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_ISABELLA_FREE_EXPLORER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_GREAT_PERSON_CLASS_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- -------------------------------------------------------------------------------------->
+		<Row><ModifierId>GREATPERSON_BONUS_ISABELLA_SHRINE</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT</ModifierType><Permanent>true</Permanent>
+		<SubjectRequirementSetId>REQ_PLATI_ISABELLA_SHRINE</SubjectRequirementSetId></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_ISABELLA_ALTAR</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT</ModifierType><Permanent>true</Permanent>
+		<SubjectRequirementSetId>REQ_PLATI_ISABELLA_ALTAR</SubjectRequirementSetId></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_ISABELLA_TEMPLE</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT</ModifierType><Permanent>true</Permanent>
+		<SubjectRequirementSetId>REQ_PLATI_ISABELLA_TEMPLE</SubjectRequirementSetId></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_ISABELLA_MONASTERY</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT</ModifierType><Permanent>true</Permanent>
+		<SubjectRequirementSetId>REQ_PLATI_ISABELLA_MONASTERY</SubjectRequirementSetId></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_ISABELLA_GARDEN</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT</ModifierType><Permanent>true</Permanent>
+		<SubjectRequirementSetId>REQ_PLATI_ISABELLA_GARDEN</SubjectRequirementSetId></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_ISABELLA_HOSPITUM</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT</ModifierType><Permanent>true</Permanent>
+		<SubjectRequirementSetId>REQ_PLATI_ISABELLA_HOSPITUM</SubjectRequirementSetId></Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_ISABELLA_FREE_EXPLORER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_JNR_EXPLORER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_ISABELLA_FREE_EXPLORER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- -------------------------------------------------------------------------------------->
+		<Row><ModifierId>GREATPERSON_BONUS_ISABELLA_SHRINE</ModifierId><Name>GreatPersonClassType</Name><Value>GREAT_PERSON_CLASS_JNR_EXPLORER</Value></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_ISABELLA_SHRINE</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_ISABELLA_ALTAR</ModifierId><Name>GreatPersonClassType</Name><Value>GREAT_PERSON_CLASS_JNR_EXPLORER</Value></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_ISABELLA_ALTAR</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_ISABELLA_TEMPLE</ModifierId><Name>GreatPersonClassType</Name><Value>GREAT_PERSON_CLASS_JNR_EXPLORER</Value></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_ISABELLA_TEMPLE</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_ISABELLA_MONASTERY</ModifierId><Name>GreatPersonClassType</Name><Value>GREAT_PERSON_CLASS_JNR_EXPLORER</Value></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_ISABELLA_MONASTERY</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_ISABELLA_GARDEN</ModifierId><Name>GreatPersonClassType</Name><Value>GREAT_PERSON_CLASS_JNR_EXPLORER</Value></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_ISABELLA_GARDEN</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_ISABELLA_HOSPITUM</ModifierId><Name>GreatPersonClassType</Name><Value>GREAT_PERSON_CLASS_JNR_EXPLORER</Value></Row>
+		<Row><ModifierId>GREATPERSON_BONUS_ISABELLA_HOSPITUM</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_BONUS_ISABELLA_FREE_EXPLORER" Context="Summary" Text="LOC_GREATPERSON_PLATI_ISABELLA_ACTIVE_ALTERNATIVE"/>
+	</ModifierStrings>
+	<RequirementSets>
+		<Row><RequirementSetId>REQ_PLATI_ISABELLA_SHRINE</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>REQ_PLATI_ISABELLA_ALTAR</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>REQ_PLATI_ISABELLA_TEMPLE</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>REQ_PLATI_ISABELLA_MONASTERY</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>REQ_PLATI_ISABELLA_GARDEN</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>REQ_PLATI_ISABELLA_HOSPITUM</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>REQ_PLATI_ISABELLA_SHRINE</RequirementSetId><RequirementId>REQUIRES_PLATI_ISABELLA_SHRINE</RequirementId></Row>
+		<Row><RequirementSetId>REQ_PLATI_ISABELLA_ALTAR</RequirementSetId><RequirementId>REQUIRES_PLATI_ISABELLA_ALTAR</RequirementId></Row>
+		<Row><RequirementSetId>REQ_PLATI_ISABELLA_TEMPLE</RequirementSetId><RequirementId>REQUIRES_PLATI_ISABELLA_TEMPLE</RequirementId></Row>
+		<Row><RequirementSetId>REQ_PLATI_ISABELLA_MONASTERY</RequirementSetId><RequirementId>REQUIRES_PLATI_ISABELLA_MONASTERY</RequirementId></Row>
+		<Row><RequirementSetId>REQ_PLATI_ISABELLA_GARDEN</RequirementSetId><RequirementId>REQUIRES_PLATI_ISABELLA_GARDEN</RequirementId></Row>
+		<Row><RequirementSetId>REQ_PLATI_ISABELLA_HOSPITUM</RequirementSetId><RequirementId>REQUIRES_PLATI_ISABELLA_HOSPITUM</RequirementId></Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row><RequirementId>REQUIRES_PLATI_ISABELLA_SHRINE</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>REQUIRES_PLATI_ISABELLA_ALTAR</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>REQUIRES_PLATI_ISABELLA_TEMPLE</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>REQUIRES_PLATI_ISABELLA_MONASTERY</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>REQUIRES_PLATI_ISABELLA_GARDEN</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>REQUIRES_PLATI_ISABELLA_HOSPITUM</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row><RequirementId>REQUIRES_PLATI_ISABELLA_SHRINE</RequirementId><Name>BuildingType</Name>
+		<Value>BUILDING_SHRINE</Value></Row>
+		<Row><RequirementId>REQUIRES_PLATI_ISABELLA_ALTAR</RequirementId><Name>BuildingType</Name>
+		<Value>BUILDING_JNR_ALTAR</Value></Row>
+		<Row><RequirementId>REQUIRES_PLATI_ISABELLA_TEMPLE</RequirementId><Name>BuildingType</Name>
+		<Value>BUILDING_TEMPLE</Value></Row>
+		<Row><RequirementId>REQUIRES_PLATI_ISABELLA_MONASTERY</RequirementId><Name>BuildingType</Name>
+		<Value>BUILDING_JNR_MONASTERY</Value></Row>
+		<Row><RequirementId>REQUIRES_PLATI_ISABELLA_GARDEN</RequirementId><Name>BuildingType</Name>
+		<Value>BUILDING_JNR_GARDEN</Value></Row>
+		<Row><RequirementId>REQUIRES_PLATI_ISABELLA_HOSPITUM</RequirementId><Name>BuildingType</Name>
+		<Value>BUILDING_JNR_HOSPITIUM</Value></Row>
+	</RequirementArguments>
+</GameData>

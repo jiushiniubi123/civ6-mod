@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Maya -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/29/2023 8:24:07 PM -->
+<GameData>
+	<BuildingModifiers>
+		<!--奇琴伊察-->
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<ModifierId>CHICHEN_ITZA_CITY_WITHIN_6_TILES_FROM_CAPITAL_ATTACH_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<ModifierId>CHICHEN_ITZA_ADJUST_RAINFOREST_OBSERVATORY_ADJACENCY_EWHO</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<ModifierId>CHICHEN_ITZA_ADJUST_FARM_CULTURE_ADJACENT_TO_RAINFOREST_EWHO</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<ModifierId>CHICHEN_ITZA_ADJUST_FARM_PRODUCTION_ADJACENT_TO_RAINFOREST_EWHO</ModifierId>
+		</Row>
+
+	</BuildingModifiers>
+
+	<Modifiers>
+		<!--奇琴伊察-->
+		<Row>
+			<ModifierId>CHICHEN_ITZA_CITY_WITHIN_6_TILES_FROM_CAPITAL_ATTACH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_MAYA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_CITY_IS_FOUNDED_6_TILES_FROM_CAPITAL_OR_CAPITAL_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_CITY_WITHIN_6_TILES_FROM_CAPITAL_JUNGLE_CULTURE_EWHO</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_JUNGLE_EWHO</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>CHICHEN_ITZA_ADJUST_RAINFOREST_OBSERVATORY_ADJACENCY_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_FEATURE_ADJACENCY</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_MAYA_EWHO</OwnerRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>CHICHEN_ITZA_ADJUST_FARM_CULTURE_ADJACENT_TO_RAINFOREST_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_MAYA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_FARM_AND_ADJACENT_TO_RAINFOREST_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_ADJUST_FARM_PRODUCTION_ADJACENT_TO_RAINFOREST_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_MAYA_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_PLOT_HAS_FARM_AND_ADJACENT_TO_RAINFOREST_EWHO</SubjectRequirementSetId>
+		</Row>
+
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_CITY_WITHIN_6_TILES_FROM_CAPITAL_ATTACH_EWHO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>CHICHEN_ITZA_CITY_WITHIN_6_TILES_FROM_CAPITAL_JUNGLE_CULTURE_EWHO</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_CITY_WITHIN_6_TILES_FROM_CAPITAL_JUNGLE_CULTURE_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_CITY_WITHIN_6_TILES_FROM_CAPITAL_JUNGLE_CULTURE_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>CHICHEN_ITZA_ADJUST_RAINFOREST_OBSERVATORY_ADJACENCY_EWHO</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_OBSERVATORY</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_ADJUST_RAINFOREST_OBSERVATORY_ADJACENCY_EWHO</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_JUNGLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_ADJUST_RAINFOREST_OBSERVATORY_ADJACENCY_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_ADJUST_RAINFOREST_OBSERVATORY_ADJACENCY_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_ADJUST_RAINFOREST_OBSERVATORY_ADJACENCY_EWHO</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_CHICHEN_ITZA_OBSERVATORY_JUNGLE_SCIENCE_EWHO</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>CHICHEN_ITZA_ADJUST_FARM_CULTURE_ADJACENT_TO_RAINFOREST_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_ADJUST_FARM_CULTURE_ADJACENT_TO_RAINFOREST_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_ADJUST_FARM_PRODUCTION_ADJACENT_TO_RAINFOREST_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_ADJUST_FARM_PRODUCTION_ADJACENT_TO_RAINFOREST_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_PLAYER_IS_MAYA_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_CITY_IS_FOUNDED_6_TILES_FROM_CAPITAL_OR_CAPITAL_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLOT_HAS_JUNGLE_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLOT_HAS_FARM_AND_ADJACENT_TO_RAINFOREST_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		
+
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_MAYA_EWHO" RequirementId="PLAYER_IS_MAYA_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_MAYA_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+
+		<Row RequirementSetId="REQSET_CITY_IS_FOUNDED_6_TILES_FROM_CAPITAL_OR_CAPITAL_EWHO" RequirementId="REQUIRES_CITY_IS_FOUNDED_6_TILES_FROM_CAPITAL_OR_CAPITAL_EWHO"/>
+		<Row RequirementSetId="REQSET_PLOT_HAS_JUNGLE_EWHO" RequirementId="REQUIRES_PLOT_HAS_JUNGLE"/>
+
+		<Row RequirementSetId="REQSET_PLOT_HAS_FARM_AND_ADJACENT_TO_RAINFOREST_EWHO" RequirementId="REQUIRES_PLOT_HAS_FARM"/>
+		<Row RequirementSetId="REQSET_PLOT_HAS_FARM_AND_ADJACENT_TO_RAINFOREST_EWHO" RequirementId="REQUIRES_PLOT_ADJACENT_TO_RAINFOREST_EWHO"/>
+		
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<!--Maya-->
+		<Row RequirementId="PLAYER_IS_MAYA_EWHO" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+
+		<Row RequirementId="REQUIRES_CITY_IS_FOUNDED_6_TILES_FROM_CAPITAL_OR_CAPITAL_EWHO" RequirementType="REQUIREMENT_PLOT_NEAR_CAPITAL"/>
+	</Requirements>
+
+	<RequirementArguments>
+		<!--Maya-->
+		<Row RequirementId="PLAYER_IS_MAYA_EWHO" Name="CivilizationType" Value="CIVILIZATION_MAYA"/>
+
+		<Row>
+			<RequirementId>REQUIRES_CITY_IS_FOUNDED_6_TILES_FROM_CAPITAL_OR_CAPITAL_EWHO</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_IS_FOUNDED_6_TILES_FROM_CAPITAL_OR_CAPITAL_EWHO</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>6</Value>
+		</Row>
+	</RequirementArguments>
+
+	<TraitModifiers>
+		<!--奇琴伊察-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MAYAB</TraitType>
+			<ModifierId>CIVILIZATION_MAYA_ADJUST_CHICHEN_ITZA_PRODUCTION_EWHO</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<Modifiers>
+		<!--奇琴伊察-->
+		<Row>
+			<ModifierId>CIVILIZATION_MAYA_ADJUST_CHICHEN_ITZA_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_MAYA_EWHO</OwnerRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<!--奇琴伊察-->
+		<Row>
+			<ModifierId>CIVILIZATION_MAYA_ADJUST_CHICHEN_ITZA_PRODUCTION_EWHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_CHICHEN_ITZA</Value>
+		</Row>
+		<Row>
+			<ModifierId>CIVILIZATION_MAYA_ADJUST_CHICHEN_ITZA_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

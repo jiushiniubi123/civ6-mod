@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_Projects_Expansion2 -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/18/2023 12:10:16 PM -->
+<GameData>
+	<Types>
+		<!--BUILDING_GREAT_BATH-->
+		<Row Type="PROJECT_GREAT_BATH_ADJUST_FLOODPLAIN_YIELD_EWHO" Kind="KIND_PROJECT"/>
+		<!--BUILDING_PANAMA_CANAL-->
+		<Row Type="PROJECT_PANAMA_CANAL_ADJUST_SEA_UNITS_MOVEMENT_EWHO" Kind="KIND_PROJECT"/>
+	</Types>
+
+	<Projects>
+		<!--BUILDING_GREAT_BATH-->
+		<Row ProjectType="PROJECT_GREAT_BATH_ADJUST_FLOODPLAIN_YIELD_EWHO"
+			 Name="LOC_PROJECT_GREAT_BATH_ADJUST_FLOODPLAIN_YIELD_EWHO_NAME"
+			 ShortName="LOC_PROJECT_GREAT_BATH_ADJUST_FLOODPLAIN_YIELD_EWHO_SHORT_NAME"
+			 Description="LOC_PROJECT_GREAT_BATH_ADJUST_FLOODPLAIN_YIELD_EWHO_DESCRIPTION"
+			 MaxPlayerInstances="1"
+			 RequiredBuilding="BUILDING_GREAT_BATH"
+			 Cost="36" 
+			 AdvisorType="ADVISOR_GENERIC"
+			 UnlocksFromEffect="true"/>
+
+		<!--BUILDING_PANAMA_CANAL-->
+		<Row ProjectType="PROJECT_PANAMA_CANAL_ADJUST_SEA_UNITS_MOVEMENT_EWHO"
+			 Name="LOC_PROJECT_PANAMA_CANAL_ADJUST_SEA_UNITS_MOVEMENT_EWHO_NAME"
+			 ShortName="LOC_PROJECT_PANAMA_CANAL_ADJUST_SEA_UNITS_MOVEMENT_EWHO_SHORT_NAME"
+			 Description="LOC_PROJECT_PANAMA_CANAL_ADJUST_SEA_UNITS_MOVEMENT_EWHO_DESCRIPTION"
+			 MaxPlayerInstances="1"
+			 RequiredBuilding="BUILDING_PANAMA_CANAL"
+			 Cost="138"
+			 AdvisorType="ADVISOR_GENERIC"
+			 UnlocksFromEffect="true"/>
+	</Projects>
+
+	<Project_YieldConversions>
+		<!--BUILDING_GREAT_BATH-->
+		<Row ProjectType="PROJECT_GREAT_BATH_ADJUST_FLOODPLAIN_YIELD_EWHO" YieldType="YIELD_FAITH" PercentOfProductionRate="15"/>
+		<!--BUILDING_PANAMA_CANAL-->
+		<Row ProjectType="PROJECT_PANAMA_CANAL_ADJUST_SEA_UNITS_MOVEMENT_EWHO" YieldType="YIELD_GOLD" PercentOfProductionRate="15"/>
+	</Project_YieldConversions>
+
+	<ProjectCompletionModifiers>
+		<!--BUILDING_GREAT_BATH-->
+		<Row ProjectType="PROJECT_GREAT_BATH_ADJUST_FLOODPLAIN_YIELD_EWHO" ModifierId="GREAT_BATH_ADJUST_FLOODPLAIN_PRODUCTION_EWHO"/>
+		<Row ProjectType="PROJECT_GREAT_BATH_ADJUST_FLOODPLAIN_YIELD_EWHO" ModifierId="GREAT_BATH_ADJUST_FLOODPLAIN_FAITH_EWHO"/>
+		<!--BUILDING_PANAMA_CANAL-->
+		<Row ProjectType="PROJECT_PANAMA_CANAL_ADJUST_SEA_UNITS_MOVEMENT_EWHO" ModifierId="PANAMA_CANAL_SEA_UNITS_EXTRA_MOVEMENT_NORMAL_EWHO"/>
+	</ProjectCompletionModifiers>
+
+	<Modifiers>
+		<!--BUILDING_GREAT_BATH-->
+		<Row>
+			<ModifierId>GREAT_BATH_ADJUST_FLOODPLAIN_PRODUCTION_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_GREAT_BATH_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_GREAT_BATH_FLOOD_EWHO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_BATH_ADJUST_FLOODPLAIN_FAITH_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_GREAT_BATH_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQSET_GREAT_BATH_FLOOD_EWHO</SubjectRequirementSetId>
+		</Row>
+
+		<!--BUILDING_PANAMA_CANAL-->
+		<Row>
+			<ModifierId>PANAMA_CANAL_SEA_UNITS_EXTRA_MOVEMENT_NORMAL_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_HAS_PANAMA_CANAL_EWHO</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQUIREMENTS_UNIT_SEA_DOMAIN</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<!--BUILDING_GREAT_BATH-->
+		<Row>
+			<ModifierId>GREAT_BATH_ADJUST_FLOODPLAIN_PRODUCTION_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_BATH_ADJUST_FLOODPLAIN_PRODUCTION_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_BATH_ADJUST_FLOODPLAIN_FAITH_EWHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_BATH_ADJUST_FLOODPLAIN_FAITH_EWHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<!--BUILDING_PANAMA_CANAL-->
+		<Row>
+			<ModifierId>PANAMA_CANAL_SEA_UNITS_EXTRA_MOVEMENT_NORMAL_EWHO</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_SEA_UNITS_EXTRA_MOVEMENT_PANAMA_CANAL_EWHO</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<!--BUILDING_GREAT_BATH-->
+		<Row RequirementSetId="REQSET_GREAT_BATH_FLOOD_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_HAS_GREAT_BATH_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+		<!--BUILDING_PANAMA_CANAL-->
+		<Row RequirementSetId="REQSET_PLAYER_HAS_PANAMA_CANAL_EWHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<!--BUILDING_GREAT_BATH-->
+		<Row RequirementSetId="REQSET_GREAT_BATH_FLOOD_EWHO" RequirementId="REQUIRES_PLOT_HAS_FLOODPLAINS_TAG"/>
+		<Row RequirementSetId="REQSET_PLAYER_HAS_GREAT_BATH_EWHO" RequirementId="PLAYER_HAS_GREAT_BATH_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_HAS_GREAT_BATH_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+		<!--BUILDING_PANAMA_CANAL-->
+		<Row RequirementSetId="REQSET_PLAYER_HAS_PANAMA_CANAL_EWHO" RequirementId="PLAYER_HAS_PANAMA_CANAL_EWHO"/>
+		<Row RequirementSetId="REQSET_PLAYER_HAS_PANAMA_CANAL_EWHO" RequirementId="REQUIRES_MAJOR_CIV_OPPONENT"/>
+
+	</RequirementSetRequirements>
+
+	<!--=============================================================================================================-->
+
+	<BuildingModifiers>
+		<!--BUILDING_GREAT_BATH-->
+		<Row>
+			<BuildingType>BUILDING_GREAT_BATH</BuildingType>
+			<ModifierId>GREAT_BATH_ALLOW_PROJECT_EWHO</ModifierId>
+		</Row>
+
+		<!--BUILDING_PANAMA_CANAL-->
+		<Row>
+			<BuildingType>BUILDING_PANAMA_CANAL</BuildingType>
+			<ModifierId>PANAMA_CANAL_ALLOW_PROJECT_EWHO</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+		<!--BUILDING_GREAT_BATH-->
+		<Row>
+			<ModifierId>GREAT_BATH_ALLOW_PROJECT_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ALLOW_PROJECT_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_MAJOR_EWHO</OwnerRequirementSetId>
+		</Row>
+
+		<!--BUILDING_PANAMA_CANAL-->
+		<Row>
+			<ModifierId>PANAMA_CANAL_ALLOW_PROJECT_EWHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ALLOW_PROJECT_EWHO</ModifierType>
+			<OwnerRequirementSetId>REQSET_PLAYER_IS_NOT_AMERICA_EWHO</OwnerRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--BUILDING_GREAT_BATH-->
+		<Row>
+			<ModifierId>GREAT_BATH_ALLOW_PROJECT_EWHO</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_GREAT_BATH_ADJUST_FLOODPLAIN_YIELD_EWHO</Value>
+		</Row>
+		<!--BUILDING_PANAMA_CANAL-->
+		<Row>
+			<ModifierId>PANAMA_CANAL_ALLOW_PROJECT_EWHO</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_PANAMA_CANAL_ADJUST_SEA_UNITS_MOVEMENT_EWHO</Value>
+		</Row>
+	</ModifierArguments>
+
+
+</GameData>

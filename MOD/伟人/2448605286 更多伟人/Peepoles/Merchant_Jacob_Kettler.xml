@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Renaissance Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_JACOBKETTLER" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_JACOBKETTLER" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_JACOBKETTLER_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="2" ActionRequiresCompletedDistrictType="DISTRICT_HARBOR" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_JACOBKETTLER_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_JACOBKETTLER" ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_JACOBKETTLER_BONUS_PRODUCTION" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_JACOBKETTLER_BONUS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_JACOBKETTLER_BONUS_PRODUCTION</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_PLATI_JACOBKETTLER_BONUS_PRODUCTION</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_PLATI_JACOBKETTLER_BONUS_PRODUCTION" Context="Summary" Text="LOC_GREATPERSON_PLATI_JACOBKETTLER_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

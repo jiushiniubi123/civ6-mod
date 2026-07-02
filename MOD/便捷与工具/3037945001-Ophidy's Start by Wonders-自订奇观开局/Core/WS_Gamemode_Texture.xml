@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gamemode_Texture -->
+<!-- Author: Lazire -->
+<!-- DateCreated: 9/17/2023 4:03:44 AM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_GAMEMODE_WS" IconSize="38" Filename="ICON_GAMEMODE_PAITITI_START_38"/>
+		<Row Name="ATLAS_ICON_GAMEMODE_WS" IconSize="64" Filename="ICON_GAMEMODE_PAITITI_START_64"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_GAMEMODE_WS" Atlas="ATLAS_ICON_GAMEMODE_WS" Index="0"/>
+	</IconDefinitions>
+</GameData>

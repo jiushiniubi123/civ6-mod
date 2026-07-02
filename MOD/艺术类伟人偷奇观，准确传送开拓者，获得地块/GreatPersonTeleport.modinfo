@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d5a69e45-4f4b-4de7-bc37-987717da6eff" version="1">
+  <Properties>
+    <Name>LOC_GREAT_PERSON_TELEPORT_NAME</Name>
+    <Description>LOC_GREAT_PERSON_TELEPORT_DESCRIPTION</Description>
+    <Created>1716652800</Created>
+    <Teaser>LOC_GREAT_PERSON_TELEPORT_TEASER</Teaser>
+    <Authors>SbF6HSO3F</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="LOC_GREAT_PERSON_TELEPORT_NAME">
+      <en_US>Great Person: Wonder Move, Settler Teleport &amp; Culture Bomb</en_US>
+      <zh_Hans_CN>艺术伟人：移动奇观、传送开拓者与文化炸弹</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_GREAT_PERSON_TELEPORT_TEASER">
+      <en_US>Great Writers, Artists, and Musicians can teleport a nearby Settler, trigger a Culture Bomb, or summon a Wonderologist to move Wonders — before producing any Great Works.</en_US>
+      <zh_Hans_CN>大作家、大艺术家、大音乐家可在生产任何巨作之前，传送开拓者、触发文化炸弹，或召唤奇观学家来移动奇观。</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_GREAT_PERSON_TELEPORT_DESCRIPTION">
+      <en_US>Before producing any Great Works, Great Writers, Artists, and Musicians can choose one of three actions: Teleport a nearby Settler to a random unowned land plot on a different continent; Trigger a Culture Bomb that acquires the current tile and claims surrounding tiles without Districts, Wonders, or City Centers; or Summon a Wonderologist — a special unit that can steal Wonders from your own cities and rebuild them on empty plots. Using any of these actions will consume the Great Person.</en_US>
+      <zh_Hans_CN>在生产任何巨作之前，大作家、大艺术家、大音乐家可以从三种行动中选择一种：将附近开拓者随机传送至另一大陆的任意无主陆地块；触发文化炸弹，获取当前地块并获取周围没有区域、奇观或市中心的地块；或召唤奇观学家——一种能从己方城市拆除奇观并在空地重建的特殊单位。使用任意行动将消耗该伟人。</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <ActionCriteria>
+    <Criteria id="GREAT_PERSON_TELEPORT">
+      <ModInUse inverse="1">5303bff9-42a0-4380-baae-3e25b197abf4</ModInUse>
+    </Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <UpdateDatabase id="Config">
+      <File>Core/GreatWorkCreatorCharges_Data.xml</File>
+    </UpdateDatabase>
+    <AddUserInterfaces id="UI">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>UI/GreatPersonTeleport_UI.xml</File>
+    </AddUserInterfaces>
+    <AddGameplayScripts id="Lua">
+      <File>Lua/GreatPersonTeleport.lua</File>
+    </AddGameplayScripts>
+    <UpdateIcons id="Icon">
+      <File>GreatPersonTeleport_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File>Text/GreatPersonTeleport_BaseText.sql</File>
+      <File>Text/GreatPersonTeleport_zh_Hans_CN.sql</File>
+    </UpdateText>
+    <UpdateArt id="Art">
+      <File>GreatPersonTeleport.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>GreatPersonTeleport.dep</File>
+    <File>GreatPersonTeleport_Icons.xml</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Core/GreatWorkCreatorCharges_Data.xml</File>
+    <File>Lua/GreatPersonTeleport.lua</File>
+    <File>Platforms/MacOS/BLPs/ArchaeologistofGreatBritain.blp</File>
+    <File>Platforms/Windows/BLPs/ArchaeologistofGreatBritain.blp</File>
+    <File>Text/GreatPersonTeleport_BaseText.sql</File>
+    <File>Text/GreatPersonTeleport_zh_Hans_CN.sql</File>
+    <File>UI/GreatPersonTeleport_UI.lua</File>
+    <File>UI/GreatPersonTeleport_UI.xml</File>
+  </Files>
+</Mod>

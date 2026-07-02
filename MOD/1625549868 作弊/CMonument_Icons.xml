@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_CMONUMENT"             Atlas="ICON_ATLAS_BUILDINGS" Index="0"/>
+	</IconDefinitions>
+</GameData>

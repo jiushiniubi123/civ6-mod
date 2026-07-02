@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Medieval Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_SUAREZ" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SUAREZ" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_SUAREZ_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionRequiresOwnedTile="false" ActionRequiresAdjacentOwnedTile="true" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualBirthModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SUAREZ" ModifierId="PLATI_CORTES_PASSIVE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SUAREZ" ModifierId="GREATPERSON_MOVEMENT_AOE_MEDIEVAL_LAND"/>
+	</GreatPersonIndividualBirthModifiers>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SUAREZ" ModifierId="GREATPERSON_PLATI_SUAREZ_ACTIVE" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_SUAREZ" ModifierId="GREATPERSON_GRANT_PLOT" 			AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_SUAREZ_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_CORTES_PASSIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_MEDIEVAL_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_SUAREZ_ACTIVE</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SPANISH_CONQUISTADOR</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_SUAREZ_ACTIVE</ModifierId>
+			<Name>Experience</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PLATI_SUAREZ_ACTIVE</ModifierId>
+			<Name>UniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLATI_CORTES_PASSIVE</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_PLATI_SARGON_SABBUM</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_PLATI_SUAREZ_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_PLATI_SUAREZ_ACTIVE"/>
+		<Row ModifierId="PLATI_CORTES_PASSIVE" Context="Summary" 		Text="LOC_GREATPERSON_PLATI_SARGON_PASSIVE"/>
+	</ModifierStrings>
+</GameData>

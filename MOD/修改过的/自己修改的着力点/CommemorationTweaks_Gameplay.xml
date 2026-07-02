@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+    <!-- ================================
+         移除雄伟壮丽"信仰购买平民单位"
+         删除该Modifier与着力点的关联
+         ================================ -->
+    <CommemorationModifiers>
+        <Delete CommemorationType="COMMEMORATION_INFRASTRUCTURE" ModifierId="COMMEMORATION_INFRASTRUCTURE_GA_PURCHASE_CIVILIAN"/>
+    </CommemorationModifiers>
+
+    <!-- ================================
+         修改建造者移动力 +2 → +3
+         ================================ -->
+    <ModifierArguments>
+        <Update>
+            <Where ModifierId="COMMEMORATION_INFRASTRUCTURE_GA_MOVEMENT" Name="Amount"/>
+            <Set Value="3"/>
+        </Update>
+    </ModifierArguments>
+
+    <!-- ================================
+         新增：开拓者移动力 +3 (黄金时代)
+         ================================ -->
+    <!-- 1) 需求：单位是开拓者 -->
+    <Requirements>
+        <Row>
+            <RequirementId>REQUIREMENT_UNIT_IS_SETTLER_COMMEMORATION</RequirementId>
+            <RequirementType>REQUIREMENT_UNIT_TYPE_MATCHES</RequirementType>
+        </Row>
+    </Requirements>
+    <RequirementArguments>
+        <Row>
+            <RequirementId>REQUIREMENT_UNIT_IS_SETTLER_COMMEMORATION</RequirementId>
+            <Name>UnitType</Name>
+            <Value>UNIT_SETTLER</Value>
+        </Row>
+    </RequirementArguments>
+
+    <!-- 2) 需求集：黄金时代 + 是开拓者 -->
+    <RequirementSets>
+        <Row>
+            <RequirementSetId>UNIT_IS_GOLDEN_AGE_SETTLER</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+    </RequirementSets>
+    <RequirementSetRequirements>
+        <Row>
+            <RequirementSetId>UNIT_IS_GOLDEN_AGE_SETTLER</RequirementSetId>
+            <RequirementId>REQUIREMENT_UNIT_IS_SETTLER_COMMEMORATION</RequirementId>
+        </Row>
+        <Row>
+            <RequirementSetId>UNIT_IS_GOLDEN_AGE_SETTLER</RequirementSetId>
+            <RequirementId>REQUIRES_PLAYER_HAS_GOLDEN_AGE</RequirementId>
+        </Row>
+    </RequirementSetRequirements>
+
+    <!-- 3) Modifier定义 -->
+    <Modifiers>
+        <Row>
+            <ModifierId>COMMEMORATION_INFRASTRUCTURE_GA_MOVEMENT_SETTLER</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT</ModifierType>
+            <SubjectRequirementSetId>UNIT_IS_GOLDEN_AGE_SETTLER</SubjectRequirementSetId>
+        </Row>
+    </Modifiers>
+    <ModifierArguments>
+        <Row>
+            <ModifierId>COMMEMORATION_INFRASTRUCTURE_GA_MOVEMENT_SETTLER</ModifierId>
+            <Name>Amount</Name>
+            <Value>3</Value>
+        </Row>
+    </ModifierArguments>
+
+    <!-- 4) 绑定到"雄伟壮丽"着力点 -->
+    <CommemorationModifiers>
+        <Row CommemorationType="COMMEMORATION_INFRASTRUCTURE" ModifierId="COMMEMORATION_INFRASTRUCTURE_GA_MOVEMENT_SETTLER"/>
+    </CommemorationModifiers>
+
+    <!-- ================================
+         全民皆兵：军事单位生产力 15% → 30%
+         ================================ -->
+    <ModifierArguments>
+        <Update>
+            <Where ModifierId="COMMEMORATION_MILITARY_GA_PRODUCTION" Name="Amount"/>
+            <Set Value="30"/>
+        </Update>
+    </ModifierArguments>
+</GameInfo>

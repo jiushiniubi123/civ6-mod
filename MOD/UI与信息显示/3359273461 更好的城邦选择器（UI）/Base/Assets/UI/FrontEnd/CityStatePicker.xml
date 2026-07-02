@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CityStatePicker -->
+<!-- Author: Maple_Leaves -->
+<!-- DateCreated: 10/23/2024 11:23:31 PM -->
+<Context xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\..\..\..\CivTech\Libs\ForgeUI\ForgeUI_Assets\Controls.xsd"
+		Style="FontNormal14">
+
+	<!--City-State Picker-->
+	<Container Size="1024,parent" Anchor="C,C">
+
+		<Box Size="parent,parent" Color="7,28,50,255"></Box>
+
+		<Container Style="ShellHeaderContainer">
+			<Grid Style="ShellHeaderButtonGrid">
+				<GridButton ID="CloseButton" Style="ShellButtonOrnateFlat" Size="133,36"  Anchor="R,C" Offset="1,0" String="LOC_MULTIPLAYER_BACK"/>
+			</Grid>
+			<Label ID="WindowTitle" Style="ShellHeader" Anchor="C,C" String=""/>
+		</Container>
+
+		<Grid Style="SubContainer4"  Size="parent-10,parent-104" Anchor="C,C" Color="45,75,110,255" Offset="0,5" InnerPadding="10,10">
+
+			<!-- Screen description -->
+			<Grid Anchor="C,T" Offset="0,5" Size="parent,250">
+				<Label ID="TopDescription" Anchor="C,T" Style="BlueGlow" WrapWidth="620"/>
+
+				<!-- City-State Count -->
+				<Stack Anchor="C,T" StackGrowth="Right" StackPadding="40" Offset="0,15">
+					<Stack StackGrowth="Right" Anchor="C,C">
+						<Label Style="ShellOptionText" ID="StringName" Anchor="L,C" String="LOC_CITY_STATE_PICKER_SORT_BY"/>
+						<PullDown ID="SortByPulldown" Anchor="C,C" Style="PullDownBlue" Size="300,24"/>
+					</Stack>
+
+					<Stack StackGrowth="Right" Anchor="C,C">
+						<Label Style="ShellOptionText" Anchor="L,C" String="LOC_CITYSTATE_COUNT_NAME"/>
+						<Slider ID="CityStateCountSlider" Style="SliderControl" Size="250,13" Anchor="L,C" />
+						<Image Texture="Controls_CircleCompass" Size="52,53" Color="ShellControl">
+							<Label ID="CityStateCountNumber" Style="FontFlair40" String="10" Anchor="C,C" FontStyle="stroke" Color0="208,212,217,255"	Color1="0,0,0,50"/>
+						</Image>
+					</Stack>
+				</Stack>
+
+				<Label ID="CountWarning" Anchor="C,T" WrapWidth="620" Offset="0,65"/>
+				
+				<!--City State Types Num-->
+				<!--Row 1-->
+				<Stack Anchor="C,T" StackGrowth="Right" StackPadding="40" Offset="0,80" ID="Stack_Row1">
+					<Stack StackGrowth="Right" Anchor="C,C">
+						<Label Style="ShellOptionText" Anchor="L,C" String="LOC_CITYSTATE_PICKER_INDUSTRIAL_COUNT_NAME"/>
+						<Slider ID="CityStateCountSlider_Industrial" Style="SliderControl" Size="160,13" Anchor="L,C" />
+						<Image Texture="Controls_CircleCompass" Size="52,53" Color="ShellControl">
+							<Label ID="CityStateCountNumber_Industrial" Style="FontFlair40" String="10" Anchor="C,C" FontStyle="stroke" Color0="208,212,217,255"	Color1="0,0,0,50"/>
+						</Image>
+					</Stack>
+
+					<Stack StackGrowth="Right" Anchor="C,C">
+						<Label Style="ShellOptionText" Anchor="L,C" String="LOC_CITYSTATE_PICKER_MILITARISTIC_COUNT_NAME"/>
+						<Slider ID="CityStateCountSlider_Militaristic" Style="SliderControl" Size="160,13" Anchor="L,C" />
+						<Image Texture="Controls_CircleCompass" Size="52,53" Color="ShellControl">
+							<Label ID="CityStateCountNumber_Militaristic" Style="FontFlair40" String="10" Anchor="C,C" FontStyle="stroke" Color0="208,212,217,255"	Color1="0,0,0,50"/>
+						</Image>
+					</Stack>
+					
+					<Stack StackGrowth="Right" Anchor="C,C">
+						<Label Style="ShellOptionText" Anchor="L,C" String="LOC_CITYSTATE_PICKER_SCIENTIFIC_COUNT_NAME"/>
+						<Slider ID="CityStateCountSlider_Scientific" Style="SliderControl" Size="160,13" Anchor="L,C" />
+						<Image Texture="Controls_CircleCompass" Size="52,53" Color="ShellControl">
+							<Label ID="CityStateCountNumber_Scientific" Style="FontFlair40" String="10" Anchor="C,C" FontStyle="stroke" Color0="208,212,217,255"	Color1="0,0,0,50"/>
+						</Image>
+					</Stack>		
+				</Stack>
+
+				<!--Row 2-->
+				<Stack Anchor="C,T" StackGrowth="Right" StackPadding="40" Offset="0,135" ID="Stack_Row2">
+					<Stack StackGrowth="Right" Anchor="C,C">
+						<Label Style="ShellOptionText" Anchor="L,C" String="LOC_CITYSTATE_PICKER_TRADE_COUNT_NAME"/>
+						<Slider ID="CityStateCountSlider_Trade" Style="SliderControl" Size="160,13" Anchor="L,C" />
+						<Image Texture="Controls_CircleCompass" Size="52,53" Color="ShellControl">
+							<Label ID="CityStateCountNumber_Trade" Style="FontFlair40" String="10" Anchor="C,C" FontStyle="stroke" Color0="208,212,217,255"	Color1="0,0,0,50"/>
+						</Image>
+					</Stack>
+
+					<Stack StackGrowth="Right" Anchor="C,C">
+						<Label Style="ShellOptionText" Anchor="L,C" String="LOC_CITYSTATE_PICKER_CULTURAL_COUNT_NAME"/>
+						<Slider ID="CityStateCountSlider_Cultural" Style="SliderControl" Size="160,13" Anchor="L,C" />
+						<Image Texture="Controls_CircleCompass" Size="52,53" Color="ShellControl">
+							<Label ID="CityStateCountNumber_Cultural" Style="FontFlair40" String="10" Anchor="C,C" FontStyle="stroke" Color0="208,212,217,255"	Color1="0,0,0,50"/>
+						</Image>
+					</Stack>
+
+					<Stack StackGrowth="Right" Anchor="C,C">
+						<Label Style="ShellOptionText" Anchor="L,C" String="LOC_CITYSTATE_PICKER_RELIGIOUS_COUNT_NAME"/>
+						<Slider ID="CityStateCountSlider_Religious" Style="SliderControl" Size="160,13" Anchor="L,C" />
+						<Image Texture="Controls_CircleCompass" Size="52,53" Color="ShellControl">
+							<Label ID="CityStateCountNumber_Religious" Style="FontFlair40" String="10" Anchor="C,C" FontStyle="stroke" Color0="208,212,217,255"	Color1="0,0,0,50"/>
+						</Image>
+					</Stack>
+				</Stack>
+
+				<!--Row 3-->
+				<Stack Anchor="C,T" StackGrowth="Right" StackPadding="40" Offset="0,190" ID="Stack_Row3">
+					<Stack StackGrowth="Right" Anchor="C,C" ID="Stack_Agrarian">
+						<Label Style="ShellOptionText" Anchor="L,C" String="LOC_CITYSTATE_PICKER_CSE_AGRICULTURAL_COUNT_NAME"/>
+						<Slider ID="CityStateCountSlider_Agrarian" Style="SliderControl" Size="160,13" Anchor="L,C" />
+						<Image Texture="Controls_CircleCompass" Size="52,53" Color="ShellControl">
+							<Label ID="CityStateCountNumber_Agrarian" Style="FontFlair40" String="10" Anchor="C,C" FontStyle="stroke" Color0="208,212,217,255"	Color1="0,0,0,50"/>
+						</Image>
+					</Stack>
+
+					<Stack StackGrowth="Right" Anchor="C,C" ID="Stack_Entertainment">
+						<Label Style="ShellOptionText" Anchor="L,C" String="LOC_CITYSTATE_PICKER_CSE_ENTERTAINMENT_COUNT_NAME"/>
+						<Slider ID="CityStateCountSlider_Entertainment" Style="SliderControl" Size="160,13" Anchor="L,C" />
+						<Image Texture="Controls_CircleCompass" Size="52,53" Color="ShellControl">
+							<Label ID="CityStateCountNumber_Entertainment" Style="FontFlair40" String="10" Anchor="C,C" FontStyle="stroke" Color0="208,212,217,255"	Color1="0,0,0,50"/>
+						</Image>
+					</Stack>
+
+					<Stack StackGrowth="Right" Anchor="C,C" ID="Stack_Maritime">
+						<Label Style="ShellOptionText" Anchor="L,C" String="LOC_CITYSTATE_PICKER_CSE_MARITIME_COUNT_NAME"/>
+						<Slider ID="CityStateCountSlider_Maritime" Style="SliderControl" Size="160,13" Anchor="L,C" />
+						<Image Texture="Controls_CircleCompass" Size="52,53" Color="ShellControl">
+							<Label ID="CityStateCountNumber_Maritime" Style="FontFlair40" String="10" Anchor="C,C" FontStyle="stroke" Color0="208,212,217,255"	Color1="0,0,0,50"/>
+						</Image>
+					</Stack>
+				</Stack>
+
+				<!--Row 4-->
+				<Stack Anchor="C,T" StackGrowth="Right" StackPadding="40" Offset="0,245" ID="Stack_Row4">
+					<Stack StackGrowth="Right" Anchor="C,C" ID="Stack_Consular">
+						<Label Style="ShellOptionText" Anchor="L,C" String="LOC_CITYSTATE_PICKER_CSE_CONSULAR_COUNT_NAME"/>
+						<Slider ID="CityStateCountSlider_Consular" Style="SliderControl" Size="160,13" Anchor="L,C" />
+						<Image Texture="Controls_CircleCompass" Size="52,53" Color="ShellControl">
+							<Label ID="CityStateCountNumber_Consular" Style="FontFlair40" String="10" Anchor="C,C" FontStyle="stroke" Color0="208,212,217,255"	Color1="0,0,0,50"/>
+						</Image>
+					</Stack>
+				</Stack>
+
+				
+			</Grid>
+
+			<!-- Selection Grid (Left Side Panel)-->
+			<Grid ID="ItemsSection" Style="DecoGrid" Offset="0,300" Size="640,parent-300" Anchor="L,T" Color="30,66,96,255">
+				<Stack Anchor="C,T" StackGrowth="Bottom" Padding ="5">
+
+					<Line Start="10,1"			End="630,1"		Color="30,66,96,255" Width="2" debug="*"/>
+
+					<!--Item Selection Scroll Panel-->
+					<ScrollPanel Anchor="L,T" ID="ItemsScrollPanel" Offset="-4,10" Vertical="1" Size="Parent,Parent-38">
+						<Stack ID="ItemsPanel" Anchor="C,T" Offset="0,0" Padding="7" StackGrowth="Right" WrapWidth="700" WrapGrowth="Down"/>
+						<ScrollBar Style="Slider_Blue"  Anchor="R,C" Offset="5,0"/>
+					</ScrollPanel>
+				</Stack>
+			</Grid>
+
+			<!--Selected Item Info (Right Side Panel)-->
+			<Grid ID="ItemInfoPanel" Style="DecoGrid" Offset="0,300" Size="360,parent-300" Anchor="R,T" Color="30,66,96,255" StackGrowth="Bottom">
+				<Stack Anchor ="C,T" StackGrowth="Down" StackPadding="10">
+					<GridButton ID="UseSelectedCSButton" Anchor="C,T" Size="300,30" Texture="Controls_ButtonControl.dds" SliceCorner="10,10" SliceSize="1,1" SliceTextureSize="24,24" StateOffsetIncrement="0,24">
+						<CheckBox ID="UseSelectedCSCheck" Style="MainMenuCheck" Anchor="C,C" TextOffset="-5,0" IsChecked="0" String="LOC_CITY_STATE_PICKER_CHECK_USE_SELECTED_CITY_STATES"/>
+					</GridButton>
+					<Label ID="CheckDescription" Anchor="C,T" Style="BlueGlow" Size ="300,30"/>
+					<Image ID="FocusedItemIcon" Anchor ="C,T" Size ="80,80" Texture="Map_4LeafClover" TextureOffset="0,0"/>
+					<Grid ID ="NameContainer" Anchor="C,T" Size="355,40" Texture="Controls_DecoFrame" SliceCorner="19,18" SliceSize="1,1" SliceTextureSize="40,38" Color="41,74,108,255">
+						<Label ID="FocusedItemName" Anchor="C,C" Style="BlueGlow" TruncateWidth="228" TruncatedTooltip="1" Offset="0,0" String=" "/>
+					</Grid>
+					<Grid ID ="DescriptionGrid" Anchor ="C,T" Style="DecoFrame" Size="355,400">
+						<Label ID="DescriptionHeader" Anchor="C,T" Offset="0,5" Style="BlueGlow" FontSize="14" String="LOC_MODS_DETAILS_DESCRIPTION"/>
+						<Grid Style="Divider6Grid" Size="parent,2" Color="41,74,108,255" Offset="0,20"/>
+						<ScrollPanel ID="DescriptionScroll" Anchor="L,T" Offset="15,28" Size="parent-30,parent-170" Vertical="1" AutoScrollBar="1">
+							<Label ID="FocusedItemDescription" Anchor="L,T" WrapWidth="parent" String=""/>
+							<ScrollBar Style="Slider_Blue"		Anchor="R,C" AnchorSide="O,I" Offset="-2,0" />
+						</ScrollPanel>
+					</Grid>
+				</Stack>
+			</Grid>
+		</Grid>
+
+		<Stack ID="ButtonStack" Anchor="C,B" Padding="20" StackGrowth="Right">
+			<GridButton ID="SelectAllButton" Size="190,45"  Style="MainButton" Anchor="C,B" String="LOC_SELECT_ALL" />
+			<GridButton ID="SelectNoneButton" Size="190,45" Style="MainButton" Anchor="C,B" String="LOC_SELECT_NONE" />
+			<GridButton ID="SelectVanillaButton" Size="190,45" Style="MainButton" Anchor="C,B" String="LOC_CS_PICKER_SELECT_VANILLA" />
+			<GridButton ID="SelectModButton" Size="190,45" Style="MainButton" Anchor="C,B" String="LOC_CS_PICKER_SELECT_MOD" />
+			<GridButton ID="ConfirmButton" Size="190,45" Style="ButtonConfirm" Anchor="C,B" String="LOC_OK_BUTTON" />
+		</Stack>
+	</Container>
+
+
+	<!-- INSTANCES -->
+	<!--<Instance Name="ItemInstance">
+		<GridButton ID="Button" Anchor="C,T" Size="300,60" Texture="Controls_ButtonControl.dds" SliceCorner="10,10" SliceSize="1,1" SliceTextureSize="24,24" StateOffsetIncrement="0,24">
+			<CheckBox ID="Selected" Style="MainMenuCheck" Anchor="L,C" Offset="15,0" TextOffset="-5,0" IsChecked="0"/>
+			<Image ID="IconBacking" Anchor="L,C" Offset="40,0" Size="44,44" Texture="CircleBacking44" NoStateChange="1">
+				<Image Anchor="C,C" Size="44,44" Texture="Circle44_Darker" Color="0,0,0,50"/>
+				<Image Anchor="C,C" Size="44,44" Texture="Circle44_Lighter" Color="255,255,255,100" />
+				<Image ID="Icon" Anchor="C,C" Size="44,44"	/>
+			</Image>
+			<Label ID ="Name" Anchor="C,C" Offset="30" TruncateWidth="180" TruncatedTooltip="1"/>
+		</GridButton>
+	</Instance>-->
+	<Instance Name="ItemInstance">
+		<GridButton ID="Button" Anchor="C,T" Size="300,64" Texture="Controls_ButtonControl.dds" SliceCorner="10,10" SliceSize="1,1" SliceTextureSize="24,24" StateOffsetIncrement="0,24">
+			<Image ID="IconBacking" Anchor="L,T" Offset="15,5" Size="44,44" Texture="CircleBacking44" NoStateChange="1">
+				<Image Anchor="C,C" Size="44,44" Texture="Circle44_Darker" Color="0,0,0,50"/>
+				<Image Anchor="C,C" Size="44,44" Texture="Circle44_Lighter" Color="255,255,255,100" />
+				<Image ID="Icon" Anchor="C,C" Size="44,44"	/>
+			</Image>
+			<Label ID ="Name" Anchor="L,T" Offset="65,10" TruncateWidth="220" TruncatedTooltip="1"/>
+			<Stack Anchor="L,T" Offset="70,36" StackGrowth="Right" StackPadding="10">
+				<CheckBox ID="Selected" Style="MainMenuCheck" TextOffset="-5,0" IsChecked="0" String="LOC_CS_PICKER_SELECT_CHECK" ToolTip="LOC_CS_PICKER_SELECT_CHECK_TOOLTIP"/>
+				<CheckBox ID="BanCheck" Style="MainMenuCheck" TextOffset="-5,0" IsChecked="0" String="LOC_CS_PICKER_SELECT_BAN" ToolTip="LOC_CS_PICKER_SELECT_BAN_TOOLTIP"/>
+			</Stack>
+		</GridButton>
+	</Instance>
+
+	<Instance Name="ItemInfoInstance">
+		<Container ID="InfoContainer" Anchor ="C,T" Size ="340,280" Offset="0,25">
+			<Image ID="Image" Anchor ="C,T" Size ="256,256" Texture="Map_4LeafClover" TextureOffset="0,0"/>
+			<Grid ID ="NameContainer" Anchor="C,B" Size="355,40" Offset="0,-10" Texture="Controls_DecoFrame" SliceCorner="19,18" SliceSize="1,1" SliceTextureSize="40,38" Color="41,74,108,255">
+				<Label ID="Name" Anchor="C,C" Style="BlueGlow" TruncateWidth="228" TruncatedTooltip="1" Offset="0,0" String=" "/>
+			</Grid>
+			<Grid ID ="DescriptionGrid" Anchor ="C,B" Style="DecoFrame" Size = "355,400" Offset="0,-420">
+				<Label ID="DescriptionHeader" Anchor="C,T" Offset="0,5" Style="BlueGlow" FontSize="14" String="LOC_MODS_DETAILS_DESCRIPTION"/>
+				<Grid Style="Divider6Grid" Size="parent,2" Color="41,74,108,255" Offset="0,20"/>
+				<ScrollPanel ID="DescriptionScroll" Anchor="L,T" Offset="10,28" Size="parent-20,parent-32" Vertical="1" AutoScrollBar="1">
+					<Label ID="Description" Anchor="L,T" WrapWidth="parent" String=""/>
+					<ScrollBar Style="Slider_Blue"		Anchor="R,C" AnchorSide="O,I" Offset="-2,-11" />
+				</ScrollPanel>
+			</Grid>
+		</Container>
+	</Instance>
+</Context>

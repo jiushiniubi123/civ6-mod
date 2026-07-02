@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EWHO_ReqSetReq_AI_XP1 -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 1/30/2023 8:29:35 AM -->
+<GameData>	
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_HAS_KILWA_KISIWANI_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_CHINA_HAS_FORBIDDEN_CITY_EWHO" RequirementId="REQUIRES_PLAYER_IS_HUMAN"/>
+
+	</RequirementSetRequirements>
+</GameData>

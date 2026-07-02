@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+    <TechnologyModifiers>
+        <Row TechnologyType="TECH_MACHINERY" ModifierId="MODIFIER_APRY_TECH_NC_MOVEMENT1"/>
+        <Row TechnologyType="TECH_INDUSTRIALIZATION" ModifierId="MODIFIER_APRY_TECH_NC_MOVEMENT2"/>
+            
+        <Row TechnologyType="TECH_ANIMAL_HUSBANDRY" ModifierId="MODIFIER_APRY_TECH_C_MOVEMENT1"/>
+        <Row TechnologyType="TECH_MACHINERY" ModifierId="MODIFIER_APRY_TECH_C_MOVEMENT2"/>
+        <Row TechnologyType="TECH_COMBUSTION" ModifierId="MODIFIER_APRY_TECH_C_MOVEMENT3"/>
+
+    </TechnologyModifiers>
+    <Modifiers>
+        <Row ModifierId="MODIFIER_APRY_TECH_NC_MOVEMENT1" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT" SubjectRequirementSetId="APRY_LAND_COMBAT_NC" />
+        <Row ModifierId="MODIFIER_APRY_TECH_NC_MOVEMENT2" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT" SubjectRequirementSetId="APRY_LAND_COMBAT_NC" />
+
+
+        <Row ModifierId="MODIFIER_APRY_TECH_C_MOVEMENT1" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT" SubjectRequirementSetId="APRY_LAND_COMBAT_cavalry" />
+        <Row ModifierId="MODIFIER_APRY_TECH_C_MOVEMENT2" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT" SubjectRequirementSetId="APRY_LAND_COMBAT_cavalry" />
+        <Row ModifierId="MODIFIER_APRY_TECH_C_MOVEMENT3" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT" SubjectRequirementSetId="APRY_LAND_COMBAT_cavalry" />
+
+
+    </Modifiers>
+    <ModifierArguments>
+        <Row ModifierId="MODIFIER_APRY_TECH_NC_MOVEMENT1" Name="Amount" Value="1" />
+        <Row ModifierId="MODIFIER_APRY_TECH_NC_MOVEMENT2" Name="Amount" Value="1" />
+
+
+        <Row ModifierId="MODIFIER_APRY_TECH_C_MOVEMENT1" Name="Amount" Value="1" />
+        <Row ModifierId="MODIFIER_APRY_TECH_C_MOVEMENT2" Name="Amount" Value="1" />
+        <Row ModifierId="MODIFIER_APRY_TECH_C_MOVEMENT3" Name="Amount" Value="1" />
+
+ 
+    </ModifierArguments>
+    <!-- =============== RequirementSets =============== -->
+    <RequirementSets>
+        <Row>
+            <RequirementSetId>APRY_LAND_COMBAT_NC</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+        </Row>
+        <Row>
+            <RequirementSetId>APRY_LAND_COMBAT_cavalry</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+        </Row>
+    </RequirementSets>
+    <RequirementSetRequirements>
+        <Row>
+            <RequirementSetId>APRY_LAND_COMBAT_NC</RequirementSetId>
+            <RequirementId>REQ_APRY_MELEE</RequirementId>
+        </Row>
+        <Row>
+            <RequirementSetId>APRY_LAND_COMBAT_NC</RequirementSetId>
+            <RequirementId>REQ_APRY_ANTI_cavalry</RequirementId>
+        </Row>
+        <Row>
+            <RequirementSetId>APRY_LAND_COMBAT_NC</RequirementSetId>
+            <RequirementId>REQ_APRY_RANGE</RequirementId>
+        </Row>
+        <Row>
+            <RequirementSetId>APRY_LAND_COMBAT_NC</RequirementSetId>
+            <RequirementId>REQ_APRY_SUPPORT</RequirementId>
+        </Row>
+        <Row>
+            <RequirementSetId>APRY_LAND_COMBAT_NC</RequirementSetId>
+            <RequirementId>REQ_APRY_SIEGE</RequirementId>
+        </Row>
+        <Row>
+            <RequirementSetId>APRY_LAND_COMBAT_NC</RequirementSetId>
+            <RequirementId>REQ_APRY_GENERAL</RequirementId>
+        </Row>
+        <Row>
+            <RequirementSetId>APRY_LAND_COMBAT_NC</RequirementSetId>
+            <RequirementId>REQ_APRY_RECON</RequirementId>
+        </Row>
+
+        <Row>
+            <RequirementSetId>APRY_LAND_COMBAT_cavalry</RequirementSetId>
+            <RequirementId>REQ_APRY_L_cavalry</RequirementId>
+        </Row>
+        <Row>
+            <RequirementSetId>APRY_LAND_COMBAT_cavalry</RequirementSetId>
+            <RequirementId>REQ_APRY_H_cavalry</RequirementId>
+        </Row>
+    </RequirementSetRequirements>
+    <!-- +++++++++++++++ Requirements +++++++++++++++ -->
+    <Requirements>
+        <Row>
+            <RequirementId>REQ_APRY_MELEE</RequirementId>
+            <RequirementType>REQUIREMENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
+        </Row>
+        <Row>
+            <RequirementId>REQ_APRY_ANTI_cavalry</RequirementId>
+            <RequirementType>REQUIREMENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
+        </Row>
+        <Row>
+            <RequirementId>REQ_APRY_RANGE</RequirementId>
+            <RequirementType>REQUIREMENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
+        </Row>
+        <Row>
+            <RequirementId>REQ_APRY_SUPPORT</RequirementId>
+            <RequirementType>REQUIREMENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
+        </Row>
+        <Row>
+            <RequirementId>REQ_APRY_SIEGE</RequirementId>
+            <RequirementType>REQUIREMENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
+        </Row>
+        <Row>
+            <RequirementId>REQ_APRY_GENERAL</RequirementId>
+            <RequirementType>REQUIREMENT_UNIT_TYPE_MATCHES</RequirementType>
+        </Row>
+        <Row>
+            <RequirementId>REQ_APRY_RECON</RequirementId>
+            <RequirementType>REQUIREMENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
+        </Row>
+
+        <Row>
+            <RequirementId>REQ_APRY_L_cavalry</RequirementId>
+            <RequirementType>REQUIREMENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
+        </Row>
+        <Row>
+            <RequirementId>REQ_APRY_H_cavalry</RequirementId>
+            <RequirementType>REQUIREMENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
+        </Row>
+    </Requirements>
+    <RequirementArguments>
+        <Row>
+            <RequirementId>REQ_APRY_MELEE</RequirementId>
+            <Name>UnitPromotionClass</Name>
+            <Value>PROMOTION_CLASS_MELEE</Value>
+        </Row>
+        <Row>
+            <RequirementId>REQ_APRY_ANTI_cavalry</RequirementId>
+            <Name>UnitPromotionClass</Name>
+            <Value>PROMOTION_CLASS_ANTI_CAVALRY</Value>
+        </Row>
+        <Row>
+            <RequirementId>REQ_APRY_RANGE</RequirementId>
+            <Name>UnitPromotionClass</Name>
+            <Value>PROMOTION_CLASS_RANGED</Value>
+        </Row>
+        <Row>
+            <RequirementId>REQ_APRY_SUPPORT</RequirementId>
+            <Name>UnitPromotionClass</Name>
+            <Value>PROMOTION_CLASS_SUPPORT</Value>
+        </Row>
+        <Row>
+            <RequirementId>REQ_APRY_SIEGE</RequirementId>
+            <Name>UnitPromotionClass</Name>
+            <Value>PROMOTION_CLASS_SIEGE</Value>
+        </Row>
+        <Row>
+            <RequirementId>REQ_APRY_GENERAL</RequirementId>
+            <Name>UnitType</Name>
+            <Value>UNIT_GREAT_GENERAL</Value>
+        </Row>
+        <Row>
+            <RequirementId>REQ_APRY_RECON</RequirementId>
+            <Name>UnitPromotionClass</Name>
+            <Value>PROMOTION_CLASS_RECON</Value>
+        </Row>
+
+        <Row>
+            <RequirementId>REQ_APRY_L_cavalry</RequirementId>
+            <Name>UnitPromotionClass</Name>
+            <Value>PROMOTION_CLASS_LIGHT_CAVALRY</Value>
+        </Row>
+        <Row>
+            <RequirementId>REQ_APRY_H_cavalry</RequirementId>
+            <Name>UnitPromotionClass</Name>
+            <Value>PROMOTION_CLASS_HEAVY_CAVALRY</Value>
+        </Row>
+    </RequirementArguments>
+
+
+
+
+</GameData>
