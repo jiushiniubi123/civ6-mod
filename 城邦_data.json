@@ -1,0 +1,1411 @@
+{
+  "report_metadata": {
+    "target_type": "城邦",
+    "generated_at": "2026-07-04",
+    "total_entries": 42,
+    "sources": [
+      "原版基础游戏",
+      "Expansion1 - Rise & Fall",
+      "Expansion2 - Gathering Storm",
+      "VikingsLandmarks DLC",
+      "CIVITAS City-States Expanded Mod"
+    ]
+  },
+  "entries": [
+    {
+      "id": "CIVILIZATION_AMSTERDAM",
+      "name_zh": "阿姆斯特丹",
+      "name_en": "Amsterdam",
+      "category": "贸易型",
+      "era": "任意",
+      "charges": null,
+      "source": "原版",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "您的国际贸易路线为目的地提供+1金币，为起源城市提供+1文化值",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FOR_DESTINATION",
+          "amount": 1,
+          "condition": "当您是宗主国时"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+4金币"},
+        {"level": "3使者", "description": "每个市场/灯塔+4金币"},
+        {"level": "6使者", "description": "每个银行/码头+4金币"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_BRUSSELS",
+      "name_zh": "布鲁塞尔",
+      "name_en": "Brussels",
+      "category": "工业型",
+      "era": "任意",
+      "charges": null,
+      "source": "原版",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "您的城市建造奇观时+15%生产力",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_WONDER_PRODUCTION",
+          "amount": 15,
+          "condition": "当您是宗主国时"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2生产力"},
+        {"level": "3使者", "description": "每个工坊+2生产力"},
+        {"level": "6使者", "description": "每个工厂+2生产力"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_BUENOS_AIRES",
+      "name_zh": "布宜诺斯艾利斯",
+      "name_en": "Buenos Aires",
+      "category": "工业型",
+      "era": "任意",
+      "charges": null,
+      "source": "原版",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "您的奖励资源如同奢侈资源一样提供+1宜居度",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_CITY_AMENITIES_PER_BONUS_RESOURCE",
+          "amount": 1,
+          "condition": "当您是宗主国时"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2生产力"},
+        {"level": "3使者", "description": "每个工坊+2生产力"},
+        {"level": "6使者", "description": "每个工厂+2生产力"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_CARTHAGE",
+      "name_zh": "迦太基",
+      "name_en": "Carthage",
+      "category": "军事型",
+      "era": "任意",
+      "charges": null,
+      "source": "原版",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "每个军营建筑+1贸易路线容量",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY",
+          "amount": 1,
+          "condition": "每个军营建筑，当您是宗主国时"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2生产力"},
+        {"level": "3使者", "description": "每个兵营/马厩+2生产力"},
+        {"level": "6使者", "description": "每个军械库+2生产力"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_GENEVA",
+      "name_zh": "日内瓦",
+      "name_en": "Geneva",
+      "category": "科技型",
+      "era": "任意",
+      "charges": null,
+      "source": "原版",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "未处于战争时，您的城市+15%科技值",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER",
+          "amount": 15,
+          "condition": "当您是宗主国且未处于战争时"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2科技值"},
+        {"level": "3使者", "description": "每个图书馆+2科技值"},
+        {"level": "6使者", "description": "每个大学+2科技值"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_HATTUSA",
+      "name_zh": "哈图萨",
+      "name_en": "Hattusa",
+      "category": "科技型",
+      "era": "任意",
+      "charges": null,
+      "source": "原版",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "为您提供您已解锁但尚未获得的每种战略资源每回合各1份",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT",
+          "amount": 1,
+          "condition": "当您是宗主国时，针对所有已解锁但未拥有的战略资源"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2科技值"},
+        {"level": "3使者", "description": "每个图书馆+2科技值"},
+        {"level": "6使者", "description": "每个大学+2科技值"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_HONG_KONG",
+      "name_zh": "香港",
+      "name_en": "Hong Kong",
+      "category": "工业型",
+      "era": "任意",
+      "charges": null,
+      "source": "原版",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "您的城市建造城市项目时+20%生产力",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_PROJECT_PRODUCTION",
+          "amount": 20,
+          "condition": "当您是宗主国时"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2生产力"},
+        {"level": "3使者", "description": "每个工坊+2生产力"},
+        {"level": "6使者", "description": "每个工厂+2生产力"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_JAKARTA",
+      "name_zh": "雅加达",
+      "name_en": "Jakarta",
+      "category": "贸易型",
+      "era": "任意",
+      "charges": null,
+      "source": "原版",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "您的国际贸易路线为起源城市每有一种专业化区域提供+1金币",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FOR_ORIGIN",
+          "amount": 1,
+          "condition": "当您是宗主国时，每个专业化区域"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+4金币"},
+        {"level": "3使者", "description": "每个市场/灯塔+4金币"},
+        {"level": "6使者", "description": "每个银行/码头+4金币"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_JERUSALEM",
+      "name_zh": "耶路撒冷",
+      "name_en": "Jerusalem",
+      "category": "宗教型",
+      "era": "任意",
+      "charges": null,
+      "source": "原版",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "自动将您的宗教传播为您创建的宗教城市的宗教",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_AUTO_RELIGIOUS_PRESSURE",
+          "amount": null,
+          "condition": "当您是宗主国时，新城市自动成为您的宗教城市"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2信仰值"},
+        {"level": "3使者", "description": "每个神社+2信仰值"},
+        {"level": "6使者", "description": "每个寺庙+2信仰值"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_KABUL",
+      "name_zh": "喀布尔",
+      "name_en": "Kabul",
+      "category": "军事型",
+      "era": "任意",
+      "charges": null,
+      "source": "原版",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "您的单位发起攻击时获得双倍经验值",
+          "modifier_type": "MODIFIER_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_MODIFIER",
+          "amount": 100,
+          "condition": "当您是宗主国时"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2生产力"},
+        {"level": "3使者", "description": "每个兵营/马厩+2生产力"},
+        {"level": "6使者", "description": "每个军械库+2生产力"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_KANDY",
+      "name_zh": "康提",
+      "name_en": "Kandy",
+      "category": "宗教型",
+      "era": "任意",
+      "charges": null,
+      "source": "原版",
+      "status": "原版",
+      "active_effects": [
+        {
+          "description": "发现自然奇观时获得1件圣遗物",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_RELIC",
+          "amount": 1,
+          "condition": "当您是宗主国时，每次发现自然奇观触发"
+        }
+      ],
+      "passive_effects": [],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2信仰值"},
+        {"level": "3使者", "description": "每个神社+2信仰值"},
+        {"level": "6使者", "description": "每个寺庙+2信仰值"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_KUMASI",
+      "name_zh": "库马西",
+      "name_en": "Kumasi",
+      "category": "文化型",
+      "era": "任意",
+      "charges": null,
+      "source": "原版",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "您通往任何城邦的贸易路线为起源城市的每个专业化区域提供+2文化值、+1金币",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FOR_ORIGIN",
+          "amount": 2,
+          "condition": "当您是宗主国时，通往城邦的贸易路线，每个专业化区域+2文化值+1金币"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2文化值"},
+        {"level": "3使者", "description": "每个古罗马剧场+2文化值"},
+        {"level": "6使者", "description": "每个艺术博物馆/考古博物馆+2文化值"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_LA_VENTA",
+      "name_zh": "拉文塔",
+      "name_en": "La Venta",
+      "category": "宗教型",
+      "era": "任意",
+      "charges": null,
+      "source": "原版",
+      "status": "原版",
+      "active_effects": [
+        {
+          "description": "您的建造者可建造巨石头像改良设施，+2信仰值，+1文化值",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_GRANT_UNIT_ABILITY",
+          "amount": null,
+          "condition": "当您是宗主国时"
+        }
+      ],
+      "passive_effects": [],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2信仰值"},
+        {"level": "3使者", "description": "每个神社+2信仰值"},
+        {"level": "6使者", "description": "每个寺庙+2信仰值"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_LISBON",
+      "name_zh": "里斯本",
+      "name_en": "Lisbon",
+      "category": "贸易型",
+      "era": "任意",
+      "charges": null,
+      "source": "原版",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "您的贸易单位免受其他文明的海上劫掠",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_PLUNDER_IMMUNITY",
+          "amount": null,
+          "condition": "当您是宗主国时，海上贸易路线免疫劫掠"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+4金币"},
+        {"level": "3使者", "description": "每个市场/灯塔+4金币"},
+        {"level": "6使者", "description": "每个银行/码头+4金币"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_MOHENJO_DARO",
+      "name_zh": "摩亨佐达罗",
+      "name_en": "Mohenjo Daro",
+      "category": "文化型",
+      "era": "任意",
+      "charges": null,
+      "source": "原版",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "无论您的城市是否相邻淡水，水源提供的基础住房均与相邻淡水时相同",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_CITY_HOUSING_FROM_WATER",
+          "amount": null,
+          "condition": "当您是宗主国时，所有城市获得等同于相邻淡水的住房加成"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2文化值"},
+        {"level": "3使者", "description": "每个古罗马剧场+2文化值"},
+        {"level": "6使者", "description": "每个艺术博物馆/考古博物馆+2文化值"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_NAN_MADOL",
+      "name_zh": "南马都尔",
+      "name_en": "Nan Madol",
+      "category": "文化型",
+      "era": "任意",
+      "charges": null,
+      "source": "原版",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "您的城市中，所有相邻海岸或湖泊单元格的区域提供+2文化值",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_YIELD_BASED_ON_ADJACENCY",
+          "amount": 2,
+          "condition": "当您是宗主国时，区域相邻海岸或湖泊单元格时+2文化值"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2文化值"},
+        {"level": "3使者", "description": "每个古罗马剧场+2文化值"},
+        {"level": "6使者", "description": "每个艺术博物馆/考古博物馆+2文化值"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_PRESLAV",
+      "name_zh": "普雷斯拉夫",
+      "name_en": "Preslav",
+      "category": "军事型",
+      "era": "任意",
+      "charges": null,
+      "source": "原版",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "您在山丘上作战时，单位+5战斗力",
+          "modifier_type": "MODIFIER_PLAYER_UNITS_ADJUST_COMBAT_ON_HILLS",
+          "amount": 5,
+          "condition": "当您是宗主国时，在丘陵地形上战斗"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2生产力"},
+        {"level": "3使者", "description": "每个兵营/马厩+2生产力"},
+        {"level": "6使者", "description": "每个军械库+2生产力"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_SEOUL",
+      "name_zh": "首尔",
+      "name_en": "Seoul",
+      "category": "科技型",
+      "era": "任意",
+      "charges": null,
+      "source": "原版",
+      "status": "原版",
+      "active_effects": [
+        {
+          "description": "进入新时代时，获得随机1个已解锁科技的尤里卡",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_RANDOM_TECH_BOOST",
+          "amount": 1,
+          "condition": "当您是宗主国时，每次进入新时代触发"
+        }
+      ],
+      "passive_effects": [],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2科技值"},
+        {"level": "3使者", "description": "每个图书馆+2科技值"},
+        {"level": "6使者", "description": "每个大学+2科技值"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_STOCKHOLM",
+      "name_zh": "斯德哥尔摩",
+      "name_en": "Stockholm",
+      "category": "科技型",
+      "era": "任意",
+      "charges": null,
+      "source": "原版",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "您的城市每个专业化区域提供+1伟人点数",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINTS_PER_DISTRICT",
+          "amount": 1,
+          "condition": "当您是宗主国时，每个专业化区域+1对应伟人点数"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2科技值"},
+        {"level": "3使者", "description": "每个图书馆+2科技值"},
+        {"level": "6使者", "description": "每个大学+2科技值"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_TORONTO",
+      "name_zh": "多伦多",
+      "name_en": "Toronto",
+      "category": "工业型",
+      "era": "任意",
+      "charges": null,
+      "source": "原版",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "对于您所有来自工业区和娱乐中心的建筑，其加成延伸范围增加3个单元格",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_REGIONAL_BUILDING_RANGE",
+          "amount": 3,
+          "condition": "当您是宗主国时，工业区和娱乐中心建筑范围+3"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2生产力"},
+        {"level": "3使者", "description": "每个工坊+2生产力"},
+        {"level": "6使者", "description": "每个工厂+2生产力"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_VALLETTA",
+      "name_zh": "瓦莱塔",
+      "name_en": "Valletta",
+      "category": "军事型",
+      "era": "任意",
+      "charges": null,
+      "source": "原版",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "可用信仰值购买城墙和军营建筑",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ENABLE_FAITH_PURCHASE",
+          "amount": null,
+          "condition": "当您是宗主国时，允许用信仰值购买城墙和军营建筑"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2生产力"},
+        {"level": "3使者", "description": "每个兵营/马厩+2生产力"},
+        {"level": "6使者", "description": "每个军械库+2生产力"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_VILNIUS",
+      "name_zh": "维尔纽斯",
+      "name_en": "Vilnius",
+      "category": "文化型",
+      "era": "任意",
+      "charges": null,
+      "source": "原版",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "剧院广场区域的主要建筑提供+1巨作槽位",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_GREAT_WORK_SLOTS",
+          "amount": 1,
+          "condition": "当您是宗主国时，剧院广场建筑+1巨作槽位"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2文化值"},
+        {"level": "3使者", "description": "每个古罗马剧场+2文化值"},
+        {"level": "6使者", "description": "每个艺术博物馆/考古博物馆+2文化值"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_YEREVAN",
+      "name_zh": "耶列万",
+      "name_en": "Yerevan",
+      "category": "宗教型",
+      "era": "任意",
+      "charges": null,
+      "source": "原版",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "您的使徒可从所有可能的升级中选择任意升级",
+          "modifier_type": "MODIFIER_PLAYER_UNITS_ADJUST_APOSTLE_CHOICES",
+          "amount": null,
+          "condition": "当您是宗主国时，使徒可从全部升级选项中选择"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2信仰值"},
+        {"level": "3使者", "description": "每个神社+2信仰值"},
+        {"level": "6使者", "description": "每个寺庙+2信仰值"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_ZANZIBAR",
+      "name_zh": "桑给巴尔",
+      "name_en": "Zanzibar",
+      "category": "贸易型",
+      "era": "任意",
+      "charges": null,
+      "source": "原版",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "获得肉桂和丁香奢侈资源，各提供6宜居度",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_GRANT_RESOURCE",
+          "amount": null,
+          "condition": "当您是宗主国时，获得肉桂和丁香两种奢侈资源"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+4金币"},
+        {"level": "3使者", "description": "每个市场/灯塔+4金币"},
+        {"level": "6使者", "description": "每个银行/码头+4金币"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_ANTANANARIVO",
+      "name_zh": "塔那那利佛",
+      "name_en": "Antananarivo",
+      "category": "文化型",
+      "era": "任意",
+      "charges": null,
+      "source": "Expansion1 (Rise & Fall)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "您获得的每位伟人使您的文明额外获得+2%文化值，最高+30%",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER",
+          "amount": 2,
+          "condition": "当您是宗主国时，每位伟人+2%文化值，最大30%"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2文化值"},
+        {"level": "3使者", "description": "每个古罗马剧场+2文化值"},
+        {"level": "6使者", "description": "每个艺术博物馆/考古博物馆+2文化值"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_ARMAGH",
+      "name_zh": "阿马",
+      "name_en": "Armagh",
+      "category": "宗教型",
+      "era": "任意",
+      "charges": null,
+      "source": "Expansion1 (Rise & Fall)",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "您的建造者可建造修道院改良设施，+2信仰值，+2住房",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_GRANT_UNIT_ABILITY",
+          "amount": null,
+          "condition": "当您是宗主国时"
+        }
+      ],
+      "passive_effects": [],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2信仰值"},
+        {"level": "3使者", "description": "每个神社+2信仰值"},
+        {"level": "6使者", "description": "每个寺庙+2信仰值"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_AUCKLAND",
+      "name_zh": "奥克兰",
+      "name_en": "Auckland",
+      "category": "工业型",
+      "era": "任意",
+      "charges": null,
+      "source": "Expansion1 (Rise & Fall)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "浅水单元格+1生产力。进入工业时代后额外+1生产力",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_PLOT_YIELD",
+          "amount": 1,
+          "condition": "当您是宗主国时，浅水单元格+1生产力（工业时代后+2生产力）"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2生产力"},
+        {"level": "3使者", "description": "每个工坊+2生产力"},
+        {"level": "6使者", "description": "每个工厂+2生产力"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_BABYLON",
+      "name_zh": "巴比伦",
+      "name_en": "Babylon",
+      "category": "科技型",
+      "era": "任意",
+      "charges": null,
+      "source": "Expansion1 (Rise & Fall)",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "获得每项您已解锁科技的尤里卡",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_ALL_TECH_BOOSTS",
+          "amount": null,
+          "condition": "当您是宗主国时，获得所有已解锁科技的尤里卡"
+        }
+      ],
+      "passive_effects": [],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2科技值"},
+        {"level": "3使者", "description": "每个图书馆+2科技值"},
+        {"level": "6使者", "description": "每个大学+2科技值"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_GRANADA",
+      "name_zh": "格拉纳达",
+      "name_en": "Granada",
+      "category": "军事型",
+      "era": "任意",
+      "charges": null,
+      "source": "Expansion1 (Rise & Fall)",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "您的建造者可建造阿尔卡萨城堡改良设施，+2文化值，提供防御加成",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_GRANT_UNIT_ABILITY",
+          "amount": null,
+          "condition": "当您是宗主国时"
+        }
+      ],
+      "passive_effects": [],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2生产力"},
+        {"level": "3使者", "description": "每个兵营/马厩+2生产力"},
+        {"level": "6使者", "description": "每个军械库+2生产力"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_MUSCAT",
+      "name_zh": "马斯喀特",
+      "name_en": "Muscat",
+      "category": "贸易型",
+      "era": "任意",
+      "charges": null,
+      "source": "Expansion1 (Rise & Fall)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "城市每个专业化区域为国际贸易路线提供+1金币",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FOR_ORIGIN",
+          "amount": 1,
+          "condition": "当您是宗主国时，每个专业化区域+1金币"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+4金币"},
+        {"level": "3使者", "description": "每个市场/灯塔+4金币"},
+        {"level": "6使者", "description": "每个银行/码头+4金币"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_PALENQUE",
+      "name_zh": "帕伦克",
+      "name_en": "Palenque",
+      "category": "科技型",
+      "era": "任意",
+      "charges": null,
+      "source": "Expansion1 (Rise & Fall)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "城市每有1人口，为其提供+1信仰值",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION",
+          "amount": 1,
+          "condition": "当您是宗主国时，城市每1人口+1信仰值"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2科技值"},
+        {"level": "3使者", "description": "每个图书馆+2科技值"},
+        {"level": "6使者", "description": "每个大学+2科技值"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_BOLOGNA",
+      "name_zh": "博洛尼亚",
+      "name_en": "Bologna",
+      "category": "科技型",
+      "era": "任意",
+      "charges": null,
+      "source": "Expansion2 (Gathering Storm)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "您的城市每个专业化区域提供+1伟人点数",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINTS_PER_DISTRICT",
+          "amount": 1,
+          "condition": "当您是宗主国时，每个专业化区域+1对应伟人点数"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2科技值"},
+        {"level": "3使者", "description": "每个图书馆+2科技值"},
+        {"level": "6使者", "description": "每个大学+2科技值"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_CAGUANA",
+      "name_zh": "卡瓜纳",
+      "name_en": "Caguana",
+      "category": "文化型",
+      "era": "任意",
+      "charges": null,
+      "source": "Expansion2 (Gathering Storm)",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "您的建造者可建造巴蒂球场改良设施，+1文化值，随市政树进展增加",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_GRANT_UNIT_ABILITY",
+          "amount": null,
+          "condition": "当您是宗主国时"
+        }
+      ],
+      "passive_effects": [],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2文化值"},
+        {"level": "3使者", "description": "每个古罗马剧场+2文化值"},
+        {"level": "6使者", "description": "每个艺术博物馆/考古博物馆+2文化值"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_CARDIFF",
+      "name_zh": "加的夫",
+      "name_en": "Cardiff",
+      "category": "工业型",
+      "era": "任意",
+      "charges": null,
+      "source": "Expansion2 (Gathering Storm)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "港口区域的每个建筑提供+2电力",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_POWER_FROM_BUILDINGS",
+          "amount": 2,
+          "condition": "当您是宗主国时，港口区域每个建筑+2电力"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2生产力"},
+        {"level": "3使者", "description": "每个工坊+2生产力"},
+        {"level": "6使者", "description": "每个工厂+2生产力"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_FEZ",
+      "name_zh": "非斯",
+      "name_en": "Fez",
+      "category": "科技型",
+      "era": "任意",
+      "charges": null,
+      "source": "Expansion2 (Gathering Storm)",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "每次使用宗教单位转化城市时，根据该城市的非信仰者人口获得科技值",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_SCIENCE_PER_CONVERTED_POPULATION",
+          "amount": null,
+          "condition": "当您是宗主国时，每转化1个非信仰者人口获得科技值"
+        }
+      ],
+      "passive_effects": [],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2科技值"},
+        {"level": "3使者", "description": "每个图书馆+2科技值"},
+        {"level": "6使者", "description": "每个大学+2科技值"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_LAHORE",
+      "name_zh": "拉合尔",
+      "name_en": "Lahore",
+      "category": "军事型",
+      "era": "任意",
+      "charges": null,
+      "source": "Expansion2 (Gathering Storm)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "可用信仰值购买尼罕步兵单位，不消耗资源",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ENABLE_FAITH_PURCHASE",
+          "amount": null,
+          "condition": "当您是宗主国时，可用信仰值购买尼罕步兵（Nihang）"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2生产力"},
+        {"level": "3使者", "description": "每个兵营/马厩+2生产力"},
+        {"level": "6使者", "description": "每个军械库+2生产力"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_MEXICO_CITY",
+      "name_zh": "墨西哥城",
+      "name_en": "Mexico City",
+      "category": "工业型",
+      "era": "任意",
+      "charges": null,
+      "source": "Expansion2 (Gathering Storm)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "您的区域的范围效果延伸3个单元格",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_REGIONAL_BUILDING_RANGE",
+          "amount": 3,
+          "condition": "当您是宗主国时，所有区域建筑范围+3"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2生产力"},
+        {"level": "3使者", "description": "每个工坊+2生产力"},
+        {"level": "6使者", "description": "每个工厂+2生产力"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_NAZCA",
+      "name_zh": "纳斯卡",
+      "name_en": "Nazca",
+      "category": "宗教型",
+      "era": "任意",
+      "charges": null,
+      "source": "Expansion2 (Gathering Storm)",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "您的建造者可建造纳斯卡线条改良设施，+1信仰值，为相邻单元格提供加成",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_GRANT_UNIT_ABILITY",
+          "amount": null,
+          "condition": "当您是宗主国时"
+        }
+      ],
+      "passive_effects": [],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2信仰值"},
+        {"level": "3使者", "description": "每个神社+2信仰值"},
+        {"level": "6使者", "description": "每个寺庙+2信仰值"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_NGAZARGAMU",
+      "name_zh": "恩加扎加穆",
+      "name_en": "Ngazargamu",
+      "category": "军事型",
+      "era": "任意",
+      "charges": null,
+      "source": "Expansion2 (Gathering Storm)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "购买军事单位时，每种专业化区域类型减少20%金币花费",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST_MODIFIER",
+          "amount": -20,
+          "condition": "当您是宗主国时，每种专业化区域类型-20%军事单位购买花费"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2生产力"},
+        {"level": "3使者", "description": "每个兵营/马厩+2生产力"},
+        {"level": "6使者", "description": "每个军械库+2生产力"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_RAPA_NUI",
+      "name_zh": "拉帕努伊",
+      "name_en": "Rapa Nui",
+      "category": "文化型",
+      "era": "任意",
+      "charges": null,
+      "source": "Expansion2 (Gathering Storm)",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "您的建造者可建造摩艾石像改良设施，+1文化值，为相邻单元格提供文化值",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_GRANT_UNIT_ABILITY",
+          "amount": null,
+          "condition": "当您是宗主国时"
+        }
+      ],
+      "passive_effects": [],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2文化值"},
+        {"level": "3使者", "description": "每个古罗马剧场+2文化值"},
+        {"level": "6使者", "description": "每个艺术博物馆/考古博物馆+2文化值"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_TARUGA",
+      "name_zh": "塔鲁加",
+      "name_en": "Taruga",
+      "category": "科技型",
+      "era": "任意",
+      "charges": null,
+      "source": "Expansion2 (Gathering Storm)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "每种战略资源提供+5%科技值",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_PER_RESOURCE",
+          "amount": 5,
+          "condition": "当您是宗主国时，每种战略资源+5%科技值"
+        }
+      ],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2科技值"},
+        {"level": "3使者", "description": "每个图书馆+2科技值"},
+        {"level": "6使者", "description": "每个大学+2科技值"}
+      ]
+    },
+    {
+      "id": "CIVILIZATION_WOLIN",
+      "name_zh": "沃林",
+      "name_en": "Wolin",
+      "category": "军事型",
+      "era": "任意",
+      "charges": null,
+      "source": "Expansion2 (Gathering Storm)",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "击杀陆地单位时获得等同于其战斗力25%的大将军点数",
+          "modifier_type": "MODIFIER_PLAYER_UNITS_ADJUST_GREAT_GENERAL_POINTS_FROM_KILLS",
+          "amount": 25,
+          "condition": "当您是宗主国时，击杀陆地单位获得其战斗力25%的大将军点数"
+        }
+      ],
+      "passive_effects": [],
+      "envoy_bonuses": [
+        {"level": "1使者", "description": "首都+2生产力"},
+        {"level": "3使者", "description": "每个兵营/马厩+2生产力"},
+        {"level": "6使者", "description": "每个军械库+2生产力"}
+      ]
+    }
+  ],
+  "deleted_entries": [],
+  "civitas_mod_entries": [
+    {
+      "id": "CIVILIZATION_CSE_ALAMUT",
+      "name_zh": "阿拉穆特",
+      "name_en": "Alamut",
+      "category": "军事型",
+      "era": "任意",
+      "source": "CIVITAS City-States Expanded (Base)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "间谍执行攻击性任务时+1级，间谍完成任务时间缩短25%",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_SPY_LEVEL",
+          "amount": 1,
+          "condition": "当您是宗主国时"
+        }
+      ]
+    },
+    {
+      "id": "CIVILIZATION_CSE_AMPI",
+      "name_zh": "安皮",
+      "name_en": "Ampi",
+      "category": "农业型",
+      "era": "任意",
+      "source": "CIVITAS City-States Expanded (Base)",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "建造者可建造梯田改良设施，+1食物，+1生产力",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_GRANT_UNIT_ABILITY",
+          "amount": null,
+          "condition": "当您是宗主国时"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "CIVILIZATION_CSE_ANURADHAPURA",
+      "name_zh": "阿努拉德普勒",
+      "name_en": "Anuradhapura",
+      "category": "文化型",
+      "era": "任意",
+      "source": "CIVITAS City-States Expanded (Base)",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "建造者可建造佛塔(Dagoba)改良设施，+1文化值+1信仰值，每相邻圣地+1信仰值，每相邻剧院广场+1文化值，随科技/市政进展增加，建造第一个佛塔获得免费圣遗物",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_GRANT_UNIT_ABILITY",
+          "amount": null,
+          "condition": "当您是宗主国时"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "CIVILIZATION_CSE_AYNUK",
+      "name_zh": "艾努克",
+      "name_en": "Aynuk",
+      "category": "宗教型",
+      "era": "任意",
+      "source": "CIVITAS City-States Expanded (Base)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "市中心每个相邻海岸单元格提供+1食物和+1生产力",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_PLOT_YIELD",
+          "amount": 1,
+          "condition": "当您是宗主国时，海岸相邻地块+1食物+1生产力"
+        }
+      ]
+    },
+    {
+      "id": "CIVILIZATION_CSE_AZCAPOTZALCO",
+      "name_zh": "阿兹卡波查尔科",
+      "name_en": "Azcapotzalco",
+      "category": "科技型",
+      "era": "任意",
+      "source": "CIVITAS City-States Expanded (Base)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "联盟点数获取速度+25%",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_ALLIANCE_POINTS",
+          "amount": 25,
+          "condition": "当您是宗主国时"
+        }
+      ]
+    },
+    {
+      "id": "CIVILIZATION_CSE_BAIAE",
+      "name_zh": "拜亚",
+      "name_en": "Baiae",
+      "category": "宗教型",
+      "era": "任意",
+      "source": "CIVITAS City-States Expanded (Base)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "娱乐区和水上乐园每回合提供+1外交支持",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_FAVOR_FROM_ENTERTAINMENT",
+          "amount": 1,
+          "condition": "当您是宗主国时，每个娱乐区/水上乐园+1外交支持/回合"
+        }
+      ]
+    },
+    {
+      "id": "CIVILIZATION_CSE_BEIKTHANO",
+      "name_zh": "贝塔诺",
+      "name_en": "Beikthano",
+      "category": "军事型",
+      "era": "任意",
+      "source": "CIVITAS City-States Expanded (Base)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "您的城市每级城墙+3远程攻击力，+5城市防御力",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_WALL_DEFENSE",
+          "amount": 5,
+          "condition": "当您是宗主国时，每级城墙+3远程攻击力+5城市防御力"
+        }
+      ]
+    },
+    {
+      "id": "CIVILIZATION_CSE_BUTUAN",
+      "name_zh": "武端",
+      "name_en": "Butuan",
+      "category": "军事型",
+      "era": "任意",
+      "source": "CIVITAS City-States Expanded (Base)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "陆地单位上船时+2移动力，忽略上下船额外移动力消耗",
+          "modifier_type": "MODIFIER_PLAYER_UNITS_ADJUST_EMBARKED_MOVEMENT",
+          "amount": 2,
+          "condition": "当您是宗主国时"
+        }
+      ]
+    },
+    {
+      "id": "CIVILIZATION_CSE_CATALHOYUK",
+      "name_zh": "恰塔霍裕克",
+      "name_en": "Çatalhöyük",
+      "category": "科技型",
+      "era": "任意",
+      "source": "CIVITAS City-States Expanded (Base)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "获得皮革和羊毛奢侈资源（不可交易），各提供6宜居度",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_GRANT_RESOURCE",
+          "amount": 6,
+          "condition": "当您是宗主国时，获得皮革和羊毛两种奢侈资源（不可交易）"
+        }
+      ]
+    },
+    {
+      "id": "CIVILIZATION_CSE_CHAN_CHAN",
+      "name_zh": "昌昌",
+      "name_en": "Chan Chan",
+      "category": "文化型",
+      "era": "任意",
+      "source": "CIVITAS City-States Expanded (Base)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "宫殿提供双倍产出、宜居度和住房。专业化区域相邻政府广场/娱乐中心/水上乐园时+50%原生产出",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_YIELD",
+          "amount": 50,
+          "condition": "当您是宗主国时"
+        }
+      ]
+    },
+    {
+      "id": "CIVILIZATION_CSE_CHETRO_KETL",
+      "name_zh": "切特罗凯特尔",
+      "name_en": "Chetro Ketl",
+      "category": "文化型",
+      "era": "任意",
+      "source": "CIVITAS City-States Expanded (Base)",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "建造者可建造大基瓦(Kiva)改良设施，+2信仰值+0.5住房，需建在沙漠/沙漠丘陵上，不可相邻另一个大基瓦，随科技/市政进展增加",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_GRANT_UNIT_ABILITY",
+          "amount": null,
+          "condition": "当您是宗主国时"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "CIVILIZATION_CSE_DAKAR",
+      "name_zh": "达喀尔",
+      "name_en": "Dakar",
+      "category": "贸易型",
+      "era": "任意",
+      "source": "CIVITAS City-States Expanded (Base)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "港口区域内的建筑提供+1大商人点数",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINTS_FROM_BUILDINGS",
+          "amount": 1,
+          "condition": "当您是宗主国时，港口区域每个建筑+1大商人点数"
+        }
+      ]
+    },
+    {
+      "id": "CIVILIZATION_CSE_DELOS",
+      "name_zh": "提洛",
+      "name_en": "Delos",
+      "category": "文化型",
+      "era": "任意",
+      "source": "CIVITAS City-States Expanded (Base)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "拥有娱乐中心/水上乐园的城市中，魅力值达到令人惊叹的平坦地块地形产出翻倍",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_PLOT_YIELD",
+          "amount": null,
+          "condition": "当您是宗主国时，有娱乐中心/水上乐园的城市中，魅力值≥4的平坦地块产出翻倍"
+        }
+      ]
+    },
+    {
+      "id": "CIVILIZATION_CSE_DELPHI",
+      "name_zh": "德尔菲",
+      "name_en": "Delphi",
+      "category": "军事型",
+      "era": "任意",
+      "source": "CIVITAS City-States Expanded (Base)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "奇观施加+2忠诚度压力，完成时触发文化炸弹",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_WONDER_LOYALTY",
+          "amount": 2,
+          "condition": "当您是宗主国时，奇观完成时触发文化炸弹，奇观+2忠诚度压力"
+        }
+      ]
+    },
+    {
+      "id": "CIVILIZATION_CSE_DJIBOUTI",
+      "name_zh": "吉布提",
+      "name_en": "Djibouti",
+      "category": "贸易型",
+      "era": "任意",
+      "source": "CIVITAS City-States Expanded (Base)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "浅水单元格提供+1食物。进入工业时代后额外+1食物",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_PLOT_YIELD",
+          "amount": 1,
+          "condition": "当您是宗主国时，浅水单元格+1食物（工业时代后+2食物）"
+        }
+      ]
+    },
+    {
+      "id": "CIVILIZATION_CSE_DODONA",
+      "name_zh": "多多纳",
+      "name_en": "Dodona",
+      "category": "文化型",
+      "era": "任意",
+      "source": "CIVITAS City-States Expanded (Base)",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "黄金时代中鼓舞提供+10%市政成本，黑暗时代中提供额外时代分数",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_CIVIC_BOOST",
+          "amount": 10,
+          "condition": "当您是宗主国时，黄金时代中鼓舞+10%，黑暗时代中额外时代分数"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "CIVILIZATION_CSE_ETZANOA",
+      "name_zh": "埃扎诺阿",
+      "name_en": "Etzanoa",
+      "category": "军事型",
+      "era": "任意",
+      "source": "CIVITAS City-States Expanded (Base)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "社区区域每个相邻的同类型区域提供+1住房",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_NEIGHBORHOOD_HOUSING",
+          "amount": 1,
+          "condition": "当您是宗主国时，社区每个相邻的同类型区域+1住房"
+        }
+      ]
+    },
+    {
+      "id": "CIVILIZATION_CSE_GARAMA",
+      "name_zh": "加拉马",
+      "name_en": "Garama",
+      "category": "宗教型",
+      "era": "任意",
+      "source": "CIVITAS City-States Expanded (Base)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "绿洲及其相邻陆地单元格+2食物，两格远的陆地单元格+1食物",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_PLOT_YIELD",
+          "amount": 2,
+          "condition": "当您是宗主国时，绿洲相邻+2食物，两格远+1食物"
+        }
+      ]
+    },
+    {
+      "id": "CIVILIZATION_CSE_GOBEKLI_TEPE",
+      "name_zh": "哥贝克力石阵",
+      "name_en": "Göbekli Tepe",
+      "category": "科技型",
+      "era": "任意",
+      "source": "CIVITAS City-States Expanded (Base)",
+      "status": "新增",
+      "active_effects": [],
+      "passive_effects": [
+        {
+          "description": "奇观为通往其城市的国内贸易路线提供+1文化值",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FOR_ORIGIN",
+          "amount": 1,
+          "condition": "当您是宗主国时"
+        }
+      ]
+    },
+    {
+      "id": "CIVILIZATION_SAMARKAND",
+      "name_zh": "布哈拉",
+      "name_en": "Samarkand",
+      "category": "农业型",
+      "era": "任意",
+      "source": "CIVITAS City-States Expanded (Base)",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "建造者可建造贸易圆顶改良设施，+2金币+1食物",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_GRANT_UNIT_ABILITY",
+          "amount": null,
+          "condition": "当您是宗主国时"
+        }
+      ],
+      "passive_effects": [],
+      "display_name_note": "MTE汉化中因与巴比伦DLC城市名冲突，将Samarkand改名为Bukhara（布哈拉）"
+    }
+  ],
+  "duplicate_entries": [
+    {
+      "id": "CIVILIZATION_AUCKLAND",
+      "name_zh": "奥克兰",
+      "name_en": "Auckland",
+      "sources": ["Expansion1 (Rise & Fall)", "VikingsLandmarks DLC"],
+      "note": "VikingsLandmarks DLC 中的定义与 Expansion1 重复"
+    },
+    {
+      "id": "CIVILIZATION_ANTANANARIVO",
+      "name_zh": "塔那那利佛",
+      "name_en": "Antananarivo",
+      "sources": ["Expansion1 (Rise & Fall)", "VikingsLandmarks DLC"],
+      "note": "VikingsLandmarks DLC 中的定义与 Expansion1 重复"
+    },
+    {
+      "id": "CIVILIZATION_ARMAGH",
+      "name_zh": "阿马",
+      "name_en": "Armagh",
+      "sources": ["Expansion1 (Rise & Fall)", "VikingsLandmarks DLC"],
+      "note": "VikingsLandmarks DLC 中的定义与 Expansion1 重复"
+    }
+  ]
+}
