@@ -1,0 +1,1786 @@
+{
+  "report_metadata": {
+    "target_type": "城邦",
+    "generated_at": "2026-07-04",
+    "total_entries": 114,
+    "sources": ["原版", "兴衰迭起", "风云变幻", "维京地标DLC", "CIVITAS City-States模组"]
+  },
+  "entries": [
+    {
+      "id": "CARTHAGE",
+      "name_zh": "迦太基",
+      "name_en": "Carthage",
+      "category": "MILITARISTIC",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "原版",
+      "status": "deleted",
+      "active_effects": [],
+      "passive_effects": [
+        "每个军营区提供+1商路容量",
+        "兵营/马厩/军械库/军事学院购买陆地单位-20%费用"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "KABUL",
+      "name_zh": "喀布尔",
+      "name_en": "Kabul",
+      "category": "MILITARISTIC",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "原版",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "单位发起攻击时获得经验值+100%"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "PRESLAV",
+      "name_zh": "普雷斯拉夫",
+      "name_en": "Preslav",
+      "category": "MILITARISTIC",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "原版",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "轻骑兵获得巴尔干骑兵能力（+1移动力）",
+        "军营建筑每回合+2忠诚度"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "VALLETTA",
+      "name_zh": "瓦莱塔",
+      "name_en": "Valletta",
+      "category": "MILITARISTIC",
+      "era": "Renaissance",
+      "charges": [1, 3, 6],
+      "source": "原版",
+      "status": "active",
+      "active_effects": [
+        "市中心和军营建筑可用信仰购买"
+      ],
+      "passive_effects": [
+        "城墙/城堡/星堡购买费用-50%"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "GENEVA",
+      "name_zh": "日内瓦",
+      "name_en": "Geneva",
+      "category": "SCIENTIFIC",
+      "era": "Modern",
+      "charges": [1, 3, 6],
+      "source": "原版",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "未与任何主要文明交战时+15%科技值"
+      ],
+      "display_name_note": "CIVITAS模组重新分类为CONSULAR"
+    },
+    {
+      "id": "GENEVA",
+      "name_zh": "日内瓦",
+      "name_en": "Geneva",
+      "category": "CONSULAR",
+      "era": "Modern",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "未与任何主要文明交战时+15%科技值"
+      ],
+      "display_name_note": "由SCIENTIFIC重分类为CONSULAR"
+    },
+    {
+      "id": "HATTUSA",
+      "name_zh": "哈图沙",
+      "name_en": "Hattusa",
+      "category": "SCIENTIFIC",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "原版",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "每回合获得你没有的每种战略资源各1个（铝/煤/马/铁/硝石/石油/铀）"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "SEOUL",
+      "name_zh": "首尔",
+      "name_en": "Seoul",
+      "category": "SCIENTIFIC",
+      "era": "Modern",
+      "charges": [1, 3, 6],
+      "source": "原版",
+      "status": "deleted",
+      "active_effects": [],
+      "passive_effects": [
+        "进入新时代时获得1个随机科技尤里卡"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "STOCKHOLM",
+      "name_zh": "斯德哥尔摩",
+      "name_en": "Stockholm",
+      "category": "SCIENTIFIC",
+      "era": "Modern",
+      "charges": [1, 3, 6],
+      "source": "原版",
+      "status": "deleted",
+      "active_effects": [],
+      "passive_effects": [
+        "每个对应区域建筑+1伟人点数（9种各+1）"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "AMSTERDAM",
+      "name_zh": "阿姆斯特丹",
+      "name_en": "Amsterdam",
+      "category": "TRADE",
+      "era": "Renaissance",
+      "charges": [1, 3, 6],
+      "source": "原版",
+      "status": "deleted",
+      "active_effects": [],
+      "passive_effects": [
+        "每条国际商路目的地每种奢侈资源+1金币"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "JAKARTA",
+      "name_zh": "雅加达（文莱）",
+      "name_en": "Jakarta",
+      "category": "TRADE",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "原版",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "外国城市中每个贸易站+1金币"
+      ],
+      "display_name_note": "内部ID为JAKARTA但显示名指向BANDAR_BRUNEI"
+    },
+    {
+      "id": "LISBON",
+      "name_zh": "里斯本",
+      "name_en": "Lisbon",
+      "category": "TRADE",
+      "era": "Renaissance",
+      "charges": [1, 3, 6],
+      "source": "原版",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "海上贸易路线免疫掠夺"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "ZANZIBAR",
+      "name_zh": "桑给巴尔",
+      "name_en": "Zanzibar",
+      "category": "TRADE",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "原版",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "获得肉桂和丁香奢侈资源（各+6宜居度）"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "KUMASI",
+      "name_zh": "库马西",
+      "name_en": "Kumasi",
+      "category": "CULTURAL",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "原版",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "通往城邦的商路每个专业化区域+2文化+1金币"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "MOHENJO_DARO",
+      "name_zh": "摩亨佐达罗",
+      "name_en": "Mohenjo-Daro",
+      "category": "CULTURAL",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "原版",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "所有城市获得淡水住房加成（5住房）"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "NAN_MADOL",
+      "name_zh": "南马都尔",
+      "name_en": "Nan Madol",
+      "category": "CULTURAL",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "原版",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "位于或相邻海岸的每个区域+2文化"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "VILNIUS",
+      "name_zh": "维尔纽斯",
+      "name_en": "Vilnius",
+      "category": "CULTURAL",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "原版",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "进入新时代时获得1个随机市政鼓舞"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "BRUSSELS",
+      "name_zh": "布鲁塞尔",
+      "name_en": "Brussels",
+      "category": "INDUSTRIAL",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "原版",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "城市建造奇观时+15%生产力"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "BUENOS_AIRES",
+      "name_zh": "布宜诺斯艾利斯",
+      "name_en": "Buenos Aires",
+      "category": "INDUSTRIAL",
+      "era": "Industrial",
+      "charges": [1, 3, 6],
+      "source": "原版",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "每种奖励资源额外提供+2宜居度"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "HONG_KONG",
+      "name_zh": "香港",
+      "name_en": "Hong Kong",
+      "category": "INDUSTRIAL",
+      "era": "Industrial",
+      "charges": [1, 3, 6],
+      "source": "原版",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "城市项目+20%生产力"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "TORONTO",
+      "name_zh": "多伦多",
+      "name_en": "Toronto",
+      "category": "INDUSTRIAL",
+      "era": "Modern",
+      "charges": [1, 3, 6],
+      "source": "原版",
+      "status": "deleted",
+      "active_effects": [],
+      "passive_effects": [
+        "工业区和娱乐中心的区域效应范围+3"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "JERUSALEM",
+      "name_zh": "耶路撒冷",
+      "name_en": "Jerusalem",
+      "category": "RELIGIOUS",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "原版",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "自动皈依城邦所信仰的宗教",
+        "圣地视为圣城"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "KANDY",
+      "name_zh": "康提",
+      "name_en": "Kandy",
+      "category": "RELIGIOUS",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "原版",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "首次发现自然奇观获得1件遗物",
+        "遗物+150%信仰"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "LA_VENTA",
+      "name_zh": "拉文塔",
+      "name_en": "La Venta",
+      "category": "RELIGIOUS",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "原版",
+      "status": "active",
+      "active_effects": [
+        "允许建造巨石头像改良设施"
+      ],
+      "passive_effects": [],
+      "display_name_note": null
+    },
+    {
+      "id": "YEREVAN",
+      "name_zh": "埃里温",
+      "name_en": "Yerevan",
+      "category": "RELIGIOUS",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "原版",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "使徒可从任意晋升中选择"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "ANTIOCH",
+      "name_zh": "安条克",
+      "name_en": "Antioch",
+      "category": "TRADE",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "兴衰迭起",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "每条国际商路目的地每种奢侈资源+1金币"
+      ],
+      "display_name_note": "与阿姆斯特丹效果相同"
+    },
+    {
+      "id": "BABYLON",
+      "name_zh": "巴比伦",
+      "name_en": "Babylon",
+      "category": "SCIENTIFIC",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "兴衰迭起",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "著作+2科技值",
+        "文物+1科技值",
+        "遗物+1科技值"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "AKKAD",
+      "name_zh": "阿卡德",
+      "name_en": "Akkad",
+      "category": "MILITARISTIC",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "风云变幻",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "近战和抗骑兵单位可对城墙造成全额伤害"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "NGAZARGAMU",
+      "name_zh": "恩加扎加穆",
+      "name_en": "Ngazargamu",
+      "category": "MILITARISTIC",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "风云变幻",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "兵营/马厩/军械库/军事学院购买陆地单位-15%费用"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "BOLOGNA",
+      "name_zh": "博洛尼亚",
+      "name_en": "Bologna",
+      "category": "SCIENTIFIC",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "风云变幻",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "拥有对应建筑的城市的伟人点数+1（9种各+1）"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "FEZ",
+      "name_zh": "非斯",
+      "name_en": "Fez",
+      "category": "SCIENTIFIC",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "风云变幻",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "宗教单位首次皈依城市时每1人口+20科技值"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CAHOKIA",
+      "name_zh": "卡霍基亚",
+      "name_en": "Cahokia",
+      "category": "TRADE",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "风云变幻",
+      "status": "active",
+      "active_effects": [
+        "允许建造卡霍基亚土丘改良设施"
+      ],
+      "passive_effects": [],
+      "display_name_note": null
+    },
+    {
+      "id": "RAPA_NUI",
+      "name_zh": "拉帕努伊",
+      "name_en": "Rapa Nui",
+      "category": "CULTURAL",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "风云变幻",
+      "status": "active",
+      "active_effects": [
+        "允许建造摩艾石像改良设施"
+      ],
+      "passive_effects": [],
+      "display_name_note": null
+    },
+    {
+      "id": "CARDIFF",
+      "name_zh": "加的夫",
+      "name_en": "Cardiff",
+      "category": "INDUSTRIAL",
+      "era": "Industrial",
+      "charges": [1, 3, 6],
+      "source": "风云变幻",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "每个港口建筑提供+2电力（灯塔+2/造船厂+2/海港+2）"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "MEXICO_CITY",
+      "name_zh": "墨西哥城",
+      "name_en": "Mexico City",
+      "category": "INDUSTRIAL",
+      "era": "Modern",
+      "charges": [1, 3, 6],
+      "source": "风云变幻",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "工业区/娱乐中心/水上乐园区域效应范围+3"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "NAZCA",
+      "name_zh": "纳斯卡",
+      "name_en": "Nazca",
+      "category": "RELIGIOUS",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "风云变幻",
+      "status": "active",
+      "active_effects": [
+        "允许建造纳斯卡线条改良设施"
+      ],
+      "passive_effects": [],
+      "display_name_note": null
+    },
+    {
+      "id": "AUCKLAND",
+      "name_zh": "奥克兰",
+      "name_en": "Auckland",
+      "category": "INDUSTRIAL",
+      "era": "Industrial",
+      "charges": [1, 3, 6],
+      "source": "维京地标DLC",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "浅水单元格+1生产力；工业时代起额外+1（总计+2）"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "ANTANANARIVO",
+      "name_zh": "塔那那利佛",
+      "name_en": "Antananarivo",
+      "category": "CULTURAL",
+      "era": "Industrial",
+      "charges": [1, 3, 6],
+      "source": "维京地标DLC",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "每获得一位伟人+2%文化值"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "ARMAGH",
+      "name_zh": "阿马",
+      "name_en": "Armagh",
+      "category": "RELIGIOUS",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "维京地标DLC",
+      "status": "active",
+      "active_effects": [
+        "允许建造修道院改良设施（+2信仰；+2住房需2个相邻格；殖民主义后额外+1住房）"
+      ],
+      "passive_effects": [],
+      "display_name_note": null
+    },
+    {
+      "id": "GRANADA",
+      "name_zh": "格拉纳达",
+      "name_en": "Granada",
+      "category": "MILITARISTIC",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "维京地标DLC",
+      "status": "active",
+      "active_effects": [
+        "允许建造阿尔卡萨城堡改良设施（+2文化+4防御；每2点魅力+1科技）"
+      ],
+      "passive_effects": [],
+      "display_name_note": null
+    },
+    {
+      "id": "MUSCAT",
+      "name_zh": "马斯喀特",
+      "name_en": "Muscat",
+      "category": "TRADE",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "维京地标DLC",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "拥有商业中心的城市+1宜居度"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "PALENQUE",
+      "name_zh": "帕伦克（米特拉）",
+      "name_en": "Palenque",
+      "category": "SCIENTIFIC",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "维京地标DLC",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "拥有学院的城市的城市成长速度+15%"
+      ],
+      "display_name_note": "内部ID为PALENQUE但显示名指向MITLA"
+    },
+    {
+      "id": "CSE_CATALHOYUK",
+      "name_zh": "恰塔霍裕克",
+      "name_en": "Catalhoyuk",
+      "category": "AGRICULTURAL",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "获得皮革和羊毛奢侈资源"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_ETZANOA",
+      "name_zh": "埃扎诺阿",
+      "name_en": "Etzanoa",
+      "category": "AGRICULTURAL",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "社区每相邻同类型区域+1住房"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_HVALSEY",
+      "name_zh": "赫瓦尔塞",
+      "name_en": "Hvalsey",
+      "category": "AGRICULTURAL",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "冻土/雪地/冰原2格内渔船+1食物+1生产力"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_IQALUIT",
+      "name_zh": "伊魁特",
+      "name_en": "Iqaluit",
+      "category": "AGRICULTURAL",
+      "era": "Modern",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "相邻海岸的冻土和雪地+2食物"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_JOLO",
+      "name_zh": "霍洛",
+      "name_en": "Jolo",
+      "category": "AGRICULTURAL",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "获得Abacá和Mangosteen奢侈资源"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_KUHIKUGU",
+      "name_zh": "库希库古",
+      "name_en": "Kuhikugu",
+      "category": "AGRICULTURAL",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "相邻雨林的农场+1食物+2金币"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_MAINGMAW",
+      "name_zh": "迈恩茂",
+      "name_en": "Maingmaw",
+      "category": "AGRICULTURAL",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "相邻河流的改良地块+1食物+1金币"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_MEHRGARH",
+      "name_zh": "梅赫尔格尔",
+      "name_en": "Mehrgarh",
+      "category": "AGRICULTURAL",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "收获资源和移除地貌+25%收益"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_SANAA",
+      "name_zh": "萨那",
+      "name_en": "Sanaa",
+      "category": "AGRICULTURAL",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "商路经过每个国内贸易站+1食物"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_SRI_KSETRA",
+      "name_zh": "室利差呾罗",
+      "name_en": "Sri Ksetra",
+      "category": "AGRICULTURAL",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "圣地提供等同于相邻信仰加成的食物"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_MARRAKECH",
+      "name_zh": "马拉喀什",
+      "name_en": "Marrakech",
+      "category": "AGRICULTURAL",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [
+        "允许建造Riad改良设施（+1食物+1文化+0.5住房）"
+      ],
+      "passive_effects": [],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_AMPI",
+      "name_zh": "安比",
+      "name_en": "Ampi",
+      "category": "MARITIME",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "获得玻璃奢侈资源",
+        "种植园+1生产力"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_AYNUK",
+      "name_zh": "艾努克",
+      "name_en": "Aynuk",
+      "category": "MARITIME",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "市中心每相邻一个海岸单元格+1食物+1生产力"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_BUTUAN",
+      "name_zh": "蒲端",
+      "name_en": "Butuan",
+      "category": "MARITIME",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "陆上单位登船+2移动力",
+        "忽略登船/下船惩罚"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_DAKAR",
+      "name_zh": "达喀尔",
+      "name_en": "Dakar",
+      "category": "MARITIME",
+      "era": "Modern",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "港口建筑+1大商人点数"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_DJIBOUTI",
+      "name_zh": "吉布提",
+      "name_en": "Djibouti",
+      "category": "MARITIME",
+      "era": "Modern",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "浅水单元格+1食物；工业时代起额外+1"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_HAVANA",
+      "name_zh": "哈瓦那",
+      "name_en": "Havana",
+      "category": "MARITIME",
+      "era": "Renaissance",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "港口产出等同于相邻加成的文化",
+        "剧院广场产出等同于相邻加成的金币"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_HORMUZ",
+      "name_zh": "霍尔木兹",
+      "name_en": "Hormuz",
+      "category": "MARITIME",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "有港口区域的城市无法被围城"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_MOMBASA",
+      "name_zh": "蒙巴萨",
+      "name_en": "Mombasa",
+      "category": "MARITIME",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "专业区域从海岸获得少量相邻加成"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_NASSAU",
+      "name_zh": "拿骚",
+      "name_en": "Nassau",
+      "category": "MARITIME",
+      "era": "Renaissance",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "掠夺海上商路收益翻倍"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_PORT_ROYAL",
+      "name_zh": "皇家港",
+      "name_en": "Port Royal",
+      "category": "MARITIME",
+      "era": "Renaissance",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "商路目的地每个种植园+1金币+1生产力"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_UGARIT",
+      "name_zh": "乌加里特",
+      "name_en": "Ugarit",
+      "category": "MARITIME",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "有总督城市+50%海军单位生产力"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_BAIAE",
+      "name_zh": "巴亚",
+      "name_en": "Baiae",
+      "category": "ENTERTAINMENT",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "娱乐中心和水上乐园+1外交支持/回合"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_CHAN_CHAN",
+      "name_zh": "昌昌",
+      "name_en": "Chan Chan",
+      "category": "ENTERTAINMENT",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "宫殿收益翻倍",
+        "专业区域相邻政府区/娱乐中心/水上乐园+50%原生收益"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_DELOS",
+      "name_zh": "提洛",
+      "name_en": "Delos",
+      "category": "ENTERTAINMENT",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "惊艳魅力平坦地块双倍地形收益"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_MACAU",
+      "name_zh": "澳门",
+      "name_en": "Macau",
+      "category": "ENTERTAINMENT",
+      "era": "Renaissance",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "对有贸易路线的文明+25%旅游业绩"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_MONACO",
+      "name_zh": "摩纳哥",
+      "name_en": "Monaco",
+      "category": "ENTERTAINMENT",
+      "era": "Modern",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "娱乐中心/水上乐园建筑+2旅游业绩"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_SIDON",
+      "name_zh": "西顿",
+      "name_en": "Sidon",
+      "category": "ENTERTAINMENT",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "所有平民单位+1移动力"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_MARRAKECH",
+      "name_zh": "马拉喀什",
+      "name_en": "Marrakech",
+      "category": "ENTERTAINMENT",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [
+        "允许建造Riad改良设施"
+      ],
+      "passive_effects": [],
+      "display_name_note": "跨类型城邦，同时存在于AGRICULTURAL"
+    },
+    {
+      "id": "CSE_AZCAPOTZALCO",
+      "name_zh": "阿斯卡波察尔科",
+      "name_en": "Azcapotzalco",
+      "category": "CONSULAR",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "联盟点数获得速度+25%"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_CHETRO_KETL",
+      "name_zh": "切特罗凯特",
+      "name_en": "Chetro Ketl",
+      "category": "CONSULAR",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [
+        "允许建造Kiva改良设施（+2信仰+0.5住房；仅沙漠）"
+      ],
+      "passive_effects": [],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_DELPHI",
+      "name_zh": "德尔斐",
+      "name_en": "Delphi",
+      "category": "CONSULAR",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "奇观+2忠诚度压力",
+        "完成时触发文化炸弹"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_GUNDESHAPUR",
+      "name_zh": "贡德沙普尔",
+      "name_en": "Gundeshapur",
+      "category": "CONSULAR",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "进入新时代获2个免费尤里卡",
+        "学院区每相邻2个区域+1科学"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_HADAD",
+      "name_zh": "哈达德",
+      "name_en": "Hadad",
+      "category": "CONSULAR",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "有总督城市+2宜居度"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_MZIZIMA",
+      "name_zh": "姆齐齐马",
+      "name_en": "Mzizima",
+      "category": "CONSULAR",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "有总督城市+15%人口增长"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_TANGIER",
+      "name_zh": "丹吉尔",
+      "name_en": "Tangier",
+      "category": "CONSULAR",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "进入新时代获2个免费灵感",
+        "剧院区每相邻2个区域+1文化"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_VADUZ",
+      "name_zh": "瓦杜兹",
+      "name_en": "Vaduz",
+      "category": "CONSULAR",
+      "era": "Modern",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "建筑购买费用-15%金币"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_VIENNA",
+      "name_zh": "维也纳",
+      "name_en": "Vienna",
+      "category": "CONSULAR",
+      "era": "Renaissance",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "有总督城市建筑购买费用-25%"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_BEIKTHANO",
+      "name_zh": "贝塔诺",
+      "name_en": "Beikthano",
+      "category": "MILITARISTIC",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "每级城墙+3远程攻击力+5城防"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_HAZOR",
+      "name_zh": "夏琐",
+      "name_en": "Hazor",
+      "category": "MILITARISTIC",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "单位受伤时满战力作战"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_KADESH",
+      "name_zh": "卡迭石",
+      "name_en": "Kadesh",
+      "category": "MILITARISTIC",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "重骑兵单位获得击退守军能力"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_KANNAUJ",
+      "name_zh": "曲女城",
+      "name_en": "Kannauj",
+      "category": "MILITARISTIC",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "境内战斗无厌战度"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_MEGIDDO",
+      "name_zh": "米吉多",
+      "name_en": "Megiddo",
+      "category": "MILITARISTIC",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "军营区国际商路+1生产力+2金币"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_SALE",
+      "name_zh": "塞拉",
+      "name_en": "Sale",
+      "category": "MILITARISTIC",
+      "era": "Renaissance",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "海军劫掠单位获得额外攻击"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_SEUTHOPOLIS",
+      "name_zh": "塞乌托波利斯",
+      "name_en": "Seuthopolis",
+      "category": "MILITARISTIC",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "消灭敌方单位获得等于其战斗力的金币"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_TISSAMAHARAMA",
+      "name_zh": "蒂瑟默哈拉默",
+      "name_en": "Tissamaharama",
+      "category": "MILITARISTIC",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "陆地单位+5战斗力"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_ALAMUT",
+      "name_zh": "阿拉穆特",
+      "name_en": "Alamut",
+      "category": "MILITARISTIC",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "间谍可从任意晋升中选择"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_LIMA",
+      "name_zh": "利马",
+      "name_en": "Lima",
+      "category": "MILITARISTIC",
+      "era": "Renaissance",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "有学院区可超过人口限制多建一个区域",
+        "学院区+20%生产力"
+      ],
+      "display_name_note": "跨类型城邦，同时存在于SCIENTIFIC"
+    },
+    {
+      "id": "CSE_IZAPA",
+      "name_zh": "伊萨帕",
+      "name_en": "Izapa",
+      "category": "SCIENTIFIC",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "黄金时代尤里卡额外+10%科技成本",
+        "黑暗时代额外+时代分数"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_LIMA",
+      "name_zh": "利马",
+      "name_en": "Lima",
+      "category": "SCIENTIFIC",
+      "era": "Renaissance",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "有学院区可超过人口限制多建一个区域",
+        "学院区+20%生产力"
+      ],
+      "display_name_note": "跨类型城邦，同时存在于MILITARISTIC"
+    },
+    {
+      "id": "CSE_NALANDA",
+      "name_zh": "那烂陀（塔克西拉）",
+      "name_en": "Nalanda",
+      "category": "SCIENTIFIC",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "满意城市学院+5%信仰/圣地+5%科学",
+        "狂喜翻倍"
+      ],
+      "display_name_note": "被重命名为Taxila"
+    },
+    {
+      "id": "CSE_SAMARQAND",
+      "name_zh": "撒马尔罕（布哈拉）",
+      "name_en": "Samarqand",
+      "category": "SCIENTIFIC",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "每个已获得伟人+2%科学；最多+30%"
+      ],
+      "display_name_note": "被重命名为Bukhara"
+    },
+    {
+      "id": "CSE_TAOS",
+      "name_zh": "陶斯",
+      "name_en": "Taos",
+      "category": "SCIENTIFIC",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "采石场资源+2科学+1生产力"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_VALABHI",
+      "name_zh": "伐腊毗",
+      "name_en": "Valabhi",
+      "category": "SCIENTIFIC",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "学院区产出等同于相邻加成的信仰",
+        "建筑可用信仰购买"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_GARAMA",
+      "name_zh": "加赖马",
+      "name_en": "Garama",
+      "category": "TRADE",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "绿洲及相邻+2食物",
+        "两格远+1食物"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_MAI",
+      "name_zh": "马伊",
+      "name_en": "Mai",
+      "category": "TRADE",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "获得Beeswax和Betel Nut奢侈资源"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_PALMYRA",
+      "name_zh": "帕尔米拉",
+      "name_en": "Palmyra",
+      "category": "TRADE",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "圣地建筑为每条经过的外国商路+1金币"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_SINGAPORE",
+      "name_zh": "新加坡",
+      "name_en": "Singapore",
+      "category": "TRADE",
+      "era": "Modern",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "每个派往城邦的使者+1金币"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_TUNERIUT",
+      "name_zh": "图内留特",
+      "name_en": "Tuneriut",
+      "category": "TRADE",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "获得海象奢侈资源",
+        "港口从雪地和冰原获得主要相邻加成"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_URGENCH",
+      "name_zh": "乌尔根奇",
+      "name_en": "Urgench",
+      "category": "TRADE",
+      "era": "Medieval",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "+1商路容量",
+        "沙漠城市国际商路+4金币"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_HAVANA",
+      "name_zh": "哈瓦那",
+      "name_en": "Havana",
+      "category": "TRADE",
+      "era": "Renaissance",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "港口产出等同于相邻加成的文化",
+        "剧院广场产出等同于相邻加成的金币"
+      ],
+      "display_name_note": "跨类型城邦，同时存在于MARITIME"
+    },
+    {
+      "id": "CSE_DODONA",
+      "name_zh": "多多纳",
+      "name_en": "Dodona",
+      "category": "CULTURAL",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "黄金时代灵感额外+10%市政成本",
+        "黑暗时代额外+时代分数"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_GOBEKLI_TEPE",
+      "name_zh": "哥贝克力石阵",
+      "name_en": "Gobekli Tepe",
+      "category": "CULTURAL",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "奇观所在城市国内贸易路线+1文化"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_KELANIYA",
+      "name_zh": "凯拉尼亚",
+      "name_en": "Kelaniya",
+      "category": "CULTURAL",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "艺术巨作+2信仰",
+        "著作巨作+1文化"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_SHAHR_E_SUKHTE",
+      "name_zh": "沙赫尔苏赫特",
+      "name_en": "Shahr-e Sukhteh",
+      "category": "CULTURAL",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "不处于战争状态时+15%文化"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_WYAM",
+      "name_zh": "怀亚姆",
+      "name_en": "Wyam",
+      "category": "CULTURAL",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "获得野生三文鱼奢侈资源",
+        "渔船+1文化"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_ANURADHAPURA",
+      "name_zh": "阿努拉德普勒",
+      "name_en": "Anuradhapura",
+      "category": "CULTURAL",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [
+        "允许建造Dagoba改良设施；首个Dagoba赠送遗物"
+      ],
+      "passive_effects": [],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_JOHANNESBURG",
+      "name_zh": "约翰内斯堡",
+      "name_en": "Johannesburg",
+      "category": "INDUSTRIAL",
+      "era": "Industrial",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "工业区区域建筑6格内+2生产力+4金币"
+      ],
+      "display_name_note": "跨类型城邦，第1个INDUSTRIAL条目"
+    },
+    {
+      "id": "CSE_PHASIS",
+      "name_zh": "法锡斯",
+      "name_en": "Phasis",
+      "category": "INDUSTRIAL",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "相邻森林单元格+1生产力",
+        "相邻河流的伐木场+2金币"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_QATNA",
+      "name_zh": "卡特纳",
+      "name_en": "Qatna",
+      "category": "INDUSTRIAL",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "工业区建筑可用信仰购买",
+        "+1生产力"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_TEYUNA",
+      "name_zh": "泰尤纳",
+      "name_en": "Teyuna",
+      "category": "INDUSTRIAL",
+      "era": "Ancient",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "相邻山脉的单元格+1生产力"
+      ],
+      "display_name_note": null
+    },
+    {
+      "id": "CSE_JOHANNESBURG",
+      "name_zh": "约翰内斯堡",
+      "name_en": "Johannesburg",
+      "category": "INDUSTRIAL",
+      "era": "Industrial",
+      "charges": [1, 3, 6],
+      "source": "CIVITAS City-States模组",
+      "status": "active",
+      "active_effects": [],
+      "passive_effects": [
+        "工业区区域建筑6格内+2生产力+4金币"
+      ],
+      "display_name_note": "跨类型城邦，第2个INDUSTRIAL条目"
+    }
+  ],
+  "deleted_entries": [
+    {
+      "id": "AMSTERDAM",
+      "name_zh": "阿姆斯特丹",
+      "name_en": "Amsterdam",
+      "category": "TRADE",
+      "deleted_by": "CIVITAS (XP1)"
+    },
+    {
+      "id": "CARTHAGE",
+      "name_zh": "迦太基",
+      "name_en": "Carthage",
+      "category": "MILITARISTIC",
+      "deleted_by": "CIVITAS (XP2)"
+    },
+    {
+      "id": "SEOUL",
+      "name_zh": "首尔",
+      "name_en": "Seoul",
+      "category": "SCIENTIFIC",
+      "deleted_by": "CIVITAS (XP1)"
+    },
+    {
+      "id": "STOCKHOLM",
+      "name_zh": "斯德哥尔摩",
+      "name_en": "Stockholm",
+      "category": "SCIENTIFIC",
+      "deleted_by": "CIVITAS (XP2)"
+    },
+    {
+      "id": "TORONTO",
+      "name_zh": "多伦多",
+      "name_en": "Toronto",
+      "category": "INDUSTRIAL",
+      "deleted_by": "CIVITAS (XP2)"
+    }
+  ]
+}
