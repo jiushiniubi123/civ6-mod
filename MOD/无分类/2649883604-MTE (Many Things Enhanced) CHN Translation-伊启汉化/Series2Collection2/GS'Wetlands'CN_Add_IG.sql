@@ -9,6 +9,8 @@
 INSERT OR REPLACE INTO LocalizedText
 		(Language,		Tag,													Text)
 VALUES
+		("zh_Hans_CN",	"LOC_TECH_MACHINERY_DESCRIPTION",						"绿洲花园+1 [ICON_Production] 生产力。允许收获 [ICON_RESOURCE_JNR_PEAT] 泥炭。"),
+
 		("zh_Hans_CN",	"LOC_FEATURE_FLOODPLAINS_TUNDRA_NAME",					"冻土泛滥平原"),
 		("zh_Hans_CN",	"LOC_FEATURE_FLOODPLAINS_TUNDRA_DESCRIPTION",			"这片靠近河流的低洼地区尚未被被洪水淹没，故其产出与普通冻土单元格相同。若洪水再次泛滥，则建于此处的建筑物可能被破坏甚至冲毁，但单元格也可能因此获得额外产出。"),
 		("zh_Hans_CN",	"LOC_RESOURCE_JNR_SWAMP_NAME",							"沼木"),
@@ -22,7 +24,8 @@ VALUES
 
 ---- 模组支持
 
-		("zh_Hans_CN",	"LOC_POK_DISTRICT_AMUN_RA_TUNDRA_FLOODPLAINS_FAITH",	"+{1_num} [ICON_Faith] 信仰值 来自相邻 冻土泛滥平原");
+		("zh_Hans_CN",	"LOC_POK_DISTRICT_AMUN_RA_TUNDRA_FLOODPLAINS_FAITH",	"+{1_num} [ICON_Faith] 信仰值 来自相邻 冻土泛滥平原"),
+		("zh_Hans_CN",	"LOC_TECH_REPLACEABLE_PARTS_DESCRIPTION",				"农场与灌溉农场可从相邻每片其他的农场与灌溉农场中获得+1 [ICON_Food] 食物。");
 
 ---- 针对游戏自带文本的改动，故添加条件语句，只有原模组启用时以下替换才生效。
 
