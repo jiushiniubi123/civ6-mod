@@ -1108,6 +1108,13 @@
       </Properties>
       <Criteria>Active_Expansion_2</Criteria>
       <File>Series2Collection2/GS'Mount Erebus'CN_Add_FI.xml</File>
+    </UpdateText>
+    <UpdateText id="S2C2_GS_Text_Wetlands_LO1128">
+      <Properties>
+        <LoadOrder>1128</LoadOrder>
+      </Properties>
+      <Criteria>Active_Expansion_2</Criteria>
+      <Criteria>Active_Mod_Wetlands</Criteria>
       <File>Series2Collection2/GS'Wetlands'CN_Add_IG.sql</File>
     </UpdateText>
     <UpdateText id="S2C2_GS_Text_CB_LO1129">
