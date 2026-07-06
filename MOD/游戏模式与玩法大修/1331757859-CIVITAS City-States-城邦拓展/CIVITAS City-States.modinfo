@@ -317,6 +317,12 @@
       <File>Core/City-States/XP2/CSE_Vienna.sql</File>
       <File>Core/City-States/XP2/CSE_Teyuna.sql</File>
     </UpdateDatabase>
+    <UpdateDatabase id="CSE_Modifications">
+      <Properties>
+        <LoadOrder>68</LoadOrder>
+      </Properties>
+      <File>Core/CSE_Modifications.sql</File>
+    </UpdateDatabase>
     <UpdateColors id="CSE_Colors">
       <Properties>
         <LoadOrder>1</LoadOrder>
@@ -339,6 +345,12 @@
       <File>Core/Localisation/CSE_Localisation_XP1_FR.sql</File>
       <File>Core/Localisation/CSE_Localisation_XP1_ru.sql</File>
       <File>Core/Localisation/CSE_Localisation_XP1_PT_BR.sql</File>
+    </UpdateText>
+    <UpdateText id="CSE_Text_Modifications">
+      <Properties>
+        <LoadOrder>42</LoadOrder>
+      </Properties>
+      <File>Core/CSE_Localisation_Modifications.sql</File>
     </UpdateText>
     <UpdateDatabase id="CSE_Types_XP1">
       <Properties>
@@ -594,6 +606,8 @@
     <File>Core/CSE_Localisation.sql</File>
     <File>Core/CSE_Localisation_XP1.sql</File>
     <File>Core/CSE_Localisation_XP2.sql</File>
+    <File>Core/CSE_Localisation_Modifications.sql</File>
+    <File>Core/CSE_Modifications.sql</File>
     <File>Core/CSE_ModSupport_Guide.sql</File>
     <File>Core/CSE_UserSettings.sql</File>
     <File>Core/Framework/CSE_Master.sql</File>
