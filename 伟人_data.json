@@ -1,0 +1,1599 @@
+{
+  "report_metadata": {
+    "target_type": "伟人 (Great People)",
+    "generated_at": "2026-07-06",
+    "total_entries": 132,
+    "sources": [
+      "原版 (Base Game)",
+      "2448605286 更多伟人 (Sumus Magnus)",
+      "2973448849 大统治者伟人 (Great Sovereigns)",
+      "3085812151 远古伟人 (Ancient Great People)",
+      "3334907290 删除部分工程师",
+      "3310259652 大统治者伟人汉化",
+      "3338128748 更多伟人汉化",
+      "2778428759 Belief Rework",
+      "2921308654 EWHO",
+      "2459772036 Great Person Recruited Notification"
+    ]
+  },
+  "entries": [
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_LAWRENCE",
+      "name_zh": "阿拉伯的劳伦斯",
+      "name_en": "Lawrence of Arabia",
+      "category": "大军事家 (Great General)",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "解放城市后10回合内+20%文化产出",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_CULTURE_MODIFIER",
+          "amount": 20,
+          "condition": "解放城市后10回合"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_SARGON",
+      "name_zh": "卡尔·古斯塔夫·埃米尔·曼纳海姆",
+      "name_en": "Carl Gustaf Emil Mannerheim",
+      "category": "大军事家 (Great General)",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "所有陆地单位防守时+4战斗力",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 4,
+          "condition": "防守时"
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "所有陆地单位获得ABILITY_MANNERHEIM（防守+4战斗力）",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 4,
+          "condition": "防守时"
+        }
+      ]
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_REX",
+      "name_zh": "卡尔十二世",
+      "name_en": "Charles XII",
+      "category": "大军事家 (Great General)",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "可训练卡洛琳步兵（Carolean）",
+          "modifier_type": "MODIFIER_PLAYER_UNITS_ADJUST_VALID_UNIT",
+          "amount": null,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "所有陆地单位获得ABILITY_REX_GOD_OF_WAR（每点未使用移动力+3战斗力）",
+          "modifier_type": "MODIFIER_SINGLE_UNIT_ADJUST_COMBAT_FOR_UNUSED_MOVEMENT",
+          "amount": 3,
+          "condition": "每点未使用移动力"
+        }
+      ]
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_RURIK",
+      "name_zh": "留里克大公",
+      "name_en": "Rurik",
+      "category": "大军事家 (Great General)",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "获得1个开拓者和1个狂暴武士（Berserker），经验+80%",
+          "modifier_type": "MODIFIER_PLAYER_UNIT_GRANT_UNIT + MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER",
+          "amount": 80,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "所有陆地单位获得ABILITY_RURIK_GAVE_YOU_GOOD_ADVICE（经验+80%）",
+          "modifier_type": "MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER",
+          "amount": 80,
+          "condition": "无"
+        }
+      ]
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_GAJAH",
+      "name_zh": "加查·马达",
+      "name_en": "Gajah Mada",
+      "category": "大军事家 (Great General)",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "陆地单位上船+10战斗力，上下船不消耗移动力；获得胡椒和肉豆蔻奢侈资源",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH + MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_SHORES",
+          "amount": 10,
+          "condition": "上船时"
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "所有陆地单位上船+10战斗力",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 10,
+          "condition": "上船时"
+        },
+        {
+          "description": "所有陆地单位无视上岸惩罚",
+          "modifier_type": "MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_SHORES",
+          "amount": null,
+          "condition": "上/下船时"
+        }
+      ]
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_UNGERN",
+      "name_zh": "罗曼·冯·恩琴",
+      "name_en": "Roman von Ungern-Sternberg",
+      "category": "大军事家 (Great General)",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创建5个怯薛（Keshig）",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_UNIT",
+          "amount": 5,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_JAN_ZIZKA",
+      "name_zh": "扬·杰式卡",
+      "name_en": "Jan Žižka",
+      "category": "大军事家 (Great General)",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "与更高基础战斗力单位作战时+4战斗力",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 4,
+          "condition": "vs更高基础力单位"
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "防御时+10战斗力",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 10,
+          "condition": "防御时"
+        }
+      ]
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_GARIBALDI",
+      "name_zh": "朱塞佩·加里波第",
+      "name_en": "Giuseppe Garibaldi",
+      "category": "大军事家 (Great General)",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "所有近战单位在首都大陆+3战斗力",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 3,
+          "condition": "首都大陆"
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "所有近战单位获得ABILITY_GARIBALDI_BONUS（首都大陆+3战斗力）",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 3,
+          "condition": "首都大陆"
+        }
+      ]
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_BAIBARS",
+      "name_zh": "拜伯尔斯",
+      "name_en": "Baibars",
+      "category": "大军事家 (Great General)",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "受伤减益-20%，每回合结束恢复生命",
+          "modifier_type": "MODIFIER_PLAYER_UNIT_GRANT_HEAL_AFTER_ACTION",
+          "amount": null,
+          "condition": "每次行动后"
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "所有陆地单位获得ABILITY_BAIBARS_UNIQUE（每回合恢复生命）",
+          "modifier_type": "MODIFIER_PLAYER_UNIT_GRANT_HEAL_AFTER_ACTION",
+          "amount": null,
+          "condition": "每次行动后"
+        }
+      ]
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_SFORZA",
+      "name_zh": "卡泰丽娜·斯福尔扎",
+      "name_en": "Caterina Sforza",
+      "category": "大军事家 (Great General)",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "立即获得300文化值",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_YIELD",
+          "amount": 300,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_SUAREZ",
+      "name_zh": "埃尔南·科尔特斯",
+      "name_en": "Hernán Cortés",
+      "category": "大军事家 (Great General)",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创建1个征服者（Conquistador）单位，击败敌人可俘获",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_UNIT",
+          "amount": 1,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "所有近战骑兵单位击败敌人可俘获",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_CAPTURE",
+          "amount": null,
+          "condition": "击败敌人时"
+        }
+      ]
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_LIONHEART",
+      "name_zh": "斯坦尼斯瓦夫·若乌凯夫斯基",
+      "name_en": "Stanisław Żółkiewski",
+      "category": "大军事家 (Great General)",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "可训练翼骑兵（Winged Hussar）",
+          "modifier_type": "MODIFIER_PLAYER_UNITS_ADJUST_VALID_UNIT",
+          "amount": null,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "所有骑兵单位攻击时+7战斗力",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 7,
+          "condition": "攻击时"
+        }
+      ]
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_BAYINNAUNG",
+      "name_zh": "于格·德·帕扬",
+      "name_en": "Hugues de Payens",
+      "category": "大军事家 (Great General)",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "解锁圣殿金库建筑（金币=信仰产出10%），击杀敌人获得信仰（击杀力的100%转化为信仰）",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_POST_COMBAT_YIELD",
+          "amount": 100,
+          "condition": "击杀敌人后"
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "所有陆地单位击杀敌人获得信仰=100%战斗力",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_POST_COMBAT_YIELD",
+          "amount": 100,
+          "condition": "击杀敌人后"
+        }
+      ]
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_SUNDIATA",
+      "name_zh": "哈立德·本·瓦利德",
+      "name_en": "Khalid ibn al-Walid",
+      "category": "大军事家 (Great General)",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "立即获得200信仰值",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_YIELD",
+          "amount": 200,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "所有陆地单位与异教单位作战+7战斗力",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 7,
+          "condition": "vs异教单位"
+        }
+      ]
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_TOKUGAWA",
+      "name_zh": "威廉·米切尔",
+      "name_en": "William Mitchell",
+      "category": "大军事家 (Great General)",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "机场建成时获得1个战斗机单位",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_UNIT",
+          "amount": 1,
+          "condition": "建造机场时"
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "所有战斗机攻击区域无远程惩罚，+17战斗力",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 17,
+          "condition": "攻击区域时"
+        }
+      ]
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_TUSI",
+      "name_zh": "三浦按进（威廉·亚当斯）",
+      "name_en": "William Adams",
+      "category": "大军事家 (Great General)",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "所有政体外交政策槽位+1",
+          "modifier_type": "MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER",
+          "amount": 1,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_AGRIPPA",
+      "name_zh": "阿格里帕",
+      "name_en": "Agrippa",
+      "category": "海军上将 (Great Admiral)",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "建造奇观提供245生产力",
+          "modifier_type": "MODIFIER_SINGLE_CITY_GRANT_PRODUCTION_IN_CITY",
+          "amount": 245,
+          "condition": "RequiresIncompleteWonder"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_HENRY",
+      "name_zh": "米希尔·德·鲁伊特",
+      "name_en": "Michiel de Ruyter",
+      "category": "海军上将 (Great Admiral)",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "选定城市每回合获得+1额外远程攻击",
+          "modifier_type": "MODIFIER_SINGLE_CITY_ADJUST_EXTRA_RANGED_ATTACK",
+          "amount": 1,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_LODBROK",
+      "name_zh": "拉格纳·洛德布罗克",
+      "name_en": "Ragnar Lodbrok",
+      "category": "海军上将 (Great Admiral)",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "掠夺收益翻倍",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_PILLAGE",
+          "amount": 2,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "海军近战单位可俘获敌方船只",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_CAPTURE",
+          "amount": null,
+          "condition": "击败敌方海军单位时"
+        }
+      ]
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_BARBAROSA",
+      "name_zh": "巴巴罗萨·海雷丁",
+      "name_en": "Barbarossa Hayreddin",
+      "category": "海军上将 (Great Admiral)",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "可训练巴巴里海盗（Barbary Corsair）",
+          "modifier_type": "MODIFIER_PLAYER_UNITS_ADJUST_VALID_UNIT",
+          "amount": null,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_NIELS_JUEL",
+      "name_zh": "安德烈亚·多里亚",
+      "name_en": "Andrea Doria",
+      "category": "海军上将 (Great Admiral)",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "海军征服城市自动转化宗教",
+          "modifier_type": "MODIFIER_PLAYER_UNIT_ADJUST_CITY_ON_CAPTURE",
+          "amount": null,
+          "condition": "征服城市时"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_MAJID",
+      "name_zh": "艾哈迈德·本·马吉德",
+      "name_en": "Ahmad ibn Majid",
+      "category": "海军上将 (Great Admiral)",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "所有海军单位+2移动力",
+          "modifier_type": "MODIFIER_PLAYER_UNIT_ADJUST_SEA_MOVEMENT",
+          "amount": 2,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "所有海军单位获得ABILITY_MAJID_SEA_MOVEMENT（+2移动力）",
+          "modifier_type": "MODIFIER_PLAYER_UNIT_ADJUST_SEA_MOVEMENT",
+          "amount": 2,
+          "condition": "无"
+        }
+      ]
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_MORGAN",
+      "name_zh": "亨利·摩根",
+      "name_en": "Henry Morgan",
+      "category": "海军上将 (Great Admiral)",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "获得1个总督点",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_GOVERNOR_POINTS",
+          "amount": 1,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_VITUS",
+      "name_zh": "维图斯·约纳森·白令",
+      "name_en": "Vitus Bering",
+      "category": "海军上将 (Great Admiral)",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "冻土/雪地地块为港口提供+1相邻加成",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_ADJACENCY",
+          "amount": 1,
+          "condition": "冻土/雪地地块"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_COOK",
+      "name_zh": "阿方索·德·阿尔布克尔克",
+      "name_en": "Afonso de Albuquerque",
+      "category": "海军上将 (Great Admiral)",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "获得肉豆蔻奢侈资源",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_RESOURCE",
+          "amount": 1,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "所有海军单位+2视野",
+          "modifier_type": "MODIFIER_PLAYER_UNIT_ADJUST_SIGHT",
+          "amount": 2,
+          "condition": "无"
+        },
+        {
+          "description": "所有海军单位+2移动力",
+          "modifier_type": "MODIFIER_PLAYER_UNIT_ADJUST_SEA_MOVEMENT",
+          "amount": 2,
+          "condition": "无"
+        }
+      ]
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_ARAGONESE",
+      "name_zh": "劳里亚的罗杰",
+      "name_en": "Roger of Lauria",
+      "category": "海军上将 (Great Admiral)",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "所有海军单位每点未使用移动力+1战斗力",
+          "modifier_type": "MODIFIER_SINGLE_UNIT_ADJUST_COMBAT_FOR_UNUSED_MOVEMENT",
+          "amount": 1,
+          "condition": "每点未使用移动力"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_CROESUS",
+      "name_zh": "克罗索斯",
+      "name_en": "Croesus",
+      "category": "大商人 (Great Merchant)",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "国库金币翻倍",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_TREASURY",
+          "amount": 2,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_CECIL",
+      "name_zh": "塞西尔·罗兹",
+      "name_en": "Cecil Rhodes",
+      "category": "大商人 (Great Merchant)",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "可训练红衫军（Redcoat），异大陆有总督的城市+20%金币",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER",
+          "amount": 20,
+          "condition": "异大陆+有总督"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_NESTLE",
+      "name_zh": "吉恩·诺伊豪斯二世",
+      "name_en": "Jean Neuhaus II",
+      "category": "大商人 (Great Merchant)",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "解锁巧克力工厂（Chocolaterie），提供果仁糖（Praline）奢侈资源（+4宜居度）",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_VALID_BUILDING",
+          "amount": null,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_BANKER",
+      "name_zh": "约翰·皮尔庞特·摩根",
+      "name_en": "J.P. Morgan",
+      "category": "大商人 (Great Merchant)",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "每个银行建筑+1外交胜利点数",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_DIPLOMATIC_VICTORY_POINTS_PER_BUILDING",
+          "amount": 1,
+          "condition": "每个银行"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY",
+      "name_zh": "阿发纳西·尼基丁",
+      "name_en": "Afanasy Nikitin",
+      "category": "大商人 (Great Merchant)",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "首都获得1份奢侈资源",
+          "modifier_type": "MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY",
+          "amount": 1,
+          "condition": "首都"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_JACOBKETTLER",
+      "name_zh": "雅各布·凯特勒",
+      "name_en": "Jacob Kettler",
+      "category": "大商人 (Great Merchant)",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "港口提供等同于相邻加成的生产力",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_YIELD_BASED_ON_ADJACENCY",
+          "amount": null,
+          "condition": "港口"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_IBNBATTUTA",
+      "name_zh": "伊本·白图泰",
+      "name_en": "Ibn Battuta",
+      "category": "大商人 (Great Merchant)",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "每条贸易路线每4格+1信仰",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_PATH_TILE",
+          "amount": 0.25,
+          "condition": "每条贸易路线"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_COLBERT",
+      "name_zh": "涩泽荣一",
+      "name_en": "Eiichi Shibusawa",
+      "category": "大商人 (Great Merchant)",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "每种发电战略资源为改良奢侈品提供+1宜居度",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_AMENITIES_PER_STRATEGIC_RESOURCE",
+          "amount": 1,
+          "condition": "每种发电战略资源"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_HAMILTON",
+      "name_zh": "亚历山大·汉密尔顿",
+      "name_en": "Alexander Hamilton",
+      "category": "大商人 (Great Merchant)",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "所有政体经济政策槽位+1",
+          "modifier_type": "MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER",
+          "amount": 1,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_FABERGE",
+      "name_zh": "彼得·卡尔·法贝热",
+      "name_en": "Peter Carl Fabergé",
+      "category": "大商人 (Great Merchant)",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "获得2份法贝热彩蛋奢侈资源（+5宜居度）",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_RESOURCE",
+          "amount": 2,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_RAILLORD",
+      "name_zh": "让-雅克·罗素",
+      "name_en": "Jean-Jacques Rousseau",
+      "category": "大商人 (Great Merchant)",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "+1外交胜利点数",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_DIPLOMATIC_VICTORY_POINTS",
+          "amount": 1,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_VENETIAN_SMUGGLER",
+      "name_zh": "马拉莫科的波诺",
+      "name_en": "Bono of Malamocco",
+      "category": "大商人 (Great Merchant)",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "获得1个遗物，+1商路容量",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_GREAT_WORK + MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY",
+          "amount": 1,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_APOLLODRO",
+      "name_zh": "大马士革的阿波罗多洛斯",
+      "name_en": "Apollodorus of Damascus",
+      "category": "大工程师 (Great Engineer)",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "每个区域+1生产力+1文化",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT",
+          "amount": 1,
+          "condition": "每个区域"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_URBAN",
+      "name_zh": "乌尔班",
+      "name_en": "Urban",
+      "category": "大工程师 (Great Engineer)",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创建2个带1次免费晋升的射石炮（Bombard）",
+          "modifier_type": "MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE",
+          "amount": 2,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_AL_AHMAR",
+      "name_zh": "格拉纳达的穆罕默德五世",
+      "name_en": "Muhammad V of Granada",
+      "category": "大工程师 (Great Engineer)",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "宫殿+3巨作槽位（遗物/文物/雕塑），宗教艺术+4信仰",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_GREAT_WORK_SLOTS",
+          "amount": 3,
+          "condition": "宫殿"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_ISAMBARD",
+      "name_zh": "伊桑巴德·金德姆·布鲁内尔",
+      "name_en": "Isambard Kingdom Brunel",
+      "category": "大工程师 (Great Engineer)",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "每种专业化区域+1%生产力",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_CITY_PRODUCTION_MODIFIER_PER_DISTRICT",
+          "amount": 1,
+          "condition": "每种专业化区域"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_KRUPP",
+      "name_zh": "阿尔弗雷德·克虏伯",
+      "name_en": "Alfred Krupp",
+      "category": "大工程师 (Great Engineer)",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "建造攻城单位+25%生产力",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PRODUCTION_MODIFIER",
+          "amount": 25,
+          "condition": "攻城单位"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_ELIZABETH_WILBRAHAM",
+      "name_zh": "阿尔贝托·桑托斯·杜蒙",
+      "name_en": "Alberto Santos-Dumont",
+      "category": "大工程师 (Great Engineer)",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "航空港从相邻区域获得+2生产力+2文化",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_ADJACENCY",
+          "amount": 2,
+          "condition": "航空港相邻区域"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_DAHLBERG",
+      "name_zh": "塞巴斯蒂安·勒普雷斯特雷·德·沃邦",
+      "name_en": "Sébastien Le Prestre de Vauban",
+      "category": "大工程师 (Great Engineer)",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "军事工程师+堡垒为工业区提供+1相邻加成",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_ADJACENCY",
+          "amount": 1,
+          "condition": "军事工程师+堡垒"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_CURIE",
+      "name_zh": "弗朗切斯科·巴尔托洛梅奥·拉斯特雷利",
+      "name_en": "Francesco Bartolomeo Rastrelli",
+      "category": "大工程师 (Great Engineer)",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "展阁/公馆/市政广场建筑+4文化",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE",
+          "amount": 4,
+          "condition": "展阁/公馆/市政广场建筑"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_ZEPPELIN",
+      "name_zh": "维特鲁威",
+      "name_en": "Vitruvius",
+      "category": "大工程师 (Great Engineer)",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "触发工程学和军事工程学尤里卡，攻城单位+5战斗力",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_BOOST + MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 5,
+          "condition": "攻城单位"
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "所有攻城单位获得ABILITY_VITRUVIUS（+5战斗力）",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 5,
+          "condition": "无"
+        }
+      ]
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_ALI_MASHADDI",
+      "name_zh": "菲迪亚斯",
+      "name_en": "Phidias",
+      "category": "大工程师 (Great Engineer)",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "所有古典奇观获得巨作槽位（遗物/文物/雕塑各1个）",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_GREAT_WORK_SLOTS",
+          "amount": 3,
+          "condition": "古典奇观"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_VIIKTOR_VASNETSOV",
+      "name_zh": "兰斯洛特·布朗",
+      "name_en": "Lancelot 'Capability' Brown",
+      "category": "大工程师 (Great Engineer)",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "相邻市立公园的市中心+2文化",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_ADJACENCY",
+          "amount": 2,
+          "condition": "相邻市立公园"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_SAUGUSTINE",
+      "name_zh": "伊本·西那",
+      "name_en": "Ibn Sina",
+      "category": "大科学家 (Great Scientist)",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "获得1个随机中世纪科技尤里卡",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_BY_ERA",
+          "amount": 1,
+          "condition": "中世纪"
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "所有宗教单位获得ABILITY_SAUGUSTINE_BONUS（+3宗教战斗力）",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 3,
+          "condition": "无"
+        }
+      ]
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_ERASMUS",
+      "name_zh": "伊拉斯谟",
+      "name_en": "Erasmus",
+      "category": "大科学家 (Great Scientist)",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "非战争状态下每个大学+1外交胜利点数，获得1个随机文艺复兴鼓舞",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_DIPLOMATIC_VICTORY_POINTS_PER_BUILDING",
+          "amount": 1,
+          "condition": "非战争+每个大学"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_PASTEUR",
+      "name_zh": "路易·巴斯德",
+      "name_en": "Louis Pasteur",
+      "category": "大科学家 (Great Scientist)",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "所有城市+20%余粮，触发卫生设备尤里卡",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_CITY_GROWTH_MODIFIER",
+          "amount": 20,
+          "condition": "所有城市"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_FARADAY",
+      "name_zh": "迈克尔·法拉第",
+      "name_en": "Michael Faraday",
+      "category": "大科学家 (Great Scientist)",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "每回合+2电力，获得1个随机工业时代尤里卡",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_FREE_POWER",
+          "amount": 2,
+          "condition": "每回合"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_SAKHAROV",
+      "name_zh": "安德烈·萨哈罗夫",
+      "name_en": "Andrei Sakharov",
+      "category": "大科学家 (Great Scientist)",
+      "era": "ERA_ATOMIC",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "+2外交胜利点数，获得随机原子/信息时代尤里卡",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_DIPLOMATIC_VICTORY_POINTS",
+          "amount": 2,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_CAI_LUN",
+      "name_zh": "蔡伦",
+      "name_en": "Cai Lun",
+      "category": "大科学家 (Great Scientist)",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "解锁造纸坊建筑（Paper Maker，+1科技+2金币，100锤）",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_VALID_BUILDING",
+          "amount": null,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_SHEN_KUO",
+      "name_zh": "沈括",
+      "name_en": "Shen Kuo",
+      "category": "大科学家 (Great Scientist)",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "学院区域提供等同于相邻加成的生产力",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_YIELD_BASED_ON_ADJACENCY",
+          "amount": null,
+          "condition": "学院"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_AVERROES",
+      "name_zh": "伊本·路世德",
+      "name_en": "Ibn Rushd (Averroes)",
+      "category": "大科学家 (Great Scientist)",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "黄金时代下每本著作+1科技+2信仰",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_YIELD_PER_GREAT_WORK",
+          "amount": 1,
+          "condition": "黄金时代+每本著作"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_LEIBNITZ",
+      "name_zh": "伏尔泰",
+      "name_en": "Voltaire",
+      "category": "大科学家 (Great Scientist)",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "+1外交胜利点数",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_DIPLOMATIC_VICTORY_POINTS",
+          "amount": 1,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_LEIZU",
+      "name_zh": "胡果·格劳秀斯",
+      "name_en": "Hugo Grotius",
+      "category": "大科学家 (Great Scientist)",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "+1外交胜利点数",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_DIPLOMATIC_VICTORY_POINTS",
+          "amount": 1,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_NIETZSCHE",
+      "name_zh": "弗里德里希·尼采",
+      "name_en": "Friedrich Nietzsche",
+      "category": "大作家 (Great Writer)",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 0,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创建著作《查拉图斯特拉如是说》和《权力意志论》",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_GREAT_WORK",
+          "amount": 2,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_HOBBES",
+      "name_zh": "希波的奥古斯丁",
+      "name_en": "Augustine of Hippo",
+      "category": "大作家 (Great Writer)",
+      "era": "ERA_CLASSICAL",
+      "charges": 0,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创建著作《忏悔录》和《上帝之城》",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_GREAT_WORK",
+          "amount": 2,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_HEIDEGGER",
+      "name_zh": "马丁·海德格尔",
+      "name_en": "Martin Heidegger",
+      "category": "大作家 (Great Writer)",
+      "era": "ERA_MODERN",
+      "charges": 0,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创建著作《存在与时间》和《诗·语言·思》",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_GREAT_WORK",
+          "amount": 2,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_LOVECRAFT",
+      "name_zh": "霍华德·菲利普·洛夫克拉夫特",
+      "name_en": "H.P. Lovecraft",
+      "category": "大作家 (Great Writer)",
+      "era": "ERA_MODERN",
+      "charges": 0,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创建著作《克苏鲁的呼唤》和《印斯茅斯之影》",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_GREAT_WORK",
+          "amount": 2,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_RHOWARD",
+      "name_zh": "罗伯特·欧文·霍华德",
+      "name_en": "Robert E. Howard",
+      "category": "大作家 (Great Writer)",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 0,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创建著作《野蛮人柯南》和《所罗门·凯恩》",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_GREAT_WORK",
+          "amount": 2,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_MAHBUB",
+      "name_zh": "赫布卜·乌·哈格",
+      "name_en": "Mahbub ul Haq",
+      "category": "大作家 (Great Writer)",
+      "era": "ERA_ATOMIC",
+      "charges": 0,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "+1外交胜利点数",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_DIPLOMATIC_VICTORY_POINTS",
+          "amount": 1,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_SAINT_AUGUSTINE",
+      "name_zh": "罗伯特·舒曼",
+      "name_en": "Robert Schuman",
+      "category": "大作家 (Great Writer)",
+      "era": "ERA_ATOMIC",
+      "charges": 0,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "+1外交胜利点数",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_DIPLOMATIC_VICTORY_POINTS",
+          "amount": 1,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_FRANKLIN",
+      "name_zh": "尤利西斯·格兰特",
+      "name_en": "Ulysses S. Grant",
+      "category": "大作家 (Great Writer)",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 0,
+      "source": "2448605286 更多伟人",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "+1外交胜利点数",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_DIPLOMATIC_VICTORY_POINTS",
+          "amount": 1,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_CHATEAU",
+      "name_zh": "菲利贝尔·德洛姆",
+      "name_en": "Philibert de l'Orme",
+      "category": "大工程师 (Great Engineer)",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增（配置选项）",
+      "active_effects": [
+        {
+          "description": "工业区生产力相邻加成转化为文化值，解锁城堡（Chateau）改良",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_YIELD_BASED_ON_ADJACENCY",
+          "amount": null,
+          "condition": "工业区"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_MISSION",
+      "name_zh": "克里斯托佛·克拉乌",
+      "name_en": "Christopher Clavius",
+      "category": "大工程师 (Great Engineer)",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增（配置选项）",
+      "active_effects": [
+        {
+          "description": "城市信仰产出50%转化为科技值，解锁传教团（Mission）改良",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_YIELD_PERCENT_CONVERSION",
+          "amount": 50,
+          "condition": "信仰→科技"
+        }
+      ],
+      "passive_effects": []
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_POLDER",
+      "name_zh": "扬·莱赫瓦特",
+      "name_en": "Jan Leeghwater",
+      "category": "大工程师 (Great Engineer)",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "2448605286 更多伟人",
+      "status": "新增（配置选项）",
+      "active_effects": [
+        {
+          "description": "城市免疫自然灾害，解锁圩田（Polder）改良",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_NATURAL_WONDER_IMMUNITY",
+          "amount": null,
+          "condition": "无"
+        }
+      ],
+      "passive_effects": []
+    }
+  ],
+  "deleted_entries": [
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_BI_SHENG",
+      "name_zh": "毕昇",
+      "deleted_by": "3334907290 删除部分工程师"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JAMES_OF_ST_GEORGE",
+      "name_zh": "圣乔治的詹姆斯",
+      "deleted_by": "3334907290 删除部分工程师"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ISIDORE_OF_MILETUS",
+      "name_zh": "米利都的伊西多尔",
+      "deleted_by": "3334907290 删除部分工程师"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JOHN_A_ROEBLING",
+      "name_zh": "约翰·A·罗布林",
+      "deleted_by": "3334907290 删除部分工程师"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ALVAR_AALTO",
+      "name_zh": "阿尔瓦·阿尔托",
+      "deleted_by": "3334907290 删除部分工程师"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JOHN_A_ROEBLING",
+      "name_zh": "约翰·A·罗布林",
+      "deleted_by": "2448605286 更多伟人 (SumusMagnusRemoveUnimpressives)"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_CHARLES_CORREA",
+      "name_zh": "查尔斯·科雷亚",
+      "deleted_by": "2448605286 更多伟人 (SumusMagnusRemoveUnimpressives)"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JANE_DREW",
+      "name_zh": "简·德鲁",
+      "deleted_by": "2448605286 更多伟人 (SumusMagnusRemoveUnimpressives)"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JAMES_OF_ST_GEORGE",
+      "name_zh": "圣乔治的詹姆斯",
+      "deleted_by": "2448605286 更多伟人 (SumusMagnusRemoveUnimpressives)"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_FRANZ_VON_HIPPER",
+      "name_zh": "弗朗茨·冯·希佩尔",
+      "deleted_by": "2448605286 更多伟人 (SumusMagnusRemoveUnimpressives)"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_FRANCIS_DRAKE",
+      "name_zh": "弗朗西斯·德雷克",
+      "deleted_by": "2448605286 更多伟人 (SumusMagnusRemoveUnimpressives)"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_LASKARINA_BOUBOULINA",
+      "name_zh": "拉斯卡里娜·布布利纳",
+      "deleted_by": "2448605286 更多伟人 (SumusMagnusRemoveUnimpressives)"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_YI_SUN_SIN",
+      "name_zh": "李舜臣",
+      "deleted_by": "2448605286 更多伟人 (SumusMagnusRemoveUnimpressives)"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_HANNO_THE_NAVIGATOR",
+      "name_zh": "航海家汉诺",
+      "deleted_by": "2448605286 更多伟人 (SumusMagnusRemoveUnimpressives)"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_DANDARA",
+      "name_zh": "丹达拉",
+      "deleted_by": "2448605286 更多伟人 (SumusMagnusRemoveUnimpressives)"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JOHN_MONASH",
+      "name_zh": "约翰·莫纳什",
+      "deleted_by": "2448605286 更多伟人 (SumusMagnusRemoveUnimpressives)"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_RANI_LAKSHMIBAI",
+      "name_zh": "拉尼·拉克什米巴伊",
+      "deleted_by": "2448605286 更多伟人 (SumusMagnusRemoveUnimpressives)"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_SAMORI_TURE",
+      "name_zh": "萨莫里·图雷",
+      "deleted_by": "2448605286 更多伟人 (SumusMagnusRemoveUnimpressives)"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_AETHELFLAED",
+      "name_zh": "埃塞尔弗莱德",
+      "deleted_by": "2448605286 更多伟人 (SumusMagnusRemoveUnimpressives)"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PIERO_DE_BARDI",
+      "name_zh": "皮耶罗·德·巴尔迪",
+      "deleted_by": "2448605286 更多伟人 (SumusMagnusRemoveUnimpressives)"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JAKOB_FUGGER",
+      "name_zh": "雅各布·富格尔",
+      "deleted_by": "2448605286 更多伟人 (SumusMagnusRemoveUnimpressives)"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JOHN_JACOB_ASTOR",
+      "name_zh": "约翰·雅各布·阿斯特",
+      "deleted_by": "2448605286 更多伟人 (SumusMagnusRemoveUnimpressives)"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ADAM_SMITH",
+      "name_zh": "亚当·斯密",
+      "deleted_by": "2448605286 更多伟人 (SumusMagnusRemoveUnimpressives)"
+    }
+  ]
+}
