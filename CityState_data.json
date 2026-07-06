@@ -1,0 +1,164 @@
+{
+  "report_metadata": {
+    "title": "Civilization VI City-State Complete Analysis",
+    "generated_at": "2026-07-06",
+    "target_type": "CityState",
+    "sources": {
+      "original": {
+        "entry_count": 24,
+        "retained": 16,
+        "modified": 2,
+        "deleted": 5,
+        "removed_by_xp1": ["AMSTERDAM", "SEOUL"],
+        "removed_by_xp2": ["CARTHAGE", "STOCKHOLM", "TORONTO"]
+      },
+      "dlc_rf_gs": {
+        "entry_count": 10,
+        "retained": 9,
+        "modified": 1
+      },
+      "dlc_nf1": {
+        "entry_count": 6,
+        "retained": 6
+      },
+      "dlc_nf4": {
+        "entry_count": 6,
+        "retained": 6
+      },
+      "mod_cse_base": {
+        "entry_count": 47,
+        "new": 42,
+        "modified": 5
+      },
+      "mod_cse_xp1": {
+        "entry_count": 17,
+        "new": 15,
+        "modified": 2
+      },
+      "mod_cse_xp2": {
+        "entry_count": 9,
+        "new": 7,
+        "modified": 2
+      }
+    },
+    "total_entries": 108,
+    "total_original": 24,
+    "total_dlc": 22,
+    "total_mod": 68
+  },
+  "city_state_types": [
+    {
+      "type_id": "SCIENTIFIC",
+      "name_zh": "科技型",
+      "name_en": "Scientific",
+      "source": "原版",
+      "envoy_bonus": {
+        "1_envoy": "首都+2科技",
+        "3_envoy": "每图书馆+2科技",
+        "6_envoy": "每大学+2科技"
+      }
+    },
+    {
+      "type_id": "RELIGIOUS",
+      "name_zh": "宗教型",
+      "name_en": "Religious",
+      "source": "原版",
+      "envoy_bonus": {
+        "1_envoy": "首都+2信仰",
+        "3_envoy": "每神社+2信仰",
+        "6_envoy": "每寺庙+2信仰"
+      }
+    },
+    {
+      "type_id": "TRADE",
+      "name_zh": "贸易型",
+      "name_en": "Trade",
+      "source": "原版",
+      "envoy_bonus": {
+        "1_envoy": "首都+4金币",
+        "3_envoy": "每市场+4金币",
+        "6_envoy": "每银行+4金币"
+      }
+    },
+    {
+      "type_id": "CULTURAL",
+      "name_zh": "文化型",
+      "name_en": "Cultural",
+      "source": "原版",
+      "envoy_bonus": {
+        "1_envoy": "首都+2文化",
+        "3_envoy": "每纪念碑+2文化",
+        "6_envoy": "每艺术博物馆+2文化"
+      }
+    },
+    {
+      "type_id": "MILITARISTIC",
+      "name_zh": "军事型",
+      "name_en": "Militaristic",
+      "source": "原版",
+      "envoy_bonus": {
+        "1_envoy": "首都+2生产力(造兵)",
+        "3_envoy": "每兵营+2生产力",
+        "6_envoy": "每军械库+2生产力"
+      }
+    },
+    {
+      "type_id": "INDUSTRIAL",
+      "name_zh": "工业型",
+      "name_en": "Industrial",
+      "source": "原版",
+      "envoy_bonus": {
+        "1_envoy": "首都+2生产力(造建筑/奇观)",
+        "3_envoy": "每工坊+2生产力",
+        "6_envoy": "每工厂+2生产力"
+      }
+    },
+    {
+      "type_id": "CSE_AGRICULTURAL",
+      "name_zh": "农业型",
+      "name_en": "Agricultural",
+      "source": "CSE Base",
+      "envoy_bonus": {
+        "1_envoy": "首都+2食物",
+        "3_envoy": "每水磨+2食物; 每粮仓+2食物",
+        "6_envoy": "每下水道+2食物"
+      }
+    },
+    {
+      "type_id": "CSE_CONSULAR",
+      "name_zh": "领事型",
+      "name_en": "Consular",
+      "source": "CSE XP2",
+      "envoy_bonus": {
+        "1_envoy": "城邦自身+2外交支持",
+        "3_envoy": "每市政广场1级建筑+2外交支持",
+        "6_envoy": "每外交区建筑+2外交支持"
+      }
+    },
+    {
+      "type_id": "CSE_ENTERTAINMENT",
+      "name_zh": "娱乐型",
+      "name_en": "Entertainment",
+      "source": "CSE Base",
+      "envoy_bonus": {
+        "1_envoy": "首都+2宜居度",
+        "3_envoy": "每娱乐中心+2宜居度",
+        "6_envoy": "每水上乐园+2宜居度"
+      }
+    },
+    {
+      "type_id": "CSE_MARITIME",
+      "name_zh": "海事型",
+      "name_en": "Maritime",
+      "source": "CSE Base",
+      "envoy_bonus": {
+        "1_envoy": "首都+2食物+2生产力(仅沿海)",
+        "3_envoy": "每灯塔+2食物+2生产力",
+        "6_envoy": "每船坞+2食物+2生产力"
+      }
+    }
+  ],
+  "entries": [],
+  "deleted_entries": [],
+  "modified_entries": []
+}
