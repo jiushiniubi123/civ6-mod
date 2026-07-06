@@ -1,0 +1,5971 @@
+{
+  "report_metadata": {
+    "target_type": "GreatPerson",
+    "generated_at": "2026-07-06",
+    "total_entries": 277,
+    "sources": {
+      "original": {
+        "entries": 168,
+        "modified": 0,
+        "deleted": 18
+      },
+      "dlc": [
+        {
+          "name": "RiseAndFall",
+          "entries": 0,
+          "modified": 0,
+          "deleted": 0
+        },
+        {
+          "name": "GatheringStorm",
+          "entries": 0,
+          "modified": 0,
+          "deleted": 0
+        }
+      ],
+      "mods": [
+        {
+          "name": "Sumus Magnus",
+          "entries": 74,
+          "modified": 0,
+          "deleted": 18
+        },
+        {
+          "name": "Great Sovereigns",
+          "entries": 22,
+          "modified": 0,
+          "deleted": 0
+        },
+        {
+          "name": "6T Ancient Paragons",
+          "entries": 13,
+          "modified": 3,
+          "deleted": 0
+        },
+        {
+          "name": "DeleteSomeGreatEngineer",
+          "entries": 0,
+          "modified": 0,
+          "deleted": 5
+        }
+      ]
+    }
+  },
+  "entries": [
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JOSEPH_PAQUET",
+      "name_zh": "约瑟夫·帕奎特",
+      "name_en": "Joseph Paquet",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_BI_SHENG",
+      "name_zh": "毕昇",
+      "name_en": "Bi Sheng",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "被删除",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ISIDORE_OF_MILETUS",
+      "name_zh": "米利都的伊西多尔",
+      "name_en": "Isidore of Miletus",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "被删除",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JAMES_OF_ST_GEORGE",
+      "name_zh": "圣乔治的詹姆斯",
+      "name_en": "James of St. George",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "被删除",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_FILIPPO_BRUNELLESCHI",
+      "name_zh": "菲利波·布鲁内列斯基",
+      "name_en": "Filippo Brunelleschi",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_LEONARDO_DA_VINCI",
+      "name_zh": "列奥纳多·达·芬奇",
+      "name_en": "Leonardo da Vinci",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN",
+      "name_zh": "米马尔·希南",
+      "name_en": "Mimar Sinan",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JOHN_A_ROEBLING",
+      "name_zh": "约翰·A·罗布林",
+      "name_en": "John A. Roebling",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "被删除",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_GUSTAVE_EIFFEL",
+      "name_zh": "居斯塔夫·埃菲尔",
+      "name_en": "Gustave Eiffel",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JAMES_WATT",
+      "name_zh": "詹姆斯·瓦特",
+      "name_en": "James Watt",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_NIKOLA_TESLA",
+      "name_zh": "尼古拉·特斯拉",
+      "name_en": "Nikola Tesla",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ALVAR_AALTO",
+      "name_zh": "阿尔瓦·阿尔托",
+      "name_en": "Alvar Aalto",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "被删除",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ROBERT_GODDARD",
+      "name_zh": "罗伯特·戈达德",
+      "name_en": "Robert Goddard",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_SERGEI_KOROLEV",
+      "name_zh": "谢尔盖·科罗廖夫",
+      "name_en": "Sergei Korolev",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_ATOMIC",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_WERNHER_VON_BRAUN",
+      "name_zh": "沃纳·冯·布劳恩",
+      "name_en": "Wernher von Braun",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_ATOMIC",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_CHARLES_CORREA",
+      "name_zh": "查尔斯·科雷亚",
+      "name_en": "Charles Correa",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_ATOMIC",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "被删除",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JANE_DREW",
+      "name_zh": "简·德鲁",
+      "name_en": "Jane Drew",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_ATOMIC",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "被删除",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JOHN_ROEBLING",
+      "name_zh": "约翰·罗布林",
+      "name_en": "John Roebling",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_IMHOTEP",
+      "name_zh": "伊姆霍特普",
+      "name_en": "Imhotep",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_ANCIENT",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JOHN_SMITH",
+      "name_zh": "约翰·斯米顿",
+      "name_en": "John Smeaton",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JOSEPH_BAZALGETTE",
+      "name_zh": "约瑟夫·巴扎尔盖特",
+      "name_en": "Joseph Bazalgette",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ADA_LOVELACE",
+      "name_zh": "阿达·洛夫莱斯",
+      "name_en": "Ada Lovelace",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_CHARLES_BABBAGE",
+      "name_zh": "查尔斯·巴贝奇",
+      "name_en": "Charles Babbage",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ARTEMISIA",
+      "name_zh": "阿尔忒弥西亚",
+      "name_en": "Artemisia",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_GAIUS_DUILIUS",
+      "name_zh": "盖乌斯·杜伊利乌斯",
+      "name_en": "Gaius Duilius",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_THEMISTOCLES",
+      "name_zh": "地米斯托克利",
+      "name_en": "Themistocles",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_LEIF_ERIKSON",
+      "name_zh": "莱夫·埃里克松",
+      "name_en": "Leif Erikson",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ZHENG_HE",
+      "name_zh": "郑和",
+      "name_en": "Zheng He",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_FRANCIS_DRAKE",
+      "name_zh": "弗朗西斯·德雷克",
+      "name_en": "Francis Drake",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "被删除",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_FRANZ_VON_HIPPER",
+      "name_zh": "弗朗茨·冯·希佩尔",
+      "name_en": "Franz von Hipper",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "被删除",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_HORATIO_NELSON",
+      "name_zh": "霍雷肖·纳尔逊",
+      "name_en": "Horatio Nelson",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_LASKARINA_BOUBOULINA",
+      "name_zh": "拉斯卡里娜·布布利娜",
+      "name_en": "Laskarina Bouboulina",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "被删除",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_YI_SUN_SIN",
+      "name_zh": "李舜臣",
+      "name_en": "Yi Sun-sin",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "被删除",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_HANNO_THE_NAVIGATOR",
+      "name_zh": "航海家汉诺",
+      "name_en": "Hanno the Navigator",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "被删除",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_DANDARA",
+      "name_zh": "丹达拉",
+      "name_en": "Dandara",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "被删除",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_CHESTER_NIMITZ",
+      "name_zh": "切斯特·尼米兹",
+      "name_en": "Chester Nimitz",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_GRACE_HOPPER",
+      "name_zh": "格蕾丝·霍珀",
+      "name_en": "Grace Hopper",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_ATOMIC",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_SERGEI_GORSHKOV",
+      "name_zh": "谢尔盖·戈尔什科夫",
+      "name_en": "Sergei Gorshkov",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_ATOMIC",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_CLANCY_FERNANDO",
+      "name_zh": "克兰西·费尔南多",
+      "name_en": "Clancy Fernando",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_ATOMIC",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_MATTHEW_PERRY",
+      "name_zh": "马修·佩里",
+      "name_en": "Matthew Perry",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_RAJA_TODAR_MAL",
+      "name_zh": "拉贾·托达尔·马尔",
+      "name_en": "Raja Todar Mal",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_CHING_SHIH",
+      "name_zh": "郑氏",
+      "name_en": "Ching Shih",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JOAQUIM_MARQUES_LISBOA",
+      "name_zh": "若阿金·马克斯·里斯本",
+      "name_en": "Joaquim Marques Lisboa",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_BOUDICA",
+      "name_zh": "布狄卡",
+      "name_en": "Boudica",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_HANNIBAL_BARCA",
+      "name_zh": "汉尼拔·巴卡",
+      "name_en": "Hannibal Barca",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_SUN_TZU",
+      "name_zh": "孙子",
+      "name_en": "Sun Tzu",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_AETHELFLAED",
+      "name_zh": "埃塞尔弗莱德",
+      "name_en": "Aethelflaed",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "被删除",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_EL_CID",
+      "name_zh": "熙德",
+      "name_en": "El Cid",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_GENGHIS_KHAN",
+      "name_zh": "成吉思汗",
+      "name_en": "Genghis Khan",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_GUSTAVUS_ADOLPHUS",
+      "name_zh": "古斯塔夫·阿道夫",
+      "name_en": "Gustavus Adolphus",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE",
+      "name_zh": "拿破仑·波拿巴",
+      "name_en": "Napoleon Bonaparte",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JOHN_MONASH",
+      "name_zh": "约翰·莫纳什",
+      "name_en": "John Monash",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "被删除",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_RANI_LAKSHMIBAI",
+      "name_zh": "拉尼·拉克什米巴伊",
+      "name_en": "Rani Lakshmibai",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "被删除",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_SAMORI_TURE",
+      "name_zh": "萨莫里·杜尔",
+      "name_en": "Samori Ture",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "被删除",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_SIMON_BOLIVAR",
+      "name_zh": "西蒙·玻利瓦尔",
+      "name_en": "Simon Bolivar",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_DOUGLAS_MACARTHUR",
+      "name_zh": "道格拉斯·麦克阿瑟",
+      "name_en": "Douglas MacArthur",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_GEORGY_ZHUKOV",
+      "name_zh": "格奥尔基·朱可夫",
+      "name_en": "Georgy Zhukov",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ERWIN_ROMMEL",
+      "name_zh": "埃尔温·隆美尔",
+      "name_en": "Erwin Rommel",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ANA_NZINGA",
+      "name_zh": "安娜·恩津加",
+      "name_en": "Ana Nzinga",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_GEORGE_PATTON",
+      "name_zh": "乔治·巴顿",
+      "name_en": "George Patton",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ALEXANDER_THE_GREAT",
+      "name_zh": "亚历山大大帝",
+      "name_en": "Alexander the Great",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_SUNDIATA_KEITA",
+      "name_zh": "松迪亚塔·凯塔",
+      "name_en": "Sundiata Keita",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_AMINATOU",
+      "name_zh": "阿米娜",
+      "name_en": "Aminatou",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_KHALID_IBN_AL_WALID",
+      "name_zh": "哈立德·本·瓦利德",
+      "name_en": "Khalid ibn al-Walid",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_TRUNG_TRAC",
+      "name_zh": "徵侧",
+      "name_en": "Trung Trac",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_TUPAC_AMARU",
+      "name_zh": "图帕克·阿马鲁",
+      "name_en": "Tupac Amaru",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_TAKEDA_SHINGEN",
+      "name_zh": "武田信玄",
+      "name_en": "Takeda Shingen",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_MARINA_RASKOVA",
+      "name_zh": "玛丽娜·拉斯科娃",
+      "name_en": "Marina Raskova",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_COLONEL_COLUMBUS",
+      "name_zh": "克里斯托弗·哥伦布",
+      "name_en": "Christopher Columbus",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_MARCO_POLO",
+      "name_zh": "马可·波罗",
+      "name_en": "Marco Polo",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PIERO_DE_BARDI",
+      "name_zh": "皮耶罗·德·巴尔迪",
+      "name_en": "Piero de Bardi",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "被删除",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JAKOB_FUGGER",
+      "name_zh": "雅各布·富格尔",
+      "name_en": "Jakob Fugger",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "被删除",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JOHN_JACOB_ASTOR",
+      "name_zh": "约翰·雅各布·阿斯特",
+      "name_en": "John Jacob Astor",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "被删除",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ADAM_SMITH",
+      "name_zh": "亚当·斯密",
+      "name_en": "Adam Smith",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "被删除",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JOHN_ROCKEFELLER",
+      "name_zh": "约翰·洛克菲勒",
+      "name_en": "John Rockefeller",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_LEVI_STRAUSS",
+      "name_zh": "李维·斯特劳斯",
+      "name_en": "Levi Strauss",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_MELITTA_BENTZ",
+      "name_zh": "梅利塔·本茨",
+      "name_en": "Melitta Bentz",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_HELENA_RUBINSTEIN",
+      "name_zh": "海伦娜·鲁宾斯坦",
+      "name_en": "Helena Rubinstein",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ESTEE_LAUDER",
+      "name_zh": "雅诗兰黛",
+      "name_en": "Estee Lauder",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_MARY_KATHERINE_GODDARD",
+      "name_zh": "玛丽·凯瑟琳·戈达德",
+      "name_en": "Mary Katherine Goddard",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_IRENE_OF_ATHENS",
+      "name_zh": "雅典的伊琳娜",
+      "name_en": "Irene of Athens",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_MARCUS_LICINIUS_CRASSUS",
+      "name_zh": "马库斯·李锡尼·克拉苏",
+      "name_en": "Marcus Licinius Crassus",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ZHANG_QIAN",
+      "name_zh": "张骞",
+      "name_en": "Zhang Qian",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_RAJA_TODAR_MAL_MERCHANT",
+      "name_zh": "托达尔·马尔",
+      "name_en": "Todar Mal",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_MANSA_MUSA",
+      "name_zh": "曼萨·穆萨",
+      "name_en": "Mansa Musa",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JAMSETJI_TATA",
+      "name_zh": "贾姆塞特吉·塔塔",
+      "name_en": "Jamsetji Tata",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ARYABHATA",
+      "name_zh": "阿耶波多",
+      "name_en": "Aryabhata",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_EUCLID",
+      "name_zh": "欧几里得",
+      "name_en": "Euclid",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_HYPATIA",
+      "name_zh": "希帕提娅",
+      "name_en": "Hypatia",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ABU_AL_QASIM_AL_ZAHRAWI",
+      "name_zh": "阿布·卡西姆·扎赫拉维",
+      "name_en": "Abu al-Qasim al-Zahrawi",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_HILDEGARD_OF_BINGEN",
+      "name_zh": "宾根的希尔德加德",
+      "name_en": "Hildegard of Bingen",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_OMAR_KHAYYAM",
+      "name_zh": "欧玛尔·海亚姆",
+      "name_en": "Omar Khayyam",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_GALILEO_GALILEI",
+      "name_zh": "伽利略·伽利莱",
+      "name_en": "Galileo Galilei",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ISAAC_NEWTON",
+      "name_zh": "艾萨克·牛顿",
+      "name_en": "Isaac Newton",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_CHARLES_DARWIN",
+      "name_zh": "查尔斯·达尔文",
+      "name_en": "Charles Darwin",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_DMITRI_MENDELEEV",
+      "name_zh": "德米特里·门捷列夫",
+      "name_en": "Dmitri Mendeleev",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ALBERT_EINSTEIN",
+      "name_zh": "阿尔伯特·爱因斯坦",
+      "name_en": "Albert Einstein",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ALAN_TURING",
+      "name_zh": "艾伦·图灵",
+      "name_en": "Alan Turing",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JANAKI_AMMAL",
+      "name_zh": "贾纳基·阿马尔",
+      "name_en": "Janaki Ammal",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_MARY_LEAKEY",
+      "name_zh": "玛丽·利基",
+      "name_en": "Mary Leakey",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_ATOMIC",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_STEPHANIE_KWOLEK",
+      "name_zh": "斯蒂芬妮·克沃勒克",
+      "name_en": "Stephanie Kwolek",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_ATOMIC",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ABDUS_SALAM",
+      "name_zh": "阿卜杜勒·萨拉姆",
+      "name_en": "Abdus Salam",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_ATOMIC",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_AL_KHWARIZMI",
+      "name_zh": "花拉子密",
+      "name_en": "Al-Khwarizmi",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_EMILIE_DU_CHATELET",
+      "name_zh": "埃米莉·杜·夏特莱",
+      "name_en": "Emilie du Chatelet",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JAMES_YOUNG",
+      "name_zh": "詹姆斯·杨",
+      "name_en": "James Young",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ERWIN_SCHRODINGER",
+      "name_zh": "埃尔温·薛定谔",
+      "name_en": "Erwin Schrodinger",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_CARL_SAGAN",
+      "name_zh": "卡尔·萨根",
+      "name_en": "Carl Sagan",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_ATOMIC",
+      "charges": 1,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_HOMER",
+      "name_zh": "荷马",
+      "name_en": "Homer",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_CLASSICAL",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_QU_YUAN",
+      "name_zh": "屈原",
+      "name_en": "Qu Yuan",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_CLASSICAL",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_OVEYA",
+      "name_zh": "奥维德",
+      "name_en": "Ovid",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_CLASSICAL",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_MURASAKI_SHIKIBU",
+      "name_zh": "紫式部",
+      "name_en": "Murasaki Shikibu",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_MEDIEVAL",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_GEOFFREY_CHAUCER",
+      "name_zh": "杰弗里·乔叟",
+      "name_en": "Geoffrey Chaucer",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_MEDIEVAL",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_MIGUEL_DE_CERVANTES",
+      "name_zh": "米格尔·德·塞万提斯",
+      "name_en": "Miguel de Cervantes",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_RENAISSANCE",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_WILLIAM_SHAKESPEARE",
+      "name_zh": "威廉·莎士比亚",
+      "name_en": "William Shakespeare",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_RENAISSANCE",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JANE_AUSTEN",
+      "name_zh": "简·奥斯汀",
+      "name_en": "Jane Austen",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_LEO_TOLSTOY",
+      "name_zh": "列夫·托尔斯泰",
+      "name_en": "Leo Tolstoy",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_MARK_TWAIN",
+      "name_zh": "马克·吐温",
+      "name_en": "Mark Twain",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_FRANZ_KAFKA",
+      "name_zh": "弗朗茨·卡夫卡",
+      "name_en": "Franz Kafka",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_MODERN",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JAMES_JOYCE",
+      "name_zh": "詹姆斯·乔伊斯",
+      "name_en": "James Joyce",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_MODERN",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_EMILY_DICKINSON",
+      "name_zh": "艾米莉·狄金森",
+      "name_en": "Emily Dickinson",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_EDGAR_ALLEN_POE",
+      "name_zh": "埃德加·爱伦·坡",
+      "name_en": "Edgar Allan Poe",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_F_SCOTT_FITZGERALD",
+      "name_zh": "F·斯科特·菲茨杰拉德",
+      "name_en": "F. Scott Fitzgerald",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_MODERN",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_VALMIKI",
+      "name_zh": "蚁垤",
+      "name_en": "Valmiki",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_CLASSICAL",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_RABINDRANATH_TAGORE",
+      "name_zh": "罗宾德拉纳特·泰戈尔",
+      "name_en": "Rabindranath Tagore",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_MODERN",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_BHASA",
+      "name_zh": "跋娑",
+      "name_en": "Bhasa",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_CLASSICAL",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ALEXANDER_PUSHKIN",
+      "name_zh": "亚历山大·普希金",
+      "name_en": "Alexander Pushkin",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_NIKOLAI_GOGOL",
+      "name_zh": "尼古拉·果戈理",
+      "name_en": "Nikolai Gogol",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_REMBRANDT",
+      "name_zh": "伦勃朗",
+      "name_en": "Rembrandt",
+      "category": "GREAT_PERSON_CLASS_ARTIST",
+      "era": "ERA_RENAISSANCE",
+      "charges": 3,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_MICHELANGELO",
+      "name_zh": "米开朗基罗",
+      "name_en": "Michelangelo",
+      "category": "GREAT_PERSON_CLASS_ARTIST",
+      "era": "ERA_RENAISSANCE",
+      "charges": 3,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_DONATELLO",
+      "name_zh": "多纳泰罗",
+      "name_en": "Donatello",
+      "category": "GREAT_PERSON_CLASS_ARTIST",
+      "era": "ERA_RENAISSANCE",
+      "charges": 3,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_TITIAN",
+      "name_zh": "提香",
+      "name_en": "Titian",
+      "category": "GREAT_PERSON_CLASS_ARTIST",
+      "era": "ERA_RENAISSANCE",
+      "charges": 3,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_VINCENT_VAN_GOGH",
+      "name_zh": "文森特·梵高",
+      "name_en": "Vincent van Gogh",
+      "category": "GREAT_PERSON_CLASS_ARTIST",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 3,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_CLAUDE_MONET",
+      "name_zh": "克劳德·莫奈",
+      "name_en": "Claude Monet",
+      "category": "GREAT_PERSON_CLASS_ARTIST",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 3,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PABLO_PICASSO",
+      "name_zh": "巴勃罗·毕加索",
+      "name_en": "Pablo Picasso",
+      "category": "GREAT_PERSON_CLASS_ARTIST",
+      "era": "ERA_MODERN",
+      "charges": 3,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JANG_SEUNG_EOB",
+      "name_zh": "张承业",
+      "name_en": "Jang Seung-eop",
+      "category": "GREAT_PERSON_CLASS_ARTIST",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 3,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_HOKUSAI",
+      "name_zh": "葛饰北斋",
+      "name_en": "Hokusai",
+      "category": "GREAT_PERSON_CLASS_ARTIST",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 3,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ANDY_WARHOL",
+      "name_zh": "安迪·沃霍尔",
+      "name_en": "Andy Warhol",
+      "category": "GREAT_PERSON_CLASS_ARTIST",
+      "era": "ERA_MODERN",
+      "charges": 3,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_EL_GRECO",
+      "name_zh": "埃尔·格列柯",
+      "name_en": "El Greco",
+      "category": "GREAT_PERSON_CLASS_ARTIST",
+      "era": "ERA_RENAISSANCE",
+      "charges": 3,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_SOFONISBA_ANGUISSOLA",
+      "name_zh": "索福尼斯巴·安圭索拉",
+      "name_en": "Sofonisba Anguissola",
+      "category": "GREAT_PERSON_CLASS_ARTIST",
+      "era": "ERA_RENAISSANCE",
+      "charges": 3,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ANGELICA_KAUFFMAN",
+      "name_zh": "安杰莉卡·考夫曼",
+      "name_en": "Angelica Kauffman",
+      "category": "GREAT_PERSON_CLASS_ARTIST",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 3,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_MARY_CASSATT",
+      "name_zh": "玛丽·卡萨特",
+      "name_en": "Mary Cassatt",
+      "category": "GREAT_PERSON_CLASS_ARTIST",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 3,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_AMRITA_SHER_GIL",
+      "name_zh": "阿姆丽塔·谢尔-吉尔",
+      "name_en": "Amrita Sher-Gil",
+      "category": "GREAT_PERSON_CLASS_ARTIST",
+      "era": "ERA_MODERN",
+      "charges": 3,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_LUDWIG_VAN_BEETHOVEN",
+      "name_zh": "路德维希·范·贝多芬",
+      "name_en": "Ludwig van Beethoven",
+      "category": "GREAT_PERSON_CLASS_MUSICIAN",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_WOLFGANG_AMADEUS_MOZART",
+      "name_zh": "沃尔夫冈·阿马德乌斯·莫扎特",
+      "name_en": "Wolfgang Amadeus Mozart",
+      "category": "GREAT_PERSON_CLASS_MUSICIAN",
+      "era": "ERA_RENAISSANCE",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JOHANN_SEBASTIAN_BACH",
+      "name_zh": "约翰·塞巴斯蒂安·巴赫",
+      "name_en": "Johann Sebastian Bach",
+      "category": "GREAT_PERSON_CLASS_MUSICIAN",
+      "era": "ERA_RENAISSANCE",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ANTONIN_DVORAK",
+      "name_zh": "安东宁·德沃夏克",
+      "name_en": "Antonin Dvorak",
+      "category": "GREAT_PERSON_CLASS_MUSICIAN",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PYOTR_ILYICH_TCHAIKOVSKY",
+      "name_zh": "彼得·伊里奇·柴可夫斯基",
+      "name_en": "Pyotr Ilyich Tchaikovsky",
+      "category": "GREAT_PERSON_CLASS_MUSICIAN",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_CLARA_SCHUMANN",
+      "name_zh": "克拉拉·舒曼",
+      "name_en": "Clara Schumann",
+      "category": "GREAT_PERSON_CLASS_MUSICIAN",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_FREDERIC_CHOPIN",
+      "name_zh": "弗雷德里克·肖邦",
+      "name_en": "Frederic Chopin",
+      "category": "GREAT_PERSON_CLASS_MUSICIAN",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ANTONIO_VIVALDI",
+      "name_zh": "安东尼奥·维瓦尔第",
+      "name_en": "Antonio Vivaldi",
+      "category": "GREAT_PERSON_CLASS_MUSICIAN",
+      "era": "ERA_RENAISSANCE",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_LIU_TIANHUA",
+      "name_zh": "刘天华",
+      "name_en": "Liu Tianhua",
+      "category": "GREAT_PERSON_CLASS_MUSICIAN",
+      "era": "ERA_MODERN",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_DUKE_ELLINGTON",
+      "name_zh": "杜克·艾灵顿",
+      "name_en": "Duke Ellington",
+      "category": "GREAT_PERSON_CLASS_MUSICIAN",
+      "era": "ERA_MODERN",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_GAURAV_MAZUMDAR",
+      "name_zh": "戈拉夫·马宗达",
+      "name_en": "Gaurav Mazumdar",
+      "category": "GREAT_PERSON_CLASS_MUSICIAN",
+      "era": "ERA_ATOMIC",
+      "charges": 2,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_BODHIDHARMA",
+      "name_zh": "菩提达摩",
+      "name_en": "Bodhidharma",
+      "category": "GREAT_PERSON_CLASS_PROPHET",
+      "era": "ERA_ANCIENT",
+      "charges": 0,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_CONFUCIUS",
+      "name_zh": "孔子",
+      "name_en": "Confucius",
+      "category": "GREAT_PERSON_CLASS_PROPHET",
+      "era": "ERA_ANCIENT",
+      "charges": 0,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JOHN_THE_BAPTIST",
+      "name_zh": "施洗约翰",
+      "name_en": "John the Baptist",
+      "category": "GREAT_PERSON_CLASS_PROPHET",
+      "era": "ERA_ANCIENT",
+      "charges": 0,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_LAOZI",
+      "name_zh": "老子",
+      "name_en": "Laozi",
+      "category": "GREAT_PERSON_CLASS_PROPHET",
+      "era": "ERA_ANCIENT",
+      "charges": 0,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_SIDDHARTHA_GAUTAMA",
+      "name_zh": "悉达多·乔达摩",
+      "name_en": "Siddhartha Gautama",
+      "category": "GREAT_PERSON_CLASS_PROPHET",
+      "era": "ERA_ANCIENT",
+      "charges": 0,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_SIMON_PETER",
+      "name_zh": "西门·彼得",
+      "name_en": "Simon Peter",
+      "category": "GREAT_PERSON_CLASS_PROPHET",
+      "era": "ERA_ANCIENT",
+      "charges": 0,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ZOROASTER",
+      "name_zh": "琐罗亚斯德",
+      "name_en": "Zoroaster",
+      "category": "GREAT_PERSON_CLASS_PROPHET",
+      "era": "ERA_ANCIENT",
+      "charges": 0,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ADI_SHANKARA",
+      "name_zh": "商羯罗",
+      "name_en": "Adi Shankara",
+      "category": "GREAT_PERSON_CLASS_PROPHET",
+      "era": "ERA_CLASSICAL",
+      "charges": 0,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_IRENAEUS",
+      "name_zh": "爱任纽",
+      "name_en": "Irenaeus",
+      "category": "GREAT_PERSON_CLASS_PROPHET",
+      "era": "ERA_CLASSICAL",
+      "charges": 0,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_O_NO_YASUMARO",
+      "name_zh": "太安万侣",
+      "name_en": "O no Yasumaro",
+      "category": "GREAT_PERSON_CLASS_PROPHET",
+      "era": "ERA_CLASSICAL",
+      "charges": 0,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_MARTIN_LUTHER",
+      "name_zh": "马丁·路德",
+      "name_en": "Martin Luther",
+      "category": "GREAT_PERSON_CLASS_PROPHET",
+      "era": "ERA_RENAISSANCE",
+      "charges": 0,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_THOMAS_AQUINAS",
+      "name_zh": "托马斯·阿奎那",
+      "name_en": "Thomas Aquinas",
+      "category": "GREAT_PERSON_CLASS_PROPHET",
+      "era": "ERA_MEDIEVAL",
+      "charges": 0,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_FRANCIS_OF_ASSISI",
+      "name_zh": "阿西西的圣方济各",
+      "name_en": "Francis of Assisi",
+      "category": "GREAT_PERSON_CLASS_PROPHET",
+      "era": "ERA_MEDIEVAL",
+      "charges": 0,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_MADHVA_ACHARYA",
+      "name_zh": "摩陀婆·阿阇梨",
+      "name_en": "Madhva Acharya",
+      "category": "GREAT_PERSON_CLASS_PROPHET",
+      "era": "ERA_MEDIEVAL",
+      "charges": 0,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_HAMSA",
+      "name_zh": "汉萨",
+      "name_en": "Hamsa",
+      "category": "GREAT_PERSON_CLASS_PROPHET",
+      "era": "ERA_MEDIEVAL",
+      "charges": 0,
+      "source": "原版",
+      "source_file": "",
+      "status": "原版",
+      "active_effects": [],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_CROESUS",
+      "name_zh": "克罗索斯",
+      "name_en": "Croesus",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "当前国库金币翻倍",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_TREASURY",
+          "amount": 2,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "+5战斗力给所有单位",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 5,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "linked_abilities": [],
+      "display_name_note": "Croesus"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_REX",
+      "name_zh": "卡尔十二世",
+      "name_en": "Carolus Rex",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "可训练卡洛琳步兵（需要金属铸造）",
+          "modifier_type": "MODIFIER_PLAYER_ENABLE_UNIT_TRAINING",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "每点未使用移动力+3战斗力（文艺复兴和工业时代陆地单位）",
+          "modifier_type": "MODIFIER_SINGLE_UNIT_ADJUST_COMBAT_FOR_UNUSED_MOVEMENT",
+          "amount": 3,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "linked_abilities": [
+        {
+          "ability_id": "ABILITY_REX_GOD_OF_WAR",
+          "description": "Carolus Rex: +3战斗力每点未使用移动力",
+          "modifier_chain": [
+            "PLATI_REX_BUFF"
+          ]
+        }
+      ],
+      "display_name_note": "Carolus Rex"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_LAWRENCE",
+      "name_zh": "阿拉伯的劳伦斯",
+      "name_en": "Lawrence of Arabia",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "解放城市后10回合内所有城市+20%文化值",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "+80%单位经验获取",
+          "modifier_type": "MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER",
+          "amount": 80,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_URBAN",
+      "name_zh": "乌尔班",
+      "name_en": "Urban",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创建两个拥有一次升级的射石炮单位",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_UNIT",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "+5战斗力给攻城单位",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 5,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_GARIBALDI",
+      "name_zh": "朱塞佩·加里波第",
+      "name_en": "Giuseppe Garibaldi",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "近战单位在首都大陆战斗时+3战斗力",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 3,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "近战单位在首都所在大陆上+3战斗力",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 3,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": "首都大陆"
+        }
+      ],
+      "linked_abilities": [
+        {
+          "ability_id": "ABILITY_GARIBALDI_BONUS",
+          "description": "+3战斗力在首都大陆",
+          "modifier_chain": [
+            "GARIBALDI_BUFF"
+          ]
+        }
+      ],
+      "display_name_note": "Garibaldi"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_BAIBARS",
+      "name_zh": "拜伯尔斯",
+      "name_en": "Baibars",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "受伤时战斗力减益-20%",
+          "modifier_type": "MODIFIER_PLAYER_UNIT_ADJUST_COMBAT_DAMAGE",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "中世纪和文艺复兴时期陆地单位每回合结束自动回血",
+          "modifier_type": "MODIFIER_PLAYER_UNIT_GRANT_HEAL_AFTER_ACTION",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "linked_abilities": [
+        {
+          "ability_id": "ABILITY_BAIBARS_UNIQUE",
+          "description": "马穆鲁克纪律：回合结束后恢复生命值",
+          "modifier_chain": [
+            "BAIBARS_BUFF"
+          ]
+        }
+      ],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_LIONHEART",
+      "name_zh": "斯坦尼斯瓦夫·若乌凯夫斯基",
+      "name_en": "Stanislaw Zolkiewski",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "可训练翼骑兵（需要重商主义市政）",
+          "modifier_type": "MODIFIER_PLAYER_ENABLE_UNIT_TRAINING",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "+7战斗力攻击时给中世纪和文艺复兴时期骑兵单位",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 7,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": "攻击时"
+        }
+      ],
+      "linked_abilities": [
+        {
+          "ability_id": "ABILITY_NORMAN_LEGACY",
+          "description": "若乌凯夫斯基战术：+7攻击战斗力",
+          "modifier_chain": [
+            "PLATI_NORMAN_CAVALRY_BUFF"
+          ]
+        }
+      ],
+      "display_name_note": "Norman"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_SARGON",
+      "name_zh": "卡尔·古斯塔夫·埃米尔·曼纳海姆",
+      "name_en": "Carl Gustaf Emil Mannerheim",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "所有陆地单位+1移动力",
+          "modifier_type": "MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT",
+          "amount": 1,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "+4战斗力防守时",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 4,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": "防守时"
+        }
+      ],
+      "linked_abilities": [
+        {
+          "ability_id": "ABILITY_MANNERHEIM",
+          "description": "曼纳海姆防线：+4战斗力防守",
+          "modifier_chain": [
+            "MANNERHEIM_BUFF"
+          ]
+        }
+      ],
+      "display_name_note": "Mannerheim"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_SFORZA",
+      "name_zh": "卡泰丽娜·斯福尔扎",
+      "name_en": "Caterina Sforza",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "获得300文化值",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_YIELD",
+          "amount": 300,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_SUAREZ",
+      "name_zh": "埃尔南·科尔特斯",
+      "name_en": "Hernan Cortes",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创建一个拥有一次升级的征服者单位",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_UNIT",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "中世纪和文艺复兴时期近战/骑兵单位击败敌方单位有几率俘获",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_CAPTURE",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "linked_abilities": [
+        {
+          "ability_id": "ABILITY_PLATI_SARGON_SABBUM",
+          "description": "科尔特斯的说服：击败敌方单位有几率俘获",
+          "modifier_chain": [
+            "PLATI_SARGON_CONVERSION"
+          ]
+        }
+      ],
+      "display_name_note": "Sargon"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_RURIK",
+      "name_zh": "留里克大公",
+      "name_en": "Rurik",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "获得一个开拓者和一个狂暴武士",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_UNIT",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "+80%经验获取",
+          "modifier_type": "MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER",
+          "amount": 80,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "linked_abilities": [
+        {
+          "ability_id": "ABILITY_RURIK_GAVE_YOU_GOOD_ADVICE",
+          "description": "诺夫哥罗德建国者：+80%经验",
+          "modifier_chain": [
+            "PLATI_RURIK_BUFF"
+          ]
+        }
+      ],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_BAYINNAUNG",
+      "name_zh": "于格·德·帕扬",
+      "name_en": "Hugues de Payens",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "解锁并建造圣殿金库特色建筑",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_BUILDING",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "中世纪和文艺复兴时期陆地单位击杀敌方获得信仰值=100%被击败单位战斗力",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_POST_COMBAT_YIELD",
+          "amount": 100,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "linked_abilities": [
+        {
+          "ability_id": "ABILITY_BAYINNAUNG",
+          "description": "圣殿骑士团：击杀敌方单位获得信仰值",
+          "modifier_chain": [
+            "PLATI_BAYINNAUNG_BUFF"
+          ]
+        }
+      ],
+      "display_name_note": "Bayinnaung"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_SUNDIATA",
+      "name_zh": "哈立德·本·瓦利德",
+      "name_en": "Khalid ibn al-Walid",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "获得200信仰值",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_YIELD",
+          "amount": 200,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "+7战斗力对异教文明单位",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 7,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": "对手为异教"
+        }
+      ],
+      "linked_abilities": [
+        {
+          "ability_id": "ABILITY_KHALID_WALID_UNIQUE",
+          "description": "安拉之剑：+7战斗力对异教",
+          "modifier_chain": [
+            "KHALID_WALID_BUFF"
+          ]
+        }
+      ],
+      "display_name_note": "Khalid Walid"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_TOKUGAWA",
+      "name_zh": "威廉·米切尔",
+      "name_en": "Billy Mitchell",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "机场建成时获得战斗机单位，攻击区域防御无远程惩罚",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_UNIT",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "+17远程攻击力攻击区域（空中轰炸）",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 17,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": "轰炸"
+        }
+      ],
+      "linked_abilities": [
+        {
+          "ability_id": "ABILITY_FOG_OF_WAR",
+          "description": "英雄与异端的遗产：+17远程攻击力轰炸",
+          "modifier_chain": [
+            "PLATI_CLAUSEWITZ_BUFF"
+          ]
+        }
+      ],
+      "display_name_note": "Clausewitz"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_GAJAH",
+      "name_zh": "加查·马达",
+      "name_en": "Gajah Mada",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "获得一份胡椒；若城市为征服所得则额外获得肉豆蔻",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_RESOURCE",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "+10战斗力在船上时且上下船不消耗移动力",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 10,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": "在船上"
+        }
+      ],
+      "linked_abilities": [
+        {
+          "ability_id": "ABILITY_GAJAH_MADA_COMBAT",
+          "description": "基诺达拉：+10战斗力，上下船不消耗移动力",
+          "modifier_chain": [
+            "PLATI_GAJAH_MADA_COMBAT_BUFF",
+            "PLATI_GAJAH_MADA_DISEMBARK_BUFF"
+          ]
+        }
+      ],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_JAN_ZIZKA",
+      "name_zh": "扬·杰式卡",
+      "name_en": "Jan Zizka",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "与基础战斗力更高的单位作战时+4战斗力",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 4,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "+10战斗力防御远程攻击（非远程单位）",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 10,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": "防御远程"
+        }
+      ],
+      "linked_abilities": [
+        {
+          "ability_id": "ABILITY_JAN_ZIZKA",
+          "description": "战车：+10战斗力防御远程攻击",
+          "modifier_chain": [
+            "PLATI_JAN_ZIZKA_BUFF"
+          ]
+        },
+        {
+          "ability_id": "ABILITY_HUSSITE_LEGACY",
+          "description": "胡斯战争的经验：+4战斗力对更强单位",
+          "modifier_chain": [
+            "PLATI_HUSSITE_LEGACY_BUFF"
+          ]
+        }
+      ],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_UNGERN",
+      "name_zh": "罗曼·冯·恩琴",
+      "name_en": "Roman von Ungern-Sternberg",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创建五个怯薛",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_UNIT",
+          "amount": 5,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_AGRIPPA",
+      "name_zh": "阿格里帕",
+      "name_en": "Agrippa",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "建造奇观提供245生产力",
+          "modifier_type": "MODIFIER_SINGLE_CITY_GRANT_PRODUCTION_IN_CITY",
+          "amount": 245,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_HENRY",
+      "name_zh": "米希尔·德·鲁伊特",
+      "name_en": "Michiel de Ruyter",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "该城市每回合+1远程攻击次数",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_CITY_RANGED_STRIKE",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_LODBROK",
+      "name_zh": "拉格纳·洛德布罗克",
+      "name_en": "Ragnar Lodbrok",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "掠夺改良设施收益翻倍",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_PILLAGE",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "中世纪和文艺复兴时期海军近战单位可俘获敌方船只",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_CAPTURE",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "linked_abilities": [
+        {
+          "ability_id": "ABILITY_PLATI_CAPTURE_SHIPS",
+          "description": "大海盗的劫掠：可俘获敌方船只",
+          "modifier_chain": [
+            "PLATI_PIRACY_BUFF"
+          ]
+        }
+      ],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_BARBAROSA",
+      "name_zh": "巴巴罗萨·海雷丁",
+      "name_en": "Barbarossa Hayreddin",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "可训练巴巴里海盗（需要中世纪集市市政）",
+          "modifier_type": "MODIFIER_PLAYER_ENABLE_UNIT_TRAINING",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_MAJID",
+      "name_zh": "艾哈迈德·本·马吉德",
+      "name_en": "Ahmad ibn Majid",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创建一个轻快帆船",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_UNIT",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "+2海上移动力",
+          "modifier_type": "MODIFIER_PLAYER_UNIT_ADJUST_SEA_MOVEMENT",
+          "amount": 2,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "linked_abilities": [
+        {
+          "ability_id": "ABILITY_MAJID_SEA_MOVEMENT",
+          "description": "+2海上移动力",
+          "modifier_chain": [
+            "MAJID_BOOST"
+          ]
+        }
+      ],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_COOK",
+      "name_zh": "阿方索·德·阿尔布克尔克",
+      "name_en": "Afonso de Albuquerque",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "该城市获得一份肉豆蔻，黄金时代获得两份",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_RESOURCE",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "+2视野+2海上移动力",
+          "modifier_type": "MODIFIER_PLAYER_UNIT_ADJUST_SIGHT",
+          "amount": 2,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "linked_abilities": [
+        {
+          "ability_id": "ABILITY_COOK_SEA_SIGHT",
+          "description": "+2视野",
+          "modifier_chain": [
+            "COOK_SIGHT_BOOST"
+          ]
+        },
+        {
+          "ability_id": "ABILITY_COOK_SEA_MOVEMENT",
+          "description": "+2海上移动力",
+          "modifier_chain": [
+            "COOK_MOVEMENT_BOOST"
+          ]
+        }
+      ],
+      "display_name_note": "Cook"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_MORGAN",
+      "name_zh": "亨利·摩根",
+      "name_en": "Henry Morgan",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "获得1总督点",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_GOVERNOR_TITLE",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_VITUS",
+      "name_zh": "维图斯·约纳森·白令",
+      "name_en": "Vitus Jonassen Bering",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "每个冻土单元格为港口+1金币相邻加成，每个雪地单元格+3文化值相邻加成",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_DISTRICT_ADJACENCY",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_NIELS_JUEL",
+      "name_zh": "安德烈亚·多里亚",
+      "name_en": "Andrea Doria",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "用海军单位征服城市后该城市自动信仰主流宗教",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_CITY_RELIGION",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "海军近战单位征服城市时转为你的宗教",
+          "modifier_type": "MODIFIER_PLAYER_UNIT_ADJUST_CITY_ON_CAPTURE",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "linked_abilities": [
+        {
+          "ability_id": "ABILITY_GENOESE_NAVAL_CONVERSION",
+          "description": "热那亚海王：征服城市自动转教",
+          "modifier_chain": [
+            "GENOESE_CHRISTIAN_ADMIRAL"
+          ]
+        }
+      ],
+      "display_name_note": "Genoese"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_ARAGONESE",
+      "name_zh": "劳里亚的罗杰",
+      "name_en": "Roger of Lauria",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "海军近战单位每点未使用移动力+1战斗力",
+          "modifier_type": "MODIFIER_SINGLE_UNIT_ADJUST_COMBAT_FOR_UNUSED_MOVEMENT",
+          "amount": 1,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "每点未使用移动力+1战斗力（海军近战）",
+          "modifier_type": "MODIFIER_SINGLE_UNIT_ADJUST_COMBAT_FOR_UNUSED_MOVEMENT",
+          "amount": 1,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "linked_abilities": [
+        {
+          "ability_id": "ABILITY_PLATI_CONSULATE_OF_SEA",
+          "description": "海上领事：每点未使用移动力+1战斗力",
+          "modifier_chain": [
+            "PLATI_CONSULATE_OF_SEA_BUFF"
+          ]
+        }
+      ],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_APOLLODRO",
+      "name_zh": "大马士革的阿波罗多洛斯",
+      "name_en": "Apollodorus of Damascus",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "该城市每个区域+1生产力+1文化值",
+          "modifier_type": "MODIFIER_SINGLE_CITY_ADJUST_YIELD_PER_DISTRICT",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_AL_AHMAR",
+      "name_zh": "格拉纳达的穆罕默德五世",
+      "name_en": "Muhammad V",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "宫殿+3艺术巨作槽位，每个放置于此的宗教艺术巨作+4信仰值",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_BUILDING_YIELD_CHANGE",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_ZEPPELIN",
+      "name_zh": "维特鲁威",
+      "name_en": "Vitruvius",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "触发\"工程\"和\"军事工程学\"的尤里卡，已触发则解锁科技",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_BOOST",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "+5战斗力给攻城单位",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 5,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "linked_abilities": [
+        {
+          "ability_id": "ABILITY_VITRUVIUS",
+          "description": "维特鲁威工程：攻城单位+5战斗力",
+          "modifier_chain": [
+            "PLATI_VITRUVIUS_BUFF"
+          ]
+        }
+      ],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_KRUPP",
+      "name_zh": "阿尔弗雷德·克虏伯",
+      "name_en": "Alfred Krupp",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "建造攻城单位+25%生产力",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PRODUCTION",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_ISAMBARD",
+      "name_zh": "伊桑巴德·金德姆·布鲁内尔",
+      "name_en": "Isambard Kingdom Brunel",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "该城市每建造一种专业化区域+1%生产力",
+          "modifier_type": "MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_ELIZABETH_WILBRAHAM",
+      "name_zh": "阿尔贝托·桑托斯·杜蒙",
+      "name_en": "Alberto Santos-Dumont",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "航空港每与一个区域相邻+2生产力+2文化值",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_DISTRICT_ADJACENCY",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": "Elizabeth Wilbraham"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_DAHLBERG",
+      "name_zh": "塞巴斯蒂安·勒普雷斯特雷·德·沃邦",
+      "name_en": "Sebastien Le Prestre de Vauban",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "获得一个军事工程师，每个堡垒为工业区+1相邻加成",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_UNIT",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": "Dahlberg"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_CURIE",
+      "name_zh": "弗朗切斯科·巴尔托洛梅奥·拉斯特雷利",
+      "name_en": "Francesco Bartolomeo Rastrelli",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "该城市的展阁、公馆和市政广场内建筑+4文化值",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": "Curie"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_CHATEAU",
+      "name_zh": "菲利贝尔·德洛姆",
+      "name_en": "Philibert de l Orme",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "选中的工业区提供等同于生产力相邻加成的文化值，允许建造者修建城堡改良设施",
+          "modifier_type": "MODIFIER_SINGLE_CITY_ADJUST_YIELD",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_MISSION",
+      "name_zh": "克里斯托佛·克拉乌",
+      "name_en": "Christopher Clavius",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "获得当前信仰值产出50%的科技值，允许建造者修建传教团改良设施",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_YIELD",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_POLDER",
+      "name_zh": "扬·莱赫瓦特",
+      "name_en": "Jan Leeghwater",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "该城市免疫自然灾害，允许建造者修建圩田改良设施",
+          "modifier_type": "MODIFIER_SINGLE_CITY_ADJUST_NATURAL_WONDER_IMMUNITY",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_ARISTOTLE",
+      "name_zh": "亚里士多德",
+      "name_en": "Aristotle",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "所有政体通用政策槽位+1",
+          "modifier_type": "MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_SAUGUSTINE",
+      "name_zh": "伊本·西那",
+      "name_en": "Avicenna",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "为一个随机中世纪科技触发尤里卡，宗教单位神学战斗+3宗教战斗力",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_RANDOM_TECH_BOOST",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "+3宗教战斗力",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 3,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "linked_abilities": [
+        {
+          "ability_id": "ABILITY_SAUGUSTINE_BONUS",
+          "description": "+3宗教战斗力",
+          "modifier_chain": [
+            "SAUGUSTINE_BUFF"
+          ]
+        }
+      ],
+      "display_name_note": "Saint Augustine"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_ERASMUS",
+      "name_zh": "伊拉斯谟",
+      "name_en": "Erasmus",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "不交战时每个大学+1外交点数，为随机中世纪/文艺复兴市政触发鼓舞",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_DIPLOMATIC_FAVOR",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_AVERROES",
+      "name_zh": "伊本·路世德",
+      "name_en": "Averroes",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "黄金时代时每本著作+1科技值+2信仰值",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_GREATWORK_YIELD",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_SHEN_KUO",
+      "name_zh": "沈括",
+      "name_en": "Shen Kuo",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "该学院提供等同于其相邻加成的生产力",
+          "modifier_type": "MODIFIER_SINGLE_CITY_ADJUST_DISTRICT_ADJACENCY",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_CAI_LUN",
+      "name_zh": "蔡伦",
+      "name_en": "Cai Lun",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "解锁并建造造纸坊特色建筑，+1科技值+2金币",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_BUILDING",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_PASTEUR",
+      "name_zh": "路易·巴斯德",
+      "name_en": "Louis Pasteur",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "所有城市+20%余粮，触发\"卫生设备\"尤里卡",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_CITY_GROWTH",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_FARADAY",
+      "name_zh": "迈克尔·法拉第",
+      "name_en": "Michael Faraday",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 2,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "该城市每回合+2电力，为随机工业时代科技触发尤里卡",
+          "modifier_type": "MODIFIER_SINGLE_CITY_ADJUST_POWER",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_SAKHAROV",
+      "name_zh": "安德烈·萨哈罗夫",
+      "name_en": "Andrei Sakharov",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_ATOMIC",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "+2外交胜利点数，为随机原子能/信息时代科技触发尤里卡",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_DIPLOMATIC_VICTORY_POINTS",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_FRANKLIN",
+      "name_zh": "尤利西斯·格兰特",
+      "name_en": "Ulysses S. Grant",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "+1外交胜利点数",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_DIPLOMATIC_VICTORY_POINTS",
+          "amount": 1,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_LEIBNITZ",
+      "name_zh": "伏尔泰",
+      "name_en": "Voltaire",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "+1外交胜利点数",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_DIPLOMATIC_VICTORY_POINTS",
+          "amount": 1,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": "Leibnitz"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_LEIZU",
+      "name_zh": "胡果·格劳秀斯",
+      "name_en": "Hugo Grotius",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "+1外交胜利点数",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_DIPLOMATIC_VICTORY_POINTS",
+          "amount": 1,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": "Leizu"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_MAHBUB",
+      "name_zh": "罗伯特·舒曼",
+      "name_en": "Robert Schuman",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "+1外交胜利点数",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_DIPLOMATIC_VICTORY_POINTS",
+          "amount": 1,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_SAINT_AUGUSTINE",
+      "name_zh": "赫布卜·乌·哈格",
+      "name_en": "Habib ul-Haq",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "+1外交胜利点数",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_DIPLOMATIC_VICTORY_POINTS",
+          "amount": 1,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_AFANASIY",
+      "name_zh": "阿发纳西·尼基丁",
+      "name_en": "Afanasy Nikitin",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_RENAISSANCE",
+      "charges": 2,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "首都获得一份该地块上的奢侈品资源",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_RESOURCE",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_CECIL",
+      "name_zh": "塞西尔·罗兹",
+      "name_en": "Cecil Rhodes",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创建一个红衫军，有总督的异大陆城市+20%金币",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_UNIT",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_NESTLE",
+      "name_zh": "吉恩·诺伊豪斯二世",
+      "name_en": "Jean Neuhaus II",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "解锁巧克力工厂特色建筑，产出+2文化值并提供一份果仁糖",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_BUILDING",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_BANKER",
+      "name_zh": "约翰·皮尔庞特·摩根",
+      "name_en": "John Pierpont Morgan",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "每个银行+1外交点数",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_DIPLOMATIC_FAVOR_PER_BUILDING",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_FABERGE",
+      "name_zh": "彼得·卡尔·法贝热",
+      "name_en": "Peter Carl Faberge",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "获得两份法贝热彩蛋，各提供+5宜居度",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_RESOURCE",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_IBNBATTUTA",
+      "name_zh": "伊本·白图泰",
+      "name_en": "Ibn Battuta",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "商路每经过4个单元格提供+1信仰值",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_PATH_TILE",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_COLBERT",
+      "name_zh": "涩泽荣一",
+      "name_en": "Shibusawa Eiichi",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "本城市每种用于发电的资源为改良的奢侈品资源+1宜居度",
+          "modifier_type": "MODIFIER_SINGLE_CITY_ADJUST_AMENITIES",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": "Colbert"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_JACOBKETTLER",
+      "name_zh": "雅各布·凯特勒",
+      "name_en": "Jacob Kettler",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_RENAISSANCE",
+      "charges": 2,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "该港口提供等同于其相邻加成的生产力",
+          "modifier_type": "MODIFIER_SINGLE_CITY_ADJUST_DISTRICT_YIELD",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_HAMILTON",
+      "name_zh": "亚历山大·汉密尔顿",
+      "name_en": "Alexander Hamilton",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "所有政体经济政策槽位+1",
+          "modifier_type": "MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_TUSI",
+      "name_zh": "三浦按进",
+      "name_en": "Miura Anjin",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "所有政体外交政策槽位+1",
+          "modifier_type": "MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": "Tusi"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_RAILLORD",
+      "name_zh": "让-雅克·罗素",
+      "name_en": "Jean-Jacques Rousseau",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "+1外交胜利点数",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_DIPLOMATIC_VICTORY_POINTS",
+          "amount": 1,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_VENETIAN_SMUGGLER",
+      "name_zh": "马拉莫科的波诺",
+      "name_en": "Bono of Malamocco",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "获得一个遗物，+1商路容量，必须在国外港口单元格上激活",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_RELIC",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_NIETZSCHE",
+      "name_zh": "弗里德里希·尼采",
+      "name_en": "Friedrich Nietzsche",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 2,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创作2部著作",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_GREAT_WORK",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_HOBBES",
+      "name_zh": "希波的奥古斯丁",
+      "name_en": "Augustine of Hippo",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_CLASSICAL",
+      "charges": 2,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创作2部著作",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_GREAT_WORK",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": "Hobbes"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_DESCARTES",
+      "name_zh": "勒内·笛卡尔",
+      "name_en": "Rene Descartes",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_RENAISSANCE",
+      "charges": 2,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创作2部著作",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_GREAT_WORK",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_CICERO",
+      "name_zh": "西塞罗",
+      "name_en": "Cicero",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_CLASSICAL",
+      "charges": 2,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创作2部著作",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_GREAT_WORK",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_HEIDEGGER",
+      "name_zh": "马丁·海德格尔",
+      "name_en": "Martin Heidegger",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_MODERN",
+      "charges": 2,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创作2部著作",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_GREAT_WORK",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_LOVECRAFT",
+      "name_zh": "霍华德·菲利普·洛夫克拉夫特",
+      "name_en": "H. P. Lovecraft",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_MODERN",
+      "charges": 2,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创作2部著作",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_GREAT_WORK",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_RHOWARD",
+      "name_zh": "罗伯特·欧文·霍华德",
+      "name_en": "Robert E. Howard",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_MODERN",
+      "charges": 2,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创作2部著作",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_GREAT_WORK",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_ALI_MASHADDI",
+      "name_zh": "菲迪亚斯",
+      "name_en": "Phidias",
+      "category": "GREAT_PERSON_CLASS_ARTIST",
+      "era": "ERA_CLASSICAL",
+      "charges": 3,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "该城市所有古典时代奇观获得一个巨作槽位",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_GREAT_WORK_SLOTS",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": "Ali Mashhadi"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_VIIKTOR_VASNETSOV",
+      "name_zh": "兰斯洛特·布朗",
+      "name_en": "Lancelot Brown",
+      "category": "GREAT_PERSON_CLASS_ARTIST",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 3,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "每个相邻市立公园为市中心+2文化值，3个相邻额外+3文化值",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_ADJACENCY",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": "Viktor Vasnetsov"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_PICASSO",
+      "name_zh": "安德烈·勒诺特尔",
+      "name_en": "Andre Le Notre",
+      "category": "GREAT_PERSON_CLASS_ARTIST",
+      "era": "ERA_RENAISSANCE",
+      "charges": 3,
+      "source": "Sumus Magnus",
+      "source_file": "/workspace/MOD/伟人/2448605286 更多伟人/Peepoles/",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创作3件艺术巨作",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_GREAT_WORK",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": "Picasso"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_FIRST",
+      "name_zh": "所罗门王",
+      "name_en": "Solomon",
+      "category": "GREAT_PERSON_CLASS_GreatSovereigns",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "Great Sovereigns",
+      "source_file": "/workspace/MOD/伟人/2973448849 大统治者伟人/GreatSovereigns_People.xml",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "立即建造一座寺庙，寺庙+2生产力",
+          "modifier_type": "MODIFIER_SINGLE_CITY_GRANT_BUILDING_IN_CITY_IGNORE",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [
+        {
+          "ability_id": "GREATPERSON_PLATI_SOLOMON_PRODUCTION",
+          "description": "免费建造寺庙",
+          "modifier_chain": [
+            "GREATPERSON_PLATI_SOLOMON_PRODUCTION"
+          ]
+        }
+      ],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_SECOND",
+      "name_zh": "马可·奥勒留",
+      "name_en": "Marcus Aurelius",
+      "category": "GREAT_PERSON_CLASS_GreatSovereigns",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "Great Sovereigns",
+      "source_file": "/workspace/MOD/伟人/2973448849 大统治者伟人/GreatSovereigns_People.xml",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "获得所有中世纪市政的鼓舞",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_BY_ERA",
+          "amount": 99,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [
+        {
+          "ability_id": "GREAT_PLATI_MARCUS_AURELIUS",
+          "description": "99个中世纪市政鼓舞",
+          "modifier_chain": [
+            "GREAT_PLATI_MARCUS_AURELIUS"
+          ]
+        }
+      ],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_THIRD",
+      "name_zh": "托勒密一世",
+      "name_en": "Ptolemy",
+      "category": "GREAT_PERSON_CLASS_GreatSovereigns",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "Great Sovereigns",
+      "source_file": "/workspace/MOD/伟人/2973448849 大统治者伟人/GreatSovereigns_People.xml",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "建造奇观时提供100生产力，每点使者+1文化值",
+          "modifier_type": "MODIFIER_SINGLE_CITY_GRANT_PRODUCTION_IN_CITY",
+          "amount": 100,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [
+        {
+          "ability_id": "GREAT_PLATI_DARIUS_PERSIAN",
+          "description": "100生产力到奇观",
+          "modifier_chain": [
+            "GREAT_PLATI_DARIUS_PERSIAN"
+          ]
+        }
+      ],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_FOURTH",
+      "name_zh": "阿育王",
+      "name_en": "Asoka",
+      "category": "GREAT_PERSON_CLASS_GreatSovereigns",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "Great Sovereigns",
+      "source_file": "/workspace/MOD/伟人/2973448849 大统治者伟人/GreatSovereigns_People.xml",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "每个特区区域+1信仰+1食物",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [
+        {
+          "ability_id": "GREAT_PLATI_ASHOKA",
+          "description": "每个区域+1信仰+1食物",
+          "modifier_chain": [
+            "GREAT_PLATI_ASHOKA"
+          ]
+        }
+      ],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_FIFTH",
+      "name_zh": "腓特烈二世",
+      "name_en": "Frederick II",
+      "category": "GREAT_PERSON_CLASS_GreatSovereigns",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "Great Sovereigns",
+      "source_file": "/workspace/MOD/伟人/2973448849 大统治者伟人/GreatSovereigns_People.xml",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "所有政体经济政策槽位+1",
+          "modifier_type": "MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [
+        {
+          "ability_id": "GREAT_PLATI_FREDERICH_II",
+          "description": "+1经济政策槽位",
+          "modifier_chain": [
+            "GREAT_PLATI_FREDERICH_II"
+          ]
+        }
+      ],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_SIXTH",
+      "name_zh": "穆罕默德·阿里帕夏",
+      "name_en": "Mehmet Ali",
+      "category": "GREAT_PERSON_CLASS_GreatSovereigns",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "Great Sovereigns",
+      "source_file": "/workspace/MOD/伟人/2973448849 大统治者伟人/GreatSovereigns_People.xml",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "100%单位升级折扣，获得一个随机免费科技",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_UNIT_UPGRADE_DISCOUNT_PERCENT",
+          "amount": 100,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [
+        {
+          "ability_id": "GREAT_PLATI_AHMAD_MANSUR",
+          "description": "100%升级折扣",
+          "modifier_chain": [
+            "GREAT_PLATI_AHMAD_MANSUR"
+          ]
+        }
+      ],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_SEVENTH",
+      "name_zh": "查理曼",
+      "name_en": "Charlemagne",
+      "category": "GREAT_PERSON_CLASS_GreatSovereigns",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "Great Sovereigns",
+      "source_file": "/workspace/MOD/伟人/2973448849 大统治者伟人/GreatSovereigns_People.xml",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "所有政体军事政策槽位+1",
+          "modifier_type": "MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [
+        {
+          "ability_id": "GREAT_PLATI_CHARLEMAGNE",
+          "description": "+1军事政策槽位",
+          "modifier_chain": [
+            "GREAT_PLATI_CHARLEMAGNE"
+          ]
+        }
+      ],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_EIGHTH",
+      "name_zh": "哈伦·拉希德",
+      "name_en": "Harun al-Rashid",
+      "category": "GREAT_PERSON_CLASS_GreatSovereigns",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "Great Sovereigns",
+      "source_file": "/workspace/MOD/伟人/2973448849 大统治者伟人/GreatSovereigns_People.xml",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "每条路径单元格+0.17科技值，黄金时代触发",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_PATH_TILE",
+          "amount": 0.17,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [
+        {
+          "ability_id": "GREAT_PLATI_HARUN",
+          "description": "商路+0.17科技值/路径格（黄金时代）",
+          "modifier_chain": [
+            "GREAT_PLATI_HARUN"
+          ]
+        }
+      ],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_NINTH",
+      "name_zh": "阿斯基亚大帝",
+      "name_en": "Askia the Great",
+      "category": "GREAT_PERSON_CLASS_GreatSovereigns",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Great Sovereigns",
+      "source_file": "/workspace/MOD/伟人/2973448849 大统治者伟人/GreatSovereigns_People.xml",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "+2掠夺收益，将纪念碑替换为阿斯基亚纪念碑",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_DISTRICT_PILLAGE",
+          "amount": 2,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [
+        {
+          "ability_id": "GREAT_PLATI_ASKIA",
+          "description": "+2掠夺",
+          "modifier_chain": [
+            "GREAT_PLATI_ASKIA"
+          ]
+        }
+      ],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_TENTH",
+      "name_zh": "阿克巴",
+      "name_en": "Akbar",
+      "category": "GREAT_PERSON_CLASS_GreatSovereigns",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Great Sovereigns",
+      "source_file": "/workspace/MOD/伟人/2973448849 大统治者伟人/GreatSovereigns_People.xml",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "所有政体通用政策槽位+1",
+          "modifier_type": "MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [
+        {
+          "ability_id": "GREAT_PLATI_AKBAR",
+          "description": "+1通用政策槽位",
+          "modifier_chain": [
+            "GREAT_PLATI_AKBAR"
+          ]
+        }
+      ],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_THIRTEENTH",
+      "name_zh": "明治天皇",
+      "name_en": "Meiji",
+      "category": "GREAT_PERSON_CLASS_GreatSovereigns",
+      "era": "ERA_INDUSTRIAL",
+      "charges": 1,
+      "source": "Great Sovereigns",
+      "source_file": "/workspace/MOD/伟人/2973448849 大统治者伟人/GreatSovereigns_People.xml",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "替换农场为社区(300金币)或工业区(300金币)，互相+2食物相邻加成",
+          "modifier_type": "MODIFIER_PLAYER_DISTRICT_CREATE_YIELD",
+          "amount": 300,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [
+        {
+          "ability_id": "GREAT_PLATI_MEIJI_NEIGHBOURHOOD_GOLD",
+          "description": "300金币社区",
+          "modifier_chain": [
+            "GREAT_PLATI_MEIJI_NEIGHBOURHOOD_GOLD"
+          ]
+        }
+      ],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_FOURTEENTH",
+      "name_zh": "凯末尔",
+      "name_en": "Ataturk",
+      "category": "GREAT_PERSON_CLASS_GreatSovereigns",
+      "era": "ERA_MODERN",
+      "charges": 3,
+      "source": "Great Sovereigns",
+      "source_file": "/workspace/MOD/伟人/2973448849 大统治者伟人/GreatSovereigns_People.xml",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "提供400生产力（3次充能）",
+          "modifier_type": "MODIFIER_SINGLE_CITY_GRANT_PRODUCTION_IN_CITY",
+          "amount": 400,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "+3战斗力给所有陆地单位",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 3,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "linked_abilities": [
+        {
+          "ability_id": "ABILITY_PLATI_FOURTEENTH_COMBAT",
+          "description": "+3战斗力",
+          "modifier_chain": [
+            "ModifierId_ABILITY_PLATI_FOURTEENTH_COMBAT"
+          ]
+        }
+      ],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_FIFTEENTH",
+      "name_zh": "海尔·塞拉西",
+      "name_en": "Haile Selassie",
+      "category": "GREAT_PERSON_CLASS_GreatSovereigns",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "Great Sovereigns",
+      "source_file": "/workspace/MOD/伟人/2973448849 大统治者伟人/GreatSovereigns_People.xml",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "+2外交胜利点数",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_DIPLOMATIC_VICTORY_POINTS",
+          "amount": 2,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [
+        {
+          "ability_id": "GREAT_PLATI_HAILE_SELASSIE",
+          "description": "+2外交胜利点数",
+          "modifier_chain": [
+            "GREAT_PLATI_HAILE_SELASSIE"
+          ]
+        }
+      ],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_ELEVENTH",
+      "name_zh": "李光耀",
+      "name_en": "Lee Kuan Yew",
+      "category": "GREAT_PERSON_CLASS_GreatSovereigns",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "Great Sovereigns",
+      "source_file": "/workspace/MOD/伟人/2973448849 大统治者伟人/GreatSovereigns_Localisation.xml",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "大商人+1充能",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_GREAT_PERSON_CHARGES",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_TWELWTH",
+      "name_zh": "玛丽亚·特蕾莎",
+      "name_en": "Maria Theresa",
+      "category": "GREAT_PERSON_CLASS_GreatSovereigns",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Great Sovereigns",
+      "source_file": "/workspace/MOD/伟人/2973448849 大统治者伟人/GreatSovereigns_Localisation.xml",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "每种城邦特色改良设施+20%大艺术家和大音乐家点数",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_SIXTEENTH",
+      "name_zh": "兰甘亨",
+      "name_en": "Ramkhamhaeng",
+      "category": "GREAT_PERSON_CLASS_GreatSovereigns",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "Great Sovereigns",
+      "source_file": "/workspace/MOD/伟人/2973448849 大统治者伟人/GreatSovereigns_Localisation.xml",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "每种不同城邦类型你为宗主国时所有城市+1人口",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_POPULATION",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_ALFRED_THE_GREAT",
+      "name_zh": "阿尔弗雷德大帝",
+      "name_en": "Alfred the Great",
+      "category": "GREAT_PERSON_CLASS_GreatSovereigns",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "Great Sovereigns",
+      "source_file": "/workspace/MOD/伟人/2973448849 大统治者伟人/GreatSovereigns_Localisation.xml",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "建造兵工厂获得免费海军单位，兵工厂+1生产力+1科技值相邻加成",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_UNIT",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_DENG",
+      "name_zh": "斯坎德培",
+      "name_en": "Skanderbeg",
+      "category": "GREAT_PERSON_CLASS_GreatSovereigns",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "Great Sovereigns",
+      "source_file": "/workspace/MOD/伟人/2973448849 大统治者伟人/GreatSovereigns_Localisation.xml",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "立即击杀2格内所有敌方单位，2格内陆地单位恢复所有移动力和攻击能力",
+          "modifier_type": "MODIFIER_PLAYER_KILL_ALL_ENEMY_UNITS",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_ISMAIL",
+      "name_zh": "伊斯玛仪一世",
+      "name_en": "Ismail I",
+      "category": "GREAT_PERSON_CLASS_GreatSovereigns",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Great Sovereigns",
+      "source_file": "/workspace/MOD/伟人/2973448849 大统治者伟人/GreatSovereigns_Localisation.xml",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "黑暗时代骑兵征服城市转教，黄金时代艺术巨作文化产出翻倍",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_GREATWORK_YIELD",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "骑兵征服城市时转为你的宗教（黑暗时代）",
+          "modifier_type": "MODIFIER_PLAYER_UNIT_ADJUST_CITY_ON_CAPTURE",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_ISABELLA",
+      "name_zh": "伊莎贝拉一世",
+      "name_en": "Isabella I",
+      "category": "GREAT_PERSON_CLASS_GreatSovereigns",
+      "era": "ERA_RENAISSANCE",
+      "charges": 1,
+      "source": "Great Sovereigns",
+      "source_file": "/workspace/MOD/伟人/2973448849 大统治者伟人/GreatSovereigns_Localisation.xml",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "获得一个免费大探险家，商人+2视野，海军击败敌方获得大探险家点数",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_GREAT_PERSON",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_DANDOLO",
+      "name_zh": "恩里科·丹多洛",
+      "name_en": "Enrico Dandolo",
+      "category": "GREAT_PERSON_CLASS_GreatSovereigns",
+      "era": "ERA_MEDIEVAL",
+      "charges": 1,
+      "source": "Great Sovereigns",
+      "source_file": "/workspace/MOD/伟人/2973448849 大统治者伟人/GreatSovereigns_Localisation.xml",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "宫殿获得2个遗物和遗物槽位，商人经过外国城市时降低20忠诚度",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_RELIC",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PLATI_MONACO",
+      "name_zh": "兰尼埃三世",
+      "name_en": "Rainier III",
+      "category": "GREAT_PERSON_CLASS_GreatSovereigns",
+      "era": "ERA_MODERN",
+      "charges": 1,
+      "source": "Great Sovereigns",
+      "source_file": "/workspace/MOD/伟人/2973448849 大统治者伟人/GreatSovereigns_Localisation.xml",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "每种多余奢侈品+200旅游业绩，滨水区/游乐码头建筑+60%海滨度假区旅游业绩",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_TOURISM",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JNR_HENENU",
+      "name_zh": "赫努",
+      "name_en": "Henenou",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_ANCIENT",
+      "charges": 1,
+      "source": "6T Ancient Paragons",
+      "source_file": "/workspace/MOD/伟人/3085812151 远古伟人/6T_Ancient_Great_People.modinfo",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "金币+33%海军商路范围",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_RANGE",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "+5战斗力+1移动力给远古/古典海军单位",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 5,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JNR_NEI_MANGANIBUKA",
+      "name_zh": "奈·曼加尼布卡",
+      "name_en": "Nei Manganibuka",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "era": "ERA_ANCIENT",
+      "charges": 1,
+      "source": "6T Ancient Paragons",
+      "source_file": "/workspace/MOD/伟人/3085812151 远古伟人/6T_Ancient_Great_People.modinfo",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创建一个可进入海洋的海军单位",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_UNIT",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "+5战斗力+1移动力给远古/古典海军单位",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 5,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JNR_FU_HAO",
+      "name_zh": "妇好",
+      "name_en": "Fu Hao",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_ANCIENT",
+      "charges": 1,
+      "source": "6T Ancient Paragons",
+      "source_file": "/workspace/MOD/伟人/3085812151 远古伟人/6T_Ancient_Great_People.modinfo",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创建一个可隐形的重骑兵",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_UNIT",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "+5战斗力+1移动力给远古/古典陆地单位",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 5,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JNR_SIYAJ_K_AK",
+      "name_zh": "西亚赫·卡阿克",
+      "name_en": "Siyaj K ak",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "era": "ERA_ANCIENT",
+      "charges": 1,
+      "source": "6T Ancient Paragons",
+      "source_file": "/workspace/MOD/伟人/3085812151 远古伟人/6T_Ancient_Great_People.modinfo",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "复制埃塞尔弗莱德效果：转化为市中心模式",
+          "modifier_type": "MODIFIER_PLAYER_UNIT_ADJUST_CITY_CENTER_MODE",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [
+        {
+          "description": "+5战斗力+1移动力给远古/古典陆地单位",
+          "modifier_type": "MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH",
+          "amount": 5,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JNR_AMA_E",
+      "name_zh": "阿玛·埃",
+      "name_en": "Ama-e",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_ANCIENT",
+      "charges": 1,
+      "source": "6T Ancient Paragons",
+      "source_file": "/workspace/MOD/伟人/3085812151 远古伟人/6T_Ancient_Great_People.modinfo",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "+1商路容量，国内商路+1食物+1生产力",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JNR_HIRAM",
+      "name_zh": "希兰",
+      "name_en": "Hiram",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "era": "ERA_ANCIENT",
+      "charges": 1,
+      "source": "6T Ancient Paragons",
+      "source_file": "/workspace/MOD/伟人/3085812151 远古伟人/6T_Ancient_Great_People.modinfo",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "获得提尔紫奢侈品资源",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_RESOURCE",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JNR_THALES_MILETUS",
+      "name_zh": "泰勒斯",
+      "name_en": "Thales of Miletus",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_ANCIENT",
+      "charges": 1,
+      "source": "6T Ancient Paragons",
+      "source_file": "/workspace/MOD/伟人/3085812151 远古伟人/6T_Ancient_Great_People.modinfo",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "1个远古科技尤里卡+2个古典市政鼓舞",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_BOOST",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JNR_MAITREYI",
+      "name_zh": "弥勒",
+      "name_en": "Maitreyi",
+      "category": "GREAT_PERSON_CLASS_SCIENTIST",
+      "era": "ERA_ANCIENT",
+      "charges": 1,
+      "source": "6T Ancient Paragons",
+      "source_file": "/workspace/MOD/伟人/3085812151 远古伟人/6T_Ancient_Great_People.modinfo",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "学院建筑+1科技值+1文化值+1信仰值（XP1：每人口+0.2科技值/文化值/信仰值）",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JNR_EN_HEDU_ANNA",
+      "name_zh": "恩赫杜安娜",
+      "name_en": "En Hedu anna",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_ANCIENT",
+      "charges": 2,
+      "source": "6T Ancient Paragons",
+      "source_file": "/workspace/MOD/伟人/3085812151 远古伟人/6T_Ancient_Great_People.modinfo",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创作2部著作",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_GREAT_WORK",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JNR_PTAHHOTEP",
+      "name_zh": "普塔霍特普",
+      "name_en": "Ptahhotep",
+      "category": "GREAT_PERSON_CLASS_WRITER",
+      "era": "ERA_ANCIENT",
+      "charges": 2,
+      "source": "6T Ancient Paragons",
+      "source_file": "/workspace/MOD/伟人/3085812151 远古伟人/6T_Ancient_Great_People.modinfo",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "创作2部著作",
+          "modifier_type": "MODIFIER_PLAYER_GRANT_GREAT_WORK",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JNR_MOSES",
+      "name_zh": "摩西",
+      "name_en": "Moses",
+      "category": "GREAT_PERSON_CLASS_PROPHET",
+      "era": "ERA_ANCIENT",
+      "charges": 0,
+      "source": "6T Ancient Paragons",
+      "source_file": "/workspace/MOD/伟人/3085812151 远古伟人/6T_Ancient_Great_People.modinfo",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "被动效果：传播宗教",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_RELIGIOUS_SPREAD",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JNR_GARGI_VACHAKNAVI",
+      "name_zh": "伽吉·瓦查克纳维",
+      "name_en": "Gargi Vachaknavi",
+      "category": "GREAT_PERSON_CLASS_PROPHET",
+      "era": "ERA_ANCIENT",
+      "charges": 0,
+      "source": "6T Ancient Paragons",
+      "source_file": "/workspace/MOD/伟人/3085812151 远古伟人/6T_Ancient_Great_People.modinfo",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "被动效果：传播宗教",
+          "modifier_type": "MODIFIER_PLAYER_ADJUST_RELIGIOUS_SPREAD",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JNR_MARIA_HEBRAEA",
+      "name_zh": "玛利亚·希伯来亚",
+      "name_en": "Maria Hebraea",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "era": "ERA_CLASSICAL",
+      "charges": 1,
+      "source": "6T Ancient Paragons",
+      "source_file": "/workspace/MOD/伟人/3085812151 远古伟人/6T_Ancient_Great_People.modinfo",
+      "status": "新增",
+      "active_effects": [
+        {
+          "description": "+20%生产力到区域项目",
+          "modifier_type": "MODIFIER_PLAYER_CITIES_ADJUST_PROJECT_PRODUCTION",
+          "amount": 0,
+          "effect_type": "",
+          "collection_type": "",
+          "condition": ""
+        }
+      ],
+      "passive_effects": [],
+      "linked_abilities": [],
+      "display_name_note": ""
+    }
+  ],
+  "deleted_entries": [
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JOHN_A_ROEBLING",
+      "name_zh": "约翰·A·罗布林",
+      "name_en": "John A. Roebling",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "source": "原版",
+      "deleted_by": "Sumus Magnus",
+      "deleted_by_file": "/workspace/MOD/伟人/2448605286 更多伟人/SumusMagnus_RemoveData.xml"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_CHARLES_CORREA",
+      "name_zh": "查尔斯·科雷亚",
+      "name_en": "Charles Correa",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "source": "原版",
+      "deleted_by": "Sumus Magnus",
+      "deleted_by_file": "/workspace/MOD/伟人/2448605286 更多伟人/SumusMagnus_RemoveData.xml"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JANE_DREW",
+      "name_zh": "简·德鲁",
+      "name_en": "Jane Drew",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "source": "原版",
+      "deleted_by": "Sumus Magnus",
+      "deleted_by_file": "/workspace/MOD/伟人/2448605286 更多伟人/SumusMagnus_RemoveData.xml"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JAMES_OF_ST_GEORGE",
+      "name_zh": "圣乔治的詹姆斯",
+      "name_en": "James of St. George",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "source": "原版",
+      "deleted_by": "Sumus Magnus",
+      "deleted_by_file": "/workspace/MOD/伟人/2448605286 更多伟人/SumusMagnus_RemoveData.xml"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_FRANZ_VON_HIPPER",
+      "name_zh": "弗朗茨·冯·希佩尔",
+      "name_en": "Franz von Hipper",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "source": "原版",
+      "deleted_by": "Sumus Magnus",
+      "deleted_by_file": "/workspace/MOD/伟人/2448605286 更多伟人/SumusMagnus_RemoveData.xml"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_FRANCIS_DRAKE",
+      "name_zh": "弗朗西斯·德雷克",
+      "name_en": "Francis Drake",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "source": "原版",
+      "deleted_by": "Sumus Magnus",
+      "deleted_by_file": "/workspace/MOD/伟人/2448605286 更多伟人/SumusMagnus_RemoveData.xml"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_LASKARINA_BOUBOULINA",
+      "name_zh": "拉斯卡里娜·布布利娜",
+      "name_en": "Laskarina Bouboulina",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "source": "原版",
+      "deleted_by": "Sumus Magnus",
+      "deleted_by_file": "/workspace/MOD/伟人/2448605286 更多伟人/SumusMagnus_RemoveData.xml"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_YI_SUN_SIN",
+      "name_zh": "李舜臣",
+      "name_en": "Yi Sun-sin",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "source": "原版",
+      "deleted_by": "Sumus Magnus",
+      "deleted_by_file": "/workspace/MOD/伟人/2448605286 更多伟人/SumusMagnus_RemoveData.xml"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_HANNO_THE_NAVIGATOR",
+      "name_zh": "航海家汉诺",
+      "name_en": "Hanno the Navigator",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "source": "原版",
+      "deleted_by": "Sumus Magnus",
+      "deleted_by_file": "/workspace/MOD/伟人/2448605286 更多伟人/SumusMagnus_RemoveData.xml"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_DANDARA",
+      "name_zh": "丹达拉",
+      "name_en": "Dandara",
+      "category": "GREAT_PERSON_CLASS_ADMIRAL",
+      "source": "原版",
+      "deleted_by": "Sumus Magnus",
+      "deleted_by_file": "/workspace/MOD/伟人/2448605286 更多伟人/SumusMagnus_RemoveData.xml"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JOHN_MONASH",
+      "name_zh": "约翰·莫纳什",
+      "name_en": "John Monash",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "source": "原版",
+      "deleted_by": "Sumus Magnus",
+      "deleted_by_file": "/workspace/MOD/伟人/2448605286 更多伟人/SumusMagnus_RemoveData.xml"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_RANI_LAKSHMIBAI",
+      "name_zh": "拉尼·拉克什米巴伊",
+      "name_en": "Rani Lakshmibai",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "source": "原版",
+      "deleted_by": "Sumus Magnus",
+      "deleted_by_file": "/workspace/MOD/伟人/2448605286 更多伟人/SumusMagnus_RemoveData.xml"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_SAMORI_TURE",
+      "name_zh": "萨莫里·杜尔",
+      "name_en": "Samori Ture",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "source": "原版",
+      "deleted_by": "Sumus Magnus",
+      "deleted_by_file": "/workspace/MOD/伟人/2448605286 更多伟人/SumusMagnus_RemoveData.xml"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_AETHELFLAED",
+      "name_zh": "埃塞尔弗莱德",
+      "name_en": "Aethelflaed",
+      "category": "GREAT_PERSON_CLASS_GENERAL",
+      "source": "原版",
+      "deleted_by": "Sumus Magnus",
+      "deleted_by_file": "/workspace/MOD/伟人/2448605286 更多伟人/SumusMagnus_RemoveData.xml"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_PIERO_DE_BARDI",
+      "name_zh": "皮耶罗·德·巴尔迪",
+      "name_en": "Piero de Bardi",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "source": "原版",
+      "deleted_by": "Sumus Magnus",
+      "deleted_by_file": "/workspace/MOD/伟人/2448605286 更多伟人/SumusMagnus_RemoveData.xml"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JAKOB_FUGGER",
+      "name_zh": "雅各布·富格尔",
+      "name_en": "Jakob Fugger",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "source": "原版",
+      "deleted_by": "Sumus Magnus",
+      "deleted_by_file": "/workspace/MOD/伟人/2448605286 更多伟人/SumusMagnus_RemoveData.xml"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JOHN_JACOB_ASTOR",
+      "name_zh": "约翰·雅各布·阿斯特",
+      "name_en": "John Jacob Astor",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "source": "原版",
+      "deleted_by": "Sumus Magnus",
+      "deleted_by_file": "/workspace/MOD/伟人/2448605286 更多伟人/SumusMagnus_RemoveData.xml"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ADAM_SMITH",
+      "name_zh": "亚当·斯密",
+      "name_en": "Adam Smith",
+      "category": "GREAT_PERSON_CLASS_MERCHANT",
+      "source": "原版",
+      "deleted_by": "Sumus Magnus",
+      "deleted_by_file": "/workspace/MOD/伟人/2448605286 更多伟人/SumusMagnus_RemoveData.xml"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_BI_SHENG",
+      "name_zh": "毕昇",
+      "name_en": "Bi Sheng",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "source": "原版",
+      "deleted_by": "DeleteSomeGreatEngineer",
+      "deleted_by_file": "/workspace/MOD/伟人/3334907290 删除部分工程师/core.sql"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JAMES_OF_ST_GEORGE",
+      "name_zh": "圣乔治的詹姆斯",
+      "name_en": "James of St. George",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "source": "原版",
+      "deleted_by": "DeleteSomeGreatEngineer",
+      "deleted_by_file": "/workspace/MOD/伟人/3334907290 删除部分工程师/core.sql"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ISIDORE_OF_MILETUS",
+      "name_zh": "米利都的伊西多尔",
+      "name_en": "Isidore of Miletus",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "source": "原版",
+      "deleted_by": "DeleteSomeGreatEngineer",
+      "deleted_by_file": "/workspace/MOD/伟人/3334907290 删除部分工程师/core.sql"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JOHN_A_ROEBLING",
+      "name_zh": "约翰·A·罗布林",
+      "name_en": "John A. Roebling",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "source": "原版",
+      "deleted_by": "DeleteSomeGreatEngineer",
+      "deleted_by_file": "/workspace/MOD/伟人/3334907290 删除部分工程师/core.sql"
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_ALVAR_AALTO",
+      "name_zh": "阿尔瓦·阿尔托",
+      "name_en": "Alvar Aalto",
+      "category": "GREAT_PERSON_CLASS_ENGINEER",
+      "source": "原版",
+      "deleted_by": "DeleteSomeGreatEngineer",
+      "deleted_by_file": "/workspace/MOD/伟人/3334907290 删除部分工程师/core.sql"
+    }
+  ],
+  "modified_entries": [
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_IMHOTEP",
+      "name_zh": "伊姆霍特普",
+      "modified_by": "6T Ancient Paragons",
+      "changes": [
+        {
+          "field": "Era",
+          "original_value": "ERA_ANCIENT",
+          "final_value": "ERA_CLASSICAL",
+          "modifier": "6T Ancient Paragons"
+        },
+        {
+          "field": "WonderProduction",
+          "original_value": "unknown",
+          "final_value": "175",
+          "modifier": "6T Ancient Paragons"
+        }
+      ]
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JNR_SIYAJ_K_AK",
+      "name_zh": "西亚赫·卡阿克",
+      "modified_by": "6T Ancient Paragons XP1",
+      "changes": [
+        {
+          "field": "Effect",
+          "original_value": "Standard General effect",
+          "final_value": "City center mode like Aethelflaed",
+          "modifier": "6T Ancient Paragons XP1"
+        }
+      ]
+    },
+    {
+      "id": "GREAT_PERSON_INDIVIDUAL_JNR_MAITREYI",
+      "name_zh": "弥勒",
+      "modified_by": "6T Ancient Paragons XP1",
+      "changes": [
+        {
+          "field": "Effect",
+          "original_value": "Campus buildings +1 Sci/Cul/Faith",
+          "final_value": "+0.2 Sci/Cul/Faith per citizen",
+          "modifier": "6T Ancient Paragons XP1"
+        }
+      ]
+    }
+  ]
+}
