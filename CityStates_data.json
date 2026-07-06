@@ -1,0 +1,1215 @@
+{
+  "report_metadata": {
+    "title": "Civilization VI 城邦数据分析报告",
+    "target_type": "CityStates",
+    "generated_date": "2026-07-06",
+    "total_entries": 60,
+    "source_breakdown": {
+      "original_base": 36,
+      "original_dlc": 0,
+      "mod_cse_added": 24,
+      "mod_cse_modified": 36,
+      "mod_cse_deleted": 0,
+      "mod_acs": 1,
+      "mod_fcs": 1,
+      "mod_ha": 2
+    }
+  },
+  "city_state_types": [
+    {
+      "type_id": "CSE_SCIENTIFIC",
+      "name_zh": "科学",
+      "name_en": "Scientific",
+      "source": "原版",
+      "status": "修改",
+      "envoy_bonuses": {
+        "1": "首都 +2 科技",
+        "3": "图书馆 +2 科技",
+        "6": "大学 +2 科技",
+        "10": "研究实验室 +2 科技"
+      },
+      "envoy_bonuses_original": {
+        "1": "首都 +2 科技",
+        "3": "图书馆 +1 科技",
+        "6": "大学 +2 科技",
+        "10": "研究实验室 +3 科技"
+      }
+    },
+    {
+      "type_id": "CSE_CULTURAL",
+      "name_zh": "文化",
+      "name_en": "Cultural",
+      "source": "原版",
+      "status": "修改",
+      "envoy_bonuses": {
+        "1": "首都 +2 文化",
+        "3": "圆形剧场 +2 文化",
+        "6": "艺术博物馆/文物博物馆 +2 文化",
+        "10": "广播中心 +2 文化"
+      },
+      "envoy_bonuses_original": {
+        "1": "首都 +2 文化",
+        "3": "剧院广场 +2 文化",
+        "6": "博物馆 +2 文化",
+        "10": "广播中心 +3 文化"
+      }
+    },
+    {
+      "type_id": "CSE_TRADE",
+      "name_zh": "商业",
+      "name_en": "Trade",
+      "source": "原版",
+      "status": "修改",
+      "envoy_bonuses": {
+        "1": "首都 +4 金币",
+        "3": "市场/灯塔 +4 金币",
+        "6": "银行/造船厂 +4 金币",
+        "10": "证券交易所/港口 +4 金币"
+      },
+      "envoy_bonuses_original": {
+        "1": "首都 +4 金币",
+        "3": "商业中心 +4 金币",
+        "6": "市场 +2 金币",
+        "10": "银行 +4 金币"
+      }
+    },
+    {
+      "type_id": "CSE_RELIGIOUS",
+      "name_zh": "宗教",
+      "name_en": "Religious",
+      "source": "原版",
+      "status": "修改",
+      "envoy_bonuses": {
+        "1": "首都 +2 信仰",
+        "3": "神社 +2 信仰",
+        "6": "寺庙 +2 信仰",
+        "10": "祭祀建筑 +2 信仰"
+      },
+      "envoy_bonuses_original": {
+        "1": "首都 +2 信仰",
+        "3": "圣地 +2 信仰",
+        "6": "神社 +2 信仰",
+        "10": "寺庙 +4 信仰"
+      }
+    },
+    {
+      "type_id": "CSE_MILITARISTIC",
+      "name_zh": "军事",
+      "name_en": "Militaristic",
+      "source": "原版",
+      "status": "修改",
+      "envoy_bonuses": {
+        "1": "首都 +2 产能(单位)",
+        "3": "兵营/马厩城市 +2 产能(单位)",
+        "6": "军械库城市 +2 产能(单位)",
+        "10": "军事学院 +2 产能(单位)"
+      },
+      "envoy_bonuses_original": {
+        "1": "首都 +2 产能(单位)",
+        "3": "兵营/马厩 +2 产能(单位)",
+        "6": "军械库 +2 产能(单位)",
+        "10": "军事学院 +3 产能(单位)"
+      }
+    },
+    {
+      "type_id": "CSE_INDUSTRIAL",
+      "name_zh": "工业",
+      "name_en": "Industrial",
+      "source": "原版",
+      "status": "修改",
+      "envoy_bonuses": {
+        "1": "首都 +2 产能(区域建筑)",
+        "3": "工坊城市 +2 产能(区域建筑)",
+        "6": "工厂城市 +2 产能(区域建筑)",
+        "10": "发电厂 +2 产能(区域建筑)"
+      },
+      "envoy_bonuses_original": {
+        "1": "首都 +2 产能(区域)",
+        "3": "工业区 +2 产能(区域)",
+        "6": "工坊 +2 产能(区域)",
+        "10": "工厂 +4 产能(区域)"
+      }
+    },
+    {
+      "type_id": "CSE_AGRICULTURAL",
+      "name_zh": "农业",
+      "name_en": "Agricultural",
+      "source": "CSE",
+      "status": "新增",
+      "envoy_bonuses": {
+        "1": "首都 +2 食物",
+        "3": "粮仓 +2 食物",
+        "6": "下水道 +2 食物",
+        "10": "水渠 +2 食物"
+      }
+    },
+    {
+      "type_id": "CSE_ENTERTAINMENT",
+      "name_zh": "娱乐",
+      "name_en": "Entertainment",
+      "source": "CSE",
+      "status": "新增",
+      "envoy_bonuses": {
+        "1": "首都 +1 宜居度",
+        "3": "竞技场 +1 宜居度",
+        "6": "动物园 +1 宜居度",
+        "10": "体育场 +1 宜居度"
+      }
+    },
+    {
+      "type_id": "CSE_MARITIME",
+      "name_zh": "海事",
+      "name_en": "Maritime",
+      "source": "CSE",
+      "status": "新增",
+      "envoy_bonuses": {
+        "1": "首都 +1 食物 +1 产能",
+        "3": "灯塔 +1 食物 +1 产能",
+        "6": "造船厂 +1 食物 +1 产能",
+        "10": "港口 +1 食物 +1 产能"
+      }
+    },
+    {
+      "type_id": "CSE_CONSULAR",
+      "name_zh": "领事",
+      "name_en": "Consular",
+      "source": "CSE",
+      "status": "新增",
+      "envoy_bonuses": {
+        "1": "首都 +2 外交支持",
+        "3": "一级政府区建筑 +2 外交支持",
+        "6": "二级政府区建筑 +2 外交支持",
+        "10": "三级政府区建筑 +2 外交支持"
+      },
+      "envoy_bonuses_xp1": {
+        "1": "首都 +2 忠诚度压力",
+        "3": "每座城市 +2 忠诚度",
+        "6": "每座城市 +2 忠诚度压力",
+        "10": "有总督的每座城市 +2 忠诚度压力"
+      }
+    }
+  ],
+  "entries": [
+    {
+      "name_zh": "哈图沙",
+      "name_en": "Hattusa",
+      "internal_id": "CIVILIZATION_HATTUSA",
+      "type": "科学",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "每回合获得1个你已发现的但尚未拥有的战略资源"
+    },
+    {
+      "name_zh": "非斯",
+      "name_en": "Fez",
+      "internal_id": "CIVILIZATION_FEZ",
+      "type": "科学",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "每当你使用信仰购买建筑或单位时，获得等同于该项花费30%的科技"
+    },
+    {
+      "name_zh": "博洛尼亚",
+      "name_en": "Bologna",
+      "internal_id": "CIVILIZATION_BOLOGNA",
+      "type": "科学",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "拥有建筑的区域为其所在城市提供+1大科学家点数"
+    },
+    {
+      "name_zh": "日内瓦",
+      "name_en": "Geneva",
+      "internal_id": "CIVILIZATION_GENEVA",
+      "type": "科学",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "未处于战争状态时，所有城市+15%科技"
+    },
+    {
+      "name_zh": "塔鲁加",
+      "name_en": "Taruga",
+      "internal_id": "CIVILIZATION_TARUGA",
+      "type": "科学",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "每个不同的战略资源提供+5%科技"
+    },
+    {
+      "name_zh": "安善",
+      "name_en": "Anshan",
+      "internal_id": "CIVILIZATION_ANSHAN",
+      "type": "科学",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "每当你获得大科学家时，获得额外的科技"
+    },
+    {
+      "name_zh": "库马西",
+      "name_en": "Kumasi",
+      "internal_id": "CIVILIZATION_KUMASI",
+      "type": "文化",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "通往任何城邦的贸易路线为起始城市每个专业化区域提供+2文化"
+    },
+    {
+      "name_zh": "摩亨佐达罗",
+      "name_en": "Mohenjo-Daro",
+      "internal_id": "CIVILIZATION_MOHENJO_DARO",
+      "type": "文化",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "所有城市都能获得+5住房，如同建于淡水旁"
+    },
+    {
+      "name_zh": "拉帕努伊",
+      "name_en": "Rapa Nui",
+      "internal_id": "CIVILIZATION_RAPA_NUI",
+      "type": "文化",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "建造者可建造摩艾石像改良设施"
+    },
+    {
+      "name_zh": "卡瓜纳",
+      "name_en": "Caguana",
+      "internal_id": "CIVILIZATION_CAGUANA",
+      "type": "文化",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "建造者可建造巴泰伊球场改良设施"
+    },
+    {
+      "name_zh": "维尔纽斯",
+      "name_en": "Vilnius",
+      "internal_id": "CIVILIZATION_VILNIUS",
+      "type": "文化",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "当你的剧院广场区域获得伟人点数时，额外获得50%文化"
+    },
+    {
+      "name_zh": "南马都尔",
+      "name_en": "Nan Madol",
+      "internal_id": "CIVILIZATION_NAN_MADOL",
+      "type": "文化",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "所有沿海区域为相邻区域提供+2文化"
+    },
+    {
+      "name_zh": "迦太基",
+      "name_en": "Carthage",
+      "internal_id": "CIVILIZATION_CARTHAGE",
+      "type": "商业",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "每有一个兵营区域，额外提供一条贸易路线容量"
+    },
+    {
+      "name_zh": "里斯本",
+      "name_en": "Lisbon",
+      "internal_id": "CIVILIZATION_LISBON",
+      "type": "商业",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "你的海上贸易路线免疫劫掠"
+    },
+    {
+      "name_zh": "威尼斯",
+      "name_en": "Venice",
+      "internal_id": "CIVILIZATION_VENICE",
+      "type": "商业",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "你的商路每经过一个外国城市，+1金币"
+    },
+    {
+      "name_zh": "桑给巴尔",
+      "name_en": "Zanzibar",
+      "internal_id": "CIVILIZATION_ZANZIBAR",
+      "type": "商业",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "获得肉桂和丁香奢侈品资源（不可交易），各提供6宜居度"
+    },
+    {
+      "name_zh": "摩加多尔",
+      "name_en": "Mogadishu",
+      "internal_id": "CIVILIZATION_MOGADISHU",
+      "type": "商业",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "你的商人不能在水上被劫掠"
+    },
+    {
+      "name_zh": "布哈拉",
+      "name_en": "Bukhara",
+      "internal_id": "CIVILIZATION_SAMARQAND",
+      "type": "商业",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "建造者可建造交易站改良设施",
+      "note": "原版名称为Samarkand(撒马尔罕)，CSE重命名为Bukhara(布哈拉)"
+    },
+    {
+      "name_zh": "耶路撒冷",
+      "name_en": "Jerusalem",
+      "internal_id": "CIVILIZATION_JERUSALEM",
+      "type": "宗教",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "自动转变为你的主流宗教，并对其所有者的城市施加宗教压力"
+    },
+    {
+      "name_zh": "梵蒂冈",
+      "name_en": "Vatican City",
+      "internal_id": "CIVILIZATION_VATICAN_CITY",
+      "type": "宗教",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "当你使用大先知时，获得等同于该先知花费200%的信仰"
+    },
+    {
+      "name_zh": "埃里温",
+      "name_en": "Yerevan",
+      "internal_id": "CIVILIZATION_YEREVAN",
+      "type": "宗教",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "使徒可以从所有可能的晋升中选择"
+    },
+    {
+      "name_zh": "康提",
+      "name_en": "Kandy",
+      "internal_id": "CIVILIZATION_KANDY",
+      "type": "宗教",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "每当你发现自然奇观，获得一件圣遗物"
+    },
+    {
+      "name_zh": "拉文塔",
+      "name_en": "La Venta",
+      "internal_id": "CIVILIZATION_LA_VENTA",
+      "type": "宗教",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "建造者可建造巨石头像改良设施"
+    },
+    {
+      "name_zh": "阿尔马",
+      "name_en": "Armagh",
+      "internal_id": "CIVILIZATION_ARMAGH",
+      "type": "宗教",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "建造者可建造修道院改良设施"
+    },
+    {
+      "name_zh": "喀布尔",
+      "name_en": "Kabul",
+      "internal_id": "CIVILIZATION_KABUL",
+      "type": "军事",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "你的单位对敌对城市发起的攻击获得双倍经验"
+    },
+    {
+      "name_zh": "格兰纳达",
+      "name_en": "Granada",
+      "internal_id": "CIVILIZATION_GRANADA",
+      "type": "军事",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "建造者可建造阿尔卡萨要塞改良设施"
+    },
+    {
+      "name_zh": "阿卡德",
+      "name_en": "Akkad",
+      "internal_id": "CIVILIZATION_AKKAD",
+      "type": "军事",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "近战和反骑兵单位对城墙全额伤害"
+    },
+    {
+      "name_zh": "普雷斯佩",
+      "name_en": "Preslav",
+      "internal_id": "CIVILIZATION_PRESLAV",
+      "type": "军事",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "战斗胜利为你提供等同于该单位基础战斗力25%的信仰"
+    },
+    {
+      "name_zh": "拉合尔",
+      "name_en": "Lahore",
+      "internal_id": "CIVILIZATION_LAHORE",
+      "type": "军事",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "可以购买尼罕-辛格战士"
+    },
+    {
+      "name_zh": "沃林",
+      "name_en": "Wolin",
+      "internal_id": "CIVILIZATION_WOLIN",
+      "type": "军事",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "杀死敌方单位时获得等同于该单位战斗力50%的大将军点数"
+    },
+    {
+      "name_zh": "布宜诺斯艾利斯",
+      "name_en": "Buenos Aires",
+      "internal_id": "CIVILIZATION_BUENOS_AIRES",
+      "type": "工业",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "每个奖励资源如同奢侈品资源一样提供+1宜居度"
+    },
+    {
+      "name_zh": "墨西哥城",
+      "name_en": "Mexico City",
+      "internal_id": "CIVILIZATION_MEXICO_CITY",
+      "type": "工业",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "通过城市扩展获得的区域生产力提升适用于所有区域"
+    },
+    {
+      "name_zh": "布鲁塞尔",
+      "name_en": "Brussels",
+      "internal_id": "CIVILIZATION_BRUSSELS",
+      "type": "工业",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "你的城市建造奇观时+15%生产力"
+    },
+    {
+      "name_zh": "香港",
+      "name_en": "Hong Kong",
+      "internal_id": "CIVILIZATION_HONG_KONG",
+      "type": "工业",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "城市建造项目时+20%生产力"
+    },
+    {
+      "name_zh": "奥克兰",
+      "name_en": "Auckland",
+      "internal_id": "CIVILIZATION_AUCKLAND",
+      "type": "工业",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "浅水单元格额外+1生产力，到达工业时代后再+1生产力"
+    },
+    {
+      "name_zh": "加的夫",
+      "name_en": "Cardiff",
+      "internal_id": "CIVILIZATION_CARDIFF",
+      "type": "工业",
+      "source": "原版",
+      "status": "修改",
+      "suzerain_bonus": "每个港口区域提供+2电力"
+    }
+  ],
+  "new_entries": [
+    {
+      "name_zh": "安努拉德普勒",
+      "name_en": "Anuradhapura",
+      "internal_id": "CIVILIZATION_CSE_ANURADHAPURA",
+      "type": "农业",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "建造者可建造佛塔改良设施（+1信仰+1文化），建造后获得1件圣遗物",
+      "linked_improvement": "IMPROVEMENT_CSE_DAGOBA"
+    },
+    {
+      "name_zh": "加泰土丘",
+      "name_en": "Catalhoyuk",
+      "internal_id": "CIVILIZATION_CSE_CATALHOYUK",
+      "type": "农业",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "获得皮革和羊毛奢侈品资源（不可交易），各提供6宜居度"
+    },
+    {
+      "name_zh": "库希库古",
+      "name_en": "Kuhikugu",
+      "internal_id": "CIVILIZATION_CSE_KUHIKUGU",
+      "type": "农业",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "城市获得额外食物和文化产出"
+    },
+    {
+      "name_zh": "迈恩冒",
+      "name_en": "Maingmaw",
+      "internal_id": "CIVILIZATION_CSE_MAINGMAW",
+      "type": "农业",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "沿河改良地块+1食物+1金币"
+    },
+    {
+      "name_zh": "斯里凯特拉",
+      "name_en": "Sri Ksetra",
+      "internal_id": "CIVILIZATION_CSE_SRIKSETRA",
+      "type": "农业",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "每2个相邻圣地+1信仰"
+    },
+    {
+      "name_zh": "蒂瑟默哈拉默",
+      "name_en": "Tissamaharama",
+      "internal_id": "CIVILIZATION_CSE_TISSAMAHARAMA",
+      "type": "农业",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "有相邻丛林的城市+1食物，有相邻森林的城市+1金币"
+    },
+    {
+      "name_zh": "贝塔诺",
+      "name_en": "Beikthano",
+      "internal_id": "CIVILIZATION_CSE_BEIKTHANO",
+      "type": "娱乐",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "城墙+1防御+1射程，城堡+1防御+1射程，星堡+1防御+1射程"
+    },
+    {
+      "name_zh": "埃特扎诺阿",
+      "name_en": "Etzanoa",
+      "internal_id": "CIVILIZATION_CSE_ETZANOA",
+      "type": "娱乐",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "相邻区域提供+1住房"
+    },
+    {
+      "name_zh": "加达梅斯",
+      "name_en": "Garama",
+      "internal_id": "CIVILIZATION_CSE_GARAMA",
+      "type": "娱乐",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "获得骆驼和羊毛奢侈品资源（不可交易），各提供6宜居度"
+    },
+    {
+      "name_zh": "卡塔拉伽马",
+      "name_en": "Kataragama",
+      "internal_id": "CIVILIZATION_CSE_KATARAGAMA",
+      "type": "娱乐",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "相邻寺庙建筑+1信仰"
+    },
+    {
+      "name_zh": "迈",
+      "name_en": "Mai",
+      "internal_id": "CIVILIZATION_CSE_MAI",
+      "type": "娱乐",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "获得蜂蜡和槟榔奢侈品资源（不可交易），各提供6宜居度"
+    },
+    {
+      "name_zh": "焦洛",
+      "name_en": "Jolo",
+      "internal_id": "CIVILIZATION_CSE_JOLO",
+      "type": "娱乐",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "单位移动+1，战斗加成"
+    },
+    {
+      "name_zh": "布图安",
+      "name_en": "Butuan",
+      "internal_id": "CIVILIZATION_CSE_BUTUAN",
+      "type": "海事",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "登陆单位移动+1，忽略登陆成本"
+    },
+    {
+      "name_zh": "达喀尔",
+      "name_en": "Dakar",
+      "internal_id": "CIVILIZATION_CSE_DAKAR",
+      "type": "海事",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "港口区域建筑提供大商人点数"
+    },
+    {
+      "name_zh": "吉布提",
+      "name_en": "Djibouti",
+      "internal_id": "CIVILIZATION_CSE_DJIBOUTI",
+      "type": "海事",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "浅水地块+1食物"
+    },
+    {
+      "name_zh": "利马",
+      "name_en": "Lima",
+      "internal_id": "CIVILIZATION_CSE_LIMA",
+      "type": "海事",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "港口和城市中心额外获得产能和食物"
+    },
+    {
+      "name_zh": "蒙巴萨",
+      "name_en": "Mombasa",
+      "internal_id": "CIVILIZATION_CSE_MOMBASA",
+      "type": "海事",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "专业化区域从沿海地块获得次要相邻加成"
+    },
+    {
+      "name_zh": "拿骚",
+      "name_en": "Nassau",
+      "internal_id": "CIVILIZATION_CSE_NASSAU",
+      "type": "海事",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "掠夺海上贸易路线的收益翻倍"
+    },
+    {
+      "name_zh": "安普",
+      "name_en": "Ampi",
+      "internal_id": "CIVILIZATION_CSE_AMPI",
+      "type": "领事",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "获得玻璃奢侈品资源（6宜居度）；种植园+1产能"
+    },
+    {
+      "name_zh": "凯德什",
+      "name_en": "Kadesh",
+      "internal_id": "CIVILIZATION_CSE_KADESH",
+      "type": "领事",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "相邻城市中心提供+1产能+1食物"
+    },
+    {
+      "name_zh": "坎瑙杰",
+      "name_en": "Kannauj",
+      "internal_id": "CIVILIZATION_CSE_KANNAUJ",
+      "type": "领事",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "获取黄金和信仰资源"
+    },
+    {
+      "name_zh": "哈佐尔",
+      "name_en": "Hazor",
+      "internal_id": "CIVILIZATION_CSE_HAZOR",
+      "type": "领事",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "获取河流资源"
+    },
+    {
+      "name_zh": "克拉克夫",
+      "name_en": "Valabhi",
+      "internal_id": "CIVILIZATION_CSE_VALABHI",
+      "type": "领事",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "有港口的城市+1产能，有圣地的城市+1金币"
+    },
+    {
+      "name_zh": "乌尔根奇",
+      "name_en": "Urgench",
+      "internal_id": "CIVILIZATION_CSE_URGENCH",
+      "type": "领事",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "有市场的城市+1产能，有兵营的城市+1金币"
+    }
+  ],
+  "xp1_entries": [
+    {
+      "name_zh": "阿兹卡波察尔科",
+      "name_en": "Azcapotzalco",
+      "internal_id": "CIVILIZATION_CSE_AZCAPOTZALCO",
+      "type": "军事",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "联盟点数加成"
+    },
+    {
+      "name_zh": "昌昌",
+      "name_en": "Chan Chan",
+      "internal_id": "CIVILIZATION_CSE_CHAN_CHAN",
+      "type": "文化",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "宫殿产出翻倍(+100%)，专业化区域相邻政府区/娱乐区/水上乐园时+50%原生产出"
+    },
+    {
+      "name_zh": "得洛斯",
+      "name_en": "Delos",
+      "internal_id": "CIVILIZATION_CSE_DELOS",
+      "type": "海事",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "特定地形资源产出加成"
+    },
+    {
+      "name_zh": "德尔斐",
+      "name_en": "Delphi",
+      "internal_id": "CIVILIZATION_CSE_DELPHI",
+      "type": "宗教",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "奇观建设奖励"
+    },
+    {
+      "name_zh": "多多纳",
+      "name_en": "Dodona",
+      "internal_id": "CIVILIZATION_CSE_DODONA",
+      "type": "科学",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "文明时代激励措施加成"
+    },
+    {
+      "name_zh": "哈达德",
+      "name_en": "Hadad",
+      "internal_id": "CIVILIZATION_CSE_HADAD",
+      "type": "领事",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "城市官员加成"
+    },
+    {
+      "name_zh": "哈林",
+      "name_en": "Halin",
+      "internal_id": "CIVILIZATION_CSE_HALIN",
+      "type": "农业",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "人口增长加成"
+    },
+    {
+      "name_zh": "哈瓦那",
+      "name_en": "Havana",
+      "internal_id": "CIVILIZATION_CSE_HAVANA",
+      "type": "娱乐",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "文化、艺术和港口建筑加成"
+    },
+    {
+      "name_zh": "霍尔木兹",
+      "name_en": "Hormuz",
+      "internal_id": "CIVILIZATION_CSE_HORMUZ",
+      "type": "海事",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "港口城市防御加成"
+    },
+    {
+      "name_zh": "伊萨帕",
+      "name_en": "Izapa",
+      "internal_id": "CIVILIZATION_CSE_IZAPA",
+      "type": "科学",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "科技激励措施加成"
+    },
+    {
+      "name_zh": "约翰内斯堡",
+      "name_en": "Johannesburg",
+      "internal_id": "CIVILIZATION_CSE_JOHANNESBURG",
+      "type": "工业",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "工业区建筑加成"
+    },
+    {
+      "name_zh": "梅赫尔格尔",
+      "name_en": "Mehrgarh",
+      "internal_id": "CIVILIZATION_CSE_MEHRGARH",
+      "type": "农业",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "资源采集加成"
+    },
+    {
+      "name_zh": "摩纳哥",
+      "name_en": "Monaco",
+      "internal_id": "CIVILIZATION_CSE_MONACO",
+      "type": "娱乐",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "娱乐区建筑加成"
+    },
+    {
+      "name_zh": "姆齐齐马",
+      "name_en": "Mzizima",
+      "internal_id": "CIVILIZATION_CSE_MZIZIMA",
+      "type": "农业",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "城市增长加成"
+    },
+    {
+      "name_zh": "那烂陀",
+      "name_en": "Nalanda",
+      "internal_id": "CIVILIZATION_CSE_NALANDA",
+      "type": "科学",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "快乐度和科技/信仰收益加成"
+    },
+    {
+      "name_zh": "皇家港",
+      "name_en": "Port Royal",
+      "internal_id": "CIVILIZATION_CSE_PORT_ROYAL",
+      "type": "商业",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "贸易路线加成"
+    },
+    {
+      "name_zh": "乌加里特",
+      "name_en": "Ugarit",
+      "internal_id": "CIVILIZATION_CSE_UGARIT",
+      "type": "军事",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "海军单位生产加成"
+    }
+  ],
+  "xp2_entries": [
+    {
+      "name_zh": "阿拉穆特",
+      "name_en": "Alamut",
+      "internal_id": "CIVILIZATION_CSE_ALAMUT",
+      "type": "领事",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "间谍可以从所有可能的晋升中选择"
+    },
+    {
+      "name_zh": "拜亚",
+      "name_en": "Baiae",
+      "internal_id": "CIVILIZATION_CSE_BAIAE",
+      "type": "娱乐",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "娱乐区和水上乐园加成"
+    },
+    {
+      "name_zh": "哥贝克力石阵",
+      "name_en": "Gobekli Tepe",
+      "internal_id": "CIVILIZATION_CSE_GOBEKLI_TEPE",
+      "type": "宗教",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "奇观建设加成"
+    },
+    {
+      "name_zh": "贡德沙普尔",
+      "name_en": "Gundeshapur",
+      "internal_id": "CIVILIZATION_CSE_GUNDESHAPUR",
+      "type": "科学",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "时代激励和校区邻近加成"
+    },
+    {
+      "name_zh": "赫瓦尔斯",
+      "name_en": "Hvalsey",
+      "internal_id": "CIVILIZATION_CSE_HVALSEY",
+      "type": "海事",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "冰川水域钓鱼船加成"
+    },
+    {
+      "name_zh": "丹吉尔",
+      "name_en": "Tangier",
+      "internal_id": "CIVILIZATION_CSE_TANGIER",
+      "type": "文化",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "时代激励和剧场邻近加成"
+    },
+    {
+      "name_zh": "泰尤纳",
+      "name_en": "Teyuna",
+      "internal_id": "CIVILIZATION_CSE_TEYUNA",
+      "type": "科学",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "山地邻近加成"
+    },
+    {
+      "name_zh": "瓦杜兹",
+      "name_en": "Vaduz",
+      "internal_id": "CIVILIZATION_CSE_VADUZ",
+      "type": "商业",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "建筑购买折扣"
+    },
+    {
+      "name_zh": "维也纳",
+      "name_en": "Vienna",
+      "internal_id": "CIVILIZATION_CSE_VIENNA",
+      "type": "领事",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "城市官员、建筑折扣和外交影响力加成"
+    }
+  ],
+  "additional_cse_base_entries": [
+    {
+      "name_zh": "阿伊努克",
+      "name_en": "Aynuk",
+      "internal_id": "CIVILIZATION_CSE_AYNUK",
+      "type": "海事",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "沿海地块+1食物+1产能"
+    },
+    {
+      "name_zh": "切特罗凯特尔",
+      "name_en": "Chetro Ketl",
+      "internal_id": "CIVILIZATION_CSE_CHETRO_KETL",
+      "type": "文化",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "建造者可建造奇瓦改良设施"
+    },
+    {
+      "name_zh": "伊魁特",
+      "name_en": "Iqaluit",
+      "internal_id": "CIVILIZATION_CSE_IQALUIT",
+      "type": "农业",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "寒带地区食物和产能加成"
+    },
+    {
+      "name_zh": "凯拉尼亚",
+      "name_en": "Kelaniya",
+      "internal_id": "CIVILIZATION_CSE_KELANIYA",
+      "type": "宗教",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "城市中心和港口额外文化和信仰"
+    },
+    {
+      "name_zh": "马拉喀什",
+      "name_en": "Marrakech",
+      "internal_id": "CIVILIZATION_CSE_MARRAKECH",
+      "type": "商业",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "建造者可建造里亚德改良设施（+1文化+1食物），国际商路+1金币"
+    },
+    {
+      "name_zh": "米吉多",
+      "name_en": "Megiddo",
+      "internal_id": "CIVILIZATION_CSE_MEGIDDO",
+      "type": "军事",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "兵营区域提供+1产能和+2金币（国际商路）"
+    },
+    {
+      "name_zh": "帕尔米拉",
+      "name_en": "Palmyra",
+      "internal_id": "CIVILIZATION_CSE_PALMYRA",
+      "type": "商业",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "圣地建筑为每条经过的外国商路提供+1金币"
+    },
+    {
+      "name_zh": "法希斯",
+      "name_en": "Phasis",
+      "internal_id": "CIVILIZATION_CSE_PHASIS",
+      "type": "工业",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "相邻森林的森林地块+1产能，沿河伐木场+2金币"
+    },
+    {
+      "name_zh": "卡特纳",
+      "name_en": "Qatna",
+      "internal_id": "CIVILIZATION_CSE_QATNA",
+      "type": "工业",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "工业区建筑可用信仰购买，+1产能"
+    },
+    {
+      "name_zh": "萨莱",
+      "name_en": "Sale",
+      "internal_id": "CIVILIZATION_CSE_SALE",
+      "type": "军事",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "海军劫掠单位获得额外攻击次数"
+    },
+    {
+      "name_zh": "萨那",
+      "name_en": "Sanaa",
+      "internal_id": "CIVILIZATION_CSE_SANAA",
+      "type": "文化",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "城市中心对相邻区域提供相邻加成"
+    },
+    {
+      "name_zh": "塞乌托波利斯",
+      "name_en": "Seuthopolis",
+      "internal_id": "CIVILIZATION_CSE_SEUTHOPOLIS",
+      "type": "商业",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "城市中每条贸易路线+1产能"
+    },
+    {
+      "name_zh": "沙赫尔苏赫特",
+      "name_en": "Shahr-e Sukhte",
+      "internal_id": "CIVILIZATION_CSE_SHAHRESUKHTE",
+      "type": "工业",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "有工坊的城市+1产能，有市场的城市+1金币"
+    },
+    {
+      "name_zh": "西顿",
+      "name_en": "Sidon",
+      "internal_id": "CIVILIZATION_CSE_SIDON",
+      "type": "文化",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "有圆形剧场的城市+1文化"
+    },
+    {
+      "name_zh": "新加坡",
+      "name_en": "Singapore",
+      "internal_id": "CIVILIZATION_CSE_SINGAPORE",
+      "type": "商业",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "每个相邻港口/商业中心/剧院区+1金币"
+    },
+    {
+      "name_zh": "撒马尔罕(新)",
+      "name_en": "Samarqand",
+      "internal_id": "CIVILIZATION_CSE_SAMARQAND",
+      "type": "工业",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "城市中每个营地或兵营区域+1住房"
+    },
+    {
+      "name_zh": "塔奥斯",
+      "name_en": "Taos",
+      "internal_id": "CIVILIZATION_CSE_TAOS",
+      "type": "文化",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "每个相邻圣地和营地+1文化"
+    },
+    {
+      "name_zh": "图内里乌特",
+      "name_en": "Tuneriut",
+      "internal_id": "CIVILIZATION_CSE_TUNERIUT",
+      "type": "商业",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "每2个相邻营地+1金币"
+    },
+    {
+      "name_zh": "怀亚姆",
+      "name_en": "Wyam",
+      "internal_id": "CIVILIZATION_CSE_WYAM",
+      "type": "宗教",
+      "source": "CSE",
+      "status": "新增",
+      "suzerain_bonus": "圣地或剧院区有巨作槽位的城市+1信仰+1文化"
+    }
+  ],
+  "deleted_entries": [],
+  "modified_entries": [
+    {
+      "type": "城邦类型加成",
+      "subtype": "科学",
+      "before": "3使者:图书馆+1科技; 10使者:研究实验室+3科技",
+      "after": "3使者:图书馆+2科技; 10使者:研究实验室+2科技",
+      "mod": "CSE"
+    },
+    {
+      "type": "城邦类型加成",
+      "subtype": "文化",
+      "before": "3使者:剧院广场+2文化; 6使者:博物馆+2文化; 10使者:广播中心+3文化",
+      "after": "3使者:圆形剧场+2文化; 6使者:艺术/文物博物馆+2文化; 10使者:广播中心+2文化",
+      "mod": "CSE"
+    },
+    {
+      "type": "城邦类型加成",
+      "subtype": "商业",
+      "before": "3使者:商业中心+4金币; 6使者:市场+2金币; 10使者:银行+4金币",
+      "after": "3使者:市场/灯塔+4金币; 6使者:银行/造船厂+4金币; 10使者:证券交易所/港口+4金币",
+      "mod": "CSE"
+    },
+    {
+      "type": "城邦类型加成",
+      "subtype": "宗教",
+      "before": "3使者:圣地+2信仰; 6使者:神社+2信仰; 10使者:寺庙+4信仰",
+      "after": "3使者:神社+2信仰; 6使者:寺庙+2信仰; 10使者:祭祀建筑+2信仰",
+      "mod": "CSE"
+    },
+    {
+      "type": "城邦类型加成",
+      "subtype": "军事",
+      "before": "3使者:兵营/马厩+2产能; 6使者:军械库+2产能; 10使者:军事学院+3产能",
+      "after": "3使者:兵营/马厩城市+2产能; 6使者:军械库城市+2产能; 10使者:军事学院+2产能",
+      "mod": "CSE"
+    },
+    {
+      "type": "城邦类型加成",
+      "subtype": "工业",
+      "before": "3使者:工业区+2产能; 6使者:工坊+2产能; 10使者:工厂+4产能",
+      "after": "3使者:工坊城市+2产能; 6使者:工厂城市+2产能; 10使者:发电厂+2产能",
+      "mod": "CSE"
+    },
+    {
+      "type": "城邦重命名",
+      "subtype": "撒马尔罕",
+      "before": "CIVILIZATION_SAMARQAND = Samarkand",
+      "after": "CIVILIZATION_SAMARQAND = Bukhara; 新增CIVILIZATION_CSE_SAMARQAND = Samarqand",
+      "mod": "CSE"
+    },
+    {
+      "type": "全局设置",
+      "subtype": "城邦城墙",
+      "before": "城邦开局无城墙",
+      "after": "所有城邦开局自动获得城墙",
+      "mod": "CSE"
+    },
+    {
+      "type": "全局设置",
+      "subtype": "宗主国外交支持",
+      "before": "无",
+      "after": "每宗主一个城邦+1外交支持/回合",
+      "mod": "CSE"
+    }
+  ]
+}
