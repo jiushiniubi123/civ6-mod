@@ -302,6 +302,18 @@
       <File>Core/City-States/XP1/CSE_Mehrgarh.sql</File>
       <File>Core/CSE_Wonders_XP1.sql</File>
     </UpdateDatabase>
+    <UpdateDatabase id="CSE_Modifications">
+      <Properties>
+        <LoadOrder>68</LoadOrder>
+      </Properties>
+      <File>Core/City-States/Modifications/CSE_Modifications.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="CSE_Modifications_Text">
+      <Properties>
+        <LoadOrder>69</LoadOrder>
+      </Properties>
+      <File>Core/City-States/Modifications/CSE_Modifications_Text.sql</File>
+    </UpdateText>
     <UpdateDatabase id="CSE_CS_XP2">
       <Properties>
         <LoadOrder>67</LoadOrder>
@@ -516,6 +528,8 @@
     <File>Core/City-State Types/XP1/CSE_Entertainment_XP1.sql</File>
     <File>Core/City-State Types/XP2/CSE_Consular_XP2.sql</File>
     <File>Core/City-State Types/XP2/CSE_Industrial_XP2.sql</File>
+    <File>Core/City-States/Modifications/CSE_Modifications.sql</File>
+    <File>Core/City-States/Modifications/CSE_Modifications_Text.sql</File>
     <File>Core/City-States/Base/CSE_Ampi.sql</File>
     <File>Core/City-States/Base/CSE_Anuradhapura.sql</File>
     <File>Core/City-States/Base/CSE_Aynuk.sql</File>

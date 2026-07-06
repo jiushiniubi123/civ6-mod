@@ -1,0 +1,170 @@
+/*
+	CSE Modification
+	Modified city-state abilities based on user requirements.
+	LoadOrder: 68
+*/
+
+-- ==========================================
+-- SCIENTIFIC CITY-STATES
+-- ==========================================
+
+-- Geneva: +10% Science when not at war with any major civ (base game is +15%)
+UPDATE ModifierArguments SET Amount = 10 WHERE ModifierId = 'MINOR_CIV_GENEVA_SCIENCE_AT_PEACE_BONUS' AND Name = 'Amount';
+
+-- Izapa: Golden Age Eurekas +5% tech (was +10%)
+UPDATE ModifierArguments SET Amount = 5 WHERE ModifierId = 'CSE_IZAPA_TECH_BOOST' AND Name = 'Amount';
+
+-- Samarqand: +1% Science per Great Person (was +2%)
+UPDATE ModifierArguments SET Amount = 1 WHERE ModifierId = 'CSE_SAMARQAND_GP_SCIENCE' AND Name = 'Amount';
+
+-- Gundeshapur: +1 free Eureka on new era (was +2)
+UPDATE ModifierArguments SET Amount = 1 WHERE ModifierId = 'CSE_GUNDESHAPUR_ERA_EUREKA' AND Name = 'Amount';
+
+-- Lima: Campus and buildings +20% production speed, Campus +3 Production
+DELETE FROM TraitModifiers WHERE TraitType = 'MINOR_CIV_CSE_LIMA_TRAIT';
+
+INSERT INTO Modifiers
+		(ModifierId,								ModifierType,											SubjectRequirementSetId	)
+VALUES	('CSE_LIMA_SUZERAIN_CAMPUS_PROD',			'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',				'PLAYER_IS_SUZERAIN'	),
+		('CSE_LIMA_CAMPUS_PROD',					'MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION',	NULL					),
+		('CSE_LIMA_SUZERAIN_LIBRARY_PROD',			'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',				'PLAYER_IS_SUZERAIN'	),
+		('CSE_LIMA_LIBRARY_PROD',					'MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION',	NULL					),
+		('CSE_LIMA_SUZERAIN_UNIVERSITY_PROD',		'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',				'PLAYER_IS_SUZERAIN'	),
+		('CSE_LIMA_UNIVERSITY_PROD',				'MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION',	NULL					),
+		('CSE_LIMA_SUZERAIN_RESEARCH_LAB_PROD',		'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',				'PLAYER_IS_SUZERAIN'	),
+		('CSE_LIMA_RESEARCH_LAB_PROD',				'MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION',	NULL					),
+		('CSE_LIMA_SUZERAIN_CAMPUS_YIELD',			'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',				'PLAYER_IS_SUZERAIN'	),
+		('CSE_LIMA_CAMPUS_YIELD',					'MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE',		'DISTRICT_IS_CAMPUS'	);
+
+INSERT INTO ModifierArguments
+		(ModifierId,								Name,			Value					)
+VALUES	('CSE_LIMA_SUZERAIN_CAMPUS_PROD',			'ModifierId',	'CSE_LIMA_CAMPUS_PROD'	),
+		('CSE_LIMA_CAMPUS_PROD',					'DistrictType',	'DISTRICT_CAMPUS'		),
+		('CSE_LIMA_CAMPUS_PROD',					'Amount',		20						),
+		('CSE_LIMA_SUZERAIN_LIBRARY_PROD',			'ModifierId',	'CSE_LIMA_LIBRARY_PROD'	),
+		('CSE_LIMA_LIBRARY_PROD',					'BuildingType',	'BUILDING_LIBRARY'		),
+		('CSE_LIMA_LIBRARY_PROD',					'Amount',		20						),
+		('CSE_LIMA_SUZERAIN_UNIVERSITY_PROD',		'ModifierId',	'CSE_LIMA_UNIVERSITY_PROD'),
+		('CSE_LIMA_UNIVERSITY_PROD',				'BuildingType',	'BUILDING_UNIVERSITY'	),
+		('CSE_LIMA_UNIVERSITY_PROD',				'Amount',		20						),
+		('CSE_LIMA_SUZERAIN_RESEARCH_LAB_PROD',		'ModifierId',	'CSE_LIMA_RESEARCH_LAB_PROD'),
+		('CSE_LIMA_RESEARCH_LAB_PROD',				'BuildingType',	'BUILDING_RESEARCH_LAB'	),
+		('CSE_LIMA_RESEARCH_LAB_PROD',				'Amount',		20						),
+		('CSE_LIMA_SUZERAIN_CAMPUS_YIELD',			'ModifierId',	'CSE_LIMA_CAMPUS_YIELD'	),
+		('CSE_LIMA_CAMPUS_YIELD',					'YieldType',	'YIELD_PRODUCTION'		),
+		('CSE_LIMA_CAMPUS_YIELD',					'Amount',		3						);
+
+INSERT INTO TraitModifiers (TraitType, ModifierId)
+VALUES	('MINOR_CIV_CSE_LIMA_TRAIT', 'CSE_LIMA_SUZERAIN_CAMPUS_PROD'),
+		('MINOR_CIV_CSE_LIMA_TRAIT', 'CSE_LIMA_SUZERAIN_LIBRARY_PROD'),
+		('MINOR_CIV_CSE_LIMA_TRAIT', 'CSE_LIMA_SUZERAIN_UNIVERSITY_PROD'),
+		('MINOR_CIV_CSE_LIMA_TRAIT', 'CSE_LIMA_SUZERAIN_RESEARCH_LAB_PROD'),
+		('MINOR_CIV_CSE_LIMA_TRAIT', 'CSE_LIMA_SUZERAIN_CAMPUS_YIELD');
+
+-- Valabhi: Campus +2 Faith; buildings in Campus can be purchased with Faith
+DELETE FROM TraitModifiers WHERE TraitType = 'MINOR_CIV_CSE_VALABHI_TRAIT';
+
+INSERT INTO Modifiers
+		(ModifierId,								ModifierType,											SubjectRequirementSetId	)
+VALUES	('CSE_VALABHI_SUZERAIN_CAMPUS_FAITH',		'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',				'PLAYER_IS_SUZERAIN'	),
+		('CSE_VALABHI_CAMPUS_FAITH',				'MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE',		'DISTRICT_IS_CAMPUS'	),
+		('CSE_VALABHI_SUZERAIN_FAITH_PURCHASE',		'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',				'PLAYER_IS_SUZERAIN'	),
+		('CSE_VALABHI_FAITH_PURCHASE',				'MODIFIER_PLAYER_CITIES_ENABLE_BUILDING_FAITH_PURCHASE',NULL					);
+
+INSERT INTO ModifierArguments
+		(ModifierId,								Name,			Value					)
+VALUES	('CSE_VALABHI_SUZERAIN_CAMPUS_FAITH',		'ModifierId',	'CSE_VALABHI_CAMPUS_FAITH'),
+		('CSE_VALABHI_CAMPUS_FAITH',				'YieldType',	'YIELD_FAITH'			),
+		('CSE_VALABHI_CAMPUS_FAITH',				'Amount',		2						),
+		('CSE_VALABHI_SUZERAIN_FAITH_PURCHASE',		'ModifierId',	'CSE_VALABHI_FAITH_PURCHASE'),
+		('CSE_VALABHI_FAITH_PURCHASE',				'DistrictType',	'DISTRICT_CAMPUS'		);
+
+INSERT INTO TraitModifiers (TraitType, ModifierId)
+VALUES	('MINOR_CIV_CSE_VALABHI_TRAIT', 'CSE_VALABHI_SUZERAIN_CAMPUS_FAITH'),
+		('MINOR_CIV_CSE_VALABHI_TRAIT', 'CSE_VALABHI_SUZERAIN_FAITH_PURCHASE');
+
+-- ==========================================
+-- CULTURAL CITY-STATES
+-- ==========================================
+
+-- Antananarivo: +1% Culture per Great Person (base game is +2%)
+UPDATE ModifierArguments SET Amount = 1 WHERE ModifierId = 'MINOR_CIV_ANTANANARIVO_CULTURE_FROM_EARNED_GREAT_PEOPLE_BONUS' AND Name = 'Amount';
+
+-- Dodona: Golden Age +5% Inspirations (was +10%)
+UPDATE ModifierArguments SET Amount = 5 WHERE ModifierId = 'CSE_DODONA_CIVIC_BOOST' AND Name = 'Amount';
+
+-- Tangier: New era +1 free Inspiration; Theater adjacency +1 Culture per 2 districts
+DELETE FROM TraitModifiers WHERE TraitType = 'MINOR_CIV_CSE_TANGIER_TRAIT';
+
+INSERT INTO Modifiers
+		(ModifierId,								ModifierType,											SubjectRequirementSetId	)
+VALUES	('CSE_TANGIER_SUZERAIN_ERA_INSPIRATION',		'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',				'PLAYER_IS_SUZERAIN'	),
+		('CSE_TANGIER_ERA_INSPIRATION',				'MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_ON_NEW_ERA',NULL					),
+		('CSE_TANGIER_SUZERAIN_THEATER_ADJACENCY',	'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',				'PLAYER_IS_SUZERAIN'	),
+		('CSE_TANGIER_THEATER_ADJACENCY',			'MODIFIER_PLAYER_CITIES_DISTRICT_ADJACENCY',			NULL					);
+
+INSERT INTO ModifierArguments
+		(ModifierId,								Name,			Value							)
+VALUES	('CSE_TANGIER_SUZERAIN_ERA_INSPIRATION',		'ModifierId',	'CSE_TANGIER_ERA_INSPIRATION'	),
+		('CSE_TANGIER_ERA_INSPIRATION',				'Amount',		1								),
+		('CSE_TANGIER_SUZERAIN_THEATER_ADJACENCY',	'ModifierId',	'CSE_TANGIER_THEATER_ADJACENCY'	),
+		('CSE_TANGIER_THEATER_ADJACENCY',			'DistrictType',	'DISTRICT_THEATER'				),
+		('CSE_TANGIER_THEATER_ADJACENCY',			'YieldType',	'YIELD_CULTURE'					),
+		('CSE_TANGIER_THEATER_ADJACENCY',			'Amount',		1								),
+		('CSE_TANGIER_THEATER_ADJACENCY',			'TilesRequired',	2							),
+		('CSE_TANGIER_THEATER_ADJACENCY',			'Description',	'LOC_CSE_TANGIER_THEATER_ADJACENCY');
+
+INSERT INTO TraitModifiers (TraitType, ModifierId)
+VALUES	('MINOR_CIV_CSE_TANGIER_TRAIT', 'CSE_TANGIER_SUZERAIN_ERA_INSPIRATION'),
+		('MINOR_CIV_CSE_TANGIER_TRAIT', 'CSE_TANGIER_SUZERAIN_THEATER_ADJACENCY');
+
+-- Shahr-e Sukhté: Not at war +10% Culture
+DELETE FROM TraitModifiers WHERE TraitType = 'MINOR_CIV_CSE_SHAHR_E_SUKHTE_TRAIT';
+
+INSERT INTO Modifiers
+		(ModifierId,								ModifierType,											SubjectRequirementSetId			)
+VALUES	('CSE_SHAHR_E_SUKHTE_SUZERAIN_CULTURE_PEACE','MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',				'PLAYER_IS_SUZERAIN'				),
+		('CSE_SHAHR_E_SUKHTE_CULTURE_PEACE',		'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER',	'PLAYER_IS_AT_PEACE_WITH_ALL_MAJORS');
+
+INSERT INTO ModifierArguments
+		(ModifierId,								Name,			Value					)
+VALUES	('CSE_SHAHR_E_SUKHTE_SUZERAIN_CULTURE_PEACE','ModifierId',	'CSE_SHAHR_E_SUKHTE_CULTURE_PEACE'),
+		('CSE_SHAHR_E_SUKHTE_CULTURE_PEACE',		'YieldType',	'YIELD_CULTURE'			),
+		('CSE_SHAHR_E_SUKHTE_CULTURE_PEACE',		'Amount',		10						);
+
+INSERT INTO TraitModifiers (TraitType, ModifierId)
+VALUES	('MINOR_CIV_CSE_SHAHR_E_SUKHTE_TRAIT', 'CSE_SHAHR_E_SUKHTE_SUZERAIN_CULTURE_PEACE');
+
+-- ==========================================
+-- RELIGIOUS CITY-STATES
+-- ==========================================
+
+-- Sri Ksetra: Change to RELIGIOUS type; Holy Site +3 Food
+UPDATE CSE_Master SET ProposedType = 'RELIGIOUS' WHERE CityState = 'CSE_SRI_KSETRA';
+UPDATE CityStates SET CityStateCategory = 'RELIGIOUS' WHERE CivilizationType = 'CIVILIZATION_CSE_SRI_KSETRA';
+
+DELETE FROM LeaderTraits WHERE LeaderType = 'LEADER_MINOR_CIV_CSE_SRI_KSETRA' AND TraitType = 'MINOR_CIV_CSE_AGRICULTURAL_TRAIT';
+INSERT INTO LeaderTraits (LeaderType, TraitType) VALUES ('LEADER_MINOR_CIV_CSE_SRI_KSETRA', 'MINOR_CIV_CSE_RELIGIOUS_TRAIT');
+
+DELETE FROM TraitModifiers WHERE TraitType = 'MINOR_CIV_CSE_SRI_KSETRA_TRAIT';
+
+INSERT INTO Modifiers
+		(ModifierId,								ModifierType,											SubjectRequirementSetId	)
+VALUES	('CSE_SRI_KSETRA_SUZERAIN_HOLY_SITE_FOOD',	'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',				'PLAYER_IS_SUZERAIN'	),
+		('CSE_SRI_KSETRA_HOLY_SITE_FOOD',			'MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE',		'DISTRICT_IS_HOLY_SITE'	);
+
+INSERT INTO ModifierArguments
+		(ModifierId,								Name,			Value					)
+VALUES	('CSE_SRI_KSETRA_SUZERAIN_HOLY_SITE_FOOD',	'ModifierId',	'CSE_SRI_KSETRA_HOLY_SITE_FOOD'	),
+		('CSE_SRI_KSETRA_HOLY_SITE_FOOD',			'YieldType',	'YIELD_FOOD'				),
+		('CSE_SRI_KSETRA_HOLY_SITE_FOOD',			'Amount',		3						);
+
+INSERT INTO TraitModifiers (TraitType, ModifierId)
+VALUES	('MINOR_CIV_CSE_SRI_KSETRA_TRAIT', 'CSE_SRI_KSETRA_SUZERAIN_HOLY_SITE_FOOD');
+
+-- ==========================================
+-- TRADE CITY-STATES
+-- ==========================================
+
+-- Garama: Oasis and adjacent +1 Food; two tiles away +1 Food (was +2/+1)
+UPDATE ModifierArguments SET Amount = 1 WHERE ModifierId = 'CSE_GARAMA_OASIS_FOOD' AND Name = 'Amount';

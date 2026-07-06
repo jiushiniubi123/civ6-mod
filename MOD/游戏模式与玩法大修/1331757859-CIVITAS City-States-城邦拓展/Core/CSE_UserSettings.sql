@@ -343,50 +343,50 @@ VALUES
 INSERT INTO CSE_UserSettings (Setting, Section, Requires, Value) VALUES	
 	
 	-- CSE
-	('CSE_ALAMUT',			'DISABLED', 'XP2',	0	), -- Requires XP2 (Gathering Storm)
+	('CSE_ALAMUT',			'DISABLED', 'XP2',	1	), -- Requires XP2 (Gathering Storm)
 	('CSE_AMPI',			'DISABLED', 'BASE',	0	),
 	('CSE_ANURADHAPURA',	'DISABLED', 'BASE',	0	),
 	('CSE_AYNUK',			'DISABLED', 'BASE',	0	),
-	('CSE_AZCAPOTZALCO',	'DISABLED', 'XP1',	0	), -- Requires XP1 or XP2 (Rise and Fall or Gathering Storm)
-	('CSE_BAIAE',			'DISABLED', 'XP2',	0	), -- Requires XP2 (Gathering Storm)
-	('CSE_BEIKTHANO',		'DISABLED', 'BASE',	0	),
+	('CSE_AZCAPOTZALCO',	'DISABLED', 'XP1',	1	), -- Requires XP1 or XP2 (Rise and Fall or Gathering Storm)
+	('CSE_BAIAE',			'DISABLED', 'XP2',	1	), -- Requires XP2 (Gathering Storm)
+	('CSE_BEIKTHANO',		'DISABLED', 'BASE',	1	),
 	('CSE_BUTUAN',			'DISABLED', 'BASE',	0	),
-	('CSE_CATALHOYUK',		'DISABLED', 'BASE',	0	), 
-	('CSE_CHAN_CHAN',		'DISABLED', 'XP1',	0	), -- Requires XP1 or XP2 (Rise and Fall or Gathering Storm)
+	('CSE_CATALHOYUK',		'DISABLED', 'BASE',	1	), 
+	('CSE_CHAN_CHAN',		'DISABLED', 'XP1',	1	), -- Requires XP1 or XP2 (Rise and Fall or Gathering Storm)
 	('CSE_CHETRO_KETL',		'DISABLED', 'BASE',	0	),
 	('CSE_DAKAR',			'DISABLED', 'BASE',	0	),
-	('CSE_DELOS',			'DISABLED', 'XP1',	0	), -- Requires XP1 or XP2 (Rise and Fall or Gathering Storm)
+	('CSE_DELOS',			'DISABLED', 'XP1',	1	), -- Requires XP1 or XP2 (Rise and Fall or Gathering Storm)
 	('CSE_DELPHI',			'DISABLED', 'XP1',	0	), -- Requires XP1 or XP2 (Rise and Fall or Gathering Storm)
 	('CSE_DJIBOUTI',		'DISABLED', 'BASE',	0	),
 	('CSE_DODONA',			'DISABLED', 'XP1',	0	), -- Requires XP1 or XP2 (Rise and Fall or Gathering Storm)
-	('CSE_ETZANOA',			'DISABLED', 'BASE',	0	),
+	('CSE_ETZANOA',			'DISABLED', 'BASE',	1	),
 	('CSE_GARAMA',			'DISABLED', 'BASE',	0	),
 	('CSE_GOBEKLI_TEPE',	'DISABLED', 'XP2',	0	), -- Requires XP2 (Gathering Storm)
 	('CSE_GUNDESHAPUR',		'DISABLED', 'XP2',	0	), -- Requires XP2 (Gathering Storm)
 	('CSE_HADAD',			'DISABLED', 'XP1',	0	), -- Requires XP1 or XP2 (Rise and Fall or Gathering Storm)
 	('CSE_HALIN',			'DISABLED', 'XP1',	0	), -- Requires XP1 or XP2 (Rise and Fall or Gathering Storm)
-	('CSE_HAVANA',			'DISABLED', 'XP1',	0	),
+	('CSE_HAVANA',			'DISABLED', 'XP1',	1	),
 	('CSE_HAZOR',			'DISABLED', 'BASE',	0	),
 	('CSE_HORMUZ',			'DISABLED', 'XP1',	0	), -- Requires XP1 or XP2 (Rise and Fall or Gathering Storm)
 	('CSE_HVALSEY',			'DISABLED', 'XP2',	0	), -- Requires XP2 (Gathering Storm)
 	('CSE_IQALUIT',			'DISABLED', 'BASE',	0	),
 	('CSE_IZAPA',			'DISABLED', 'XP1',	0	), -- Requires XP1 or XP2 (Rise and Fall or Gathering Storm)
 	('CSE_JOHANNESBURG',	'DISABLED', 'XP1',	0	), -- Requires XP1 or XP2 (Rise and Fall or Gathering Storm)
-	('CSE_JOLO',			'DISABLED', 'BASE',	0	),
-	('CSE_KADESH',			'DISABLED', 'BASE',	0	),
-	('CSE_KANNAUJ',			'DISABLED', 'BASE',	0	),
+	('CSE_JOLO',			'DISABLED', 'BASE',	1	),
+	('CSE_KADESH',			'DISABLED', 'BASE',	1	),
+	('CSE_KANNAUJ',			'DISABLED', 'BASE',	1	),
 	('CSE_KATARAGAMA',		'DISABLED', 'BASE',	0	),
 	('CSE_KELANIYA',		'DISABLED', 'BASE',	0	),
 	('CSE_KUHIKUGU',		'DISABLED', 'BASE',	0	),
 	('CSE_LIMA',			'DISABLED', 'BASE',	0	),
 	('CSE_MACAU',			'DISABLED', 'BASE',	0	),
-	('CSE_MAI',				'DISABLED', 'BASE',	0	),
+	('CSE_MAI',				'DISABLED', 'BASE',	1	),
 	('CSE_MAINGMAW',		'DISABLED', 'BASE',	0	),
 	('CSE_MARRAKECH',		'DISABLED', 'BASE',	0	),
 	('CSE_MEGIDDO',			'DISABLED', 'BASE',	0	),
 	('CSE_MEHRGARH',		'DISABLED', 'BASE',	0	), -- Requires XP1 or XP2 (Rise and Fall or Gathering Storm)
 	('CSE_MOMBASA',			'DISABLED', 'BASE',	0	),
-	('CSE_MONACO',			'DISABLED', 'BASE',	0	), -- Requires XP1 or XP2 (Rise and Fall or Gathering Storm)
+	('CSE_MONACO',			'DISABLED', 'BASE',	1	), -- Requires XP1 or XP2 (Rise and Fall or Gathering Storm)
 	('CSE_MZIZIMA',			'DISABLED', 'BASE',	0	), -- Requires XP1 or XP2 (Rise and Fall or Gathering Storm)
 	('CSE_NALANDA',			'DISABLED', 'XP1',	0	), -- Requires XP1 or XP2 (Rise and Fall or Gathering Storm)
 	('CSE_NASSAU',			'DISABLED', 'BASE',	0	),
@@ -394,7 +394,7 @@ INSERT INTO CSE_UserSettings (Setting, Section, Requires, Value) VALUES
 	('CSE_PHASIS',			'DISABLED', 'BASE',	0	),
 	('CSE_PORT_ROYAL',		'DISABLED', 'XP1',	0	), -- Requires XP1 or XP2 (Rise and Fall or Gathering Storm)
 	('CSE_QATNA',			'DISABLED', 'BASE',	0	),
-	('CSE_SALE',			'DISABLED', 'BASE',	0	),
+	('CSE_SALE',			'DISABLED', 'BASE',	1	),
 	('CSE_SAMARQAND',		'DISABLED', 'BASE',	0	),
 	('CSE_SANAA',			'DISABLED', 'BASE',	0	),
 	('CSE_SEUTHOPOLIS',		'DISABLED', 'BASE',	0	),
@@ -408,7 +408,7 @@ INSERT INTO CSE_UserSettings (Setting, Section, Requires, Value) VALUES
 	('CSE_TISSAMAHARAMA',	'DISABLED', 'BASE',	0	),
 	('CSE_TUNERIUT',		'DISABLED', 'BASE',	0	),
 	('CSE_UGARIT',			'DISABLED', 'XP1',	0	), -- Requires XP1 or XP2 (Rise and Fall or Gathering Storm)
-	('CSE_URGENCH',			'DISABLED', 'BASE',	0	),
+	('CSE_URGENCH',			'DISABLED', 'BASE',	1	),
 	('CSE_VADUZ',			'DISABLED', 'XP2',	0	), -- Requires XP2 (Gathering Storm)
 	('CSE_VALABHI',			'DISABLED', 'BASE',	0	),
 	('CSE_VIENNA',			'DISABLED', 'XP2',	0	), -- Requires XP2 (Gathering Storm)
